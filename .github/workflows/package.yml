@@ -38,7 +38,7 @@ jobs:
           npx dsw-locale-packager locales/${{ matrix.locale }} -o out/
 
       - name: Upload packages as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.locale }}-locale
           path: out/

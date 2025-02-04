@@ -3,7 +3,7 @@
 # Jan Slifka <jan.slifka@ds-wizard.org>, 2023.
 # Jana Martínková <j.martinkova@outlook.com>, 2024, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2025-02-04T08:14:05.354Z\nPO-Revision-Date: 2025-02-04 09:44+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-15-0/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2025-02-04T08:14:05.354Z\nPO-Revision-Date: 2025-02-05 07:41+0000\nLast-Translator: Jana Martínková <j.martinkova@outlook.com>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-15-0/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -1585,7 +1585,7 @@ msgstr "Neomezené"
 #: engine-wizard/elm/Wizard/Common/Html.elm:29
 #: engine-wizard/elm/Wizard/DocumentTemplates/Detail/View.elm:191
 msgid "Learn more in guide"
-msgstr ""
+msgstr "Zjistěte více v průvodci"
 
 #: engine-wizard/elm/Wizard/Common/Menu/Update.elm:43
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:871
@@ -2221,7 +2221,7 @@ msgstr "Nelze odeslat dokument."
 
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:76
 msgid "Project Documents"
-msgstr ""
+msgstr "Projektové Dokumenty"
 
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:94
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:77
@@ -3630,9 +3630,8 @@ msgid "Use this to define an identifier for the item. This will be used in **Ite
 msgstr "Zde definujte identifikátor položky. Ten bude použit v **URL položky** jako `${id}` pro složení URL adresy k nalezené položce. Můžete použít vlastnosti ze získané položky v notaci Jinja2. Například, pokud položka má pole `id` použijte zde `{{item.id}}`. Můžete také složit dohromady více polí, např. `{{item.field1}}-{{item.field2}}`."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1713
-#, fuzzy
 msgid "This defines how the found items will be displayed for the user. You can use properties from the returned item in Jinja2 notation, you can also use [Markdown](%s) for some formatting. For example, if the returned item has a field called name, you can use `**{{item.name}}**` to display the name in bold."
-msgstr "Toto definuje jak budou nalezené položky zobrazeny uživateli. Můžete použít vlastností ze získané položky v notaci Jinja2, dále můžete použít Markdown pro formátování. Například pokud položka má pole `name`, můžete použít `**{{item.bold}}**` pro zobrazení názvu položky tučně."
+msgstr "Toto definuje jak budou nalezené položky zobrazeny uživateli. Můžete použít vlastnosti nalezené položky v notaci Jinja2 a pro určité formátování také [Markdown](%s). Například pokud má nalezená položka pole s názvem „name“, můžete použít `**{{item.name}}**` pro zobrazení názvu položky tučně."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1719
 msgid "Defines the URL to the selected item. Use `${id}` to get the value defined in **Response Item ID** field, for example `https://example.com/${id}`."

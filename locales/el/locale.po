@@ -1,17 +1,7 @@
 # Jana Martínková <j.martinkova@outlook.com>, 2024.
 # Georgia Koutentaki <koutegeo@cvut.cz>, 2024, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:4.9.0\n"
-"POT-Creation-Date: 2025-02-04T08:14:05.354Z \n"
-"PO-Revision-Date: 2025-01-09 16:48+0000\n"
-"Last-Translator: Georgia Koutentaki <koutegeo@cvut.cz>\n"
-"Language-Team: Greek <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-14-0/el/>\n"
-"Language: el\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:4.9.0\nPOT-Creation-Date: 2025-02-04T08:14:05.354Z\nPO-Revision-Date: 2025-02-04 09:44+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Greek <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-15-0/el/>\nLanguage: el\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -3627,8 +3617,9 @@ msgid "Use this to define an identifier for the item. This will be used in **Ite
 msgstr "Χρησιμοποιήστε το για να ορίσετε ένα αναγνωριστικό για το στοιχείο. Αυτό θα χρησιμοποιηθεί στο **Item URL** ως `${id}` για να συνθέσει ένα URL για το στοιχείο που βρέθηκε. Μπορείτε να χρησιμοποιήσετε ιδιότητες από το στοιχείο που επιστρέφεται στην σημειογραφία Jinja2. Για παράδειγμα, αν το στοιχείο έχει ένα πεδίο `id` χρησιμοποιήστε το `{{item.id}}` εδώ. Μπορείτε επίσης να συνθέσετε πολλά πεδία μαζί, π.χ. `{{item.field1}}-{{item.field2}}`."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1713
+#, fuzzy
 msgid "This defines how the found items will be displayed for the user. You can use properties from the returned item in Jinja2 notation, you can also use [Markdown](%s) for some formatting. For example, if the returned item has a field called name, you can use `**{{item.name}}**` to display the name in bold."
-msgstr ""
+msgstr "Αυτό καθορίζει τον τρόπο με τον οποίο θα εμφανίζονται στον χρήστη τα στοιχεία που βρέθηκαν. Μπορείτε να χρησιμοποιήσετε ιδιότητες από το επιστρεφόμενο στοιχείο σε σημειογραφία Jinja2, μπορείτε επίσης να χρησιμοποιήσετε Markdown για κάποια μορφοποίηση. Για παράδειγμα, αν το επιστρεφόμενο στοιχείο έχει ένα πεδίο που ονομάζεται όνομα, μπορείτε να χρησιμοποιήσετε το `**{{item.name}}**` για να εμφανίσετε το όνομα με έντονη γραφή."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1719
 msgid "Defines the URL to the selected item. Use `${id}` to get the value defined in **Response Item ID** field, for example `https://example.com/${id}`."

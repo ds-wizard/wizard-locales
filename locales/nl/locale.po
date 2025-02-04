@@ -2,17 +2,7 @@
 # Marek Suchánek <marek.suchanek@ds-wizard.org>, 2023, 2024.
 # Jana Martínková <j.martinkova@outlook.com>, 2024, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:3.18.3\n"
-"POT-Creation-Date: 2025-02-04T08:14:05.354Z \n"
-"PO-Revision-Date: 2025-01-09 16:48+0000\n"
-"Last-Translator: Rob Hooft <rob.hooft@health-ri.nl>\n"
-"Language-Team: Dutch <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-14-0/nl/>\n"
-"Language: nl\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-02-04T08:14:05.354Z\nPO-Revision-Date: 2025-02-04 09:44+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-15-0/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -3628,8 +3618,9 @@ msgid "Use this to define an identifier for the item. This will be used in **Ite
 msgstr "Gebruik dit om een identificatie voor het item te definiëren. Dit wordt in **Item-URL** gebruikt als `${id}` om een URL naar het gevonden item op te bouwen. U kunt eigenschappen van het geretourneerde item gebruiken in de Jinja2-notatie. Als het item bijvoorbeeld een veld `id` heeft, gebruik dan `{{item.id}}` hier. U kunt ook meerdere velden samen samenstellen, bijvoorbeeld `{{item.field1}}-{{item.field2}}`."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1713
+#, fuzzy
 msgid "This defines how the found items will be displayed for the user. You can use properties from the returned item in Jinja2 notation, you can also use [Markdown](%s) for some formatting. For example, if the returned item has a field called name, you can use `**{{item.name}}**` to display the name in bold."
-msgstr ""
+msgstr "Dit definieert hoe de gevonden items weergegeven worden voor de gebruiker. Eigenschappen van het geretourneerde item kunnen in Jinja2-notatie worden gebruikt; ook Markdown kan voor formatteren worden ingezet. Als bijvoorbeeld het item een veld “name” heeft, kun je `**{{item.name}}**` gebruiken om die naam vetgedrukt weer te geven."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1719
 msgid "Defines the URL to the selected item. Use `${id}` to get the value defined in **Response Item ID** field, for example `https://example.com/${id}`."

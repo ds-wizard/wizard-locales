@@ -2,7 +2,7 @@
 # Marek Suchánek <marek.suchanek@ds-wizard.org>, 2023, 2024.
 # Jana Martínková <j.martinkova@outlook.com>, 2024, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-02-04T08:14:05.354Z\nPO-Revision-Date: 2025-02-05 07:41+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Turkish <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-15-0/tr/>\nLanguage: tr\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-02-04T08:14:05.354Z\nPO-Revision-Date: 2025-03-03 07:13+0000\nLast-Translator: Jana Martínková <j.martinkova@outlook.com>\nLanguage-Team: Turkish <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-15-0/tr/>\nLanguage: tr\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -1581,7 +1581,6 @@ msgstr "Sınırsız"
 
 #: engine-wizard/elm/Wizard/Common/Html.elm:29
 #: engine-wizard/elm/Wizard/DocumentTemplates/Detail/View.elm:191
-#, fuzzy
 msgid "Learn more in guide"
 msgstr "Kılavuzda daha fazlasını öğrenin"
 
@@ -2209,7 +2208,6 @@ msgid "Unable to submit the document."
 msgstr "Belge gönderilemiyor."
 
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:76
-#, fuzzy
 msgid "Project Documents"
 msgstr "Proje Belgeleri"
 
@@ -3620,9 +3618,8 @@ msgid "Use this to define an identifier for the item. This will be used in **Ite
 msgstr "Öğe için bir tanımlayıcı tanımlamak için bunu kullanın. Bu, bulunan öğeye bir URL oluşturmak için **Item URL** içinde `${id}` olarak kullanılacaktır. Jinja2 gösteriminde döndürülen öğenin özelliklerini kullanabilirsiniz. Örneğin, öğenin bir `id` alanı varsa burada `{{item.id}}` kullanın. Ayrıca birden fazla alanı bir araya getirebilirsiniz, örneğin, `{item.field1}}-{{item.field2}}`."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1713
-#, fuzzy
 msgid "This defines how the found items will be displayed for the user. You can use properties from the returned item in Jinja2 notation, you can also use [Markdown](%s) for some formatting. For example, if the returned item has a field called name, you can use `**{{item.name}}**` to display the name in bold."
-msgstr "Bu, bulunan öğelerin kullanıcı için nasıl görüntüleneceğini tanımlar. Dönen öğenin özelliklerini Jinja2 notasyonunda kullanabilir, bazı biçimlendirmeler için Markdown da kullanabilirsiniz. Örneğin, döndürülen öğenin adında bir alan varsa, adı kalın olarak görüntülemek için `**{{item.name}}**` kullanabilirsiniz."
+msgstr "Bu, bulunan öğelerin kullanıcı için nasıl görüntüleneceğini tanımlar. Dönen öğenin özelliklerini Jinja2 notasyonunda kullanabilir, bazı biçimlendirmeler için [Markdown](%s) da kullanabilirsiniz. Örneğin, döndürülen öğenin adında bir alan varsa, adı kalın olarak görüntülemek için `**{{item.name}}**` kullanabilirsiniz."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1719
 msgid "Defines the URL to the selected item. Use `${id}` to get the value defined in **Response Item ID** field, for example `https://example.com/${id}`."

@@ -3,7 +3,7 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-02-04T08:14:05.354Z\nPO-Revision-Date: 2025-03-05 07:39+0000\nLast-Translator: DeepL <noreply-mt-deepl@weblate.org>\nLanguage-Team: Spanish <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-15-0/es/>\nLanguage: es\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.9.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-02-04T08:14:05.354Z\nPO-Revision-Date: 2025-03-05 07:39+0000\nLast-Translator: Aina Jene <aina.jene@bsc.es>\nLanguage-Team: Spanish <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-15-0/es/>\nLanguage: es\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -2307,133 +2307,110 @@ msgstr "¿Estás seguro de que quieres eliminar %s permanentemente?"
 
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:348
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:350
-#, fuzzy
 msgid "Delete document"
 msgstr "Borrar documento"
 
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:415
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:417
-#, fuzzy
 msgid "There are no submission services configured for this type of document."
-msgstr "No hay servicios de presentación configurados para este tipo de documento."
+msgstr "No hay servicios de envío configurados para este tipo de documento."
 
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:431
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:433
-#, fuzzy
 msgid "You can find it here: "
-msgstr "Puede encontrarlo aquí: "
+msgstr "Puedes encontrarlo aquí: "
 
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:441
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:443
-#, fuzzy
 msgid "The document was successfully submitted."
 msgstr "El documento se ha enviado correctamente."
 
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:448
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:450
-#, fuzzy
 msgid "The document submission failed."
-msgstr "La presentación del documento ha fallado."
+msgstr "Hubo un error al enviar el documento."
 
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:463
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:465
-#, fuzzy
 msgid "Submit %s"
 msgstr "Enviar %s"
 
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:504
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:507
-#, fuzzy
 msgid "Document error"
-msgstr "Error de documento"
+msgstr "Error en el documento"
 
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:526
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:529
-#, fuzzy
 msgid "Submission error"
-msgstr "Error de presentación"
+msgstr "Error en el envío"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Create/Update.elm:78
 #: engine-wizard/elm/Wizard/DocumentTemplates/Detail/Update.elm:33
-#, fuzzy
 msgid "Unable to get the document template."
-msgstr "No se puede obtener la plantilla del documento."
+msgstr "No se pudo obtener la plantilla del documento."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Create/Update.elm:142
-#, fuzzy
 msgid "Document template could not be created."
 msgstr "No se ha podido crear la plantilla de documento."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Create/View.elm:40
-#, fuzzy
 msgid "Create Document Template"
 msgstr "Crear plantilla de documento"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Create/View.elm:90
 #: engine-wizard/elm/Wizard/DocumentTemplates/Import/RegistryImport/View.elm:48
-#, fuzzy
 msgid "Document Template ID"
 msgstr "ID de plantilla de documento"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Create/View.elm:91
-#, fuzzy
 msgid "Document template ID can contain alphanumeric characters and dashes but cannot start or end with a dash."
-msgstr "El ID del modelo de documento puede contener caracteres alfanuméricos y guiones, pero no puede empezar ni terminar con un guión."
+msgstr "El ID del modelo de documento puede contener caracteres alfanuméricos y guiones, pero no puede empezar ni terminar con un guion."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Create/View.elm:93
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:97
-#, fuzzy
 msgid "Based on"
 msgstr "Basado en"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Create/View.elm:94
-#, fuzzy
 msgid "You can create a new document template based on the existing one or start from scratch."
 msgstr "Puede crear una nueva plantilla de documento basada en la existente o empezar desde cero."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:403
-#, fuzzy
 msgid "Unable to get template files"
-msgstr "No se pueden obtener los archivos de plantilla"
+msgstr "No se pudieron obtener los archivos de la plantilla"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:412
-#, fuzzy
 msgid "Unable to get template assets"
-msgstr "No se pueden obtener los activos de la plantilla"
+msgstr "No se pudieron obtener los recursos de la plantilla"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:425
-#, fuzzy
 msgid "Unable to get file content"
-msgstr "No se puede obtener el contenido del archivo"
+msgstr "No se pudo obtener el contenido del archivo"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:443
-#, fuzzy
 msgid "Unable to get asset"
-msgstr "No se puede obtener el activo"
+msgstr "No se pudo obtener el recurso"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:648
-#, fuzzy
 msgid "Unable to save file"
-msgstr "No se puede guardar el archivo"
+msgstr "No se pudo guardar el archivo"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1082
-#, fuzzy
 msgid "Folder"
 msgstr "Carpeta"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1088
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:835
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/OwlImport/View.elm:35
-#, fuzzy
 msgid "File"
 msgstr "Archivo"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1106
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/RenameModal.elm:236
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/RenameModal.elm:240
-#, fuzzy
 msgid "Rename"
-msgstr "Cambie el nombre de"
+msgstr "Cambie el nombre"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1120
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:204
@@ -2441,79 +2418,64 @@ msgstr "Cambie el nombre de"
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2354
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2585
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2598
-#, fuzzy
 msgid "Move"
 msgstr "Mover"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1132
-#, fuzzy
 msgid "Move to opposite group"
-msgstr "Pasar al grupo opuesto"
+msgstr "Mover al grupo opuesto"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1435
-#, fuzzy
 msgid "Open a file from the file tree"
 msgstr "Abrir un archivo desde el árbol de archivos"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1436
-#, fuzzy
 msgid "or"
 msgstr "o"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1438
-#, fuzzy
 msgid "Create new"
 msgstr "Crear nuevo"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1460
-#, fuzzy
 msgid "New file"
 msgstr "Nuevo archivo"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1464
-#, fuzzy
 msgid "Add file"
 msgstr "Añadir archivo"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1476
-#, fuzzy
 msgid "New folder"
 msgstr "Nueva carpeta"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1492
-#, fuzzy
 msgid "Add folder"
 msgstr "Añadir carpeta"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1519
-#, fuzzy
 msgid "Are you sure you want to permanently delete %s and all its contents?"
-msgstr "¿Estás seguro de que quieres borrar permanentemente %s y todo su contenido?"
+msgstr "¿Estás seguro de que quieres eliminar permanentemente %s y todo su contenido?"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:180
-#, fuzzy
 msgid "Unable to upload file."
-msgstr "No se puede cargar el archivo."
+msgstr "No se pudo subir el archivo."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:278
-#, fuzzy
 msgid "Upload files"
-msgstr "Cargar archivos"
+msgstr "Subir archivos"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:317
-#, fuzzy
 msgid "Choose files"
 msgstr "Elegir archivos"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:318
-#, fuzzy
 msgid "Or just drop them here"
-msgstr "O déjelas aquí"
+msgstr "O arrástralos aquí"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:188
-#, fuzzy
 msgid "Move failed"
-msgstr "Movimiento fallido"
+msgstr "No se pudo mover"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:197
 #, fuzzy

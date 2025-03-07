@@ -3,7 +3,17 @@
 # Marek Suchánek <marek.suchanek@ds-wizard.org>, 2024.
 # Jana Martínková <j.martinkova@outlook.com>, 2024, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.1.0\nPOT-Creation-Date: 2025-02-04T08:14:05.354Z\nPO-Revision-Date: 2025-03-03 07:13+0000\nLast-Translator: Jana Martínková <j.martinkova@outlook.com>\nLanguage-Team: Slovenian <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-15-0/sl/>\nLanguage: sl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\nX-Generator: Weblate 5.9.2\n"
+msgstr ""
+"Project-Id-Version: wizard-client:4.1.0\n"
+"POT-Creation-Date: 2025-03-06T15:23:58.145Z \n"
+"PO-Revision-Date: 2025-03-03 07:13+0000\n"
+"Last-Translator: Jana Martínková <j.martinkova@outlook.com>\n"
+"Language-Team: Slovenian <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-15-0/sl/>\n"
+"Language: sl\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -180,11 +190,27 @@ msgid "Item"
 msgstr "Artikel"
 
 #: engine-shared/elm/Shared/Data/QuestionnaireQuestionnaire.elm:438
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3576
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3918
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3596
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3942
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/NavigationTree.elm:251
 msgid "Item %s"
 msgstr "Postavka %s"
+
+#: engine-shared/elm/Shared/Data/TenantState.elm:83
+msgid "Not seeded"
+msgstr ""
+
+#: engine-shared/elm/Shared/Data/TenantState.elm:86
+msgid "Pending housekeeping"
+msgstr ""
+
+#: engine-shared/elm/Shared/Data/TenantState.elm:89
+msgid "Housekeeping in progress"
+msgstr ""
+
+#: engine-shared/elm/Shared/Data/TenantState.elm:92
+msgid "Ready for use"
+msgstr ""
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:111
 msgid "You do not have permission to view this page."
@@ -417,7 +443,7 @@ msgid "Comma (,) is not allowed in project tags."
 msgstr "V oznakah vejica (,) ni dovoljena."
 
 #: engine-wizard/elm/Wizard/Comments/Update.elm:35
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1397
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1398
 msgid "Unable to get comments."
 msgstr "Ni mogoče dobiti komentarjev."
 
@@ -477,7 +503,7 @@ msgid "Close and Accept"
 msgstr "Zapri in sprejmi"
 
 #: engine-wizard/elm/Wizard/Common/Components/CopyableCodeBlock.elm:48
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4235
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4259
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:803
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:438
 msgid "Copied!"
@@ -505,7 +531,7 @@ msgid "Last"
 msgstr "Zadnji"
 
 #: engine-wizard/elm/Wizard/Common/Components/Listing/View.elm:430
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2523
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2543
 msgid "Next"
 msgstr "Naslednji"
 
@@ -612,190 +638,191 @@ msgstr "Anonimno drevo"
 msgid "Anonymous Cowboy"
 msgstr "Anonimni kavboj"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:932
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:933
 msgid "Unable to delete file."
 msgstr "Datoteke ni mogoče izbrisati."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1038
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1047
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1039
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1048
 msgid "Unable to get version history."
 msgstr "Ni mogoče pridobiti zgodovine različic."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1408
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1409
 #: engine-wizard/elm/Wizard/ProjectActions/Index/Update.elm:70
 msgid "Unable to get project actions."
 msgstr "Ni mogoče pridobiti projektnih akcij."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1420
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1421
 #: engine-wizard/elm/Wizard/ProjectImporters/Index/Update.elm:70
 msgid "Unable to get project importers."
 msgstr "Ni mogoče pridobiti uvoznikov projektov."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1626
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1627
 msgid "Unable to get type hints."
 msgstr "Ni mogoče pridobiti namigov za tip."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1821
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1830
 msgid "View"
 msgstr "Oglejte si"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1825
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1837
 #: engine-wizard/elm/Wizard/DocumentTemplates/Detail/View.elm:340
 #: engine-wizard/elm/Wizard/KnowledgeModels/Detail/View.elm:216
 msgid "Show all"
 msgstr "Pokaži vse"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1828
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1840
 msgid "Hide all"
 msgstr "Skrij vse"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1832
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1844
 msgid "Answered by"
 msgstr "Odgovori"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1837
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1849
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:569
 #: engine-wizard/elm/Wizard/KMEditor/Editor/View.elm:176
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:436
 msgid "Phases"
 msgstr "Faze"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1842
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1854
 msgid "Question tags"
 msgstr "Oznake vprašanj"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1847
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1859
 msgid "Non-desirable questions"
 msgstr "Nezaželena vprašanja"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1852
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1864
 msgid "Metric values"
 msgstr "Metrične vrednosti"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1865
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1877
 msgid "Import replies"
 msgstr "Uvoz odgovorov"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1888
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1900
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:170
 msgid "Actions"
 msgstr "Dejavnosti"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1961
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1973
 msgid "TODOs"
 msgstr "TODOs"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1982
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2634
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2635
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4163
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1994
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2654
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2655
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4187
 msgid "Comments"
 msgstr "Komentarji"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1993
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2005
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:337
 msgid "Warnings"
 msgstr "Opozorila"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2007
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2019
 msgid "Version history"
 msgstr "Zgodovina različic"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2041
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2053
 msgid "Action succeeded!"
 msgstr "Akcija je uspela!"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2046
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2058
 msgid "Action failed!"
 msgstr "Akcija ni uspela!"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2059
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2071
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:788
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:838
 #: engine-wizard/elm/Wizard/Common/View/Modal.elm:280
 msgid "OK"
 msgstr "V REDU"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2120
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2132
 msgid "Current Phase"
 msgstr "Trenutna faza"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2179
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2191
 msgid "Select phase"
 msgstr "Izberite fazo"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2306
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2318
 msgid "All TODOs have been completed."
 msgstr "Vse naloge TODO so bile dokončane."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2424
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2436
 msgid "Click the %s icon to add new comments to a question."
 msgstr "Če želite dodati nove komentarje k vprašanju, kliknite ikono %s."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2440
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2460
 msgid "View resolved comments"
 msgstr "Oglejte si rešene komentarje"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2489
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2509
 msgid "Resolved and unresolved comments"
 msgstr "Rešene in nerešene pripombe"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2492
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2512
 msgid "Unresolved comments"
 msgstr "Nerešene pripombe"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2516
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2536
 msgid "Previous"
 msgstr "Prejšnji"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2545
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2565
 msgid "Editor notes are only visible to project Editors and Owners."
 msgstr "Opombe urednikov so vidne samo urednikom in lastnikom projekta."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2570
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2590
 msgid "Comment"
 msgstr "Komentar"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2571
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2591
 msgid "Create a new comment..."
 msgstr "Ustvarite nov komentar..."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2647
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2648
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2667
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2668
 msgid "Editor notes"
 msgstr "Opombe urednika"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2666
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2686
 msgid "Delete this comment thread?"
 msgstr "Izbriši to nit komentarjev?"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2679
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2699
 msgid "Reply"
 msgstr "Odgovori"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2680
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2700
 msgid "Reply..."
 msgstr "Odgovori..."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2697
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2717
 msgid "Assigned to you"
 msgstr "Dodeljeno vam je"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2702
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2722
 msgid "Assigned to %s"
 msgstr "Dodeljeno %s"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2754
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2837
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:62
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2774
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2857
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:63
 #: engine-wizard/elm/Wizard/Users/Index/View.elm:147
 msgid "Edit"
 msgstr "Uredi"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2759
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2967
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2994
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2779
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2987
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3014
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:225
+#: engine-wizard/elm/Wizard/Common/FileImport.elm:245
 #: engine-wizard/elm/Wizard/Common/View/FormActions.elm:23
 #: engine-wizard/elm/Wizard/Common/View/FormActions.elm:31
 #: engine-wizard/elm/Wizard/Common/View/FormActions.elm:39
@@ -803,38 +830,35 @@ msgstr "Uredi"
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:390
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1497
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:266
-#: engine-wizard/elm/Wizard/DocumentTemplates/Import/FileImport/View.elm:72
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2523
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2604
-#: engine-wizard/elm/Wizard/KnowledgeModels/Import/FileImport/View.elm:76
-#: engine-wizard/elm/Wizard/Locales/Import/FileImport/View.elm:72
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:392
 #: engine-wizard/elm/Wizard/Projects/Import/View.elm:119
 #: engine-wizard/elm/Wizard/Settings/Registry/View.elm:123
 msgid "Cancel"
 msgstr "Prekliči"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2770
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2790
 msgid "Delete this comment?"
 msgstr "Izbriši ta komentar?"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2794
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2814
 msgid "Resolve comment thread"
 msgstr "Rešiti nit komentarjev"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2821
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2841
 msgid "Remove assignment"
 msgstr "Odstranitev dodelitve"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2829
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2849
 msgid "Reopen"
 msgstr "Ponovno odprite"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2847
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2993
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3541
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4000
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4331
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2867
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3013
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3561
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4024
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4355
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/DeleteVersionModal.elm:131
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:239
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:352
@@ -873,71 +897,71 @@ msgstr "Ponovno odprite"
 msgid "Delete"
 msgstr "Izbriši"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2885
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2905
 msgid "edited"
 msgstr "urejeno"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2906
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2926
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:553
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:96
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:96
 msgid "Anonymous user"
 msgstr "Anonimni uporabnik"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3045
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3065
 msgid "This chapter contains no questions."
 msgstr "To poglavje ne vsebuje vprašanj."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3048
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3068
 msgid "There are no questions matching the selected question tags."
 msgstr "Ni vprašanj, ki bi ustrezala izbranim oznakam vprašanj."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3061
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3521
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3081
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3541
 msgid "There are no questions in this phase."
 msgstr "V tej fazi ni vprašanj."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3115
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3135
 msgid "Previous Chapter"
 msgstr "Prejšnje poglavje"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3120
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3140
 msgid "Next Chapter"
 msgstr "Naslednje poglavje"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3231
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3251
 msgid "anonymous user"
 msgstr "anonimni uporabnik"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3243
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3263
 msgid "Answered %s by %s."
 msgstr "Odgovoril %s z %s."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3268
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3288
 msgid "This question has been answered"
 msgstr "Na to vprašanje je bilo odgovorjeno"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3271
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3291
 msgid "This question should be answered now"
 msgstr "Na to vprašanje je treba odgovoriti zdaj"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3274
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3294
 msgid "This question can be answered later"
 msgstr "Na to vprašanje lahko odgovorite pozneje"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3346
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3366
 msgid "Clear answer"
 msgstr "Izbriši odgovor"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3379
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3399
 msgid "There are no follow up questions in this phase."
 msgstr "V tej fazi ni nadaljnjih vprašanj."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3395
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3415
 msgid "Expand"
 msgstr "Razširite"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3400
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3420
 msgid "%s %s follow up question"
 msgid_plural "%s %s follow up questions"
 msgstr[0] "%s %s nadaljnje vprašanje"
@@ -945,66 +969,66 @@ msgstr[1] "%s %s nadaljnje vprašanji"
 msgstr[2] "%s %s nadaljnje vprašanj"
 msgstr[3] "%s %s nadaljnja vprašanja"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3410
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3430
 msgid "Collapse"
 msgstr "Zbijanje"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3444
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3464
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:66
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/TreeInput.elm:101
 msgid "Expand all"
 msgstr "Razširiti vse"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3451
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3471
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:70
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/TreeInput.elm:108
 msgid "Collapse all"
 msgstr "Strni vse"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3464
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3484
 msgid "There are no answers yet."
 msgstr "Odgovorov še ni."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3489
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3509
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1075
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:1119
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:505
 msgid "Add"
 msgstr "Dodaj"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3513
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3533
 msgid "This item contains no questions."
 msgstr "Ta izdelek ne vsebuje vprašanj."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3554
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3574
 msgid "Move Up"
 msgstr "Premaknite se navzgor"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3567
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3587
 msgid "Move Down"
 msgstr "Premaknite se navzdol"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3671
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3695
 msgid "This is not a valid email address."
 msgstr "To ni veljaven e-poštni naslov."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3676
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3700
 msgid "This is not a valid URL."
 msgstr "To ni veljaven naslov URL."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3684
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3708
 msgid "This is not a valid color."
 msgstr "To ni veljavna barva."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3741
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3765
 msgid "Select"
 msgstr "Izberite"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3812
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3836
 msgid "There are no results for your search."
 msgstr "Za vaše iskanje ni rezultatov."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3821
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3845
 #: engine-wizard/elm/Wizard/Common/Components/TypeHintInput.elm:283
 #: engine-wizard/elm/Wizard/Common/View/ActionResultBlock.elm:61
 #: engine-wizard/elm/Wizard/Common/View/Flash.elm:41
@@ -1012,31 +1036,31 @@ msgstr "Za vaše iskanje ni rezultatov."
 msgid "Loading..."
 msgstr "Nalaganje..."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3945
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3969
 msgid "- select -"
 msgstr "- izberite -"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3952
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3976
 msgid "Go to item"
 msgstr "Pojdi na element"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3965
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3989
 msgid "The selected item was deleted."
 msgstr "Izbrani element je bil izbrisan."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4008
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4032
 msgid "The file was deleted."
 msgstr "Datoteka je bila izbrisana."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4031
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4055
 msgid "Upload File"
 msgstr "Prenesite datoteko"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4097
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4121
 msgid "This option leads to some follow up questions."
 msgstr "Zaradi te možnosti se pojavijo nekatera dodatna vprašanja."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4154
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4178
 msgid "1 comment"
 msgid_plural "%s comments"
 msgstr[0] "1 komentar"
@@ -1044,43 +1068,43 @@ msgstr[1] "2 komentarja"
 msgstr[2] "%s komentarjev"
 msgstr[3] "%s komentarjev"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4188
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4212
 msgid "TODO"
 msgstr "TODO"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4189
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4213
 msgid "Remove TODO"
 msgstr "Odstranite TODO"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4199
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4223
 msgid "Add TODO"
 msgstr "Dodajte TODO"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4221
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4245
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FeedbackModal.elm:147
 #: engine-wizard/elm/Wizard/Settings/Projects/View.elm:100
 msgid "Feedback"
 msgstr "Povratne informacije"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4238
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4262
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:460
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:260
 msgid "Copy link"
 msgstr "Kopiraj povezavo"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4280
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4304
 msgid "There are some item select questions using this item:"
 msgstr "Pri tem predmetu je uporabljenih nekaj vprašanj za izbiro elementa:"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4291
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4315
 msgid "Are you sure you want to remove this item?"
 msgstr "Ste prepričani, da želite odstraniti ta element?"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4296
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4320
 msgid "Remove Item"
 msgstr "Odstrani element"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4299
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4323
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Settings.elm:398
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:523
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:591
@@ -1089,13 +1113,13 @@ msgstr "Odstrani element"
 msgid "Remove"
 msgstr "Odstranite"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4324
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4348
 #: engine-wizard/elm/Wizard/Users/Edit/Components/ApiKeys.elm:284
 #: engine-wizard/elm/Wizard/Users/Edit/Components/AppKeys.elm:170
 msgid "Are you sure you want to delete %s?"
 msgstr "Ste prepričani, da želite izbrisati %s?"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4328
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4352
 msgid "Delete File"
 msgstr "Izbriši datoteko"
 
@@ -1147,6 +1171,7 @@ msgid "You can follow the GitHub %s."
 msgstr "Spremljate lahko GitHub %s."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FeedbackModal.elm:141
+#: engine-wizard/elm/Wizard/Common/FileImport.elm:235
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:374
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:420
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:376
@@ -1271,11 +1296,8 @@ msgid "Choose file"
 msgstr "Izberite datoteke"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:334
-#: engine-wizard/elm/Wizard/DocumentTemplates/Import/FileImport/View.elm:85
-#: engine-wizard/elm/Wizard/KnowledgeModels/Import/FileImport/View.elm:89
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/OwlImport/View.elm:93
 #: engine-wizard/elm/Wizard/Locales/Create/View.elm:100
-#: engine-wizard/elm/Wizard/Locales/Import/FileImport/View.elm:85
 msgid "Or just drop it here"
 msgstr "Ali pa jo spustite tukaj"
 
@@ -1401,8 +1423,8 @@ msgstr "Iskanje uporabnikov..."
 #: engine-wizard/elm/Wizard/Settings/Organization/View.elm:47
 #: engine-wizard/elm/Wizard/Settings/Submission/View.elm:106
 #: engine-wizard/elm/Wizard/Tenants/Create/View.elm:36
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:171
-#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:69
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:173
+#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:77
 msgid "Name"
 msgstr "Ime"
 
@@ -1429,8 +1451,8 @@ msgstr "Nova različica"
 #: engine-wizard/elm/Wizard/Settings/PrivacyAndSupport/View.elm:29
 #: engine-wizard/elm/Wizard/Settings/Projects/View.elm:31
 #: engine-wizard/elm/Wizard/Settings/Submission/View.elm:42
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:182
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:215
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:184
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:217
 #: engine-wizard/elm/Wizard/Users/Create/View.elm:30
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Password.elm:115
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Profile.elm:221
@@ -1511,19 +1533,19 @@ msgstr "zasebni"
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:224
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:555
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:500
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:195
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:197
 #: engine-wizard/elm/Wizard/Users/Index/View.elm:29
 msgid "Users"
 msgstr "Uporabniki"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:18
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:196
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:198
 msgid "Active Users"
 msgstr "Aktivni uporabniki"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:19
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:34
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:197
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:199
 msgid "Knowledge Model Editors"
 msgstr "Urejevalniki modelov znanja"
 
@@ -1534,20 +1556,20 @@ msgstr "Urejevalniki modelov znanja"
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:367
 #: engine-wizard/elm/Wizard/Settings/KnowledgeModels/View.elm:30
 #: engine-wizard/elm/Wizard/Settings/View.elm:148
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:198
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:200
 msgid "Knowledge Models"
 msgstr "Modeli znanja"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:21
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Index/View.elm:28
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:199
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:201
 msgid "Document Template Editors"
 msgstr "Urejevalniki predlog dokumentov"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:22
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:115
 #: engine-wizard/elm/Wizard/DocumentTemplates/Index/View.elm:30
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:200
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:202
 msgid "Document Templates"
 msgstr "Predloge dokumentov"
 
@@ -1557,32 +1579,74 @@ msgstr "Predloge dokumentov"
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:65
 #: engine-wizard/elm/Wizard/Settings/Projects/View.elm:30
 #: engine-wizard/elm/Wizard/Settings/View.elm:149
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:201
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:203
 msgid "Projects"
 msgstr "Projekti"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:24
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:164
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:336
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:202
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:204
 msgid "Documents"
 msgstr "Dokumenti"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:25
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:232
 #: engine-wizard/elm/Wizard/Locales/Index/View.elm:29
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:203
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:205
 msgid "Locales"
 msgstr "Lokalni prevodi"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:26
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:204
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:206
 msgid "Storage"
 msgstr "Shranjevanje"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:80
 msgid "Unlimited"
 msgstr "Neomejeno"
+
+#: engine-wizard/elm/Wizard/Common/FileImport.elm:134
+#: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:180
+msgid "Unable to upload file."
+msgstr "Datoteke ni mogoče naložiti."
+
+#: engine-wizard/elm/Wizard/Common/FileImport.elm:168
+#: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:317
+msgid "Choose files"
+msgstr "Izberite datoteke"
+
+#: engine-wizard/elm/Wizard/Common/FileImport.elm:169
+#: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:318
+msgid "Or just drop them here"
+msgstr "Ali pa jih oddajte tukaj"
+
+#: engine-wizard/elm/Wizard/Common/FileImport.elm:219
+msgid "All files were uploaded successfully."
+msgstr ""
+
+#: engine-wizard/elm/Wizard/Common/FileImport.elm:222
+msgid "Unable to upload some files."
+msgstr ""
+
+#: engine-wizard/elm/Wizard/Common/FileImport.elm:246
+#: engine-wizard/elm/Wizard/Dashboard/Widgets/ImportDocumentTemplateWidget.elm:26
+#: engine-wizard/elm/Wizard/Dashboard/Widgets/ImportKnowledgeModelWidget.elm:22
+#: engine-wizard/elm/Wizard/DocumentTemplates/Detail/View.elm:131
+#: engine-wizard/elm/Wizard/DocumentTemplates/Detail/View.elm:170
+#: engine-wizard/elm/Wizard/DocumentTemplates/Import/RegistryImport/View.elm:52
+#: engine-wizard/elm/Wizard/DocumentTemplates/Index/View.elm:43
+#: engine-wizard/elm/Wizard/KnowledgeModels/Detail/View.elm:124
+#: engine-wizard/elm/Wizard/KnowledgeModels/Import/OwlImport/View.elm:53
+#: engine-wizard/elm/Wizard/KnowledgeModels/Import/RegistryImport/View.elm:52
+#: engine-wizard/elm/Wizard/KnowledgeModels/Index/View.elm:42
+#: engine-wizard/elm/Wizard/Locales/Detail/View.elm:112
+#: engine-wizard/elm/Wizard/Locales/Import/RegistryImport/View.elm:52
+#: engine-wizard/elm/Wizard/Locales/Index/View.elm:151
+#: engine-wizard/elm/Wizard/Projects/Import/View.elm:55
+#: engine-wizard/elm/Wizard/Projects/Import/View.elm:123
+msgid "Import"
+msgstr "Uvoz"
 
 #: engine-wizard/elm/Wizard/Common/Html.elm:29
 #: engine-wizard/elm/Wizard/DocumentTemplates/Detail/View.elm:191
@@ -1611,7 +1675,7 @@ msgid "Dashboard"
 msgstr "Nadzorna plošča"
 
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:85
-#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:36
+#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:37
 msgid "Tenants"
 msgstr "Najemniki"
 
@@ -1682,9 +1746,8 @@ msgid "Change language"
 msgstr "Sprememba jezika"
 
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:701
-#: engine-wizard/elm/Wizard/Users/Edit/Components/Profile.elm:239
-msgid "Edit profile"
-msgstr "Urejanje profila"
+msgid "User settings"
+msgstr ""
 
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:709
 msgid "Assigned comments"
@@ -2080,7 +2143,7 @@ msgstr "Model znanja je drevesu podobna struktura, ki vsebuje znanje o tem, kaj 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/NewDocument.elm:291
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:80
 #: engine-wizard/elm/Wizard/Tenants/Create/View.elm:28
-#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:115
+#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:134
 #: engine-wizard/elm/Wizard/Users/Edit/Components/ApiKeys.elm:222
 #: engine-wizard/elm/Wizard/Users/Index/View.elm:42
 msgid "Create"
@@ -2110,7 +2173,7 @@ msgstr ""
 "Nov projekt lahko ustvarite iz predloge projekta, ki jo za vas pripravijo upravljavci podatkov, da boste lažje začeli, ali iz nič, kjer vse nastavite sami."
 
 #: engine-wizard/elm/Wizard/Dashboard/Widgets/ImportDocumentTemplateWidget.elm:16
-#: engine-wizard/elm/Wizard/DocumentTemplates/Import/View.elm:45
+#: engine-wizard/elm/Wizard/DocumentTemplates/Import/View.elm:52
 msgid "Import Document Template"
 msgstr "Predloga za uvoz dokumenta"
 
@@ -2118,29 +2181,8 @@ msgstr "Predloga za uvoz dokumenta"
 msgid "Document templates transform answers from a questionnaire into a document. This document can be anything, from PDF to machine-actionable JSON. You can import existing document templates from [%s](%s) or [develop new ones](%s)."
 msgstr "Predloge dokumentov pretvorijo odgovore iz vprašalnika v dokument. Ta dokument je lahko kar koli, od PDF do strojno izvedljivega JSON. Obstoječe predloge dokumentov lahko uvozite iz [%s](%s) ali [razvijete nove](%s)."
 
-#: engine-wizard/elm/Wizard/Dashboard/Widgets/ImportDocumentTemplateWidget.elm:26
-#: engine-wizard/elm/Wizard/Dashboard/Widgets/ImportKnowledgeModelWidget.elm:22
-#: engine-wizard/elm/Wizard/DocumentTemplates/Detail/View.elm:131
-#: engine-wizard/elm/Wizard/DocumentTemplates/Detail/View.elm:170
-#: engine-wizard/elm/Wizard/DocumentTemplates/Import/FileImport/View.elm:73
-#: engine-wizard/elm/Wizard/DocumentTemplates/Import/RegistryImport/View.elm:52
-#: engine-wizard/elm/Wizard/DocumentTemplates/Index/View.elm:43
-#: engine-wizard/elm/Wizard/KnowledgeModels/Detail/View.elm:124
-#: engine-wizard/elm/Wizard/KnowledgeModels/Import/FileImport/View.elm:77
-#: engine-wizard/elm/Wizard/KnowledgeModels/Import/OwlImport/View.elm:53
-#: engine-wizard/elm/Wizard/KnowledgeModels/Import/RegistryImport/View.elm:52
-#: engine-wizard/elm/Wizard/KnowledgeModels/Index/View.elm:42
-#: engine-wizard/elm/Wizard/Locales/Detail/View.elm:112
-#: engine-wizard/elm/Wizard/Locales/Import/FileImport/View.elm:73
-#: engine-wizard/elm/Wizard/Locales/Import/RegistryImport/View.elm:52
-#: engine-wizard/elm/Wizard/Locales/Index/View.elm:151
-#: engine-wizard/elm/Wizard/Projects/Import/View.elm:55
-#: engine-wizard/elm/Wizard/Projects/Import/View.elm:123
-msgid "Import"
-msgstr "Uvoz"
-
 #: engine-wizard/elm/Wizard/Dashboard/Widgets/ImportKnowledgeModelWidget.elm:15
-#: engine-wizard/elm/Wizard/KnowledgeModels/Import/View.elm:84
+#: engine-wizard/elm/Wizard/KnowledgeModels/Import/View.elm:91
 msgid "Import Knowledge Model"
 msgstr "Uvoz modela znanja"
 
@@ -2185,7 +2227,7 @@ msgstr "Nimate še nobenega projekta, začnite z ustvarjanjem projektov."
 #: engine-wizard/elm/Wizard/Dashboard/Widgets/UsageWidget.elm:27
 #: engine-wizard/elm/Wizard/Settings/Usage/View.elm:22
 #: engine-wizard/elm/Wizard/Settings/View.elm:162
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:95
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:96
 msgid "Usage"
 msgstr "Uporaba"
 
@@ -2485,21 +2527,9 @@ msgstr "Dodajanje mape"
 msgid "Are you sure you want to permanently delete %s and all its contents?"
 msgstr "Ali ste prepričani, da želite trajno izbrisati %s in vso njegovo vsebino?"
 
-#: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:180
-msgid "Unable to upload file."
-msgstr "Datoteke ni mogoče naložiti."
-
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:278
 msgid "Upload files"
 msgstr "Prenesite datoteke"
-
-#: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:317
-msgid "Choose files"
-msgstr "Izberite datoteke"
-
-#: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:318
-msgid "Or just drop them here"
-msgstr "Ali pa jih oddajte tukaj"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:188
 msgid "Move failed"
@@ -2883,22 +2913,6 @@ msgstr "Ogled v registru"
 msgid "Usable with"
 msgstr "Uporabno z"
 
-#: engine-wizard/elm/Wizard/DocumentTemplates/Import/FileImport/Update.elm:71
-msgid "Importing the document template failed."
-msgstr "Uvoz predloge dokumenta ni uspel."
-
-#: engine-wizard/elm/Wizard/DocumentTemplates/Import/FileImport/View.elm:47
-msgid "This doesn't look like a document template. Are you sure you picked the correct file?"
-msgstr "To ni videti kot predloga dokumenta. Ste prepričani, da ste izbrali pravo datoteko?"
-
-#: engine-wizard/elm/Wizard/DocumentTemplates/Import/FileImport/View.elm:82
-#: engine-wizard/elm/Wizard/KnowledgeModels/Import/FileImport/View.elm:86
-#: engine-wizard/elm/Wizard/KnowledgeModels/Import/OwlImport/View.elm:90
-#: engine-wizard/elm/Wizard/Locales/Create/View.elm:97
-#: engine-wizard/elm/Wizard/Locales/Import/FileImport/View.elm:82
-msgid "Choose a file"
-msgstr "Izberite datoteko"
-
 #: engine-wizard/elm/Wizard/DocumentTemplates/Import/RegistryImport/Update.elm:32
 msgid "Unable to import the document template."
 msgstr "Predloge dokumenta ni mogoče uvoziti."
@@ -2911,17 +2925,21 @@ msgstr "Predloge dokumentov lahko najdete v %s."
 msgid "Document template %s has been imported!"
 msgstr "Predloga dokumenta %s je bila uvožena!"
 
-#: engine-wizard/elm/Wizard/DocumentTemplates/Import/View.elm:62
-#: engine-wizard/elm/Wizard/KnowledgeModels/Import/View.elm:26
-#: engine-wizard/elm/Wizard/Locales/Import/View.elm:62
+#: engine-wizard/elm/Wizard/DocumentTemplates/Import/View.elm:69
+#: engine-wizard/elm/Wizard/KnowledgeModels/Import/View.elm:29
+#: engine-wizard/elm/Wizard/Locales/Import/View.elm:69
 msgid "From registry"
 msgstr "Iz registra"
 
-#: engine-wizard/elm/Wizard/DocumentTemplates/Import/View.elm:73
-#: engine-wizard/elm/Wizard/KnowledgeModels/Import/View.elm:34
-#: engine-wizard/elm/Wizard/Locales/Import/View.elm:73
+#: engine-wizard/elm/Wizard/DocumentTemplates/Import/View.elm:80
+#: engine-wizard/elm/Wizard/KnowledgeModels/Import/View.elm:37
+#: engine-wizard/elm/Wizard/Locales/Import/View.elm:80
 msgid "From file"
 msgstr "Iz datoteke"
+
+#: engine-wizard/elm/Wizard/DocumentTemplates/Import/View.elm:99
+msgid "This doesn't look like a document. Are you sure you picked the correct file?"
+msgstr ""
 
 #: engine-wizard/elm/Wizard/DocumentTemplates/Index/Update.elm:58
 msgid "Document template could not be updated."
@@ -3979,19 +3997,19 @@ msgstr "Ni faz, najprej jih ustvarite."
 msgid "There are no questions, create them first."
 msgstr "Vprašanj ni, najprej jih ustvarite."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Preview.elm:258
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Preview.elm:257
 msgid "Tags"
 msgstr "Oznake"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Preview.elm:265
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Preview.elm:264
 msgid "Select all"
 msgstr "Izberite vse"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Preview.elm:273
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Preview.elm:272
 msgid "Select none"
 msgstr "Ne izberite nobenega"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Preview.elm:290
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Preview.elm:289
 msgid "Save preview values"
 msgstr "Shranjevanje vrednosti predogleda"
 
@@ -4033,15 +4051,15 @@ msgstr "Izbrisanih urejevalnikov modela znanja ni mogoče obnoviti."
 msgid "There are no question tags, create them first."
 msgstr "Oznake za vprašanja niso na voljo, zato jih najprej ustvarite."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Update.elm:127
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Update.elm:302
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Update.elm:113
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Update.elm:288
 #: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:130
 #: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:241
 #: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:265
 msgid "Some changes are still saving."
 msgstr "Nekatere spremembe so še vedno shranjene."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Update.elm:187
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Update.elm:173
 msgid "Unable to get the knowledge model editor."
 msgstr "Ni mogoče pridobiti urejevalnika modela znanja."
 
@@ -4403,14 +4421,6 @@ msgstr "To ni najnovejša razpoložljiva različica tega modela znanja."
 msgid "Fork of"
 msgstr "Vilice"
 
-#: engine-wizard/elm/Wizard/KnowledgeModels/Import/FileImport/Update.elm:71
-msgid "Importing the knowledge model failed."
-msgstr "Uvoz modela znanja ni uspel."
-
-#: engine-wizard/elm/Wizard/KnowledgeModels/Import/FileImport/View.elm:51
-msgid "This doesn't look like a knowledge model. Are you sure you picked the correct file?"
-msgstr "To ni videti kot model znanja. Ste prepričani, da ste izbrali pravo datoteko?"
-
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/OwlImport/Update.elm:88
 msgid "Importing the package failed."
 msgstr "Uvoz paketa ni uspel."
@@ -4422,6 +4432,11 @@ msgstr "ID prejšnjega paketa"
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/OwlImport/View.elm:47
 msgid "Root Element"
 msgstr "Korenski element"
+
+#: engine-wizard/elm/Wizard/KnowledgeModels/Import/OwlImport/View.elm:90
+#: engine-wizard/elm/Wizard/Locales/Create/View.elm:97
+msgid "Choose a file"
+msgstr "Izberite datoteko"
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/RegistryImport/Update.elm:32
 msgid "Unable to import the package."
@@ -4435,9 +4450,13 @@ msgstr "Modele znanja lahko najdete v %s."
 msgid "Knowledge Model %s has been imported!"
 msgstr "Model znanja %s je bil uvožen!"
 
-#: engine-wizard/elm/Wizard/KnowledgeModels/Import/View.elm:42
+#: engine-wizard/elm/Wizard/KnowledgeModels/Import/View.elm:45
 msgid "From OWL"
 msgstr "Iz OWL"
+
+#: engine-wizard/elm/Wizard/KnowledgeModels/Import/View.elm:127
+msgid "This doesn't look like a knowledge model. Are you sure you picked the correct file?"
+msgstr "To ni videti kot model znanja. Ste prepričani, da ste izbrali pravo datoteko?"
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/Update.elm:54
 msgid "Knowledge Model could not be updated."
@@ -4534,15 +4553,15 @@ msgstr "To ni najnovejša razpoložljiva različica tega lokala."
 #: engine-wizard/elm/Wizard/Locales/Detail/View.elm:168
 #: engine-wizard/elm/Wizard/Settings/Registry/View.elm:91
 #: engine-wizard/elm/Wizard/Settings/Submission/View.elm:64
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:119
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:126
-#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:47
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:120
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:127
+#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:48
 msgid "Enabled"
 msgstr "Omogočeno"
 
 #: engine-wizard/elm/Wizard/Locales/Detail/View.elm:152
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:122
-#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:87
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:123
+#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:96
 msgid "Disabled"
 msgstr "Onemogočeno"
 
@@ -4553,14 +4572,6 @@ msgstr "Različica Wizard"
 #: engine-wizard/elm/Wizard/Locales/Detail/View.elm:171
 msgid "Locale"
 msgstr "Lokacija"
-
-#: engine-wizard/elm/Wizard/Locales/Import/FileImport/Update.elm:71
-msgid "Importing the locale failed."
-msgstr "Uvoz lokalnega jezika ni uspel."
-
-#: engine-wizard/elm/Wizard/Locales/Import/FileImport/View.elm:47
-msgid "This doesn't look like locale. Are you sure you picked the correct file?"
-msgstr "To ni videti kot lokalni jezik. Ste prepričani, da ste izbrali pravo datoteko?"
 
 #: engine-wizard/elm/Wizard/Locales/Import/RegistryImport/Update.elm:32
 msgid "Unable to import the locale."
@@ -4574,9 +4585,13 @@ msgstr "Lokalne jezike lahko najdete v %s."
 msgid "Locale %s has been imported!"
 msgstr "Lokalni jezik %s je bil uvožen!"
 
-#: engine-wizard/elm/Wizard/Locales/Import/View.elm:45
+#: engine-wizard/elm/Wizard/Locales/Import/View.elm:52
 msgid "Import Locale"
 msgstr "Uvozni lokalni jezik"
+
+#: engine-wizard/elm/Wizard/Locales/Import/View.elm:99
+msgid "This doesn't look like locales. Are you sure you picked the correct file?"
+msgstr ""
 
 #: engine-wizard/elm/Wizard/Locales/Index/Update.elm:53
 msgid "Unable to change locale."
@@ -5681,7 +5696,7 @@ msgstr "Slog armaturne plošče"
 
 #: engine-wizard/elm/Wizard/Settings/DashboardAndLoginScreen/View.elm:142
 #: engine-wizard/elm/Wizard/Settings/View.elm:91
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:131
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:133
 msgid "Info"
 msgstr "Info"
 
@@ -6073,9 +6088,9 @@ msgid "Create tenant"
 msgstr "Ustvari najemnika"
 
 #: engine-wizard/elm/Wizard/Tenants/Create/View.elm:35
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:125
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:170
-#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:70
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:126
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:172
+#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:78
 msgid "Tenant ID"
 msgstr "ID najemnika"
 
@@ -6091,38 +6106,43 @@ msgstr "Najemnika ni bilo mogoče rešiti."
 msgid "Tenant limits could not be saved."
 msgstr "Omejitev najemnikov ni bilo mogoče shraniti."
 
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:68
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:211
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:69
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:213
 msgid "Edit limits"
 msgstr "Omejitve urejanja"
 
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:127
-#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:71
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:128
+#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:57
+msgid "State"
+msgstr ""
+
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:129
+#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:79
 msgid "Created at"
 msgstr "Ustvarjeno v"
 
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:128
-#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:72
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:130
+#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:80
 msgid "Updated at"
 msgstr "Posodobljeno na"
 
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:138
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:140
 msgid "Client URL"
 msgstr "URL odjemalca"
 
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:139
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:141
 msgid "Server URL"
 msgstr "URL strežnika"
 
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:142
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:144
 msgid "URLs"
 msgstr "URL-ji"
 
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:154
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:156
 msgid "Admins"
 msgstr "Administratorji"
 
-#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:178
+#: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:180
 msgid "Edit app"
 msgstr "Urejanje aplikacije"
 
@@ -6130,19 +6150,19 @@ msgstr "Urejanje aplikacije"
 msgid "Unable to get tenants."
 msgstr "Najemnikov ni mogoče dobiti."
 
-#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:49
+#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:50
 msgid "Enabled only"
 msgstr "Samo za omogočene"
 
-#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:50
+#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:51
 msgid "Disabled only"
 msgstr "Samo za onemogočene"
 
-#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:59
+#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:67
 msgid "Click \"Create\" button to add a new tenant."
 msgstr "Če želite dodati novega najemnika, kliknite gumb \"Ustvari\"."
 
-#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:67
+#: engine-wizard/elm/Wizard/Tenants/Index/View.elm:75
 msgid "Search tenants..."
 msgstr "Iskanje najemnikov..."
 
@@ -6353,6 +6373,10 @@ msgstr "Aktivno"
 msgid "Your profile is managed elsewhere."
 msgstr "Vaš profil se upravlja drugje."
 
+#: engine-wizard/elm/Wizard/Users/Edit/Components/Profile.elm:239
+msgid "Edit profile"
+msgstr "Urejanje profila"
+
 #: engine-wizard/elm/Wizard/Users/Edit/Components/SubmissionSettings.elm:130
 msgid "Submission settings were successfully updated."
 msgstr "Nastavitve predložitve so bile uspešno posodobljene."
@@ -6417,6 +6441,21 @@ msgstr "Ni dovoljeno"
 #: engine-wizard/elm/Wizard/View.elm:167
 msgid "You don't have permission to view this page."
 msgstr "Nimate dovoljenja za ogled te strani."
+
+#~ msgid "Importing the document template failed."
+#~ msgstr "Uvoz predloge dokumenta ni uspel."
+
+#~ msgid "This doesn't look like a document template. Are you sure you picked the correct file?"
+#~ msgstr "To ni videti kot predloga dokumenta. Ste prepričani, da ste izbrali pravo datoteko?"
+
+#~ msgid "Importing the knowledge model failed."
+#~ msgstr "Uvoz modela znanja ni uspel."
+
+#~ msgid "Importing the locale failed."
+#~ msgstr "Uvoz lokalnega jezika ni uspel."
+
+#~ msgid "This doesn't look like locale. Are you sure you picked the correct file?"
+#~ msgstr "To ni videti kot lokalni jezik. Ste prepričani, da ste izbrali pravo datoteko?"
 
 #~ msgid "This defines how the found items will be displayed for the user. You can use properties from the returned item in Jinja2 notation, you can also use Markdown for some formatting. For example, if the returned item has a field called name, you can use `**{{item.name}}**` to display the name in bold."
 #~ msgstr "To določa, kako bodo najdeni elementi prikazani uporabniku. Uporabite lahko lastnosti vrnjenega elementa v zapisu Jinja2, za nekaj oblikovanja pa lahko uporabite tudi Markdown. Če ima vrnjeni element na primer polje z imenom, lahko uporabite `**{{item.name}}**` za prikaz imena v krepkem tisku."

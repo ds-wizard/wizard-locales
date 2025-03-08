@@ -3,7 +3,7 @@
 # Jana Martínková <j.martinkova@outlook.com>, 2024, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-03-06T15:23:58.145Z\nPO-Revision-Date: 2025-03-07 08:55+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-16-0/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.9.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-03-06T15:23:58.145Z\nPO-Revision-Date: 2025-03-08 09:49+0000\nLast-Translator: Rob Hooft <rob.hooft@health-ri.nl>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-16-0/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -188,19 +188,19 @@ msgstr "Item %s"
 
 #: engine-shared/elm/Shared/Data/TenantState.elm:83
 msgid "Not seeded"
-msgstr ""
+msgstr "Er is geen seed"
 
 #: engine-shared/elm/Shared/Data/TenantState.elm:86
 msgid "Pending housekeeping"
-msgstr ""
+msgstr "Wachtend op onderhoudswerk"
 
 #: engine-shared/elm/Shared/Data/TenantState.elm:89
 msgid "Housekeeping in progress"
-msgstr ""
+msgstr "Onderhoudswerk bezig"
 
 #: engine-shared/elm/Shared/Data/TenantState.elm:92
 msgid "Ready for use"
-msgstr ""
+msgstr "Klaar om te gebruiken"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:111
 msgid "You do not have permission to view this page."
@@ -1609,11 +1609,11 @@ msgstr "Of drop ze hier"
 
 #: engine-wizard/elm/Wizard/Common/FileImport.elm:219
 msgid "All files were uploaded successfully."
-msgstr ""
+msgstr "Alle bestanden zijn goed geüpload."
 
 #: engine-wizard/elm/Wizard/Common/FileImport.elm:222
 msgid "Unable to upload some files."
-msgstr ""
+msgstr "Kan bepaalde bestanden niet uploaden."
 
 #: engine-wizard/elm/Wizard/Common/FileImport.elm:246
 #: engine-wizard/elm/Wizard/Dashboard/Widgets/ImportDocumentTemplateWidget.elm:26
@@ -1732,7 +1732,6 @@ msgid "Change language"
 msgstr "Wijzig de taal"
 
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:701
-#, fuzzy
 msgid "User settings"
 msgstr "Gebruikersinstellingen"
 
@@ -2908,7 +2907,7 @@ msgstr "Vanuit een bestand"
 
 #: engine-wizard/elm/Wizard/DocumentTemplates/Import/View.elm:99
 msgid "This doesn't look like a document. Are you sure you picked the correct file?"
-msgstr ""
+msgstr "Dit ziet er niet uit als een document. Weet je zeker dat je het juiste bestand hebt geselecteerd?"
 
 #: engine-wizard/elm/Wizard/DocumentTemplates/Index/Update.elm:58
 msgid "Document template could not be updated."
@@ -4560,7 +4559,7 @@ msgstr "Importeer Vertaling"
 
 #: engine-wizard/elm/Wizard/Locales/Import/View.elm:99
 msgid "This doesn't look like locales. Are you sure you picked the correct file?"
-msgstr ""
+msgstr "Dit ziet er niet uit als een localisatie. Weet je zeker dat je het juiste bestand hebt geselecteerd?"
 
 #: engine-wizard/elm/Wizard/Locales/Index/Update.elm:53
 msgid "Unable to change locale."
@@ -6071,7 +6070,7 @@ msgstr "Grenzen bewerken"
 #: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:128
 #: engine-wizard/elm/Wizard/Tenants/Index/View.elm:57
 msgid "State"
-msgstr ""
+msgstr "Status"
 
 #: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:129
 #: engine-wizard/elm/Wizard/Tenants/Index/View.elm:79

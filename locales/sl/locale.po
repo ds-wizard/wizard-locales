@@ -4,7 +4,7 @@
 # Jana Martínková <j.martinkova@outlook.com>, 2024, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.1.0\nPOT-Creation-Date: 2025-03-06T15:23:58.145Z\nPO-Revision-Date: 2025-03-07 08:55+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Slovenian <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-16-0/sl/>\nLanguage: sl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\nX-Generator: Weblate 5.9.2\n"
+msgstr "Project-Id-Version: wizard-client:4.1.0\nPOT-Creation-Date: 2025-03-06T15:23:58.145Z\nPO-Revision-Date: 2025-03-31 11:06+0000\nLast-Translator: Jana Martínková <j.martinkova@outlook.com>\nLanguage-Team: Slovenian <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-16-0/sl/>\nLanguage: sl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\nX-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -189,19 +189,19 @@ msgstr "Postavka %s"
 
 #: engine-shared/elm/Shared/Data/TenantState.elm:83
 msgid "Not seeded"
-msgstr ""
+msgstr "Podatki niso dodani"
 
 #: engine-shared/elm/Shared/Data/TenantState.elm:86
 msgid "Pending housekeeping"
-msgstr ""
+msgstr "Čakajoča hišna opravila"
 
 #: engine-shared/elm/Shared/Data/TenantState.elm:89
 msgid "Housekeeping in progress"
-msgstr ""
+msgstr "Hišna opravila v teku"
 
 #: engine-shared/elm/Shared/Data/TenantState.elm:92
 msgid "Ready for use"
-msgstr ""
+msgstr "Pripravljeno za uporabo"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:111
 msgid "You do not have permission to view this page."
@@ -1614,11 +1614,11 @@ msgstr "Ali pa jih oddajte tukaj"
 
 #: engine-wizard/elm/Wizard/Common/FileImport.elm:219
 msgid "All files were uploaded successfully."
-msgstr ""
+msgstr "Vse datoteke so bile uspešno naložene."
 
 #: engine-wizard/elm/Wizard/Common/FileImport.elm:222
 msgid "Unable to upload some files."
-msgstr ""
+msgstr "Neuspešno nalaganje nekaterih datotek."
 
 #: engine-wizard/elm/Wizard/Common/FileImport.elm:246
 #: engine-wizard/elm/Wizard/Dashboard/Widgets/ImportDocumentTemplateWidget.elm:26
@@ -1737,7 +1737,6 @@ msgid "Change language"
 msgstr "Sprememba jezika"
 
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:701
-#, fuzzy
 msgid "User settings"
 msgstr "Uporabniške nastavitve"
 
@@ -2931,7 +2930,7 @@ msgstr "Iz datoteke"
 
 #: engine-wizard/elm/Wizard/DocumentTemplates/Import/View.elm:99
 msgid "This doesn't look like a document. Are you sure you picked the correct file?"
-msgstr ""
+msgstr "To ne izgleda kot dokument. Ste prepričani, da ste izbrali pravilno datoteko?"
 
 #: engine-wizard/elm/Wizard/DocumentTemplates/Index/Update.elm:58
 msgid "Document template could not be updated."
@@ -4583,7 +4582,7 @@ msgstr "Uvozni lokalni jezik"
 
 #: engine-wizard/elm/Wizard/Locales/Import/View.elm:99
 msgid "This doesn't look like locales. Are you sure you picked the correct file?"
-msgstr ""
+msgstr "To ne izgleda kot lokalizacije. Ste prepričani, da ste izbrali pravilno datoteko?"
 
 #: engine-wizard/elm/Wizard/Locales/Index/Update.elm:53
 msgid "Unable to change locale."
@@ -6106,7 +6105,7 @@ msgstr "Omejitve urejanja"
 #: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:128
 #: engine-wizard/elm/Wizard/Tenants/Index/View.elm:57
 msgid "State"
-msgstr ""
+msgstr "Status"
 
 #: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:129
 #: engine-wizard/elm/Wizard/Tenants/Index/View.elm:79

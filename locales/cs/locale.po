@@ -5,7 +5,7 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 08:22+0000\nLast-Translator: DeepL <noreply-mt-deepl@weblate.org>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 5.9.2\n"
+msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 08:56+0000\nLast-Translator: Jana Martínková <j.martinkova@outlook.com>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -192,17 +192,14 @@ msgid "You do not have permission to view this page."
 msgstr "Nemáte oprávnění zobrazit tuto stránku."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:119
-#, fuzzy
 msgid "Knowledge model ID is already used."
 msgstr "ID znalostního modelu je již použito."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:122
-#, fuzzy
 msgid "Knowledge model already exists."
 msgstr "Znalostní model již existuje."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:125
-#, fuzzy
 msgid "Knowledge model metamodel version is not supported."
 msgstr "Verze metamodelu znalostních modelů není podporována."
 
@@ -262,7 +259,6 @@ msgid "A hash query param has to be provided."
 msgstr "Parametr dotazu \"hash\" musí být poskytnutý."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:174
-#, fuzzy
 msgid "Knowledge model editor not found."
 msgstr "Editor znalostního modelu nebyl nalezen."
 
@@ -4983,7 +4979,6 @@ msgid "Create Migration"
 msgstr "Vytvořit migraci"
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:82
-#, fuzzy
 msgid "A new project is created for the migration. The original will remain unchanged until the migration is finished."
 msgstr "Pro migraci je vytvořen nový projekt. Původní zůstane nezměněný, dokud nebude migrace dokončena."
 
@@ -5053,7 +5048,6 @@ msgid "Before you can use preview you need to update the default document templa
 msgstr "Před použitím náhledu je potřeba aktualizovat výchozí šablonu dokumentu."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:230
-#, fuzzy
 msgid "Ask the project owner to update the default document template."
 msgstr "Požádejte vlastníka projektu, aby aktualizoval výchozí šablonu dokumentu."
 
@@ -5401,14 +5395,12 @@ msgid "You can safely finalize the migration."
 msgstr "Můžete bezpečně dokončit migraci."
 
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:86
-#, fuzzy
 msgid "Source knowledge model"
-msgstr "Model zdrojových znalostí"
+msgstr "Zdrojový znalostní model"
 
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:90
-#, fuzzy
 msgid "Target knowledge model"
-msgstr "Cílový model znalostí"
+msgstr "Cílový znalostní model"
 
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:122
 msgid "Change already resolved"
@@ -5895,9 +5887,8 @@ msgid "Name of the organization running this instance."
 msgstr "Název organizace provozující tuto instanci."
 
 #: engine-wizard/elm/Wizard/Settings/Organization/View.elm:51
-#, fuzzy
 msgid "Organization ID is used to identify knowledge models created in this instance. It can only contain alphanumeric characters, hyphens, underscores, and dots."
-msgstr "ID organizace se používá k identifikaci znalostních modelů vytvořených v tomto případě. Může obsahovat pouze alfanumerické znaky, pomlčky, podtržítka a tečky."
+msgstr "ID organizace se používá k identifikaci znalostních modelů vytvořených v této instanci. Může obsahovat pouze alfanumerické znaky, pomlčky, podtržítka a tečky."
 
 #: engine-wizard/elm/Wizard/Settings/PrivacyAndSupport/View.elm:28
 #: engine-wizard/elm/Wizard/Settings/View.elm:118
@@ -6070,7 +6061,6 @@ msgid "Fill in your DSW Registry token. If you don't have one, you need sign up 
 msgstr "Vyplňte váš token z DSW Registry. Pokud jej nemáte, musíte se nejprve zaregistrovat."
 
 #: engine-wizard/elm/Wizard/Settings/Registry/View.elm:92
-#, fuzzy
 msgid "If enabled, you can import knowledge models and document templates directly from [DSW Registry](https://registry.ds-wizard.org)."
 msgstr "Pokud je povoleno, můžete importovat znalostní modely a šablony dokumentů přímo z [DSW Registry](https://registry.ds-wizard.org)."
 

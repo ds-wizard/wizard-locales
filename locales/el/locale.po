@@ -3,7 +3,7 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.9.0\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 08:22+0000\nLast-Translator: DeepL <noreply-mt-deepl@weblate.org>\nLanguage-Team: Greek <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/el/>\nLanguage: el\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.9.2\n"
+msgstr "Project-Id-Version: wizard-client:4.9.0\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 08:22+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Greek <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/el/>\nLanguage: el\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -190,16 +190,19 @@ msgid "You do not have permission to view this page."
 msgstr "Δεν έχετε άδεια να δείτε αυτή τη σελίδα."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:119
+#, fuzzy
 msgid "Knowledge model ID is already used."
-msgstr ""
+msgstr "Το αναγνωριστικό μοντέλου γνώσης χρησιμοποιείται ήδη."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:122
+#, fuzzy
 msgid "Knowledge model already exists."
-msgstr ""
+msgstr "Το Μοντέλο Γνώσης υπάρχει ήδη."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:125
+#, fuzzy
 msgid "Knowledge model metamodel version is not supported."
-msgstr ""
+msgstr "Η έκδοση του μεταμοντέλου μοντέλου γνώσης δεν υποστηρίζεται."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:128
 msgid "Document template already exists."
@@ -262,8 +265,9 @@ msgid "Knowledge model editor not found."
 msgstr "Δεν βρέθηκε επεξεργαστής μοντέλου γνώσης."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:177
+#, fuzzy
 msgid "Document not found."
-msgstr ""
+msgstr "Το έγγραφο δεν βρέθηκε"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:180
 #, fuzzy
@@ -364,8 +368,9 @@ msgid "File with this name already exists."
 msgstr "Υπάρχει ήδη κάποιο αρχείο με αυτό το όνομα ."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:240
+#, fuzzy
 msgid "Authentication code is not provided."
-msgstr ""
+msgstr "Δεν παρέχεται κωδικός ταυτοποίησης (Authentication Code)."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:243
 msgid "Profile Information from OpenID service is missing."
@@ -382,8 +387,9 @@ msgstr "Η έκδοση του μεταμοντέλου προτύπου εγγ�
 #: engine-shared/elm/Shared/Error/ServerError.elm:260
 #: engine-shared/elm/Shared/Error/ServerError.elm:297
 #: engine-shared/elm/Shared/Error/ServerError.elm:300
+#, fuzzy
 msgid "Limit of %s reached (current: %s, limit: %s)."
-msgstr ""
+msgstr "Επίτευξη ορίου %s (τρέχον: %s, όριο: %s)"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:261
 msgid "storage"
@@ -438,16 +444,19 @@ msgid "File \"%s\" was not found in archive."
 msgstr "Το αρχείο \"%s\" δεν βρέθηκε στο αρχείο."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:312
+#, fuzzy
 msgid "The locale not found in Registry."
-msgstr ""
+msgstr "Η τοπική ρύθμιση δεν βρέθηκε στο μητρώο"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:315
+#, fuzzy
 msgid "Knowledge model cannot be deleted because it is used in some projects or knowledge model editors."
-msgstr ""
+msgstr "Το Μοντέλο γνώσης δεν μπορεί να διαγραφεί επειδή χρησιμοποιείται σε ορισμένα Έργα ή επεξεργαστές μοντέλων γνώσης."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:318
+#, fuzzy
 msgid "The knowledge model was not found in the Registry."
-msgstr ""
+msgstr "Το μοντέλο γνώσης δεν βρέθηκε στο μητρώο."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:321
 msgid "Project cannot be deleted because it is used in some project migration."
@@ -458,12 +467,14 @@ msgid "The document template was not found in the Registry."
 msgstr "Το πρότυπο εγγράφου δεν βρέθηκε στο μητρώο."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:327
+#, fuzzy
 msgid "Incorrect email or password."
-msgstr ""
+msgstr "Λανθασμένη διεύθυνση ηλεκτρονικού ταχυδρομείου ή κωδικός πρόσβασης"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:330
+#, fuzzy
 msgid "Incorrect authentication code."
-msgstr ""
+msgstr "Λανθασμένος κωδικός ταυτοποίησης"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:333
 msgid "The account is not activated."
@@ -835,8 +846,9 @@ msgid "OK"
 msgstr "OK"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2169
+#, fuzzy
 msgid "Current phase"
-msgstr ""
+msgstr "Τρέχουσα φάση"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2228
 msgid "Select phase"
@@ -1013,12 +1025,14 @@ msgid "There are no questions in this phase."
 msgstr "Δεν υπάρχουν ερωτήσεις σε αυτή τη φάση."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3173
+#, fuzzy
 msgid "Previous chapter"
-msgstr ""
+msgstr "Προηγούμενο κεφάλαιο"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3178
+#, fuzzy
 msgid "Next chapter"
-msgstr ""
+msgstr "Επόμενο κεφάλαιο"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3289
 msgid "anonymous user"
@@ -2023,8 +2037,9 @@ msgid "Error"
 msgstr "Σφάλμα"
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:43
+#, fuzzy
 msgid "There are no question tags configured for the knowledge model."
-msgstr ""
+msgstr "Δεν υπάρχουν ετικέτες ερωτήσεων για το Μοντέλο Γνώσης."
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:63
 msgid "Untitled question tag"
@@ -3038,8 +3053,9 @@ msgid "Create migration"
 msgstr "Δημιουργία μετάβασης"
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/Update.elm:137
+#, fuzzy
 msgid "Knowledge model could not be created."
-msgstr ""
+msgstr "Το Μοντέλο Γνώσης δεν μπόρεσε να δημιουργηθεί."
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:40
 #, fuzzy
@@ -3053,8 +3069,9 @@ msgid "Knowledge model ID can only contain alphanumeric characters, hyphens, und
 msgstr "Το αναγνωριστικό μοντέλου γνώσης μπορεί να περιέχει μόνο αλφαριθμητικούς χαρακτήρες, παύλες, υπογράμμιση και τελείες."
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:98
+#, fuzzy
 msgid "You can create a new knowledge model based on the existing one or start from scratch."
-msgstr ""
+msgstr "Μπορείτε να δημιουργήσετε ένα νέο Μοντέλο Γνώσης με βάση το υπάρχον ή να ξεκινήσετε από το μηδέν."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:351
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:543
@@ -3956,8 +3973,9 @@ msgid "Remove validation"
 msgstr "Κατάργηση επικύρωσης"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:771
+#, fuzzy
 msgid "Validation Type"
-msgstr ""
+msgstr "Τύπος επικύρωσης"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:799
 msgid "Add validation"
@@ -4070,8 +4088,9 @@ msgid "Check the knowledge model's metadata before publishing. You change them i
 msgstr "Ελέγξτε τα μεταδεδομένα του Μοντέλου Γνώσης πριν από τη δημοσίευση. Τα αλλάζετε στο %s."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:124
+#, fuzzy
 msgid "Knowledge model could not be saved."
-msgstr ""
+msgstr "Το Μοντέλο Γνώσης δεν μπορούσε να αποθηκευτεί."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:215
 msgid "This is not the latest version of the parent knowledge model."
@@ -4148,8 +4167,9 @@ msgid "Migration could not be cancelled."
 msgstr "Η μετάβαση δεν μπόρεσε να ακυρωθεί."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:59
+#, fuzzy
 msgid "Click \"Create\" button to add a new knowledge model editor."
-msgstr ""
+msgstr "Κάντε κλικ στο κουμπί \"Create\" για να προσθέσετε έναν νέο συντάκτη μοντέλου γνώσης."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:67
 msgid "Search KM editors..."
@@ -4160,12 +4180,14 @@ msgid "Last published version"
 msgstr "Τελευταία δημοσιευμένη έκδοση"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:130
+#, fuzzy
 msgid "There is a new version of parent knowledge model"
-msgstr ""
+msgstr "Υπάρχει μια νέα έκδοση του μητρικού Μοντέλου Γνώσης."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:136
+#, fuzzy
 msgid "This editor is in the process of migration to a new parent knowledge model"
-msgstr ""
+msgstr "Αυτός ο συντάκτης βρίσκεται σε διαδικασία μετάβασης σε ένα νέο μητρικό Μοντέλο Γνώσης."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:137
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:702
@@ -4173,16 +4195,18 @@ msgid "migrating"
 msgstr "μετάβαση"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:141
+#, fuzzy
 msgid "This editor has been migrated to a new parent knowledge model, you can publish it now"
-msgstr ""
+msgstr "Αυτός ο συντάκτης έχει μεταφερθεί σε ένα νέο μητρικό Μοντέλο Γνώσης, μπορείτε να το δημοσιεύσετε τώρα."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:142
 msgid "migrated"
 msgstr "μεταναστευμένο"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:145
+#, fuzzy
 msgid "This editor contains unpublished changes"
-msgstr ""
+msgstr "Αυτός ο συντάκτης περιέχει αδημοσίευτες αλλαγές."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:188
 msgid "Open Editor"
@@ -4409,16 +4433,18 @@ msgid "Publish new version"
 msgstr "Δημοσίευση νέας έκδοσης"
 
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:76
+#, fuzzy
 msgid "Choose a %s so others can use your knowledge model."
-msgstr ""
+msgstr "Επιλέξτε ένα %s ώστε να μπορούν οι άλλοι να χρησιμοποιούν το Μοντέλο Γνώσης σας."
 
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:78
 msgid "license"
 msgstr "άδεια"
 
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:81
+#, fuzzy
 msgid "Short description of the knowledge model."
-msgstr ""
+msgstr "Περίληψη του Μοντέλου Γνώσης."
 
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:90
 msgid "No version of this package has been published yet."
@@ -4458,8 +4484,9 @@ msgid "This is a non-editable knowledge model, i.e., it cannot be edited, forked
 msgstr "Πρόκειται για ένα μη επεξεργάσιμο μοντέλο γνώσης, δηλαδή δεν μπορεί να επεξεργαστεί, να διακλαδωθεί ή να εξαχθεί."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Detail/View.elm:97
+#, fuzzy
 msgid "This is not the latest available version of this knowledge model."
-msgstr ""
+msgstr "Αυτή δεν είναι η τελευταία διαθέσιμη έκδοση αυτού του Μοντέλου Γνώσης."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Detail/View.elm:169
 msgid "Fork of"
@@ -4487,12 +4514,14 @@ msgid "Unable to import the package."
 msgstr "Δεν είναι δυνατή η εισαγωγή του πακέτου."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/RegistryImport/View.elm:68
+#, fuzzy
 msgid "You can find knowledge models in %s."
-msgstr ""
+msgstr "Μπορείτε να βρείτε τα Μοντέλα Γνώσης στο %s."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/RegistryImport/View.elm:84
+#, fuzzy
 msgid "Knowledge model %s has been imported!"
-msgstr ""
+msgstr "Το Μοντέλο Γνώσης %s έχει εισαχθεί!"
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/View.elm:45
 msgid "From OWL"
@@ -4503,12 +4532,14 @@ msgid "This doesn't look like a knowledge model. Are you sure you picked the cor
 msgstr "Αυτό δεν μοιάζει με Μοντέλο Γνώσης. Είστε σίγουροι ότι διαλέξατε το σωστό αρχείο;"
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/Update.elm:54
+#, fuzzy
 msgid "Knowledge model could not be updated."
-msgstr ""
+msgstr "Το Μοντέλο Γνώσης δεν μπόρεσε να ενημερωθεί."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/View.elm:62
+#, fuzzy
 msgid "Click \"Import\" button to import a new knowledge model."
-msgstr ""
+msgstr "Κάντε κλικ στο κουμπί \"Εισαγωγή\" για να εισάγετε ένα νέο Μοντέλο γνώσης."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/View.elm:70
 msgid "Search KMs..."
@@ -4927,16 +4958,18 @@ msgid "Original question tags"
 msgstr "Ετικέτες αρχικής ερώτησης"
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:78
+#, fuzzy
 msgid "Select knowledge model first"
-msgstr ""
+msgstr "Επιλέξτε πρώτα το Μοντέλο Γνώσης"
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:81
 msgid "Create Migration"
 msgstr "Δημιουργία μετάβασης"
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:82
+#, fuzzy
 msgid "A new project is created for the migration. The original will remain unchanged until the migration is finished."
-msgstr ""
+msgstr "Δημιουργείται ένα νέο έργο για τη μετάβαση. Το αρχικό έργο θα παραμείνει αμετάβλητο μέχρι να ολοκληρωθεί η μετάβαση."
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:89
 msgid "Original Knowledge Model"
@@ -5004,8 +5037,9 @@ msgid "Before you can use preview you need to update the default document templa
 msgstr "Πριν χρησιμοποιήσετε την προεπισκόπηση, πρέπει να ενημερώσετε το προεπιλεγμένο πρότυπο εγγράφου."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:230
+#, fuzzy
 msgid "Ask the project owner to update the default document template."
-msgstr ""
+msgstr "Ζητήστε από τον ιδιοκτήτη του έργου να ενημερώσει το προεπιλεγμένο πρότυπο εγγράφου."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:235
 msgid "Default document template is no longer supported."
@@ -6018,8 +6052,9 @@ msgid "Fill in your DSW Registry token. If you don't have one, you need sign up 
 msgstr "Συμπληρώστε το token του μητρώου DSW. Εάν δεν έχετε, πρέπει πρώτα να εγγραφείτε."
 
 #: engine-wizard/elm/Wizard/Settings/Registry/View.elm:92
+#, fuzzy
 msgid "If enabled, you can import knowledge models and document templates directly from [DSW Registry](https://registry.ds-wizard.org)."
-msgstr ""
+msgstr "Εάν είναι ενεργοποιημένο, μπορείτε να εισάγετε μοντέλα γνώσης και πρότυπα εγγράφων απευθείας από το [Μητρώο DSW](https://registry.ds-wizard.org)."
 
 #: engine-wizard/elm/Wizard/Settings/Registry/View.elm:141
 msgid "Organization Name"

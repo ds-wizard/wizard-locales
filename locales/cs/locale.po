@@ -6,7 +6,7 @@
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 09:00+0000\nLast-Translator: DeepL <noreply-mt-deepl@weblate.org>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 5.9.2\n"
+msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-02 09:49+0000\nLast-Translator: Jana Martínková <j.martinkova@outlook.com>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -292,7 +292,6 @@ msgid "Locale not found."
 msgstr "Překlad nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:198
-#, fuzzy
 msgid "Knowledge model not found."
 msgstr "Znalostní model nebyl nalezen."
 
@@ -507,9 +506,8 @@ msgid "Fill in a valid document template ID."
 msgstr "Vyplňte platné ID šablony dokumentu."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:143
-#, fuzzy
 msgid "Fill in a valid locale ID."
-msgstr "Vyplňte platné ID lokality."
+msgstr "Vyplňte platné ID překladu."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:148
 #: engine-shared/elm/Shared/Form/Validate.elm:153
@@ -817,7 +815,6 @@ msgid "OK"
 msgstr "OK"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2169
-#, fuzzy
 msgid "Current phase"
 msgstr "Aktuální fáze"
 
@@ -996,12 +993,10 @@ msgid "There are no questions in this phase."
 msgstr "V této fázi zde nejsou žádné otázky."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3173
-#, fuzzy
 msgid "Previous chapter"
 msgstr "Předchozí kapitola"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3178
-#, fuzzy
 msgid "Next chapter"
 msgstr "Následující kapitola"
 
@@ -1076,14 +1071,12 @@ msgid "This item contains no questions."
 msgstr "Tato položka neobsahuje žádné otázky."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3612
-#, fuzzy
 msgid "Move up"
 msgstr "Posun nahoru"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3625
-#, fuzzy
 msgid "Move down"
-msgstr "Přesun dolů"
+msgstr "Posun dolů"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3733
 msgid "This is not a valid email address."
@@ -1177,7 +1170,6 @@ msgid "Are you sure you want to remove this item?"
 msgstr "Opravdu chcete odstranit tuto položku?"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4358
-#, fuzzy
 msgid "Remove item"
 msgstr "Odebrat položku"
 
@@ -1342,7 +1334,6 @@ msgid "Unable to upload the file."
 msgstr "Soubor nelze nahrát."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:199
-#, fuzzy
 msgid "File upload is not available in the knowledge model editor"
 msgstr "V editoru znalostního modelu není k dispozici nahrávání souborů"
 
@@ -2018,7 +2009,6 @@ msgid "Error"
 msgstr "Chyba"
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:43
-#, fuzzy
 msgid "There are no question tags configured for the knowledge model."
 msgstr "Tento znalostní model nepoužívá žádné štítky u otázek."
 
@@ -2469,7 +2459,6 @@ msgstr "ID šablony dokumentu"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Create/View.elm:91
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Settings.elm:286
-#, fuzzy
 msgid "Document template ID can only contain alphanumeric characters, hyphens, underscores, and dots."
 msgstr "ID šablony dokumentu může obsahovat pouze alfanumerické znaky, pomlčky, podtržítka a tečky."
 
@@ -2617,7 +2606,6 @@ msgid "Preview not set"
 msgstr "Náhled není nastavený"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:408
-#, fuzzy
 msgid "Select a project or knowledge model editor and format you want to preview."
 msgstr "Vyberte projekt nebo editor znalostního modelu a formát, který chcete zobrazit v náhledu."
 
@@ -3034,23 +3022,19 @@ msgid "Create migration"
 msgstr "Vytvořit migraci"
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/Update.elm:137
-#, fuzzy
 msgid "Knowledge model could not be created."
 msgstr "Znalostní model nemohl být vytvořen."
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:40
-#, fuzzy
 msgid "Create knowledge model"
-msgstr "Znalostní model se nepodařilo vytvořit."
+msgstr "Vytvořit znalostní model"
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:95
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:191
-#, fuzzy
 msgid "Knowledge model ID can only contain alphanumeric characters, hyphens, underscores, and dots."
 msgstr "ID znalostního modelu může obsahovat pouze alfanumerické znaky, pomlčky, podtržítka a tečky."
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:98
-#, fuzzy
 msgid "You can create a new knowledge model based on the existing one or start from scratch."
 msgstr "Můžete vytvořit nový znalostní model založený na jiném existujícím nebo začít od nuly."
 
@@ -3746,7 +3730,6 @@ msgid "A string that identifies the integration. It has to be unique for each in
 msgstr "Řetězec identifikující integraci, který musí být unikátní pro každou integraci."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1817
-#, fuzzy
 msgid "A name visible everywhere else in the knowledge model Editor, such as when choosing the integration for a question."
 msgstr "Název viditelný všude jinde v editoru znalostního modelu, například při výběru integrace pro otázku."
 
@@ -3954,7 +3937,6 @@ msgid "Remove validation"
 msgstr "Odstranění validace"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:771
-#, fuzzy
 msgid "Validation Type"
 msgstr "Typ validace"
 
@@ -4069,7 +4051,6 @@ msgid "Check the knowledge model's metadata before publishing. You change them i
 msgstr "Před zveřejněním zkontrolujte metadata znalostního modelu. Změníte je v %s."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:124
-#, fuzzy
 msgid "Knowledge model could not be saved."
 msgstr "Znalostní model nemohl být uložen."
 
@@ -4148,7 +4129,6 @@ msgid "Migration could not be cancelled."
 msgstr "Migraci nebylo možné zrušit."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:59
-#, fuzzy
 msgid "Click \"Create\" button to add a new knowledge model editor."
 msgstr "Klikněte na tlačítko \"Vytvořit\" pro přidání nového editoru znalostního modelu."
 
@@ -4161,14 +4141,12 @@ msgid "Last published version"
 msgstr "Poslední publikovaná verze"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:130
-#, fuzzy
 msgid "There is a new version of parent knowledge model"
-msgstr "Existuje nová verze rodičovského znalostního modelu."
+msgstr "Existuje nová verze rodičovského znalostního modelu"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:136
-#, fuzzy
 msgid "This editor is in the process of migration to a new parent knowledge model"
-msgstr "Tento editor je v procesu migrace na nový rodičovský znalostní model."
+msgstr "Tento editor je v procesu migrace na nový rodičovský znalostní model"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:137
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:702
@@ -4176,18 +4154,16 @@ msgid "migrating"
 msgstr "migruje"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:141
-#, fuzzy
 msgid "This editor has been migrated to a new parent knowledge model, you can publish it now"
-msgstr "Tento edit byl zmigrován na nový rodičovský znalostní model, můžete jej nyní publikovat."
+msgstr "Tento editor byl zmigrován na nový rodičovský znalostní model, můžete jej nyní publikovat"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:142
 msgid "migrated"
 msgstr "zmigrován"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:145
-#, fuzzy
 msgid "This editor contains unpublished changes"
-msgstr "Tento editor obsahuje nepublikované změny."
+msgstr "Tento editor obsahuje nepublikované změny"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:188
 msgid "Open Editor"
@@ -4232,9 +4208,8 @@ msgid "The event is not connected to any entity in the Knowledge Model."
 msgstr "Tato událost není navázaná na žádnou entitu ve znalostním modelu."
 
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:158
-#, fuzzy
 msgid "Edit knowledge model"
-msgstr "Úprava modelu znalostí"
+msgstr "Upravit znalostní model"
 
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:167
 msgid "Edit metric"
@@ -4414,7 +4389,6 @@ msgid "Publish new version"
 msgstr "Publikovat novou verzi"
 
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:76
-#, fuzzy
 msgid "Choose a %s so others can use your knowledge model."
 msgstr "Vyberte %s tak, aby ostatní mohli používat váš znalostní model."
 
@@ -4423,7 +4397,6 @@ msgid "license"
 msgstr "licenci"
 
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:81
-#, fuzzy
 msgid "Short description of the knowledge model."
 msgstr "Krátký popis znalostního modelu."
 
@@ -4465,7 +4438,6 @@ msgid "This is a non-editable knowledge model, i.e., it cannot be edited, forked
 msgstr "Jedná se o neupravitelný znalostní model, tj. nelze jej upravovat, forkovat ani exportovat."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Detail/View.elm:97
-#, fuzzy
 msgid "This is not the latest available version of this knowledge model."
 msgstr "Toto není poslední dostupná verze tohoto znalostního modelu."
 
@@ -4495,12 +4467,10 @@ msgid "Unable to import the package."
 msgstr "Nezdařilo se importovat balíček."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/RegistryImport/View.elm:68
-#, fuzzy
 msgid "You can find knowledge models in %s."
 msgstr "Znalostní modely můžete nalézt v %s."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/RegistryImport/View.elm:84
-#, fuzzy
 msgid "Knowledge model %s has been imported!"
 msgstr "Znalostní model %s byl naimportován!"
 
@@ -4513,12 +4483,10 @@ msgid "This doesn't look like a knowledge model. Are you sure you picked the cor
 msgstr "Tohle nevypadá jako znalostní model. Opravdu jste vybrali správný soubor?"
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/Update.elm:54
-#, fuzzy
 msgid "Knowledge model could not be updated."
 msgstr "Znalostní model nemohl být aktualizován."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/View.elm:62
-#, fuzzy
 msgid "Click \"Import\" button to import a new knowledge model."
 msgstr "Klikněte na tlačítko \"Import\" pro import nového znalostního modelu."
 
@@ -4595,7 +4563,6 @@ msgid "Locale ID"
 msgstr "ID překladu"
 
 #: engine-wizard/elm/Wizard/Locales/Create/View.elm:52
-#, fuzzy
 msgid "Locale ID can only contain alphanumeric characters, hyphens, underscores, and dots."
 msgstr "ID překladu může obsahovat pouze alfanumerické znaky, pomlčky, podtržítka a tečky."
 
@@ -4943,7 +4910,6 @@ msgid "Original question tags"
 msgstr "Původní štítky otázek"
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:78
-#, fuzzy
 msgid "Select knowledge model first"
 msgstr "Nejprve vyberte znalostní model"
 

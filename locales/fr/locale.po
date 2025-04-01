@@ -4,18 +4,7 @@
 # Sylmilaf1be602546e5431a <sylvain@milanesi.fr>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:3.18.3\n"
-"POT-Creation-Date: 2025-04-01T07:05:39.548Z \n"
-"PO-Revision-Date: 2025-03-31 11:06+0000\n"
-"Last-Translator: Jana Martínková <j.martinkova@outlook.com>\n"
-"Language-Team: French <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-16-0/fr/>\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 08:22+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -202,16 +191,19 @@ msgid "You do not have permission to view this page."
 msgstr "Vous n'avez pas la permission de lire cette page."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:119
+#, fuzzy
 msgid "Knowledge model ID is already used."
-msgstr ""
+msgstr "L'ID du modèle de connaissances est déjà utilisé."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:122
+#, fuzzy
 msgid "Knowledge model already exists."
-msgstr ""
+msgstr "Le modèle de connaissances existe déjà."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:125
+#, fuzzy
 msgid "Knowledge model metamodel version is not supported."
-msgstr ""
+msgstr "La version du métamodèle du modèle de connaissances n'est pas prise en charge."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:128
 msgid "Document template already exists."
@@ -273,8 +265,9 @@ msgid "Knowledge model editor not found."
 msgstr ""
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:177
+#, fuzzy
 msgid "Document not found."
-msgstr ""
+msgstr "Document non trouvé"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:180
 msgid "Document template not found."
@@ -357,8 +350,9 @@ msgid "File with this name already exists."
 msgstr "Un fichier avec ce nom existe déjà."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:240
+#, fuzzy
 msgid "Authentication code is not provided."
-msgstr ""
+msgstr "Le code d'authentification n'est pas fourni."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:243
 msgid "Profile Information from OpenID service is missing."
@@ -375,8 +369,9 @@ msgstr "La version du métamodèle du modèle de documents n'est pas (plus) pris
 #: engine-shared/elm/Shared/Error/ServerError.elm:260
 #: engine-shared/elm/Shared/Error/ServerError.elm:297
 #: engine-shared/elm/Shared/Error/ServerError.elm:300
+#, fuzzy
 msgid "Limit of %s reached (current: %s, limit: %s)."
-msgstr ""
+msgstr "Limite de %s atteinte (actuel : %s, limite : %s)"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:261
 msgid "storage"
@@ -431,16 +426,19 @@ msgid "File \"%s\" was not found in archive."
 msgstr "Le fichier \"%s\" n'a pas été trouvé dans les archives."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:312
+#, fuzzy
 msgid "The locale not found in Registry."
-msgstr ""
+msgstr "La localisation n'a pas été trouvée dans le Registry"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:315
+#, fuzzy
 msgid "Knowledge model cannot be deleted because it is used in some projects or knowledge model editors."
-msgstr ""
+msgstr "Le modèle de connaissances ne peut pas être supprimé car il est utilisé dans certains projets ou éditeurs de modèles de connaissances."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:318
+#, fuzzy
 msgid "The knowledge model was not found in the Registry."
-msgstr ""
+msgstr "Le modèle de connaissances n'a pas été trouvé dans le Registry."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:321
 msgid "Project cannot be deleted because it is used in some project migration."
@@ -451,12 +449,14 @@ msgid "The document template was not found in the Registry."
 msgstr "Le modèle de document n'a pas été trouvé dans le DSW Registry."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:327
+#, fuzzy
 msgid "Incorrect email or password."
-msgstr ""
+msgstr "Courriel ou mot de passe incorrect"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:330
+#, fuzzy
 msgid "Incorrect authentication code."
-msgstr ""
+msgstr "Code d'authentication incorrect"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:333
 msgid "The account is not activated."
@@ -824,8 +824,9 @@ msgid "OK"
 msgstr "OK"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2169
+#, fuzzy
 msgid "Current phase"
-msgstr ""
+msgstr "Phase en cours"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2228
 msgid "Select phase"
@@ -1002,12 +1003,14 @@ msgid "There are no questions in this phase."
 msgstr "Cette phase ne comprend aucune question."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3173
+#, fuzzy
 msgid "Previous chapter"
-msgstr ""
+msgstr "Chapitre précédent"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3178
+#, fuzzy
 msgid "Next chapter"
-msgstr ""
+msgstr "Chapitre suivant"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3289
 msgid "anonymous user"
@@ -2007,8 +2010,9 @@ msgid "Error"
 msgstr "Erreur"
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:43
+#, fuzzy
 msgid "There are no question tags configured for the knowledge model."
-msgstr ""
+msgstr "Il n'y a pas de étiquettes de questions configurées pour le modèle de connaissances."
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:63
 msgid "Untitled question tag"
@@ -3020,8 +3024,9 @@ msgid "Create migration"
 msgstr "Créer une migration"
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/Update.elm:137
+#, fuzzy
 msgid "Knowledge model could not be created."
-msgstr ""
+msgstr "Le modèle de connaissances n'a pas pu être créé."
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:40
 msgid "Create knowledge model"
@@ -3033,8 +3038,9 @@ msgid "Knowledge model ID can only contain alphanumeric characters, hyphens, und
 msgstr ""
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:98
+#, fuzzy
 msgid "You can create a new knowledge model based on the existing one or start from scratch."
-msgstr ""
+msgstr "Vous pouvez créer un nouveau modèle de connaissances basé sur un modèle existant ou à partir de zéro."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:351
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:543
@@ -3935,8 +3941,9 @@ msgid "Remove validation"
 msgstr "Supprimer la validation"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:771
+#, fuzzy
 msgid "Validation Type"
-msgstr ""
+msgstr "Type de validation"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:799
 msgid "Add validation"
@@ -4049,8 +4056,9 @@ msgid "Check the knowledge model's metadata before publishing. You change them i
 msgstr "Vérifiez les métadonnées du modèle de connaissances avant de le publier. Vous les modifiez dans %s."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:124
+#, fuzzy
 msgid "Knowledge model could not be saved."
-msgstr ""
+msgstr "Le modèle de connaissances n'a pas pu être enregistré."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:215
 msgid "This is not the latest version of the parent knowledge model."
@@ -4127,8 +4135,9 @@ msgid "Migration could not be cancelled."
 msgstr "La migration n'a pas pu être annulée."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:59
+#, fuzzy
 msgid "Click \"Create\" button to add a new knowledge model editor."
-msgstr ""
+msgstr "Cliquez sur le bouton \"Créer\" pour ajouter un nouvel éditeur de modèle de connaissances."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:67
 msgid "Search KM editors..."
@@ -4139,12 +4148,14 @@ msgid "Last published version"
 msgstr "Dernière version publiée"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:130
+#, fuzzy
 msgid "There is a new version of parent knowledge model"
-msgstr ""
+msgstr "Il y a une nouvelle version du modèle de connaissances parent."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:136
+#, fuzzy
 msgid "This editor is in the process of migration to a new parent knowledge model"
-msgstr ""
+msgstr "Cet éditeur est en cours de migration vers un nouveau modèle de connaissances parent."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:137
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:702
@@ -4152,16 +4163,18 @@ msgid "migrating"
 msgstr "migrer"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:141
+#, fuzzy
 msgid "This editor has been migrated to a new parent knowledge model, you can publish it now"
-msgstr ""
+msgstr "Cet éditeur a été migré vers un nouveau modèle de connaissances parent, vous pouvez le publier maintenant."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:142
 msgid "migrated"
 msgstr "migré"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:145
+#, fuzzy
 msgid "This editor contains unpublished changes"
-msgstr ""
+msgstr "Cet éditeur contient des modifications non publiées."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:188
 msgid "Open Editor"
@@ -4387,16 +4400,18 @@ msgid "Publish new version"
 msgstr "Publier une nouvelle version"
 
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:76
+#, fuzzy
 msgid "Choose a %s so others can use your knowledge model."
-msgstr ""
+msgstr "Choisissez un %s pour que d'autres puissent utiliser votre modèle de connaissances."
 
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:78
 msgid "license"
 msgstr "licence"
 
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:81
+#, fuzzy
 msgid "Short description of the knowledge model."
-msgstr ""
+msgstr "Brève description du modèle de connaissances."
 
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:90
 msgid "No version of this package has been published yet."
@@ -4436,8 +4451,9 @@ msgid "This is a non-editable knowledge model, i.e., it cannot be edited, forked
 msgstr "Il s'agit d'un modèle de connaissance non modifiable, c'est-à-dire qu'il ne peut être ni édité, ni forked, ni exporté."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Detail/View.elm:97
+#, fuzzy
 msgid "This is not the latest available version of this knowledge model."
-msgstr ""
+msgstr "Ceci n'est pas la dernière version disponible de ce modèle de connaissances."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Detail/View.elm:169
 msgid "Fork of"
@@ -4465,12 +4481,14 @@ msgid "Unable to import the package."
 msgstr "Impossible d'importer le paquet."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/RegistryImport/View.elm:68
+#, fuzzy
 msgid "You can find knowledge models in %s."
-msgstr ""
+msgstr "Vous pouvez trouver des modèles de connaissances dans %s."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/RegistryImport/View.elm:84
+#, fuzzy
 msgid "Knowledge model %s has been imported!"
-msgstr ""
+msgstr "Le modèle de connaissances %s a été importé !"
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/View.elm:45
 msgid "From OWL"
@@ -4481,12 +4499,14 @@ msgid "This doesn't look like a knowledge model. Are you sure you picked the cor
 msgstr "Ce fichier ne ressemble pas à un modèle de connaissances. Est-ce le correct fichier ?"
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/Update.elm:54
+#, fuzzy
 msgid "Knowledge model could not be updated."
-msgstr ""
+msgstr "Le modèle de connaissances n'a pas pu être mis à jour."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/View.elm:62
+#, fuzzy
 msgid "Click \"Import\" button to import a new knowledge model."
-msgstr ""
+msgstr "Cliquez sur le bouton \"Importer\" pour importer un nouveau modèle de connaissances."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/View.elm:70
 msgid "Search KMs..."
@@ -4904,16 +4924,18 @@ msgid "Original question tags"
 msgstr "Étiquettes de questions originales"
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:78
+#, fuzzy
 msgid "Select knowledge model first"
-msgstr ""
+msgstr "Sélectionnez d'abord le modèle de connaissances"
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:81
 msgid "Create Migration"
 msgstr "Créer une migration"
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:82
+#, fuzzy
 msgid "A new project is created for the migration. The original will remain unchanged until the migration is finished."
-msgstr ""
+msgstr "Un nouveau projet est créé pour la migration. L'original restera inchangé jusqu'à ce que la migration soit terminée. Mais attention, une fois celle-ci conclue, l'original ne sera plus disponible. Pensez à cloner le projet si souhaité."
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:89
 msgid "Original Knowledge Model"
@@ -4981,8 +5003,9 @@ msgid "Before you can use preview you need to update the default document templa
 msgstr "Avant de pouvoir afficher l'aperçu, vous devez mettre à jour le modèle de documents par défaut."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:230
+#, fuzzy
 msgid "Ask the project owner to update the default document template."
-msgstr ""
+msgstr "Demandez au propriétaire du projet de mettre à jour le modèle de documents par défaut."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:235
 msgid "Default document template is no longer supported."
@@ -5992,8 +6015,9 @@ msgid "Fill in your DSW Registry token. If you don't have one, you need sign up 
 msgstr "Renseignez votre jeton de DSW Registry. Si vous n'en avez pas, vous devez d'abord vous inscrire."
 
 #: engine-wizard/elm/Wizard/Settings/Registry/View.elm:92
+#, fuzzy
 msgid "If enabled, you can import knowledge models and document templates directly from [DSW Registry](https://registry.ds-wizard.org)."
-msgstr ""
+msgstr "Si cette option est activée, vous pouvez importer des modèles de connaissances et des modèles de documents directement depuis [DSW Registry] (https://registry.ds-wizard.org)."
 
 #: engine-wizard/elm/Wizard/Settings/Registry/View.elm:141
 msgid "Organization Name"

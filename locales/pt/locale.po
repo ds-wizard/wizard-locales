@@ -3,7 +3,7 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.2.0\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 08:22+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Portuguese <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/pt/>\nLanguage: pt\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.9.2\n"
+msgstr "Project-Id-Version: wizard-client:4.2.0\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 08:56+0000\nLast-Translator: DeepL <noreply-mt-deepl@weblate.org>\nLanguage-Team: Portuguese <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/pt/>\nLanguage: pt\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -3412,7 +3412,7 @@ msgstr "Multi-escolha"
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:834
 #, fuzzy
 msgid "Item Select"
-msgstr "Selecione o item"
+msgstr "Multi-escolha"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:842
 #, fuzzy
@@ -3784,7 +3784,7 @@ msgstr "Se o JSON devolvido não for uma matriz de itens diretamente, mas os ite
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1710
 #, fuzzy
 msgid "Use this to define an identifier for the item. This will be used in **Item URL** as `${id}` to compose a URL to the found item. You can use properties from the returned item in Jinja2 notation. For example, if the item has a field `id` use `{{item.id}}` here. You can also compose multiple fields together, e.g., `{{item.field1}}-{{item.field2}}`."
-msgstr "Utilize esta opção para definir um identificador para o item. Este será utilizado no **Item URL** como `${id}` para compor uma URL para o item encontrado. Você pode usar propriedades do item retornado na notação Jinja2. Por exemplo, se o item tem um campo `id` use `{{item.id}}` aqui. Você também pode compor múltiplos campos juntos, por exemplo, `{{item.field1}}-{{item.field2}}`."
+msgstr "Utilize esta opção para definir um identificador para o item. Este será utilizado no **Item URL** como `${id}` para compor uma URL para o item encontrado. Você pode usar propriedades do item retornado na notação Jinja2. Por exemplo, se o item tem um campo `id` use `{{item.id}}` aqui. Também pode compor vários campos juntos, por exemplo, `{{item.field1}}-{{item.field2}}`."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1713
 #, fuzzy
@@ -3840,7 +3840,7 @@ msgstr "Uma cadeia de caracteres que identifica a integração. Tem de ser únic
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1817
 #, fuzzy
 msgid "A name visible everywhere else in the knowledge model Editor, such as when choosing the integration for a question."
-msgstr "Um nome visível em qualquer outro lugar no Editor de modelos de conhecimento, como quando escolhe a integração para uma pergunta."
+msgstr "Um nome visível em qualquer outro lugar no Editor do modelo de conhecimento, como quando escolhe a integração para uma pergunta."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1819
 #, fuzzy
@@ -4050,7 +4050,7 @@ msgstr "Tem a certeza de que pretende apagar esta referência?"
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2498
 #, fuzzy
 msgid "Are you sure you want to delete this expert?"
-msgstr "Tem a certeza de que pretende eliminar este especialista?"
+msgstr "Tem a certeza de que pretende eliminar este perito?"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2507
 #, fuzzy
@@ -4126,7 +4126,7 @@ msgstr "Número mínimo"
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:859
 #, fuzzy
 msgid "Max Number"
-msgstr "Número máximo"
+msgstr "Número mínimo"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:865
 #, fuzzy
@@ -4233,7 +4233,7 @@ msgstr "O modelo de conhecimento não pôde ser guardado."
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:215
 #, fuzzy
 msgid "This is not the latest version of the parent knowledge model."
-msgstr "Esta não é a versão mais recente do modelo de conhecimento dos pais."
+msgstr "Esta não é a versão mais recente do modelo de conhecimentos dos pais."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:227
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:167
@@ -4395,7 +4395,7 @@ msgstr "Não consegue resolver o conflito."
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:89
 #, fuzzy
 msgid "Migration state is corrupted."
-msgstr "O estado de migração está corrompido."
+msgstr "O estado da migração está corrompido."
 
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:118
 #, fuzzy
@@ -4435,7 +4435,7 @@ msgstr "Eliminar métrica"
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:183
 #, fuzzy
 msgid "Edit phase"
-msgstr "Editar fase"
+msgstr "Eliminar métrica"
 
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:189
 #, fuzzy
@@ -5068,7 +5068,7 @@ msgstr "Não existem importadores de projectos disponíveis."
 #: engine-wizard/elm/Wizard/ProjectImporters/Index/View.elm:43
 #, fuzzy
 msgid "Search importers..."
-msgstr "Pesquise importadores..."
+msgstr "Importadores de projectos"
 
 #: engine-wizard/elm/Wizard/Projects/Common/CloneProjectModal/Update.elm:68
 #, fuzzy
@@ -5104,7 +5104,7 @@ msgstr "Clone"
 #: engine-wizard/elm/Wizard/Projects/Common/DeleteProjectModal/Update.elm:74
 #, fuzzy
 msgid "Project could not be deleted."
-msgstr "Não foi possível eliminar o projeto."
+msgstr "O projeto não pôde ser eliminado."
 
 #: engine-wizard/elm/Wizard/Projects/Common/DeleteProjectModal/View.elm:32
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings/DeleteModal.elm:119
@@ -5115,12 +5115,12 @@ msgstr "Eliminar projeto"
 #: engine-wizard/elm/Wizard/Projects/Common/QuestionnaireShareFormMemberPermType.elm:61
 #, fuzzy
 msgid "Viewer"
-msgstr "Visualizador"
+msgstr "Eliminar projeto"
 
 #: engine-wizard/elm/Wizard/Projects/Common/QuestionnaireShareFormMemberPermType.elm:62
 #, fuzzy
 msgid "Commenter"
-msgstr "O processo de registo falhou."
+msgstr "O evento não está ligado a nenhuma entidade no Modelo de Conhecimento."
 
 #: engine-wizard/elm/Wizard/Projects/Common/QuestionnaireShareFormMemberPermType.elm:64
 #, fuzzy
@@ -5522,7 +5522,7 @@ msgstr "Qualquer pessoa que tenha a ligação pode %s o projeto."
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/Update.elm:108
 #, fuzzy
 msgid "Document was successfully deleted."
-msgstr "O documento foi eliminado com êxito."
+msgstr "O documento foi eliminado com sucesso."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:91
 #, fuzzy
@@ -5672,7 +5672,7 @@ msgstr[1] "%s erros encontrados"
 #: engine-wizard/elm/Wizard/Projects/Import/View.elm:176
 #, fuzzy
 msgid "Questionnaire Changes"
-msgstr "Algo correu mal, tente atualizar a página."
+msgstr "Qualquer pessoa que tenha a ligação pode %s o projeto."
 
 #: engine-wizard/elm/Wizard/Projects/Import/View.elm:179
 #, fuzzy
@@ -5780,7 +5780,7 @@ msgstr "Finalize a migração"
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:46
 #, fuzzy
 msgid "No changes to review"
-msgstr "Não há alterações a fazer à revisão"
+msgstr "Não há alterações a registar"
 
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:48
 #, fuzzy
@@ -5815,7 +5815,7 @@ msgstr "Anular"
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:129
 #, fuzzy
 msgid "Resolve"
-msgstr "Resolva"
+msgstr "Pode finalizar a migração em segurança."
 
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:137
 #, fuzzy
@@ -5875,7 +5875,7 @@ msgstr "Termos de serviço"
 #: engine-wizard/elm/Wizard/Public/Signup/View.elm:94
 #, fuzzy
 msgid "I have read %s and %s."
-msgstr "Já li %s e %s."
+msgstr "Eu li %s e %s."
 
 #: engine-wizard/elm/Wizard/Public/Auth/View.elm:51
 #: engine-wizard/elm/Wizard/Public/Auth/View.elm:56
@@ -5986,7 +5986,7 @@ msgstr "Verificar"
 #: engine-wizard/elm/Wizard/Public/LogoutSuccessful/View.elm:14
 #, fuzzy
 msgid "Logged out"
-msgstr "Terminou a sessão"
+msgstr "Verificar"
 
 #: engine-wizard/elm/Wizard/Public/LogoutSuccessful/View.elm:15
 #, fuzzy
@@ -6049,7 +6049,7 @@ msgstr "Filiação"
 #: engine-wizard/elm/Wizard/Public/Signup/View.elm:150
 #, fuzzy
 msgid "Password again"
-msgstr "Volte a introduzir a palavra-passe"
+msgstr "Palavra-passe novamente"
 
 #: engine-wizard/elm/Wizard/Public/SignupConfirmation/View.elm:29
 #, fuzzy
@@ -6075,7 +6075,7 @@ msgstr "Autenticação"
 #: engine-wizard/elm/Wizard/Settings/Authentication/View.elm:63
 #, fuzzy
 msgid "Code Length"
-msgstr "Código Comprimento"
+msgstr "Autenticação"
 
 #: engine-wizard/elm/Wizard/Settings/Authentication/View.elm:64
 #: engine-wizard/elm/Wizard/Users/Edit/Components/ApiKeys.elm:220
@@ -6291,7 +6291,7 @@ msgstr "Exibição no ecrã de início de sessão, visível para todos."
 #: engine-wizard/elm/Wizard/Settings/Generic/Update.elm:68
 #, fuzzy
 msgid "Unable to load settings."
-msgstr "Não é possível carregar as definições."
+msgstr "Adicionar serviço"
 
 #: engine-wizard/elm/Wizard/Settings/Generic/Update.elm:92
 #, fuzzy
@@ -6672,7 +6672,7 @@ msgstr "Propriedades do utilizador"
 #: engine-wizard/elm/Wizard/Settings/Submission/View.elm:115
 #, fuzzy
 msgid "You can create properties that can be set by each user in their profile. Then, you can use these properties in the request settings. For example, if you want each user to use their own authorization token, you can create a property called `Token` and use it in request headers as `${Token}`. Users will be able to set the token in their profile settings."
-msgstr "Pode criar propriedades que podem ser definidas por cada utilizador no seu perfil. Em seguida, pode utilizar essas propriedades nas configurações do pedido. Por exemplo, se pretender que cada utilizador utilize o seu próprio token de autorização, pode criar uma propriedade chamada `Token` e utilizá-la nos cabeçalhos dos pedidos como `${Token}`. Os utilizadores poderão definir o token nas suas definições de perfil."
+msgstr "Pode criar propriedades que podem ser definidas por cada utilizador no seu perfil. Depois, pode utilizar estas propriedades nas definições do pedido. Por exemplo, se pretender que cada utilizador utilize o seu próprio token de autorização, pode criar uma propriedade chamada `Token` e utilizá-la nos cabeçalhos dos pedidos como `${Token}`. Os utilizadores poderão definir o token nas suas definições de perfil."
 
 #: engine-wizard/elm/Wizard/Settings/Submission/View.elm:116
 #, fuzzy
@@ -6944,7 +6944,7 @@ msgstr "Não é possível obter o utilizador."
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Profile.elm:142
 #, fuzzy
 msgid "Profile was successfully updated."
-msgstr "Anotações"
+msgstr "Partilhado com %s utilizadores."
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Profile.elm:151
 #, fuzzy
@@ -7019,7 +7019,7 @@ msgstr "Não foi possível eliminar o utilizador."
 #: engine-wizard/elm/Wizard/Users/Index/View.elm:52
 #, fuzzy
 msgid "Click \"Create\" button to add a new User."
-msgstr "Código da língua"
+msgstr "Iniciou sessão em %s"
 
 #: engine-wizard/elm/Wizard/Users/Index/View.elm:62
 #, fuzzy

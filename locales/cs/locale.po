@@ -3,8 +3,9 @@
 # Jan Slifka <jan.slifka@ds-wizard.org>, 2023.
 # Jana Martínková <j.martinkova@outlook.com>, 2024, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# DeepL <noreply-mt-deepl@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 08:22+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 5.9.2\n"
+msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 08:22+0000\nLast-Translator: DeepL <noreply-mt-deepl@weblate.org>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -261,8 +262,9 @@ msgid "A hash query param has to be provided."
 msgstr "Parametr dotazu \"hash\" musí být poskytnutý."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:174
+#, fuzzy
 msgid "Knowledge model editor not found."
-msgstr ""
+msgstr "Editor znalostního modelu nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:177
 #, fuzzy
@@ -270,76 +272,94 @@ msgid "Document not found."
 msgstr "Dokument nebyl nalezen"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:180
+#, fuzzy
 msgid "Document template not found."
-msgstr ""
+msgstr "Šablona dokumentu nebyla nalezena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:183
+#, fuzzy
 msgid "Document template draft not found."
-msgstr ""
+msgstr "Návrh šablony dokumentu nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:186
+#, fuzzy
 msgid "Document template asset not found."
-msgstr ""
+msgstr "Šablona dokumentu nebyla nalezena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:189
+#, fuzzy
 msgid "Document template file not found."
-msgstr ""
+msgstr "Soubor šablony dokumentu nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:192
+#, fuzzy
 msgid "Knowledge model migration not found."
-msgstr ""
+msgstr "Migrace znalostního modelu nebyla nalezena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:195
+#, fuzzy
 msgid "Locale not found."
-msgstr ""
+msgstr "Locale nebylo nalezeno."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:198
+#, fuzzy
 msgid "Knowledge model not found."
-msgstr ""
+msgstr "Znalostní model nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:201
+#, fuzzy
 msgid "Project not found."
-msgstr ""
+msgstr "Projekt nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:204
+#, fuzzy
 msgid "Project action not found."
-msgstr ""
+msgstr "Akce projektu nebyla nalezena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:207
+#, fuzzy
 msgid "Comment not found."
-msgstr ""
+msgstr "Komentář nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:210
+#, fuzzy
 msgid "Comment thread not found."
-msgstr ""
+msgstr "Vlákno komentářů nebylo nalezeno."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:213
+#, fuzzy
 msgid "Project file not found."
-msgstr ""
+msgstr "Soubor projektu nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:216
+#, fuzzy
 msgid "Project importer not found."
-msgstr ""
+msgstr "Importér projektu nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:219
+#, fuzzy
 msgid "Project migration not found."
-msgstr ""
+msgstr "Migrace projektu nebyla nalezena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:222
+#, fuzzy
 msgid "Project version not found."
-msgstr ""
+msgstr "Verze projektu nebyla nalezena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:225
+#, fuzzy
 msgid "User not found."
-msgstr ""
+msgstr "Uživatel nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:228
+#, fuzzy
 msgid "User group not found."
-msgstr ""
+msgstr "Skupina uživatelů nebyla nalezena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:231
+#, fuzzy
 msgid "Not found."
-msgstr ""
+msgstr "Nenalezeno."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:234
 msgid "App ID is already used."
@@ -503,20 +523,24 @@ msgid "This is a weak password."
 msgstr "Toto je slabé heslo."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:128
+#, fuzzy
 msgid "Fill in a valid organization ID."
-msgstr ""
+msgstr "Vyplňte platné ID organizace."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:133
+#, fuzzy
 msgid "Fill in a valid knowledge model ID."
-msgstr ""
+msgstr "Vyplňte platné ID znalostního modelu."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:138
+#, fuzzy
 msgid "Fill in a valid document template ID."
-msgstr ""
+msgstr "Vyplňte platné ID šablony dokumentu."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:143
+#, fuzzy
 msgid "Fill in a valid locale ID."
-msgstr ""
+msgstr "Vyplňte platné ID lokality."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:148
 #: engine-shared/elm/Shared/Form/Validate.elm:153
@@ -1083,12 +1107,14 @@ msgid "This item contains no questions."
 msgstr "Tato položka neobsahuje žádné otázky."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3612
+#, fuzzy
 msgid "Move up"
-msgstr ""
+msgstr "Posun nahoru"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3625
+#, fuzzy
 msgid "Move down"
-msgstr ""
+msgstr "Přesun dolů"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3733
 msgid "This is not a valid email address."
@@ -1182,8 +1208,9 @@ msgid "Are you sure you want to remove this item?"
 msgstr "Opravdu chcete odstranit tuto položku?"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4358
+#, fuzzy
 msgid "Remove item"
-msgstr ""
+msgstr "Odebrat položku"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4361
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Settings.elm:400
@@ -1346,8 +1373,9 @@ msgid "Unable to upload the file."
 msgstr "Soubor nelze nahrát."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:199
+#, fuzzy
 msgid "File upload is not available in the knowledge model editor"
-msgstr ""
+msgstr "V editoru znalostního modelu není k dispozici nahrávání souborů"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:207
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1095
@@ -2472,8 +2500,9 @@ msgstr "ID šablony dokumentu"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Create/View.elm:91
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Settings.elm:286
+#, fuzzy
 msgid "Document template ID can only contain alphanumeric characters, hyphens, underscores, and dots."
-msgstr ""
+msgstr "ID šablony dokumentu může obsahovat pouze alfanumerické znaky, pomlčky, podtržítka a tečky."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Create/View.elm:93
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:97
@@ -2619,8 +2648,9 @@ msgid "Preview not set"
 msgstr "Náhled není nastavený"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:408
+#, fuzzy
 msgid "Select a project or knowledge model editor and format you want to preview."
-msgstr ""
+msgstr "Vyberte projekt nebo editor znalostního modelu a formát, který chcete zobrazit v náhledu."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:431
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:163
@@ -3040,13 +3070,15 @@ msgid "Knowledge model could not be created."
 msgstr "Znalostní model nemohl být vytvořen."
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:40
+#, fuzzy
 msgid "Create knowledge model"
-msgstr ""
+msgstr "Vytvoření znalostního modelu"
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:95
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:191
+#, fuzzy
 msgid "Knowledge model ID can only contain alphanumeric characters, hyphens, underscores, and dots."
-msgstr ""
+msgstr "ID znalostního modelu může obsahovat pouze alfanumerické znaky, pomlčky, podtržítka a tečky."
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:98
 #, fuzzy
@@ -3745,8 +3777,9 @@ msgid "A string that identifies the integration. It has to be unique for each in
 msgstr "Řetězec identifikující integraci, který musí být unikátní pro každou integraci."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1817
+#, fuzzy
 msgid "A name visible everywhere else in the knowledge model Editor, such as when choosing the integration for a question."
-msgstr ""
+msgstr "Název viditelný všude jinde v Editoru modelu znalostí, například při výběru integrace pro otázku."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1819
 msgid "Logo is displayed next to the link to the selected item in questionnaires. It can be either URL or base64 image."
@@ -4230,8 +4263,9 @@ msgid "The event is not connected to any entity in the Knowledge Model."
 msgstr "Tato událost není navázaná na žádnou entitu ve znalostním modelu."
 
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:158
+#, fuzzy
 msgid "Edit knowledge model"
-msgstr ""
+msgstr "Úprava modelu znalostí"
 
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:167
 msgid "Edit metric"
@@ -4592,8 +4626,9 @@ msgid "Locale ID"
 msgstr "ID překladu"
 
 #: engine-wizard/elm/Wizard/Locales/Create/View.elm:52
+#, fuzzy
 msgid "Locale ID can only contain alphanumeric characters, hyphens, underscores, and dots."
-msgstr ""
+msgstr "ID lokality může obsahovat pouze alfanumerické znaky, pomlčky, podtržítka a tečky."
 
 #: engine-wizard/elm/Wizard/Locales/Create/View.elm:53
 msgid "Locale Version"
@@ -5366,12 +5401,14 @@ msgid "You can safely finalize the migration."
 msgstr "Můžete bezpečně dokončit migraci."
 
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:86
+#, fuzzy
 msgid "Source knowledge model"
-msgstr ""
+msgstr "Model zdrojových znalostí"
 
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:90
+#, fuzzy
 msgid "Target knowledge model"
-msgstr ""
+msgstr "Cílový model znalostí"
 
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:122
 msgid "Change already resolved"
@@ -5858,8 +5895,9 @@ msgid "Name of the organization running this instance."
 msgstr "Název organizace provozující tuto instanci."
 
 #: engine-wizard/elm/Wizard/Settings/Organization/View.elm:51
+#, fuzzy
 msgid "Organization ID is used to identify knowledge models created in this instance. It can only contain alphanumeric characters, hyphens, underscores, and dots."
-msgstr ""
+msgstr "ID organizace se používá k identifikaci znalostních modelů vytvořených v tomto případě. Může obsahovat pouze alfanumerické znaky, pomlčky, podtržítka a tečky."
 
 #: engine-wizard/elm/Wizard/Settings/PrivacyAndSupport/View.elm:28
 #: engine-wizard/elm/Wizard/Settings/View.elm:118

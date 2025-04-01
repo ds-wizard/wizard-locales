@@ -4,7 +4,7 @@
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 08:22+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Spanish <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/es/>\nLanguage: es\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.9.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 08:56+0000\nLast-Translator: DeepL <noreply-mt-deepl@weblate.org>\nLanguage-Team: Spanish <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/es/>\nLanguage: es\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -2611,7 +2611,7 @@ msgstr "El nombre no puede estar vacío."
 #: engine-wizard/elm/Wizard/KMEditor/Index/Update.elm:125
 #, fuzzy
 msgid "Unable to get knowledge model editors."
-msgstr "No se pueden obtener editores de modelos de conocimiento."
+msgstr "Imposible obtener editores de modelos de conocimiento."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:277
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:105
@@ -3363,7 +3363,7 @@ msgstr "Plantilla de elementos de respuesta vacíos para la integración"
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1216
 #, fuzzy
 msgid "Empty widget URL for integration"
-msgstr "URL vacía del widget para la integración"
+msgstr "Plantilla de elementos de respuesta vacíos para la integración"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1230
 #, fuzzy
@@ -3942,7 +3942,7 @@ msgstr "La URL del widget implementado utilizando [DSW Integration SDK](https://
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1741
 #, fuzzy
 msgid "Defines the URL to the selected item. Use `${id}` value returned from the widget, for example `https://example.com/${id}`."
-msgstr "Define la URL del elemento seleccionado. Utiliza el valor `${id}` devuelto por el widget, por ejemplo `https://example.com/${id}`."
+msgstr "Define la dirección URL del elemento seleccionado. Utiliza el valor `${id}` devuelto por el widget, por ejemplo `https://example.com/${id}`."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1746
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2272
@@ -4291,7 +4291,7 @@ msgstr "Al tiempo"
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:901
 #, fuzzy
 msgid "Domain"
-msgstr "Dominio"
+msgstr "Al tiempo"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:994
 #, fuzzy
@@ -4488,7 +4488,7 @@ msgstr "Este editor ha sido migrado a un nuevo modelo de conocimiento padre, ya 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:142
 #, fuzzy
 msgid "migrated"
-msgstr "Este Editor ha sido migrado a un nuevo Modelo de Conocimiento padre, ya puede publicarlo."
+msgstr "Este editor ha sido migrado a un nuevo modelo de conocimiento padre, ya puede publicarlo"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:145
 #, fuzzy
@@ -4615,7 +4615,7 @@ msgstr "Editar pregunta"
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:253
 #, fuzzy
 msgid "Delete question"
-msgstr "Borrar pregunta"
+msgstr "Editar fase"
 
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:263
 #, fuzzy
@@ -4665,7 +4665,7 @@ msgstr "Editar la colección de recursos"
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:333
 #, fuzzy
 msgid "Delete resource collection"
-msgstr "Editar la colección de recursos"
+msgstr "Eliminar archivo"
 
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:343
 #, fuzzy
@@ -4808,7 +4808,7 @@ msgstr "Crear editor de KM"
 #: engine-wizard/elm/Wizard/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:98
 #, fuzzy
 msgid "Fork KM"
-msgstr "Horquilla KM"
+msgstr "Abra"
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:110
 #: engine-wizard/elm/Wizard/KnowledgeModels/Preview/View.elm:68
@@ -4975,7 +4975,7 @@ msgstr "Archivo PO"
 #: engine-wizard/elm/Wizard/Locales/Detail/View.elm:163
 #, fuzzy
 msgid "Language Code"
-msgstr "Código de idioma"
+msgstr "Archivo PO"
 
 #: engine-wizard/elm/Wizard/Locales/Create/View.elm:51
 #: engine-wizard/elm/Wizard/Locales/Import/RegistryImport/View.elm:48
@@ -4986,7 +4986,7 @@ msgstr "ID de localidad"
 #: engine-wizard/elm/Wizard/Locales/Create/View.elm:52
 #, fuzzy
 msgid "Locale ID can only contain alphanumeric characters, hyphens, underscores, and dots."
-msgstr "El ID de localidad sólo puede contener caracteres alfanuméricos, guiones, guiones bajos y puntos."
+msgstr "El ID de localización sólo puede contener caracteres alfanuméricos, guiones, guiones bajos y puntos."
 
 #: engine-wizard/elm/Wizard/Locales/Create/View.elm:53
 #, fuzzy
@@ -5413,7 +5413,7 @@ msgstr "Crear migración"
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:82
 #, fuzzy
 msgid "A new project is created for the migration. The original will remain unchanged until the migration is finished."
-msgstr "Se crea un nuevo proyecto para la migración. El original permanecerá sin cambios hasta que finalice la migración."
+msgstr "Se crea un nuevo proyecto para la migración. El original permanecerá inalterado hasta que finalice la migración."
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:89
 #, fuzzy
@@ -5438,7 +5438,7 @@ msgstr "No se puede obtener el informe resumido."
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/NewDocument.elm:172
 #, fuzzy
 msgid "Unable to get questionnaire event."
-msgstr "No se puede obtener el evento del cuestionario."
+msgstr "Nuevo modelo de conocimiento"
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/NewDocument.elm:248
 #, fuzzy
@@ -5560,7 +5560,7 @@ msgstr "Esta plantilla de documento ha quedado obsoleta."
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:365
 #, fuzzy
 msgid "Default document format"
-msgstr "Formato de documento por defecto"
+msgstr "Esta plantilla de documento ha quedado obsoleta."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:374
 #, fuzzy
@@ -5824,7 +5824,7 @@ msgstr "Elemento añadido"
 #: engine-wizard/elm/Wizard/Projects/Import/View.elm:286
 #, fuzzy
 msgid "Added file"
-msgstr "Fichero añadido"
+msgstr "Archivo añadido"
 
 #: engine-wizard/elm/Wizard/Projects/Index/Update.elm:296
 #, fuzzy
@@ -5881,7 +5881,7 @@ msgstr "No se han encontrado etiquetas de proyecto"
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:355
 #, fuzzy
 msgid "No knowledge models found"
-msgstr "No se han encontrado modelos de conocimiento"
+msgstr "No se han encontrado etiquetas de proyecto"
 
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:488
 #, fuzzy
@@ -6613,7 +6613,7 @@ msgstr "Si se activa, los usuarios que no hayan iniciado sesión podrán crear p
 #: engine-wizard/elm/Wizard/Settings/Projects/View.elm:59
 #, fuzzy
 msgid "GitHub Repository Owner"
-msgstr "Propietario del repositorio GitHub"
+msgstr "Si se activa, los usuarios que no hayan iniciado sesión podrán crear proyectos a partir de modelos de conocimiento públicos."
 
 #: engine-wizard/elm/Wizard/Settings/Projects/View.elm:60
 #, fuzzy
@@ -6739,7 +6739,7 @@ msgstr "Ficha"
 #: engine-wizard/elm/Wizard/Settings/Registry/View.elm:83
 #, fuzzy
 msgid "Fill in your DSW Registry token. If you don't have one, you need sign up first."
-msgstr "Rellene su ficha del Registro DSW. Si no tiene una, debe registrarse primero."
+msgstr "Registro DSW"
 
 #: engine-wizard/elm/Wizard/Settings/Registry/View.elm:92
 #, fuzzy
@@ -6830,7 +6830,7 @@ msgstr "Multiparte"
 #: engine-wizard/elm/Wizard/Settings/Submission/View.elm:233
 #, fuzzy
 msgid "If enabled, file will be sent using multipart request. Otherwise, it will be directly in the request body."
-msgstr "Si está activada, el archivo se enviará utilizando la solicitud multiparte. En caso contrario, se incluirá directamente en el cuerpo de la solicitud."
+msgstr "Si se activa, el archivo se enviará utilizando la solicitud multiparte. En caso contrario, se incluirá directamente en el cuerpo de la solicitud."
 
 #: engine-wizard/elm/Wizard/Settings/Submission/View.elm:252
 #: engine-wizard/elm/Wizard/Settings/Submission/View.elm:258

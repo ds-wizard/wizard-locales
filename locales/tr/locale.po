@@ -3,17 +3,7 @@
 # Jana Martínková <j.martinkova@outlook.com>, 2024, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:3.18.3\n"
-"POT-Creation-Date: 2025-04-01T07:05:39.548Z \n"
-"PO-Revision-Date: 2025-03-31 11:06+0000\n"
-"Last-Translator: Jana Martínková <j.martinkova@outlook.com>\n"
-"Language-Team: Turkish <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-16-0/tr/>\n"
-"Language: tr\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 08:22+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Turkish <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/tr/>\nLanguage: tr\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -200,16 +190,19 @@ msgid "You do not have permission to view this page."
 msgstr "Bu sayfayı görüntülemek için izniniz yok."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:119
+#, fuzzy
 msgid "Knowledge model ID is already used."
-msgstr ""
+msgstr "Bilgi Modeli Tanımlayıcısı halihazırda kullanılıyor."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:122
+#, fuzzy
 msgid "Knowledge model already exists."
-msgstr ""
+msgstr "Bilgi Modeli halihazırda mevcut."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:125
+#, fuzzy
 msgid "Knowledge model metamodel version is not supported."
-msgstr ""
+msgstr "Bilgi Modeli metamodel sürümü desteklenmiyor."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:128
 msgid "Document template already exists."
@@ -271,8 +264,9 @@ msgid "Knowledge model editor not found."
 msgstr ""
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:177
+#, fuzzy
 msgid "Document not found."
-msgstr ""
+msgstr "Belge bulunamadı"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:180
 msgid "Document template not found."
@@ -355,8 +349,9 @@ msgid "File with this name already exists."
 msgstr "Bu ada sahip dosya halihazırda mevcut."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:240
+#, fuzzy
 msgid "Authentication code is not provided."
-msgstr ""
+msgstr "Kimlik Doğrulama Kodu sağlanmamıştır."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:243
 msgid "Profile Information from OpenID service is missing."
@@ -373,8 +368,9 @@ msgstr "Belge şablonu metamodel sürümü desteklenmiyor."
 #: engine-shared/elm/Shared/Error/ServerError.elm:260
 #: engine-shared/elm/Shared/Error/ServerError.elm:297
 #: engine-shared/elm/Shared/Error/ServerError.elm:300
+#, fuzzy
 msgid "Limit of %s reached (current: %s, limit: %s)."
-msgstr ""
+msgstr "%s sınırına ulaşıldı (geçerli: %s, sınır: %s)"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:261
 msgid "storage"
@@ -429,16 +425,19 @@ msgid "File \"%s\" was not found in archive."
 msgstr "\"%s\" dosyası arşivde bulunamadı."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:312
+#, fuzzy
 msgid "The locale not found in Registry."
-msgstr ""
+msgstr "Yerel ayar Kayıt Defterinde bulunamadı"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:315
+#, fuzzy
 msgid "Knowledge model cannot be deleted because it is used in some projects or knowledge model editors."
-msgstr ""
+msgstr "Bilgi Modeli, bazı Projelerde veya Bilgi Modeli Düzenleyicilerinde kullanıldığı için silinemez."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:318
+#, fuzzy
 msgid "The knowledge model was not found in the Registry."
-msgstr ""
+msgstr "Bilgi Modeli Kayıt Defterinde bulunamadı."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:321
 msgid "Project cannot be deleted because it is used in some project migration."
@@ -449,12 +448,14 @@ msgid "The document template was not found in the Registry."
 msgstr "Belge şablonu Kayıt Defterinde bulunamadı."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:327
+#, fuzzy
 msgid "Incorrect email or password."
-msgstr ""
+msgstr "Yanlış e-posta veya şifre"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:330
+#, fuzzy
 msgid "Incorrect authentication code."
-msgstr ""
+msgstr "Yanlış kimlik doğrulama kodu"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:333
 msgid "The account is not activated."
@@ -822,8 +823,9 @@ msgid "OK"
 msgstr "TAMAM."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2169
+#, fuzzy
 msgid "Current phase"
-msgstr ""
+msgstr "Mevcut Aşama"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2228
 msgid "Select phase"
@@ -1000,12 +1002,14 @@ msgid "There are no questions in this phase."
 msgstr "Bu aşamada soru bulunmamaktadır."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3173
+#, fuzzy
 msgid "Previous chapter"
-msgstr ""
+msgstr "Önceki Bölüm"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3178
+#, fuzzy
 msgid "Next chapter"
-msgstr ""
+msgstr "Sonraki Bölüm"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3289
 msgid "anonymous user"
@@ -2005,8 +2009,9 @@ msgid "Error"
 msgstr "Hata"
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:43
+#, fuzzy
 msgid "There are no question tags configured for the knowledge model."
-msgstr ""
+msgstr "Bilgi Modeli için yapılandırılmış soru etiketi yoktur."
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:63
 msgid "Untitled question tag"
@@ -3018,8 +3023,9 @@ msgid "Create migration"
 msgstr "Taşıma oluşturun"
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/Update.elm:137
+#, fuzzy
 msgid "Knowledge model could not be created."
-msgstr ""
+msgstr "Bilgi Modeli oluşturulamadı."
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:40
 msgid "Create knowledge model"
@@ -3031,8 +3037,9 @@ msgid "Knowledge model ID can only contain alphanumeric characters, hyphens, und
 msgstr ""
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:98
+#, fuzzy
 msgid "You can create a new knowledge model based on the existing one or start from scratch."
-msgstr ""
+msgstr "Mevcut Bilgi Modelini temel alarak yeni bir Bilgi Modeli oluşturabilir veya sıfırdan başlayabilirsiniz."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:351
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:543
@@ -3933,8 +3940,9 @@ msgid "Remove validation"
 msgstr "Doğrulamayı kaldırın"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:771
+#, fuzzy
 msgid "Validation Type"
-msgstr ""
+msgstr "Doğrulama türü"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:799
 msgid "Add validation"
@@ -4047,8 +4055,9 @@ msgid "Check the knowledge model's metadata before publishing. You change them i
 msgstr "Yayınlamadan önce bilgi modelinin meta verilerini kontrol edin. Bunları %s içinde değiştirirsiniz."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:124
+#, fuzzy
 msgid "Knowledge model could not be saved."
-msgstr ""
+msgstr "Bilgi Modeli kurtarılamadı."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:215
 msgid "This is not the latest version of the parent knowledge model."
@@ -4125,8 +4134,9 @@ msgid "Migration could not be cancelled."
 msgstr "Göç iptal edilememiştir."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:59
+#, fuzzy
 msgid "Click \"Create\" button to add a new knowledge model editor."
-msgstr ""
+msgstr "Yeni bir Bilgi Modeli Editörü eklemek için \"Oluştur\" düğmesine tıklayın."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:67
 msgid "Search KM editors..."
@@ -4137,12 +4147,14 @@ msgid "Last published version"
 msgstr "Son yayınlanan sürüm"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:130
+#, fuzzy
 msgid "There is a new version of parent knowledge model"
-msgstr ""
+msgstr "Ana Bilgi Modelinin yeni bir versiyonu var."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:136
+#, fuzzy
 msgid "This editor is in the process of migration to a new parent knowledge model"
-msgstr ""
+msgstr "Bu Editör yeni bir üst Bilgi Modeline geçiş sürecindedir."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:137
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:702
@@ -4150,16 +4162,18 @@ msgid "migrating"
 msgstr "göç etmek"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:141
+#, fuzzy
 msgid "This editor has been migrated to a new parent knowledge model, you can publish it now"
-msgstr ""
+msgstr "Bu Editör yeni bir üst Bilgi Modeline taşındı, artık yayınlayabilirsiniz."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:142
 msgid "migrated"
 msgstr "göç etti̇"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:145
+#, fuzzy
 msgid "This editor contains unpublished changes"
-msgstr ""
+msgstr "Bu Editör yayınlanmamış değişiklikler içermektedir."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:188
 msgid "Open Editor"
@@ -4385,16 +4399,18 @@ msgid "Publish new version"
 msgstr "Yeni sürümü yayınla"
 
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:76
+#, fuzzy
 msgid "Choose a %s so others can use your knowledge model."
-msgstr ""
+msgstr "Başkalarının Bilgi Modelinizi kullanabilmesi için bir %s seçin."
 
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:78
 msgid "license"
 msgstr "ruhsat"
 
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:81
+#, fuzzy
 msgid "Short description of the knowledge model."
-msgstr ""
+msgstr "Bilgi Modelinin kısa açıklaması."
 
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:90
 msgid "No version of this package has been published yet."
@@ -4434,8 +4450,9 @@ msgid "This is a non-editable knowledge model, i.e., it cannot be edited, forked
 msgstr "Bu düzenlenebilir olmayan bir bilgi modelidir, yani düzenlenemez, çatallanamaz veya dışa aktarılamaz."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Detail/View.elm:97
+#, fuzzy
 msgid "This is not the latest available version of this knowledge model."
-msgstr ""
+msgstr "Bu Bilgi Modelinin mevcut en son sürümü değildir."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Detail/View.elm:169
 msgid "Fork of"
@@ -4463,12 +4480,14 @@ msgid "Unable to import the package."
 msgstr "Paket içe aktarılamıyor."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/RegistryImport/View.elm:68
+#, fuzzy
 msgid "You can find knowledge models in %s."
-msgstr ""
+msgstr "Bilgi Modellerini %s içinde bulabilirsiniz."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/RegistryImport/View.elm:84
+#, fuzzy
 msgid "Knowledge model %s has been imported!"
-msgstr ""
+msgstr "Bilgi Modeli %s içe aktarıldı!"
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/View.elm:45
 msgid "From OWL"
@@ -4479,12 +4498,14 @@ msgid "This doesn't look like a knowledge model. Are you sure you picked the cor
 msgstr "Bu bir bilgi modeline benzemiyor. Doğru dosyayı seçtiğinizden emin misiniz?"
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/Update.elm:54
+#, fuzzy
 msgid "Knowledge model could not be updated."
-msgstr ""
+msgstr "Bilgi Modeli güncellenemedi."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/View.elm:62
+#, fuzzy
 msgid "Click \"Import\" button to import a new knowledge model."
-msgstr ""
+msgstr "Yeni bir Bilgi Modelini içe aktarmak için \"İçe Aktar\" düğmesine tıklayın."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/View.elm:70
 msgid "Search KMs..."
@@ -4902,16 +4923,18 @@ msgid "Original question tags"
 msgstr "Orijinal soru etiketleri"
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:78
+#, fuzzy
 msgid "Select knowledge model first"
-msgstr ""
+msgstr "Önce Bilgi Modelini seçin"
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:81
 msgid "Create Migration"
 msgstr "Göç Oluştur"
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:82
+#, fuzzy
 msgid "A new project is created for the migration. The original will remain unchanged until the migration is finished."
-msgstr ""
+msgstr "Geçiş için yeni bir Proje oluşturulur. Taşıma işlemi tamamlanana kadar orijinal proje değişmeden kalır."
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:89
 msgid "Original Knowledge Model"
@@ -4979,8 +5002,9 @@ msgid "Before you can use preview you need to update the default document templa
 msgstr "Önizlemeyi kullanabilmeniz için önce varsayılan belge şablonunu güncellemeniz gerekir."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:230
+#, fuzzy
 msgid "Ask the project owner to update the default document template."
-msgstr ""
+msgstr "Proje sahibinden varsayılan belge şablonunu güncellemesini isteyin."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:235
 msgid "Default document template is no longer supported."
@@ -5990,8 +6014,9 @@ msgid "Fill in your DSW Registry token. If you don't have one, you need sign up 
 msgstr "DSW Kayıt jetonunuzu doldurun. Eğer yoksa, önce kaydolmanız gerekir."
 
 #: engine-wizard/elm/Wizard/Settings/Registry/View.elm:92
+#, fuzzy
 msgid "If enabled, you can import knowledge models and document templates directly from [DSW Registry](https://registry.ds-wizard.org)."
-msgstr ""
+msgstr "Etkinleştirilirse, Bilgi Modellerini ve Belge Şablonlarını doğrudan [DSW Registry] (https://registry.ds-wizard.org) adresinden içe aktarabilirsiniz."
 
 #: engine-wizard/elm/Wizard/Settings/Registry/View.elm:141
 msgid "Organization Name"

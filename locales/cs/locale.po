@@ -6,7 +6,7 @@
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 08:56+0000\nLast-Translator: DeepL <noreply-mt-deepl@weblate.org>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 5.9.2\n"
+msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 09:00+0000\nLast-Translator: Jana Martínková <j.martinkova@outlook.com>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -264,37 +264,30 @@ msgid "Knowledge model editor not found."
 msgstr "Editor znalostního modelu nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:177
-#, fuzzy
 msgid "Document not found."
 msgstr "Dokument nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:180
-#, fuzzy
 msgid "Document template not found."
 msgstr "Šablona dokumentu nebyla nalezena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:183
-#, fuzzy
 msgid "Document template draft not found."
 msgstr "Návrh šablony dokumentu nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:186
-#, fuzzy
 msgid "Document template asset not found."
 msgstr "Komponenta šablony dokumentu nebyla nalezena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:189
-#, fuzzy
 msgid "Document template file not found."
 msgstr "Soubor šablony dokumentu nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:192
-#, fuzzy
 msgid "Knowledge model migration not found."
 msgstr "Migrace znalostního modelu nebyla nalezena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:195
-#, fuzzy
 msgid "Locale not found."
 msgstr "Překlad nebyl nalezen."
 
@@ -304,57 +297,46 @@ msgid "Knowledge model not found."
 msgstr "Znalostní model nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:201
-#, fuzzy
 msgid "Project not found."
 msgstr "Projekt nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:204
-#, fuzzy
 msgid "Project action not found."
 msgstr "Projektová akce nebyla nalezena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:207
-#, fuzzy
 msgid "Comment not found."
 msgstr "Komentář nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:210
-#, fuzzy
 msgid "Comment thread not found."
 msgstr "Vlákno komentářů nebylo nalezeno."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:213
-#, fuzzy
 msgid "Project file not found."
 msgstr "Soubor projektu nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:216
-#, fuzzy
 msgid "Project importer not found."
 msgstr "Importér projektu nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:219
-#, fuzzy
 msgid "Project migration not found."
 msgstr "Migrace projektu nebyla nalezena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:222
-#, fuzzy
 msgid "Project version not found."
 msgstr "Verze projektu nebyla nalezena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:225
-#, fuzzy
 msgid "User not found."
 msgstr "Uživatel nebyl nalezen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:228
-#, fuzzy
 msgid "User group not found."
 msgstr "Skupina uživatelů nebyla nalezena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:231
-#, fuzzy
 msgid "Not found."
 msgstr "Nenalezeno."
 
@@ -367,7 +349,6 @@ msgid "File with this name already exists."
 msgstr "Soubor s tímto jménem již existuje."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:240
-#, fuzzy
 msgid "Authentication code is not provided."
 msgstr "Chybí autentizační kód."
 
@@ -386,9 +367,8 @@ msgstr "Verze metamodelu šablony dokumentů není podporována."
 #: engine-shared/elm/Shared/Error/ServerError.elm:260
 #: engine-shared/elm/Shared/Error/ServerError.elm:297
 #: engine-shared/elm/Shared/Error/ServerError.elm:300
-#, fuzzy
 msgid "Limit of %s reached (current: %s, limit: %s)."
-msgstr "Limit %s překročen (aktuálně: %s, limit: %s)"
+msgstr "Limit %s překročen (aktuálně: %s, limit: %s)."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:261
 msgid "storage"
@@ -443,17 +423,14 @@ msgid "File \"%s\" was not found in archive."
 msgstr "Soubor \"%s\" nebyl nalezen v archivu."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:312
-#, fuzzy
 msgid "The locale not found in Registry."
-msgstr "Tento překlad nebyl nalezen ve službě Registry"
+msgstr "Tento překlad nebyl nalezen ve službě Registry."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:315
-#, fuzzy
 msgid "Knowledge model cannot be deleted because it is used in some projects or knowledge model editors."
-msgstr "Znalostní model nemůže být odstraněn, protože je použit v některých projektech nebo editorech modelů."
+msgstr "Znalostní model nemůže být odstraněn, protože je použit v některých projektech nebo editorech znalostních modelů."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:318
-#, fuzzy
 msgid "The knowledge model was not found in the Registry."
 msgstr "Tento znalostní model nebyl nalezen ve službě Registry."
 
@@ -466,14 +443,12 @@ msgid "The document template was not found in the Registry."
 msgstr "Šablona dokumentů nebyla nalezena v Registry."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:327
-#, fuzzy
 msgid "Incorrect email or password."
-msgstr "Nesprávný email nebo heslo"
+msgstr "Nesprávný email nebo heslo."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:330
-#, fuzzy
 msgid "Incorrect authentication code."
-msgstr "Nesprávný autentizační kód"
+msgstr "Nesprávný autentizační kód."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:333
 msgid "The account is not activated."
@@ -520,17 +495,14 @@ msgid "This is a weak password."
 msgstr "Toto je slabé heslo."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:128
-#, fuzzy
 msgid "Fill in a valid organization ID."
 msgstr "Vyplňte platné ID organizace."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:133
-#, fuzzy
 msgid "Fill in a valid knowledge model ID."
 msgstr "Vyplňte platné ID znalostního modelu."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:138
-#, fuzzy
 msgid "Fill in a valid document template ID."
 msgstr "Vyplňte platné ID šablony dokumentu."
 

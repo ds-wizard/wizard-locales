@@ -4,7 +4,7 @@
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 08:56+0000\nLast-Translator: DeepL <noreply-mt-deepl@weblate.org>\nLanguage-Team: Spanish <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/es/>\nLanguage: es\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.9.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 09:00+0000\nLast-Translator: DeepL <noreply-mt-deepl@weblate.org>\nLanguage-Team: Spanish <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/es/>\nLanguage: es\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -278,7 +278,7 @@ msgstr "No se ha encontrado la plantilla del documento."
 #: engine-shared/elm/Shared/Error/ServerError.elm:183
 #, fuzzy
 msgid "Document template draft not found."
-msgstr "No se ha encontrado el borrador de plantilla de documento."
+msgstr "No se ha encontrado el borrador del modelo de documento."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:186
 #, fuzzy
@@ -313,7 +313,7 @@ msgstr "Proyecto no encontrado."
 #: engine-shared/elm/Shared/Error/ServerError.elm:204
 #, fuzzy
 msgid "Project action not found."
-msgstr "Acción de proyecto no encontrada."
+msgstr "Modelo de conocimiento no encontrado."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:207
 #, fuzzy
@@ -2611,7 +2611,7 @@ msgstr "El nombre no puede estar vacío."
 #: engine-wizard/elm/Wizard/KMEditor/Index/Update.elm:125
 #, fuzzy
 msgid "Unable to get knowledge model editors."
-msgstr "Imposible obtener editores de modelos de conocimiento."
+msgstr "No se pueden obtener editores de modelos de conocimiento."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:277
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:105
@@ -2644,7 +2644,7 @@ msgstr "Vista previa no configurada"
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:408
 #, fuzzy
 msgid "Select a project or knowledge model editor and format you want to preview."
-msgstr "Seleccione un proyecto o un editor de modelos de conocimiento y el formato que desee previsualizar."
+msgstr "El ID de la plantilla de documento sólo puede contener caracteres alfanuméricos, guiones, guiones bajos y puntos."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:431
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:163
@@ -3527,7 +3527,7 @@ msgstr "Nunca"
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:846
 #, fuzzy
 msgid "Question"
-msgstr "Pregunta"
+msgstr "Nunca"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:857
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1563
@@ -4160,7 +4160,7 @@ msgstr "¿Está seguro de que desea eliminar esta colección de recursos?"
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2470
 #, fuzzy
 msgid "Are you sure you want to delete this resource page?"
-msgstr "¿Está seguro de que desea eliminar esta página de recursos?"
+msgstr "¿Está seguro de que desea eliminar esta colección de recursos?"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2477
 #, fuzzy
@@ -4380,7 +4380,7 @@ msgstr "Zona de peligro"
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:243
 #, fuzzy
 msgid "Delete this knowledge model editor"
-msgstr "Borrar este editor de modelos de conocimiento"
+msgstr "Modelo de conocimiento de los padres"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:245
 #, fuzzy
@@ -4595,7 +4595,7 @@ msgstr "Editar integración"
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:221
 #, fuzzy
 msgid "Delete integration"
-msgstr "Eliminar la integración"
+msgstr "Editar fase"
 
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:231
 #, fuzzy
@@ -4709,7 +4709,7 @@ msgstr "Experto en mudanzas"
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1955
 #, fuzzy
 msgid "Resource Page UUID"
-msgstr "UUID de la página de recursos"
+msgstr "Experto en mudanzas"
 
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1712
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1778
@@ -4880,7 +4880,7 @@ msgstr "¡El modelo de conocimiento %s ha sido importado!"
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/View.elm:45
 #, fuzzy
 msgid "From OWL"
-msgstr "De OWL"
+msgstr "Desde OWL"
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/View.elm:127
 #, fuzzy
@@ -4986,7 +4986,7 @@ msgstr "ID de localidad"
 #: engine-wizard/elm/Wizard/Locales/Create/View.elm:52
 #, fuzzy
 msgid "Locale ID can only contain alphanumeric characters, hyphens, underscores, and dots."
-msgstr "El ID de localización sólo puede contener caracteres alfanuméricos, guiones, guiones bajos y puntos."
+msgstr "El ID de localidad sólo puede contener caracteres alfanuméricos, guiones, guiones bajos y puntos."
 
 #: engine-wizard/elm/Wizard/Locales/Create/View.elm:53
 #, fuzzy
@@ -5095,7 +5095,7 @@ msgstr "Configuración regional por defecto a utilizar"
 #: engine-wizard/elm/Wizard/ProjectImporters/Index/View.elm:67
 #, fuzzy
 msgid "disabled"
-msgstr "desactivado"
+msgstr "Configuración regional por defecto a utilizar"
 
 #: engine-wizard/elm/Wizard/Locales/Index/View.elm:185
 #, fuzzy
@@ -5207,7 +5207,7 @@ msgstr "%s ha sido creado."
 #: engine-wizard/elm/Wizard/Projects/Common/CloneProjectModal/Update.elm:75
 #, fuzzy
 msgid "Unable to clone project."
-msgstr "No se puede clonar el proyecto."
+msgstr "%s ha sido creado."
 
 #: engine-wizard/elm/Wizard/Projects/Common/CloneProjectModal/View.elm:27
 #, fuzzy
@@ -5681,7 +5681,7 @@ msgstr "Hay un %s en curso. Termínela antes de poder continuar editando este pr
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:151
 #, fuzzy
 msgid "Another user has made significant changes to the questionnaire (e.g., reverting to a previous version). To ensure everyone is using the latest version, you’ve been disconnected."
-msgstr "Otro usuario ha realizado cambios significativos en el cuestionario (por ejemplo, volver a una versión anterior). Para asegurarse de que todo el mundo utiliza la última versión, se le ha desconectado."
+msgstr "Imposible obtener editores de modelos de conocimiento."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:152
 #, fuzzy
@@ -5759,7 +5759,7 @@ msgstr "Archivo no encontrado"
 #: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:56
 #, fuzzy
 msgid "Unable to get file"
-msgstr "No se puede obtener el archivo"
+msgstr "No tiene permiso para acceder a este archivo"
 
 #: engine-wizard/elm/Wizard/Projects/Import/Update.elm:98
 #, fuzzy
@@ -5926,7 +5926,7 @@ msgstr "Puede finalizar la migración de forma segura."
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:86
 #, fuzzy
 msgid "Source knowledge model"
-msgstr "Modelo de conocimiento de la fuente"
+msgstr "Pida al propietario del proyecto que actualice la plantilla de documento por defecto."
 
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:90
 #, fuzzy
@@ -6718,7 +6718,7 @@ msgstr "Si se activa, los usuarios pueden etiquetar sus proyectos y utilizar est
 #: engine-wizard/elm/Wizard/Settings/Registry/Update.elm:103
 #, fuzzy
 msgid "You have signed up for the Registry, you should receive a confirmation email soon."
-msgstr "Se ha inscrito en el Registro, debería recibir pronto un correo electrónico de confirmación."
+msgstr "Etiquetado de proyectos"
 
 #: engine-wizard/elm/Wizard/Settings/Registry/Update.elm:109
 #, fuzzy
@@ -6931,7 +6931,7 @@ msgstr "¿Está seguro de que desea revocar %s (inicio de sesión en %s)?"
 #: engine-wizard/elm/Wizard/Users/Edit/Components/ActiveSessions.elm:254
 #, fuzzy
 msgid "Revoke Active Session"
-msgstr "Revocar sesión activa"
+msgstr "¿Está seguro de que desea revocar %s (inicio de sesión en %s)?"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/ActiveSessions.elm:258
 #, fuzzy
@@ -7039,7 +7039,7 @@ msgstr "Claves de la aplicación"
 #: engine-wizard/elm/Wizard/Users/Edit/Components/AppKeys.elm:120
 #, fuzzy
 msgid "App keys are created when connecting various applications. You can disconnect them by deleting the app key."
-msgstr "Las claves de aplicación se crean al conectar varias aplicaciones. Puede desconectarlas borrando la app key."
+msgstr "Claves de la aplicación"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/AppKeys.elm:151
 #, fuzzy
@@ -7155,7 +7155,7 @@ msgstr "Pulse el botón \"Crear\" para añadir un nuevo Usuario."
 #: engine-wizard/elm/Wizard/Users/Index/View.elm:62
 #, fuzzy
 msgid "Last online"
-msgstr "Último en línea"
+msgstr "Pulse el botón \"Crear\" para añadir un nuevo Usuario."
 
 #: engine-wizard/elm/Wizard/Users/Index/View.elm:91
 #, fuzzy
@@ -7185,7 +7185,7 @@ msgstr "No se ha encontrado la página que busca."
 #: engine-wizard/elm/Wizard/View.elm:166
 #, fuzzy
 msgid "Not Allowed"
-msgstr "No permitido"
+msgstr "No se ha encontrado la página que busca."
 
 #: engine-wizard/elm/Wizard/View.elm:167
 #, fuzzy

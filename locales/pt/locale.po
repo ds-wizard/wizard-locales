@@ -3,7 +3,7 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.2.0\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 08:22+0000\nLast-Translator: DeepL <noreply-mt-deepl@weblate.org>\nLanguage-Team: Portuguese <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/pt/>\nLanguage: pt\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.9.2\n"
+msgstr "Project-Id-Version: wizard-client:4.2.0\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 08:22+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Portuguese <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/pt/>\nLanguage: pt\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -190,16 +190,19 @@ msgid "You do not have permission to view this page."
 msgstr "Não tem permissão para ver esta página."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:119
+#, fuzzy
 msgid "Knowledge model ID is already used."
-msgstr ""
+msgstr "O ID do modelo de conhecimento já está a ser utilizado."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:122
+#, fuzzy
 msgid "Knowledge model already exists."
-msgstr ""
+msgstr "O modelo de conhecimento já existe."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:125
+#, fuzzy
 msgid "Knowledge model metamodel version is not supported."
-msgstr ""
+msgstr "A versão do metamodelo do modelo de conhecimento não é suportada."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:128
 msgid "Document template already exists."
@@ -365,8 +368,9 @@ msgid "File with this name already exists."
 msgstr "Já existe um ficheiro com este nome."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:240
+#, fuzzy
 msgid "Authentication code is not provided."
-msgstr ""
+msgstr "Não foi fornecido um código de autenticação."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:243
 msgid "Profile Information from OpenID service is missing."
@@ -383,8 +387,9 @@ msgstr "A versão do metamodelo do modelo de documento não é suportada."
 #: engine-shared/elm/Shared/Error/ServerError.elm:260
 #: engine-shared/elm/Shared/Error/ServerError.elm:297
 #: engine-shared/elm/Shared/Error/ServerError.elm:300
+#, fuzzy
 msgid "Limit of %s reached (current: %s, limit: %s)."
-msgstr ""
+msgstr "Limite de %s atingido (atual: %s, limite: %s)"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:261
 msgid "storage"
@@ -439,16 +444,19 @@ msgid "File \"%s\" was not found in archive."
 msgstr "O ficheiro \"%s\" não foi encontrado no arquivo."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:312
+#, fuzzy
 msgid "The locale not found in Registry."
-msgstr ""
+msgstr "Localidade não encontrada no registo"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:315
+#, fuzzy
 msgid "Knowledge model cannot be deleted because it is used in some projects or knowledge model editors."
-msgstr ""
+msgstr "O modelo de conhecimento não pode ser eliminado porque está a ser utilizado em projectos ou em editores de modelos de conhecimento."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:318
+#, fuzzy
 msgid "The knowledge model was not found in the Registry."
-msgstr ""
+msgstr "O modelo de conhecimento não foi encontrado no registo."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:321
 msgid "Project cannot be deleted because it is used in some project migration."
@@ -459,12 +467,14 @@ msgid "The document template was not found in the Registry."
 msgstr "O modelo de documento não foi encontrado no registo."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:327
+#, fuzzy
 msgid "Incorrect email or password."
-msgstr ""
+msgstr "Endereço de e-mail ou palavra-passe incorretos"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:330
+#, fuzzy
 msgid "Incorrect authentication code."
-msgstr ""
+msgstr "Código de autenticação incorreto"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:333
 msgid "The account is not activated."
@@ -836,8 +846,9 @@ msgid "OK"
 msgstr "OK"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2169
+#, fuzzy
 msgid "Current phase"
-msgstr ""
+msgstr "Fase atual"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2228
 msgid "Select phase"
@@ -1014,12 +1025,14 @@ msgid "There are no questions in this phase."
 msgstr "Não há perguntas nesta fase."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3173
+#, fuzzy
 msgid "Previous chapter"
-msgstr ""
+msgstr "Capítulo anterior"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3178
+#, fuzzy
 msgid "Next chapter"
-msgstr ""
+msgstr "Capítulo seguinte"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3289
 msgid "anonymous user"
@@ -2028,8 +2041,9 @@ msgid "Error"
 msgstr "Erro"
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:43
+#, fuzzy
 msgid "There are no question tags configured for the knowledge model."
-msgstr ""
+msgstr "Não existem etiquetas de perguntas configuradas para o modelo de conhecimento."
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:63
 msgid "Untitled question tag"
@@ -3046,8 +3060,9 @@ msgid "Create migration"
 msgstr "Criar migração"
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/Update.elm:137
+#, fuzzy
 msgid "Knowledge model could not be created."
-msgstr ""
+msgstr "Não foi possível criar o modelo de conhecimento."
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:40
 #, fuzzy
@@ -3061,8 +3076,9 @@ msgid "Knowledge model ID can only contain alphanumeric characters, hyphens, und
 msgstr "O ID do modelo de conhecimento só pode conter caracteres alfanuméricos, hífenes, sublinhados e pontos."
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:98
+#, fuzzy
 msgid "You can create a new knowledge model based on the existing one or start from scratch."
-msgstr ""
+msgstr "Pode criar um novo modelo de conhecimento com base no existente ou começar do zero."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:351
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:543

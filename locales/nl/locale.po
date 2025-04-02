@@ -4,17 +4,7 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:3.18.3\n"
-"POT-Creation-Date: 2025-04-01T07:05:39.548Z \n"
-"PO-Revision-Date: 2025-04-01 09:00+0000\n"
-"Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
-"Language-Team: Dutch <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/nl/>\n"
-"Language: nl\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-03 10:36+0000\nLast-Translator: Rob Hooft <rob.hooft@health-ri.nl>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -201,19 +191,16 @@ msgid "You do not have permission to view this page."
 msgstr "Je hebt geen toestemming deze pagina te bekijken."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:119
-#, fuzzy
 msgid "Knowledge model ID is already used."
 msgstr "Deze ID is al in gebruik voor een kennismodel."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:122
-#, fuzzy
 msgid "Knowledge model already exists."
 msgstr "Kennismodel bestaat al."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:125
-#, fuzzy
 msgid "Knowledge model metamodel version is not supported."
-msgstr "Metamodel van het kennismodel wordt niet ondersteund."
+msgstr "Metamodelversie van het kennismodel wordt niet ondersteund."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:128
 msgid "Document template already exists."
@@ -271,39 +258,32 @@ msgid "A hash query param has to be provided."
 msgstr "Er moet een hash-queryparameter worden opgegeven."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:174
-#, fuzzy
 msgid "Knowledge model editor not found."
 msgstr "Kennismodeleditor niet gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:177
-#, fuzzy
 msgid "Document not found."
-msgstr "Document niet gevonden"
+msgstr "Document niet gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:180
-#, fuzzy
 msgid "Document template not found."
 msgstr "Documentsjabloon niet gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:183
-#, fuzzy
 msgid "Document template draft not found."
 msgstr "Ontwerp documentsjabloon niet gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:186
-#, fuzzy
 msgid "Document template asset not found."
 msgstr "Documentsjabloon niet gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:189
-#, fuzzy
 msgid "Document template file not found."
 msgstr "Documentsjabloonbestand niet gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:192
-#, fuzzy
 msgid "Knowledge model migration not found."
-msgstr "Kennismodel migratie niet gevonden."
+msgstr "Migratie van kennismodel niet gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:195
 #, fuzzy
@@ -311,62 +291,50 @@ msgid "Locale not found."
 msgstr "Locale niet gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:198
-#, fuzzy
 msgid "Knowledge model not found."
 msgstr "Kennismodel niet gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:201
-#, fuzzy
 msgid "Project not found."
-msgstr "Kennismodel niet gevonden."
+msgstr "Project niet gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:204
-#, fuzzy
 msgid "Project action not found."
 msgstr "Projectactie niet gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:207
-#, fuzzy
 msgid "Comment not found."
 msgstr "Commentaar niet gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:210
-#, fuzzy
 msgid "Comment thread not found."
-msgstr "Commentaar thread niet gevonden."
+msgstr "Commentaarthread niet gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:213
-#, fuzzy
 msgid "Project file not found."
 msgstr "Projectbestand niet gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:216
-#, fuzzy
 msgid "Project importer not found."
 msgstr "Project importer niet gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:219
-#, fuzzy
 msgid "Project migration not found."
 msgstr "Projectmigratie niet gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:222
-#, fuzzy
 msgid "Project version not found."
 msgstr "Projectversie niet gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:225
-#, fuzzy
 msgid "User not found."
 msgstr "Gebruiker niet gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:228
-#, fuzzy
 msgid "User group not found."
 msgstr "Gebruikersgroep niet gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:231
-#, fuzzy
 msgid "Not found."
 msgstr "Niet gevonden."
 
@@ -379,7 +347,6 @@ msgid "File with this name already exists."
 msgstr "Er bestaat al een bestand met deze naam."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:240
-#, fuzzy
 msgid "Authentication code is not provided."
 msgstr "Autorisatiecode is niet opgegeven."
 
@@ -398,9 +365,8 @@ msgstr "Metamodel voor documentsjabloon wordt niet ondersteund."
 #: engine-shared/elm/Shared/Error/ServerError.elm:260
 #: engine-shared/elm/Shared/Error/ServerError.elm:297
 #: engine-shared/elm/Shared/Error/ServerError.elm:300
-#, fuzzy
 msgid "Limit of %s reached (current: %s, limit: %s)."
-msgstr "Limiet van %s bereikt (nu: %s, limiet: %s)"
+msgstr "Limiet van %s bereikt (nu: %s, limiet: %s)."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:261
 msgid "storage"
@@ -455,17 +421,14 @@ msgid "File \"%s\" was not found in archive."
 msgstr "Bestand “%s” kon niet in het archief gevonden worden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:312
-#, fuzzy
 msgid "The locale not found in Registry."
-msgstr "De taal is niet in het register gevonden"
+msgstr "De taal is niet in het register gevonden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:315
-#, fuzzy
 msgid "Knowledge model cannot be deleted because it is used in some projects or knowledge model editors."
-msgstr "Kennismodel kan niet worden verwijderd omdat het in gebruik is in projecten of kennismodel-editor."
+msgstr "Kennismodel kan niet worden verwijderd omdat het in gebruik is in projecten of kennismodel-editors."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:318
-#, fuzzy
 msgid "The knowledge model was not found in the Registry."
 msgstr "Het kennismodel is niet in het register gevonden."
 
@@ -478,14 +441,12 @@ msgid "The document template was not found in the Registry."
 msgstr "Het documentsjabloon is niet gevonden in het register."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:327
-#, fuzzy
 msgid "Incorrect email or password."
-msgstr "Incorrect e-mail of wachtwoord"
+msgstr "Incorrect e-mail of wachtwoord."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:330
-#, fuzzy
 msgid "Incorrect authentication code."
-msgstr "Onjuiste verificatiecode"
+msgstr "Onjuiste verificatiecode."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:333
 msgid "The account is not activated."
@@ -532,22 +493,18 @@ msgid "This is a weak password."
 msgstr "Dit is een zwak wachtwoord."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:128
-#, fuzzy
 msgid "Fill in a valid organization ID."
 msgstr "Vul een geldig organisatie-ID in."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:133
-#, fuzzy
 msgid "Fill in a valid knowledge model ID."
 msgstr "Vul een geldig kennismodel-ID in."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:138
-#, fuzzy
 msgid "Fill in a valid document template ID."
-msgstr "Vul een geldig organisatie-ID in."
+msgstr "Vul een geldig documentsjabloon-ID in."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:143
-#, fuzzy
 msgid "Fill in a valid locale ID."
 msgstr "Vul een geldige locale-ID in."
 
@@ -857,7 +814,6 @@ msgid "OK"
 msgstr "OK"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2169
-#, fuzzy
 msgid "Current phase"
 msgstr "Huidige fase"
 

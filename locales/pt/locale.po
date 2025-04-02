@@ -3,17 +3,7 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:4.2.0\n"
-"POT-Creation-Date: 2025-04-01T07:05:39.548Z \n"
-"PO-Revision-Date: 2025-04-01 09:00+0000\n"
-"Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
-"Language-Team: Portuguese <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/pt/>\n"
-"Language: pt\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+msgstr "Project-Id-Version: wizard-client:4.2.0\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-03 10:36+0000\nLast-Translator: DeepL <noreply-mt-deepl@weblate.org>\nLanguage-Team: Portuguese <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/pt/>\nLanguage: pt\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -312,7 +302,7 @@ msgstr "Localidade não encontrada."
 #: engine-shared/elm/Shared/Error/ServerError.elm:198
 #, fuzzy
 msgid "Knowledge model not found."
-msgstr "Modelo de conhecimento não encontrado."
+msgstr "Localidade não encontrada."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:201
 #, fuzzy
@@ -2653,7 +2643,7 @@ msgstr "Pré-visualização não definida"
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:408
 #, fuzzy
 msgid "Select a project or knowledge model editor and format you want to preview."
-msgstr "Selecione um projeto ou editor de modelos de conhecimento e o formato que pretende pré-visualizar."
+msgstr "O ID do modelo de documento só pode conter caracteres alfanuméricos, hífenes, sublinhados e pontos."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:431
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:163
@@ -3724,7 +3714,7 @@ msgstr "Solicite cabeçalhos HTTP"
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:826
 #, fuzzy
 msgid "Request HTTP Body"
-msgstr "Solicite cabeçalhos HTTP"
+msgstr "Método de pedido HTTP"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1661
 #, fuzzy
@@ -3779,7 +3769,7 @@ msgstr "Desactive esta opção se a API não conseguir lidar com pedidos de pesq
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1704
 #, fuzzy
 msgid "Response"
-msgstr "Resposta"
+msgstr "Permitir pesquisa vazia"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1706
 #, fuzzy
@@ -3794,7 +3784,7 @@ msgstr "Se o JSON devolvido não for uma matriz de itens diretamente, mas os ite
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1710
 #, fuzzy
 msgid "Use this to define an identifier for the item. This will be used in **Item URL** as `${id}` to compose a URL to the found item. You can use properties from the returned item in Jinja2 notation. For example, if the item has a field `id` use `{{item.id}}` here. You can also compose multiple fields together, e.g., `{{item.field1}}-{{item.field2}}`."
-msgstr "Utilize esta opção para definir um identificador para o item. Este será utilizado no **Item URL** como `${id}` para compor uma URL para o item encontrado. Você pode usar propriedades do item retornado na notação Jinja2. Por exemplo, se o item tem um campo `id` use `{{item.id}}` aqui. Você também pode compor múltiplos campos juntos, por exemplo, `{{item.field1}}-{{item.field2}}`."
+msgstr "Utilize esta opção para definir um identificador para o item. Este será utilizado no **Item URL** como `${id}` para compor uma URL para o item encontrado. Você pode usar propriedades do item retornado na notação Jinja2. Por exemplo, se o item tem um campo `id` use `{{item.id}}` aqui. Também pode compor vários campos juntos, por exemplo, `{{item.field1}}-{{item.field2}}`."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1713
 #, fuzzy
@@ -3860,7 +3850,7 @@ msgstr "O logótipo é apresentado junto à ligação para o item selecionado no
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1821
 #, fuzzy
 msgid "Props can be used to parametrize the integration for each question. Use this to define the props whose value can be filled on the questions using this integration. The props can then be used in the URL configuration. For example, if you define prop named *type*, you can use it as `${type}`, such as *ht&#8203;tps://example.com/${type}*."
-msgstr "Os adereços podem ser usados para parametrizar a integração para cada pergunta. Utilize esta opção para definir os adereços cujo valor pode ser preenchido nas perguntas que utilizam esta integração. As props podem então ser usadas na configuração do URL. Por exemplo, se definir uma propriedade chamada *type*, pode usá-la como `${type}`, como *ht&#8203;tps://example.com/${type}*."
+msgstr "Os adereços podem ser usados para parametrizar a integração para cada pergunta. Utilize esta opção para definir os adereços cujo valor pode ser preenchido nas perguntas que utilizam esta integração. As props podem então ser usadas na configuração do URL. Por exemplo, se você definir uma propriedade chamada *type*, pode usá-la como `${type}`, como *ht&#8203;tps://example.com/${type}*."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1825
 #, fuzzy
@@ -4060,7 +4050,7 @@ msgstr "Tem a certeza de que pretende apagar esta referência?"
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2498
 #, fuzzy
 msgid "Are you sure you want to delete this expert?"
-msgstr "Tem a certeza de que pretende eliminar este perito?"
+msgstr "Tem a certeza de que pretende eliminar este especialista?"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2507
 #, fuzzy
@@ -4176,7 +4166,7 @@ msgstr "Domínio"
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:994
 #, fuzzy
 msgid "Weight"
-msgstr "Para o tempo"
+msgstr "Anotações"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:1170
 #, fuzzy
@@ -4575,7 +4565,7 @@ msgstr "Escolha de movimento"
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:373
 #, fuzzy
 msgid "Move reference"
-msgstr "Mover resposta"
+msgstr "Mover referência"
 
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:379
 #, fuzzy
@@ -4699,7 +4689,7 @@ msgstr "Criar projeto"
 #: engine-wizard/elm/Wizard/KnowledgeModels/Detail/Update.elm:59
 #, fuzzy
 msgid "Unable to update the knowledge model."
-msgstr "Não é possível atualizar o modelo de conhecimento."
+msgstr "Garfo KM"
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Detail/Update.elm:98
 #, fuzzy
@@ -4831,7 +4821,7 @@ msgstr "Definir predefinição"
 #: engine-wizard/elm/Wizard/ProjectImporters/Index/View.elm:83
 #, fuzzy
 msgid "Disable"
-msgstr "Adicionar utilizadores"
+msgstr "Definir predefinição"
 
 #: engine-wizard/elm/Wizard/Locales/Common/LocaleActionsDropdown.elm:97
 #: engine-wizard/elm/Wizard/ProjectActions/Index/View.elm:88
@@ -4949,7 +4939,7 @@ msgstr "Não é possível guardar a migração."
 #: engine-wizard/elm/Wizard/Locales/Index/Update.elm:53
 #, fuzzy
 msgid "Unable to change locale."
-msgstr "Importar localidade"
+msgstr "Não é possível alterar a localidade."
 
 #: engine-wizard/elm/Wizard/Locales/Index/Update.elm:57
 #, fuzzy
@@ -5528,7 +5518,7 @@ msgstr "Qualquer pessoa que tenha a ligação pode %s o projeto."
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/Update.elm:108
 #, fuzzy
 msgid "Document was successfully deleted."
-msgstr "O documento foi eliminado com sucesso."
+msgstr "O documento foi eliminado com êxito."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:91
 #, fuzzy
@@ -5662,12 +5652,14 @@ msgid "Import status:"
 msgstr "Estado da importação:"
 
 #: engine-wizard/elm/Wizard/Projects/Import/View.elm:90
+#, fuzzy
 msgid "%s questionnaire change will be imported"
 msgid_plural "%s questionnaire changes will be imported"
 msgstr[0] ""
 msgstr[1] "As alterações ao questionário %s serão importadas"
 
 #: engine-wizard/elm/Wizard/Projects/Import/View.elm:108
+#, fuzzy
 msgid "%s error encountered"
 msgid_plural "%s errors encountered"
 msgstr[0] ""
@@ -6679,7 +6671,7 @@ msgstr "Propriedades do utilizador"
 #: engine-wizard/elm/Wizard/Settings/Submission/View.elm:115
 #, fuzzy
 msgid "You can create properties that can be set by each user in their profile. Then, you can use these properties in the request settings. For example, if you want each user to use their own authorization token, you can create a property called `Token` and use it in request headers as `${Token}`. Users will be able to set the token in their profile settings."
-msgstr "Pode criar propriedades que podem ser definidas por cada utilizador no seu perfil. Em seguida, pode utilizar essas propriedades nas configurações do pedido. Por exemplo, se pretender que cada utilizador utilize o seu próprio token de autorização, pode criar uma propriedade chamada `Token` e utilizá-la nos cabeçalhos dos pedidos como `${Token}`. Os utilizadores poderão definir o token nas suas definições de perfil."
+msgstr "Pode criar propriedades que podem ser definidas por cada utilizador no seu perfil. Depois, pode utilizar estas propriedades nas definições do pedido. Por exemplo, se pretender que cada utilizador utilize o seu próprio token de autorização, pode criar uma propriedade chamada `Token` e utilizá-la nos cabeçalhos dos pedidos como `${Token}`. Os utilizadores poderão definir o token nas suas definições de perfil."
 
 #: engine-wizard/elm/Wizard/Settings/Submission/View.elm:116
 #, fuzzy

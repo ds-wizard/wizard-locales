@@ -5,7 +5,7 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-01 09:00+0000\nLast-Translator: DeepL <noreply-mt-deepl@weblate.org>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.9.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-02 09:49+0000\nLast-Translator: Sylmilaf1be602546e5431a <sylvain@milanesi.fr>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -192,19 +192,16 @@ msgid "You do not have permission to view this page."
 msgstr "Vous n'avez pas la permission de lire cette page."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:119
-#, fuzzy
 msgid "Knowledge model ID is already used."
 msgstr "L'ID du modèle de connaissances est déjà utilisé."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:122
-#, fuzzy
 msgid "Knowledge model already exists."
 msgstr "Le modèle de connaissances existe déjà."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:125
-#, fuzzy
 msgid "Knowledge model metamodel version is not supported."
-msgstr "La version du métamodèle du modèle de connaissances n'est pas prise en charge."
+msgstr "La version du méta-modèle n'est pas prise en charge."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:128
 msgid "Document template already exists."
@@ -262,102 +259,82 @@ msgid "A hash query param has to be provided."
 msgstr "Un paramètre de requête hash doit être fourni."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:174
-#, fuzzy
 msgid "Knowledge model editor not found."
-msgstr "L'éditeur de modèles de connaissances n'a pas été trouvé."
+msgstr "L'éditeur du modèle de connaissance n'a pas été trouvé."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:177
-#, fuzzy
 msgid "Document not found."
-msgstr "Document non trouvé"
+msgstr "Document non trouvé."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:180
-#, fuzzy
 msgid "Document template not found."
 msgstr "Le modèle de document n'a pas été trouvé."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:183
-#, fuzzy
 msgid "Document template draft not found."
-msgstr "Le modèle de document brouillon n'a pas été trouvé."
+msgstr "Le brouillon du modèle de document n'a pas été trouvé."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:186
-#, fuzzy
 msgid "Document template asset not found."
 msgstr "Le modèle de document n'a pas été trouvé."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:189
-#, fuzzy
 msgid "Document template file not found."
-msgstr "Fichier de modèle de document introuvable."
+msgstr "Le fichier du modèle de document est introuvable."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:192
-#, fuzzy
 msgid "Knowledge model migration not found."
-msgstr "La migration du modèle de connaissance n'a pas été trouvée."
+msgstr "La migration du modèle de connaissances n'a pas été trouvée."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:195
-#, fuzzy
 msgid "Locale not found."
-msgstr "Locale non trouvé."
+msgstr "Données géographique (locale) non trouvé."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:198
-#, fuzzy
 msgid "Knowledge model not found."
-msgstr "Modèle de connaissance introuvable."
+msgstr "Modèle de connaissances introuvable."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:201
-#, fuzzy
 msgid "Project not found."
 msgstr "Projet non trouvé."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:204
-#, fuzzy
 msgid "Project action not found."
 msgstr "L'action du projet n'a pas été trouvée."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:207
-#, fuzzy
 msgid "Comment not found."
 msgstr "Commentaire non trouvé."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:210
-#, fuzzy
 msgid "Comment thread not found."
 msgstr "Fil de discussion introuvable."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:213
-#, fuzzy
 msgid "Project file not found."
-msgstr "Fichier de projet introuvable."
+msgstr "Fichier du projet introuvable."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:216
-#, fuzzy
 msgid "Project importer not found."
-msgstr "L'importateur de projet n'a pas été trouvé."
+msgstr "L'importateur du projet n'a pas été trouvé."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:219
-#, fuzzy
 msgid "Project migration not found."
 msgstr "La migration du projet n'a pas été trouvée."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:222
-#, fuzzy
 msgid "Project version not found."
 msgstr "La version du projet n'a pas été trouvée."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:225
-#, fuzzy
 msgid "User not found."
 msgstr "L'utilisateur n'a pas été trouvé."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:228
-#, fuzzy
 msgid "User group not found."
 msgstr "Le groupe d'utilisateurs n'a pas été trouvé."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:231
-#, fuzzy
 msgid "Not found."
 msgstr "Non trouvé."
 
@@ -389,9 +366,8 @@ msgstr "La version du métamodèle du modèle de documents n'est pas (plus) pris
 #: engine-shared/elm/Shared/Error/ServerError.elm:260
 #: engine-shared/elm/Shared/Error/ServerError.elm:297
 #: engine-shared/elm/Shared/Error/ServerError.elm:300
-#, fuzzy
 msgid "Limit of %s reached (current: %s, limit: %s)."
-msgstr "Limite de %s atteinte (actuel : %s, limite : %s)"
+msgstr "Limite de %s atteinte (actuel : %s, limite : %s)."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:261
 msgid "storage"
@@ -446,19 +422,16 @@ msgid "File \"%s\" was not found in archive."
 msgstr "Le fichier \"%s\" n'a pas été trouvé dans les archives."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:312
-#, fuzzy
 msgid "The locale not found in Registry."
-msgstr "La localisation n'a pas été trouvée dans le Registry"
+msgstr "La donnée géographique n'a pas été trouvée dans le registre."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:315
-#, fuzzy
 msgid "Knowledge model cannot be deleted because it is used in some projects or knowledge model editors."
-msgstr "Le modèle de connaissances ne peut pas être supprimé car il est utilisé dans certains projets ou éditeurs de modèles de connaissances."
+msgstr "Le modèle de connaissance ne peut pas être supprimé car il est utilisé dans certains projets ou éditeurs de modèles."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:318
-#, fuzzy
 msgid "The knowledge model was not found in the Registry."
-msgstr "Le modèle de connaissances n'a pas été trouvé dans le Registry."
+msgstr "Le modèle de connaissances n'a pas été trouvé dans le registre."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:321
 msgid "Project cannot be deleted because it is used in some project migration."
@@ -469,14 +442,12 @@ msgid "The document template was not found in the Registry."
 msgstr "Le modèle de document n'a pas été trouvé dans le DSW Registry."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:327
-#, fuzzy
 msgid "Incorrect email or password."
-msgstr "Courriel ou mot de passe incorrect"
+msgstr "Courriel ou mot de passe incorrect."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:330
-#, fuzzy
 msgid "Incorrect authentication code."
-msgstr "Code d'authentication incorrect"
+msgstr "Code d'authentification incorrect."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:333
 msgid "The account is not activated."
@@ -523,9 +494,8 @@ msgid "This is a weak password."
 msgstr "Ce mot de passe est faible."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:128
-#, fuzzy
 msgid "Fill in a valid organization ID."
-msgstr "Indiquez un numéro d'identification valide de l'organisation."
+msgstr "Indiquez un numéro d'identification de l'organisation valide."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:133
 #, fuzzy
@@ -533,9 +503,8 @@ msgid "Fill in a valid knowledge model ID."
 msgstr "Saisissez un identifiant de modèle de connaissance valide."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:138
-#, fuzzy
 msgid "Fill in a valid document template ID."
-msgstr "Renseignez un identifiant de modèle de document valide."
+msgstr "Renseignez un id de modèle de document valide."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:143
 #, fuzzy
@@ -848,9 +817,8 @@ msgid "OK"
 msgstr "OK"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2169
-#, fuzzy
 msgid "Current phase"
-msgstr "Phase en cours"
+msgstr "Phase courante"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2228
 msgid "Select phase"
@@ -1106,14 +1074,12 @@ msgid "This item contains no questions."
 msgstr "Cet article ne contient pas de questions."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3612
-#, fuzzy
 msgid "Move up"
-msgstr "Monter en grade"
+msgstr "Monter"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3625
-#, fuzzy
 msgid "Move down"
-msgstr "Descendez"
+msgstr "Descendre"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3733
 msgid "This is not a valid email address."
@@ -1206,9 +1172,8 @@ msgid "Are you sure you want to remove this item?"
 msgstr "Êtes-vous certain·e de vouloir supprimer cet élément ?"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4358
-#, fuzzy
 msgid "Remove item"
-msgstr "Supprimer l'article"
+msgstr "Supprimer l'élément"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4361
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Settings.elm:400
@@ -2038,9 +2003,8 @@ msgid "Error"
 msgstr "Erreur"
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:43
-#, fuzzy
 msgid "There are no question tags configured for the knowledge model."
-msgstr "Il n'y a pas de étiquettes de questions configurées pour le modèle de connaissances."
+msgstr "Il n'y a pas d'étiquettes de question configurées pour le modèle de connaissance."
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:63
 msgid "Untitled question tag"
@@ -2489,9 +2453,8 @@ msgstr "ID du modèle de documents"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Create/View.elm:91
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Settings.elm:286
-#, fuzzy
 msgid "Document template ID can only contain alphanumeric characters, hyphens, underscores, and dots."
-msgstr "L'identifiant du modèle de document ne peut contenir que des caractères alphanumériques, des traits d'union, des traits de soulignement et des points."
+msgstr "L'id du modèle de document ne peut contenir que des caractères alphanumériques, des traits d'union, des traits de soulignement et des points."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Create/View.elm:93
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:97
@@ -2637,9 +2600,8 @@ msgid "Preview not set"
 msgstr "Aperçu non défini"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:408
-#, fuzzy
 msgid "Select a project or knowledge model editor and format you want to preview."
-msgstr "Sélectionnez un éditeur de projet ou de modèle de connaissances et le format que vous souhaitez prévisualiser."
+msgstr "Sélectionnez un éditeur de projet ou de modèle de connaissances et le format de prévisualisation."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:431
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:163
@@ -3054,7 +3016,6 @@ msgid "Create migration"
 msgstr "Créer une migration"
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/Update.elm:137
-#, fuzzy
 msgid "Knowledge model could not be created."
 msgstr "Le modèle de connaissances n'a pas pu être créé."
 
@@ -3065,9 +3026,8 @@ msgstr "Créer un modèle de connaissances"
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:95
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:191
-#, fuzzy
 msgid "Knowledge model ID can only contain alphanumeric characters, hyphens, underscores, and dots."
-msgstr "L'identifiant du modèle de connaissance ne peut contenir que des caractères alphanumériques, des traits d'union, des traits de soulignement et des points."
+msgstr "L'identifiant du modèle de connaissances ne peut contenir que des caractères alphanumériques, des traits d'union, des traits de soulignement et des points."
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:98
 #, fuzzy
@@ -3766,9 +3726,8 @@ msgid "A string that identifies the integration. It has to be unique for each in
 msgstr "Une chaîne de caractères qui identifie l'intégration. Elle doit être unique pour chaque intégration."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1817
-#, fuzzy
 msgid "A name visible everywhere else in the knowledge model Editor, such as when choosing the integration for a question."
-msgstr "Un nom visible partout ailleurs dans l'éditeur de modèle de connaissance, par exemple lors du choix de l'intégration d'une question."
+msgstr "Un nom visible partout ailleurs dans l'éditeur du modèle de connaissance, par exemple lors du choix de l'intégration d'une question."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1819
 msgid "Logo is displayed next to the link to the selected item in questionnaires. It can be either URL or base64 image."
@@ -4168,9 +4127,8 @@ msgid "Migration could not be cancelled."
 msgstr "La migration n'a pas pu être annulée."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:59
-#, fuzzy
 msgid "Click \"Create\" button to add a new knowledge model editor."
-msgstr "Cliquez sur le bouton \"Créer\" pour ajouter un nouvel éditeur de modèle de connaissances."
+msgstr "Cliquez sur le bouton \"Créer\" pour ajouter un nouvel éditeur de modèle de connaissance."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:67
 msgid "Search KM editors..."
@@ -4181,14 +4139,12 @@ msgid "Last published version"
 msgstr "Dernière version publiée"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:130
-#, fuzzy
 msgid "There is a new version of parent knowledge model"
-msgstr "Il y a une nouvelle version du modèle de connaissances parent."
+msgstr "Il y a une nouvelle version du modèle de connaissances parent"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:136
-#, fuzzy
 msgid "This editor is in the process of migration to a new parent knowledge model"
-msgstr "Cet éditeur est en cours de migration vers un nouveau modèle de connaissances parent."
+msgstr "Cet éditeur est en cours de migration vers un nouveau modèle de connaissance parent"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:137
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:702
@@ -4196,18 +4152,16 @@ msgid "migrating"
 msgstr "migrer"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:141
-#, fuzzy
 msgid "This editor has been migrated to a new parent knowledge model, you can publish it now"
-msgstr "Cet éditeur a été migré vers un nouveau modèle de connaissances parent, vous pouvez le publier maintenant."
+msgstr "Cet éditeur a été migré vers un nouveau modèle de connaissance parent, vous pouvez le publier maintenant"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:142
 msgid "migrated"
 msgstr "migré"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:145
-#, fuzzy
 msgid "This editor contains unpublished changes"
-msgstr "Cet éditeur contient des modifications non publiées."
+msgstr "Cet éditeur contient des modifications non publiées"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:188
 msgid "Open Editor"
@@ -4252,9 +4206,8 @@ msgid "The event is not connected to any entity in the Knowledge Model."
 msgstr "L'événement n'est lié à aucune entité dans le modèle de connaissances."
 
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:158
-#, fuzzy
 msgid "Edit knowledge model"
-msgstr "Modifier le modèle de connaissances"
+msgstr "Modifier le modèle de connaissance"
 
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:167
 msgid "Edit metric"
@@ -4434,9 +4387,8 @@ msgid "Publish new version"
 msgstr "Publier une nouvelle version"
 
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:76
-#, fuzzy
 msgid "Choose a %s so others can use your knowledge model."
-msgstr "Choisissez un %s pour que d'autres puissent utiliser votre modèle de connaissances."
+msgstr "Choisissez un %s pour que votre modèle de connaissance puissent être utilisé par d'autres."
 
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:78
 msgid "license"
@@ -4515,9 +4467,8 @@ msgid "Unable to import the package."
 msgstr "Impossible d'importer le paquet."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/RegistryImport/View.elm:68
-#, fuzzy
 msgid "You can find knowledge models in %s."
-msgstr "Vous pouvez trouver des modèles de connaissances dans %s."
+msgstr "Vous pouvez trouver des modèles de connaissance dans %s."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/RegistryImport/View.elm:84
 #, fuzzy
@@ -4533,14 +4484,12 @@ msgid "This doesn't look like a knowledge model. Are you sure you picked the cor
 msgstr "Ce fichier ne ressemble pas à un modèle de connaissances. Est-ce le correct fichier ?"
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/Update.elm:54
-#, fuzzy
 msgid "Knowledge model could not be updated."
-msgstr "Le modèle de connaissances n'a pas pu être mis à jour."
+msgstr "Le modèle de connaissance n'a pas pu être mis à jour."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/View.elm:62
-#, fuzzy
 msgid "Click \"Import\" button to import a new knowledge model."
-msgstr "Cliquez sur le bouton \"Importer\" pour importer un nouveau modèle de connaissances."
+msgstr "Cliquez sur \"Importer\" pour importer un nouveau modèle de connaissances."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/View.elm:70
 msgid "Search KMs..."
@@ -4615,9 +4564,8 @@ msgid "Locale ID"
 msgstr "ID de la localisation"
 
 #: engine-wizard/elm/Wizard/Locales/Create/View.elm:52
-#, fuzzy
 msgid "Locale ID can only contain alphanumeric characters, hyphens, underscores, and dots."
-msgstr "Le Locale ID ne peut contenir que des caractères alphanumériques, des traits d'union, des traits de soulignement et des points."
+msgstr "L'ID de localisation ne peut contenir que des caractères alphanumériques, des traits d'union, des traits de soulignement et des points."
 
 #: engine-wizard/elm/Wizard/Locales/Create/View.elm:53
 msgid "Locale Version"
@@ -5384,9 +5332,8 @@ msgid "You can safely finalize the migration."
 msgstr "Vous pouvez finaliser la migration en toute sécurité."
 
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:86
-#, fuzzy
 msgid "Source knowledge model"
-msgstr "Modèle de connaissance de la source"
+msgstr "Modèle de connaissance d'origine"
 
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:90
 #, fuzzy
@@ -5878,9 +5825,8 @@ msgid "Name of the organization running this instance."
 msgstr "Nom de l'organisation qui gère cette instance."
 
 #: engine-wizard/elm/Wizard/Settings/Organization/View.elm:51
-#, fuzzy
 msgid "Organization ID is used to identify knowledge models created in this instance. It can only contain alphanumeric characters, hyphens, underscores, and dots."
-msgstr "L'identifiant de l'organisation est utilisé pour identifier les modèles de connaissance créés dans cette instance. Il ne peut contenir que des caractères alphanumériques, des traits d'union, des traits de soulignement et des points."
+msgstr "L'ID de l'organisation est utilisé pour identifier les modèles de connaissance créés dans cette instance. Il ne peut contenir que des caractères alphanumériques, des traits d'union, des traits de soulignement et des points."
 
 #: engine-wizard/elm/Wizard/Settings/PrivacyAndSupport/View.elm:28
 #: engine-wizard/elm/Wizard/Settings/View.elm:118

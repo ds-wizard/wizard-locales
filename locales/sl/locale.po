@@ -4,8 +4,9 @@
 # Jana Martínková <j.martinkova@outlook.com>, 2024, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
+# Marek Suchánek <marek.suchanek@gmail.com>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.1.0\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-04-07 00:49+0000\nLast-Translator: DeepL <noreply-mt-deepl@weblate.org>\nLanguage-Team: Slovenian <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/sl/>\nLanguage: sl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\nX-Generator: Weblate 5.9.2\n"
+msgstr "Project-Id-Version: wizard-client:4.1.0\nPOT-Creation-Date: 2025-04-01T07:05:39.548Z\nPO-Revision-Date: 2025-05-09 04:45+0000\nLast-Translator: Marek Suchánek <marek.suchanek@gmail.com>\nLanguage-Team: Slovenian <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-17-0/sl/>\nLanguage: sl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\nX-Generator: Weblate 5.9.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -192,17 +193,14 @@ msgid "You do not have permission to view this page."
 msgstr "Nimate dovoljenja za ogled te strani."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:119
-#, fuzzy
 msgid "Knowledge model ID is already used."
 msgstr "ID modela znanja je že uporabljen."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:122
-#, fuzzy
 msgid "Knowledge model already exists."
 msgstr "Model znanja že obstaja."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:125
-#, fuzzy
 msgid "Knowledge model metamodel version is not supported."
 msgstr "Različica metamodela modela znanja ni podprta."
 
@@ -262,102 +260,82 @@ msgid "A hash query param has to be provided."
 msgstr "Zagotoviti je treba parameter zgoščene poizvedbe."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:174
-#, fuzzy
 msgid "Knowledge model editor not found."
 msgstr "Urejevalnik modela znanja ni bil najden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:177
-#, fuzzy
 msgid "Document not found."
 msgstr "Dokument ni najden"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:180
-#, fuzzy
 msgid "Document template not found."
 msgstr "Predloga dokumenta ni bila najdena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:183
-#, fuzzy
 msgid "Document template draft not found."
 msgstr "Osnutek predloge dokumenta ni bil najden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:186
-#, fuzzy
 msgid "Document template asset not found."
 msgstr "Predloga dokumenta ni bila najdena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:189
-#, fuzzy
 msgid "Document template file not found."
 msgstr "Datoteka predloge dokumenta ni bila najdena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:192
-#, fuzzy
 msgid "Knowledge model migration not found."
 msgstr "Migracija modela znanja ni bila najdena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:195
-#, fuzzy
 msgid "Locale not found."
 msgstr "Migracija modela znanja ni bila najdena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:198
-#, fuzzy
 msgid "Knowledge model not found."
 msgstr "Model znanja ni bil najden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:201
-#, fuzzy
 msgid "Project not found."
 msgstr "Projekta ni mogoče najti."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:204
-#, fuzzy
 msgid "Project action not found."
 msgstr "Akcija projekta ni bila najdena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:207
-#, fuzzy
 msgid "Comment not found."
 msgstr "Komentar ni najden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:210
-#, fuzzy
 msgid "Comment thread not found."
 msgstr "Nit komentarjev ni bila najdena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:213
-#, fuzzy
 msgid "Project file not found."
 msgstr "Datoteke projekta ni bilo mogoče najti."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:216
-#, fuzzy
 msgid "Project importer not found."
 msgstr "Uvoznik projekta ni bil najden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:219
-#, fuzzy
 msgid "Project migration not found."
 msgstr "Migracija projekta ni bila najdena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:222
-#, fuzzy
 msgid "Project version not found."
 msgstr "Različica projekta ni bila najdena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:225
-#, fuzzy
 msgid "User not found."
 msgstr "Uporabnik ni najden."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:228
-#, fuzzy
 msgid "User group not found."
 msgstr "Uporabniška skupina ni bila najdena."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:231
-#, fuzzy
 msgid "Not found."
 msgstr "Ni najden."
 
@@ -370,7 +348,6 @@ msgid "File with this name already exists."
 msgstr "Datoteka s tem imenom že obstaja."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:240
-#, fuzzy
 msgid "Authentication code is not provided."
 msgstr "Avtentikacijska koda ni zagotovljena."
 
@@ -389,7 +366,6 @@ msgstr "Različica metamodela predloge dokumenta ni podprta."
 #: engine-shared/elm/Shared/Error/ServerError.elm:260
 #: engine-shared/elm/Shared/Error/ServerError.elm:297
 #: engine-shared/elm/Shared/Error/ServerError.elm:300
-#, fuzzy
 msgid "Limit of %s reached (current: %s, limit: %s)."
 msgstr "Dosežena je omejitev %s (trenutna: %s, omejitev: %s)"
 
@@ -446,17 +422,14 @@ msgid "File \"%s\" was not found in archive."
 msgstr "Datoteke \"%s\" ni bilo mogoče najti v arhivu."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:312
-#, fuzzy
 msgid "The locale not found in Registry."
 msgstr "Krajevnega jezika ni mogoče najti v registru"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:315
-#, fuzzy
 msgid "Knowledge model cannot be deleted because it is used in some projects or knowledge model editors."
 msgstr "Modela znanja ni mogoče izbrisati, ker se uporablja v nekaterih projektih ali urejevalnikih modelov znanja."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:318
-#, fuzzy
 msgid "The knowledge model was not found in the Registry."
 msgstr "Model znanja ni bil najden v registru."
 
@@ -469,12 +442,10 @@ msgid "The document template was not found in the Registry."
 msgstr "Predloga dokumenta ni bila najdena v registru."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:327
-#, fuzzy
 msgid "Incorrect email or password."
 msgstr "Napačno e-poštno sporočilo ali geslo"
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:330
-#, fuzzy
 msgid "Incorrect authentication code."
 msgstr "Nepravilna koda za preverjanje pristnosti"
 
@@ -523,22 +494,18 @@ msgid "This is a weak password."
 msgstr "To je šibko geslo."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:128
-#, fuzzy
 msgid "Fill in a valid organization ID."
 msgstr "Vnesite veljavno identifikacijsko številko organizacije."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:133
-#, fuzzy
 msgid "Fill in a valid knowledge model ID."
 msgstr "Vnesite veljavni ID modela znanja."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:138
-#, fuzzy
 msgid "Fill in a valid document template ID."
 msgstr "Vnesite veljavno ID predloge dokumenta."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:143
-#, fuzzy
 msgid "Fill in a valid locale ID."
 msgstr "Vnesite veljavni identifikator lokalnega okolja."
 
@@ -848,7 +815,6 @@ msgid "OK"
 msgstr "V REDU"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2169
-#, fuzzy
 msgid "Current phase"
 msgstr "Trenutna faza"
 
@@ -1027,12 +993,10 @@ msgid "There are no questions in this phase."
 msgstr "V tej fazi ni vprašanj."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3173
-#, fuzzy
 msgid "Previous chapter"
 msgstr "Prejšnje poglavje"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3178
-#, fuzzy
 msgid "Next chapter"
 msgstr "Naslednje poglavje"
 
@@ -1108,12 +1072,10 @@ msgid "This item contains no questions."
 msgstr "Ta izdelek ne vsebuje vprašanj."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3612
-#, fuzzy
 msgid "Move up"
 msgstr "Premaknite se navzgor"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3625
-#, fuzzy
 msgid "Move down"
 msgstr "Premaknite se navzdol"
 
@@ -1162,7 +1124,6 @@ msgid "The file was deleted."
 msgstr "Datoteka je bila izbrisana."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4093
-#, fuzzy
 msgid "Upload file"
 msgstr "Ustvarjanje modela znanja"
 
@@ -1211,7 +1172,6 @@ msgid "Are you sure you want to remove this item?"
 msgstr "Ste prepričani, da želite odstraniti ta element?"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4358
-#, fuzzy
 msgid "Remove item"
 msgstr "Odstraniti element"
 
@@ -1376,9 +1336,8 @@ msgid "Unable to upload the file."
 msgstr "Datoteke ni mogoče naložiti."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:199
-#, fuzzy
 msgid "File upload is not available in the knowledge model editor"
-msgstr "Premaknite se navzdol"
+msgstr "Nalaganje datotek ni na voljo v urejevalniku modela znanja"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:207
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1095
@@ -2061,7 +2020,6 @@ msgid "Error"
 msgstr "Napaka"
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:43
-#, fuzzy
 msgid "There are no question tags configured for the knowledge model."
 msgstr "Za model znanja niso konfigurirane oznake vprašanj."
 
@@ -2512,7 +2470,6 @@ msgstr "ID predloge dokumenta"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Create/View.elm:91
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Settings.elm:286
-#, fuzzy
 msgid "Document template ID can only contain alphanumeric characters, hyphens, underscores, and dots."
 msgstr "ID predloge dokumenta lahko vsebuje samo alfanumerične znake, pomišljaje, podčrtanke in pike."
 
@@ -2660,7 +2617,6 @@ msgid "Preview not set"
 msgstr "Predogled ni nastavljen"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:408
-#, fuzzy
 msgid "Select a project or knowledge model editor and format you want to preview."
 msgstr "Izberite projekt ali urejevalnik modela znanja in obliko, ki jo želite predogledati."
 
@@ -3077,23 +3033,19 @@ msgid "Create migration"
 msgstr "Ustvarjanje migracije"
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/Update.elm:137
-#, fuzzy
 msgid "Knowledge model could not be created."
 msgstr "Modela znanja ni bilo mogoče ustvariti."
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:40
-#, fuzzy
 msgid "Create knowledge model"
 msgstr "Ustvarjanje modela znanja"
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:95
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:191
-#, fuzzy
 msgid "Knowledge model ID can only contain alphanumeric characters, hyphens, underscores, and dots."
 msgstr "ID modela znanja lahko vsebuje samo alfanumerične znake, pomišljaje, podčrtanke in pike."
 
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:98
-#, fuzzy
 msgid "You can create a new knowledge model based on the existing one or start from scratch."
 msgstr "Ustvarite lahko nov model znanja na podlagi obstoječega ali pa začnete od začetka."
 
@@ -3789,7 +3741,6 @@ msgid "A string that identifies the integration. It has to be unique for each in
 msgstr "Niz, ki označuje integracijo. Za vsako integracijo mora biti edinstven."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1817
-#, fuzzy
 msgid "A name visible everywhere else in the knowledge model Editor, such as when choosing the integration for a question."
 msgstr "Ime, ki je vidno povsod drugje v urejevalniku modela znanja, na primer pri izbiri integracije za vprašanje."
 
@@ -3997,7 +3948,6 @@ msgid "Remove validation"
 msgstr "Odstranitev potrjevanja"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:771
-#, fuzzy
 msgid "Validation Type"
 msgstr "Vrsta potrditve"
 
@@ -4112,7 +4062,6 @@ msgid "Check the knowledge model's metadata before publishing. You change them i
 msgstr "Pred objavo preverite metapodatke modela znanja. Spremenite jih v %s."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:124
-#, fuzzy
 msgid "Knowledge model could not be saved."
 msgstr "Modela znanja ni bilo mogoče rešiti."
 
@@ -4191,7 +4140,6 @@ msgid "Migration could not be cancelled."
 msgstr "Migracije ni bilo mogoče preklicati."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:59
-#, fuzzy
 msgid "Click \"Create\" button to add a new knowledge model editor."
 msgstr "Kliknite gumb \"Ustvari\", da dodate nov urejevalnik modela znanja."
 
@@ -4204,12 +4152,10 @@ msgid "Last published version"
 msgstr "Zadnja objavljena različica"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:130
-#, fuzzy
 msgid "There is a new version of parent knowledge model"
 msgstr "Na voljo je nova različica matičnega modela znanja."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:136
-#, fuzzy
 msgid "This editor is in the process of migration to a new parent knowledge model"
 msgstr "Ta urejevalnik je v postopku prenosa na nov nadrejeni model znanja."
 
@@ -4219,7 +4165,6 @@ msgid "migrating"
 msgstr "selitev"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:141
-#, fuzzy
 msgid "This editor has been migrated to a new parent knowledge model, you can publish it now"
 msgstr "Ta urejevalnik je bil prenesen v nov nadrejeni model znanja, zato ga lahko zdaj objavite."
 
@@ -4228,7 +4173,6 @@ msgid "migrated"
 msgstr "preseljen"
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:145
-#, fuzzy
 msgid "This editor contains unpublished changes"
 msgstr "Ta urednik vsebuje neobjavljene spremembe."
 
@@ -4275,7 +4219,6 @@ msgid "The event is not connected to any entity in the Knowledge Model."
 msgstr "Dogodek ni povezan z nobeno entiteto v modelu znanja."
 
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:158
-#, fuzzy
 msgid "Edit knowledge model"
 msgstr "Urejanje modela znanja"
 
@@ -4457,7 +4400,6 @@ msgid "Publish new version"
 msgstr "Objava nove različice"
 
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:76
-#, fuzzy
 msgid "Choose a %s so others can use your knowledge model."
 msgstr "Izberite %s, da bodo lahko drugi uporabljali vaš model znanja."
 
@@ -4466,7 +4408,6 @@ msgid "license"
 msgstr "licenca"
 
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:81
-#, fuzzy
 msgid "Short description of the knowledge model."
 msgstr "Kratek opis modela znanja."
 
@@ -4508,7 +4449,6 @@ msgid "This is a non-editable knowledge model, i.e., it cannot be edited, forked
 msgstr "To je model znanja, ki ga ni mogoče urejati, tj. ni ga mogoče urejati, razcepiti ali izvoziti."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Detail/View.elm:97
-#, fuzzy
 msgid "This is not the latest available version of this knowledge model."
 msgstr "To ni najnovejša razpoložljiva različica tega modela znanja."
 
@@ -4538,12 +4478,10 @@ msgid "Unable to import the package."
 msgstr "Paketa ni mogoče uvoziti."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/RegistryImport/View.elm:68
-#, fuzzy
 msgid "You can find knowledge models in %s."
 msgstr "Modele znanja lahko najdete v %s."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/RegistryImport/View.elm:84
-#, fuzzy
 msgid "Knowledge model %s has been imported!"
 msgstr "Model znanja %s je bil uvožen!"
 
@@ -4556,12 +4494,10 @@ msgid "This doesn't look like a knowledge model. Are you sure you picked the cor
 msgstr "To ni videti kot model znanja. Ste prepričani, da ste izbrali pravo datoteko?"
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/Update.elm:54
-#, fuzzy
 msgid "Knowledge model could not be updated."
 msgstr "Modela znanja ni bilo mogoče posodobiti."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/View.elm:62
-#, fuzzy
 msgid "Click \"Import\" button to import a new knowledge model."
 msgstr "Če želite uvoziti nov model znanja, kliknite gumb \"Uvozi\"."
 
@@ -4638,7 +4574,6 @@ msgid "Locale ID"
 msgstr "ID kraja"
 
 #: engine-wizard/elm/Wizard/Locales/Create/View.elm:52
-#, fuzzy
 msgid "Locale ID can only contain alphanumeric characters, hyphens, underscores, and dots."
 msgstr "ID kraja lahko vsebuje samo alfanumerične znake, pomišljaje, podčrtanke in pike."
 
@@ -4990,7 +4925,6 @@ msgid "Original question tags"
 msgstr "Originalne oznake vprašanja"
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:78
-#, fuzzy
 msgid "Select knowledge model first"
 msgstr "Najprej izberite model znanja"
 
@@ -4999,7 +4933,6 @@ msgid "Create Migration"
 msgstr "Ustvari migracijo"
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:82
-#, fuzzy
 msgid "A new project is created for the migration. The original will remain unchanged until the migration is finished."
 msgstr "Za migracijo je ustvarjen nov projekt. Izvirnik ostane nespremenjen, dokler se migracija ne konča."
 
@@ -5069,7 +5002,6 @@ msgid "Before you can use preview you need to update the default document templa
 msgstr "Preden lahko uporabite predogled, morate posodobiti privzeto predlogo dokumenta."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:230
-#, fuzzy
 msgid "Ask the project owner to update the default document template."
 msgstr "Lastnika projekta prosite, naj posodobi privzeto predlogo dokumenta."
 
@@ -5419,12 +5351,10 @@ msgid "You can safely finalize the migration."
 msgstr "Migracijo lahko varno zaključite."
 
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:86
-#, fuzzy
 msgid "Source knowledge model"
 msgstr "Model izvornega znanja"
 
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:90
-#, fuzzy
 msgid "Target knowledge model"
 msgstr "Ciljni model znanja"
 
@@ -5913,7 +5843,6 @@ msgid "Name of the organization running this instance."
 msgstr "Ime organizacije, ki upravlja to instanco."
 
 #: engine-wizard/elm/Wizard/Settings/Organization/View.elm:51
-#, fuzzy
 msgid "Organization ID is used to identify knowledge models created in this instance. It can only contain alphanumeric characters, hyphens, underscores, and dots."
 msgstr "ID organizacije se uporablja za identifikacijo modelov znanja, ustvarjenih v tem primeru. Vsebuje lahko samo alfanumerične znake, pomišljaje, podčrtanke in pike."
 
@@ -6088,7 +6017,6 @@ msgid "Fill in your DSW Registry token. If you don't have one, you need sign up 
 msgstr "Vnesite žeton registra DSW. Če ga nimate, se morate najprej registrirati."
 
 #: engine-wizard/elm/Wizard/Settings/Registry/View.elm:92
-#, fuzzy
 msgid "If enabled, you can import knowledge models and document templates directly from [DSW Registry](https://registry.ds-wizard.org)."
 msgstr "Če je omogočeno, lahko modele znanja in predloge dokumentov uvozite neposredno iz [Registra DSW] (https://registry.ds-wizard.org)."
 

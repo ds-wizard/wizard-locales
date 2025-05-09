@@ -3,7 +3,7 @@
 [![LICENSE](https://img.shields.io/github/license/ds-wizard/wizard-client-locales)](LICENSE)
 [![Language](https://img.shields.io/badge/ISO%20639--1-tr-blue)](https://en.wikipedia.org/wiki/Turkish_language)
 [![Translation status](https://img.shields.io/badge/translated-100%25-brightgreen)](https://localize.ds-wizard.org/engage/wizard-client/nl/)
-[![Translation status](https://localize.ds-wizard.org/widgets/wizard-client/tr/wizard-client-4-16-0/svg-badge.svg)](https://localize.ds-wizard.org/engage/wizard-client/tr/)
+[![Translation status](https://localize.ds-wizard.org/widgets/wizard-client/tr/wizard-client-4-17-0/svg-badge.svg)](https://localize.ds-wizard.org/engage/wizard-client/tr/)
 
 ## Contributors
 
@@ -16,9 +16,9 @@
 
 ## Changelog
 
-### 4.16.0
+### 4.17.0
 
-* Updated for version 4.16.0
+* Updated for version 4.17.0
 
 ### 4.15.0
 

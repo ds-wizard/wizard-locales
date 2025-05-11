@@ -1,0 +1,251 @@
+#Comment for updating this file
+msgid ""
+msgstr ""
+"Project-Id-Version: wizard-mail-templates:4.18.2\n"
+"POT-Creation-Date: \n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+
+#: templates/_common/footer.html.j2:155 templates/_common/footer.txt.j2:7
+msgid "Please do not reply to this email"
+msgstr ""
+
+#: templates/_common/footer.html.j2:159 templates/_common/footer.txt.j2:9
+msgid "This email was generated from"
+msgstr ""
+
+#: templates/_common/footer.txt.j2:2
+#: templates/wizard/apiKeyCreated/message.html.j2:81
+#: templates/wizard/apiKeyExpiration/message.html.j2:79
+#: templates/wizard/commentThreadAssigned/message.html.j2:118
+#: templates/wizard/questionnaireInvitation/message.html.j2:80
+#: templates/wizard/registrationConfirmation/message.html.j2:78
+#: templates/wizard/resetPassword/message.html.j2:77
+#: templates/wizard/twoFactorAuth/message.html.j2:76
+msgid "Thank you for using DSW!"
+msgstr ""
+
+#: templates/_common/footer.txt.j2:5
+#: templates/wizard/apiKeyCreated/message.html.j2:82
+#: templates/wizard/apiKeyExpiration/message.html.j2:80
+#: templates/wizard/commentThreadAssigned/message.html.j2:119
+#: templates/wizard/questionnaireInvitation/message.html.j2:81
+#: templates/wizard/registrationConfirmation/message.html.j2:79
+#: templates/wizard/resetPassword/message.html.j2:78
+#: templates/wizard/twoFactorAuth/message.html.j2:77
+msgid "team"
+msgstr ""
+
+#: templates/wizard/apiKeyCreated/message.html.j2:25
+#: templates/wizard/apiKeyCreated/message.txt.j2:6
+#: templates/wizard/apiKeyExpiration/message.html.j2:25
+#: templates/wizard/apiKeyExpiration/message.txt.j2:6
+#: templates/wizard/commentThreadAssigned/message.html.j2:31
+#: templates/wizard/commentThreadAssigned/message.txt.j2:12
+#: templates/wizard/questionnaireInvitation/message.html.j2:26
+#: templates/wizard/questionnaireInvitation/message.txt.j2:6
+#: templates/wizard/registrationConfirmation/message.html.j2:23
+#: templates/wizard/registrationConfirmation/message.txt.j2:3
+#: templates/wizard/resetPassword/message.html.j2:22
+#: templates/wizard/resetPassword/message.txt.j2:3
+#: templates/wizard/twoFactorAuth/message.html.j2:22
+#: templates/wizard/twoFactorAuth/message.txt.j2:4
+#, python-format
+msgid "Hello %(userFirstName)s"
+msgstr ""
+
+#: templates/wizard/apiKeyCreated/message.html.j2:26
+#: templates/wizard/apiKeyCreated/message.txt.j2:8
+#, python-format
+msgid "A new API key named %(tokenName)s has been created for your account."
+msgstr ""
+
+#: templates/wizard/apiKeyCreated/message.html.j2:28
+#: templates/wizard/apiKeyCreated/message.txt.j2:10
+#, python-format
+msgid "It will expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
+msgstr ""
+
+#: templates/wizard/apiKeyCreated/message.html.j2:53
+#: templates/wizard/apiKeyExpiration/message.html.j2:51
+msgid "Manage API Keys"
+msgstr ""
+
+#: templates/wizard/apiKeyCreated/message.html.j2:79
+#: templates/wizard/apiKeyCreated/message.txt.j2:15
+msgid "If you did not initiate this action, please contact us via"
+msgstr ""
+
+#: templates/wizard/apiKeyCreated/message.txt.j2:12
+#: templates/wizard/apiKeyExpiration/message.txt.j2:10
+msgid "You can manage your API keys here:"
+msgstr ""
+
+#: templates/wizard/apiKeyCreated/subject.txt.j2:1
+msgid "New API Key Created"
+msgstr ""
+
+#: templates/wizard/apiKeyExpiration/message.html.j2:26
+#: templates/wizard/apiKeyExpiration/message.txt.j2:8
+#, python-format
+msgid "Your API key, identified as %(tokenName)s, is scheduled to expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
+msgstr ""
+
+#: templates/wizard/apiKeyExpiration/message.html.j2:77
+#: templates/wizard/apiKeyExpiration/message.txt.j2:13
+msgid "If you encounter any issues, please contact us via"
+msgstr ""
+
+#: templates/wizard/apiKeyExpiration/subject.txt.j2:1
+msgid "API Key Expiring Soon"
+msgstr ""
+
+#: templates/wizard/commentThreadAssigned/message.html.j2:32
+#: templates/wizard/commentThreadAssigned/message.txt.j2:14
+#, python-format
+msgid "The following comment thread has been assigned to you:"
+msgid_plural "The following %(count)s comment threads have been assigned to you:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/wizard/commentThreadAssigned/message.html.j2:75
+#: templates/wizard/commentThreadAssigned/message.txt.j2:20
+msgid "Assigned by"
+msgstr ""
+
+#: templates/wizard/commentThreadAssigned/message.html.j2:78
+msgid "Open"
+msgstr ""
+
+#: templates/wizard/commentThreadAssigned/message.html.j2:113
+msgid "View all comment threads assigned to you"
+msgstr ""
+
+#: templates/wizard/commentThreadAssigned/message.html.j2:116
+#: templates/wizard/questionnaireInvitation/message.html.j2:78
+#: templates/wizard/registrationConfirmation/message.html.j2:76
+#: templates/wizard/resetPassword/message.html.j2:75
+msgid "If any problem occurs contact us via"
+msgstr ""
+
+#: templates/wizard/commentThreadAssigned/message.txt.j2:20
+msgid "already resolved"
+msgstr ""
+
+#: templates/wizard/commentThreadAssigned/message.txt.j2:20
+msgid "unresolved"
+msgstr ""
+
+#: templates/wizard/commentThreadAssigned/message.txt.j2:20
+msgid "private editor note"
+msgstr ""
+
+#: templates/wizard/commentThreadAssigned/subject.txt.j2:1
+msgid "Assigned to Comment Threads"
+msgstr ""
+
+#: templates/wizard/questionnaireInvitation/message.html.j2:27
+#: templates/wizard/questionnaireInvitation/message.txt.j2:8
+#, python-format
+msgid "%(ownerFirstName)s %(ownerLastName)s has invited you to the project %(projectName)s"
+msgstr ""
+
+#: templates/wizard/questionnaireInvitation/message.html.j2:52
+msgid "Open project"
+msgstr ""
+
+#: templates/wizard/questionnaireInvitation/subject.txt.j2:1
+msgid "Project Invitation"
+msgstr ""
+
+#: templates/wizard/registrationConfirmation/message.html.j2:24
+#: templates/wizard/registrationConfirmation/message.txt.j2:5
+msgid "Welcome aboard! Well, you’re almost set. Just one more step and you can start using the DSW."
+msgstr ""
+
+#: templates/wizard/registrationConfirmation/message.html.j2:25
+msgid "To activate your account, please click on the button below."
+msgstr ""
+
+#: templates/wizard/registrationConfirmation/message.html.j2:50
+msgid "Activate your account"
+msgstr ""
+
+#: templates/wizard/registrationConfirmation/message.txt.j2:7
+msgid "To activate your account, please proceed here"
+msgstr ""
+
+#: templates/wizard/registrationConfirmation/subject.txt.j2:1
+msgid "Registration Confirmation"
+msgstr ""
+
+#: templates/wizard/registrationCreatedAnalytics/message.html.j2:19
+#: templates/wizard/registrationCreatedAnalytics/message.txt.j2:1
+msgid "Hello!"
+msgstr ""
+
+#: templates/wizard/registrationCreatedAnalytics/message.html.j2:20
+#: templates/wizard/registrationCreatedAnalytics/message.txt.j2:3
+msgid "Good news — we have a new user in"
+msgstr ""
+
+#: templates/wizard/registrationCreatedAnalytics/message.html.j2:23
+#: templates/wizard/registrationCreatedAnalytics/message.txt.j2:5
+msgid "Name"
+msgstr ""
+
+#: templates/wizard/registrationCreatedAnalytics/message.html.j2:25
+#: templates/wizard/registrationCreatedAnalytics/message.txt.j2:6
+msgid "Email"
+msgstr ""
+
+#: templates/wizard/registrationCreatedAnalytics/message.html.j2:30
+msgid "Have a nice day!"
+msgstr ""
+
+#: templates/wizard/registrationCreatedAnalytics/subject.txt.j2:1
+msgid "New User Registered"
+msgstr ""
+
+#: templates/wizard/resetPassword/message.html.j2:23
+#: templates/wizard/resetPassword/message.txt.j2:5
+msgid "Forgot your password? No problem, that happens to the best of us!"
+msgstr ""
+
+#: templates/wizard/resetPassword/message.html.j2:24
+msgid "You can easily set up a new password by clicking on the button below."
+msgstr ""
+
+#: templates/wizard/resetPassword/message.html.j2:49
+msgid "Set up a new password"
+msgstr ""
+
+#: templates/wizard/resetPassword/message.txt.j2:6
+msgid "You can easily set up a new password here"
+msgstr ""
+
+#: templates/wizard/resetPassword/subject.txt.j2:1
+msgid "Reset Password"
+msgstr ""
+
+#: templates/wizard/twoFactorAuth/message.html.j2:23
+#: templates/wizard/twoFactorAuth/message.txt.j2:6
+msgid "You have requested an authentication code to log in to your account. Your code is:"
+msgstr ""
+
+#: templates/wizard/twoFactorAuth/message.html.j2:71
+#: templates/wizard/twoFactorAuth/message.txt.j2:10
+msgid "This code is valid for"
+msgstr ""
+
+#: templates/wizard/twoFactorAuth/message.html.j2:74
+#: templates/wizard/twoFactorAuth/message.txt.j2:12
+msgid "If you did not initiate this login attempt, please contact us via"
+msgstr ""
+
+#: templates/wizard/twoFactorAuth/subject.txt.j2:1
+msgid "Two-Factor Login Verification"
+msgstr ""
+

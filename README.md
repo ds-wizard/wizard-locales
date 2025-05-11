@@ -1,4 +1,6 @@
-# Localization of Wizard Client
+# Wizard Locales
+
+*Localization of DSW user interface and mail templates*
 
 [![LICENSE](https://img.shields.io/github/license/ds-wizard/wizard-client-localization)](LICENSE)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4975/badge)](https://bestpractices.coreinfrastructure.org/projects/4975)
@@ -18,7 +20,7 @@ If you want to start contributing, please let us know via email, Slack channel, 
 
 We host service **[localize.ds-wizard.org](https://localize.ds-wizard.org)** which is an instance of [Weblate](https://weblate.org/) for DSW projects. In general, please check the [official documentation](https://docs.weblate.org/en/latest/) whenever needed. The service is linked to this repository and automatically synchronizes. A component in the service refers to a specific version of Wizard Client (e.g. `3.17.1`); thus a branch in this repository.
 
-To contribute please follow this:
+To contribute, please follow this:
 
 * Use your real name in the registration.
 * Use your email that you also use on GitHub / link more emails and GitHub account (that will allow to link commits to your GitHub account).
@@ -46,15 +48,17 @@ We keep the directory structure as follows:
 * `locales/`
   * `<lang-code>/` = directory for a single language
     * `locale.json` = locale metadata file
-    * `locale.po` = locale messages (PO) file
+    * `mail.po` = locale messages (PO) file for mail templates of `mailer`
+    * `wizard.po` = locale messages (PO) file for `wizard-client`
     * `README.md` = basic information about locale, contributors and changelog
 * `LICENSE` = license text for all locales
 * `README.md` = this file
-* `wizard.pot` = source (POT) file with messages
+* `mail.pot` = source (POT) file for mail templates messages
+* `wizard.pot` = source (POT) file for `wizard-client` messages
 
-It is important to keep the structure consistent across all languages. The repository maintainers will take care of metadata and information about locales, and ask contributors for details if needed.
+It is important to keep the structure consistent across all languages. The repository maintainers will take care of metadata and information about locales and ask contributors for details if needed.
 
-For each Wizard Client version, there is a separate branch in this repository. That allows to develop locales also for historical versions even if a newer version is released. Everytime a new version of Wizard Client is released, a new branch is created from the previous version-branch and POT file is updated; then all PO files are refreshed (`msgmerge`) together with locales metadata and READMEs. Then, translation work can continue. In [localize.ds-wizard.org](https://localize.ds-wizard.org), a new component is added according to the version.
+For each Wizard Client version, there is a separate branch in this repository. That allows to develop locales also for historical versions even if a newer version is released. Everytime a new version of Wizard Client is released, a new branch is created from the previous version-branch, and POT filesare updated; then all PO files are refreshed (`msgmerge`) together with locales metadata and READMEs. Then, translation work can continue. In [localize.ds-wizard.org](https://localize.ds-wizard.org), a new component is added according to the version.
 
 ## References and Resources
 

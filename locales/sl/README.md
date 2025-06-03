@@ -1,9 +1,8 @@
 # Slovenian Locale for Wizard Client
 
-[![LICENSE](https://img.shields.io/github/license/ds-wizard/wizard-client-locales)](LICENSE)
+[![LICENSE](https://img.shields.io/github/license/ds-wizard/wizard-locales)](LICENSE)
 [![Language](https://img.shields.io/badge/ISO%20639--1-sl-blue)](https://en.wikipedia.org/wiki/Slovene_language)
-[![Translation status](https://img.shields.io/badge/translated-100%25-brightgreen)](https://localize.ds-wizard.org/engage/wizard-client/nl/)
-[![Translation status](https://localize.ds-wizard.org/widgets/wizard-client/sl/wizard-client-4-17-0/svg-badge.svg)](https://localize.ds-wizard.org/engage/wizard-client/tr/)
+[![Translation status](https://img.shields.io/badge/translated-100%25-brightgreen)](https://localize.ds-wizard.org/engage/dsw-4-18/nl/)
 
 ## Contributors
 
@@ -13,6 +12,10 @@
 
 
 ## Changelog
+
+### 4.18.0
+
+* Updated for version 4.18.0
 
 ### 4.17.0
 

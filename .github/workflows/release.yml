@@ -19,7 +19,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18.x'
+          node-version: '22.x'
           registry-url: 'https://registry.npmjs.org'
 
       - name: Extract tag
@@ -42,7 +42,7 @@ jobs:
 
       - name: Install DSW Locale Packager
         run: |
-          npm install @ds-wizard/locale-packager@0.2.0
+          npm install @ds-wizard/locale-packager@0.3.0
 
       - name: Create locale ZIP package
         run: |
@@ -69,7 +69,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18.x'
+          node-version: '22.x'
           registry-url: 'https://registry.npmjs.org'
 
       - name: Set up Python
@@ -97,7 +97,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install @ds-wizard/locale-packager@0.2.0
+          npm install @ds-wizard/locale-packager@0.3.0
           pip install -r scripts/requirements.txt
 
       - name: Create locale ZIP package

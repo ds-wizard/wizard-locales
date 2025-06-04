@@ -4,17 +4,7 @@
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Marek Suchánek <marek.suchanek@gmail.com>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:4.9.0\n"
-"POT-Creation-Date: 2025-06-03T07:47:49.021Z \n"
-"PO-Revision-Date: 2025-05-21 13:42+0000\n"
-"Last-Translator: Georgia Koutentaki <koutegeo@cvut.cz>\n"
-"Language-Team: Greek <https://localize.ds-wizard.org/projects/dsw-4-18/client/el/>\n"
-"Language: el\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.9.0\nPOT-Creation-Date: 2025-06-03T07:47:49.021Z\nPO-Revision-Date: 2025-06-05 06:47+0000\nLast-Translator: Georgia Koutentaki <koutegeo@cvut.cz>\nLanguage-Team: Greek <https://localize.ds-wizard.org/projects/dsw-4-19/client/el/>\nLanguage: el\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -1677,11 +1667,11 @@ msgstr "Απεριόριστα"
 
 #: engine-wizard/elm/Wizard/Common/Driver.elm:82
 msgid "Are you sure you want to skip the tour?"
-msgstr ""
+msgstr "Είστε σίγουροι ότι θέλετε να παραλείψετε την περιήγηση;"
 
 #: engine-wizard/elm/Wizard/Common/Driver.elm:87
 msgid "You can reset tours in user settings"
-msgstr ""
+msgstr "Μπορείτε να επαναφέρετε μια περιήγηση στις ρυθμίσεις χρήστη"
 
 #: engine-wizard/elm/Wizard/Common/FileImport.elm:134
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:180
@@ -2101,20 +2091,20 @@ msgstr "Καλώς ήρθατε στο %s!"
 
 #: engine-wizard/elm/Wizard/Dashboard/Update.elm:50
 msgid "Welcome to the Data Management Planner"
-msgstr ""
+msgstr "Καλώσ ήρθατε στον Σχεδιαστή Διαχείρισης Δεδομένων"
 
 #: engine-wizard/elm/Wizard/Dashboard/Update.elm:51
 #: engine-wizard/elm/Wizard/Dashboard/Update.elm:56
 msgid "We'll guide you through creating your data management plan."
-msgstr ""
+msgstr "Θα σας καθοδηγήσουμε για την δημιουργία του σχεδίου διαχείρισης δεδομένων."
 
 #: engine-wizard/elm/Wizard/Dashboard/Update.elm:55
 msgid "Welcome to Data Stewardship Wizard"
-msgstr ""
+msgstr "Καλώς ήρθατε στον οδηγό Data Stewardship Wizard"
 
 #: engine-wizard/elm/Wizard/Dashboard/Update.elm:68
 msgid "Create and manage your data management plans here."
-msgstr ""
+msgstr "Εδώ μπορείτε να δημιουργήστε και να διαχειριστείτε σχέδια διαχείρισης δεδομένων."
 
 #: engine-wizard/elm/Wizard/Dashboard/Widgets/AddOpenIDWidget.elm:13
 msgid "Add OpenID Service"
@@ -3109,7 +3099,7 @@ msgstr "ετικέτα χωρίς τίτλο"
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1115
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:261
 msgid "Untitled integration"
-msgstr "Ενοποίηση χωρίς τίτλο"
+msgstr "Ενσωμάτωση χωρίς τίτλο"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:369
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1014
@@ -3171,7 +3161,7 @@ msgstr "Δεν υπάρχουν ερωτήσεις στοιχείων για τ�
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1006
 msgid "No integration selected for integration question"
-msgstr "Δεν έχει επιλεγεί ενοποίηση για την ερώτηση ενοποίησης"
+msgstr "Δεν έχει επιλεγεί ενσωμάτωση για την ερώτηση ενσωμάτωσης"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1013
 msgid "No choices for multi-choice question"
@@ -3537,7 +3527,7 @@ msgstr "Διαμόρφωση ενοποίησης"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1160
 msgid "Go to integration"
-msgstr ""
+msgstr "Πηγαίνετε στην ενσωμάτωση"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1193
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1137
@@ -3695,15 +3685,15 @@ msgstr "Χρησιμοποιήστε αυτήν την ενότητα για ν�
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1736
 msgid "The full API endpoint used for search. Use `${q}` to insert the user's search term (for example, *https://example.com/search?q=${q}*), and `${propName}` to reference fields defined in props."
-msgstr ""
+msgstr "Ολόκληρο το API endpoint που χρησιμοποιείται για την αναζήτηση. Χρησιμοποιείστε `${q}`για να εισάγετε τον όρο αναζήτησης του χρήστη (για παράδειγμα, *https://example.com/search?q=${q}*), και `${propName}`για να κάνετε αναφορά σε κάποιο πεδίο που έχει οριστεί στις ιδιότητες"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1739
 msgid "Optional headers to include in the API request. You can use `${q}` for the search term and `${propName}` for values from props."
-msgstr ""
+msgstr "Προαιρετικοί τίτλοι για ενσωμάτωση στο API request. Χρησιμοποιείστε `${q}`για τον όρο αναζήτησης και `${propName}`για τιμές από τις ιδιότητες."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1741
 msgid "Optional request body for POST or PUT methods. Supports the same variables: `${q}` for the search term and `${propName}` for props."
-msgstr ""
+msgstr "Προαιρετικό σώμα αιτήματος για τις μεθόδους POST ή PUT. Υποστηρίζονται οι ίδιες μεταβλητές: `${q}` για τον όρο αναζήτησης και `${propName}` για ιδιότητες."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1743
 msgid "Turn this off if the API cannot handle empty search requests. In that case, the requests will be made only after users type something."
@@ -4912,11 +4902,11 @@ msgstr "Άλλοι συνδεδεμένοι χρήστες έχουν πρόσβ
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:117
 msgid "Starting Point"
-msgstr ""
+msgstr "Σημείο Εκκίνησης"
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:118
 msgid "Create a project from a template with preset content, or start from a knowledge model and configure everything yourself."
-msgstr ""
+msgstr "Δημιουργήστε ένα έργο από ένα πρότυπο με ορισμένο περιεχόμενο, ή ξεκινήστε ένα μοντέλο γνώσης και διαμορφώστε τα πάντα μόνοι σας."
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:125
 #: engine-wizard/elm/Wizard/Projects/Create/View.elm:86
@@ -4928,19 +4918,19 @@ msgstr "Πρότυπο έργου"
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:126
 msgid "Project templates are pre-configured starting points for your project."
-msgstr ""
+msgstr "Τα πρότυπα έργων είναι προκαθορισμένα σημεία εκκίνησης για το έργο σας."
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:134
 msgid "A knowledge model defines the structure of your questionnaire. You can configure the document template and other settings later."
-msgstr ""
+msgstr "Ένα μοντέλο γνώσης καθορίζει την δομή του ερωτηματολόγίου σας. Μπορείτε να διαμορφώσετε το πρότυπο εγγράφου και άλλες ρυθμίσεις αργότερα."
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:142
 msgid "Project Name"
-msgstr ""
+msgstr "Όνομα Έργου"
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:143
 msgid "Choose a name for your project. You can change it later."
-msgstr ""
+msgstr "Επιλέξτε ένα όνομα για το έργο σας. Μπορείτε να το αλλάξετε αργότερα."
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:159
 msgid "Unable to get selected project template."
@@ -5165,15 +5155,15 @@ msgstr "Το ερωτηματολόγιο δεν μπόρεσε να διαγρ�
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:138
 msgid "Invite specific people to your project. They need to have an existing account."
-msgstr ""
+msgstr "Προσκαλέστε άτομα στο έργο σας. Είναι απαραίτητο να διαθέτουν έναν ενεργό λόγαριασμό."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:144
 msgid "Permissions"
-msgstr ""
+msgstr "Δικαιώματα"
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:145
 msgid "Choose to share your project with all logged-in users or anyone with the link."
-msgstr ""
+msgstr "Διαλέξτε να κοινοποιήσετε το έργο σας με όλους τους ενεργούς χρήστες, είτε με οποιονδήποτε διαθέτει το link."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:240
 msgid "Unable to get user groups."
@@ -5226,23 +5216,23 @@ msgstr "Ερωτηματολόγιο"
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:139
 msgid "Fill out the questionnaire to provide key information for your data management plan. Changes are saved automatically."
-msgstr ""
+msgstr "Συμπληρώστε το ερωτηματολόγιο για να παρέχετε σημαντικές πληροφορίες για το σχέδιο διαχείρισης δεδομένων. Οι αλλαγές αποθηκεύονται αυτόματα."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:145
 msgid "Collaboration"
-msgstr ""
+msgstr "Συνεργασία"
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:146
 msgid "Share your project to collaborate with colleagues."
-msgstr ""
+msgstr "Μοιραστείτε το έργο σας για να συνεργαστείτε με συναδέλφους."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:152
 msgid "Navigation"
-msgstr ""
+msgstr "Περιήγηση"
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:153
 msgid "Use the navigation bar to switch between tools and views related to your project."
-msgstr ""
+msgstr "Χρησιμοποιείστε την μπάρα περιήγησης για να μεταβείτε μεταξύ εργαλείων και στοιχείων που σχετίζονται με το έργο σας."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:102
 msgid "project migration"
@@ -5370,11 +5360,11 @@ msgstr "Το αρχείο προστέθηκε"
 
 #: engine-wizard/elm/Wizard/Projects/Index/Update.elm:86
 msgid "All your projects will be here, including those shared with you."
-msgstr ""
+msgstr "Όλα τα έργα σας θα είναι εδώ, συμπεριλαμβανομένων και εκείνων που έχουν κοινοποιηθεί μαζί σας."
 
 #: engine-wizard/elm/Wizard/Projects/Index/Update.elm:93
 msgid "Click here to start a new project."
-msgstr ""
+msgstr "Πατήστε εδώ για να ξεκινήσετε ένα νέο έργο."
 
 #: engine-wizard/elm/Wizard/Projects/Index/Update.elm:319
 msgid "Project migration was successfully canceled."
@@ -5662,7 +5652,7 @@ msgstr "Επώνυμο"
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Profile.elm:217
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Profile.elm:250
 msgid "Affiliation"
-msgstr "Συνεργασία"
+msgstr "Συνεργάτης"
 
 #: engine-wizard/elm/Wizard/Public/Signup/View.elm:150
 msgid "Password again"
@@ -6463,35 +6453,35 @@ msgstr "Δεν υπάρχουν ρυθμίσεις για %s."
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:102
 #: engine-wizard/elm/Wizard/Users/Edit/View.elm:109
 msgid "Tours"
-msgstr ""
+msgstr "Περιηγήσεις"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:50
 msgid "Tours are interactive guides that highlight key features on selected pages to help you get familiar with the interface."
-msgstr ""
+msgstr "Οι περιηγήσεις είναι αλληλεπιδραστικοί οδηγοί που επισημαίνουν σημαντικά χαρακτηριστικά συγκεκριμένων σελίδων, ώστε να γίνετε πιο οικείοι με την διεπαφή."
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:56
 msgid "Reset Tours"
-msgstr ""
+msgstr "Επαναφέρετε τις περιηγήσεις"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:57
 msgid "This will reset all previously completed tours, allowing them to restart as if they were never viewed."
-msgstr ""
+msgstr "Αυτή η δράση θα επαναφέρει όλες τις προηγουμένως ολοκληρωμένες περιηγήσεις, επιτρέποντας τους να επανακινηθούν σαν να μην έχουν προβληθεί ποτέ."
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:86
 msgid "Tours have been reset."
-msgstr ""
+msgstr "Οι περιηγήσεις έχουν επαναφερθεί."
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:89
 msgid "Tours could not be reset."
-msgstr ""
+msgstr "Οι περιηγήσεις δεν μπόρεσαν να επαναφερθούν."
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:108
 msgid "This resets all page-specific onboarding tours, allowing the guided highlights and instructions to replay on next visit."
-msgstr ""
+msgstr "Αυτό επαναφέρει όλες τις περιηγήσεις ένταξης της συγκεκριμένης σελίδας, επιτρέποντας τις οδηγίες να ξαναπαίξουν από την αρχή στην επόμενη επίσκεψη."
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:111
 msgid "Reset"
-msgstr ""
+msgstr "Επαναφορά"
 
 #: engine-wizard/elm/Wizard/Users/Edit/View.elm:73
 msgid "User Settings"

@@ -4,17 +4,7 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:3.18.3\n"
-"POT-Creation-Date: 2025-06-03T07:47:49.021Z \n"
-"PO-Revision-Date: 2025-06-03 11:42+0000\n"
-"Last-Translator: Jana Martínková <j.martinkova@outlook.com>\n"
-"Language-Team: Dutch <https://localize.ds-wizard.org/projects/dsw-4-18/client/nl/>\n"
-"Language: nl\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-06-03T07:47:49.021Z\nPO-Revision-Date: 2025-06-11 18:11+0000\nLast-Translator: Rob Hooft <rob.hooft@health-ri.nl>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/dsw-4-19/client/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -1677,11 +1667,11 @@ msgstr "Onbeperkt"
 
 #: engine-wizard/elm/Wizard/Common/Driver.elm:82
 msgid "Are you sure you want to skip the tour?"
-msgstr ""
+msgstr "Weet je zeker dat je de rondleiding wilt overslaan?"
 
 #: engine-wizard/elm/Wizard/Common/Driver.elm:87
 msgid "You can reset tours in user settings"
-msgstr ""
+msgstr "Je kunt de rondleidingen opnieuw activeren in de gebruikersinstellingen"
 
 #: engine-wizard/elm/Wizard/Common/FileImport.elm:134
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:180
@@ -2101,20 +2091,20 @@ msgstr "Welkom bij de %s!"
 
 #: engine-wizard/elm/Wizard/Dashboard/Update.elm:50
 msgid "Welcome to the Data Management Planner"
-msgstr ""
+msgstr "Welkom bij de Data Management Planner"
 
 #: engine-wizard/elm/Wizard/Dashboard/Update.elm:51
 #: engine-wizard/elm/Wizard/Dashboard/Update.elm:56
 msgid "We'll guide you through creating your data management plan."
-msgstr ""
+msgstr "We zullen je begeleiden bij het maken van een data-management-plan."
 
 #: engine-wizard/elm/Wizard/Dashboard/Update.elm:55
 msgid "Welcome to Data Stewardship Wizard"
-msgstr ""
+msgstr "Welkom bij de Data Stewardship Wizard"
 
 #: engine-wizard/elm/Wizard/Dashboard/Update.elm:68
 msgid "Create and manage your data management plans here."
-msgstr ""
+msgstr "Maak en beheer hier je data-management-plannen."
 
 #: engine-wizard/elm/Wizard/Dashboard/Widgets/AddOpenIDWidget.elm:13
 msgid "Add OpenID Service"
@@ -3537,7 +3527,7 @@ msgstr "Configuratie van de integratie"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1160
 msgid "Go to integration"
-msgstr ""
+msgstr "Ga naar integratie"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1193
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1137
@@ -3695,15 +3685,15 @@ msgstr "Gebruik deze sectie om het zoekrequest te configureren. De service die w
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1736
 msgid "The full API endpoint used for search. Use `${q}` to insert the user's search term (for example, *https://example.com/search?q=${q}*), and `${propName}` to reference fields defined in props."
-msgstr ""
+msgstr "Het volledige API-endpoint om te zoeken. Gebruik `${q}` om de zoekterm van de gebruiker erin op te nemen (bijvoorbeeld *https://example.com/search?q=${q}*), en `${propName}` om gedefinieerde velden uit props in te voegen."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1739
 msgid "Optional headers to include in the API request. You can use `${q}` for the search term and `${propName}` for values from props."
-msgstr ""
+msgstr "Optionele headers om in het API request op te nemen. Je kunt `${q}` gebruiken voor de zoekterm en `${propName}` voor waarden van props."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1741
 msgid "Optional request body for POST or PUT methods. Supports the same variables: `${q}` for the search term and `${propName}` for props."
-msgstr ""
+msgstr "Optionele request-body voor POST of PUT methoden. Ondersteunt de zelfde variabelen `${q}` voor de zoekterm en `${propName}` voor props."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1743
 msgid "Turn this off if the API cannot handle empty search requests. In that case, the requests will be made only after users type something."
@@ -4912,11 +4902,11 @@ msgstr "Andere ingelogde gebruikers hebben toegang tot het project."
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:117
 msgid "Starting Point"
-msgstr ""
+msgstr "Startpunt"
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:118
 msgid "Create a project from a template with preset content, or start from a knowledge model and configure everything yourself."
-msgstr ""
+msgstr "Maak een project vanuit een sjabloon met vooringevulde inhoud, of begin met een kennismodel en configureer alles zelf."
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:125
 #: engine-wizard/elm/Wizard/Projects/Create/View.elm:86
@@ -4928,19 +4918,19 @@ msgstr "Projectsjabloon"
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:126
 msgid "Project templates are pre-configured starting points for your project."
-msgstr ""
+msgstr "Projectsjablonen zijn voorgeconfigureerde startpunten voor een project."
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:134
 msgid "A knowledge model defines the structure of your questionnaire. You can configure the document template and other settings later."
-msgstr ""
+msgstr "Een kennismodel definieert de structuur van de vragenlijst. Je kunt het documentsjabloon en andere instellingen later configureren."
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:142
 msgid "Project Name"
-msgstr ""
+msgstr "Projectnaam"
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:143
 msgid "Choose a name for your project. You can change it later."
-msgstr ""
+msgstr "Kies een naam voor je project. Je kunt deze later nog wijzigen."
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:159
 msgid "Unable to get selected project template."
@@ -5165,15 +5155,15 @@ msgstr "De vragenlijst kon niet worden verwijderd."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:138
 msgid "Invite specific people to your project. They need to have an existing account."
-msgstr ""
+msgstr "Nodig specifieke mensen uit om aan je project bij te dragen. Ze moeten al een bestaand account hebben."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:144
 msgid "Permissions"
-msgstr ""
+msgstr "Permissies"
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:145
 msgid "Choose to share your project with all logged-in users or anyone with the link."
-msgstr ""
+msgstr "Kies ervoor om je project te delen met eenieder die is ingelogd, of met iedereen met de link."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:240
 msgid "Unable to get user groups."
@@ -5226,23 +5216,23 @@ msgstr "Vragenlijst"
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:139
 msgid "Fill out the questionnaire to provide key information for your data management plan. Changes are saved automatically."
-msgstr ""
+msgstr "Vul de vragenlijst in met de belangrijke informatie voor je data-management-plan. Alle wijzigingen die je maakt worden automatisch opgeslagen."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:145
 msgid "Collaboration"
-msgstr ""
+msgstr "Samenwerking"
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:146
 msgid "Share your project to collaborate with colleagues."
-msgstr ""
+msgstr "Deel je project om met collega's samen te werken."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:152
 msgid "Navigation"
-msgstr ""
+msgstr "Navigatie"
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:153
 msgid "Use the navigation bar to switch between tools and views related to your project."
-msgstr ""
+msgstr "Gebruik de navigatiebalk om te schakelen tussen tools en views op je project."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:102
 msgid "project migration"
@@ -5370,11 +5360,11 @@ msgstr "Bestand toegevoegd"
 
 #: engine-wizard/elm/Wizard/Projects/Index/Update.elm:86
 msgid "All your projects will be here, including those shared with you."
-msgstr ""
+msgstr "Al je projecten komen hier, inclusief projecten die door anderen met je worden gedeeld."
 
 #: engine-wizard/elm/Wizard/Projects/Index/Update.elm:93
 msgid "Click here to start a new project."
-msgstr ""
+msgstr "Klik hier om een nieuw project te starten."
 
 #: engine-wizard/elm/Wizard/Projects/Index/Update.elm:319
 msgid "Project migration was successfully canceled."
@@ -6463,35 +6453,35 @@ msgstr "Er zijn geen instellingen voor %s."
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:102
 #: engine-wizard/elm/Wizard/Users/Edit/View.elm:109
 msgid "Tours"
-msgstr ""
+msgstr "Rondleidingen"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:50
 msgid "Tours are interactive guides that highlight key features on selected pages to help you get familiar with the interface."
-msgstr ""
+msgstr "Rondleidingen zijn interactieve gidsen die specifieke features op geselecteerde pagina's uitlichten om je kennis te laten maken met het gebruik."
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:56
 msgid "Reset Tours"
-msgstr ""
+msgstr "Rondleidingen Opnieuw Instellen"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:57
 msgid "This will reset all previously completed tours, allowing them to restart as if they were never viewed."
-msgstr ""
+msgstr "Dit herstelt alle rondleidingen die je al hebt doorlopen, zodat ze de volgende keer opnieuw worden getoond."
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:86
 msgid "Tours have been reset."
-msgstr ""
+msgstr "Rondleidingen zijn opnieuw ingesteld."
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:89
 msgid "Tours could not be reset."
-msgstr ""
+msgstr "Rondleidingen konden niet opnieuw worden ingesteld."
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:108
 msgid "This resets all page-specific onboarding tours, allowing the guided highlights and instructions to replay on next visit."
-msgstr ""
+msgstr "Dit herstelt alle rondleidingen specifiek voor een pagina, zodat de instructies de volgende keer opnieuw worden getoond."
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:111
 msgid "Reset"
-msgstr ""
+msgstr "Herstel"
 
 #: engine-wizard/elm/Wizard/Users/Edit/View.elm:73
 msgid "User Settings"

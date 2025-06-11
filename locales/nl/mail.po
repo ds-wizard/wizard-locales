@@ -1,26 +1,17 @@
 # omment for updating this file
 # Jana Martínková <j.martinkova@outlook.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Rob Hooft <rob.hooft@health-ri.nl>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-mail-templates:4.18.2\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-05-12 08:09+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Dutch <https://localize.ds-wizard.org/projects/dsw-4-18/mail-templates/nl/>\n"
-"Language: nl\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-mail-templates:4.18.2\nPOT-Creation-Date: \nPO-Revision-Date: 2025-06-11 18:11+0000\nLast-Translator: Rob Hooft <rob.hooft@health-ri.nl>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/dsw-4-19/mail-templates/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: templates/_common/footer.html.j2:155 templates/_common/footer.txt.j2:7
 msgid "Please do not reply to this email"
-msgstr ""
+msgstr "Gelieve deze e-mail niet te beantwoorden"
 
 #: templates/_common/footer.html.j2:159 templates/_common/footer.txt.j2:9
 msgid "This email was generated from"
-msgstr ""
+msgstr "Deze email is gegenereerd uit"
 
 #: templates/_common/footer.txt.j2:2
 #: templates/wizard/apiKeyCreated/message.html.j2:81
@@ -31,7 +22,7 @@ msgstr ""
 #: templates/wizard/resetPassword/message.html.j2:77
 #: templates/wizard/twoFactorAuth/message.html.j2:76
 msgid "Thank you for using DSW!"
-msgstr ""
+msgstr "Bedankt voor het gebruiken van DSW!"
 
 #: templates/_common/footer.txt.j2:5
 #: templates/wizard/apiKeyCreated/message.html.j2:82
@@ -42,7 +33,7 @@ msgstr ""
 #: templates/wizard/resetPassword/message.html.j2:78
 #: templates/wizard/twoFactorAuth/message.html.j2:77
 msgid "team"
-msgstr ""
+msgstr "team"
 
 #: templates/wizard/apiKeyCreated/message.html.j2:25
 #: templates/wizard/apiKeyCreated/message.txt.j2:6
@@ -60,201 +51,197 @@ msgstr ""
 #: templates/wizard/twoFactorAuth/message.txt.j2:4
 #, python-format
 msgid "Hello %(userFirstName)s"
-msgstr ""
+msgstr "Hallo %(userFirstName)s"
 
 #: templates/wizard/apiKeyCreated/message.html.j2:26
 #: templates/wizard/apiKeyCreated/message.txt.j2:8
 #, python-format
 msgid "A new API key named %(tokenName)s has been created for your account."
-msgstr ""
+msgstr "Een nieuwe API key met de naam %(tokenName)s is voor je account gemaakt."
 
 #: templates/wizard/apiKeyCreated/message.html.j2:28
 #: templates/wizard/apiKeyCreated/message.txt.j2:10
 #, python-format
 msgid "It will expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
-msgstr ""
+msgstr "Deze verloopt op %(tokenExpirationDate)s om %(tokenExpirationTime)s."
 
 #: templates/wizard/apiKeyCreated/message.html.j2:53
 #: templates/wizard/apiKeyExpiration/message.html.j2:51
 msgid "Manage API Keys"
-msgstr ""
+msgstr "Beheer API-sleutels"
 
 #: templates/wizard/apiKeyCreated/message.html.j2:79
 #: templates/wizard/apiKeyCreated/message.txt.j2:15
 msgid "If you did not initiate this action, please contact us via"
-msgstr ""
+msgstr "Als je dit niet zelf bent begonnen, neem dan contact met ons op via"
 
 #: templates/wizard/apiKeyCreated/message.txt.j2:12
 #: templates/wizard/apiKeyExpiration/message.txt.j2:10
 msgid "You can manage your API keys here:"
-msgstr ""
+msgstr "Je kunt je API sleutels hier beheren:"
 
 #: templates/wizard/apiKeyCreated/subject.txt.j2:1
 msgid "New API Key Created"
-msgstr ""
+msgstr "Nieuwe API-sleutel Aangemaakt"
 
 #: templates/wizard/apiKeyExpiration/message.html.j2:26
 #: templates/wizard/apiKeyExpiration/message.txt.j2:8
 #, python-format
 msgid "Your API key, identified as %(tokenName)s, is scheduled to expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
-msgstr ""
+msgstr "Je API-sleutel, bekend als %(tokenName)s, zal verlopen op %(tokenExpirationDate)s om %(tokenExpirationTime)s."
 
 #: templates/wizard/apiKeyExpiration/message.html.j2:77
 #: templates/wizard/apiKeyExpiration/message.txt.j2:13
 msgid "If you encounter any issues, please contact us via"
-msgstr ""
+msgstr "Als je problemen tegenkomt, neem dan contact met ons op via"
 
 #: templates/wizard/apiKeyExpiration/subject.txt.j2:1
 msgid "API Key Expiring Soon"
-msgstr ""
+msgstr "API-sleutel verloopt binnenkort"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:32
 #: templates/wizard/commentThreadAssigned/message.txt.j2:14
 #, python-format
 msgid "The following comment thread has been assigned to you:"
 msgid_plural "The following %(count)s comment threads have been assigned to you:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "De volgende commentaar-thread is aan je toegewezen:"
+msgstr[1] "De volgende %(count)s commentaar-threads zijn aan je toegewezen:"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:75
 #: templates/wizard/commentThreadAssigned/message.txt.j2:20
 msgid "Assigned by"
-msgstr ""
+msgstr "Toegewezen door"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:78
-#, fuzzy
 msgid "Open"
 msgstr "Open"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:113
 msgid "View all comment threads assigned to you"
-msgstr ""
+msgstr "Bekijk alle commentaar-threads die aan jou zijn toegewezen"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:116
 #: templates/wizard/questionnaireInvitation/message.html.j2:78
 #: templates/wizard/registrationConfirmation/message.html.j2:76
 #: templates/wizard/resetPassword/message.html.j2:75
 msgid "If any problem occurs contact us via"
-msgstr ""
+msgstr "Als er zich een probleem voordoet, neem dan contact met ons op via"
 
 #: templates/wizard/commentThreadAssigned/message.txt.j2:20
 msgid "already resolved"
-msgstr ""
+msgstr "al opgelost"
 
 #: templates/wizard/commentThreadAssigned/message.txt.j2:20
 msgid "unresolved"
-msgstr ""
+msgstr "nog niet opgelost"
 
 #: templates/wizard/commentThreadAssigned/message.txt.j2:20
 msgid "private editor note"
-msgstr ""
+msgstr "persoonlijke editor-notitie"
 
 #: templates/wizard/commentThreadAssigned/subject.txt.j2:1
 msgid "Assigned to Comment Threads"
-msgstr ""
+msgstr "Toegewezen aan commentaar-threads"
 
 #: templates/wizard/questionnaireInvitation/message.html.j2:27
 #: templates/wizard/questionnaireInvitation/message.txt.j2:8
 #, python-format
 msgid "%(ownerFirstName)s %(ownerLastName)s has invited you to the project %(projectName)s"
-msgstr ""
+msgstr "%(ownerFirstName)s %(ownerLastName)s heeft je uitgenodigd voor het project %(projectName)s"
 
 #: templates/wizard/questionnaireInvitation/message.html.j2:52
-#, fuzzy
 msgid "Open project"
 msgstr "Open project"
 
 #: templates/wizard/questionnaireInvitation/subject.txt.j2:1
 msgid "Project Invitation"
-msgstr ""
+msgstr "Projectuitnodiging"
 
 #: templates/wizard/registrationConfirmation/message.html.j2:24
 #: templates/wizard/registrationConfirmation/message.txt.j2:5
 msgid "Welcome aboard! Well, you’re almost set. Just one more step and you can start using the DSW."
-msgstr ""
+msgstr "Welkom! Je bent bijna klaar, nog maar één stap om te kunnen beginnen DSW te gebruiken."
 
 #: templates/wizard/registrationConfirmation/message.html.j2:25
 msgid "To activate your account, please click on the button below."
-msgstr ""
+msgstr "Om je account te activeren, klik op de knop hieronder."
 
 #: templates/wizard/registrationConfirmation/message.html.j2:50
 msgid "Activate your account"
-msgstr ""
+msgstr "Activeer je account"
 
 #: templates/wizard/registrationConfirmation/message.txt.j2:7
 msgid "To activate your account, please proceed here"
-msgstr ""
+msgstr "Om je account te activeren, ga hier verder"
 
 #: templates/wizard/registrationConfirmation/subject.txt.j2:1
 msgid "Registration Confirmation"
-msgstr ""
+msgstr "Bevestiging van registratie"
 
 #: templates/wizard/registrationCreatedAnalytics/message.html.j2:19
 #: templates/wizard/registrationCreatedAnalytics/message.txt.j2:1
 msgid "Hello!"
-msgstr ""
+msgstr "Hallo!"
 
 #: templates/wizard/registrationCreatedAnalytics/message.html.j2:20
 #: templates/wizard/registrationCreatedAnalytics/message.txt.j2:3
 msgid "Good news — we have a new user in"
-msgstr ""
+msgstr "Goed nieuws — we hebben een nieuwe gebruiker aan boord"
 
 #: templates/wizard/registrationCreatedAnalytics/message.html.j2:23
 #: templates/wizard/registrationCreatedAnalytics/message.txt.j2:5
-#, fuzzy
 msgid "Name"
 msgstr "Naam"
 
 #: templates/wizard/registrationCreatedAnalytics/message.html.j2:25
 #: templates/wizard/registrationCreatedAnalytics/message.txt.j2:6
-#, fuzzy
 msgid "Email"
 msgstr "e-mailadres"
 
 #: templates/wizard/registrationCreatedAnalytics/message.html.j2:30
 msgid "Have a nice day!"
-msgstr ""
+msgstr "Fijne dag!"
 
 #: templates/wizard/registrationCreatedAnalytics/subject.txt.j2:1
 msgid "New User Registered"
-msgstr ""
+msgstr "Nieuwe Gebruiker Geregistreerd"
 
 #: templates/wizard/resetPassword/message.html.j2:23
 #: templates/wizard/resetPassword/message.txt.j2:5
 msgid "Forgot your password? No problem, that happens to the best of us!"
-msgstr ""
+msgstr "Password vergeten? Geen probleem, dat kan iedereen overkomen!"
 
 #: templates/wizard/resetPassword/message.html.j2:24
 msgid "You can easily set up a new password by clicking on the button below."
-msgstr ""
+msgstr "Je kunt eenvoudig een nieuw password instellen via de onderstaande knop."
 
 #: templates/wizard/resetPassword/message.html.j2:49
 msgid "Set up a new password"
-msgstr ""
+msgstr "Stel een nieuw password in"
 
 #: templates/wizard/resetPassword/message.txt.j2:6
 msgid "You can easily set up a new password here"
-msgstr ""
+msgstr "Je kunt hier eenvoudig een nieuw password instellen"
 
 #: templates/wizard/resetPassword/subject.txt.j2:1
 msgid "Reset Password"
-msgstr ""
+msgstr "Password herstellen"
 
 #: templates/wizard/twoFactorAuth/message.html.j2:23
 #: templates/wizard/twoFactorAuth/message.txt.j2:6
 msgid "You have requested an authentication code to log in to your account. Your code is:"
-msgstr ""
+msgstr "Je hebt gevraagd om een authenticatiecode om in te loggen bij je account. De code is:"
 
 #: templates/wizard/twoFactorAuth/message.html.j2:71
 #: templates/wizard/twoFactorAuth/message.txt.j2:10
 msgid "This code is valid for"
-msgstr ""
+msgstr "Deze code is bruikbaar voor"
 
 #: templates/wizard/twoFactorAuth/message.html.j2:74
 #: templates/wizard/twoFactorAuth/message.txt.j2:12
 msgid "If you did not initiate this login attempt, please contact us via"
-msgstr ""
+msgstr "Als je niet nu zelf probeert in te loggen, neem dan contact met ons op via"
 
 #: templates/wizard/twoFactorAuth/subject.txt.j2:1
 msgid "Two-Factor Login Verification"
-msgstr ""
+msgstr "Twee-factor Login Verificatie"

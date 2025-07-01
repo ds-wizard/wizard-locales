@@ -2,25 +2,15 @@
 # Jana Martínková <j.martinkova@outlook.com>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-mail-templates:4.18.2\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-05-12 08:11+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Slovenian <https://localize.ds-wizard.org/projects/dsw-4-18/mail-templates/sl/>\n"
-"Language: sl\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-mail-templates:4.18.2\nPOT-Creation-Date: \nPO-Revision-Date: 2025-07-01 08:11+0000\nLast-Translator: Jana Martínková <j.martinkova@outlook.com>\nLanguage-Team: Slovenian <https://localize.ds-wizard.org/projects/dsw-4-19/mail-templates/sl/>\nLanguage: sl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\nX-Generator: Weblate 5.11.4\n"
 
 #: templates/_common/footer.html.j2:155 templates/_common/footer.txt.j2:7
 msgid "Please do not reply to this email"
-msgstr ""
+msgstr "Prosimo, ne odgovarjajte na to e-poštno sporočilo"
 
 #: templates/_common/footer.html.j2:159 templates/_common/footer.txt.j2:9
 msgid "This email was generated from"
-msgstr ""
+msgstr "To e-poštno sporočilo je bilo ustvarjeno iz"
 
 #: templates/_common/footer.txt.j2:2
 #: templates/wizard/apiKeyCreated/message.html.j2:81
@@ -31,7 +21,7 @@ msgstr ""
 #: templates/wizard/resetPassword/message.html.j2:77
 #: templates/wizard/twoFactorAuth/message.html.j2:76
 msgid "Thank you for using DSW!"
-msgstr ""
+msgstr "Hvala, ker uporabljate DSW!"
 
 #: templates/_common/footer.txt.j2:5
 #: templates/wizard/apiKeyCreated/message.html.j2:82
@@ -42,7 +32,7 @@ msgstr ""
 #: templates/wizard/resetPassword/message.html.j2:78
 #: templates/wizard/twoFactorAuth/message.html.j2:77
 msgid "team"
-msgstr ""
+msgstr "ekipa"
 
 #: templates/wizard/apiKeyCreated/message.html.j2:25
 #: templates/wizard/apiKeyCreated/message.txt.j2:6
@@ -60,201 +50,199 @@ msgstr ""
 #: templates/wizard/twoFactorAuth/message.txt.j2:4
 #, python-format
 msgid "Hello %(userFirstName)s"
-msgstr ""
+msgstr "Pozdravljeni %(userFirstName)s"
 
 #: templates/wizard/apiKeyCreated/message.html.j2:26
 #: templates/wizard/apiKeyCreated/message.txt.j2:8
 #, python-format
 msgid "A new API key named %(tokenName)s has been created for your account."
-msgstr ""
+msgstr "Za vaš račun je bil ustvarjen nov ključ API z imenom %(tokenName)s."
 
 #: templates/wizard/apiKeyCreated/message.html.j2:28
 #: templates/wizard/apiKeyCreated/message.txt.j2:10
 #, python-format
 msgid "It will expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
-msgstr ""
+msgstr "Veljavnost poteče na %(tokenExpirationDate)s ob %(tokenExpirationTime)s."
 
 #: templates/wizard/apiKeyCreated/message.html.j2:53
 #: templates/wizard/apiKeyExpiration/message.html.j2:51
 msgid "Manage API Keys"
-msgstr ""
+msgstr "Upravljanje ključev API"
 
 #: templates/wizard/apiKeyCreated/message.html.j2:79
 #: templates/wizard/apiKeyCreated/message.txt.j2:15
 msgid "If you did not initiate this action, please contact us via"
-msgstr ""
+msgstr "Če tega dejanja niste sprožili, se obrnite na nas prek"
 
 #: templates/wizard/apiKeyCreated/message.txt.j2:12
 #: templates/wizard/apiKeyExpiration/message.txt.j2:10
 msgid "You can manage your API keys here:"
-msgstr ""
+msgstr "Svoje ključe API lahko upravljate tukaj:"
 
 #: templates/wizard/apiKeyCreated/subject.txt.j2:1
 msgid "New API Key Created"
-msgstr ""
+msgstr "Ustvarjen Nov Ključ API"
 
 #: templates/wizard/apiKeyExpiration/message.html.j2:26
 #: templates/wizard/apiKeyExpiration/message.txt.j2:8
 #, python-format
 msgid "Your API key, identified as %(tokenName)s, is scheduled to expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
-msgstr ""
+msgstr "Vaš ključ API, označen kot %(tokenName)s, poteče na %(tokenExpirationDate)s ob %(tokenExpirationTime)s."
 
 #: templates/wizard/apiKeyExpiration/message.html.j2:77
 #: templates/wizard/apiKeyExpiration/message.txt.j2:13
 msgid "If you encounter any issues, please contact us via"
-msgstr ""
+msgstr "Če naletite na kakršne koli težave, nam pišite prek"
 
 #: templates/wizard/apiKeyExpiration/subject.txt.j2:1
 msgid "API Key Expiring Soon"
-msgstr ""
+msgstr "Ključ API Se Kmalu Izteče"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:32
 #: templates/wizard/commentThreadAssigned/message.txt.j2:14
 #, python-format
 msgid "The following comment thread has been assigned to you:"
 msgid_plural "The following %(count)s comment threads have been assigned to you:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Naslednja nit komentarjev je bila dodeljena vam:"
+msgstr[1] "Naslednja %(count)s komentarja sta bila dodeljena vam:"
+msgstr[2] "Naslednje %(count)s teme komentarjev so vam bile dodeljene:"
+msgstr[3] "Dodeljenih vam je bilo naslednjih %(count)s komentarjev:"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:75
 #: templates/wizard/commentThreadAssigned/message.txt.j2:20
 msgid "Assigned by"
-msgstr ""
+msgstr "dodelil"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:78
-#, fuzzy
 msgid "Open"
 msgstr "Odpri"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:113
 msgid "View all comment threads assigned to you"
-msgstr ""
+msgstr "Oglejte si vse teme komentarjev, ki so vam dodeljene"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:116
 #: templates/wizard/questionnaireInvitation/message.html.j2:78
 #: templates/wizard/registrationConfirmation/message.html.j2:76
 #: templates/wizard/resetPassword/message.html.j2:75
 msgid "If any problem occurs contact us via"
-msgstr ""
+msgstr "Če se pojavi kakršna koli težava, nas kontaktirajte prek"
 
 #: templates/wizard/commentThreadAssigned/message.txt.j2:20
 msgid "already resolved"
-msgstr ""
+msgstr "že rešeno"
 
 #: templates/wizard/commentThreadAssigned/message.txt.j2:20
 msgid "unresolved"
-msgstr ""
+msgstr "nerešeno"
 
 #: templates/wizard/commentThreadAssigned/message.txt.j2:20
 msgid "private editor note"
-msgstr ""
+msgstr "opomba zasebnega urednika"
 
 #: templates/wizard/commentThreadAssigned/subject.txt.j2:1
 msgid "Assigned to Comment Threads"
-msgstr ""
+msgstr "Dodeljeno komentarjem niti"
 
 #: templates/wizard/questionnaireInvitation/message.html.j2:27
 #: templates/wizard/questionnaireInvitation/message.txt.j2:8
 #, python-format
 msgid "%(ownerFirstName)s %(ownerLastName)s has invited you to the project %(projectName)s"
-msgstr ""
+msgstr "%(ownerFirstName)s %(ownerLastName)s vas je povabil na projekt %(projectName)s"
 
 #: templates/wizard/questionnaireInvitation/message.html.j2:52
-#, fuzzy
 msgid "Open project"
 msgstr "Odprti projekt"
 
 #: templates/wizard/questionnaireInvitation/subject.txt.j2:1
 msgid "Project Invitation"
-msgstr ""
+msgstr "Povabilo k Projektu"
 
 #: templates/wizard/registrationConfirmation/message.html.j2:24
 #: templates/wizard/registrationConfirmation/message.txt.j2:5
 msgid "Welcome aboard! Well, you’re almost set. Just one more step and you can start using the DSW."
-msgstr ""
+msgstr "Dobrodošli na krovu! No, skoraj si pripravljen. Samo še en korak in lahko začnete uporabljati DSW."
 
 #: templates/wizard/registrationConfirmation/message.html.j2:25
 msgid "To activate your account, please click on the button below."
-msgstr ""
+msgstr "Če želite aktivirati svoj račun, kliknite spodnji gumb."
 
 #: templates/wizard/registrationConfirmation/message.html.j2:50
 msgid "Activate your account"
-msgstr ""
+msgstr "Aktivirajte svoj račun"
 
 #: templates/wizard/registrationConfirmation/message.txt.j2:7
 msgid "To activate your account, please proceed here"
-msgstr ""
+msgstr "Če želite aktivirati svoj račun, nadaljujte tukaj"
 
 #: templates/wizard/registrationConfirmation/subject.txt.j2:1
 msgid "Registration Confirmation"
-msgstr ""
+msgstr "Potrditev Registracije"
 
 #: templates/wizard/registrationCreatedAnalytics/message.html.j2:19
 #: templates/wizard/registrationCreatedAnalytics/message.txt.j2:1
 msgid "Hello!"
-msgstr ""
+msgstr "Pozdravljeni!"
 
 #: templates/wizard/registrationCreatedAnalytics/message.html.j2:20
 #: templates/wizard/registrationCreatedAnalytics/message.txt.j2:3
 msgid "Good news — we have a new user in"
-msgstr ""
+msgstr "Dobra novica - imamo novega uporabnika v"
 
 #: templates/wizard/registrationCreatedAnalytics/message.html.j2:23
 #: templates/wizard/registrationCreatedAnalytics/message.txt.j2:5
-#, fuzzy
 msgid "Name"
 msgstr "Ime"
 
 #: templates/wizard/registrationCreatedAnalytics/message.html.j2:25
 #: templates/wizard/registrationCreatedAnalytics/message.txt.j2:6
-#, fuzzy
 msgid "Email"
 msgstr "E-pošta"
 
 #: templates/wizard/registrationCreatedAnalytics/message.html.j2:30
 msgid "Have a nice day!"
-msgstr ""
+msgstr "Prijeten dan!"
 
 #: templates/wizard/registrationCreatedAnalytics/subject.txt.j2:1
 msgid "New User Registered"
-msgstr ""
+msgstr "Registriran Nov Uporabnik"
 
 #: templates/wizard/resetPassword/message.html.j2:23
 #: templates/wizard/resetPassword/message.txt.j2:5
 msgid "Forgot your password? No problem, that happens to the best of us!"
-msgstr ""
+msgstr "Ste pozabili geslo? Ni problema, to se zgodi tudi najboljšim od nas!"
 
 #: templates/wizard/resetPassword/message.html.j2:24
 msgid "You can easily set up a new password by clicking on the button below."
-msgstr ""
+msgstr "S klikom na spodnji gumb lahko preprosto nastavite novo geslo."
 
 #: templates/wizard/resetPassword/message.html.j2:49
 msgid "Set up a new password"
-msgstr ""
+msgstr "Nastavitev novega gesla"
 
 #: templates/wizard/resetPassword/message.txt.j2:6
 msgid "You can easily set up a new password here"
-msgstr ""
+msgstr "Novo geslo lahko preprosto nastavite tukaj"
 
 #: templates/wizard/resetPassword/subject.txt.j2:1
 msgid "Reset Password"
-msgstr ""
+msgstr "Ponastavitev Gesla"
 
 #: templates/wizard/twoFactorAuth/message.html.j2:23
 #: templates/wizard/twoFactorAuth/message.txt.j2:6
 msgid "You have requested an authentication code to log in to your account. Your code is:"
-msgstr ""
+msgstr "Za prijavo v račun ste zahtevali avtentikacijsko kodo. Vaša koda je:"
 
 #: templates/wizard/twoFactorAuth/message.html.j2:71
 #: templates/wizard/twoFactorAuth/message.txt.j2:10
 msgid "This code is valid for"
-msgstr ""
+msgstr "Ta koda velja za"
 
 #: templates/wizard/twoFactorAuth/message.html.j2:74
 #: templates/wizard/twoFactorAuth/message.txt.j2:12
 msgid "If you did not initiate this login attempt, please contact us via"
-msgstr ""
+msgstr "Če tega poskusa prijave niste sprožili, nas kontaktirajte prek"
 
 #: templates/wizard/twoFactorAuth/subject.txt.j2:1
 msgid "Two-Factor Login Verification"
-msgstr ""
+msgstr "Dvofaktorsko Preverjanje Prijave"

@@ -6,17 +6,7 @@
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Marek Suchánek <marek.suchanek@gmail.com>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:4.1.0\n"
-"POT-Creation-Date: 2025-06-03T07:47:49.021Z \n"
-"PO-Revision-Date: 2025-06-03 11:42+0000\n"
-"Last-Translator: Jana Martínková <j.martinkova@outlook.com>\n"
-"Language-Team: Slovenian <https://localize.ds-wizard.org/projects/dsw-4-18/client/sl/>\n"
-"Language: sl\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.1.0\nPOT-Creation-Date: 2025-06-03T07:47:49.021Z\nPO-Revision-Date: 2025-07-01 08:11+0000\nLast-Translator: Jana Martínková <j.martinkova@outlook.com>\nLanguage-Team: Slovenian <https://localize.ds-wizard.org/projects/dsw-4-19/client/sl/>\nLanguage: sl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\nX-Generator: Weblate 5.11.4\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -1683,11 +1673,11 @@ msgstr "Neomejeno"
 
 #: engine-wizard/elm/Wizard/Common/Driver.elm:82
 msgid "Are you sure you want to skip the tour?"
-msgstr ""
+msgstr "Ali ste prepričani, da želite preskočiti ogled?"
 
 #: engine-wizard/elm/Wizard/Common/Driver.elm:87
 msgid "You can reset tours in user settings"
-msgstr ""
+msgstr "Ogled lahko ponastavite v uporabniških nastavitvah"
 
 #: engine-wizard/elm/Wizard/Common/FileImport.elm:134
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:180
@@ -2125,20 +2115,20 @@ msgstr "Dobrodošli v %s!"
 
 #: engine-wizard/elm/Wizard/Dashboard/Update.elm:50
 msgid "Welcome to the Data Management Planner"
-msgstr ""
+msgstr "Dobrodošli v Načrtovalcu upravljanja podatkov"
 
 #: engine-wizard/elm/Wizard/Dashboard/Update.elm:51
 #: engine-wizard/elm/Wizard/Dashboard/Update.elm:56
 msgid "We'll guide you through creating your data management plan."
-msgstr ""
+msgstr "Skozi postopek ustvarjanja načrta upravljanja podatkov vas bomo vodili."
 
 #: engine-wizard/elm/Wizard/Dashboard/Update.elm:55
 msgid "Welcome to Data Stewardship Wizard"
-msgstr ""
+msgstr "Dobrodošli v Data Stewardship Wizard"
 
 #: engine-wizard/elm/Wizard/Dashboard/Update.elm:68
 msgid "Create and manage your data management plans here."
-msgstr ""
+msgstr "Tukaj ustvarjajte in upravljajte svoje načrte upravljanja podatkov."
 
 #: engine-wizard/elm/Wizard/Dashboard/Widgets/AddOpenIDWidget.elm:13
 msgid "Add OpenID Service"
@@ -3561,7 +3551,7 @@ msgstr "Konfiguracija integracije"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1160
 msgid "Go to integration"
-msgstr ""
+msgstr "Pojdi na integracijo"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1193
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1137
@@ -3719,15 +3709,15 @@ msgstr "V tem razdelku lahko konfigurirate zahtevo za iskanje. Storitev, ki jo �
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1736
 msgid "The full API endpoint used for search. Use `${q}` to insert the user's search term (for example, *https://example.com/search?q=${q}*), and `${propName}` to reference fields defined in props."
-msgstr ""
+msgstr "Polni API-naslov, ki se uporablja za iskanje. Uporabite `${q}` za vnos iskalnega pojma uporabnika (na primer *https://example.com/search?q=${q}*) in `${propName}` za sklicevanje na polja, definirana v props."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1739
 msgid "Optional headers to include in the API request. You can use `${q}` for the search term and `${propName}` for values from props."
-msgstr ""
+msgstr "Izbirni glavi, ki ju vključite v API zahtevo. Lahko uporabite `${q}` za iskalni niz in `${propName}` za vrednosti iz props."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1741
 msgid "Optional request body for POST or PUT methods. Supports the same variables: `${q}` for the search term and `${propName}` for props."
-msgstr ""
+msgstr "Izbirno telo zahteve za metode POST ali PUT. Podpira iste spremenljivke: `${q}` za iskalni niz in `${propName}` za vrednosti iz props."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1743
 msgid "Turn this off if the API cannot handle empty search requests. In that case, the requests will be made only after users type something."
@@ -4944,11 +4934,11 @@ msgstr "Do projekta lahko dostopajo tudi drugi prijavljeni uporabniki."
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:117
 msgid "Starting Point"
-msgstr ""
+msgstr "Začetna točka"
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:118
 msgid "Create a project from a template with preset content, or start from a knowledge model and configure everything yourself."
-msgstr ""
+msgstr "Ustvarite projekt iz predloge s prednastavljeno vsebino ali začnite z znanjem modela in vse konfigurirajte sami."
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:125
 #: engine-wizard/elm/Wizard/Projects/Create/View.elm:86
@@ -4960,19 +4950,19 @@ msgstr "Predloga projekta"
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:126
 msgid "Project templates are pre-configured starting points for your project."
-msgstr ""
+msgstr "Predloge projektov so vnaprej konfigurirani izhodiščni točki za vaš projekt."
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:134
 msgid "A knowledge model defines the structure of your questionnaire. You can configure the document template and other settings later."
-msgstr ""
+msgstr "Model znanja določa strukturo vašega vprašalnika. Predlogo dokumenta in druge nastavitve lahko konfigurirate pozneje."
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:142
 msgid "Project Name"
-msgstr ""
+msgstr "Ime projekta"
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:143
 msgid "Choose a name for your project. You can change it later."
-msgstr ""
+msgstr "Izberite ime za vaš projekt. Kasneje ga lahko spremenite."
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:159
 msgid "Unable to get selected project template."
@@ -5197,15 +5187,15 @@ msgstr "Vprašalnika ni bilo mogoče izbrisati."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:138
 msgid "Invite specific people to your project. They need to have an existing account."
-msgstr ""
+msgstr "Povabite določene osebe v vaš projekt. Potrebujejo obstoječ račun."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:144
 msgid "Permissions"
-msgstr ""
+msgstr "Dovoljenja"
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:145
 msgid "Choose to share your project with all logged-in users or anyone with the link."
-msgstr ""
+msgstr "Izberite, ali želite svoj projekt deliti z vsemi prijavljenimi uporabniki ali z vsakim, ki ima povezavo."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:240
 msgid "Unable to get user groups."
@@ -5258,23 +5248,23 @@ msgstr "Vprašalnik"
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:139
 msgid "Fill out the questionnaire to provide key information for your data management plan. Changes are saved automatically."
-msgstr ""
+msgstr "Izpolnite vprašalnik, da zagotovite ključne informacije za vaš načrt upravljanja podatkov. Spremembe se samodejno shranjujejo."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:145
 msgid "Collaboration"
-msgstr ""
+msgstr "Sodelovanje"
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:146
 msgid "Share your project to collaborate with colleagues."
-msgstr ""
+msgstr "Delite svoj projekt, da sodelujete s sodelavci."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:152
 msgid "Navigation"
-msgstr ""
+msgstr "Navigacija"
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:153
 msgid "Use the navigation bar to switch between tools and views related to your project."
-msgstr ""
+msgstr "Uporabite navigacijsko vrstico za preklapljanje med orodji in pogledi, povezanimi z vašim projektom."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:102
 msgid "project migration"
@@ -5406,11 +5396,11 @@ msgstr "Dodana datoteka"
 
 #: engine-wizard/elm/Wizard/Projects/Index/Update.elm:86
 msgid "All your projects will be here, including those shared with you."
-msgstr ""
+msgstr "Vsi vaši projekti bodo tukaj, vključno s tistimi, ki so z vami deljeni."
 
 #: engine-wizard/elm/Wizard/Projects/Index/Update.elm:93
 msgid "Click here to start a new project."
-msgstr ""
+msgstr "Kliknite tukaj, da začnete nov projekt."
 
 #: engine-wizard/elm/Wizard/Projects/Index/Update.elm:319
 msgid "Project migration was successfully canceled."
@@ -6499,35 +6489,35 @@ msgstr "Za %s ni nastavitev."
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:102
 #: engine-wizard/elm/Wizard/Users/Edit/View.elm:109
 msgid "Tours"
-msgstr ""
+msgstr "Ogledi"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:50
 msgid "Tours are interactive guides that highlight key features on selected pages to help you get familiar with the interface."
-msgstr ""
+msgstr "Ogledi so interaktivni vodiči, ki poudarjajo ključne funkcije na izbranih straneh, da vam pomagajo spoznati vmesnik."
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:56
 msgid "Reset Tours"
-msgstr ""
+msgstr "Ponastavi oglede"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:57
 msgid "This will reset all previously completed tours, allowing them to restart as if they were never viewed."
-msgstr ""
+msgstr "To bo ponastavilo vse predhodno zaključene oglede in jim omogočilo, da se znova začnejo, kot da nikoli niso bili ogledani."
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:86
 msgid "Tours have been reset."
-msgstr ""
+msgstr "Ogledi so bili ponastavljeni."
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:89
 msgid "Tours could not be reset."
-msgstr ""
+msgstr "Ogledov ni bilo mogoče ponastaviti."
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:108
 msgid "This resets all page-specific onboarding tours, allowing the guided highlights and instructions to replay on next visit."
-msgstr ""
+msgstr "To ponastavi vse uvodne oglede, specifične za posamezno stran, in omogoči, da se vodena navodila in poudarki ob naslednjem obisku znova prikažejo."
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:111
 msgid "Reset"
-msgstr ""
+msgstr "Ponastavi"
 
 #: engine-wizard/elm/Wizard/Users/Edit/View.elm:73
 msgid "User Settings"

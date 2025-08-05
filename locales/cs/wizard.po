@@ -7,17 +7,7 @@
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 # xnovotna <xnovotna@mendelu.cz>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:3.17.1\n"
-"POT-Creation-Date: 2025-08-05T09:30:48.094Z \n"
-"PO-Revision-Date: 2025-07-09 04:29+0000\n"
-"Last-Translator: Kryštof Komanec <krystof.komanec@gmail.com>\n"
-"Language-Team: Czech <https://localize.ds-wizard.org/projects/dsw-4-20/client/cs/>\n"
-"Language: cs\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2025-08-05T09:30:48.094Z\nPO-Revision-Date: 2025-08-06 11:50+0000\nLast-Translator: Jana Martínková <j.martinkova@outlook.com>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/dsw-4-21/client/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 5.11.4\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -146,15 +136,15 @@ msgstr "Čárka (,) není povolena v projektových štítcích."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
-msgstr ""
+msgstr "Minimální požadovaná délka odpovědi je %s."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:318
 msgid "Answer must be at most %s characters long."
-msgstr ""
+msgstr "Maximální povolená délka odpovědi je %s."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:325
 msgid "Answer does not match the required pattern (%s)."
-msgstr ""
+msgstr "Odpověď není v požadovanému formátu (%s)."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:332
 msgid "Answer must be a valid ORCID."
@@ -166,39 +156,39 @@ msgstr "Odpověď musí být platné DOI."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:346
 msgid "Answer must be at least %s."
-msgstr ""
+msgstr "Odpověď musí být alespoň %s."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:353
 msgid "Answer must be at most %s."
-msgstr ""
+msgstr "Odpověď smí být nejvýše %s."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:367
 msgid "Date must be at least %s."
-msgstr ""
+msgstr "Datum nesmí být dřívější než %s."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:381
 msgid "Date must be at most %s."
-msgstr ""
+msgstr "Datum nesmí být pozdější než %s."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:395
 msgid "Date and time must be at least %s."
-msgstr ""
+msgstr "Datum a čas nesmí být dřívější než %s."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:409
 msgid "Date and time must be at most %s."
-msgstr ""
+msgstr "Datum a čas nesmí být pozdější než %s."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:423
 msgid "Time must be at least %s."
-msgstr ""
+msgstr "Čas nesmí být dřívější než %s."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:437
 msgid "Time must be at most %s."
-msgstr ""
+msgstr "Čas nesmí být pozdější než %s."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:455
 msgid "Email domain must be one of the following: %s."
-msgstr ""
+msgstr "E-mailová adresa musí mít jednu z těchto domén: %s."
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireCreation.elm:116
 msgid "Templates & Custom"
@@ -909,15 +899,15 @@ msgstr "Načítání..."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4014
 msgid "Create them now."
-msgstr ""
+msgstr "Vytvořit nyní."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4019
 msgid "There are no items to select from yet."
-msgstr ""
+msgstr "Zatím nejsou k dispozici žádné položky k výběru."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4033
 msgid "This question does not have any configured list options to select from."
-msgstr ""
+msgstr "Tato otázka nemá dostupné žádné možnosti k výběru."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4051
 msgid "- select -"
@@ -3645,7 +3635,7 @@ msgstr "Volba"
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1888
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1957
 msgid "Resource Page"
-msgstr "Stránka se zdroji"
+msgstr "Stránka zdroje"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2046
 msgid "Reference"
@@ -4381,7 +4371,7 @@ msgstr "Nelze získat stránku zdroje."
 #: engine-wizard/elm/Wizard/KnowledgeModels/ResourcePage/View.elm:36
 #: engine-wizard/elm/Wizard/KnowledgeModels/ResourcePage/View.elm:39
 msgid "Resource page does not exist"
-msgstr ""
+msgstr "Stránka zdroje neexistuje"
 
 #: engine-wizard/elm/Wizard/Locales/Common/LocaleActionsDropdown.elm:75
 msgid "Set default"
@@ -5502,7 +5492,7 @@ msgstr "Nepodařilo se ověřit účet v DSW Registry."
 
 #: engine-wizard/elm/Wizard/Registry/RegistrySignupConfirmation/View.elm:28
 msgid "Your email was successfully confirmed, you can go back to %s."
-msgstr ""
+msgstr "Váš e-mail byl úspěšně ověřen, můžete se vrátit na %s."
 
 #: engine-wizard/elm/Wizard/Settings/Authentication/View.elm:41
 #: engine-wizard/elm/Wizard/Settings/View.elm:117
@@ -5686,7 +5676,7 @@ msgstr "Zobrazení na přihlašovací obrazovce, viditelné pro všechny."
 #: engine-wizard/elm/Wizard/Settings/Features/View.elm:37
 #: engine-wizard/elm/Wizard/Settings/View.elm:119
 msgid "Features"
-msgstr ""
+msgstr "Funkce"
 
 #: engine-wizard/elm/Wizard/Settings/Features/View.elm:56
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:49
@@ -5697,7 +5687,7 @@ msgstr "Průvodci"
 
 #: engine-wizard/elm/Wizard/Settings/Features/View.elm:57
 msgid "If enabled, Tours help users navigate the application when opening specific screens for the first time."
-msgstr ""
+msgstr "Pokud je aktivováno, Průvodci pomáhají uživatelům orientovat se v aplikaci při prvním otevření konkrétních obrazovek."
 
 #: engine-wizard/elm/Wizard/Settings/Generic/Update.elm:68
 msgid "Unable to load settings."
@@ -6321,7 +6311,7 @@ msgstr "Průvodce se nepodařilo resetovat."
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:108
 msgid "This resets all page-specific onboarding tours, allowing the guided highlights and instructions to replay on next visit."
-msgstr "ímto se resetují všichni onboardingoví průvodci na jednotlivých stránkách, takže se při další návštěvě znovu zobrazí zvýraznění a instrukce."
+msgstr "Tímto se resetují všichni onboardingoví průvodci na jednotlivých stránkách, takže se při další návštěvě znovu zobrazí zvýraznění a instrukce."
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:111
 msgid "Reset"

@@ -4,17 +4,7 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:3.18.3\n"
-"POT-Creation-Date: 2025-08-05T09:30:48.094Z \n"
-"PO-Revision-Date: 2025-06-11 18:11+0000\n"
-"Last-Translator: Rob Hooft <rob.hooft@health-ri.nl>\n"
-"Language-Team: Dutch <https://localize.ds-wizard.org/projects/dsw-4-19/client/nl/>\n"
-"Language: nl\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-08-05T09:30:48.094Z\nPO-Revision-Date: 2025-08-14 13:50+0000\nLast-Translator: Rob Hooft <rob.hooft@health-ri.nl>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/dsw-4-21/client/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -143,15 +133,15 @@ msgstr "Er kan geen komma (,) worden gebruikt in een project-tag."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
-msgstr ""
+msgstr "Het antwoord moet minstens %s karakters lang zijn."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:318
 msgid "Answer must be at most %s characters long."
-msgstr ""
+msgstr "Het antwoord mag maximaal %s karakters lang zijn."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:325
 msgid "Answer does not match the required pattern (%s)."
-msgstr ""
+msgstr "Het antwoord voldoet niet aan het vereiste patroon (%s)."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:332
 msgid "Answer must be a valid ORCID."
@@ -163,39 +153,39 @@ msgstr "Antwoord moet een geldige DOI zijn."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:346
 msgid "Answer must be at least %s."
-msgstr ""
+msgstr "Het antwoord moet minstens %s zijn."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:353
 msgid "Answer must be at most %s."
-msgstr ""
+msgstr "Het antwoord mag maximaal %s zijn."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:367
 msgid "Date must be at least %s."
-msgstr ""
+msgstr "De datum moet niet eerder dan %s zijn."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:381
 msgid "Date must be at most %s."
-msgstr ""
+msgstr "De datum mag niet later dan %s zijn."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:395
 msgid "Date and time must be at least %s."
-msgstr ""
+msgstr "Datum en tijd mogen niet voor %s liggen."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:409
 msgid "Date and time must be at most %s."
-msgstr ""
+msgstr "Datum en tijd mogen niet later zijn dan %s."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:423
 msgid "Time must be at least %s."
-msgstr ""
+msgstr "De tijd moet niet eerder zijn dan %s."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:437
 msgid "Time must be at most %s."
-msgstr ""
+msgstr "De tijd mag niet later zijn dan %s."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:455
 msgid "Email domain must be one of the following: %s."
-msgstr ""
+msgstr "Het e-maildomein moet een van de volgende zijn: %s."
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireCreation.elm:116
 msgid "Templates & Custom"
@@ -905,15 +895,15 @@ msgstr "Laden…"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4014
 msgid "Create them now."
-msgstr ""
+msgstr "Maak ze nu."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4019
 msgid "There are no items to select from yet."
-msgstr ""
+msgstr "Er zijn nog geen mogelijkheden om uit te kiezen."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4033
 msgid "This question does not have any configured list options to select from."
-msgstr ""
+msgstr "Deze vraag heeft geen opties om uit te kiezen."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4051
 msgid "- select -"
@@ -4367,7 +4357,7 @@ msgstr "Kan bronnenpagina niet ophalen."
 #: engine-wizard/elm/Wizard/KnowledgeModels/ResourcePage/View.elm:36
 #: engine-wizard/elm/Wizard/KnowledgeModels/ResourcePage/View.elm:39
 msgid "Resource page does not exist"
-msgstr ""
+msgstr "Deze bronpagina bestaat niet"
 
 #: engine-wizard/elm/Wizard/Locales/Common/LocaleActionsDropdown.elm:75
 msgid "Set default"
@@ -5482,7 +5472,7 @@ msgstr "Kan het account in het DSW register niet bevestigen."
 
 #: engine-wizard/elm/Wizard/Registry/RegistrySignupConfirmation/View.elm:28
 msgid "Your email was successfully confirmed, you can go back to %s."
-msgstr ""
+msgstr "Je e-mailadres is succesvol bevestigd, Je kunt nu teruggaan naar %s."
 
 #: engine-wizard/elm/Wizard/Settings/Authentication/View.elm:41
 #: engine-wizard/elm/Wizard/Settings/View.elm:117
@@ -5666,7 +5656,7 @@ msgstr "Weergave op het inlogscherm, zichtbaar voor iedereen."
 #: engine-wizard/elm/Wizard/Settings/Features/View.elm:37
 #: engine-wizard/elm/Wizard/Settings/View.elm:119
 msgid "Features"
-msgstr ""
+msgstr "Eigenschappen"
 
 #: engine-wizard/elm/Wizard/Settings/Features/View.elm:56
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:49
@@ -5677,7 +5667,7 @@ msgstr "Rondleidingen"
 
 #: engine-wizard/elm/Wizard/Settings/Features/View.elm:57
 msgid "If enabled, Tours help users navigate the application when opening specific screens for the first time."
-msgstr ""
+msgstr "Als ze zijn ingeschakeld kunnen Rondleidingen de gebruikers de applicatie helpen verkennen wanneer ze bepaalde schermen voor het eerst openen."
 
 #: engine-wizard/elm/Wizard/Settings/Generic/Update.elm:68
 msgid "Unable to load settings."

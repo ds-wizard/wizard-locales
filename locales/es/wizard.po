@@ -3,17 +3,7 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:3.18.3\n"
-"POT-Creation-Date: 2025-08-05T09:30:48.094Z \n"
-"PO-Revision-Date: 2025-05-12 05:37+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Spanish <https://localize.ds-wizard.org/projects/dsw-4-18/client/es/>\n"
-"Language: es\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-08-05T09:30:48.094Z\nPO-Revision-Date: 2025-08-16 13:30+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Spanish <https://localize.ds-wizard.org/projects/dsw-4-21/client/es/>\nLanguage: es\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -942,7 +932,7 @@ msgstr "El fichero ha sido borrado."
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4138
 #, fuzzy
 msgid "Upload file"
-msgstr "Subir archivo"
+msgstr "Subir archivos"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4204
 msgid "This option leads to some follow up questions."
@@ -1011,7 +1001,7 @@ msgstr "¿Estás seguro de que quieres borrar %s?"
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:161
 #, fuzzy
 msgid "Delete file"
-msgstr "Eliminar fichero"
+msgstr "Archivo eliminado"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:199
 msgid "Desirable"
@@ -2808,7 +2798,7 @@ msgstr "Del archivo"
 #: engine-wizard/elm/Wizard/DocumentTemplates/Import/View.elm:100
 #, fuzzy
 msgid "This doesn't look like a document. Are you sure you picked the correct file?"
-msgstr "Esto no parece un documento. ¿Está seguro de haber elegido el archivo correcto?"
+msgstr "Esto no parece una plantilla de documento. ¿Estás seguro de haber seleccionado el archivo correcto?"
 
 #: engine-wizard/elm/Wizard/DocumentTemplates/Index/Update.elm:58
 msgid "Document template could not be updated."
@@ -3108,7 +3098,7 @@ msgstr "No hay más advertencias."
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:580
 #, fuzzy
 msgid "Knowledge Model"
-msgstr "Modelo de conocimiento"
+msgstr "Modelos de Conocimiento"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:549
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:99
@@ -3165,7 +3155,7 @@ msgstr "Añadir colección de recursos"
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:679
 #, fuzzy
 msgid "Chapter"
-msgstr "Colecciones de recursos"
+msgstr "Capítulos"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:699
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:923
@@ -3478,7 +3468,7 @@ msgstr "Los archivos subidos no pueden ser mayores que %s, pero puede establecer
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1339
 #, fuzzy
 msgid "Metric"
-msgstr "Métrica"
+msgstr "Métricas"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1359
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:485
@@ -3491,7 +3481,7 @@ msgstr "Abreviatura"
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1407
 #, fuzzy
 msgid "Phase"
-msgstr "Fase"
+msgstr "Fases"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1463
 #, fuzzy
@@ -3684,7 +3674,7 @@ msgstr "Esta integración se creó a partir de una plantilla y ahora difiere."
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:197
 #, fuzzy
 msgid "Update"
-msgstr "Actualización"
+msgstr "Actualizado"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1859
 #, fuzzy
@@ -3801,7 +3791,7 @@ msgstr "- seleccionar página de recursos -"
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2181
 #, fuzzy
 msgid "Expert"
-msgstr "Experto"
+msgstr "Expertos"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2242
 #, fuzzy
@@ -4104,7 +4094,7 @@ msgstr "Modelo de conocimiento de los padres"
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:242
 #, fuzzy
 msgid "Delete this knowledge model editor"
-msgstr "Algunos cambios siguen guardándose."
+msgstr "Eliminar el editor del modelos de conocimiento"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:244
 #, fuzzy
@@ -4612,7 +4602,7 @@ msgstr "Esto no parece un modelo de conocimiento. ¿Está seguro de haber elegid
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/Update.elm:54
 #, fuzzy
 msgid "Knowledge model could not be updated."
-msgstr "El modelo de conocimiento no pudo actualizarse."
+msgstr "No se pudo eliminar el modelo de conocimiento."
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/View.elm:62
 #, fuzzy
@@ -4679,14 +4669,14 @@ msgstr "Fijar por defecto"
 #: engine-wizard/elm/Wizard/ProjectImporters/Index/View.elm:83
 #, fuzzy
 msgid "Disable"
-msgstr "Fijar por defecto"
+msgstr "Deshabilitado"
 
 #: engine-wizard/elm/Wizard/Locales/Common/LocaleActionsDropdown.elm:97
 #: engine-wizard/elm/Wizard/ProjectActions/Index/View.elm:88
 #: engine-wizard/elm/Wizard/ProjectImporters/Index/View.elm:88
 #, fuzzy
 msgid "Enable"
-msgstr "Habilite"
+msgstr "Habilitado"
 
 #: engine-wizard/elm/Wizard/Locales/Create/Update.elm:162
 #, fuzzy
@@ -4788,7 +4778,7 @@ msgstr "Versión Mago"
 #: engine-wizard/elm/Wizard/Locales/Detail/View.elm:171
 #, fuzzy
 msgid "Locale"
-msgstr "Local"
+msgstr "Localizaciones"
 
 #: engine-wizard/elm/Wizard/Locales/Import/RegistryImport/Update.elm:32
 #, fuzzy
@@ -4855,7 +4845,7 @@ msgstr "Borrar configuración regional"
 #: engine-wizard/elm/Wizard/ProjectActions/Index/Update.elm:42
 #, fuzzy
 msgid "Unable to change project action."
-msgstr "No se puede cambiar la acción del proyecto."
+msgstr "No se pueden obtener acciones del proyecto."
 
 #: engine-wizard/elm/Wizard/ProjectActions/Index/Update.elm:46
 #, fuzzy
@@ -4893,7 +4883,7 @@ msgstr "No se ha podido eliminar el archivo."
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/Update.elm:85
 #, fuzzy
 msgid "Unable to get project files."
-msgstr "No se pueden obtener los archivos del proyecto."
+msgstr "No se pueden obtener los proyectos."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:32
 #, fuzzy
@@ -4927,7 +4917,7 @@ msgstr "Tamaño del archivo"
 #: engine-wizard/elm/Wizard/ProjectImporters/Index/Update.elm:42
 #, fuzzy
 msgid "Unable to change project importer."
-msgstr "No se puede cambiar el importador de proyectos."
+msgstr "No se pueden obtener importadores de proyectos."
 
 #: engine-wizard/elm/Wizard/ProjectImporters/Index/Update.elm:46
 #, fuzzy
@@ -5080,7 +5070,7 @@ msgstr "Cualquiera que disponga del enlace puede acceder al proyecto."
 #: engine-wizard/elm/Wizard/Projects/Common/View.elm:95
 #, fuzzy
 msgid "Other logged-in users can access the project."
-msgstr "Otros usuarios conectados pueden acceder al proyecto."
+msgstr "Otros usuarios autenticados pueden editar el proyecto."
 
 #: engine-wizard/elm/Wizard/Projects/Create/Update.elm:117
 msgid "Starting Point"
@@ -5218,7 +5208,7 @@ msgstr "Nuevo modelo de conocimiento"
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/NewDocument.elm:248
 #, fuzzy
 msgid "Document could not be created."
-msgstr "No se ha podido crear el documento."
+msgstr "No se pudo eliminar el documento."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/NewDocument.elm:285
 #, fuzzy
@@ -5320,7 +5310,7 @@ msgstr "Revertir"
 #: engine-wizard/elm/Wizard/Projects/Index/Update.elm:203
 #, fuzzy
 msgid "Unable to get project tags."
-msgstr "No se pueden obtener las etiquetas del proyecto."
+msgstr "No se pueden obtener los proyectos."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:348
 #, fuzzy
@@ -5361,7 +5351,7 @@ msgstr "Se utilizan todas las preguntas."
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:528
 #, fuzzy
 msgid "Filtered by question tags"
-msgstr "Filtrado por etiquetas de preguntas"
+msgstr "Filtrar por etiquetas de preguntas"
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:535
 #, fuzzy
@@ -5429,7 +5419,7 @@ msgstr "Añadir usuarios"
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:646
 #, fuzzy
 msgid "Other logged-in users can %s the project."
-msgstr "Los proyectos borrados no pueden recuperarse."
+msgstr "Otros usuarios autenticados pueden editar el proyecto."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:675
 #, fuzzy
@@ -5540,7 +5530,7 @@ msgstr "Documento no encontrado"
 #: engine-wizard/elm/Wizard/Projects/DocumentDownload/Update.elm:56
 #, fuzzy
 msgid "Unable to get document"
-msgstr "No se puede obtener el documento"
+msgstr "No se pudieron obtener los documentos."
 
 #: engine-wizard/elm/Wizard/Projects/DocumentDownload/View.elm:21
 #: engine-wizard/elm/Wizard/Projects/FileDownload/View.elm:21
@@ -5616,7 +5606,7 @@ msgstr "Cambios en el cuestionario"
 #: engine-wizard/elm/Wizard/Projects/Import/View.elm:179
 #, fuzzy
 msgid "Errors"
-msgstr "Errores"
+msgstr "Error"
 
 #: engine-wizard/elm/Wizard/Projects/Import/View.elm:185
 #, fuzzy
@@ -5762,7 +5752,7 @@ msgstr "Deshacer"
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:129
 #, fuzzy
 msgid "Resolve"
-msgstr "Resuelva"
+msgstr "Resuelto"
 
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:137
 #, fuzzy
@@ -6199,7 +6189,7 @@ msgstr "Información"
 #: engine-wizard/elm/Wizard/Settings/DashboardAndLoginScreen/View.elm:143
 #, fuzzy
 msgid "Warning"
-msgstr "Advertencia"
+msgstr "Advertencias"
 
 #: engine-wizard/elm/Wizard/Settings/DashboardAndLoginScreen/View.elm:144
 #, fuzzy
@@ -7066,7 +7056,7 @@ msgstr "No se ha encontrado la página que busca."
 #: engine-wizard/elm/Wizard/View.elm:167
 #, fuzzy
 msgid "You don't have permission to view this page."
-msgstr "No se ha encontrado la página que busca."
+msgstr "No tienes permiso para ver esta página."
 
 #~ msgid "You do not have permission to view this page."
 #~ msgstr "No tienes permiso para ver esta página."

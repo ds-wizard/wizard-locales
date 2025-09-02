@@ -7,7 +7,7 @@
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Marek Suchánek <marek.suchanek@gmail.com>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.21.0\nPOT-Creation-Date: 2025-08-05T09:30:48.094Z\nPO-Revision-Date: 2025-09-02 06:01+0000\nLast-Translator: Jana Martínková <j.martinkova@outlook.com>\nLanguage-Team: German <https://localize.ds-wizard.org/projects/dsw-4-21/client/de/>\nLanguage: de\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:3.21.0\nPOT-Creation-Date: 2025-08-05T09:30:48.094Z\nPO-Revision-Date: 2025-09-02 06:23+0000\nLast-Translator: Jana Martínková <j.martinkova@outlook.com>\nLanguage-Team: German <https://localize.ds-wizard.org/projects/dsw-4-21/client/de/>\nLanguage: de\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -144,7 +144,7 @@ msgstr "Die Antwort darf höchstens %s Zeichen lang sein."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:325
 msgid "Answer does not match the required pattern (%s)."
-msgstr ""
+msgstr "Die Antwort entspricht nicht dem erforderlichen Muster (%s)."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:332
 msgid "Answer must be a valid ORCID."
@@ -156,39 +156,39 @@ msgstr "Die Antwort muss eine gültige DOI sein."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:346
 msgid "Answer must be at least %s."
-msgstr ""
+msgstr "Die Antwort muss mindestens %s sein."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:353
 msgid "Answer must be at most %s."
-msgstr ""
+msgstr "Die Antwort darf höchstens %s sein."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:367
 msgid "Date must be at least %s."
-msgstr ""
+msgstr "Das Datum muss mindestens %s sein."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:381
 msgid "Date must be at most %s."
-msgstr ""
+msgstr "Das Datum darf höchstens %s sein."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:395
 msgid "Date and time must be at least %s."
-msgstr ""
+msgstr "Datum und Uhrzeit müssen mindestens %s sein."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:409
 msgid "Date and time must be at most %s."
-msgstr ""
+msgstr "Datum und Uhrzeit dürfen höchstens %s sein."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:423
 msgid "Time must be at least %s."
-msgstr ""
+msgstr "Die Uhrzeit muss mindestens %s sein."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:437
 msgid "Time must be at most %s."
-msgstr ""
+msgstr "Die Uhrzeit darf höchstens %s sein."
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:455
 msgid "Email domain must be one of the following: %s."
-msgstr ""
+msgstr "Die E-Mail-Domain muss eine der folgenden sein: %s."
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireCreation.elm:116
 msgid "Templates & Custom"
@@ -898,15 +898,15 @@ msgstr "Laden..."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4014
 msgid "Create them now."
-msgstr ""
+msgstr "Erstelle sie jetzt."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4019
 msgid "There are no items to select from yet."
-msgstr ""
+msgstr "Es gibt noch keine Elemente zur Auswahl."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4033
 msgid "This question does not have any configured list options to select from."
-msgstr ""
+msgstr "Diese Frage hat keine konfigurierten Listenoptionen zur Auswahl."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4051
 msgid "- select -"
@@ -4360,7 +4360,7 @@ msgstr "Die Ressourcenseite kann nicht aufgerufen werden."
 #: engine-wizard/elm/Wizard/KnowledgeModels/ResourcePage/View.elm:36
 #: engine-wizard/elm/Wizard/KnowledgeModels/ResourcePage/View.elm:39
 msgid "Resource page does not exist"
-msgstr ""
+msgstr "Die Ressourcenseite existiert nicht"
 
 #: engine-wizard/elm/Wizard/Locales/Common/LocaleActionsDropdown.elm:75
 msgid "Set default"
@@ -5474,7 +5474,6 @@ msgid "Unable to confirm the DSW Registry account."
 msgstr "Das DSW-Registrykonto kann nicht bestätigt werden."
 
 #: engine-wizard/elm/Wizard/Registry/RegistrySignupConfirmation/View.elm:28
-#, fuzzy
 msgid "Your email was successfully confirmed, you can go back to %s."
 msgstr "Ihre E-Mail wurde erfolgreich bestätigt, Sie können zu %s zurückkehren."
 
@@ -5660,7 +5659,7 @@ msgstr "Anzeige auf dem Anmeldebildschirm, sichtbar für alle."
 #: engine-wizard/elm/Wizard/Settings/Features/View.elm:37
 #: engine-wizard/elm/Wizard/Settings/View.elm:119
 msgid "Features"
-msgstr ""
+msgstr "Funktionen"
 
 #: engine-wizard/elm/Wizard/Settings/Features/View.elm:56
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:49
@@ -5671,7 +5670,7 @@ msgstr "Touren"
 
 #: engine-wizard/elm/Wizard/Settings/Features/View.elm:57
 msgid "If enabled, Tours help users navigate the application when opening specific screens for the first time."
-msgstr ""
+msgstr "Wenn aktiviert, helfen Touren den Benutzern, sich in der Anwendung zurechtzufinden, wenn sie bestimmte Bildschirme zum ersten Mal öffnen."
 
 #: engine-wizard/elm/Wizard/Settings/Generic/Update.elm:68
 msgid "Unable to load settings."

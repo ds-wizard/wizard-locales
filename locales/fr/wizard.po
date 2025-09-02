@@ -5,8 +5,9 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Sylvain Milanesi <sylvain.milanesi@france-bioinformatique.fr>, 2025.
+# Saliha ZENBOUDJI-BEDDEK <saliecolo@hotmail.com>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-09-02T12:55:59.331Z\nPO-Revision-Date: 2025-09-03 13:51+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/dsw-4-22/client/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-09-02T12:55:59.331Z\nPO-Revision-Date: 2025-09-03 13:51+0000\nLast-Translator: Saliha ZENBOUDJI-BEDDEK <saliecolo@hotmail.com>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/dsw-4-22/client/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -118,7 +119,7 @@ msgstr "Saisissez un identifiant de modèle de connaissances valide."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:140
 msgid "Fill in a valid knowledge model secret name."
-msgstr ""
+msgstr "Saisissez un nom de modèle de connaissance confidentiel valide."
 
 #: engine-shared/elm/Shared/Form/Validate.elm:145
 msgid "Fill in a valid document template ID."
@@ -1580,7 +1581,7 @@ msgstr "Éditeurs"
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:111
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2022
 msgid "Secrets"
-msgstr ""
+msgstr "Secrets"
 
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:163
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/View.elm:137
@@ -3002,7 +3003,7 @@ msgstr "Aucune intégration API n'a été sélectionnée pour la question type '
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1034
 msgid "Missing variables for integration question"
-msgstr ""
+msgstr "Variables manquantes pour la question d'intégration"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1049
 msgid "No choices for multi-choice question"
@@ -3053,12 +3054,13 @@ msgid "Empty name for tag"
 msgstr "Nom non renseigné pour l' étiquette"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1221
+#, fuzzy
 msgid "Empty name for integration"
-msgstr ""
+msgstr "Nom manquant pour l'intégration"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1228
 msgid "Empty variable name for integration"
-msgstr ""
+msgstr "Nom de la variable manquant pour l'intégration"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1235
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1325
@@ -3067,27 +3069,27 @@ msgstr "URL de requête non renseigné pour l'intégration"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1247
 msgid "Missing {{ q }} in request URL for integration"
-msgstr ""
+msgstr "{{ q }} manquant dans l'URL de requête pour l'intégration"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1254
 msgid "Unknown Jinja property in request URL for integration: %s"
-msgstr ""
+msgstr "Propriété Jinja inconnue dans l'URL de requête pour l'intégration:%s"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1261
 msgid "Unknown variable in request URL for integration: %s"
-msgstr ""
+msgstr "Variable inconnue dans l'URL de requête pour l'intégration:%s"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1268
 msgid "Unknown secret in request URL for integration: %s"
-msgstr ""
+msgstr "Secret inconnu dans l'URL de requête pour l'intégration : %s"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1278
 msgid "No test data loaded for integration"
-msgstr ""
+msgstr "Aucune donnée de test chargée pour l'intégration"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1289
 msgid "Response list field not found in test data for integration"
-msgstr ""
+msgstr "Champ de liste de réponse introuvable dans les données de test pour l'intégration"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1292
 msgid "Response list field is not a list in test data for integration"

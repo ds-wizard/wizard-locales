@@ -2,7 +2,7 @@
 
 [![LICENSE](https://img.shields.io/github/license/ds-wizard/wizard-locales)](LICENSE)
 [![Language](https://img.shields.io/badge/ISO%20639--1-nl-blue)](https://en.wikipedia.org/wiki/Dutch_language)
-[![Translation status](https://img.shields.io/badge/translated-100%25-brightgreen)](https://localize.ds-wizard.org/engage/dsw-4-20/nl/)
+[![Translation status](https://img.shields.io/badge/translated-100%25-brightgreen)](https://localize.ds-wizard.org/engage/dsw-4-21/nl/)
 
 ## Contributors
 
@@ -13,9 +13,9 @@
 
 ## Changelog
 
-### 4.20.0
+### 4.21.0
 
-* Updated for version 4.20.0
+* Updated for version 4.21.0
 
 ### 4.19.0
 

@@ -7,7 +7,7 @@
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 # xnovotna <xnovotna@mendelu.cz>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2025-09-02T12:55:59.331Z\nPO-Revision-Date: 2025-09-03 13:51+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/dsw-4-22/client/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2025-09-02T12:55:59.331Z\nPO-Revision-Date: 2025-09-03 13:51+0000\nLast-Translator: xnovotna <xnovotna@mendelu.cz>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/dsw-4-22/client/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 5.11.4\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -3079,19 +3079,19 @@ msgstr "Prázdná URL dotazu v integraci"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1247
 msgid "Missing {{ q }} in request URL for integration"
-msgstr ""
+msgstr "Chybějící {{ q }} v dotazu URL integrace"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1254
 msgid "Unknown Jinja property in request URL for integration: %s"
-msgstr ""
+msgstr "Neznámá vlastnost Jinja v dotazu URL integrace: %s"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1261
 msgid "Unknown variable in request URL for integration: %s"
-msgstr ""
+msgstr "Neznámá proměnná v dotazu URL integrace: %s"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1268
 msgid "Unknown secret in request URL for integration: %s"
-msgstr ""
+msgstr "Neznámý tajný klíč v dotazu URL integrace: %s"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1278
 msgid "No test data loaded for integration"
@@ -3552,7 +3552,7 @@ msgstr ""
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2000
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the request configuration. For example, if you define a variable named *type*, you can use it as `{{ variables.type }}`, such as *ht&#8203;tps://example.com/{{ type }}*."
-msgstr ""
+msgstr "Proměnné lze použít k parametrizaci každé otázky integrace. Použijte k definici proměnných, jejichž hodnoty mohou být vyplněny v otázce používající tuto integraci. Proměnné mohou být použity v konfiguraci požadavku. Například, pokud je definována proměnná s názvem *type*, tak ji lze použít jako `{{ variables.type }}`, následně jako *ht&#8203;tps://example.com/{{ type }}*."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2016
 msgid "There are no secrets configured."
@@ -3583,7 +3583,7 @@ msgstr "HTTP hlavičky požadavku"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2051
 msgid "HTTP headers to include in the API request. You can use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
-msgstr ""
+msgstr "HTTP hlavičky, ktéré mají být zahrnuty v API požadavku. Lze použít `{{ q }}` pro vyhledávaný pojmu a `{{ variables.name }}` pro odkaz na proměnnou a `{{ secrets.name }}` pro tajné klíče."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2054
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2450
@@ -3598,7 +3598,7 @@ msgstr "Tělo HTTP požadavku"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2058
 msgid "Optional request body of the API request. You can again use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
-msgstr ""
+msgstr "Volitelný obsah těla API požadavku. Lze použít znovu `{{ q }}` pro hledaný pojem a `{{ variables.name }}` pro odkaz na proměnné a`{{ secrets.name }}` tajné klíče."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2061
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2458

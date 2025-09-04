@@ -7,7 +7,7 @@
 # Sylvain Milanesi <sylvain.milanesi@france-bioinformatique.fr>, 2025.
 # Saliha ZENBOUDJI-BEDDEK <saliecolo@hotmail.com>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-09-02T12:55:59.331Z\nPO-Revision-Date: 2025-09-03 13:51+0000\nLast-Translator: Saliha ZENBOUDJI-BEDDEK <saliecolo@hotmail.com>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/dsw-4-22/client/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-09-02T12:55:59.331Z\nPO-Revision-Date: 2025-09-04 14:07+0000\nLast-Translator: Sylvain Milanesi <sylvain.milanesi@france-bioinformatique.fr>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/dsw-4-22/client/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -3054,7 +3054,6 @@ msgid "Empty name for tag"
 msgstr "Nom non renseigné pour l' étiquette"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1221
-#, fuzzy
 msgid "Empty name for integration"
 msgstr "Nom manquant pour l'intégration"
 
@@ -3096,8 +3095,9 @@ msgid "Response list field is not a list in test data for integration"
 msgstr ""
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1303
+#, fuzzy
 msgid "No test data success response for integration"
-msgstr ""
+msgstr "Aucun test n'est prévu en cas de réponse réussi de l'intégration"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1307
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1339
@@ -3498,8 +3498,9 @@ msgid "API"
 msgstr "API"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1848
+#, fuzzy
 msgid "API (Legacy)"
-msgstr ""
+msgstr "API (Legacy)"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1849
 msgid "Widget"
@@ -3525,12 +3526,14 @@ msgid "Questions using this integration"
 msgstr "Questions utilisant cette intégration"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1986
+#, fuzzy
 msgid "Allow Custom Reply"
-msgstr ""
+msgstr "Accepter les réponses personnalisées"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1990
+#, fuzzy
 msgid "If enabled, users can type their own custom reply. If disabled, they must select a reply from the integration."
-msgstr ""
+msgstr "Si activé, les utilisateurs peuvent entrer leurs propres réponses. Si désactivé, ils doivent sélectionner une réponse depuis l'intégration"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1995
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2599
@@ -3538,27 +3541,32 @@ msgstr ""
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:771
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:892
 msgid "Variables"
-msgstr ""
+msgstr "Variables"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2000
+#, fuzzy
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the request configuration. For example, if you define a variable named *type*, you can use it as `{{ variables.type }}`, such as *ht&#8203;tps://example.com/{{ type }}*."
-msgstr ""
+msgstr "Des variables peuvent être utilisées pour paramétrer l'intégration de chaque question. Les variables définies peuvent ensuite être utilisées dans le configuration des requêtes. Par exemple, si vous définissez le nom de variable \"type\", vous pouvez l'utiliser avec {{variables.type}}, comme par exemple *https://example.com/{{ variables.type }}*."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2016
+#, fuzzy
 msgid "There are no secrets configured."
-msgstr ""
+msgstr "Aucun élément \"secrets\" configuré."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2026
+#, fuzzy
 msgid "Configure secrets"
-msgstr ""
+msgstr "Configurer des éléments \"secrets\""
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2029
+#, fuzzy
 msgid "Secrets can store sensitive information used for API calls, such as tokens, that you don't want to share with the knowledge models. You can use them as `{{ secrets.secret_name }}` anywhere in the request configuration."
-msgstr ""
+msgstr "Les éléments \"secrets\" peuvent contenir des informations sensibles utilisées pour les appels API, comme les tokens, que vous ne voudriez pas partager avec le modèle de connaissance. Ils sont utilisable via `{{secrets.nom_secret}}`à n'importe quel endroit de la configuration de la requête."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2036
+#, fuzzy
 msgid "Advanced Integration Configuration"
-msgstr ""
+msgstr "Configuration avancée de l'intégration"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2047
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2442
@@ -3572,8 +3580,9 @@ msgid "Request HTTP Headers"
 msgstr "Requête d'en-têtes HTTP"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2051
+#, fuzzy
 msgid "HTTP headers to include in the API request. You can use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
-msgstr ""
+msgstr "Entêtes HTTP à inclure dans la requête API. Vous pouvez utiliser `{{ q }}` pour les termes à rechercher, `{{ variables.name }}` pour les variables référencées et `{{ secrets.name }}` pour les éléments secrets."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2054
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2450
@@ -3587,8 +3596,9 @@ msgid "Request HTTP Body"
 msgstr "Requête du corps HTTP"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2058
+#, fuzzy
 msgid "Optional request body of the API request. You can again use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
-msgstr ""
+msgstr "Corps optionnel pour la requête API. Vous pouvez là encore utiliser `{{ q }}` pour les termes à rechercher, `{{ variables.name }}` pour les variables référencées et `{{ secrets.name }}` pour les éléments secrets."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2061
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2458

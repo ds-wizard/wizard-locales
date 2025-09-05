@@ -4,7 +4,7 @@
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Marek Suchánek <marek.suchanek@gmail.com>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.9.0\nPOT-Creation-Date: 2025-09-02T12:55:59.331Z\nPO-Revision-Date: 2025-09-03 13:51+0000\nLast-Translator: Georgia Koutentaki <koutegeo@cvut.cz>\nLanguage-Team: Greek <https://localize.ds-wizard.org/projects/dsw-4-22/client/el/>\nLanguage: el\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.9.0\nPOT-Creation-Date: 2025-09-02T12:55:59.331Z\nPO-Revision-Date: 2025-09-05 14:50+0000\nLast-Translator: Georgia Koutentaki <koutegeo@cvut.cz>\nLanguage-Team: Greek <https://localize.ds-wizard.org/projects/dsw-4-22/client/el/>\nLanguage: el\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -3596,11 +3596,11 @@ msgstr "Επιτρέψτε την κενή αναζήτηση"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2065
 msgid "If enabled, the API request will be sent even if the user does not enter a search term. This is useful for APIs that return a default set of results when no search term is provided."
-msgstr ""
+msgstr "Εαν είναι ενεργοποιημένο, το αίτημα ΑΡΙ θα σταλθεί ακόμη και αν ο χρήστης δεν χρησιμοποιήσει κάποιον όρο αναζήτησης. Αυτό είναι χρήσιμο για τα ΑΡΙ όταν επιστρέφουν ένα προεπιλεγμένο σετ αποτελεσμάτων όταν δεν παρέχεται κάποιος όρος αναζήτησης."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2071
 msgid "Advanced Request Configuration"
-msgstr ""
+msgstr "Προχωρημένη Διαμόρφωση Αιτήματος"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2080
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2492
@@ -3610,27 +3610,27 @@ msgstr "Αίτημα"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2081
 msgid "Import from cURL string"
-msgstr ""
+msgstr "Εισαγωγή από συμβολοσειρά cURL"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2099
 msgid "Enter request URL..."
-msgstr ""
+msgstr "Εισάγετε το αίτημα URL..."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2103
 msgid "The full API endpoint used for search. Use `{{ q }}` to insert the user's search term (for example, *https://example.com/search?q={{ q }}*), and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
-msgstr ""
+msgstr "Το συνολικό τελικό ΑΡΙ που χρησιμοποιείται για αναζήτηση. Χρησιμοποιείστε `{{ q }}` για να εισάγεται τον όρο αναζήτησης χρήστη (π.χ., *https://example.com/search?q={{ q }}*), και`{{ variables.name }}` για αναφορές μεταβλητών και `{{ secrets.name }}` για μυστικά."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2127
 msgid "Test Variables"
-msgstr ""
+msgstr "Μεταβλητές Δοκιμής"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2167
 msgid "Request Details"
-msgstr ""
+msgstr "Λεπτομέρειες αιτήματος"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2195
 msgid "This content type is not supported."
-msgstr ""
+msgstr "Αυτός ο τύπος περιεχομένου δεν υποστηρίζεται."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2223
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2363
@@ -3640,19 +3640,19 @@ msgstr "Απάντηση"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2248
 msgid "Test"
-msgstr ""
+msgstr "Δοκιμή"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2252
 msgid "Test Search Query"
-msgstr ""
+msgstr "Δοκιμαστικό Ερώτημα Αναζήτησης"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2256
 msgid "This is what users would write in the questionnaire when filling in the integration question."
-msgstr ""
+msgstr "Αυτό θα γράφουν οι χρήστες σε ένα ερωτηματολόγιο όταν συμπληρώνουν μία ερώτηση ενσωμάτωσης."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2259
 msgid "Load"
-msgstr ""
+msgstr "Φόρτωση"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2306
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2474
@@ -3686,19 +3686,19 @@ msgstr "Πρότυπο στοιχείου απάντησης"
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:779
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:900
 msgid "Response Item Template for Selection"
-msgstr ""
+msgstr "Πρότυπο στοιχείου απάντησης για Επιλογή"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2354
 msgid "Advanced Response Configuration"
-msgstr ""
+msgstr "Προχωρημένη διαμόρφωση απάντησης"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2370
 msgid "Response is not a valid JSON."
-msgstr ""
+msgstr "Η απάντησησ δεν είναι έγκυρο JSON."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2397
 msgid "Click to copy code"
-msgstr ""
+msgstr "Κάντε κλικ για να αντιγράψετε τον κώδικα"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2425
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:686
@@ -3795,9 +3795,8 @@ msgid "Logo is displayed next to the link to the selected item in questionnaires
 msgstr "Το λογότυπο εμφανίζεται δίπλα στο σύνδεσμο του επιλεγμένου στοιχείου στα ερωτηματολόγια. Μπορεί να είναι είτε URL είτε εικόνα base64."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2604
-#, fuzzy
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the URL configuration. For example, if you define a variable named *type*, you can use it as `${type}`, such as *ht&#8203;tps://example.com/${type}*."
-msgstr "Τα Props μπορούν να χρησιμοποιηθούν για την παραμετροποίηση της ενοποίησης για κάθε ερώτηση. Χρησιμοποιήστε τα για να ορίσετε props των οποίων η τιμή μπορεί να συμπληρωθεί στις ερωτήσεις που χρησιμοποιούν αυτή την ολοκλήρωση. Τα props μπορούν στη συνέχεια να χρησιμοποιηθούν στη διαμόρφωση της διεύθυνσης URL. Για παράδειγμα, αν ορίσετε το prop με όνομα *type*, μπορείτε να το χρησιμοποιήσετε ως `${type}`, όπως *https://example.com/${type}*."
+msgstr "Οι μεταβλητές μπορούν να χρησιμοποιηθούν για την παραμετροποίηση της εμσωμάτωσης για κάθε ερώτηση. Χρησιμοποιήστε τα για να ορίσετε μεταβλητές των οποίων η τιμή μπορεί να συμπληρωθεί στις ερωτήσεις που χρησιμοποιούν αυτή την ενσωμάτωση. Οι μεταβλητές μπορούν στη συνέχεια να χρησιμοποιηθούν στη διαμόρφωση της διεύθυνσης URL. Για παράδειγμα, αν ορίσετε τη μεταβλητή με όνομα *type*, μπορείτε να το χρησιμοποιήσετε ως `${type}`, όπως *https://example.com/${type}*."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2612
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:713
@@ -3985,11 +3984,11 @@ msgstr "Επιλέξτε έναν νέο γονέα"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:3477
 msgid "Paste your cURL command here..."
-msgstr ""
+msgstr "Επικόλληση εντολής cURL εδώ..."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:3485
 msgid "Import from cURL"
-msgstr ""
+msgstr "Εισαγωγή από cURL"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:488
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:204
@@ -4172,7 +4171,7 @@ msgstr "Δεν είναι δυνατή η εμφάνιση του συντάκτ
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Update.elm:203
 msgid "Unable to get knowledge model secrets."
-msgstr ""
+msgstr "Αδυναμία λήψης μυστικών του μοντέλου γνώσης."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/View.elm:50
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:69
@@ -4627,65 +4626,64 @@ msgstr "Η σελίδα πόρου δεν υπάρχει"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/Update.elm:37
 msgid "Unable to load knowledge model secrets."
-msgstr ""
+msgstr "Αδυναμία φόρτωσης των μυστικών μοντέλου γνώσης."
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/Update.elm:80
 msgid "Unable to create knowledge model secret."
-msgstr ""
+msgstr "Αδυναμία δημιουργίας μυστικών μοντέλου γνώσης."
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/Update.elm:124
 msgid "Unable to update knowledge model secret."
-msgstr ""
+msgstr "Αδυναμία ενημέρωσης μυστικού μοντέλου γνώσης."
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/Update.elm:154
 msgid "Unable to delete knowledge model secret."
-msgstr ""
+msgstr "Αδυναμία διαγραφής μυστικού του μοντέλου γνώσης."
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:38
 msgid "No secrets yet"
-msgstr ""
+msgstr "Δεν υπάρχουν μυστικά"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:39
 msgid "Create a knowledge model secret to store sensitive information used for integrations in knowledge models."
-msgstr ""
+msgstr "Δημιουργείστε ένα μυστικό μοντέλου γνώσης για να αποθηκεύετε ευαίσθητες πληροφορίες που χρησιμοποιούνται σε ενσωματώσεις μοντέλων γνώσης."
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:48
 msgid "Knowledge Model Secrets"
-msgstr ""
+msgstr "Μυστικά μοντέλου γνώσης"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:53
 msgid "Create secret"
-msgstr ""
+msgstr "Δημιουργία μυστικού"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:67
 msgid "Secret"
-msgstr ""
+msgstr "Μυστικό"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:68
 msgid "Last updated"
-msgstr ""
+msgstr "Τελευταία ενημέρωση"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:116
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:137
-#, fuzzy
 msgid "Knowledge Model Secret Name can only contain alphanumeric characters, hyphens, underscores, and dots."
-msgstr "Το αναγνωριστικό μοντέλου γνώσης μπορεί να περιέχει μόνο αλφαριθμητικούς χαρακτήρες, παύλα και κάτω παύλα, και τελείες."
+msgstr "Το όνομα μυστικού ενός μοντέλου γνώσης μπορεί να περιέχει μόνο αλφαριθμητικούς χαρακτήρες, παύλα και κάτω παύλα, και τελείες."
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:121
 msgid "Create Knowledge Model Secret"
-msgstr ""
+msgstr "Δημιουργείστε ένα μυστικό μοντέλου γνώσης"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:142
 msgid "Edit Knowledge Model Secret"
-msgstr ""
+msgstr "Επεξεργασία μυστικού μοντέλου γνώσης"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:162
 msgid "This action may impact existing knowledge model integrations. Make sure you're confident about what you're doing before continuing."
-msgstr ""
+msgstr "Αυτή η ενέργεια ίσως επηρεάσει υπάρχοντες ενσωματώσεις μοντέλων γνώσης. Βεβαιωθείτε ότι είστε σίγουροι για το τι κάνετε πριν συνεχίσετε."
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:168
 msgid "Delete Knowledge Model Secret"
-msgstr ""
+msgstr "Διαγραφή μυστικού μοντέλου γνώσης"
 
 #: engine-wizard/elm/Wizard/Locales/Common/LocaleActionsDropdown.elm:75
 msgid "Set default"

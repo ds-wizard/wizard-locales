@@ -3,17 +3,7 @@
 # Chia Hsun Wang <allywang@iis.sinica.edu.tw>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:4.18.0\n"
-"POT-Creation-Date: 2025-09-02T12:55:59.331Z \n"
-"PO-Revision-Date: 2025-08-16 13:30+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-21/client/zh_Hant/>\n"
-"Language: zh_Hant\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-09-02T12:55:59.331Z\nPO-Revision-Date: 2025-09-09 01:39+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-22/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -77,51 +67,51 @@ msgstr "十二月"
 
 #: engine-shared/elm/Shared/Form.elm:23 engine-shared/elm/Shared/Form.elm:26
 msgid "%s cannot be empty."
-msgstr ""
+msgstr "% 不能是空白的。"
 
 #: engine-shared/elm/Shared/Form.elm:29
 msgid "This is not a valid email."
-msgstr ""
+msgstr "這不是有效的電子郵件地址。"
 
 #: engine-shared/elm/Shared/Form.elm:32
 msgid "This is not a valid number."
-msgstr ""
+msgstr "這不是有效的號碼。"
 
 #: engine-shared/elm/Shared/Form.elm:35
 msgid "This should not be less than %s."
-msgstr ""
+msgstr "這不應小於 %s。"
 
 #: engine-shared/elm/Shared/Form.elm:38
 msgid "This should not be more than %s."
-msgstr ""
+msgstr "這不應大於 %s。"
 
 #: engine-shared/elm/Shared/Form.elm:43
 msgid "Passwords do not match!"
-msgstr ""
+msgstr "密碼輸入不相符！"
 
 #: engine-shared/elm/Shared/Form.elm:46
 msgid "This is not a valid UUID."
-msgstr ""
+msgstr "這不是有效的 UUID。"
 
 #: engine-shared/elm/Shared/Form.elm:55
 msgid "Invalid value."
-msgstr ""
+msgstr "無效的值。"
 
 #: engine-shared/elm/Shared/Form/Validate.elm:58
 msgid "This is a very weak password."
-msgstr ""
+msgstr "您的密碼強度很弱。"
 
 #: engine-shared/elm/Shared/Form/Validate.elm:61
 msgid "This is a weak password."
-msgstr ""
+msgstr "您的密碼強度較弱。"
 
 #: engine-shared/elm/Shared/Form/Validate.elm:130
 msgid "Fill in a valid organization ID."
-msgstr ""
+msgstr "請填寫有效的機構 ID。"
 
 #: engine-shared/elm/Shared/Form/Validate.elm:135
 msgid "Fill in a valid knowledge model ID."
-msgstr ""
+msgstr "請填寫有效的知識模型 ID。"
 
 #: engine-shared/elm/Shared/Form/Validate.elm:140
 msgid "Fill in a valid knowledge model secret name."
@@ -137,12 +127,12 @@ msgstr ""
 
 #: engine-shared/elm/Shared/Form/Validate.elm:155
 msgid "Use only lowercase alphanumeric characters or dash symbols."
-msgstr ""
+msgstr "請使用小寫英文字母、數字，或連字號（-）。"
 
 #: engine-shared/elm/Shared/Form/Validate.elm:160
 #: engine-shared/elm/Shared/Form/Validate.elm:165
 msgid "Comma (,) is not allowed in project tags."
-msgstr ""
+msgstr "逗號（,） 不能用於專案標籤中。"
 
 #: engine-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -201,25 +191,21 @@ msgid "Email domain must be one of the following: %s."
 msgstr ""
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireCreation.elm:116
-#, fuzzy
 msgid "Templates & Custom"
 msgstr "模板與自訂選項"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireCreation.elm:117
-#, fuzzy
 msgid "Projects can be created from project templates or with custom settings."
-msgstr "專案可以從專案模板或是自訂設定中建立。"
+msgstr "專案可以從模板或是自訂設定中建立。"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireCreation.elm:120
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:93
-#, fuzzy
 msgid "Templates only"
-msgstr "僅模板"
+msgstr "僅限模板"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireCreation.elm:121
-#, fuzzy
 msgid "Only project templates can be used for creating new projects."
-msgstr "只有專案模板可以用於建立新的專案。"
+msgstr "只能使用專案模板建立新的專案。"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireCreation.elm:124
 msgid "Custom only"
@@ -227,125 +213,125 @@ msgstr "僅限自訂"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireCreation.elm:125
 msgid "Project templates feature is disabled, researchers have to choose knowledge model and set up everything."
-msgstr ""
+msgstr "專案模板功能已關閉，研究人員需自行選擇知識模型並完成所有設定。"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireSharing.elm:135
 msgid "Restricted"
-msgstr ""
+msgstr "限制的"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireSharing.elm:136
 msgid "Only logged-in users can access the project depending on the project visibility."
-msgstr ""
+msgstr "根據專案的可檢視設定，只有登入的使用者能夠使用專案。"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireSharing.elm:139
 msgid "View with the link"
-msgstr ""
+msgstr "使用連結檢視"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireSharing.elm:140
 msgid "Anyone on the internet with the link can view."
-msgstr ""
+msgstr "任何擁有連結的人都可以在網路上檢視。"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireSharing.elm:143
 msgid "Comment with the link"
-msgstr ""
+msgstr "使用連結留言"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireSharing.elm:144
 msgid "Anyone on the internet with the link can view and comment."
-msgstr ""
+msgstr "任何擁有連結的人都可以在網路上檢視及評論。"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireSharing.elm:147
 msgid "Edit with the link"
-msgstr ""
+msgstr "使用連結編輯"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireSharing.elm:148
 msgid "Anyone on the internet with the link can edit."
-msgstr ""
+msgstr "任何擁有連結的人都可以在網路上編輯。"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireVisibility.elm:145
 msgid "Private"
-msgstr ""
+msgstr "非公開的"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireVisibility.elm:146
 msgid "Visible only to the owner and invited users."
-msgstr ""
+msgstr "僅擁有者及受邀請的使用者能看到。"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireVisibility.elm:149
 msgid "Visible - View"
-msgstr ""
+msgstr "可見的 - 檢視"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireVisibility.elm:150
 msgid "Other logged-in users can view the project."
-msgstr ""
+msgstr "其他登入的使用者能檢視此專案。"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireVisibility.elm:153
 msgid "Visible - Comment"
-msgstr ""
+msgstr "可見的 - 留言"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireVisibility.elm:154
 msgid "Other logged-in users can view and comment the project."
-msgstr ""
+msgstr "其他登入的使用者能檢視及留言於此專案。"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireVisibility.elm:157
 msgid "Visible - Edit"
-msgstr ""
+msgstr "可見的 - 編輯"
 
 #: engine-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireVisibility.elm:158
 msgid "Other logged-in users can edit the project."
-msgstr ""
+msgstr "其他登入的使用者能編輯此專案。"
 
 #: engine-wizard/elm/Wizard/Api/Models/QuestionnairePermission.elm:71
 msgid "view"
-msgstr ""
+msgstr "檢視"
 
 #: engine-wizard/elm/Wizard/Api/Models/QuestionnairePermission.elm:72
 msgid "comment"
-msgstr ""
+msgstr "留言"
 
 #: engine-wizard/elm/Wizard/Api/Models/QuestionnairePermission.elm:73
 msgid "edit"
-msgstr ""
+msgstr "編輯"
 
 #: engine-wizard/elm/Wizard/Api/Models/QuestionnaireQuestionnaire.elm:496
 msgid "Item"
-msgstr ""
+msgstr "項目"
 
 #: engine-wizard/elm/Wizard/Api/Models/QuestionnaireQuestionnaire.elm:510
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3798
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4271
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/NavigationTree.elm:252
 msgid "Item %s"
-msgstr ""
+msgstr "項目 %s"
 
 #: engine-wizard/elm/Wizard/Comments/Update.elm:35
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1478
 msgid "Unable to get comments."
-msgstr ""
+msgstr "無法取得留言。"
 
 #: engine-wizard/elm/Wizard/Comments/View.elm:24
 msgid "Assigned Comments"
-msgstr ""
+msgstr "被指派的留言"
 
 #: engine-wizard/elm/Wizard/Comments/View.elm:34
 #: engine-wizard/elm/Wizard/Comments/View.elm:70
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:200
 msgid "Resolved"
-msgstr ""
+msgstr "已解決"
 
 #: engine-wizard/elm/Wizard/Comments/View.elm:36
 msgid "Resolved only"
-msgstr ""
+msgstr "僅顯示已解決的"
 
 #: engine-wizard/elm/Wizard/Comments/View.elm:37
 msgid "Unresolved only"
-msgstr ""
+msgstr "僅顯示未解決的"
 
 #: engine-wizard/elm/Wizard/Comments/View.elm:46
 msgid "No comments have been assigned to you."
-msgstr ""
+msgstr "尚未有留言被指派給你。"
 
 #: engine-wizard/elm/Wizard/Comments/View.elm:54
 msgid "Search comments..."
-msgstr ""
+msgstr "搜尋留言..."
 
 #: engine-wizard/elm/Wizard/Comments/View.elm:56
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:373
@@ -362,19 +348,19 @@ msgstr "已更新"
 
 #: engine-wizard/elm/Wizard/Common/Components/CookieConsent.elm:27
 msgid "Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use. "
-msgstr ""
+msgstr "隱私權與 Cookie：本網站使用 Cookie。若您持續使用本網站，即表示您同意我們使用 Cookie。 "
 
 #: engine-wizard/elm/Wizard/Common/Components/CookieConsent.elm:29
 msgid "To find out more, including how to control cookies, see here: "
-msgstr ""
+msgstr "如需了解更多資訊，包括如何管理 Cookie，請參閱此處： "
 
 #: engine-wizard/elm/Wizard/Common/Components/CookieConsent.elm:30
 msgid "Cookie Policy"
-msgstr ""
+msgstr "網站 Cookie 政策"
 
 #: engine-wizard/elm/Wizard/Common/Components/CookieConsent.elm:32
 msgid "Close and Accept"
-msgstr ""
+msgstr "關閉並同意"
 
 #: engine-wizard/elm/Wizard/Common/Components/CopyableCodeBlock.elm:48
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4619
@@ -391,47 +377,47 @@ msgstr "複製"
 
 #: engine-wizard/elm/Wizard/Common/Components/Listing/View.elm:117
 msgid "Filter by name..."
-msgstr ""
+msgstr "依名稱篩選..."
 
 #: engine-wizard/elm/Wizard/Common/Components/Listing/View.elm:169
 msgid "Order by"
-msgstr ""
+msgstr "按照…排序"
 
 #: engine-wizard/elm/Wizard/Common/Components/Listing/View.elm:339
 msgid "Clear selection"
-msgstr ""
+msgstr "清除選取"
 
 #: engine-wizard/elm/Wizard/Common/Components/Listing/View.elm:418
 msgid "Last"
-msgstr ""
+msgstr "最後一個"
 
 #: engine-wizard/elm/Wizard/Common/Components/Listing/View.elm:431
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2742
 #: engine-wizard/elm/Wizard/Common/Driver.elm:97
 msgid "Next"
-msgstr ""
+msgstr "下一個"
 
 #: engine-wizard/elm/Wizard/Common/Components/Listing/View.elm:445
 msgid "Prev"
-msgstr ""
+msgstr "前一個"
 
 #: engine-wizard/elm/Wizard/Common/Components/Listing/View.elm:453
 msgid "First"
-msgstr ""
+msgstr "第一個"
 
 #: engine-wizard/elm/Wizard/Common/Components/Listing/View.elm:476
 msgid "There are no results matching your search and filters."
-msgstr ""
+msgstr "沒有符合您搜尋與篩選條件的結果。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Listing/View.elm:483
 msgid "No data"
-msgstr ""
+msgstr "沒有資料"
 
 #: engine-wizard/elm/Wizard/Common/Components/Listing/View.elm:545
 #: engine-wizard/elm/Wizard/Dashboard/Widgets/AssignedComments.elm:65
 #: engine-wizard/elm/Wizard/Dashboard/Widgets/RecentProjectsWidget.elm:63
 msgid "Updated %s"
-msgstr ""
+msgstr "%s 已更新"
 
 #: engine-wizard/elm/Wizard/Common/Components/OnlineUser.elm:51
 #: engine-wizard/elm/Wizard/Common/Components/OnlineUser.elm:61
@@ -526,17 +512,17 @@ msgstr "無法取得版本紀錄。"
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1489
 #: engine-wizard/elm/Wizard/ProjectActions/Index/Update.elm:70
 msgid "Unable to get project actions."
-msgstr ""
+msgstr "無法取得專案操作項目。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1501
 #: engine-wizard/elm/Wizard/ProjectImporters/Index/Update.elm:70
 msgid "Unable to get project importers."
-msgstr ""
+msgstr "無法取得專案匯入工具。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1783
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1802
 msgid "Unable to get type hints."
-msgstr ""
+msgstr "無法取得類別提示。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2028
 msgid "View"
@@ -554,7 +540,7 @@ msgstr "隱藏全部"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2042
 msgid "Answered by"
-msgstr ""
+msgstr "回答者"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2047
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:784
@@ -566,25 +552,24 @@ msgstr "階段"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2052
 msgid "Question tags"
-msgstr ""
+msgstr "問題標籤"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2057
 msgid "Non-desirable questions"
 msgstr ""
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2062
-#, fuzzy
 msgid "Metric values"
 msgstr "指標值"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2075
 msgid "Import replies"
-msgstr ""
+msgstr "匯入回覆"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2098
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:175
 msgid "Actions"
-msgstr ""
+msgstr "操作"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2171
 msgid "TODOs"
@@ -595,12 +580,12 @@ msgstr "待辦項目"
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2854
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4547
 msgid "Comments"
-msgstr ""
+msgstr "留言"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2203
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:541
 msgid "Warnings"
-msgstr ""
+msgstr "警告"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2217
 msgid "Version history"
@@ -608,18 +593,18 @@ msgstr "版本紀錄"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2251
 msgid "Action succeeded!"
-msgstr ""
+msgstr "操作成功！"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2256
 msgid "Action failed!"
-msgstr ""
+msgstr "操作失敗！"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2269
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:811
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:861
 #: engine-wizard/elm/Wizard/Common/View/Modal.elm:279
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2330
 msgid "Current phase"
@@ -635,19 +620,19 @@ msgstr "所有待辦項目皆已完成。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2635
 msgid "Click the %s icon to add new comments to a question."
-msgstr ""
+msgstr "點選 %s 圖示以新增留言至問題中。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2659
 msgid "View resolved comments"
-msgstr ""
+msgstr "查看已解決的留言"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2708
 msgid "Resolved and unresolved comments"
-msgstr ""
+msgstr "已解決與尚未解決的留言"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2711
 msgid "Unresolved comments"
-msgstr ""
+msgstr "尚未解決的留言"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2735
 #: engine-wizard/elm/Wizard/Common/Driver.elm:98
@@ -656,24 +641,24 @@ msgstr "前一個"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2764
 msgid "Editor notes are only visible to project Editors and Owners."
-msgstr ""
+msgstr "編輯者備註僅專案編輯者與擁有者可見。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2789
 msgid "Comment"
-msgstr ""
+msgstr "留言"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2790
 msgid "Create a new comment..."
-msgstr ""
+msgstr "新增新的留言..."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2866
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2867
 msgid "Editor notes"
-msgstr ""
+msgstr "編輯者備註"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2885
 msgid "Delete this comment thread?"
-msgstr ""
+msgstr "要刪除這則留言串嗎？"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2898
 msgid "Reply"
@@ -724,7 +709,7 @@ msgstr "確定要刪除這個評論嗎？"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3013
 msgid "Resolve comment thread"
-msgstr ""
+msgstr "將留言串標記為已解決"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3040
 msgid "Remove assignment"
@@ -732,7 +717,7 @@ msgstr "移除指派項目"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3048
 msgid "Reopen"
-msgstr ""
+msgstr "重啟"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3066
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3212
@@ -792,13 +777,12 @@ msgid "Anonymous user"
 msgstr "匿名使用者"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3264
-#, fuzzy
 msgid "This chapter contains no questions."
 msgstr "這個章節沒有任何題目。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3267
 msgid "There are no questions matching the selected question tags."
-msgstr ""
+msgstr "沒有符合所選問題標籤的問題。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3280
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3743
@@ -819,7 +803,7 @@ msgstr "匿名使用者"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3465
 msgid "Answered %s by %s."
-msgstr ""
+msgstr "%s 已由 %s 回答。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3490
 msgid "This question has been answered"
@@ -839,7 +823,7 @@ msgstr "清除答案"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3601
 msgid "There are no follow up questions in this phase."
-msgstr ""
+msgstr "此階段沒有後續問題。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3617
 msgid "Expand"
@@ -848,48 +832,47 @@ msgstr "展開"
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3622
 msgid "%s %s follow up question"
 msgid_plural "%s %s follow up questions"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s %s 後續問題"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3632
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3829
 msgid "Collapse"
-msgstr ""
+msgstr "收合"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3666
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:67
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/TreeInput.elm:102
 msgid "Expand all"
-msgstr ""
+msgstr "展開全部"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3673
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:71
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/TreeInput.elm:109
 msgid "Collapse all"
-msgstr ""
+msgstr "全部收合"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3686
 msgid "There are no answers yet."
-msgstr ""
+msgstr "尚無任何答案。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3711
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1081
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:1290
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:507
 msgid "Add"
-msgstr ""
+msgstr "新增"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3735
 msgid "This item contains no questions."
-msgstr ""
+msgstr "此項目沒有任何需回答的問題。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3776
 msgid "Move up"
-msgstr ""
+msgstr "上移"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3789
 msgid "Move down"
-msgstr ""
+msgstr "下移"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3907
 msgid "This is not a valid email address."
@@ -900,7 +883,6 @@ msgid "This is not a valid URL."
 msgstr "這不是一個有效的連結。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3920
-#, fuzzy
 msgid "This is not a valid color."
 msgstr "這不是一個有效的顏色。"
 
@@ -910,9 +892,8 @@ msgstr "選擇"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4119
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4151
-#, fuzzy
 msgid "There are no results for your search."
-msgstr "你的搜尋沒有結果。"
+msgstr "沒有符合的搜尋結果。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4128
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4160
@@ -921,7 +902,7 @@ msgstr "你的搜尋沒有結果。"
 #: engine-wizard/elm/Wizard/Common/View/Flash.elm:48
 #: engine-wizard/elm/Wizard/Common/View/Page.elm:54
 msgid "Loading..."
-msgstr ""
+msgstr "載入中..."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4294
 msgid "Create them now."
@@ -941,7 +922,7 @@ msgstr "- 選擇 -"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4338
 msgid "Go to item"
-msgstr ""
+msgstr "前往此項目"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4351
 msgid "The selected item was deleted."
@@ -957,31 +938,30 @@ msgstr "上傳檔案"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4484
 msgid "This option leads to some follow up questions."
-msgstr ""
+msgstr "此選項延伸出一些後續問題。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4538
 msgid "1 comment"
 msgid_plural "%s comments"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s 留言"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4572
 msgid "TODO"
-msgstr ""
+msgstr "待辦項目"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4573
 msgid "Remove TODO"
-msgstr ""
+msgstr "移除待辦項目"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4583
 msgid "Add TODO"
-msgstr ""
+msgstr "新增待辦項目"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4605
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FeedbackModal.elm:147
 #: engine-wizard/elm/Wizard/Settings/Projects/View.elm:106
 msgid "Feedback"
-msgstr ""
+msgstr "回饋"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4622
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:486
@@ -991,7 +971,7 @@ msgstr "複製連結"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4664
 msgid "There are some item select questions using this item:"
-msgstr ""
+msgstr "有些題目使用了此項目："
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4675
 msgid "Are you sure you want to remove this item?"
@@ -1060,7 +1040,6 @@ msgid "Unable to get feedback."
 msgstr "無法取得回饋。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FeedbackModal.elm:95
-#, fuzzy
 msgid "Feedback could not be sent."
 msgstr "回饋無法送出。"
 
@@ -1088,14 +1067,12 @@ msgid "Send"
 msgstr "寄送"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FeedbackModal.elm:150
-#, fuzzy
 msgid "Your feedback has been sent."
 msgstr "你的回饋已寄出。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FeedbackModal.elm:167
-#, fuzzy
 msgid "There are already some issues reported with this question."
-msgstr "這個題目已經有一些問題被回報。"
+msgstr "已有與此問題相關的回報。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FeedbackModal.elm:178
 msgid "If you found something wrong with the question, you can send us your recommendation on how to improve it."
@@ -1169,7 +1146,7 @@ msgstr "無法上傳這個檔案。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:199
 msgid "File upload is not available in the knowledge model editor"
-msgstr ""
+msgstr "知識模型編輯器中無法上傳檔案"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:207
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1101
@@ -1187,11 +1164,11 @@ msgid ""
 "**The file type is not allowed for this question.**\n"
 "\n"
 "Choose one of the following: %s"
-msgstr ""
+msgstr "**此問題不允許使用該檔案類型。**\n\n請從以下選項中選擇一個：%s"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:297
 msgid "The file cannot be larger than %s."
-msgstr ""
+msgstr "檔案不能大於 %s。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:333
 msgid "Choose file"
@@ -1200,15 +1177,15 @@ msgstr "選擇檔案"
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:334
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/OwlImport/View.elm:93
 msgid "Or just drop it here"
-msgstr ""
+msgstr "或是拖移至這裡"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:183
 msgid "Named versions only"
-msgstr ""
+msgstr "僅限命名版本"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:301
 msgid "Rename this version"
-msgstr ""
+msgstr "重新命名此版本"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:310
 msgid "Delete this version"
@@ -1216,20 +1193,20 @@ msgstr "刪除這個版本"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:322
 msgid "Name this version"
-msgstr ""
+msgstr "命名此版本"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:338
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:210
 msgid "View questionnaire"
-msgstr ""
+msgstr "檢視問卷"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:347
 msgid "Create document"
-msgstr ""
+msgstr "建立文件"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:365
 msgid "Revert to this version"
-msgstr ""
+msgstr "還原到此版本"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:514
 msgid "Deleted file"
@@ -1237,25 +1214,25 @@ msgstr "被刪除的檔案"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:523
 msgid "Cleared reply of"
-msgstr ""
+msgstr "已清除回覆"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:532
 msgid "Unset phase"
-msgstr ""
+msgstr "取消設定階段"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:540
 msgid "Unknown phase"
-msgstr ""
+msgstr "未知階段"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:542
 msgid "Set phase to %s"
-msgstr ""
+msgstr "將階段設定為 %s"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/NavigationTree.elm:84
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:750
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:411
 msgid "Chapters"
-msgstr ""
+msgstr "章節"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/UserSuggestionDropdown.elm:106
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:219
@@ -1263,21 +1240,21 @@ msgstr ""
 #: engine-wizard/elm/Wizard/Projects/Index/Update.elm:242
 #: engine-wizard/elm/Wizard/Users/Index/Update.elm:82
 msgid "Unable to get users."
-msgstr ""
+msgstr "無法取得使用者。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/UserSuggestionDropdown.elm:150
 msgid "No users found."
-msgstr ""
+msgstr "未找到使用者。"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/UserSuggestionDropdown.elm:170
 msgid "Assign comment thread"
-msgstr ""
+msgstr "指派留言串"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/UserSuggestionDropdown.elm:179
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:451
 #: engine-wizard/elm/Wizard/Users/Index/View.elm:56
 msgid "Search users..."
-msgstr ""
+msgstr "搜尋使用者..."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/VersionModal.elm:156
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:115
@@ -1332,11 +1309,11 @@ msgstr ""
 #: engine-wizard/elm/Wizard/Settings/Organization/View.elm:47
 #: engine-wizard/elm/Wizard/Settings/Submission/View.elm:107
 msgid "Name"
-msgstr ""
+msgstr "名稱"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/VersionModal.elm:163
 msgid "Rename version"
-msgstr ""
+msgstr "重新命名版本"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/VersionModal.elm:166
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Create/View.elm:79
@@ -1344,7 +1321,7 @@ msgstr ""
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:59
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:99
 msgid "New version"
-msgstr ""
+msgstr "新版本"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/VersionModal.elm:173
 #: engine-wizard/elm/Wizard/Common/View/FormActions.elm:75
@@ -1364,7 +1341,7 @@ msgstr ""
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Profile.elm:222
 #: engine-wizard/elm/Wizard/Users/Edit/Components/SubmissionSettings.elm:226
 msgid "Save"
-msgstr ""
+msgstr "儲存"
 
 #: engine-wizard/elm/Wizard/Common/Components/QuestionnaireVersionTag.elm:19
 msgid "Current"
@@ -1372,11 +1349,11 @@ msgstr ""
 
 #: engine-wizard/elm/Wizard/Common/Components/SessionModal.elm:30
 msgid "Your session expires in less than %s minutes. Log in again to refresh it."
-msgstr ""
+msgstr "您的連線將在 %s 分鐘內到期。請重新登入以更新。"
 
 #: engine-wizard/elm/Wizard/Common/Components/SessionModal.elm:41
 msgid "Session Expires Soon"
-msgstr ""
+msgstr "連線即將逾時"
 
 #: engine-wizard/elm/Wizard/Common/Components/SessionModal.elm:44
 #: engine-wizard/elm/Wizard/Common/Components/SessionModal.elm:67
@@ -1386,24 +1363,24 @@ msgstr "再登入一次"
 
 #: engine-wizard/elm/Wizard/Common/Components/SessionModal.elm:61
 msgid "Your session has expired. You need to log in again."
-msgstr ""
+msgstr "您的連線已逾時，請再登入一次。"
 
 #: engine-wizard/elm/Wizard/Common/Components/SessionModal.elm:64
 msgid "Session Expired"
-msgstr ""
+msgstr "連線已逾時"
 
 #: engine-wizard/elm/Wizard/Common/Components/SummaryReport.elm:52
 #: engine-wizard/elm/Wizard/Settings/Projects/View.elm:104
 msgid "Summary Report"
-msgstr ""
+msgstr "總結報告"
 
 #: engine-wizard/elm/Wizard/Common/Components/SummaryReport.elm:133
 msgid "Answered: %s/%s"
-msgstr ""
+msgstr "已回答：%s/%s"
 
 #: engine-wizard/elm/Wizard/Common/Components/SummaryReport.elm:136
 msgid "Answered (current phase): %s/%s"
-msgstr ""
+msgstr "已回答（現階段）：%s/%s"
 
 #: engine-wizard/elm/Wizard/Common/Components/SummaryReport.elm:162
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:767
@@ -1415,25 +1392,25 @@ msgstr ""
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1676
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:319
 msgid "Metrics"
-msgstr ""
+msgstr "指標"
 
 #: engine-wizard/elm/Wizard/Common/Components/SummaryReport.elm:163
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:1163
 msgid "Measure"
-msgstr ""
+msgstr "測量"
 
 #: engine-wizard/elm/Wizard/Common/Components/SummaryReport.elm:218
 msgid "Metrics explanation"
-msgstr ""
+msgstr "指標解釋"
 
 #: engine-wizard/elm/Wizard/Common/Components/TypeHintInput.elm:277
 msgid "No results matching your search were found."
-msgstr ""
+msgstr "沒有符合您搜尋條件的結果。"
 
 #: engine-wizard/elm/Wizard/Common/Components/TypeHintInput/TypeHintItem.elm:100
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:533
 msgid "private"
-msgstr ""
+msgstr "非公開的"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:17
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:237
@@ -1442,16 +1419,16 @@ msgstr ""
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:503
 #: engine-wizard/elm/Wizard/Users/Index/View.elm:30
 msgid "Users"
-msgstr ""
+msgstr "使用者"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:18
 msgid "Active Users"
-msgstr ""
+msgstr "活躍使用者"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:19
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:35
 msgid "Knowledge Model Editors"
-msgstr ""
+msgstr "知識模型編輯者"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:20
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:92
@@ -1466,13 +1443,13 @@ msgstr "知識模型"
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:21
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Index/View.elm:28
 msgid "Document Template Editors"
-msgstr ""
+msgstr "文件模板編輯者"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:22
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:120
 #: engine-wizard/elm/Wizard/DocumentTemplates/Index/View.elm:31
 msgid "Document Templates"
-msgstr ""
+msgstr "文件模板"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:23
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:142
@@ -1482,7 +1459,6 @@ msgstr ""
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:66
 #: engine-wizard/elm/Wizard/Settings/Projects/View.elm:31
 #: engine-wizard/elm/Wizard/Settings/View.elm:150
-#, fuzzy
 msgid "Projects"
 msgstr "專案"
 
@@ -1490,7 +1466,7 @@ msgstr "專案"
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:169
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:337
 msgid "Documents"
-msgstr ""
+msgstr "文件"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:25
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:245
@@ -1500,44 +1476,42 @@ msgstr ""
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:26
 msgid "Storage"
-msgstr ""
+msgstr "容量"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:80
 msgid "Unlimited"
-msgstr ""
+msgstr "無限制的"
 
 #: engine-wizard/elm/Wizard/Common/Driver.elm:83
 msgid "Are you sure you want to skip the tour?"
-msgstr ""
+msgstr "您確定要跳過導覽嗎？"
 
 #: engine-wizard/elm/Wizard/Common/Driver.elm:88
 msgid "You can reset tours in user settings"
-msgstr ""
+msgstr "您可以在使用者設定中重設導覽"
 
 #: engine-wizard/elm/Wizard/Common/FileImport.elm:142
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:180
-#, fuzzy
 msgid "Unable to upload file."
-msgstr "無法上傳這個檔案。"
+msgstr "無法上傳檔案。"
 
 #: engine-wizard/elm/Wizard/Common/FileImport.elm:176
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:317
-#, fuzzy
 msgid "Choose files"
 msgstr "選擇檔案"
 
 #: engine-wizard/elm/Wizard/Common/FileImport.elm:177
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:318
 msgid "Or just drop them here"
-msgstr ""
+msgstr "或直接拖移至這裡"
 
 #: engine-wizard/elm/Wizard/Common/FileImport.elm:227
 msgid "All files were uploaded successfully."
-msgstr ""
+msgstr "所有檔案皆已成功上傳。"
 
 #: engine-wizard/elm/Wizard/Common/FileImport.elm:230
 msgid "Unable to upload some files."
-msgstr ""
+msgstr "無法上傳部分檔案。"
 
 #: engine-wizard/elm/Wizard/Common/FileImport.elm:253
 #: engine-wizard/elm/Wizard/Dashboard/Widgets/ImportDocumentTemplateWidget.elm:26
@@ -1558,33 +1532,33 @@ msgstr ""
 #: engine-wizard/elm/Wizard/Projects/Import/View.elm:56
 #: engine-wizard/elm/Wizard/Projects/Import/View.elm:131
 msgid "Import"
-msgstr ""
+msgstr "匯入"
 
 #: engine-wizard/elm/Wizard/Common/Html.elm:29
 #: engine-wizard/elm/Wizard/DocumentTemplates/Detail/View.elm:190
 msgid "Learn more in guide"
-msgstr ""
+msgstr "在指南中了解更多"
 
 #: engine-wizard/elm/Wizard/Common/Menu/Update.elm:43
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:894
 msgid "Client"
-msgstr ""
+msgstr "用戶端"
 
 #: engine-wizard/elm/Wizard/Common/Menu/Update.elm:44
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:895
 msgid "Server"
-msgstr ""
+msgstr "伺服端"
 
 #: engine-wizard/elm/Wizard/Common/Menu/Update.elm:64
 msgid "Unable to get the build info"
-msgstr ""
+msgstr "無法取得建置資訊"
 
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:76
 #: engine-wizard/elm/Wizard/Settings/DashboardAndLoginScreen/View.elm:35
 #: engine-wizard/elm/Wizard/Settings/DashboardAndLoginScreen/View.elm:162
 #: engine-wizard/elm/Wizard/Settings/View.elm:128
 msgid "Dashboard"
-msgstr ""
+msgstr "儀表板"
 
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:99
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:127
@@ -1635,7 +1609,7 @@ msgstr ""
 
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:379
 msgid "More"
-msgstr ""
+msgstr "更多"
 
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:634
 msgid "Your session expires in %s"
@@ -1644,7 +1618,7 @@ msgstr ""
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:698
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:708
 msgid "Change language"
-msgstr ""
+msgstr "更換語言"
 
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:725
 msgid "User settings"
@@ -1656,12 +1630,12 @@ msgstr ""
 
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:742
 msgid "Log out"
-msgstr ""
+msgstr "登出"
 
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:751
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:847
 msgid "About"
-msgstr ""
+msgstr "有關"
 
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:760
 msgid "Report issue"
@@ -1681,7 +1655,7 @@ msgstr ""
 
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:808
 msgid "Report Issue"
-msgstr ""
+msgstr "回報問題"
 
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:844
 msgid "About %s"
@@ -1839,14 +1813,14 @@ msgstr ""
 #: engine-wizard/elm/Wizard/Settings/Registry/View.elm:107
 #: engine-wizard/elm/Wizard/Settings/Registry/View.elm:111
 msgid "Sign Up"
-msgstr ""
+msgstr "註冊"
 
 #: engine-wizard/elm/Wizard/Common/View/Layout.elm:117
 #: engine-wizard/elm/Wizard/Public/Login/View.elm:93
 #: engine-wizard/elm/Wizard/Public/Login/View.elm:115
 #: engine-wizard/elm/Wizard/Public/Login/View.elm:129
 msgid "Log In"
-msgstr ""
+msgstr "登入"
 
 #: engine-wizard/elm/Wizard/Common/View/Page.elm:62
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:273
@@ -1854,7 +1828,7 @@ msgstr ""
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:275
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:293
 msgid "Error"
-msgstr ""
+msgstr "錯誤"
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:42
 msgid "There are no question tags configured for the knowledge model."
@@ -1874,7 +1848,7 @@ msgstr ""
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1368
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1465
 msgid "Question Tags"
-msgstr ""
+msgstr "問題標籤"
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:131
 msgid "You can either use all questions from the knowledge model or filter them by question tags."
@@ -1882,11 +1856,11 @@ msgstr ""
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:139
 msgid "Use all questions"
-msgstr ""
+msgstr "使用所有問題"
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:148
 msgid "Filter by question tags"
-msgstr ""
+msgstr "依問題標籤篩選"
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:157
 msgid "No need to choose question tags for this knowledge model."
@@ -1898,7 +1872,7 @@ msgstr ""
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:168
 msgid "All questions are used."
-msgstr ""
+msgstr "所有問題皆已使用。"
 
 #: engine-wizard/elm/Wizard/Dashboard/Dashboards/AdminDashboard.elm:110
 #: engine-wizard/elm/Wizard/Settings/Usage/Update.elm:25
@@ -3166,7 +3140,6 @@ msgstr ""
 #: engine-wizard/elm/Wizard/Projects/Create/View.elm:198
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:541
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:580
-#, fuzzy
 msgid "Knowledge Model"
 msgstr "知識模型"
 
@@ -3420,7 +3393,7 @@ msgstr ""
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:637
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:662
 msgid "Color"
-msgstr ""
+msgstr "顏色"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1304
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1071
@@ -5905,11 +5878,11 @@ msgstr ""
 
 #: engine-wizard/elm/Wizard/Settings/Authentication/View.elm:210
 msgid "Background Color"
-msgstr ""
+msgstr "背景顏色"
 
 #: engine-wizard/elm/Wizard/Settings/Authentication/View.elm:213
 msgid "Text Color"
-msgstr ""
+msgstr "文字顏色"
 
 #: engine-wizard/elm/Wizard/Settings/Authentication/View.elm:219
 msgid "Button Preview"
@@ -6008,7 +5981,7 @@ msgstr ""
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:102
 #: engine-wizard/elm/Wizard/Users/Edit/View.elm:105
 msgid "Tours"
-msgstr ""
+msgstr "導覽"
 
 #: engine-wizard/elm/Wizard/Settings/Features/View.elm:57
 msgid "If enabled, Tours help users navigate the application when opening specific screens for the first time."
@@ -6525,160 +6498,160 @@ msgstr ""
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/AppKeys.elm:175
 msgid "Delete App Key"
-msgstr ""
+msgstr "刪除APP金鑰"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Language.elm:85
 msgid "Unable to get user language."
-msgstr ""
+msgstr "無法取得使用者語言。"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Language.elm:97
 msgid "Unable to get languages."
-msgstr ""
+msgstr "無法取得語言。"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Language.elm:121
 msgid "Unable to save user language."
-msgstr ""
+msgstr "無法儲存使用者語言。"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Language.elm:134
 #: engine-wizard/elm/Wizard/Users/Edit/View.elm:96
 msgid "Language"
-msgstr ""
+msgstr "語言"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Password.elm:95
 msgid "Password was successfully changed."
-msgstr ""
+msgstr "密碼已成功變更。"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Password.elm:98
 msgid "Password could not be changed."
-msgstr ""
+msgstr "無法變更密碼。"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Profile.elm:123
 #: engine-wizard/elm/Wizard/Users/Edit/Components/SubmissionSettings.elm:96
 msgid "Unable to get the user."
-msgstr ""
+msgstr "無法取得使用者。"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Profile.elm:143
 msgid "Profile was successfully updated."
-msgstr ""
+msgstr "個人資料已成功更新。"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Profile.elm:152
 msgid "Profile could not be saved."
-msgstr ""
+msgstr "無法儲存個人資料。"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Profile.elm:179
 #: engine-wizard/elm/Wizard/Users/Edit/View.elm:79
 msgid "Profile"
-msgstr ""
+msgstr "個人資料"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Profile.elm:184
 msgid "User Image"
-msgstr ""
+msgstr "使用者圖片"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Profile.elm:188
 msgid "Image is taken from OpenID profile or [Gravatar](https://gravatar.com)."
-msgstr ""
+msgstr "圖片來自 OpenID 個人檔案或 [Gravatar](https://gravatar.com)。"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Profile.elm:210
 msgid "Active"
-msgstr ""
+msgstr "啟用中"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Profile.elm:235
 msgid "Your profile is managed elsewhere."
-msgstr ""
+msgstr "您的個人資料由其他系統管理。"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Profile.elm:240
 msgid "Edit profile"
-msgstr ""
+msgstr "編輯個人資料"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/SubmissionSettings.elm:130
 msgid "Submission settings were successfully updated."
-msgstr ""
+msgstr "提交設定已成功更新。"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/SubmissionSettings.elm:136
 msgid "Submission settings could not be saved."
-msgstr ""
+msgstr "無法儲存提交設定。"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/SubmissionSettings.elm:156
 msgid "There are no submission services to configure."
-msgstr ""
+msgstr "沒有可供設定的提交服務。"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/SubmissionSettings.elm:163
 #: engine-wizard/elm/Wizard/Users/Edit/View.elm:141
 msgid "Submission Settings"
-msgstr ""
+msgstr "提交設定"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/SubmissionSettings.elm:197
 msgid "There is no settings for %s."
-msgstr ""
+msgstr "沒有 %s 的設定。"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:50
 msgid "Tours are interactive guides that highlight key features on selected pages to help you get familiar with the interface."
-msgstr ""
+msgstr "導覽是互動式教學，會在特定頁面上標示重點功能，幫助您熟悉介面。"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:56
 msgid "Reset Tours"
-msgstr ""
+msgstr "重設導覽"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:57
 msgid "This will reset all previously completed tours, allowing them to restart as if they were never viewed."
-msgstr ""
+msgstr "這會重設所有已完成的導覽，讓它們重新開始，就像從未看過一樣。"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:86
 msgid "Tours have been reset."
-msgstr ""
+msgstr "導覽已重設。"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:89
 msgid "Tours could not be reset."
-msgstr ""
+msgstr "無法重設導覽。"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:108
 msgid "This resets all page-specific onboarding tours, allowing the guided highlights and instructions to replay on next visit."
-msgstr ""
+msgstr "此操作會重設所有頁面的導覽流程，下次造訪時將再次顯示提示與說明。"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Tours.elm:111
 msgid "Reset"
-msgstr ""
+msgstr "重設"
 
 #: engine-wizard/elm/Wizard/Users/Edit/View.elm:73
 msgid "User Settings"
-msgstr ""
+msgstr "帳號設定"
 
 #: engine-wizard/elm/Wizard/Users/Index/Update.elm:63
 msgid "User could not be deleted."
-msgstr ""
+msgstr "無法刪除使用者。"
 
 #: engine-wizard/elm/Wizard/Users/Index/View.elm:52
 msgid "Click \"Create\" button to add a new User."
-msgstr ""
+msgstr "點擊 \"建立\" 按鈕以新增使用者。"
 
 #: engine-wizard/elm/Wizard/Users/Index/View.elm:62
 msgid "Last online"
-msgstr ""
+msgstr "上次上線時間"
 
 #: engine-wizard/elm/Wizard/Users/Index/View.elm:91
 msgid "inactive"
-msgstr ""
+msgstr "未啟用"
 
 #: engine-wizard/elm/Wizard/Users/Index/View.elm:182
 msgid "Are you sure you want to permanently delete the following user?"
-msgstr ""
+msgstr "您確定要永久刪除以下使用者嗎？"
 
 #: engine-wizard/elm/Wizard/Users/Index/View.elm:187
 msgid "Delete user"
-msgstr ""
+msgstr "刪除使用者"
 
 #: engine-wizard/elm/Wizard/View.elm:163
 msgid "Not Found"
-msgstr ""
+msgstr "搜尋不到"
 
 #: engine-wizard/elm/Wizard/View.elm:164
 msgid "The page you are looking for was not found."
-msgstr ""
+msgstr "查無此頁。"
 
 #: engine-wizard/elm/Wizard/View.elm:173
 msgid "Not Allowed"
-msgstr ""
+msgstr "不允許"
 
 #: engine-wizard/elm/Wizard/View.elm:174
 msgid "You don't have permission to view this page."
-msgstr ""
+msgstr "您沒有權限查看此頁面。"

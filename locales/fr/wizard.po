@@ -7,7 +7,7 @@
 # Sylvain Milanesi <sylvain.milanesi@france-bioinformatique.fr>, 2025.
 # Saliha ZENBOUDJI-BEDDEK <saliecolo@hotmail.com>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-09-02T12:55:59.331Z\nPO-Revision-Date: 2025-09-05 14:50+0000\nLast-Translator: Saliha ZENBOUDJI-BEDDEK <saliecolo@hotmail.com>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/dsw-4-22/client/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-09-02T12:55:59.331Z\nPO-Revision-Date: 2025-10-01 11:51+0000\nLast-Translator: Sylvain Milanesi <sylvain.milanesi@france-bioinformatique.fr>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/dsw-4-22/client/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -3095,9 +3095,8 @@ msgid "Response list field is not a list in test data for integration"
 msgstr "Le champ liste de réponses n'est pas une liste dans les données de test pour l'intégration"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1303
-#, fuzzy
 msgid "No test data success response for integration"
-msgstr "Aucun test n'est prévu en cas de réponse réussi de l'intégration"
+msgstr "Aucune réponse en cas de réussite des données de test de l'intégration"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1307
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1339
@@ -3134,9 +3133,8 @@ msgid "Unable to get test result."
 msgstr "Impossible d'obtenir le résultat du test."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:413
-#, fuzzy
 msgid "Unable to get preview."
-msgstr "Impossible d'obtenir l'aperçu"
+msgstr "Impossible d'obtenir l'aperçu."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:583
 msgid "There are no more warnings."
@@ -3499,7 +3497,6 @@ msgid "API"
 msgstr "API"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1848
-#, fuzzy
 msgid "API (Legacy)"
 msgstr "API (Legacy)"
 
@@ -3527,14 +3524,12 @@ msgid "Questions using this integration"
 msgstr "Questions utilisant cette intégration"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1986
-#, fuzzy
 msgid "Allow Custom Reply"
-msgstr "Accepter les réponses personnalisées"
+msgstr "Accepter les Réponses Personnalisées"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1990
-#, fuzzy
 msgid "If enabled, users can type their own custom reply. If disabled, they must select a reply from the integration."
-msgstr "Si activé, les utilisateurs peuvent entrer leurs propres réponses. Si désactivé, ils doivent sélectionner une réponse depuis l'intégration"
+msgstr "Si activé, les utilisateurs peuvent entrer leurs propres réponses. Si désactivé, ils doivent sélectionner une réponse depuis l'intégration."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1995
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2599
@@ -3549,24 +3544,20 @@ msgid "Variables can be used to parametrize the integration for each question. U
 msgstr "Des variables peuvent être utilisées pour paramétrer l'intégration de chaque question. Les variables définies peuvent ensuite être utilisées dans la configuration des requêtes. Par exemple, si vous définissez le nom de variable \"type\", vous pouvez l'utiliser avec {{variables.type}}, comme par exemple *https://example.com/{{ variables.type }}*."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2016
-#, fuzzy
 msgid "There are no secrets configured."
 msgstr "Aucun élément \"secrets\" configuré."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2026
-#, fuzzy
 msgid "Configure secrets"
 msgstr "Configurer des éléments \"secrets\""
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2029
-#, fuzzy
 msgid "Secrets can store sensitive information used for API calls, such as tokens, that you don't want to share with the knowledge models. You can use them as `{{ secrets.secret_name }}` anywhere in the request configuration."
-msgstr "Les éléments \"secrets\" peuvent contenir des informations sensibles utilisées pour les appels API, comme les tokens, que vous ne voudriez pas partager avec le modèle de connaissance. Ils sont utilisable via `{{secrets.nom_secret}}`à n'importe quel endroit de la configuration de la requête."
+msgstr "Les éléments \"secrets\" peuvent contenir des informations sensibles utilisées pour les appels API, comme les tokens, que vous ne voudriez pas partager avec le modèle de connaissance. Ils sont utilisables via `{{secrets.nom_secret}}`à n'importe quel endroit de la configuration de la requête."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2036
-#, fuzzy
 msgid "Advanced Integration Configuration"
-msgstr "Configuration avancée de l'intégration"
+msgstr "Configuration Avancée de l'Intégration"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2047
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2442
@@ -3580,7 +3571,6 @@ msgid "Request HTTP Headers"
 msgstr "Requête d'en-têtes HTTP"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2051
-#, fuzzy
 msgid "HTTP headers to include in the API request. You can use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
 msgstr "Entêtes HTTP à inclure dans la requête API. Vous pouvez utiliser `{{ q }}` pour les termes à rechercher, `{{ variables.name }}` pour les variables référencées et `{{ secrets.name }}` pour les éléments secrets."
 
@@ -3596,7 +3586,6 @@ msgid "Request HTTP Body"
 msgstr "Requête du corps HTTP"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2058
-#, fuzzy
 msgid "Optional request body of the API request. You can again use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
 msgstr "Corps optionnel pour la requête API. Vous pouvez là encore utiliser `{{ q }}` pour les termes à rechercher, `{{ variables.name }}` pour les variables référencées et `{{ secrets.name }}` pour les éléments secrets."
 
@@ -3609,12 +3598,10 @@ msgid "Allow Empty Search"
 msgstr "Autoriser la recherche non renseignée"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2065
-#, fuzzy
 msgid "If enabled, the API request will be sent even if the user does not enter a search term. This is useful for APIs that return a default set of results when no search term is provided."
 msgstr "Si activé, la requête API sera envoyée même si l'utilisateur ne saisit pas de terme de recherche. Cela est utile pour les API qui renvoient un ensemble de résultats par défaut lorsqu'aucun terme de recherche n'est fourni."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2071
-#, fuzzy
 msgid "Advanced Request Configuration"
 msgstr "Configuration avancée des requêtes"
 
@@ -3625,22 +3612,18 @@ msgid "Request"
 msgstr "Requête"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2081
-#, fuzzy
 msgid "Import from cURL string"
 msgstr "Importer à partir d'une chaîne cURL"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2099
-#, fuzzy
 msgid "Enter request URL..."
 msgstr "Entrez l'URL de la requête..."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2103
-#, fuzzy
 msgid "The full API endpoint used for search. Use `{{ q }}` to insert the user's search term (for example, *https://example.com/search?q={{ q }}*), and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
-msgstr "L'endpoint API complet utilisé pour la recherche. Utilisez {{ q }} pour insérer le terme de recherche de l'utilisateur (par exemple, https://example.com/search?q={{ q }}), et {{ variables.name }} pour référencer les variables et {{ secrets.name }} pour les éléments \"secrets\"."
+msgstr "Le endpoint API complet utilisé pour la recherche. Utilisez {{ q }} pour insérer le terme de recherche de l'utilisateur (par exemple, https://example.com/search?q={{ q }}), {{ variables.name }} pour référencer les variables et {{ secrets.name }} pour les éléments \"secrets\"."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2127
-#, fuzzy
 msgid "Test Variables"
 msgstr "Variables de test"
 
@@ -3649,7 +3632,6 @@ msgid "Request Details"
 msgstr "Détails de la requête"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2195
-#, fuzzy
 msgid "This content type is not supported."
 msgstr "Ce type de contenu n'est pas pris en charge."
 
@@ -3664,17 +3646,14 @@ msgid "Test"
 msgstr "Tester"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2252
-#, fuzzy
 msgid "Test Search Query"
 msgstr "Tester la requête de recherche"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2256
-#, fuzzy
 msgid "This is what users would write in the questionnaire when filling in the integration question."
-msgstr "Voici ce que les utilisateurs écriraient dans le questionnaire lorsqu'ils répondent à la question d'intégration."
+msgstr "C'est ce que les utilisateurs écrivent dans le questionnaire lorsqu'ils répondent à la question d'intégration."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2259
-#, fuzzy
 msgid "Load"
 msgstr "Charger"
 
@@ -3691,9 +3670,8 @@ msgstr "Liste des champs de réponse"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2312
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2511
-#, fuzzy
 msgid "If the returned JSON is not an array of items directly but the items are nested, use this to define the name or path to the field in the response that contains the list of items. Keep empty otherwise."
-msgstr "Si le JSON retourné n'est pas un tableau d'éléments directement mais que les éléments sont imbriqués, utilisez ceci pour définir le nom ou le chemin du champ dans la réponse qui contient la liste des éléments. Sinon, laissez-le non renseigné."
+msgstr "Si le JSON retourné n'est pas un tableau d'éléments directement mais que les éléments sont imbriqués, utilisez ceci pour définir le nom ou le chemin du champ dans la réponse qui contient la liste des éléments. Sinon, laissez vide."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2322
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2482
@@ -3703,7 +3681,6 @@ msgstr "Si le JSON retourné n'est pas un tableau d'éléments directement mais 
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:819
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:899
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:928
-#, fuzzy
 msgid "Response Item Template"
 msgstr "Modèle d'élément de réponse"
 
@@ -3711,22 +3688,18 @@ msgstr "Modèle d'élément de réponse"
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:692
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:779
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:900
-#, fuzzy
 msgid "Response Item Template for Selection"
 msgstr "Modèle d'élément de réponse pour la sélection"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2354
-#, fuzzy
 msgid "Advanced Response Configuration"
 msgstr "Configuration avancée de la réponse"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2370
-#, fuzzy
 msgid "Response is not a valid JSON."
 msgstr "La réponse n'est pas un JSON valide."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2397
-#, fuzzy
 msgid "Click to copy code"
 msgstr "Cliquer pour copier le code"
 
@@ -4013,12 +3986,10 @@ msgid "Select a new parent"
 msgstr "Sélectionner un nouveau parent"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:3477
-#, fuzzy
 msgid "Paste your cURL command here..."
-msgstr "Coller ici votre commande cURL"
+msgstr "Coller ici votre commande cURL."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:3485
-#, fuzzy
 msgid "Import from cURL"
 msgstr "Importer depuis cURL"
 
@@ -4202,7 +4173,6 @@ msgid "Unable to get the knowledge model editor."
 msgstr "Impossible d'obtenir l'éditeur de modèle de connaissances."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Update.elm:203
-#, fuzzy
 msgid "Unable to get knowledge model secrets."
 msgstr "Impossible d'obtenir les éléments \"secrets\" du modèle de connaissances"
 
@@ -4674,58 +4644,47 @@ msgid "Unable to delete knowledge model secret."
 msgstr "Impossible de supprimer le secret du modèle de connaissances."
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:38
-#, fuzzy
 msgid "No secrets yet"
-msgstr "Aucun secret n'a été défini"
+msgstr "Pas encore d'élément \"secrets\" défini"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:39
-#, fuzzy
 msgid "Create a knowledge model secret to store sensitive information used for integrations in knowledge models."
-msgstr "Créez un élément \"secret\" du modèle de connaissances pour stocker les informations sensibles utilisées pour les intégrations dans les modèles de connaissances."
+msgstr "Créez un élément \"secret\" du modèle de connaissances pour stocker une information sensible utilisée pour les intégrations dans les modèles de connaissances."
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:48
-#, fuzzy
 msgid "Knowledge Model Secrets"
 msgstr "Éléments \"secrets\" du Modèle de Connaissances"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:53
-#, fuzzy
 msgid "Create secret"
 msgstr "Créer un élément \"secret\""
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:67
-#, fuzzy
 msgid "Secret"
 msgstr "Élément \"secret\""
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:68
-#, fuzzy
 msgid "Last updated"
 msgstr "Dernière mise à jour"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:116
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:137
-#, fuzzy
 msgid "Knowledge Model Secret Name can only contain alphanumeric characters, hyphens, underscores, and dots."
-msgstr "L'identifiant du modèle de connaissances ne peut contenir que des caractères alphanumériques, des traits d'union, des traits de soulignement et des points."
+msgstr "Le nom de l'élément \"secret\" du modèle de connaissances ne peut contenir que des caractères alphanumériques, des traits d'union, des traits de soulignement et des points."
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:121
-#, fuzzy
 msgid "Create Knowledge Model Secret"
 msgstr "Créer un élément \"secret\" dans le Modèle de Connaissances"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:142
-#, fuzzy
 msgid "Edit Knowledge Model Secret"
 msgstr "Éditer l'élément \"secret\" du Modèle de Connaissances"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:162
-#, fuzzy
 msgid "This action may impact existing knowledge model integrations. Make sure you're confident about what you're doing before continuing."
 msgstr "Cette action peut avoir un impact sur les intégrations existantes du Modèle de Connaissances. Assurez-vous d’être certain de ce que vous faites avant de continuer."
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:168
-#, fuzzy
 msgid "Delete Knowledge Model Secret"
 msgstr "Supprimer l'élément \"secret\" du Modèle de Connaissances"
 

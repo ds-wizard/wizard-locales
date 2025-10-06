@@ -4,7 +4,7 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-09-02T12:55:59.331Z\nPO-Revision-Date: 2025-09-09 01:39+0000\nLast-Translator: Rob Hooft <rob.hooft@health-ri.nl>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/dsw-4-22/client/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-09-02T12:55:59.331Z\nPO-Revision-Date: 2025-10-06 12:49+0000\nLast-Translator: Jana Martínková <j.martinkova@outlook.com>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/dsw-4-22/client/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:30
 msgid "Admin"
@@ -3538,7 +3538,7 @@ msgstr "Variabelen"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2000
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the request configuration. For example, if you define a variable named *type*, you can use it as `{{ variables.type }}`, such as *ht&#8203;tps://example.com/{{ type }}*."
-msgstr ""
+msgstr "Variabelen kunnen worden gebruikt om de integratie voor elke vraag te parametriseren. Gebruik dit om de variabelen te definiëren waarvan de waarde kan worden ingevuld in de vragen met behulp van deze integratie. De variabelen kunnen vervolgens worden gebruikt in de configuratie van het verzoek. Bijvoorbeeld, als je een variabele met de naam *type* definieert, kun je die gebruiken als `{{ variables.type }}`, zoals *https://example.com/{{ type }}*."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2016
 msgid "There are no secrets configured."
@@ -3569,7 +3569,7 @@ msgstr "Request HTTP-headers"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2051
 msgid "HTTP headers to include in the API request. You can use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
-msgstr ""
+msgstr "HTTP-headers om op te nemen in het API-verzoek. Je kunt `{{ q }}` gebruiken voor de zoekterm en `{{ variables.name }}` om naar variabelen te verwijzen en `{{ secrets.name }}` voor geheimen."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2054
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2450
@@ -3584,7 +3584,7 @@ msgstr "Request HTTP-body"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2058
 msgid "Optional request body of the API request. You can again use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
-msgstr ""
+msgstr "Optionele request body van het API-verzoek. Je kunt opnieuw `{{ q }}` gebruiken voor de zoekterm en `{{ variables.name }}` om naar variabelen te verwijzen en `{{ secrets.name }}` voor geheimen."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2061
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2458
@@ -3596,11 +3596,11 @@ msgstr "Sta lege zoekterm toe"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2065
 msgid "If enabled, the API request will be sent even if the user does not enter a search term. This is useful for APIs that return a default set of results when no search term is provided."
-msgstr ""
+msgstr "Indien ingeschakeld, wordt het API-verzoek verzonden, zelfs als de gebruiker geen zoekterm invoert. Dit is handig voor API’s die een standaardset resultaten teruggeven wanneer er geen zoekterm is opgegeven."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2071
 msgid "Advanced Request Configuration"
-msgstr ""
+msgstr "Geavanceerde verzoekconfiguratie"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2080
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2492
@@ -3610,27 +3610,27 @@ msgstr "Verzoek"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2081
 msgid "Import from cURL string"
-msgstr ""
+msgstr "Importeren vanuit cURL-string"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2099
 msgid "Enter request URL..."
-msgstr ""
+msgstr "Voer de request-URL in..."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2103
 msgid "The full API endpoint used for search. Use `{{ q }}` to insert the user's search term (for example, *https://example.com/search?q={{ q }}*), and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
-msgstr ""
+msgstr "Het volledige API-endpoint dat wordt gebruikt voor zoeken. Gebruik `{{ q }}` om de zoekterm van de gebruiker in te voegen (bijvoorbeeld *https://example.com/search?q={{ q }}*), en `{{ variables.name }}` om naar variabelen te verwijzen en `{{ secrets.name }}` voor geheimen."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2127
 msgid "Test Variables"
-msgstr ""
+msgstr "Testvariabelen"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2167
 msgid "Request Details"
-msgstr ""
+msgstr "Verzoekdetails"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2195
 msgid "This content type is not supported."
-msgstr ""
+msgstr "Dit contenttype wordt niet ondersteund."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2223
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2363
@@ -3640,19 +3640,19 @@ msgstr "Antwoord"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2248
 msgid "Test"
-msgstr ""
+msgstr "Test"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2252
 msgid "Test Search Query"
-msgstr ""
+msgstr "Testzoekopdracht"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2256
 msgid "This is what users would write in the questionnaire when filling in the integration question."
-msgstr ""
+msgstr "Dit is wat gebruikers in de vragenlijst zouden invullen bij het beantwoorden van de integratievraag."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2259
 msgid "Load"
-msgstr ""
+msgstr "Laden"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2306
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2474
@@ -3686,19 +3686,19 @@ msgstr "Antwoord item-sjabloon"
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:779
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:900
 msgid "Response Item Template for Selection"
-msgstr ""
+msgstr "Response-itemtemplate voor selectie"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2354
 msgid "Advanced Response Configuration"
-msgstr ""
+msgstr "Geavanceerde responseconfiguratie"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2370
 msgid "Response is not a valid JSON."
-msgstr ""
+msgstr "Response is geen geldige JSON."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2397
 msgid "Click to copy code"
-msgstr ""
+msgstr "Klik om code te kopiëren"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2425
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:686
@@ -3795,9 +3795,8 @@ msgid "Logo is displayed next to the link to the selected item in questionnaires
 msgstr "Logo wordt getoond naast de link in het geselecteerde item in vragenlijsten. Het kan een URL zijn of een base64-gecodeerd plaatje."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2604
-#, fuzzy
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the URL configuration. For example, if you define a variable named *type*, you can use it as `${type}`, such as *ht&#8203;tps://example.com/${type}*."
-msgstr "Props kunnen worden gebruikt om de integratie voor elke vraag te parameteriseren. Gebruik dit om de props te definiëren die ingevuld kunnen worden wanneer vragen deze integratie gebruiken. Bijvoorbeeld, als je een prop definieert met als naam *type* dan kun je het als `${type}` gebruiken, zoals in *ht&#8203;tps://example.com/${type}*."
+msgstr "Props kunnen worden gebruikt om de integratie voor elke vraag te parameteriseren. Gebruik dit om de props te definiëren die ingevuld kunnen worden wanneer vragen deze integratie gebruiken. Bijvoorbeeld, als je een prop definieert met als naam *type* dan kun je het als `${type}` gebruiken, zoals in *https://example.com/${type}*."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2612
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:713
@@ -3985,11 +3984,11 @@ msgstr "Kies een nieuwe ouder"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:3477
 msgid "Paste your cURL command here..."
-msgstr ""
+msgstr "Plak je cURL-opdracht hier..."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:3485
 msgid "Import from cURL"
-msgstr ""
+msgstr "Importeren vanuit cURL"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:488
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:204
@@ -4172,7 +4171,7 @@ msgstr "Kan geen kennismodeleditor ophalen."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Update.elm:203
 msgid "Unable to get knowledge model secrets."
-msgstr ""
+msgstr "Kan de geheimen van het kennismodel niet ophalen."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/View.elm:50
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:69
@@ -4627,65 +4626,64 @@ msgstr "Deze bronpagina bestaat niet"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/Update.elm:37
 msgid "Unable to load knowledge model secrets."
-msgstr ""
+msgstr "Kan de geheimen van het kennismodel niet laden."
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/Update.elm:80
 msgid "Unable to create knowledge model secret."
-msgstr ""
+msgstr "Kan geen geheim voor het kennismodel aanmaken."
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/Update.elm:124
 msgid "Unable to update knowledge model secret."
-msgstr ""
+msgstr "Kan het geheim van het kennismodel niet bijwerken."
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/Update.elm:154
 msgid "Unable to delete knowledge model secret."
-msgstr ""
+msgstr "Kan het geheim van het kennismodel niet verwijderen."
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:38
 msgid "No secrets yet"
-msgstr ""
+msgstr "Nog geen geheimen"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:39
 msgid "Create a knowledge model secret to store sensitive information used for integrations in knowledge models."
-msgstr ""
+msgstr "Maak een geheim voor het kennismodel aan om gevoelige informatie op te slaan die wordt gebruikt voor integraties in kennismodellen."
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:48
 msgid "Knowledge Model Secrets"
-msgstr ""
+msgstr "Geheimen van het kennismodel"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:53
 msgid "Create secret"
-msgstr ""
+msgstr "Geheim aanmaken"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:67
 msgid "Secret"
-msgstr ""
+msgstr "Geheim"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:68
 msgid "Last updated"
-msgstr ""
+msgstr "Laatst bijgewerkt"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:116
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:137
-#, fuzzy
 msgid "Knowledge Model Secret Name can only contain alphanumeric characters, hyphens, underscores, and dots."
 msgstr "Kennismodel ID kan alleen alfanumerieke tekens, koppeltekens, underscores en punten bevatten."
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:121
 msgid "Create Knowledge Model Secret"
-msgstr ""
+msgstr "Geheim voor het kennismodel aanmaken"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:142
 msgid "Edit Knowledge Model Secret"
-msgstr ""
+msgstr "Geheim van het kennismodel bewerken"
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:162
 msgid "This action may impact existing knowledge model integrations. Make sure you're confident about what you're doing before continuing."
-msgstr ""
+msgstr "Deze actie kan invloed hebben op bestaande integraties van het kennismodel. Zorg ervoor dat je zeker weet wat je doet voordat je verdergaat."
 
 #: engine-wizard/elm/Wizard/KnowledgeModelSecrets/View.elm:168
 msgid "Delete Knowledge Model Secret"
-msgstr ""
+msgstr "Geheim van het kennismodel verwijderen"
 
 #: engine-wizard/elm/Wizard/Locales/Common/LocaleActionsDropdown.elm:75
 msgid "Set default"
@@ -6154,7 +6152,7 @@ msgstr "Eigenaar van het GitHub repository"
 
 #: engine-wizard/elm/Wizard/Settings/Projects/View.elm:62
 msgid "ht&#8203;tps://github.com/**exampleOwner**/exampleRepository"
-msgstr "ht&#8203;tps://github.com/**voorbeeldEigenaar**/voorbeeldRepository"
+msgstr "https://github.com/**voorbeeldEigenaar**/voorbeeldRepository"
 
 #: engine-wizard/elm/Wizard/Settings/Projects/View.elm:63
 msgid "GitHub Repository Name"
@@ -6162,7 +6160,7 @@ msgstr "Naam van het GitHub repository"
 
 #: engine-wizard/elm/Wizard/Settings/Projects/View.elm:64
 msgid "ht&#8203;tps://github.com/exampleOwner/**exampleRepository**"
-msgstr "ht&#8203;tps://github.com/**exampleOwner**/exampleRepository"
+msgstr "https://github.com/**exampleOwner**/exampleRepository"
 
 #: engine-wizard/elm/Wizard/Settings/Projects/View.elm:65
 msgid "Access Token"

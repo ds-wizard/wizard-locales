@@ -5,17 +5,7 @@
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Marek Suchánek <marek.suchanek@gmail.com>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:3.18.3\n"
-"POT-Creation-Date: 2025-10-07T06:52:57.278Z \n"
-"PO-Revision-Date: 2025-10-06 12:49+0000\n"
-"Last-Translator: Jana Martínková <j.martinkova@outlook.com>\n"
-"Language-Team: Turkish <https://localize.ds-wizard.org/projects/dsw-4-22/client/tr/>\n"
-"Language: tr\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-10-07 14:33+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Turkish <https://localize.ds-wizard.org/projects/dsw-v4-23/client/tr/>\nLanguage: tr\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -3329,8 +3319,9 @@ msgid "Variables"
 msgstr "Değişkenler"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2027
+#, fuzzy
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the request configuration. For example, if you define a variable named *type*, you can use it as `{{ variables.type }}`, such as *ht&#8203;tps://example.com/{{ variables.type }}*."
-msgstr ""
+msgstr "Değişkenler, her soru için entegrasyonu parametreleştirmek amacıyla kullanılabilir. Bu, bu entegrasyonu kullanarak sorularda doldurulabilecek değişkenleri tanımlamak için kullanılır. Değişkenler daha sonra istek yapılandırmasında kullanılabilir. Örneğin, *type* adında bir değişken tanımlarsanız, bunu `{{ variables.type }}` olarak kullanabilirsiniz; örneğin *https://example.com/{{ type }}*."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2043
 msgid "There are no secrets configured."

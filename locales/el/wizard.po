@@ -3,8 +3,9 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Marek Suchánek <marek.suchanek@gmail.com>, 2025.
+# Georgia Koutentaki <koutegeo@fit.cvut.cz>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.9.0\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-10-07 14:33+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Greek <https://localize.ds-wizard.org/projects/dsw-v4-23/client/el/>\nLanguage: el\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.9.0\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-10-10 09:51+0000\nLast-Translator: Georgia Koutentaki <koutegeo@fit.cvut.cz>\nLanguage-Team: Greek <https://localize.ds-wizard.org/projects/dsw-v4-23/client/el/>\nLanguage: el\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -205,7 +206,7 @@ msgstr "Αντιγραφή"
 
 #: app-wizard/elm/Wizard/Components/ExternalLoginButton.elm:60
 msgid "internal"
-msgstr ""
+msgstr "εσωτερικό"
 
 #: app-wizard/elm/Wizard/Components/FileImport.elm:143
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:180
@@ -992,7 +993,7 @@ msgstr "Κάτω"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:3776
 msgid "Used in item select questions:"
-msgstr ""
+msgstr "Χρησιμοποιείται στις παρακάτω ερωτήσεις επιλογής στοιχείου:"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:3892
 msgid "This is not a valid email address."
@@ -1736,7 +1737,7 @@ msgstr "Συμπληρώστε το όνομα και το αναγνωριστ�
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ConnectRegistryWidget.elm:13
 msgid "Connect to DSW Registry"
-msgstr "Σύνδεση στο Μητρώο DSW (DSW Registry)"
+msgstr "Σύνδεση στο Μητρώο DSW (Registry)"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ConnectRegistryWidget.elm:14
 msgid "[DSW Registry](https://registry.ds-wizard.org) is a place for published knowledge models and document templates. When you connect your instance, data stewards can easily import them."
@@ -3253,7 +3254,7 @@ msgstr "Ερωτήσεις επιλογής στοιχείου που χρησι
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1585
 msgid "Metric"
-msgstr "Metric"
+msgstr "Μετρική"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1605
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:487
@@ -3318,9 +3319,8 @@ msgid "Variables"
 msgstr "Μεταβλήτές"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2027
-#, fuzzy
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the request configuration. For example, if you define a variable named *type*, you can use it as `{{ variables.type }}`, such as *ht&#8203;tps://example.com/{{ variables.type }}*."
-msgstr "Οι μεταβλητές μπορούν να χρησιμοποιηθούν για παραμετροποιήση μιας ενσωμάτωσης σε κάθε ερώτηση. Χρησιμοποιείτε το ώστε να ορίσετε μεταβλητές των οποίων οι τιμές μπορούν να συμπληρωθούν στις ερωτήσεις μέσω αυτής της ενσωμάτωσης.Οι μεταβλητές μπορούν να χρησιμοποιηθούν σε αιτήματα διαμόρφωσης. Για παράδειγμα, εαν ορίσετε μια μεταβλητή που ονομάζεται *τύπος*, μπορείτε να τη χρησιμοποιήσετε ως `{{ variables.type }}`, όπως στο παράδειγμα *https://example.com/{{ type }}*."
+msgstr "Οι μεταβλητές μπορούν να χρησιμοποιηθούν για παραμετροποιήση μιας ενσωμάτωσης σε κάθε ερώτηση. Χρησιμοποιείστε το ώστε να ορίσετε μεταβλητές των οποίων οι τιμές μπορούν να συμπληρωθούν στις ερωτήσεις μέσω αυτής της ενσωμάτωσης.Οι μεταβλητές μπορούν να χρησιμοποιηθούν σε αιτήματα διαμόρφωσης. Για παράδειγμα, εαν ορίσετε μια μεταβλητή που ονομάζεται *τύπος*, μπορείτε να τη χρησιμοποιήσετε ως `{{ variables.type }}`, όπως στο παράδειγμα *https://example.com/{{ type }}*."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2043
 msgid "There are no secrets configured."
@@ -3366,7 +3366,7 @@ msgstr "Αίτηση σώματος HTTP"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2085
 msgid "Optional request body of the API request. You can again use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
-msgstr "Προαιρετικό αίτημα σώματος του αιτήματος ΑΡΙ.  Χρησιμοποιείστε `{{ q }}`για τον όρο αναζήτησης και `{{ variables.name }}`για αναφορά μεταβλητών και `{{ secrets.name }}` για μυστικά."
+msgstr "Προαιρετικό αίτημα σώματος του αιτήματος ΑΡΙ. Χρησιμοποιείστε `{{ q }}`για τον όρο αναζήτησης και `{{ variables.name }}`για αναφορά μεταβλητών και `{{ secrets.name }}` για μυστικά."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2088
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2491
@@ -3480,7 +3480,7 @@ msgstr "Η απάντησησ δεν είναι έγκυρο JSON."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2405
 msgid "Run a successful test to configure the response."
-msgstr ""
+msgstr "Τρέξτε ένα επιτυχημένο τεστ για να διαμορφώσετε την απάντηση."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2430
 msgid "Click to copy code"
@@ -3519,7 +3519,7 @@ msgstr "Χρησιμοποιήστε αυτήν την ενότητα για ν�
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2529
 msgid "The full API endpoint used for search. Use `${q}` to insert the user's search term (for example, *https://example.com/search?q=${q}*), and `${propName}` to reference fields defined in props."
-msgstr "Ολόκληρο το API endpoint που χρησιμοποιείται για την αναζήτηση. Χρησιμοποιείστε `${q}`για να εισάγετε τον όρο αναζήτησης του χρήστη (για παράδειγμα, *https://example.com/search?q=${q}*), και `${propName}`για να κάνετε αναφορά σε κάποιο πεδίο που έχει οριστεί στις ιδιότητες"
+msgstr "Ολόκληρο το API endpoint που χρησιμοποιείται για την αναζήτηση. Χρησιμοποιείστε `${q}`για να εισάγετε τον όρο αναζήτησης του χρήστη (για παράδειγμα, *https://example.com/search?q=${q}*), και `${propName}`για να κάνετε αναφορά σε κάποιο πεδίο που έχει οριστεί στις ιδιότητες."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2532
 msgid "Optional headers to include in the API request. You can use `${q}` for the search term and `${propName}` for values from props."
@@ -3795,7 +3795,7 @@ msgstr "Πρότυπο"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:534
 msgid "You can use [Jinja](%s) and [Markdown](%s) to create and format the template."
-msgstr ""
+msgstr "Μπορείτε να χρησιμοποιήσετε [Jinja](%s) και [Markdown](%s) για να δημιουργείσετε και να μορφοποιήσετε το πρότυπο."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:671
 msgid "Key"
@@ -3876,7 +3876,7 @@ msgstr "'Ωρα - Έως"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1104
 msgid "Domain"
-msgstr "Domain"
+msgstr "Τομέας"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1197
 msgid "Weight"
@@ -4037,7 +4037,7 @@ msgstr "μετάβαση"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:143
 msgid "This editor has been migrated to a new parent knowledge model, you can publish it now"
-msgstr "Αυτός ο συντάκτης έχει μεταφερθεί σε ένα νέο μητρικό μοντέλο γνώσης, μπορείτε να το δημοσιεύσετε τώρα."
+msgstr "Αυτός ο συντάκτης έχει μεταφερθεί σε ένα νέο μητρικό μοντέλο γνώσης, μπορείτε να το δημοσιεύσετε τώρα"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:144
 msgid "migrated"
@@ -5118,7 +5118,7 @@ msgstr "Προσθήκη χρηστών"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:622
 msgid "Last owner cannot be removed."
-msgstr ""
+msgstr "Ο τελευταίος κάτοχος δε μπορεί να αφαιρεθεί."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:686
 msgid "Other logged-in users can %s the project."
@@ -5211,7 +5211,7 @@ msgstr "Το έγγραφο δεν βρέθηκε"
 
 #: app-wizard/elm/Wizard/Pages/Projects/DocumentDownload/Update.elm:56
 msgid "Unable to get document"
-msgstr "Αδυναμία λήψης εγγράφου."
+msgstr "Αδυναμία λήψης εγγράφου"
 
 #: app-wizard/elm/Wizard/Pages/Projects/DocumentDownload/View.elm:21
 #: app-wizard/elm/Wizard/Pages/Projects/FileDownload/View.elm:21
@@ -6473,19 +6473,19 @@ msgstr "Δεν έχετε άδεια να δείτε αυτή τη σελίδα.
 
 #: shared/common/elm/Common/Api/ServerError.elm:131
 msgid "Activation link is no longer valid."
-msgstr ""
+msgstr "Ο σύνδεσμος ενεργοποίησης δεν είναι πια έγκυρος."
 
 #: shared/common/elm/Common/Api/ServerError.elm:134
 msgid "Audit log not found."
-msgstr ""
+msgstr "Δεν βρέθηκε αρχείο καταγραφής ελέγχου."
 
 #: shared/common/elm/Common/Api/ServerError.elm:137
 msgid "Automation not found."
-msgstr ""
+msgstr "Δε βρέθηκε αυτοματοποιήση."
 
 #: shared/common/elm/Common/Api/ServerError.elm:140
 msgid "Automation invocation not found."
-msgstr ""
+msgstr "Η επίκληση αυτοματοποίησης δεν βρέθηκε."
 
 #: shared/common/elm/Common/Api/ServerError.elm:143
 msgid "Knowledge model editor not found."
@@ -6513,7 +6513,7 @@ msgstr "Το αρχείο προτύπου εγγράφου δεν βρέθηκ�
 
 #: shared/common/elm/Common/Api/ServerError.elm:161
 msgid "Value integration not found."
-msgstr ""
+msgstr "Η ενσωμάτωση τιμής δε βρέθηκε."
 
 #: shared/common/elm/Common/Api/ServerError.elm:164
 msgid "Knowledge model migration not found."
@@ -6525,11 +6525,11 @@ msgstr "Η locale δεν βρέθηκε."
 
 #: shared/common/elm/Common/Api/ServerError.elm:170
 msgid "OpenID client not found."
-msgstr ""
+msgstr "Δε βρέθηκε πρόγραμμα-πελάτης OpenID."
 
 #: shared/common/elm/Common/Api/ServerError.elm:173
 msgid "OpenID provider not found."
-msgstr ""
+msgstr "Δε βρέθηκε προμηθευτής OpenID."
 
 #: shared/common/elm/Common/Api/ServerError.elm:176
 msgid "Knowledge model not found."
@@ -6569,7 +6569,7 @@ msgstr "Η έκδοση του έργου δεν βρέθηκε."
 
 #: shared/common/elm/Common/Api/ServerError.elm:203
 msgid "SAML service provider not found."
-msgstr ""
+msgstr "Δε βρέθηκε προμηθευτής υπηρεσίας SAML."
 
 #: shared/common/elm/Common/Api/ServerError.elm:206
 msgid "User not found."
@@ -6610,7 +6610,7 @@ msgstr "Η διεύθυνση ηλεκτρονικού ταχυδρομείου 
 
 #: shared/common/elm/Common/Api/ServerError.elm:233
 msgid "There is already an ongoing project migration."
-msgstr ""
+msgstr "Υπάρχει ήδη μία μετανάστευση έργου σε εξέλιξη."
 
 #: shared/common/elm/Common/Api/ServerError.elm:236
 msgid "New version has to be higher than the previous one."
@@ -6738,7 +6738,7 @@ msgstr "Το αρχείο \"%s\" δεν βρέθηκε στο αρχείο."
 
 #: shared/common/elm/Common/Api/ServerError.elm:353
 msgid "The locale not found in Registry."
-msgstr "Η τοπική ρύθμιση δεν βρέθηκε στο μητρώο"
+msgstr "Η τοπική ρύθμιση δεν βρέθηκε στο μητρώο."
 
 #: shared/common/elm/Common/Api/ServerError.elm:356
 msgid "Knowledge model cannot be deleted because it is used in some projects or knowledge model editors."

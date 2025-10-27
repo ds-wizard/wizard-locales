@@ -3,29 +3,19 @@
 # Chia Hsun Wang <allywang@iis.sinica.edu.tw>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:4.18.0\n"
-"POT-Creation-Date: 2025-10-07T06:52:57.278Z \n"
-"PO-Revision-Date: 2025-09-20 11:51+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
-"Language-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-22/client/zh_Hant/>\n"
-"Language: zh_Hant\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-10-28 07:50+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-v4-23/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
-msgstr ""
+msgstr "答案長度必須至少為 %s 個字。"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:318
 msgid "Answer must be at most %s characters long."
-msgstr ""
+msgstr "答案長度最多為 %s 個字。"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:325
 msgid "Answer does not match the required pattern (%s)."
-msgstr ""
+msgstr "答案不符合要求的格式（%s）。"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:332
 msgid "Answer must be a valid ORCID."
@@ -37,39 +27,39 @@ msgstr "答案必須是有效的 DOI。"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:346
 msgid "Answer must be at least %s."
-msgstr ""
+msgstr "答案必須至少為 %s。"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:353
 msgid "Answer must be at most %s."
-msgstr ""
+msgstr "答案最多為 %s。"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:367
 msgid "Date must be at least %s."
-msgstr ""
+msgstr "日期必須至少為 %s。"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:381
 msgid "Date must be at most %s."
-msgstr ""
+msgstr "日期至多為 %s。"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:395
 msgid "Date and time must be at least %s."
-msgstr ""
+msgstr "日期與時間必須至少為 %s。"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:409
 msgid "Date and time must be at most %s."
-msgstr ""
+msgstr "日期與時間最多為 %s。"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:423
 msgid "Time must be at least %s."
-msgstr ""
+msgstr "時間必須至少爲 %s。"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:437
 msgid "Time must be at most %s."
-msgstr ""
+msgstr "時間最多為 %s。"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:455
 msgid "Email domain must be one of the following: %s."
-msgstr ""
+msgstr "電子郵件網域必須為以下其中之一：%s。"
 
 #: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireCreation.elm:116
 msgid "Templates & Custom"
@@ -214,7 +204,7 @@ msgstr "複製"
 
 #: app-wizard/elm/Wizard/Components/ExternalLoginButton.elm:60
 msgid "internal"
-msgstr ""
+msgstr "內部的"
 
 #: app-wizard/elm/Wizard/Components/FileImport.elm:143
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:180
@@ -293,7 +283,7 @@ msgstr "匯入"
 
 #: app-wizard/elm/Wizard/Components/FormActions.elm:63
 msgid "You have unsaved changes."
-msgstr ""
+msgstr "您有尚未儲存的變更。"
 
 #: app-wizard/elm/Wizard/Components/FormActions.elm:75
 #: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:173
@@ -394,12 +384,13 @@ msgstr "知識模型"
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:127
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:157
 msgid "List"
-msgstr ""
+msgstr "清單"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:105
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:133
+#, fuzzy
 msgid "Editors"
-msgstr ""
+msgstr "編輯器"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:111
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2049
@@ -427,7 +418,7 @@ msgstr "專案"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:137
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:353
 msgid "Files"
-msgstr ""
+msgstr "檔案"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:169
 #: app-wizard/elm/Wizard/Components/UsageTable.elm:25
@@ -442,7 +433,7 @@ msgstr "操作"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:181
 msgid "Importers"
-msgstr ""
+msgstr "匯入器"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:212
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:227
@@ -455,11 +446,12 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:362
 #: app-wizard/elm/Wizard/Pages/Registry/RegistrySignupConfirmation/View.elm:31
 msgid "Settings"
-msgstr ""
+msgstr "設定"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:220
+#, fuzzy
 msgid "Administration"
-msgstr ""
+msgstr "管理"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:237
 #: app-wizard/elm/Wizard/Components/UsageTable.elm:18
@@ -473,20 +465,22 @@ msgstr "使用者"
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:245
 #: app-wizard/elm/Wizard/Components/UsageTable.elm:26
 #: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:31
+#, fuzzy
 msgid "Locales"
-msgstr ""
+msgstr "語系"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:375
 msgid "Switch to"
-msgstr ""
+msgstr "轉換成"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:379
 msgid "More"
 msgstr "更多"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:634
+#, fuzzy
 msgid "Your session expires in %s"
-msgstr ""
+msgstr "您的工作階段將在 %s 後到期。"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:641
 #: app-wizard/elm/Wizard/Components/SessionModal.elm:44
@@ -525,15 +519,15 @@ msgstr "回報問題"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:777
 msgid "Collapse sidebar"
-msgstr ""
+msgstr "收合側欄"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:792
 msgid "If you find any problem, you can report an issue here:"
-msgstr ""
+msgstr "如果您發現任何問題，可於此回報："
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:804
 msgid "You can also write us an email to %s."
-msgstr ""
+msgstr "您也可以寄電子郵件至 %s。"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:808
 msgid "Report Issue"
@@ -548,15 +542,15 @@ msgstr "OK"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:844
 msgid "About %s"
-msgstr ""
+msgstr "關於 %s"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:883
 msgid "API URL"
-msgstr ""
+msgstr "API 網址"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:884
 msgid "API Docs"
-msgstr ""
+msgstr "API 說明文件"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:922
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:135
@@ -571,8 +565,9 @@ msgid "Version"
 msgstr ""
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:926
+#, fuzzy
 msgid "Built at"
-msgstr ""
+msgstr "建置於"
 
 #: app-wizard/elm/Wizard/Components/OnlineUser.elm:51
 #: app-wizard/elm/Wizard/Components/OnlineUser.elm:61

@@ -5,7 +5,7 @@
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-10-28 23:42+0000\nLast-Translator: tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-v4-23/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-10-30 04:51+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-v4-23/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -712,8 +712,9 @@ msgid "Question tags"
 msgstr "問題標籤"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:2008
+#, fuzzy
 msgid "Non-desirable questions"
-msgstr ""
+msgstr "不適宜的問題"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:2013
 msgid "Metric values"
@@ -1000,8 +1001,9 @@ msgid "Move down"
 msgstr "下移"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:3776
+#, fuzzy
 msgid "Used in item select questions:"
-msgstr ""
+msgstr "使用於選擇項目的問題："
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:3892
 msgid "This is not a valid email address."
@@ -1034,7 +1036,7 @@ msgstr "載入中..."
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:4279
 msgid "Create them now."
-msgstr ""
+msgstr "立即建立它們。"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:4284
 msgid "There are no items to select from yet."
@@ -1042,7 +1044,7 @@ msgstr "尚無可選項目。"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:4298
 msgid "This question does not have any configured list options to select from."
-msgstr ""
+msgstr "此問題尚未有任何可供選擇的清單選項。"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:4316
 msgid "- select -"
@@ -1444,8 +1446,9 @@ msgid "New version"
 msgstr "新版本"
 
 #: app-wizard/elm/Wizard/Components/QuestionnaireVersionTag.elm:19
+#, fuzzy
 msgid "Current"
-msgstr ""
+msgstr "目前"
 
 #: app-wizard/elm/Wizard/Components/SessionModal.elm:30
 msgid "Your session expires in less than %s minutes. Log in again to refresh it."
@@ -1499,11 +1502,11 @@ msgstr "指標解釋"
 
 #: app-wizard/elm/Wizard/Components/Tag.elm:43
 msgid "There are no question tags configured for the knowledge model."
-msgstr ""
+msgstr "此知識模型尚未設定任何問題標籤。"
 
 #: app-wizard/elm/Wizard/Components/Tag.elm:63
 msgid "Untitled question tag"
-msgstr ""
+msgstr "未命名的問題標籤"
 
 #: app-wizard/elm/Wizard/Components/Tag.elm:107
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:812
@@ -1519,7 +1522,7 @@ msgstr "問題標籤"
 
 #: app-wizard/elm/Wizard/Components/Tag.elm:132
 msgid "You can either use all questions from the knowledge model or filter them by question tags."
-msgstr ""
+msgstr "您可以使用知識模型中所有的問題，或依據問題標籤進行篩選。"
 
 #: app-wizard/elm/Wizard/Components/Tag.elm:140
 msgid "Use all questions"
@@ -1535,7 +1538,7 @@ msgstr "這個知識模型不需要選擇問題標籤。"
 
 #: app-wizard/elm/Wizard/Components/Tag.elm:166
 msgid "There are no question tags for this knowledge model."
-msgstr ""
+msgstr "此知識模型沒有任何問題標籤。"
 
 #: app-wizard/elm/Wizard/Components/Tag.elm:169
 msgid "All questions are used."
@@ -1575,19 +1578,19 @@ msgstr "無限制的"
 #: app-wizard/elm/Wizard/Layouts/Layout.elm:36
 #: app-wizard/elm/Wizard/Layouts/Layout.elm:44
 msgid "Configuration Error"
-msgstr ""
+msgstr "設定錯誤"
 
 #: app-wizard/elm/Wizard/Layouts/Layout.elm:38
 msgid "Application is not configured correctly and cannot run."
-msgstr ""
+msgstr "應用程式設定不正確，無法執行。"
 
 #: app-wizard/elm/Wizard/Layouts/Layout.elm:39
 msgid "Please, contact the administrator."
-msgstr ""
+msgstr "請聯絡系統管理員。"
 
 #: app-wizard/elm/Wizard/Layouts/Layout.elm:97
 msgid "Go to App"
-msgstr ""
+msgstr "前往應用程式"
 
 #: app-wizard/elm/Wizard/Layouts/Layout.elm:108
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:44

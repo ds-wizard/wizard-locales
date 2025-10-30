@@ -5,7 +5,7 @@
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-10-31 06:50+0000\nLast-Translator: Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-v4-23/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-10-31 06:50+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-v4-23/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -1649,8 +1649,9 @@ msgstr "已更新"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Dashboards/AdminDashboard.elm:110
 #: app-wizard/elm/Wizard/Pages/Settings/Usage/Update.elm:25
+#, fuzzy
 msgid "Unable to get usage."
-msgstr ""
+msgstr "無法取得使用狀態。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Dashboards/AdminDashboard.elm:120
 #: app-wizard/elm/Wizard/Pages/Dashboard/Dashboards/DataStewardDashboard.elm:96
@@ -1669,13 +1670,13 @@ msgstr "無法取得知識模型。"
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:234
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/Update.elm:40
 msgid "Unable to get document templates."
-msgstr ""
+msgstr "無法取得文件模板。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Dashboards/AdminDashboard.elm:142
 #: app-wizard/elm/Wizard/Pages/Dashboard/Dashboards/DataStewardDashboard.elm:118
 #: app-wizard/elm/Wizard/Pages/Dashboard/Dashboards/ResearcherDashboard.elm:117
 msgid "Unable to get assigned comments."
-msgstr ""
+msgstr "無法取得指派的留言。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Dashboards/ResearcherDashboard.elm:106
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:187
@@ -1689,36 +1690,38 @@ msgstr "歡迎來到%s！"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Update.elm:51
 msgid "Welcome to the Data Management Planner"
-msgstr ""
+msgstr "歡迎使用資料管理規劃工具"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Update.elm:52
 #: app-wizard/elm/Wizard/Pages/Dashboard/Update.elm:57
 msgid "We'll guide you through creating your data management plan."
-msgstr ""
+msgstr "我們會引導您建立自己的資料管理方案。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Update.elm:56
+#, fuzzy
 msgid "Welcome to Data Stewardship Wizard"
-msgstr ""
+msgstr "歡迎使用資料管理精靈（Data Stewardship Wizard）"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Update.elm:69
 msgid "Create and manage your data management plans here."
-msgstr ""
+msgstr "在此建立與管理您的資料管理法方案。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/AddOpenIDWidget.elm:13
 msgid "Add OpenID Service"
-msgstr ""
+msgstr "新增 OpenID 服務"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/AddOpenIDWidget.elm:14
 msgid "OpenID is an open standard for authentication that allows using existing accounts to login to other services without creating a new password. Configure your organization's OpenID to make it easier for your users to log in."
-msgstr ""
+msgstr "OpenID 是一個開放式驗證標準，允許使用者用現有帳號登入其他服務，無需建立新密碼。請設定您組織的 OpenID，以便讓使用者更簡易地登入。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/AddOpenIDWidget.elm:17
 msgid "Add OpenID"
-msgstr ""
+msgstr "新增 OpenID"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/AssignedComments.elm:42
+#, fuzzy
 msgid "Unresolved Assigned Comments"
-msgstr ""
+msgstr "尚未解決的指派留言"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/AssignedComments.elm:47
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/RecentProjectsWidget.elm:46
@@ -1726,37 +1729,41 @@ msgid "View all"
 msgstr "檢視全部"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ConfigureLookAndFeelWidget.elm:13
+#, fuzzy
 msgid "Configure Look & Feel"
-msgstr ""
+msgstr "設定外觀與風格"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ConfigureLookAndFeelWidget.elm:14
 msgid "You can configure the application name, or add additional menu links, for example, to your guidelines or documentation."
-msgstr ""
+msgstr "您可以設定應用程式名稱，或新增其他選單連結，像是連結至您的指引或使用文件。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ConfigureLookAndFeelWidget.elm:17
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ConfigureOrganizationWidget.elm:17
 msgid "Configure"
-msgstr ""
+msgstr "設定"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ConfigureOrganizationWidget.elm:13
 msgid "Configure Organization Info"
-msgstr ""
+msgstr "設定組織資訊"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ConfigureOrganizationWidget.elm:14
+#, fuzzy
 msgid "Fill in your organization name and organization ID. For example, these values will be used with knowledge models created in this instance."
-msgstr ""
+msgstr "請填寫您的組織名稱與組織 ID。這些資料將會用在此實例（instance）中建立的知識模型上。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ConnectRegistryWidget.elm:13
+#, fuzzy
 msgid "Connect to DSW Registry"
-msgstr ""
+msgstr "連接 DSW 登錄冊"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ConnectRegistryWidget.elm:14
+#, fuzzy
 msgid "[DSW Registry](https://registry.ds-wizard.org) is a place for published knowledge models and document templates. When you connect your instance, data stewards can easily import them."
-msgstr ""
+msgstr "[DSW 登錄冊](https://registry.ds-wizard.org) 是一個用來發佈知識模型與文件模板的平台。當您將實例（instance）連線至登錄冊後，資料管理員即可簡易匯入這些內容。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ConnectRegistryWidget.elm:17
 msgid "Connect"
-msgstr ""
+msgstr "連接"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/CreateKnowledgeModelWidget.elm:13
 msgid "Create Knowledge Model"

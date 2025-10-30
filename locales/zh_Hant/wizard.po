@@ -5,7 +5,7 @@
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-10-30 04:51+0000\nLast-Translator: tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-v4-23/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-10-31 06:50+0000\nLast-Translator: Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-v4-23/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -3539,11 +3539,11 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2532
 msgid "Optional headers to include in the API request. You can use `${q}` for the search term and `${propName}` for values from props."
-msgstr ""
+msgstr "（可選）包含於 API 請求的標頭。您可以使用 `${q}` 作為搜尋詞彙，並指定 `${propName}` 為屬性。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2534
 msgid "Optional request body for POST or PUT methods. Supports the same variables: `${q}` for the search term and `${propName}` for props."
-msgstr ""
+msgstr "（可選）用於 POST 或 PUT 方法的請求主體。支援相同的變數：`${q}` 作為搜尋詞彙，`${propName}` 用於屬性。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2536
 msgid "Turn this off if the API cannot handle empty search requests. In that case, the requests will be made only after users type something."
@@ -3574,27 +3574,28 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2587
 msgid "The URL of the widget implemented using [DSW Integration SDK](https://github.com/ds-wizard/dsw-integration-sdk)."
-msgstr ""
+msgstr "使用 [DSW 整合軟體開發套件](https://github.com/ds-wizard/dsw-integration-sdk) 實作的小工具網址。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2589
 msgid "Defines the URL to the selected item. Use `${id}` value returned from the widget, for example `https://example.com/${id}`."
-msgstr ""
+msgstr "定義選取項目的網址。使用 `${id}` 作為來自小工具的回傳值，例如：`https://example.com/${id}`。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2601
 msgid "A string that identifies the integration. It has to be unique for each integration."
-msgstr ""
+msgstr "一個用於識別整合的字串。必須在每個整合中都是唯一的。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2613
 msgid "A name visible everywhere else in the knowledge model Editor, such as when choosing the integration for a question."
-msgstr ""
+msgstr "一個可於知識模型編輯器中隨處見到的名字，例如為一個問題選擇整合時。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2621
 msgid "Logo URL"
-msgstr ""
+msgstr "標誌網址"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2625
+#, fuzzy
 msgid "Logo is displayed next to the link to the selected item in questionnaires. It can be either URL or base64 image."
-msgstr ""
+msgstr "標誌將顯示於問卷選項連結旁。可以是網址或 base64 圖片。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2637
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the URL configuration. For example, if you define a variable named *type*, you can use it as `${type}`, such as *ht&#8203;tps://example.com/${type}*."
@@ -3608,11 +3609,11 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:921
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:950
 msgid "Item URL"
-msgstr ""
+msgstr "項目網址"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2677
 msgid "Answer"
-msgstr ""
+msgstr "回答"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2689
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2786
@@ -3631,7 +3632,7 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2020
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2089
 msgid "Label"
-msgstr ""
+msgstr "名稱"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2697
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1542
@@ -3639,15 +3640,15 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1619
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1657
 msgid "Advice"
-msgstr ""
+msgstr "建議"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2708
 msgid "Follow-Up Questions"
-msgstr ""
+msgstr "跟進式提問"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2774
 msgid "Choice"
-msgstr ""
+msgstr "選項"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2825
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2885
@@ -3659,11 +3660,11 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2002
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2071
 msgid "Resource Page"
-msgstr ""
+msgstr "資源頁面"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2831
 msgid "Reference"
-msgstr ""
+msgstr "參考來源"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2843
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1785
@@ -3682,11 +3683,11 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2087
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2108
 msgid "Reference Type"
-msgstr ""
+msgstr "參考來源類型"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2887
 msgid "- select resource page -"
-msgstr ""
+msgstr "- 選擇資源頁面 -"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2971
 #, fuzzy
@@ -3695,19 +3696,19 @@ msgstr "專家"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3036
 msgid "Resource Collection"
-msgstr ""
+msgstr "資源匯集"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3056
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2242
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2271
 msgid "Resource Pages"
-msgstr ""
+msgstr "資源頁面"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3065
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:438
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:340
 msgid "Add resource page"
-msgstr ""
+msgstr "新增資源頁面"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3125
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2286
@@ -3715,83 +3716,83 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2327
 #: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:162
 msgid "Content"
-msgstr ""
+msgstr "內容"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3165
 msgid "Questions using this resource page"
-msgstr ""
+msgstr "使用此資源頁面的問題"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3176
 msgid "The knowledge model entity you are trying to open does not exist."
-msgstr ""
+msgstr "您嘗試開啟的知識模型不存在。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3205
 msgid "Click to copy UUID"
-msgstr ""
+msgstr "點選以複製 UUID"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3298
 msgid "Are you sure you want to delete this chapter?"
-msgstr ""
+msgstr "您確定要刪除此章節嗎？"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3305
 msgid "Are you sure you want to delete this question?"
-msgstr ""
+msgstr "您確定要刪除此問題嗎？"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3312
 msgid "Are you sure you want to delete this metric?"
-msgstr ""
+msgstr "您確定要刪除此指標嗎？"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3319
 msgid "Are you sure you want to delete this phase?"
-msgstr ""
+msgstr "您確定要刪除此階段嗎？"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3326
 msgid "Are you sure you want to delete this question tag?"
-msgstr ""
+msgstr "您確定要刪除此問題標籤嗎？"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3333
 msgid "Are you sure you want to delete this integration?"
-msgstr ""
+msgstr "您確定要刪除此整合嗎？"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3340
 msgid "Are you sure you want to delete this resource collection?"
-msgstr ""
+msgstr "您確定要刪除此資源匯集嗎？"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3347
 msgid "Are you sure you want to delete this resource page?"
-msgstr ""
+msgstr "您確定要刪除此資源頁面嗎？"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3354
 msgid "Are you sure you want to delete this answer?"
-msgstr ""
+msgstr "您確定要刪除此回答嗎？"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3361
 msgid "Are you sure you want to delete this choice?"
-msgstr ""
+msgstr "您確定要刪除此選項嗎？"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3368
 msgid "Are you sure you want to delete this reference?"
-msgstr ""
+msgstr "您確定要刪除此參考來源嗎？"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3375
 msgid "Are you sure you want to delete this expert?"
-msgstr ""
+msgstr "您確定要刪除此專家嗎？"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3384
 msgid "Heads up!"
-msgstr ""
+msgstr "請注意！"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3465
 msgid "Select a new parent"
-msgstr ""
+msgstr "選取一個新的上層項目"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3511
 msgid "Paste your cURL command here..."
-msgstr ""
+msgstr "在此貼上您的 cURL 指令..."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3519
 msgid "Import from cURL"
-msgstr ""
+msgstr "自 cURL 匯入"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:390
 #: app-wizard/elm/Wizard/Pages/Projects/Common/QuestionnaireShareFormMemberPermType.elm:63

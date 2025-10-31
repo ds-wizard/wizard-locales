@@ -5,7 +5,7 @@
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-11-01 08:51+0000\nLast-Translator: Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-v4-23/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-11-01 08:51+0000\nLast-Translator: Chia Hsun Wang <allywang@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-v4-23/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -1771,7 +1771,7 @@ msgstr "建立知識模型"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/CreateKnowledgeModelWidget.elm:14
 msgid "Knowledge model is a tree-like structure containing the knowledge about what should be asked and how. It is used as a template for questionnaires in projects. You can create new ones from scratch or by modifying existing ones."
-msgstr ""
+msgstr "專案模板是一種特殊類型的專案，可作為建立新專案的起點。您可以選擇一個知識模型，設定文件模板與格式，或預先填入部分回答，以便讓研究人員更容易開始。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/CreateKnowledgeModelWidget.elm:17
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/CreateProjectTemplateWidget.elm:17
@@ -1799,7 +1799,7 @@ msgstr "建立專案模板"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/CreateProjectTemplateWidget.elm:14
 msgid "Project template is a special type of project that can be used as a starting point for new projects. You can select a knowledge model, set up a document template and format, or prefill some answers to make it easier to start for researchers."
-msgstr ""
+msgstr "專案模板是一種特殊類型的專案，可作為建立新專案的起點。您可以選擇知識模型，設定文件模板與格式，或預先填入部分回答，讓研究人員更容易開始。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/CreateProjectWidget.elm:13
 #: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:47
@@ -1812,16 +1812,16 @@ msgid ""
 "Project is a workspace where you create your DMP. It is based on a knowledge model, which contains knowledge about what should be asked and how based on the research field or organization's needs. You can use document templates to transform the answers into a document. This document can be anything, from PDF to machine-actionable JSON.\n"
 "\n"
 "You can create a new project from a project template that data stewards prepare for you to have an easier start or from scratch where you set up everything yourself."
-msgstr ""
+msgstr "專案（Project）是用來建立您的 資料管理方案（DMP） 的工作空間。它以知識模型（knowledge model）為基礎；知識模型會依據研究領域或組織的需求，定義「應該詢問哪些問題，以及如何提問」。您可以套用文件模板（document template），將回答轉換成文件；文件格式不限，從 PDF 到可由機器可操作的 JSON 皆可。\n\n您可以從資料管理員預先準備的專案模板（project template）建立新專案，讓起步更容易；或是從頭開始，由您自行完成所有設定。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ImportDocumentTemplateWidget.elm:16
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/View.elm:54
 msgid "Import Document Template"
-msgstr ""
+msgstr "匯入文件模版"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ImportDocumentTemplateWidget.elm:19
 msgid "Document templates transform answers from a questionnaire into a document. This document can be anything, from PDF to machine-actionable JSON. You can import existing document templates from [%s](%s) or [develop new ones](%s)."
-msgstr ""
+msgstr "文件模板會將問卷中的回答轉換為文件。此文件的格式不限，從 PDF 到可由機器可操作的 JSON 皆可。您可以自 [%s](%s)或 [develop new ones](%s)。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ImportKnowledgeModelWidget.elm:15
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/View.elm:93
@@ -1830,7 +1830,7 @@ msgstr "匯入知識模型"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ImportKnowledgeModelWidget.elm:18
 msgid "Knowledge models are published in [%s](%s). You can easily import them into your instance to make them available for researchers. You can also import other knowledge models exported from different instances."
-msgstr ""
+msgstr "知識模型會發布於 [%s](%s)。您可以輕鬆將它們匯入至您的實例，供研究人員使用。您也可以匯出不同實例匯入至其他知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/OutdatedPackagesWidget.elm:35
 msgid "Update Knowledge Models"
@@ -1838,7 +1838,7 @@ msgstr "更新知識模型"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/OutdatedPackagesWidget.elm:36
 msgid "There are updates available for some knowledge models."
-msgstr ""
+msgstr "部分知識模型有可用的更新。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/OutdatedPackagesWidget.elm:51
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/OutdatedTemplatesWidget.elm:51
@@ -1852,11 +1852,11 @@ msgstr "有可用更新"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/OutdatedTemplatesWidget.elm:35
 msgid "Update Document Templates"
-msgstr ""
+msgstr "更新文件模板"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/OutdatedTemplatesWidget.elm:36
 msgid "There are updates available for some document templates."
-msgstr ""
+msgstr "部分文件模板有可用的更新。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/RecentProjectsWidget.elm:43
 msgid "Recent Projects"
@@ -1864,13 +1864,13 @@ msgstr "最近的專案"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/RecentProjectsWidget.elm:73
 msgid "You have no projects yet, start by creating some."
-msgstr ""
+msgstr "您目前尚未建立任何專案，要開始請先建立。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/UsageWidget.elm:27
 #: app-wizard/elm/Wizard/Pages/Settings/Usage/View.elm:22
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:163
 msgid "Usage"
-msgstr ""
+msgstr "用法"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/WelcomeWidget.elm:18
 msgid "Welcome, %s!"
@@ -1882,53 +1882,53 @@ msgstr "歡迎！"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/WelcomeWidget.elm:27
 msgid "As an admin, you configure the instance and manage user accounts."
-msgstr ""
+msgstr "身為管理員，您負責設定實例並管理使用者帳號。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/WelcomeWidget.elm:28
 msgid "As a data steward, you prepare knowledge models, document templates, and project templates for researchers."
-msgstr ""
+msgstr "身為資料管理員，您會為研究人員準備知識模型、文件模板與專案模板。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/WelcomeWidget.elm:29
 msgid "As a researcher, you create and collaborate on data management plans."
-msgstr ""
+msgstr "身為研究人員，您可建立及協作撰寫資料管理方案（DMP）。"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/Update.elm:96
 #: app-wizard/elm/Wizard/Pages/Documents/Index/Update.elm:247
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/Update.elm:225
 msgid "Unable to get documents."
-msgstr ""
+msgstr "無法取得文件。"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/Update.elm:138
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/Update.elm:116
 msgid "Document could not be deleted."
-msgstr ""
+msgstr "無法刪除文件。"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/Update.elm:193
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/Update.elm:171
 msgid "Unable to get submission services for the document."
-msgstr ""
+msgstr "無法取得此文件的提交服務。"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/Update.elm:232
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/Update.elm:210
 msgid "Unable to submit the document."
-msgstr ""
+msgstr "無法提交文件。"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:77
 msgid "Project Documents"
-msgstr ""
+msgstr "專案文件"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:95
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:80
 msgid "Submissions"
-msgstr ""
+msgstr "提交"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:107
 msgid "There are no documents."
-msgstr ""
+msgstr "目前沒有任何文件。"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:115
 msgid "Search documents..."
-msgstr ""
+msgstr "搜尋文件…"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:118
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:54
@@ -1948,7 +1948,7 @@ msgstr "已建立"
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:134
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:132
 msgid "Click to download the document"
-msgstr ""
+msgstr "點擊以下載文件"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:202
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1428
@@ -1974,17 +1974,17 @@ msgstr "送出"
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:229
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:313
 msgid "View error"
-msgstr ""
+msgstr "檢視錯誤"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:261
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:264
 msgid "Queued"
-msgstr ""
+msgstr "佇列中"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:267
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:270
 msgid "In Progress"
-msgstr ""
+msgstr "進行中"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:275
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:293
@@ -1997,17 +1997,17 @@ msgstr "錯誤"
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:286
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:288
 msgid "Submitting"
-msgstr ""
+msgstr "提交中"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:290
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:292
 msgid "Submitted"
-msgstr ""
+msgstr "已提交"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:305
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:307
 msgid "View submission"
-msgstr ""
+msgstr "檢視提交"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:343
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1524
@@ -2027,55 +2027,55 @@ msgstr "您確定要永久刪除 %s 嗎？"
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:347
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:352
 msgid "Delete document"
-msgstr ""
+msgstr "刪除文件"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:414
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:419
 msgid "There are no submission services configured for this type of document."
-msgstr ""
+msgstr "針對此類型的文件，尚未設定任何提交服務。"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:430
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:435
 msgid "You can find it here: "
-msgstr ""
+msgstr "您可以在這裡找到： "
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:440
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:445
 msgid "The document was successfully submitted."
-msgstr ""
+msgstr "文件已成功提交。"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:447
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:452
 msgid "The document submission failed."
-msgstr ""
+msgstr "文件提交失敗。"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:470
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:475
 msgid "Submit %s"
-msgstr ""
+msgstr "提交%s"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:511
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:517
 msgid "Document error"
-msgstr ""
+msgstr "文件錯誤"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:534
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:540
 msgid "Submission error"
-msgstr ""
+msgstr "提交錯誤"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:78
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/Update.elm:33
 msgid "Unable to get the document template."
-msgstr ""
+msgstr "無法取得文件模板。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:142
 msgid "Document template could not be created."
-msgstr ""
+msgstr "文件模板無法建立。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:40
 msgid "Create Document Template"
-msgstr ""
+msgstr "建立文件模板"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:90
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:287
@@ -2096,7 +2096,7 @@ msgstr "基於"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:94
 msgid "You can create a new document template based on the existing one or start from scratch."
-msgstr ""
+msgstr "您可以在既有的文件模板基礎上建立新的，或從頭開始。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:407
 msgid "Unable to get template files"
@@ -2104,7 +2104,7 @@ msgstr "無法取得範本檔案"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:417
 msgid "Unable to get template assets"
-msgstr ""
+msgstr "無法取得模板資源。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:431
 msgid "Unable to get file content"
@@ -2112,7 +2112,7 @@ msgstr "無法取得檔案內容"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:450
 msgid "Unable to get asset"
-msgstr ""
+msgstr "無法取得資源"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:655
 msgid "Unable to save file"
@@ -2145,7 +2145,7 @@ msgstr "移動"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1139
 msgid "Move to opposite group"
-msgstr ""
+msgstr "移至另一組"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1437
 msgid "Open a file from the file tree"
@@ -2418,11 +2418,11 @@ msgstr "還有尚未儲存的變更。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Update.elm:148
 msgid "Unable to get document template"
-msgstr ""
+msgstr "無法取得文件模板。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:96
 msgid "Discard"
-msgstr ""
+msgstr "捨棄"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:100
 msgid "unsaved changes"
@@ -2430,12 +2430,12 @@ msgstr "尚未儲存的變更"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/Update.elm:62
 msgid "Document template editor could not be deleted."
-msgstr ""
+msgstr "文件模板編輯器無法刪除。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:43
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:64
 msgid "Click \"Import\" button to import a new document template."
-msgstr ""
+msgstr "點擊「匯入」按鈕以匯入新的文件模板。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:51
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:72
@@ -2449,15 +2449,15 @@ msgstr "搜尋..."
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:87
 #: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:104
 msgid "Latest version"
-msgstr ""
+msgstr "最新版本"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:88
 msgid "Open editor"
-msgstr ""
+msgstr "開啟編輯器"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:145
 msgid "Delete document template editor"
-msgstr ""
+msgstr "刪除文件模板編輯器"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Common/DocumentTemplateActionsDropdown.elm:49
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/RegistryImport/View.elm:90
@@ -2465,7 +2465,7 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/Locales/Common/LocaleActionsDropdown.elm:51
 #: app-wizard/elm/Wizard/Pages/Locales/Import/RegistryImport/View.elm:90
 msgid "View detail"
-msgstr ""
+msgstr "檢視詳細資訊"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Common/DocumentTemplateActionsDropdown.elm:61
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:74
@@ -2475,33 +2475,33 @@ msgstr "匯出"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Common/DocumentTemplateActionsDropdown.elm:73
 msgid "Create editor"
-msgstr ""
+msgstr "建立編輯器"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Common/DocumentTemplateActionsDropdown.elm:85
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:122
 msgid "Set deprecated"
-msgstr ""
+msgstr "設為已棄用"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Common/DocumentTemplateActionsDropdown.elm:97
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:134
 msgid "Restore"
-msgstr ""
+msgstr "還原"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/Update.elm:58
 msgid "Unable to update the document template."
-msgstr ""
+msgstr "無法更新文件模板"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/Update.elm:94
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/Update.elm:91
 msgid "Document template could not be deleted."
-msgstr ""
+msgstr "文件模板無法刪除。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:55
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:126
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:51
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:113
 msgid "deprecated"
-msgstr ""
+msgstr "已棄用"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:62
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:135
@@ -2532,7 +2532,7 @@ msgstr "在指南中了解更多"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:197
 msgid "This document template is not supported in the current version."
-msgstr ""
+msgstr "目前版本不支援此文件模版。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:226
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2597
@@ -2552,19 +2552,19 @@ msgstr "ID"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:228
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:161
 msgid "Metamodel"
-msgstr ""
+msgstr "後設模型"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:232
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:349
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:141
 msgid "Document Template"
-msgstr ""
+msgstr "文件模板"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:274
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:219
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:191
 msgid "Other versions"
-msgstr ""
+msgstr "其他版本"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:282
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:156
@@ -2573,13 +2573,13 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:199
 #: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:129
 msgid "Published by"
-msgstr ""
+msgstr "發布者"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:289
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:238
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:213
 msgid "Registry Link"
-msgstr ""
+msgstr "登錄連結"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:295
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:244
@@ -2593,15 +2593,15 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/RegistryImport/Update.elm:32
 msgid "Unable to import the document template."
-msgstr ""
+msgstr "無法匯入文件模板。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/RegistryImport/View.elm:69
 msgid "You can find document templates in %s."
-msgstr ""
+msgstr "您可在 %s 找到文件模板。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/RegistryImport/View.elm:84
 msgid "Document template %s has been imported!"
-msgstr ""
+msgstr "文件模板 %s 已匯入！"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/View.elm:71
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/View.elm:31
@@ -2613,38 +2613,38 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/View.elm:39
 #: app-wizard/elm/Wizard/Pages/Locales/Import/View.elm:82
 msgid "From file"
-msgstr ""
+msgstr "自檔案"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/View.elm:98
 msgid "This doesn't look like a document. Are you sure you picked the correct file?"
-msgstr ""
+msgstr "這看起來不像文件。您確定選擇的是正確的檔案嗎？"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/Update.elm:58
 msgid "Document template could not be updated."
-msgstr ""
+msgstr "文件模板無法更新。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:117
 msgid "unsupported metamodel"
-msgstr ""
+msgstr "不支援的後設模型"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:185
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:172
 #: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:178
 msgid "Are you sure you want to permanently delete %s and all its versions?"
-msgstr ""
+msgstr "您確定要永久刪除 %s 及其所有版本嗎？"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:191
 msgid "Delete document template"
-msgstr ""
+msgstr "刪除文件模板"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/DeleteModal.elm:75
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/Update.elm:87
 msgid "Knowledge model could not be deleted."
-msgstr ""
+msgstr "知識模型無法刪除。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/DeleteModal.elm:100
 msgid "Delete knowledge model editor"
-msgstr ""
+msgstr "刪除知識模型編輯器"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:107
 msgid "Migration could not be created."
@@ -2654,7 +2654,7 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:73
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:33
 msgid "Unable to get the Knowledge Model."
-msgstr ""
+msgstr "無法取得知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:152
 msgid "- select parent knowledge model -"

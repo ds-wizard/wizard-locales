@@ -5,7 +5,7 @@
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-10-31 06:50+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-v4-23/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-11-01 08:51+0000\nLast-Translator: Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-v4-23/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -2022,7 +2022,7 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:346
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:155
 msgid "Are you sure you want to permanently delete %s?"
-msgstr ""
+msgstr "您確定要永久刪除 %s 嗎？"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:347
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:352
@@ -2081,12 +2081,12 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:287
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/RegistryImport/View.elm:49
 msgid "Document Template ID"
-msgstr ""
+msgstr "文件範本 ID"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:91
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:288
 msgid "Document template ID can only contain alphanumeric characters, hyphens, underscores, and dots."
-msgstr ""
+msgstr "文件範本 ID 僅能包含英數字元、連字號 \"-\"、底線 \"_\"，和句號 \".\"。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:93
 #: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:97
@@ -2100,7 +2100,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:407
 msgid "Unable to get template files"
-msgstr ""
+msgstr "無法取得範本檔案"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:417
 msgid "Unable to get template assets"
@@ -2108,7 +2108,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:431
 msgid "Unable to get file content"
-msgstr ""
+msgstr "無法取得檔案內容"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:450
 msgid "Unable to get asset"
@@ -2116,7 +2116,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:655
 msgid "Unable to save file"
-msgstr ""
+msgstr "無法儲存檔案"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1089
 msgid "Folder"
@@ -2149,7 +2149,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1437
 msgid "Open a file from the file tree"
-msgstr ""
+msgstr "自檔案樹開啟一個檔案"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1438
 msgid "or"
@@ -2157,7 +2157,7 @@ msgstr "或"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1440
 msgid "Create new"
-msgstr ""
+msgstr "建立新的"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1462
 msgid "New file"
@@ -2177,7 +2177,7 @@ msgstr "新增資料夾"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1521
 msgid "Are you sure you want to permanently delete %s and all its contents?"
-msgstr ""
+msgstr "您確定要永久刪除 %s 與其包含的所有內容嗎？"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:278
 #, fuzzy
@@ -2190,7 +2190,7 @@ msgstr "移動失敗"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:197
 msgid "Select a new folder"
-msgstr ""
+msgstr "選擇一個新資料夾"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/RenameModal.elm:206
 msgid "Rename failed."
@@ -2198,17 +2198,17 @@ msgstr "重新命名失敗。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/RenameModal.elm:231
 msgid "Name cannot be empty."
-msgstr ""
+msgstr "名稱不能是空白的。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:206
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/Update.elm:125
 msgid "Unable to get knowledge model editors."
-msgstr ""
+msgstr "無法取得知識模型編輯器。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:278
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:105
 msgid "Unable to get the document preview."
-msgstr ""
+msgstr "無法取得文件預覽。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:324
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:595
@@ -2217,11 +2217,11 @@ msgstr "開啟專案"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:348
 msgid "Open KM editor"
-msgstr ""
+msgstr "開啟知識模型編輯器"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:384
 msgid "KM editor"
-msgstr ""
+msgstr "知識模型編輯器"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:392
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:316
@@ -2231,29 +2231,29 @@ msgstr "格式"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:406
 msgid "Preview not set"
-msgstr ""
+msgstr "預覽尚未就緒"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:407
 msgid "Select a project or knowledge model editor and format you want to preview."
-msgstr ""
+msgstr "選擇一個專案或知識模型編輯器，以及您希望預覽的格式。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:430
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:163
 msgid "Download preview"
-msgstr ""
+msgstr "下載預覽"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:432
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:165
 msgid "The document format cannot be displayed in the web browser. You can still download and view it."
-msgstr ""
+msgstr "無法於網頁瀏覽器顯示此文件格式。您仍然可以下載並瀏覽它。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:103
 msgid "Unable to publish document template"
-msgstr ""
+msgstr "無法發布文件範本"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:121
 msgid "Check the document template's metadata before publishing. You change them in %s."
-msgstr ""
+msgstr "請於發布前確認此文件範本的後設資料。您可以在 %s 修改。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:134
 msgid "Template ID"
@@ -2294,11 +2294,11 @@ msgstr "發布"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:211
 msgid "Unable to save document template"
-msgstr ""
+msgstr "無法儲存文件範本"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:258
 msgid "General"
-msgstr ""
+msgstr "一般"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:260
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:348
@@ -2312,7 +2312,7 @@ msgstr "格式"
 #: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:50
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:144
 msgid "Organization ID"
-msgstr ""
+msgstr "組織 ID"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:305
 #: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:94
@@ -2328,16 +2328,16 @@ msgstr "知識模型 ID"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:306
 #: app-wizard/elm/Wizard/Pages/Settings/KnowledgeModels/View.elm:52
 msgid "Min Version"
-msgstr ""
+msgstr "最低版本"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:307
 #: app-wizard/elm/Wizard/Pages/Settings/KnowledgeModels/View.elm:53
 msgid "Max Version"
-msgstr ""
+msgstr "最高版本"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:312
 msgid "Allowed Knowledge Models"
-msgstr ""
+msgstr "相容的知識模型"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:312
 #: app-wizard/elm/Wizard/Pages/Settings/KnowledgeModels/View.elm:57
@@ -2354,7 +2354,7 @@ msgstr "新增格式"
 #: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:140
 #: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:166
 msgid "Icon"
-msgstr ""
+msgstr "圖示"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:413
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:146
@@ -2373,7 +2373,7 @@ msgstr "步驟"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:416
 msgid "Add step"
-msgstr ""
+msgstr "新增步驟"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:465
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1070

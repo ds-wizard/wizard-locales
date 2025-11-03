@@ -6,7 +6,7 @@
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Marek Suchánek <marek.suchanek@gmail.com>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.1.0\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-10-07 14:33+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Slovenian <https://localize.ds-wizard.org/projects/dsw-v4-23/client/sl/>\nLanguage: sl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.1.0\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-11-03 06:10+0000\nLast-Translator: Jana Martínková <j.martinkova@outlook.com>\nLanguage-Team: Slovenian <https://localize.ds-wizard.org/projects/dsw-v4-23/client/sl/>\nLanguage: sl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -207,7 +207,7 @@ msgstr "Kopiraj"
 
 #: app-wizard/elm/Wizard/Components/ExternalLoginButton.elm:60
 msgid "internal"
-msgstr ""
+msgstr "interno"
 
 #: app-wizard/elm/Wizard/Components/FileImport.elm:143
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:180
@@ -996,7 +996,7 @@ msgstr "Premaknite se navzdol"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:3776
 msgid "Used in item select questions:"
-msgstr ""
+msgstr "Uporablja se v vprašanjih z izbiro elementov:"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:3892
 msgid "This is not a valid email address."
@@ -3324,7 +3324,6 @@ msgid "Variables"
 msgstr "Spremenljivke"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2027
-#, fuzzy
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the request configuration. For example, if you define a variable named *type*, you can use it as `{{ variables.type }}`, such as *ht&#8203;tps://example.com/{{ variables.type }}*."
 msgstr "Spremenljivke je mogoče uporabiti za parametriziranje integracije za vsako vprašanje. Uporabite to za določitev spremenljivk, katerih vrednost je mogoče izpolniti v vprašanjih s to integracijo. Spremenljivke je nato mogoče uporabiti v konfiguraciji zahteve. Na primer, če določite spremenljivko z imenom *type*, jo lahko uporabite kot `{{ variables.type }}`, na primer *https://example.com/{{ type }}*."
 
@@ -3486,7 +3485,7 @@ msgstr "Odziv ni veljaven JSON."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2405
 msgid "Run a successful test to configure the response."
-msgstr ""
+msgstr "Za konfiguracijo odziva zaženite uspešen test."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2430
 msgid "Click to copy code"
@@ -3801,7 +3800,7 @@ msgstr "Predloga"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:534
 msgid "You can use [Jinja](%s) and [Markdown](%s) to create and format the template."
-msgstr ""
+msgstr "Za ustvarjanje in oblikovanje predloge lahko uporabite [Jinja](%s) in [Markdown](%s)."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:671
 msgid "Key"
@@ -5132,7 +5131,7 @@ msgstr "Dodajanje uporabnikov"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:622
 msgid "Last owner cannot be removed."
-msgstr ""
+msgstr "Zadnjega lastnika ni mogoče odstraniti."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:686
 msgid "Other logged-in users can %s the project."
@@ -6491,19 +6490,19 @@ msgstr "Nimate dovoljenja za ogled te strani."
 
 #: shared/common/elm/Common/Api/ServerError.elm:131
 msgid "Activation link is no longer valid."
-msgstr ""
+msgstr "Povezava za aktivacijo ni več veljavna."
 
 #: shared/common/elm/Common/Api/ServerError.elm:134
 msgid "Audit log not found."
-msgstr ""
+msgstr "Dnevnik revizije ni bil najden."
 
 #: shared/common/elm/Common/Api/ServerError.elm:137
 msgid "Automation not found."
-msgstr ""
+msgstr "Avtomatizacija ni bila najdena."
 
 #: shared/common/elm/Common/Api/ServerError.elm:140
 msgid "Automation invocation not found."
-msgstr ""
+msgstr "Klic avtomatizacije ni bil najden."
 
 #: shared/common/elm/Common/Api/ServerError.elm:143
 msgid "Knowledge model editor not found."
@@ -6531,7 +6530,7 @@ msgstr "Datoteka predloge dokumenta ni bila najdena."
 
 #: shared/common/elm/Common/Api/ServerError.elm:161
 msgid "Value integration not found."
-msgstr ""
+msgstr "Integracija vrednosti ni bila najdena."
 
 #: shared/common/elm/Common/Api/ServerError.elm:164
 msgid "Knowledge model migration not found."
@@ -6543,11 +6542,11 @@ msgstr "Migracija modela znanja ni bila najdena."
 
 #: shared/common/elm/Common/Api/ServerError.elm:170
 msgid "OpenID client not found."
-msgstr ""
+msgstr "Odjemalec OpenID ni bil najden."
 
 #: shared/common/elm/Common/Api/ServerError.elm:173
 msgid "OpenID provider not found."
-msgstr ""
+msgstr "Ponudnik OpenID ni bil najden."
 
 #: shared/common/elm/Common/Api/ServerError.elm:176
 msgid "Knowledge model not found."
@@ -6587,7 +6586,7 @@ msgstr "Različica projekta ni bila najdena."
 
 #: shared/common/elm/Common/Api/ServerError.elm:203
 msgid "SAML service provider not found."
-msgstr ""
+msgstr "Ponudnik storitev SAML ni bil najden."
 
 #: shared/common/elm/Common/Api/ServerError.elm:206
 msgid "User not found."
@@ -6628,7 +6627,7 @@ msgstr "E-pošta je že v uporabi."
 
 #: shared/common/elm/Common/Api/ServerError.elm:233
 msgid "There is already an ongoing project migration."
-msgstr ""
+msgstr "Migracija projekta je že v teku."
 
 #: shared/common/elm/Common/Api/ServerError.elm:236
 msgid "New version has to be higher than the previous one."

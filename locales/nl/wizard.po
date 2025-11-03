@@ -4,7 +4,7 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-10-07 14:33+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/dsw-v4-23/client/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-11-03 06:10+0000\nLast-Translator: Jana Martínková <j.martinkova@outlook.com>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/dsw-v4-23/client/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -205,7 +205,7 @@ msgstr "Kopieer"
 
 #: app-wizard/elm/Wizard/Components/ExternalLoginButton.elm:60
 msgid "internal"
-msgstr ""
+msgstr "intern"
 
 #: app-wizard/elm/Wizard/Components/FileImport.elm:143
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:180
@@ -992,7 +992,7 @@ msgstr "Omlaag"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:3776
 msgid "Used in item select questions:"
-msgstr ""
+msgstr "Gebruikt in itemselectievragen:"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:3892
 msgid "This is not a valid email address."
@@ -3318,7 +3318,6 @@ msgid "Variables"
 msgstr "Variabelen"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2027
-#, fuzzy
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the request configuration. For example, if you define a variable named *type*, you can use it as `{{ variables.type }}`, such as *ht&#8203;tps://example.com/{{ variables.type }}*."
 msgstr "Variabelen kunnen worden gebruikt om de integratie voor elke vraag te parametriseren. Gebruik dit om de variabelen te definiëren waarvan de waarde kan worden ingevuld in de vragen met behulp van deze integratie. De variabelen kunnen vervolgens worden gebruikt in de configuratie van het verzoek. Bijvoorbeeld, als je een variabele met de naam *type* definieert, kun je die gebruiken als `{{ variables.type }}`, zoals *https://example.com/{{ type }}*."
 
@@ -3480,7 +3479,7 @@ msgstr "Response is geen geldige JSON."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2405
 msgid "Run a successful test to configure the response."
-msgstr ""
+msgstr "Voer een succesvolle test uit om de reactie te configureren."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2430
 msgid "Click to copy code"
@@ -3795,7 +3794,7 @@ msgstr "Sjabloon"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:534
 msgid "You can use [Jinja](%s) and [Markdown](%s) to create and format the template."
-msgstr ""
+msgstr "Je kunt [Jinja](%s) en [Markdown](%s) gebruiken om de sjabloon te maken en op te maken."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:671
 msgid "Key"
@@ -5118,7 +5117,7 @@ msgstr "Voeg gebruikers toe"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:622
 msgid "Last owner cannot be removed."
-msgstr ""
+msgstr "De laatste eigenaar kan niet worden verwijderd."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:686
 msgid "Other logged-in users can %s the project."
@@ -6473,19 +6472,19 @@ msgstr "Je hebt geen toestemming deze pagina te bekijken."
 
 #: shared/common/elm/Common/Api/ServerError.elm:131
 msgid "Activation link is no longer valid."
-msgstr ""
+msgstr "De activeringslink is niet langer geldig."
 
 #: shared/common/elm/Common/Api/ServerError.elm:134
 msgid "Audit log not found."
-msgstr ""
+msgstr "Auditlogboek niet gevonden."
 
 #: shared/common/elm/Common/Api/ServerError.elm:137
 msgid "Automation not found."
-msgstr ""
+msgstr "Automatisering niet gevonden."
 
 #: shared/common/elm/Common/Api/ServerError.elm:140
 msgid "Automation invocation not found."
-msgstr ""
+msgstr "Automatiseringsaanroep niet gevonden."
 
 #: shared/common/elm/Common/Api/ServerError.elm:143
 msgid "Knowledge model editor not found."
@@ -6513,7 +6512,7 @@ msgstr "Documentsjabloonbestand niet gevonden."
 
 #: shared/common/elm/Common/Api/ServerError.elm:161
 msgid "Value integration not found."
-msgstr ""
+msgstr "Waarde-integratie niet gevonden."
 
 #: shared/common/elm/Common/Api/ServerError.elm:164
 msgid "Knowledge model migration not found."
@@ -6525,11 +6524,11 @@ msgstr "Locale niet gevonden."
 
 #: shared/common/elm/Common/Api/ServerError.elm:170
 msgid "OpenID client not found."
-msgstr ""
+msgstr "OpenID-client niet gevonden."
 
 #: shared/common/elm/Common/Api/ServerError.elm:173
 msgid "OpenID provider not found."
-msgstr ""
+msgstr "OpenID-provider niet gevonden."
 
 #: shared/common/elm/Common/Api/ServerError.elm:176
 msgid "Knowledge model not found."
@@ -6569,7 +6568,7 @@ msgstr "Projectversie niet gevonden."
 
 #: shared/common/elm/Common/Api/ServerError.elm:203
 msgid "SAML service provider not found."
-msgstr ""
+msgstr "SAML-serviceprovider niet gevonden."
 
 #: shared/common/elm/Common/Api/ServerError.elm:206
 msgid "User not found."
@@ -6610,7 +6609,7 @@ msgstr "Email-adres is al in gebruik."
 
 #: shared/common/elm/Common/Api/ServerError.elm:233
 msgid "There is already an ongoing project migration."
-msgstr ""
+msgstr "Er is al een lopende projectmigratie."
 
 #: shared/common/elm/Common/Api/ServerError.elm:236
 msgid "New version has to be higher than the previous one."

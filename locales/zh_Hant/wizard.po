@@ -5,7 +5,7 @@
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-11-01 08:51+0000\nLast-Translator: Chia Hsun Wang <allywang@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-v4-23/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-11-03 06:10+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-v4-23/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -2508,22 +2508,22 @@ msgstr "已棄用"
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:58
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:122
 msgid "non-editable"
-msgstr ""
+msgstr "不可編輯的"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:92
 msgid "This is a non-editable document template, i.e., it cannot be edited, or exported."
-msgstr ""
+msgstr "這是一個不可編輯的文件模板，它無法被編輯或匯出。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:102
 msgid "This is not the latest available version of this document template."
-msgstr ""
+msgstr "這不是此文件模板的最新可用版本。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:139
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:176
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:132
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:120
 msgid "There is a newer version (%s) available."
-msgstr ""
+msgstr "有更新的版本（%s）可用。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:189
 #: shared/common/elm/Common/Components/GuideLink.elm:29
@@ -2585,11 +2585,11 @@ msgstr "登錄連結"
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:244
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:219
 msgid "View in registry"
-msgstr ""
+msgstr "在登錄冊中檢視"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:341
 msgid "Usable with"
-msgstr ""
+msgstr "可搭配使用"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/RegistryImport/Update.elm:32
 msgid "Unable to import the document template."
@@ -2606,8 +2606,9 @@ msgstr "文件模板 %s 已匯入！"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/View.elm:71
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/View.elm:31
 #: app-wizard/elm/Wizard/Pages/Locales/Import/View.elm:71
+#, fuzzy
 msgid "From registry"
-msgstr ""
+msgstr "來自登錄冊"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/View.elm:82
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/View.elm:39
@@ -2647,8 +2648,9 @@ msgid "Delete knowledge model editor"
 msgstr "刪除知識模型編輯器"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:107
+#, fuzzy
 msgid "Migration could not be created."
-msgstr ""
+msgstr "無法建立移轉（migration）。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:117
 #: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:73
@@ -2658,11 +2660,11 @@ msgstr "無法取得知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:152
 msgid "- select parent knowledge model -"
-msgstr ""
+msgstr "- 選擇上層知識模型 -"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:158
 msgid "Select the new parent knowledge model for %s."
-msgstr ""
+msgstr "為 %s 選擇新的上層知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:159
 msgid "New parent knowledge model"

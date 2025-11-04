@@ -7,7 +7,17 @@
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 # xnovotna <xnovotna@mendelu.cz>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-10-16 18:13+0000\nLast-Translator: Jana Martínková <j.martinkova@outlook.com>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/dsw-v4-23/client/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 5.11.4\n"
+msgstr ""
+"Project-Id-Version: wizard-client:3.17.1\n"
+"POT-Creation-Date: 2025-11-04T08:31:11.810Z \n"
+"PO-Revision-Date: 2025-10-16 18:13+0000\n"
+"Last-Translator: Jana Martínková <j.martinkova@outlook.com>\n"
+"Language-Team: Czech <https://localize.ds-wizard.org/projects/dsw-v4-23/client/cs/>\n"
+"Language: cs\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -166,14 +176,14 @@ msgstr "komentovat"
 msgid "edit"
 msgstr "upravovat"
 
-#: app-wizard/elm/Wizard/Api/Models/QuestionnaireQuestionnaire.elm:499
+#: app-wizard/elm/Wizard/Api/Models/QuestionnaireQuestionnaire.elm:515
 msgid "Item"
 msgstr "Položka"
 
-#: app-wizard/elm/Wizard/Api/Models/QuestionnaireQuestionnaire.elm:513
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3783
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4256
-#: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:252
+#: app-wizard/elm/Wizard/Api/Models/QuestionnaireQuestionnaire.elm:529
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3897
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4370
+#: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:225
 msgid "Item %s"
 msgstr "Položka %s"
 
@@ -195,8 +205,8 @@ msgstr "Zavřít a přijmout"
 
 #: app-wizard/elm/Wizard/Components/CopyableCodeBlock.elm:48
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:826
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4604
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2427
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4709
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2464
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:468
 msgid "Copied!"
 msgstr "Zkopírováno!"
@@ -238,7 +248,7 @@ msgstr "Některé soubory se nepodařilo nahrát."
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:373
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:450
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:378
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:103
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:99
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:214
 #: shared/common/elm/Common/Utils/Driver.elm:116
 msgid "Done"
@@ -248,18 +258,19 @@ msgstr "Hotovo"
 #: app-wizard/elm/Wizard/Components/FormActions.elm:23
 #: app-wizard/elm/Wizard/Components/FormActions.elm:31
 #: app-wizard/elm/Wizard/Components/FormActions.elm:39
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2939
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3147
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3174
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3039
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3251
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3281
 #: app-wizard/elm/Wizard/Components/Questionnaire/FileUploadModal.elm:226
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:389
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1499
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:266
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3400
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3481
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3511
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3592
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:394
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:127
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:123
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:119
+#: shared/common/elm/Common/Components/Form.elm:87
 #: shared/common/elm/Common/Components/Modal.elm:216
 msgid "Cancel"
 msgstr "Zrušit"
@@ -271,8 +282,8 @@ msgstr "Zrušit"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:168
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/RegistryImport/View.elm:53
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:44
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2110
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3521
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2147
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3632
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:123
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:53
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/View.elm:53
@@ -286,16 +297,18 @@ msgid "Import"
 msgstr "Import"
 
 #: app-wizard/elm/Wizard/Components/FormActions.elm:63
+#: shared/common/elm/Common/Components/Form.elm:260
 msgid "You have unsaved changes."
 msgstr "Máte neuložené změny."
 
 #: app-wizard/elm/Wizard/Components/FormActions.elm:75
 #: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:173
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:80
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:90
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:146
 #: app-wizard/elm/Wizard/Pages/Public/ForgottenPasswordConfirmation/View.elm:45
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:42
 #: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:42
+#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:27
 #: app-wizard/elm/Wizard/Pages/Settings/KnowledgeModels/View.elm:32
 #: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:27
 #: app-wizard/elm/Wizard/Pages/Settings/PrivacyAndSupport/View.elm:29
@@ -306,6 +319,7 @@ msgstr "Máte neuložené změny."
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Password.elm:115
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:223
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/SubmissionSettings.elm:226
+#: shared/common/elm/Common/Components/Form.elm:240
 msgid "Save"
 msgstr "Uložit"
 
@@ -326,7 +340,7 @@ msgid "Last"
 msgstr "Poslední"
 
 #: app-wizard/elm/Wizard/Components/Listing/View.elm:432
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2703
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2803
 #: shared/common/elm/Common/Utils/Driver.elm:114
 msgid "Next"
 msgstr "Další"
@@ -396,7 +410,7 @@ msgid "Editors"
 msgstr "Editory"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:111
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2049
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2086
 msgid "Secrets"
 msgstr "Citlivé údaje"
 
@@ -418,7 +432,7 @@ msgid "Projects"
 msgstr "Projekty"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:163
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:137
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:147
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:353
 msgid "Files"
 msgstr "Soubory"
@@ -430,7 +444,7 @@ msgid "Documents"
 msgstr "Dokumenty"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:175
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2053
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2090
 msgid "Actions"
 msgstr "Akce"
 
@@ -441,11 +455,11 @@ msgstr "Importéry"
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:212
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:227
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:125
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:155
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:165
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:116
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:186
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:200
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:204
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:314
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:315
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:362
 #: app-wizard/elm/Wizard/Pages/Registry/RegistrySignupConfirmation/View.elm:31
 msgid "Settings"
@@ -458,7 +472,7 @@ msgstr "Administrace"
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:237
 #: app-wizard/elm/Wizard/Components/UsageTable.elm:18
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:142
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:585
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:587
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:502
 #: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:31
 msgid "Users"
@@ -532,7 +546,7 @@ msgstr "Nahlásit problém"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:811
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:861
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2228
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2290
 #: shared/common/elm/Common/Components/Modal.elm:287
 msgid "OK"
 msgstr "OK"
@@ -554,7 +568,7 @@ msgstr "Dokumentace API"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:275
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:227
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:126
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:168
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:167
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:160
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:45
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:163
@@ -646,202 +660,207 @@ msgstr "Anonymní stromek"
 msgid "Anonymous Cowboy"
 msgstr "Anonymní kovboj"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:980
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:996
 msgid "Unable to delete file."
 msgstr "Nelze odstranit soubor."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1086
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1095
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1102
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1111
 msgid "Unable to get version history."
 msgstr "Nelze získat historii verzí."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1445
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1458
 #: app-wizard/elm/Wizard/Pages/Comments/Update.elm:35
 msgid "Unable to get comments."
 msgstr "Nelze získat komentáře."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1456
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1469
 #: app-wizard/elm/Wizard/Pages/ProjectActions/Index/Update.elm:70
 msgid "Unable to get project actions."
 msgstr "Nelze získat projektové akce."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1468
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1481
 #: app-wizard/elm/Wizard/Pages/ProjectImporters/Index/Update.elm:70
 msgid "Unable to get project importers."
 msgstr "Nelze získat projektové importéry."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1729
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1748
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1760
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1779
 msgid "Unable to get type hints."
 msgstr "Nelze získat nápovědu."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1979
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2016
 msgid "View"
 msgstr "Zobrazit"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1986
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2023
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:336
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:214
 msgid "Show all"
 msgstr "Ukázat vše"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1989
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2026
 msgid "Hide all"
 msgstr "Skrýt vše"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1993
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2030
 msgid "Answered by"
 msgstr "Zodpovězeno"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1998
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:795
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2035
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:802
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:177
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:438
 msgid "Phases"
 msgstr "Fáze"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2003
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2040
 msgid "Question tags"
 msgstr "Štítky otázek"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2008
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2045
 msgid "Non-desirable questions"
 msgstr "Nevyžadované otázky"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2013
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2050
 msgid "Metric values"
 msgstr "Hodnoty metrik"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2026
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2063
 msgid "Import replies"
 msgstr "Import odpovědí"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2130
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2165
+msgid "Search"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2191
 msgid "TODOs"
 msgstr "TODO"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2151
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2814
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2815
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4532
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2212
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2914
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2915
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4637
 msgid "Comments"
 msgstr "Komentáře"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2162
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:552
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2223
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:553
 msgid "Warnings"
 msgstr "Upozornění"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2176
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2237
 msgid "Version history"
 msgstr "Historie verzí"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2210
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2272
 msgid "Action succeeded!"
 msgstr "Akce se podařila!"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2215
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2277
 msgid "Action failed!"
 msgstr "Akce se nezdařila!"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2289
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2381
 msgid "Current phase"
 msgstr "Aktuální fáze"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2348
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2434
 msgid "Select phase"
 msgstr "Zvolit fázi"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2476
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2576
 msgid "All TODOs have been completed."
 msgstr "Všechna TODO byla dokončena."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2594
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2694
 msgid "Click the %s icon to add new comments to a question."
 msgstr "Klikněte na ikonu %s pro přidání nových komentářů k otázce."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2618
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2718
 msgid "View resolved comments"
 msgstr "Zobrazit vyřešené komentáře"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2669
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2769
 msgid "Resolved and unresolved comments"
 msgstr "Vyřešené a nevyřešené komentáře"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2672
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2772
 msgid "Unresolved comments"
 msgstr "Nevyřešené komentáře"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2696
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2796
 #: shared/common/elm/Common/Utils/Driver.elm:115
 msgid "Previous"
 msgstr "Předchozí"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2725
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2825
 msgid "Editor notes are only visible to project Editors and Owners."
 msgstr "Poznámky editorů jsou viditelné jen editorům a vlastníkům."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2750
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2850
 msgid "Comment"
 msgstr "Komentovat"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2751
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2851
 msgid "Create a new comment..."
 msgstr "Vytvořit nový komentář..."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2827
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2828
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2927
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2928
 msgid "Editor notes"
 msgstr "Poznámky editorů"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2846
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2946
 msgid "Delete this comment thread?"
 msgstr "Odstranit toto vlákno komentářů?"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2859
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2959
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:126
 msgid "Reply"
 msgstr "Odpověď"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2860
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2960
 msgid "Reply..."
 msgstr "Odpověď..."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2877
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2977
 msgid "Assigned to you"
 msgstr "Přiřazeno vám"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2882
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2982
 msgid "Assigned to %s"
 msgstr "Přiřazeno %s"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2934
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3017
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3034
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3117
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:99
 #: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:148
 msgid "Edit"
 msgstr "Upravit"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2950
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3050
 msgid "Delete this comment?"
 msgstr "Odstranit komentář?"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2974
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3074
 msgid "Resolve comment thread"
 msgstr "Vyřešit vlákno komentářů"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3001
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3101
 msgid "Remove assignment"
 msgstr "Odebrat přiřazení"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3009
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3109
 msgid "Reopen"
 msgstr "Znovuotevřít"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3027
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3173
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3723
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4372
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4682
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3127
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3280
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3837
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4477
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4787
 #: app-wizard/elm/Wizard/Components/Questionnaire/DeleteVersionModal.elm:131
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:238
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:351
@@ -854,10 +873,10 @@ msgstr "Znovuotevřít"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:370
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:195
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/DeleteModal.elm:104
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3238
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3394
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1312
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:251
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3349
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3505
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1309
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:250
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:226
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:146
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:276
@@ -883,261 +902,265 @@ msgstr "Znovuotevřít"
 msgid "Delete"
 msgstr "Odstranit"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3065
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3165
 msgid "edited"
 msgstr "upraveno"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3086
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3186
 #: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:557
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:96
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:96
 msgid "Anonymous user"
 msgstr "Anonymní uživatel"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3225
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3332
 msgid "This chapter contains no questions."
 msgstr "Tato kapitola neobsahuje žádné otázky."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3228
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3335
 msgid "There are no questions matching the selected question tags."
 msgstr "Žádné otázky neodpovídají vybraným štítkům otázek."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3241
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3703
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3348
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3817
 msgid "There are no questions in this phase."
 msgstr "V této fázi zde nejsou žádné otázky."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3295
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3405
 msgid "Previous chapter"
 msgstr "Předchozí kapitola"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3300
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3410
 msgid "Next chapter"
 msgstr "Následující kapitola"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3413
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3523
 msgid "anonymous user"
 msgstr "anonymní uživatel"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3425
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3535
 msgid "Answered %s by %s."
 msgstr "Zodpovězeno %s (%s)."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3450
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3564
 msgid "This question has been answered"
 msgstr "Tato otázka byla zodpovězena"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3453
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3567
 msgid "This question should be answered now"
 msgstr "Tato otázka by nyní měla být zodpovězena"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3456
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3570
 msgid "This question can be answered later"
 msgstr "Na tuto otázku lze odpovědět později"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3528
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3642
 msgid "Clear answer"
 msgstr "Odstranit odpověď"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3561
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3675
 msgid "There are no follow up questions in this phase."
 msgstr "V této fázi nejsou žádné navazující otázky."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3577
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3691
 msgid "Expand"
 msgstr "Rozbalit"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3582
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3696
 msgid "%s %s follow up question"
 msgid_plural "%s %s follow up questions"
 msgstr[0] "%s %s doplňující otázka"
 msgstr[1] "%s %s doplňující otázky"
 msgstr[2] "%s %s doplňující otázky"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3592
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3814
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3706
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3928
 msgid "Collapse"
 msgstr "Sbalit"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3626
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3740
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:67
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:102
 msgid "Expand all"
 msgstr "Rozbalit vše"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3633
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3747
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:71
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:109
 msgid "Collapse all"
 msgstr "Sbalit vše"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3646
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3760
 msgid "There are no answers yet."
 msgstr "Zatím nezodpovězeno."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3671
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3785
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1082
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1325
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:506
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1322
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:514
 msgid "Add"
 msgstr "Přidat"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3695
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3809
 msgid "This item contains no questions."
 msgstr "Tato položka neobsahuje žádné otázky."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3736
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3850
 msgid "Move up"
 msgstr "Posun nahoru"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3749
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3863
 msgid "Move down"
 msgstr "Posun dolů"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3776
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3890
 msgid "Used in item select questions:"
 msgstr "Používá se v otázkách s výběrem položek:"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3892
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4006
 msgid "This is not a valid email address."
 msgstr "Toto není platná emailová adresa."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3897
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4011
 msgid "This is not a valid URL."
 msgstr "Toto není platná URL adresa."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3905
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4019
 msgid "This is not a valid color."
 msgstr "Toto není platná barva."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4030
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4144
 msgid "Select"
 msgstr "Vybrat"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4104
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4136
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4218
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4250
 msgid "There are no results for your search."
 msgstr "Žádné výsledky pro toto vyhledávání."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4113
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4145
-#: app-wizard/elm/Wizard/Components/TypeHintInput.elm:285
-#: shared/common/elm/Common/Components/Flash.elm:47
-#: shared/common/elm/Common/Components/Page.elm:52
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4227
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4259
+#: shared/common/elm/Common/Components/Flash.elm:49
+#: shared/common/elm/Common/Components/Page.elm:43
+#: shared/common/elm/Common/Components/TypeHintInput.elm:368
 msgid "Loading..."
 msgstr "Načítání..."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4279
-msgid "Create them now."
-msgstr "Vytvořit nyní."
-
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4284
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4384
 msgid "There are no items to select from yet."
 msgstr "Zatím nejsou k dispozici žádné položky k výběru."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4298
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4389
+msgid "Create them now."
+msgstr "Vytvořit nyní."
+
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4403
 msgid "This question does not have any configured list options to select from."
 msgstr "Tato otázka nemá dostupné žádné možnosti k výběru."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4316
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4421
 msgid "- select -"
 msgstr "- vybrat -"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4323
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4428
 msgid "Go to item"
 msgstr "Přejít na položku"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4336
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4441
 msgid "The selected item was deleted."
 msgstr "Vybraná položka byla odstraněna."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4380
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4485
 msgid "The file was deleted."
 msgstr "Soubor byl odstraněn."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4403
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4508
 msgid "Upload file"
 msgstr "Nahrát soubor"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4469
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4574
 msgid "This option leads to some follow up questions."
 msgstr "Tato možnost vede k dalším návazným otázkám."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4523
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4628
 msgid "1 comment"
 msgid_plural "%s comments"
 msgstr[0] "1 komentář"
 msgstr[1] "%s komentáře"
 msgstr[2] "%s komentářů"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4557
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4662
 msgid "TODO"
 msgstr "TODO"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4558
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4663
 msgid "Remove TODO"
 msgstr "Odstranit TODO"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4568
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4673
 msgid "Add TODO"
 msgstr "Přidat TODO"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4590
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4695
 #: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:147
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:106
 msgid "Feedback"
 msgstr "Zpětná vazba"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4607
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4712
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:490
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:261
 msgid "Copy link"
 msgstr "Kopírovat odkaz"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4631
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4736
 msgid "There are some item select questions using this item:"
 msgstr "Existuje několik otázek pro výběr položky, které tuto položku používají:"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4642
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4747
 msgid "Are you sure you want to remove this item?"
 msgstr "Opravdu chcete odstranit tuto položku?"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4647
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4752
 msgid "Remove item"
 msgstr "Odebrat položku"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4650
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4755
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:402
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:553
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:638
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:554
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:640
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:181
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:104
 msgid "Remove"
 msgstr "Odstranit"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4675
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4780
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:161
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:290
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/AppKeys.elm:175
 msgid "Are you sure you want to delete %s?"
 msgstr "Opravdu chcete odstranit %s?"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4679
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4784
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:158
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:161
 msgid "Delete file"
 msgstr "Smazat soubor"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:199
+#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:243
 msgid "Desirable"
 msgstr "Potřebné ve fázi"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:281
+#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:325
 msgid "External links"
 msgstr "Externí reference"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:300
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1198
+#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:344
+msgid "Related questions"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:369
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1223
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1307
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1415
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1512
@@ -1192,12 +1215,12 @@ msgid "If you found something wrong with the question, you can send us your reco
 msgstr "Pokud není něco v pořádku s otázkou, můžete nám poslat doporučení, jak ji vylepšit."
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:180
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:916
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1144
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1597
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1669
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3048
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3117
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:935
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1166
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1634
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1706
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3156
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3228
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:486
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:507
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:532
@@ -1217,8 +1240,8 @@ msgstr "Pokud není něco v pořádku s otázkou, můžete nám poslat doporuče
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2285
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2304
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2326
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:142
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:169
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:137
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:164
 msgid "Title"
 msgstr "Název"
 
@@ -1226,11 +1249,12 @@ msgstr "Název"
 #: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:157
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:133
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:286
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1613
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1677
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1737
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1650
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1714
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1774
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3041
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:124
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:190
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:179
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:488
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:509
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:534
@@ -1247,7 +1271,7 @@ msgstr "Název"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2110
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:82
 #: app-wizard/elm/Wizard/Pages/Locales/Create/View.elm:42
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:410
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:413
 #: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:49
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:109
 msgid "Description"
@@ -1344,11 +1368,49 @@ msgstr "Neznámá fáze"
 msgid "Set phase to %s"
 msgstr "Nastavení fáze na %s"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:84
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:761
+#: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:52
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:762
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:411
 msgid "Chapters"
 msgstr "Kapitoly"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:174
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:923
+msgid "Chapter"
+msgstr "Kapitola"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:205
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1109
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3015
+msgid "Question"
+msgstr "Otázka"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:208
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2714
+msgid "Answer"
+msgstr "Odpověď"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:211
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2814
+msgid "Choice"
+msgstr "Volba"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:214
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2876
+msgid "Reference"
+msgstr "Reference"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:282
+msgid "No results"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:292
+msgid "Search in questionnaire..."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:296
+msgid "Results for: %s"
+msgstr ""
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/UserSuggestionDropdown.elm:106
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:223
@@ -1374,7 +1436,7 @@ msgstr "Hledat uživatele..."
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:156
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:117
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:89
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:90
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:132
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:285
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:393
@@ -1383,12 +1445,12 @@ msgstr "Hledat uživatele..."
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:501
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:53
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:74
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:93
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1729
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2609
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2983
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:94
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1766
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2646
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3091
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:123
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:189
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:178
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:71
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:613
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:635
@@ -1414,9 +1476,9 @@ msgstr "Hledat uživatele..."
 #: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:62
 #: app-wizard/elm/Wizard/Pages/ProjectActions/Index/View.elm:45
 #: app-wizard/elm/Wizard/Pages/ProjectImporters/Index/View.elm:45
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:56
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:308
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:409
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:62
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:312
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:412
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:107
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:134
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:205
@@ -1432,10 +1494,10 @@ msgid "Rename version"
 msgstr "Přejmenovat verzi"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:166
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:79
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:83
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:80
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:84
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:61
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:99
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:100
 msgid "New version"
 msgstr "Nová verze"
 
@@ -1473,8 +1535,8 @@ msgid "Answered (current phase): %s/%s"
 msgstr "Zodpovězeno (aktuální fáze): %s/%s"
 
 #: app-wizard/elm/Wizard/Components/SummaryReport.elm:162
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:778
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1203
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:782
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1200
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:423
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1549
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1600
@@ -1485,7 +1547,7 @@ msgid "Metrics"
 msgstr "Metriky"
 
 #: app-wizard/elm/Wizard/Components/SummaryReport.elm:163
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1198
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1195
 msgid "Measure"
 msgstr "Hodnota"
 
@@ -1502,8 +1564,8 @@ msgid "Untitled question tag"
 msgstr "Nepojmenovaný štítek otázky"
 
 #: app-wizard/elm/Wizard/Components/Tag.elm:107
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:812
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1172
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:822
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1194
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:186
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:453
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1107
@@ -1537,12 +1599,8 @@ msgstr "Tento znalostní model nemá žádné štítky otázek."
 msgid "All questions are used."
 msgstr "Používají se všechny otázky."
 
-#: app-wizard/elm/Wizard/Components/TypeHintInput.elm:277
-msgid "No results matching your search were found."
-msgstr "Žádné výsledky nevyhovují vyhledávání."
-
-#: app-wizard/elm/Wizard/Components/TypeHintInput/TypeHintItem.elm:100
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:537
+#: app-wizard/elm/Wizard/Components/TypeHintInput/TypeHintInputItem.elm:94
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:538
 msgid "private"
 msgstr "soukromé"
 
@@ -1588,9 +1646,9 @@ msgstr "Přejít na aplikaci"
 #: app-wizard/elm/Wizard/Layouts/Layout.elm:108
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:44
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:47
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:79
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:75
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:103
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:107
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:111
 msgid "Sign Up"
 msgstr "Registrace"
 
@@ -1628,8 +1686,8 @@ msgid "Search comments..."
 msgstr "Vyhledávání komentářů..."
 
 #: app-wizard/elm/Wizard/Pages/Comments/View.elm:56
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:374
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:84
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:376
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:85
 msgid "Project"
 msgstr "Projekt"
 
@@ -1647,8 +1705,8 @@ msgstr "Nelze získat informace o využití."
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Dashboards/AdminDashboard.elm:120
 #: app-wizard/elm/Wizard/Pages/Dashboard/Dashboards/DataStewardDashboard.elm:96
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:157
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:152
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:162
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:157
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/Update.elm:110
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:253
 msgid "Unable to get Knowledge Models."
@@ -1658,8 +1716,8 @@ msgstr "Nelze získat znalostní modely."
 #: app-wizard/elm/Wizard/Pages/Dashboard/Dashboards/DataStewardDashboard.elm:107
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/Update.elm:85
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/Update.elm:114
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:227
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:234
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:230
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:235
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/Update.elm:40
 msgid "Unable to get document templates."
 msgstr "Nelze získat šablony dokumentů."
@@ -1762,17 +1820,17 @@ msgstr "Znalostní model je stromová struktura obsahující znalosti o tom na c
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/CreateKnowledgeModelWidget.elm:17
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/CreateProjectTemplateWidget.elm:17
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/CreateProjectWidget.elm:17
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:46
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:43
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:122
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:168
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:46
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:43
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:51
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:125
 #: app-wizard/elm/Wizard/Pages/Locales/Create/View.elm:55
 #: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:156
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:60
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:105
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:291
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:51
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:106
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:292
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:84
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:224
 #: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:43
@@ -1788,7 +1846,7 @@ msgid "Project template is a special type of project that can be used as a start
 msgstr "Šablona projektu je speciální typ projektu, který může být použit jako výchozí bod pro nové projekty. Lze vybrat znalostní model, nastavit šablonu dokumentu a formát, či předvyplnit některé otázky pro usnadnění práce výzkumníkům."
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/CreateProjectWidget.elm:13
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:47
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:46
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:91
 msgid "Create Project"
 msgstr "Vytvořit projekt"
@@ -1941,7 +1999,7 @@ msgstr "Klikněte pro stažení dokumentu"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:202
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1428
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:436
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:438
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:116
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:169
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:189
@@ -1979,7 +2037,7 @@ msgstr "Probíhá"
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:293
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:277
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:295
-#: shared/common/elm/Common/Components/Page.elm:60
+#: shared/common/elm/Common/Components/Page.elm:51
 msgid "Error"
 msgstr "Chyba"
 
@@ -2053,36 +2111,36 @@ msgstr "Chyba dokumentu"
 msgid "Submission error"
 msgstr "Chyba odeslání"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:78
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:83
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/Update.elm:33
 msgid "Unable to get the document template."
 msgstr "Nelze získat šablonu dokumentů."
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:142
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:147
 msgid "Document template could not be created."
 msgstr "Šablona dokumentů nemohla být vytvořena."
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:40
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:38
 msgid "Create Document Template"
 msgstr "Vytvořit šablonu dokumentů"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:90
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:91
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:287
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/RegistryImport/View.elm:49
 msgid "Document Template ID"
 msgstr "ID šablony dokumentu"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:91
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:92
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:288
 msgid "Document template ID can only contain alphanumeric characters, hyphens, underscores, and dots."
 msgstr "ID šablony dokumentu může obsahovat pouze alfanumerické znaky, pomlčky, podtržítka a tečky."
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:93
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:97
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:94
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:98
 msgid "Based on"
 msgstr "Založeno na"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:94
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:95
 msgid "You can create a new document template based on the existing one or start from scratch."
 msgstr "Lze vytvořit novou šablonu dokumentů založenou na již existující nebo začít od nuly."
 
@@ -2111,7 +2169,7 @@ msgid "Folder"
 msgstr "Složka"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1095
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1076
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1098
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:35
 msgid "File"
 msgstr "Soubor"
@@ -2125,9 +2183,9 @@ msgstr "Přejmenovat"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1127
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:204
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:208
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3223
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3462
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3475
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3334
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3573
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3586
 msgid "Move"
 msgstr "Přesun"
 
@@ -2197,39 +2255,39 @@ msgstr "Nelze získat editory znalostních modelů."
 msgid "Unable to get the document preview."
 msgstr "Nelze získat náhled dokumentu."
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:324
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:325
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:595
 msgid "Open project"
 msgstr "Otevřít projekt"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:348
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:350
 msgid "Open KM editor"
 msgstr "Otevřít editor znalostního modelu"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:384
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:386
 msgid "KM editor"
 msgstr "Editor znalostního modelu"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:392
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:316
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:394
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:320
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:144
 msgid "Format"
 msgstr "Formát"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:406
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:408
 msgid "Preview not set"
 msgstr "Náhled není nastavený"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:407
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:409
 msgid "Select a project or knowledge model editor and format you want to preview."
 msgstr "Vyberte projekt nebo editor znalostního modelu a formát, který chcete zobrazit v náhledu."
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:430
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:432
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:163
 msgid "Download preview"
 msgstr "Stáhnout náhled"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:432
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:434
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:165
 msgid "The document format cannot be displayed in the web browser. You can still download and view it."
 msgstr "Dokument tohoto formátu nemůže být zobrazen ve webovém prohlížeči. Můžete si jej ale stáhnout a zobrazit."
@@ -2250,7 +2308,7 @@ msgstr "ID šablony"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:290
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:229
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:127
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:194
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:183
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:75
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:162
 #: app-wizard/elm/Wizard/Pages/Locales/Create/View.elm:47
@@ -2261,7 +2319,7 @@ msgstr "Licence"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:137
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:291
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:128
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:195
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:184
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:84
 #: app-wizard/elm/Wizard/Pages/Locales/Create/View.elm:48
 msgid "Readme"
@@ -2269,7 +2327,7 @@ msgstr "Readme"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:141
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:145
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:114
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:124
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:132
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:136
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:128
@@ -2296,14 +2354,14 @@ msgstr "Formáty"
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:43
 #: app-wizard/elm/Wizard/Pages/Settings/KnowledgeModels/View.elm:50
 #: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:50
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:144
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:140
 msgid "Organization ID"
 msgstr "ID organizace"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:305
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:94
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:95
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:125
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:191
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:180
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:72
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:44
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/View.elm:49
@@ -2337,19 +2395,19 @@ msgstr "Přidat formát"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:409
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:202
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:140
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:166
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:135
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:161
 msgid "Icon"
 msgstr "Ikona"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:413
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:146
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:398
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:524
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:156
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:397
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:522
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:195
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:62
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:328
-#: shared/common/elm/Common/Components/FormGroup.elm:592
+#: shared/common/elm/Common/Components/FormGroup.elm:591
 msgid "Preview"
 msgstr "Náhled"
 
@@ -2362,7 +2420,7 @@ msgid "Add step"
 msgstr "Přidat krok"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:465
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1070
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1092
 msgid "Options"
 msgstr "Možnosti (1 z n)"
 
@@ -2372,14 +2430,14 @@ msgstr "Přidat nastavení"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:481
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:504
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1072
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:679
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:853
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:867
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:881
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:895
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:904
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:913
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1094
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:677
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:850
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:864
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:878
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:892
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:901
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:910
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:118
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:139
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:242
@@ -2390,7 +2448,7 @@ msgid "Value"
 msgstr "Hodnota"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:526
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1950
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1987
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:160
 msgid "Quick setup"
 msgstr "Rychlé nastavení"
@@ -2404,11 +2462,11 @@ msgstr "Změny nejsou uloženy."
 msgid "Unable to get document template"
 msgstr "Nelze získat šablonu dokumentů"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:96
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:106
 msgid "Discard"
 msgstr "Zahodit"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:100
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:110
 msgid "unsaved changes"
 msgstr "neuložené změny"
 
@@ -2518,7 +2576,7 @@ msgid "This document template is not supported in the current version."
 msgstr "Tato šablona dokumentu není v aktuální verzi podporována."
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:226
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2597
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2634
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:710
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:739
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:809
@@ -2538,7 +2596,7 @@ msgid "Metamodel"
 msgstr "Metamodel"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:232
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:349
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:353
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:141
 msgid "Document Template"
 msgstr "Šablona dokumentu"
@@ -2634,7 +2692,7 @@ msgid "Migration could not be created."
 msgstr "Migrace nemohla být vytvořena."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:117
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:73
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:78
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:33
 msgid "Unable to get the Knowledge Model."
 msgstr "Nelze získat znalostní model."
@@ -2652,30 +2710,30 @@ msgid "New parent knowledge model"
 msgstr "Nový nadřazený znalostní model"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:164
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:549
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:557
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:636
 msgid "Create migration"
 msgstr "Vytvořit migraci"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:137
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:142
 msgid "Knowledge model could not be created."
 msgstr "Znalostní model nemohl být vytvořen."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:40
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:38
 msgid "Create knowledge model"
 msgstr "Vytvořit znalostní model"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:95
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:192
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:96
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:181
 msgid "Knowledge model ID can only contain alphanumeric characters, hyphens, underscores, and dots."
 msgstr "ID znalostního modelu může obsahovat pouze alfanumerické znaky, pomlčky, podtržítka a tečky."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:98
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:99
 msgid "You can create a new knowledge model based on the existing one or start from scratch."
 msgstr "Můžete vytvořit nový znalostní model založený na jiném existujícím nebo začít od nuly."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:363
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:769
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:451
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:773
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:206
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:165
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:315
@@ -2683,11 +2741,11 @@ msgstr "Můžete vytvořit nový znalostní model založený na jiném existují
 msgid "Untitled chapter"
 msgstr "Nepojmenovaná kapitola"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:366
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:943
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1276
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2716
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3271
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:454
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:965
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1310
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2756
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3382
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:351
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:223
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:259
@@ -2695,35 +2753,35 @@ msgstr "Nepojmenovaná kapitola"
 msgid "Untitled question"
 msgstr "Nepojmenovaná otázka"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:369
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:786
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:457
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:793
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:220
 msgid "Untitled metric"
 msgstr "Nepojmenovaná metrika"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:372
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:803
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:460
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:813
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:234
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:166
 msgid "Untitled phase"
 msgstr "Nepojmenovaná fáze"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:375
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:820
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:463
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:833
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:248
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:176
 msgid "Untitled tag"
 msgstr "Nepojmenovaný štítek"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:378
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:837
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1345
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:466
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:853
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1379
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:262
 msgid "Untitled integration"
 msgstr "Nepojmenovaná integrace"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:381
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1244
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:469
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1275
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:377
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:255
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:326
@@ -2731,261 +2789,257 @@ msgstr "Nepojmenovaná integrace"
 msgid "Untitled answer"
 msgstr "Nepojmenovaná odpověď"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:384
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1431
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:472
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1468
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:391
 msgid "Untitled choice"
 msgstr "Nepojmenovaná volba"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:387
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1189
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:475
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1214
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:405
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:297
 msgid "Untitled reference"
 msgstr "Nepojmenovaná reference"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:390
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1206
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:478
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1234
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:419
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:276
 msgid "Untitled expert"
 msgstr "Nepojmenovaný expert"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:393
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:854
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:481
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:873
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:445
 msgid "Untitled resource collection"
 msgstr "Kolekce zdrojů bez názvu"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:396
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2870
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3064
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:484
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2915
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3175
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:459
 msgid "Untitled resource page"
 msgstr "Stránka zdroje bez názvu"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:962
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1051
 msgid "Empty title for chapter"
 msgstr "Prázdný název kapitoly"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:991
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1080
 msgid "Empty title for question"
 msgstr "Prázdný název otázky"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1000
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1089
 msgid "No answers for options question"
 msgstr "Žádné odpovědi pro otázku s možnostmi"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1009
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1098
 msgid "No item questions for list question"
 msgstr "Žádné podotázky pro otázku s položkami"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1020
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1109
 msgid "No integration selected for integration question"
 msgstr "Žádná vybraná integrace pro otázku s integrací"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1034
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1123
 msgid "Missing variables for integration question"
 msgstr "Chybějí proměnné pro otázku s integrací"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1049
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1138
 msgid "No choices for multi-choice question"
 msgstr "Žádné volby pro otázku s více volbami"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1067
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1156
 msgid "No list question selected for item select question"
 msgstr "Pro otázku na výběr položky není vybrána žádná otázka pro seznam položek"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1094
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1183
 msgid "Empty label for answer"
 msgstr "Prázdný název odpovědi"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1113
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1202
 msgid "Empty label for choice"
 msgstr "Prázdný název volby"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1133
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1222
 msgid "No resource page selected for resource page reference"
 msgstr "Není vybrána žádná stránka zdroje pro odkaz stránky zdroje"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1140
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1229
 msgid "Empty URL for URL reference"
 msgstr "Prázdná URL pro referenci s odkazem"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1143
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1232
 msgid "Invalid URL for URL reference"
 msgstr "Neplatná URL pro referenci s odkazem"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1162
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1251
 msgid "Empty email for expert"
 msgstr "Prázdný email u experta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1165
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1254
 msgid "Invalid email for expert"
 msgstr "Neplatný email u experta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1175
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1264
 msgid "Empty title for metric"
 msgstr "Prázdný název metriky"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1187
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1276
 msgid "Empty title for phase"
 msgstr "Prázdný název fáze"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1199
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1288
 msgid "Empty name for tag"
 msgstr "Prázdný název štítku"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1221
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1310
 msgid "Empty name for integration"
 msgstr "Prázný název integrace"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1228
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1317
 msgid "Empty variable name for integration"
 msgstr "Prázný název proměnné v integraci"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1235
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1325
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1324
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1414
 msgid "Empty request URL for integration"
 msgstr "Prázdná URL dotazu v integraci"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1247
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1336
 msgid "Missing {{ q }} in request URL for integration"
 msgstr "Chybějící {{ q }} v dotazu URL integrace"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1254
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1343
 msgid "Unknown Jinja property in request URL for integration: %s"
 msgstr "Neznámá vlastnost Jinja v dotazu URL integrace: %s"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1261
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1350
 msgid "Unknown variable in request URL for integration: %s"
 msgstr "Neznámá proměnná v dotazu URL integrace: %s"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1268
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1357
 msgid "Unknown secret in request URL for integration: %s"
 msgstr "Neznámý citlivý údaj dotazu URL integrace: %s"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1278
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1367
 msgid "No test data loaded for integration"
 msgstr "Nebyla načtena testovací data v integraci"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1289
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1378
 msgid "Response list field not found in test data for integration"
 msgstr "V testovacích datech v integraci nebylo nalezeno pole odpovědi s listem"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1292
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1381
 msgid "Response list field is not a list in test data for integration"
 msgstr "V testovacích datech v integraci se v poli odpovědi s listem nenalézá list"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1303
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1392
 msgid "No test data success response for integration"
 msgstr "V integraci chybí úspěšně načtená testovací data"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1307
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1339
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1396
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1428
 msgid "Empty response item template for integration"
 msgstr "Prázdná šablona položky odpovědi v integraci"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1318
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1350
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1407
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1439
 msgid "Empty ID for integration"
 msgstr "Prázdné ID integrace"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1332
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1421
 msgid "Empty request HTTP method for integration"
 msgstr "Prázdná metoda HTTP požadavku v integraci"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1357
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1446
 msgid "Empty widget URL for integration"
 msgstr "Prázdná URL widgetu v integraci"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1371
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1460
 msgid "Empty title for resource collection"
 msgstr "Prázdný název kolekce zdrojů"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1392
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1481
 msgid "Empty title for resource page"
 msgstr "Prázdný název stránky zdroje"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1402
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1491
 msgid "Empty content for resource page"
 msgstr "Prázdný obsah stránky zdroje"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:378
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:379
 msgid "Unable to get test result."
 msgstr "Nelze získat výsledek testu."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:421
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:422
 msgid "Unable to get preview."
 msgstr "Nelze zobrazit náhled."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:594
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:595
 msgid "There are no more warnings."
 msgstr "Nejsou zde žádná upozornění."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:716
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:717
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:168
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:71
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:177
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:135
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:103
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:207
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:540
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:137
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:106
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:214
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:548
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:579
 msgid "Knowledge Model"
 msgstr "Znalostní model"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:770
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:774
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:99
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:228
 msgid "Add chapter"
 msgstr "Přidat kapitolu"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:787
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:794
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:111
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:164
 msgid "Add metric"
 msgstr "Přidat metriku"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:804
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:814
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:123
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:180
 msgid "Add phase"
 msgstr "Přidat fázi"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:821
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:834
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:135
 msgid "Add tag"
 msgstr "Přidat štítek"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:829
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:842
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:468
 msgid "Integrations"
 msgstr "Integrace"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:838
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:854
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:147
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:212
 msgid "Add integration"
 msgstr "Přidat integraci"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:846
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:862
 msgid "Resource Collections"
 msgstr "Kolekce zdrojů"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:855
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:874
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:159
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:324
 msgid "Add resource collection"
 msgstr "Přidání kolekce zdrojů"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:904
-msgid "Chapter"
-msgstr "Kapitola"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:924
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1152
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1306
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:943
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1174
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1340
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:977
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:996
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1033
@@ -2996,8 +3050,8 @@ msgstr "Kapitola"
 msgid "Text"
 msgstr "Text"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:935
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1268
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:954
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1299
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1015
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1046
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1272
@@ -3009,9 +3063,9 @@ msgstr "Text"
 msgid "Questions"
 msgstr "Otázky"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:944
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1277
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2717
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:966
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1311
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2757
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:199
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:296
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:370
@@ -3019,13 +3073,13 @@ msgstr "Otázky"
 msgid "Add question"
 msgstr "Přidat otázku"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1071
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1093
 msgid "List of Items"
 msgstr "Seznam položek"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1073
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1396
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1878
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1095
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1430
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1915
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1074
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1181
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1352
@@ -3033,24 +3087,20 @@ msgstr "Seznam položek"
 msgid "Integration"
 msgstr "Integrace"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1074
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1096
 msgid "Multi-Choice"
 msgstr "Více možností (k z n)"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1075
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1097
 msgid "Item Select"
 msgstr "Výběr položky"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1083
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1105
 msgid "Never"
 msgstr "Nikdy"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1087
-msgid "Question"
-msgstr "Otázka"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1099
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1890
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1121
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1927
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:682
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:709
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:738
@@ -3067,82 +3117,82 @@ msgstr "Otázka"
 msgid "Type"
 msgstr "Typ"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1115
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1137
 msgid "Changing a question type will remove all answers."
 msgstr "Změna typu otázky odstraní všechny možné odpovědi."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1125
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1147
 msgid "Changing a question type will remove all item questions."
 msgstr "Změna typu otázky odstraní všechny otázky pro položku."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1135
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1157
 msgid "Changing a question type will remove all choices."
 msgstr "Změna typu otázky odstraní všechny možné volby."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1163
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1185
 msgid "When does this question become desirable?"
 msgstr "Kdy se tato otázka stane potřebnou?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1181
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1203
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1291
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1408
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1505
 msgid "References"
 msgstr "Reference"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1190
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1215
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:320
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:292
 msgid "Add reference"
 msgstr "Přidat referenci"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1207
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1235
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:332
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:308
 msgid "Add expert"
 msgstr "Přidat experta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1236
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1264
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1239
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1374
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1471
 msgid "Answers"
 msgstr "Odpovědi"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1245
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1276
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:284
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:260
 msgid "Add answer"
 msgstr "Přidat odpověď"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1285
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1319
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:336
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:347
 msgid "Item Template"
 msgstr "Šablona položky"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1301
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1335
 msgid "String"
 msgstr "Krátký text"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1302
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1336
 msgid "Number"
 msgstr "Číslo"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1303
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1337
 msgid "Date"
 msgstr "Datum"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1304
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1338
 msgid "Date Time"
 msgstr "Datum a čas"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1305
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1339
 msgid "Time"
 msgstr "Čas"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1307
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2991
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1341
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3099
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2130
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2149
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2171
@@ -3150,7 +3200,7 @@ msgstr "Čas"
 #: app-wizard/elm/Wizard/Pages/Public/ForgottenPassword/View.elm:52
 #: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:85
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:143
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:147
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:143
 #: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:37
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:215
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:248
@@ -3158,9 +3208,9 @@ msgstr "Čas"
 msgid "Email"
 msgstr "E-mail"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1308
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2826
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2915
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1342
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2870
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2960
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1805
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1808
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1869
@@ -3173,21 +3223,21 @@ msgstr "E-mail"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2088
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2091
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:191
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:144
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:172
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:139
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:167
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:232
 msgid "URL"
 msgstr "Adresa URL"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1309
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1745
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1343
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1782
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:615
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:637
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:662
 msgid "Color"
 msgstr "Barva"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1315
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1349
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1071
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1162
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1349
@@ -3195,155 +3245,155 @@ msgstr "Barva"
 msgid "Value Type"
 msgstr "Typ hodnoty"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1324
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1358
 msgid "Validations"
 msgstr "Validace"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1346
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1380
 msgid "- select integration -"
 msgstr "- vybrat integraci -"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1374
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1408
 msgid "Integration Configuration"
 msgstr "Nastavení integrace"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1390
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1424
 msgid "Go to integration"
 msgstr "Přejít na integraci"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1423
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1457
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1251
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1385
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1482
 msgid "Choices"
 msgstr "Volby"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1432
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1469
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:308
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:276
 msgid "Add choice"
 msgstr "Přidat volbu"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1470
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1507
 msgid "List Question"
 msgstr "Otázka pro seznam položek"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1472
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1509
 msgid "- select list question -"
 msgstr "- vybrat otázku pro seznam položek -"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1484
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1521
 msgid "Go to list question"
 msgstr "Přejít na otázku pro seznam položek"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1505
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1542
 msgid "File Types"
 msgstr "Typy souborů"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1513
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1550
 msgid "Max Size (bytes)"
 msgstr "Maximální velikost (bajty)"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1520
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1557
 msgid "You can limit file type selection by providing comma separated list of extensions, mime types, or combination. For example, `application/pdf` or `.xls,.xlsx`."
 msgstr "Výběr typu souboru můžete omezit zadáním seznamu přípon, typů mime oddělených čárkou nebo jejich kombinací. Například `application/pdf` nebo `.xls,.xlsx`."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1522
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1559
 msgid "Uploaded files cannot be larger than %s, but you can set a smaller limit."
 msgstr "Nahrané soubory nemohou být větší než %s, ale můžete nastavit menší limit."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1530
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1567
 msgid "Item select questions using this list question"
 msgstr "Otázky pro výběr položek používají tuto otázku pro seznam položek"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1585
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1622
 msgid "Metric"
 msgstr "Metrika"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1605
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1642
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:487
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:508
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:533
 msgid "Abbreviation"
 msgstr "Zkratka"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1657
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1694
 msgid "Phase"
 msgstr "Fáze"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1717
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1754
 msgid "Tag"
 msgstr "Štítek"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1871
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1908
 msgid "API"
 msgstr "API"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1872
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1909
 msgid "API (Legacy)"
 msgstr "API (Legacy)"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1873
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1910
 msgid "Widget"
 msgstr "Widget"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1916
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3141
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1953
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3252
 msgid "No questions"
 msgstr "Žádné otázky"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1966
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2003
 msgid "This integration was created from a template and now differs."
 msgstr "Tato integrace byla vytvořena ze šablony a nyní se liší."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1971
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:221
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2008
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:220
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:199
 msgid "Update"
 msgstr "Aktualizace"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1987
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2024
 msgid "Questions using this integration"
 msgstr "Otázky používající tuto integraci"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2013
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2050
 msgid "Allow Custom Reply"
 msgstr "Povolit vlastní odpověď"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2017
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2054
 msgid "If enabled, users can type their own custom reply. If disabled, they must select a reply from the integration."
 msgstr "Pokud je povoleno, uživatelé mohou vyplnit vlastní odpověď. V opačném případě musí vybrat odpověď z integrace."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2022
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2632
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2059
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2669
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:684
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:771
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:892
 msgid "Variables"
 msgstr "Proměnné"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2027
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2064
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the request configuration. For example, if you define a variable named *type*, you can use it as `{{ variables.type }}`, such as *ht&#8203;tps://example.com/{{ variables.type }}*."
 msgstr "Proměnné lze použít k parametrizaci integrace pro každou otázku využívající tuto integraci. Pomocí tohoto nastavení definujte proměnné, jejichž hodnoty mohou být doplněny do otázek využívajících tuto integraci. Tyto proměnné pak lze použít v konfiguraci požadavku. Například, pokud je definována proměnná s názvem *type*, tak ji lze použít jako `{{ variables.type }}`, následně jako *https://example.com/{{ type }}*."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2043
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2080
 msgid "There are no secrets configured."
 msgstr "Nejsou nastaveny žádné citlivé údaje."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2053
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2090
 msgid "Configure secrets"
 msgstr "Nastavit citlivé údaje"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2056
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2093
 msgid "Secrets can store sensitive information used for API calls, such as tokens, that you don't want to share with the knowledge models. You can use them as `{{ secrets.secret_name }}` anywhere in the request configuration."
 msgstr "Citlivé údaje, jako jsou například tokeny, ukládají citlivé informace, které se používají ve volání API a které nechceme sdílet se znalostním modelem. Můžete je použít jako `{{ secrets.secret_name }}` kdekoli v konfiguraci požadavku."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2063
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2100
 msgid "Advanced Integration Configuration"
 msgstr "Pokročilá konfigurace integrace"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2074
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2475
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2111
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2512
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:687
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:716
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:774
@@ -3353,12 +3403,12 @@ msgstr "Pokročilá konfigurace integrace"
 msgid "Request HTTP Headers"
 msgstr "HTTP hlavičky požadavku"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2078
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2115
 msgid "HTTP headers to include in the API request. You can use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
 msgstr "HTTP hlavičky, ktéré mají být zahrnuty v API požadavku. Lze použít `{{ q }}` pro vyhledávaný pojmu a `{{ variables.name }}` pro odkaz na proměnnou a `{{ secrets.name }}` pro citlivé údaje."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2081
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2483
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2118
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2520
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:688
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:717
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:775
@@ -3368,80 +3418,80 @@ msgstr "HTTP hlavičky, ktéré mají být zahrnuty v API požadavku. Lze použ�
 msgid "Request HTTP Body"
 msgstr "Tělo HTTP požadavku"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2085
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2122
 msgid "Optional request body of the API request. You can again use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
 msgstr "Volitelný obsah těla API požadavku. Lze použít znovu `{{ q }}` pro hledaný pojem a `{{ variables.name }}` pro odkaz na proměnné a`{{ secrets.name }}` citlivé údaje."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2088
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2491
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2125
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2528
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:689
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:776
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:897
 msgid "Allow Empty Search"
 msgstr "Povolit prázdné vyhledávání"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2092
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2129
 msgid "If enabled, the API request will be sent even if the user does not enter a search term. This is useful for APIs that return a default set of results when no search term is provided."
 msgstr "Pokud je povoleno, API požadavek bude odeslán i pokud uživatel nevyplní žádný hledaný termín. To se může hodit pro API, které vracejí výchozí sadu výsledků pokud není poskytnut žádný hledaný termín."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2098
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2135
 msgid "Advanced Request Configuration"
 msgstr "Pokročilá nastavení požadavku"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2107
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2525
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2144
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2562
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:229
 msgid "Request"
 msgstr "Požadavek"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2108
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2145
 msgid "Import from cURL string"
 msgstr "Vložit z cURL řetězce"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2126
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2163
 msgid "Enter request URL..."
 msgstr "Zadejte URL požadavku..."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2130
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2167
 msgid "The full API endpoint used for search. Use `{{ q }}` to insert the user's search term (for example, *https://example.com/search?q={{ q }}*), and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
 msgstr "Kompletní API endpoint použitý pro vyhledávání. Použijte `{{ q }}` ke vloženní pojmu hledaného uživatelem (například *https://example.com/search?q={{ q }}*), a `{{ variables.name }}` pro odkaz na proměnnou a `{{ secrets.name }}` pro citlivé údaje."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2154
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2191
 msgid "Test Variables"
 msgstr "Testovací proměnné"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2194
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2231
 msgid "Request Details"
 msgstr "Detail požadavku"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2222
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2259
 msgid "This content type is not supported."
 msgstr "Tento typ obsahu není podporován."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2250
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2394
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2540
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2287
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2431
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2577
 msgid "Response"
 msgstr "Odpověď"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2275
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2312
 msgid "Test"
 msgstr "Test"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2279
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2316
 msgid "Test Search Query"
 msgstr "Testovací hledaný dotaz"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2283
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2320
 msgid "This is what users would write in the questionnaire when filling in the integration question."
 msgstr "To, co uživatel píše do dotazníku když vyplňuje otázku s integrací."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2286
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2323
 msgid "Load"
 msgstr "Načíst"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2333
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2507
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2370
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2544
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:690
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:718
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:777
@@ -3451,13 +3501,13 @@ msgstr "Načíst"
 msgid "Response List Field"
 msgstr "Pole seznamu odpovědi"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2339
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2544
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2376
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2581
 msgid "If the returned JSON is not an array of items directly but the items are nested, use this to define the name or path to the field in the response that contains the list of items. Keep empty otherwise."
 msgstr "Pokud získaný JSON není přímo seznamem položek, ale položky jsou zanožené, nastavte zde název nebo cestu k poli v odpovědi, které obsahuje seznam položek. Jinak ponechejte prázdné."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2349
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2515
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2386
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2552
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:691
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:720
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:778
@@ -3467,30 +3517,30 @@ msgstr "Pokud získaný JSON není přímo seznamem položek, ale položky jsou 
 msgid "Response Item Template"
 msgstr "Šablona položky odpovědi"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2367
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2404
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:692
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:779
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:900
 msgid "Response Item Template for Selection"
 msgstr "Šablona položky odpovědi pro výběr"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2385
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2422
 msgid "Advanced Response Configuration"
 msgstr "Pokročilá konfigurace odpovědi"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2401
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2438
 msgid "Response is not a valid JSON."
 msgstr "Odpověď není platný JSON."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2405
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2442
 msgid "Run a successful test to configure the response."
 msgstr "Spusťte úspěšný test pro konfiguraci odpovědi."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2430
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2467
 msgid "Click to copy code"
 msgstr "Kliknutím zkopírujte kód"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2458
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2495
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:686
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:715
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:773
@@ -3500,7 +3550,7 @@ msgstr "Kliknutím zkopírujte kód"
 msgid "Request URL"
 msgstr "URL požadavku"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2466
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2503
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:685
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:714
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:772
@@ -3510,85 +3560,85 @@ msgstr "URL požadavku"
 msgid "Request HTTP Method"
 msgstr "HTTP metoda požadavku"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2499
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2536
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:719
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:818
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:927
 msgid "Response Item ID"
 msgstr "ID položky odpovědi"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2527
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2564
 msgid "Use this section to configure the search request. The service you want to integrate has to provide a search HTTP API where you send a search string and it returns a JSON with found items."
 msgstr "Tato sekce slouží k nastavení požadavku k vyhledání. Služba, kterou chcete integrovat, musí poskytovat HTTP API pro vyhledávání, kam se odešle hledaný řetězec a vrátí se JSON s nalezenými položkami."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2529
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2566
 msgid "The full API endpoint used for search. Use `${q}` to insert the user's search term (for example, *https://example.com/search?q=${q}*), and `${propName}` to reference fields defined in props."
 msgstr "Kompletní API endpoint používaný k vyhledávání. Výraz `${q}` slouží k vložení vyhledávacího dotazu uživatele (např. *https://example.com/search?q=${q}*) a `${propName}` k odkazování na pole definovaná v objektu props."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2532
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2569
 msgid "Optional headers to include in the API request. You can use `${q}` for the search term and `${propName}` for values from props."
 msgstr "Volitelné hlavičky, které lze zahrnout do API požadavku. `${q}` slouží k vložení vyhledávacího dotazu a `${propName}` pro hodnoty definované v props."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2534
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2571
 msgid "Optional request body for POST or PUT methods. Supports the same variables: `${q}` for the search term and `${propName}` for props."
 msgstr "Volitelné tělo požadavku pro metody POST nebo PUT. Podporuje stejné proměnné: `${q}` pro vyhledávaný výraz a `${propName}` pro hodnoty z objektu props."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2536
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2573
 msgid "Turn this off if the API cannot handle empty search requests. In that case, the requests will be made only after users type something."
 msgstr "Vypněte tuto možnost pokud API nedokáže zpracovat požadavek na prázdné vyhledávání. V tom případě budou požadavky odesílány teprve až uživatel něco napíše."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2542
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2579
 msgid "Use this section to configure how to process the response returned from the search API."
 msgstr "Tato sekce slouží k nastavení zpracování odpovědi z API pro vyhledávání."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2546
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2583
 msgid "Use this to define an identifier for the item. This will be used in **Item URL** as `${id}` to compose a URL to the found item. You can use properties from the returned item in Jinja2 notation. For example, if the item has a field `id` use `{{item.id}}` here. You can also compose multiple fields together, e.g., `{{item.field1}}-{{item.field2}}`."
 msgstr "Zde definujte identifikátor položky. Ten bude použit v **URL položky** jako `${id}` pro složení URL adresy k nalezené položce. Můžete použít vlastnosti ze získané položky v notaci Jinja2. Například, pokud položka má pole `id` použijte zde `{{item.id}}`. Můžete také složit dohromady více polí, např. `{{item.field1}}-{{item.field2}}`."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2549
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2586
 msgid "This defines how the found items will be displayed for the user. You can use properties from the returned item in Jinja2 notation, you can also use [Markdown](%s) for some formatting. For example, if the returned item has a field called name, you can use `**{{item.name}}**` to display the name in bold."
 msgstr "Toto definuje jak budou nalezené položky zobrazeny uživateli. Můžete použít vlastnosti nalezené položky v notaci Jinja2 a pro určité formátování také [Markdown](%s). Například pokud má nalezená položka pole s názvem „name“, můžete použít `**{{item.name}}**` pro zobrazení názvu položky tučně."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2555
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2592
 msgid "Defines the URL to the selected item. Use `${id}` to get the value defined in **Response Item ID** field, for example `https://example.com/${id}`."
 msgstr "Definuje adresu URL pro vybranou položku. Použijte `${id}` pro doplnění hodnoty z **ID položky odpovědi**, např. `https://example.com/${id}`."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2577
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2614
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:743
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:855
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:951
 msgid "Widget URL"
 msgstr "Widget URL"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2587
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2624
 msgid "The URL of the widget implemented using [DSW Integration SDK](https://github.com/ds-wizard/dsw-integration-sdk)."
 msgstr "URL widgetu implementovaného pomocí [DSW Integration SDK](https://github.com/ds-wizard/dsw-integration-sdk)."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2589
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2626
 msgid "Defines the URL to the selected item. Use `${id}` value returned from the widget, for example `https://example.com/${id}`."
 msgstr "Definuje URL adresu vybrané položky. Použijte`${id}` pro hodnotu vrácenou z widgetu, např. `https://example.com/${id}`."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2601
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2638
 msgid "A string that identifies the integration. It has to be unique for each integration."
 msgstr "Řetězec identifikující integraci, který musí být unikátní pro každou integraci."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2613
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2650
 msgid "A name visible everywhere else in the knowledge model Editor, such as when choosing the integration for a question."
 msgstr "Název viditelný všude jinde v editoru znalostního modelu, například při výběru integrace pro otázku."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2621
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2658
 msgid "Logo URL"
 msgstr "URL adresa loga"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2625
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2662
 msgid "Logo is displayed next to the link to the selected item in questionnaires. It can be either URL or base64 image."
 msgstr "Logo je zobrazeno vedle odkazu na vybranou položku v rámci dotazníků. Může být URL nebo base64 obrázek."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2637
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2674
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the URL configuration. For example, if you define a variable named *type*, you can use it as `${type}`, such as *ht&#8203;tps://example.com/${type}*."
 msgstr "Proměnné mohou být použity k parametrizaci integrace pro každou otázku. Zde definujte proměnné, jejichž hodnoty mohou být vyplněny pro otázky používající tuto integraci. Proměnné poté mohou být použity v konfiguraci URL. Pokud například definujete proměnnou *type*, můžete ji pak použít jako `${type}` v URL *https://example.com/${type}*."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2645
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2682
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:713
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:742
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:812
@@ -3598,13 +3648,9 @@ msgstr "Proměnné mohou být použity k parametrizaci integrace pro každou ot�
 msgid "Item URL"
 msgstr "URL položky"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2677
-msgid "Answer"
-msgstr "Odpověď"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2689
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2786
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2923
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2726
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2826
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2968
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1541
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1567
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1618
@@ -3621,7 +3667,7 @@ msgstr "Odpověď"
 msgid "Label"
 msgstr "Název"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2697
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2734
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1542
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1568
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1619
@@ -3629,17 +3675,13 @@ msgstr "Název"
 msgid "Advice"
 msgstr "Doporučení"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2708
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2745
 msgid "Follow-Up Questions"
 msgstr "Navazující otázky"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2774
-msgid "Choice"
-msgstr "Volba"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2825
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2885
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3105
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2869
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2930
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3216
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1788
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1851
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1854
@@ -3649,11 +3691,17 @@ msgstr "Volba"
 msgid "Resource Page"
 msgstr "Stránka zdroje"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2831
-msgid "Reference"
-msgstr "Reference"
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2871
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1829
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1895
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1899
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1974
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2043
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2112
+msgid "Cross Reference"
+msgstr "Křížová reference"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2843
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2888
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1785
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1804
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1825
@@ -3672,31 +3720,39 @@ msgstr "Reference"
 msgid "Reference Type"
 msgstr "Typ reference"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2887
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2932
 msgid "- select resource page -"
 msgstr "- vybrat stránku zdroje -"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2971
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3017
+msgid "- select related question -"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3031
+msgid "Go to related question"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3079
 msgid "Expert"
 msgstr "Expert"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3036
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3144
 msgid "Resource Collection"
 msgstr "Kolekce zdrojů"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3056
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3164
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2242
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2271
 msgid "Resource Pages"
 msgstr "Stránky zdrojů"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3065
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3176
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:438
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:340
 msgid "Add resource page"
 msgstr "Přidání stránky zdroje"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3125
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3236
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2286
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2305
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2327
@@ -3704,197 +3760,197 @@ msgstr "Přidání stránky zdroje"
 msgid "Content"
 msgstr "Obsah"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3165
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3276
 msgid "Questions using this resource page"
 msgstr "Otázky používají tuto stránku zdroje"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3176
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3287
 msgid "The knowledge model entity you are trying to open does not exist."
 msgstr "Entity znalostního modelu, kterou se snažíte otevřít, neexistuje."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3205
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3316
 msgid "Click to copy UUID"
 msgstr "Kopírovat UUID kliknutím"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3298
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3409
 msgid "Are you sure you want to delete this chapter?"
 msgstr "Opravdu chcete odstranit tuto kapitolu?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3305
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3416
 msgid "Are you sure you want to delete this question?"
 msgstr "Opravdu chcete odstranit tuto otázku?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3312
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3423
 msgid "Are you sure you want to delete this metric?"
 msgstr "Opravdu chcete odstranit tuto metriku?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3319
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3430
 msgid "Are you sure you want to delete this phase?"
 msgstr "Opravdu chcete odstranit tuto fázi?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3326
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3437
 msgid "Are you sure you want to delete this question tag?"
 msgstr "Opravdu chcete odstranit tento štítek?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3333
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3444
 msgid "Are you sure you want to delete this integration?"
 msgstr "Opravdu chcete odstranit tuto integraci?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3340
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3451
 msgid "Are you sure you want to delete this resource collection?"
 msgstr "Opravdu chcete tuto kolekci zdrojů odstranit?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3347
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3458
 msgid "Are you sure you want to delete this resource page?"
 msgstr "Opravdu chcete tuto stránku zdroje odstranit?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3354
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3465
 msgid "Are you sure you want to delete this answer?"
 msgstr "Opravdu chcete odstranit tuto odpověď?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3361
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3472
 msgid "Are you sure you want to delete this choice?"
 msgstr "Opravdu chcete odstranit tuto volbu?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3368
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3479
 msgid "Are you sure you want to delete this reference?"
 msgstr "Opravdu chcete odstranit tuto referenci?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3375
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3486
 msgid "Are you sure you want to delete this expert?"
 msgstr "Opravdu chcete odstranit tohoto experta?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3384
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3495
 msgid "Heads up!"
 msgstr "Upozornění!"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3465
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3576
 msgid "Select a new parent"
 msgstr "Vybrat nového rodiče"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3511
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3622
 msgid "Paste your cURL command here..."
 msgstr "Zde vložte váš cURL příkaz..."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3519
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3630
 msgid "Import from cURL"
 msgstr "Importovat z cURL"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:390
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:389
 #: app-wizard/elm/Wizard/Pages/Projects/Common/QuestionnaireShareFormMemberPermType.elm:63
-#: shared/common/elm/Common/Components/FormGroup.elm:584
+#: shared/common/elm/Common/Components/FormGroup.elm:583
 msgid "Editor"
 msgstr "Editor"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:404
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:403
 #: shared/common/elm/Common/Components/FormGroup.elm:496
 msgid "You can use %s and see the result in the preview tab."
 msgstr "Můžete použít %s a výsledek si prohlédnout na kartě náhledu."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:516
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:514
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:204
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:721
 msgid "Template"
 msgstr "Šablona"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:534
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:532
 msgid "You can use [Jinja](%s) and [Markdown](%s) to create and format the template."
 msgstr "Pro vytvoření a formátování šablony můžete použít [Jinja](%s) a [Markdown](%s)."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:671
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:669
 msgid "Key"
 msgstr "Klíč"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:703
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:700
 msgid "Add annotation"
 msgstr "Přidat anotaci"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:707
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:704
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2572
 msgid "Annotations"
 msgstr "Anotace"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:970
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:967
 msgid "Remove validation"
 msgstr "Odstranění validace"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:974
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:971
 msgid "Validation Type"
 msgstr "Typ validace"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1002
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:999
 msgid "Add validation"
 msgstr "Přidání validace"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1021
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1018
 msgid "Min Length"
 msgstr "Minimální délka"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1028
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1025
 msgid "Max Length"
 msgstr "Maximální délka"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1035
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1032
 msgid "Regex"
 msgstr "Regulární výraz"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1044
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1041
 msgid "ORCID"
 msgstr "ORCID"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1050
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1047
 msgid "DOI"
 msgstr "DOI"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1056
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1053
 msgid "Min Number"
 msgstr "Minimální číslo"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1062
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1059
 msgid "Max Number"
 msgstr "Maximální číslo"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1068
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1065
 msgid "From Date"
 msgstr "Od data"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1074
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1071
 msgid "To Date"
 msgstr "Do data"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1080
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1077
 msgid "From Date Time"
 msgstr "Od data a času"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1086
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1083
 msgid "To Date Time"
 msgstr "Do data a času"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1092
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1089
 msgid "From Time"
 msgstr "Od času"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1098
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1095
 msgid "To Time"
 msgstr "Do času"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1104
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1101
 msgid "Domain"
 msgstr "Doména"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1197
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1194
 msgid "Weight"
 msgstr "Váha"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1376
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1373
 msgid "Header Name"
 msgstr "Název hlavičky"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1385
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1382
 msgid "Header Value"
 msgstr "Hodnota hlavičky"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1406
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1403
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:233
 msgid "Add header"
 msgstr "Přidat hlavičku"
@@ -3908,19 +3964,19 @@ msgstr "Neexistují žádné fáze, nejprve je vytvořte."
 msgid "There are no questions, create them first."
 msgstr "Nejsou zde žádné otázky, nejprve nějaké vytvořte."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:260
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:274
 msgid "Tags"
 msgstr "Štítky"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:267
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:281
 msgid "Select all"
 msgstr "Vybrat vše"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:275
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:289
 msgid "Select none"
 msgstr "Nevybrat nic"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:292
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:306
 msgid "Save preview values"
 msgstr "Uložení hodnot náhledu"
 
@@ -3932,29 +3988,29 @@ msgstr "Nelze publikovat znalostní model"
 msgid "Check the knowledge model's metadata before publishing. You change them in %s."
 msgstr "Před zveřejněním zkontrolujte metadata znalostního modelu. Změníte je v %s."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:125
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:124
 msgid "Knowledge model could not be saved."
 msgstr "Znalostní model nemohl být uložen."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:216
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:215
 msgid "This is not the latest version of the parent knowledge model."
 msgstr "Toto není poslední verze rodičovského znalostního modelu."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:228
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:227
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:169
 msgid "Parent Knowledge Model"
 msgstr "Rodičovský znalostní model"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:239
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:557
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:238
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:567
 msgid "Danger Zone"
 msgstr "Nebezpečná zóna"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:243
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:242
 msgid "Delete this knowledge model editor"
 msgstr "Odstranit tento editor znalostního modelu"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:245
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:244
 msgid "Deleted knowledge model editors cannot be recovered."
 msgstr "Odstraněné editory znalostních modelů nemohou být obnoveny."
 
@@ -4244,15 +4300,6 @@ msgstr "UUID stránky zdroje"
 msgid "Target UUID"
 msgstr "Cílové UUID"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1829
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1895
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1899
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1974
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2043
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2112
-msgid "Cross Reference"
-msgstr "Křížová reference"
-
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2582
 msgid "Reject"
 msgstr "Zamítnout"
@@ -4318,7 +4365,7 @@ msgid "Fork KM"
 msgstr "Fork"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:110
-#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/View.elm:70
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/View.elm:69
 msgid "Create project"
 msgstr "Vytvořit projekt"
 
@@ -4401,20 +4448,20 @@ msgid "Unable to get the knowledge model."
 msgstr "Nelze získat znalostní model."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:60
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:193
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:342
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:195
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:344
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:256
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:285
 msgid "Unable to get knowledge models."
 msgstr "Nelze získat znalostní modely."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:131
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:284
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:286
 msgid "Questionnaire could not be created."
 msgstr "Dotazník nemohl být vytvořen."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:142
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:195
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:196
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:376
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:868
 msgid "Questionnaire could not be saved."
@@ -4579,7 +4626,7 @@ msgstr "Toto není poslední dostupná verze tohoto překladu."
 
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:148
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:167
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:91
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:87
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:66
 msgid "Enabled"
 msgstr "Povoleno"
@@ -4772,7 +4819,7 @@ msgid "Owner"
 msgstr "Vlastník"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:42
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:717
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:719
 msgid "Public link"
 msgstr "Veřejný odkaz"
 
@@ -4786,7 +4833,7 @@ msgid "Private project accessible only by you."
 msgstr "Soukromý projekt přístupný pouze vám."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:50
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:691
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:693
 msgid "Visible by all other logged-in users"
 msgstr "Viditelný pro všechny přihlášené uživatele"
 
@@ -4839,69 +4886,69 @@ msgstr "Přístup k projektu má každý, kdo má odkaz."
 msgid "Other logged-in users can access the project."
 msgstr "Ostatní přihlášení uživatelé mají k projektu přístup."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:119
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:121
 msgid "Starting Point"
 msgstr "Výchozí zdroj projektu"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:120
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:122
 msgid "Create a project from a template with preset content, or start from a knowledge model and configure everything yourself."
 msgstr "Projekt můžete vytvořit z šablony s předem připraveným obsahem, nebo začít od znalostního modelu a vše nastavit podle svých potřeb."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:127
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:91
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:187
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:374
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:129
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:94
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:193
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:376
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:92
 msgid "Project Template"
 msgstr "Šablona projektu"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:128
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:130
 msgid "Project templates are pre-configured starting points for your project."
 msgstr "Projektové šablony slouží jako předem nakonfigurované výchozí body pro vaše projekty."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:136
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:138
 msgid "A knowledge model defines the structure of your questionnaire. You can configure the document template and other settings later."
 msgstr "Znalostní model definuje strukturu dotazníku. Šablonu dokumentu a další nastavení lze nakonfigurovat později."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:144
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:146
 msgid "Project Name"
 msgstr "Název projektu"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:145
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:147
 msgid "Choose a name for your project. You can change it later."
 msgstr "Zvolte název projektu. Můžete ho změnit i později."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:161
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:163
 msgid "Unable to get selected project template."
 msgstr "Nelze získat vybranou šablonu projektu."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:171
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:173
 msgid "Unable to get selected knowledge model."
 msgstr "Nelze získat vybraný znalostní model."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:181
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:323
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:183
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:325
 msgid "Unable to get project templates."
 msgstr "Nelze získat šablony projektů."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:305
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:307
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:242
 msgid "Unable to get question tags for the knowledge model."
 msgstr "Nelze získat štítky otázek pro tento znalostní model."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:143
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:147
 msgid "From project template"
 msgstr "Ze šablony projektu"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:154
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:159
 msgid "From knowledge model"
 msgstr "Ze znalostního modelu"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:165
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:170
 msgid "Project templates are prepared projects with knowledge models, question tags, and document templates setup, so you don't have to start from scratch."
 msgstr "Šablony projektů jsou připravené projekty s nastavenými znalostními modely, štítky otázek a šablonami dokumentů, takže nemusíte začínat od nuly."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:169
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:174
 msgid "Knowledge models are templates for questionnaires. You can select question tags now and configure the document template and other settings later."
 msgstr "Znalostní modely jsou šablony pro dotazníky. Můžete vybrat štítky otázek a později nakonfigurovat šablonu dokumentu a další nastavení."
 
@@ -4920,51 +4967,51 @@ msgstr "Migrace projektu nemohla být vytvořena."
 msgid "Original question tags"
 msgstr "Původní štítky otázek"
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:78
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:79
 msgid "Select knowledge model first"
 msgstr "Nejprve vyberte znalostní model"
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:81
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:82
 msgid "Create Migration"
 msgstr "Vytvořit migraci"
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:82
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:83
 msgid "A new project is created for the migration. The original will remain unchanged until the migration is finished."
 msgstr "Pro migraci je vytvořen nový projekt. Původní zůstane nezměněný, dokud nebude migrace dokončena."
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:89
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:90
 msgid "Original Knowledge Model"
 msgstr "Původní znalostní model"
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:90
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:91
 msgid "Original Version"
 msgstr "Původní verze"
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:96
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:97
 msgid "New Knowledge Model"
 msgstr "Nový znalostní model"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:158
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:161
 msgid "Unable to get the summary report."
 msgstr "Nelze získat souhrnný přehled."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:172
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:175
 msgid "Unable to get questionnaire event."
 msgstr "Nelze získat událost z dotazníku."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:248
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:251
 msgid "Document could not be created."
 msgstr "Dokument nemohl být vytvořen."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:285
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:287
 msgid "New Document"
 msgstr "Nový dokument"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:332
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:336
 msgid "Create for current version"
 msgstr "Vytvořit pro současnou verzi"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:337
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:341
 msgid "You are creating a document for a project version from %s"
 msgstr "Vytváříte dokument pro verzi projektu z %s"
 
@@ -5033,54 +5080,58 @@ msgstr "Přejít zpět v dotazníku"
 msgid "Revert"
 msgstr "Přejít zpět"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:276
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:277
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:204
 msgid "Unable to get project tags."
 msgstr "Nelze získat projektové štítky."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:347
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:349
 msgid "The used version of the document template is no longer supported. Select a newer version or another supported template."
 msgstr "Použitá verze šablony dokumentu již není podporována. Vyberte novější verzi nebo jinou podporovanou šablonu."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:350
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:352
 msgid "This document template is now deprecated."
 msgstr "Tato šablona dokumentu je nyní zastaralá."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:366
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:368
 msgid "Default document format"
 msgstr "Výchozí formát dokumentu"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:375
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:377
 msgid "Other users can use project templates so they don't have to start their new projects from scratch. Project templates follow the same sharing policy as projects, so make sure to share them with users who should use them."
 msgstr "Ostatní uživatelé mohou používat šablony projektů, aby nemuseli začínat nové projekty od nuly. Šablony projektů se řídí stejnými zásadami sdílení jako projekty, takže je nezapomeňte sdílet s uživateli, kteří je mají používat."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:413
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:416
 msgid "Default document template"
 msgstr "Výchozí šablona dokumentu"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:431
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:439
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:261
 msgid "Project Tags"
 msgstr "Štítky projektu"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:520
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:528
 msgid "All questions are used"
 msgstr "Všechny otázky jsou použity"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:527
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:535
 msgid "Filtered by question tags"
 msgstr "Filtrováno podle štítků"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:534
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:542
 msgid "This knowledge model is now deprecated."
 msgstr "Tento znalostní model je nyní zastaralý."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:561
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:569
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:560
+msgid "Project migration lets you move your project to a newer or different version of the knowledge model, and update which questions are included by changing question tags."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:571
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:579
 msgid "Delete this project"
 msgstr "Odstranit tento projekt"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:563
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:573
 msgid "Deleted projects cannot be recovered."
 msgstr "Odstraněné projekty nelze obnovit."
 
@@ -5116,23 +5167,23 @@ msgstr "Sdílet projekt"
 msgid "Add user group"
 msgstr "Přidání skupiny uživatelů"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:509
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:510
 msgid "User Groups"
 msgstr "Skupiny uživatelů"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:569
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:570
 msgid "Add users"
 msgstr "Přidat uživatele"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:622
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:624
 msgid "Last owner cannot be removed."
 msgstr "Posledního vlastníka nelze odebrat."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:686
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:688
 msgid "Other logged-in users can %s the project."
 msgstr "Ostatní přihlášení uživatelé mohou %s tento projekt."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:712
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:714
 msgid "Anyone with the link can %s the project."
 msgstr "Kdokoliv s odkazem může %s tento projekt."
 
@@ -5277,24 +5328,24 @@ msgstr[0] "%s chyba nalezena"
 msgstr[1] "%s chyby nalezeny"
 msgstr[2] "%s chyb nalezeno"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:186
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:188
 msgid "Questionnaire Changes"
 msgstr "Změny dotazníku"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:189
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:191
 msgid "Errors"
 msgstr "Chyby"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:195
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:197
 msgid "No changes to be imported"
 msgstr "Žádné změny pro import"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:280
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:294
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:282
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:296
 msgid "Added item"
 msgstr "Přidaná položka"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:297
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:299
 msgid "Added file"
 msgstr "Přidaný soubor"
 
@@ -5789,19 +5840,19 @@ msgstr "Přihlašovací obrazovka"
 msgid "Display on the login screen, visible to everybody."
 msgstr "Zobrazení na přihlašovací obrazovce, viditelné pro všechny."
 
-#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:37
+#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:26
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:119
 msgid "Features"
 msgstr "Funkce"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:56
+#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:37
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Tours.elm:50
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Tours.elm:103
 #: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:106
 msgid "Tours"
 msgstr "Průvodci"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:57
+#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:38
 msgid "If enabled, Tours help users navigate the application when opening specific screens for the first time."
 msgstr "Pokud je aktivováno, Průvodci pomáhají uživatelům orientovat se v aplikaci při prvním otevření konkrétních obrazovek."
 
@@ -5833,45 +5884,45 @@ msgstr "Nastavení integrace"
 msgid "Integration config is used to configure [secrets and other properties](%s) for integrations in knowledge models."
 msgstr "Konfigurace integrace slouží ke konfiguraci [citlivých údajů a dalších vlastností](%s) pro integrace ve znalostních modelech."
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:47
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:39
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:135
 msgid "Menu"
 msgstr "Nabídka"
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:50
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:42
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:138
 msgid "Look & Feel"
 msgstr "Vzhled"
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:77
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:72
 msgid "Application Title"
 msgstr "Název aplikace"
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:78
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:73
 msgid "Full name of the DSW instance (displayed, for example, in the browser tab title or before login)."
 msgstr "Celé jméno instance DSW (například zobrazené v záložce prohlížeče nebo před přihlášením)."
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:89
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:84
 msgid "Short Application Title"
 msgstr "Krátký název aplikace"
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:90
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:85
 msgid "Short name of the DSW instance (displayed, for example, on top of the navigation bar). Short title can be the same as the application title if it is short enough."
 msgstr "Krátký název instance DSW (například zobrazení nad navigačním menu). Krátký název může být klidně stejný jako celý název pokud je dostatečně krátký."
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:107
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:102
 msgid "Custom Menu Links"
 msgstr "Vlastní odkazy v menu"
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:110
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:105
 msgid "Configure additional links in the menu. Choose any free icon from the [Font Awesome](%s), e.g. *fas fa-magic*. Check *New window* if you want to open the link in a new window."
 msgstr "Nastavení dalších odkazů v levém menu. Vyberte jakoukoliv ikonu zdarma z [Font Awesome](%s), např. *fas fa-magic*. Zaškrtněte *Nové okno* pokud se má odkaz otevřít v novém okně."
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:120
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:115
 msgid "Add link"
 msgstr "Přidat odkaz"
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:146
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:141
 msgid "New window"
 msgstr "Nové okno"
 
@@ -6058,31 +6109,31 @@ msgstr "Požadavek na registraci selhal."
 msgid "DSW Registry"
 msgstr "DSW Registry"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:82
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:78
 msgid "Token"
 msgstr "Token"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:83
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:79
 msgid "Fill in your DSW Registry token. If you don't have one, you need sign up first."
 msgstr "Vyplňte váš token z DSW Registry. Pokud jej nemáte, musíte se nejprve zaregistrovat."
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:92
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:88
 msgid "If enabled, you can import knowledge models and document templates directly from [DSW Registry](https://registry.ds-wizard.org)."
 msgstr "Pokud je povoleno, můžete importovat znalostní modely a šablony dokumentů přímo z [DSW Registry](https://registry.ds-wizard.org)."
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:145
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:141
 msgid "Organization Name"
 msgstr "Název organizace"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:146
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:142
 msgid "Organization Description"
 msgstr "Popis organizace"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:148
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:144
 msgid "The email will be used for a confirmation link and an eventual token recovery."
 msgstr "Email bude použitý pro zaslání ověřovacího odkazu a případně obnovu tokenu."
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:153
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:149
 msgid "Registry Sign Up"
 msgstr "Registrace do Registry"
 
@@ -6786,13 +6837,17 @@ msgstr "(volitelné)"
 msgid "You can use HTML or %s and see the result in the preview tab."
 msgstr "Můžete použít HTML nebo %s a výsledek si prohlédnout na kartě náhledu."
 
-#: shared/common/elm/Common/Components/FormGroup.elm:768
+#: shared/common/elm/Common/Components/FormGroup.elm:767
 msgid "Suggestions: "
 msgstr "Návrhy: "
 
-#: shared/common/elm/Common/Components/FormGroup.elm:787
+#: shared/common/elm/Common/Components/FormGroup.elm:786
 msgid "The version number is in format X.Y.Z. Increasing number Z indicates only some fixes, number Y minor changes, and number X indicates a major change."
 msgstr "Označení verze je ve formátu X.Y.Z, kde vyšší číslo Z značí pouze opravy chyb, číslo Y menší změny a číslo X velké změny."
+
+#: shared/common/elm/Common/Components/TypeHintInput.elm:360
+msgid "No results matching your search were found."
+msgstr "Žádné výsledky nevyhovují vyhledávání."
 
 #: shared/common/elm/Common/Data/Role.elm:164
 msgid "Admin"
@@ -6814,36 +6869,36 @@ msgstr "Opravdu chcete přeskočit průvodce?"
 msgid "You can reset tours in user settings"
 msgstr "Průvodce můžete resetovat v uživatelském nastavení"
 
-#: shared/common/elm/Common/Utils/Form.elm:24
-#: shared/common/elm/Common/Utils/Form.elm:27
+#: shared/common/elm/Common/Utils/Form.elm:26
+#: shared/common/elm/Common/Utils/Form.elm:29
 msgid "%s cannot be empty."
 msgstr "%s nemůže být prázdné."
 
-#: shared/common/elm/Common/Utils/Form.elm:30
+#: shared/common/elm/Common/Utils/Form.elm:32
 msgid "This is not a valid email."
 msgstr "Toto není platný email."
 
-#: shared/common/elm/Common/Utils/Form.elm:33
+#: shared/common/elm/Common/Utils/Form.elm:35
 msgid "This is not a valid number."
 msgstr "Toto není platné číslo."
 
-#: shared/common/elm/Common/Utils/Form.elm:36
+#: shared/common/elm/Common/Utils/Form.elm:38
 msgid "This should not be less than %s."
 msgstr "Toto by mělo být méně než %s."
 
-#: shared/common/elm/Common/Utils/Form.elm:39
+#: shared/common/elm/Common/Utils/Form.elm:41
 msgid "This should not be more than %s."
 msgstr "Toto by mělo být více než %s."
 
-#: shared/common/elm/Common/Utils/Form.elm:44
+#: shared/common/elm/Common/Utils/Form.elm:46
 msgid "Passwords do not match!"
 msgstr "Hesla se neshodují!"
 
-#: shared/common/elm/Common/Utils/Form.elm:47
+#: shared/common/elm/Common/Utils/Form.elm:49
 msgid "This is not a valid UUID."
 msgstr "Toto není validní UUID."
 
-#: shared/common/elm/Common/Utils/Form.elm:56
+#: shared/common/elm/Common/Utils/Form.elm:58
 msgid "Invalid value."
 msgstr "Neplatná hodnota."
 

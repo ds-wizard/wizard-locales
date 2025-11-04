@@ -5,7 +5,17 @@
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-11-03 06:10+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-v4-23/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
+msgstr ""
+"Project-Id-Version: wizard-client:4.18.0\n"
+"POT-Creation-Date: 2025-11-04T08:31:11.810Z \n"
+"PO-Revision-Date: 2025-11-03 06:10+0000\n"
+"Last-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\n"
+"Language-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-v4-23/client/zh_Hant/>\n"
+"Language: zh_Hant\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -164,14 +174,14 @@ msgstr "留言"
 msgid "edit"
 msgstr "編輯"
 
-#: app-wizard/elm/Wizard/Api/Models/QuestionnaireQuestionnaire.elm:499
+#: app-wizard/elm/Wizard/Api/Models/QuestionnaireQuestionnaire.elm:515
 msgid "Item"
 msgstr "項目"
 
-#: app-wizard/elm/Wizard/Api/Models/QuestionnaireQuestionnaire.elm:513
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3783
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4256
-#: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:252
+#: app-wizard/elm/Wizard/Api/Models/QuestionnaireQuestionnaire.elm:529
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3897
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4370
+#: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:225
 msgid "Item %s"
 msgstr "項目 %s"
 
@@ -193,8 +203,8 @@ msgstr "關閉並同意"
 
 #: app-wizard/elm/Wizard/Components/CopyableCodeBlock.elm:48
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:826
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4604
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2427
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4709
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2464
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:468
 msgid "Copied!"
 msgstr "複製完成！"
@@ -236,7 +246,7 @@ msgstr "無法上傳部分檔案。"
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:373
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:450
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:378
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:103
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:99
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:214
 #: shared/common/elm/Common/Utils/Driver.elm:116
 msgid "Done"
@@ -246,18 +256,19 @@ msgstr "完成"
 #: app-wizard/elm/Wizard/Components/FormActions.elm:23
 #: app-wizard/elm/Wizard/Components/FormActions.elm:31
 #: app-wizard/elm/Wizard/Components/FormActions.elm:39
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2939
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3147
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3174
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3039
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3251
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3281
 #: app-wizard/elm/Wizard/Components/Questionnaire/FileUploadModal.elm:226
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:389
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1499
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:266
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3400
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3481
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3511
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3592
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:394
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:127
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:123
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:119
+#: shared/common/elm/Common/Components/Form.elm:87
 #: shared/common/elm/Common/Components/Modal.elm:216
 msgid "Cancel"
 msgstr "取消"
@@ -269,8 +280,8 @@ msgstr "取消"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:168
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/RegistryImport/View.elm:53
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:44
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2110
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3521
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2147
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3632
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:123
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:53
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/View.elm:53
@@ -284,16 +295,18 @@ msgid "Import"
 msgstr "匯入"
 
 #: app-wizard/elm/Wizard/Components/FormActions.elm:63
+#: shared/common/elm/Common/Components/Form.elm:260
 msgid "You have unsaved changes."
 msgstr "您有尚未儲存的變更。"
 
 #: app-wizard/elm/Wizard/Components/FormActions.elm:75
 #: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:173
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:80
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:90
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:146
 #: app-wizard/elm/Wizard/Pages/Public/ForgottenPasswordConfirmation/View.elm:45
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:42
 #: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:42
+#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:27
 #: app-wizard/elm/Wizard/Pages/Settings/KnowledgeModels/View.elm:32
 #: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:27
 #: app-wizard/elm/Wizard/Pages/Settings/PrivacyAndSupport/View.elm:29
@@ -304,6 +317,7 @@ msgstr "您有尚未儲存的變更。"
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Password.elm:115
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:223
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/SubmissionSettings.elm:226
+#: shared/common/elm/Common/Components/Form.elm:240
 msgid "Save"
 msgstr "儲存"
 
@@ -324,7 +338,7 @@ msgid "Last"
 msgstr "最後一個"
 
 #: app-wizard/elm/Wizard/Components/Listing/View.elm:432
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2703
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2803
 #: shared/common/elm/Common/Utils/Driver.elm:114
 msgid "Next"
 msgstr "下一個"
@@ -395,7 +409,7 @@ msgid "Editors"
 msgstr "編輯器"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:111
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2049
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2086
 msgid "Secrets"
 msgstr "密鑰"
 
@@ -417,7 +431,7 @@ msgid "Projects"
 msgstr "專案"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:163
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:137
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:147
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:353
 msgid "Files"
 msgstr "檔案"
@@ -429,7 +443,7 @@ msgid "Documents"
 msgstr "文件"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:175
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2053
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2090
 msgid "Actions"
 msgstr "操作"
 
@@ -440,11 +454,11 @@ msgstr "匯入器"
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:212
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:227
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:125
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:155
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:165
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:116
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:186
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:200
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:204
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:314
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:315
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:362
 #: app-wizard/elm/Wizard/Pages/Registry/RegistrySignupConfirmation/View.elm:31
 msgid "Settings"
@@ -458,7 +472,7 @@ msgstr "管理"
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:237
 #: app-wizard/elm/Wizard/Components/UsageTable.elm:18
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:142
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:585
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:587
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:502
 #: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:31
 msgid "Users"
@@ -537,7 +551,7 @@ msgstr "回報問題"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:811
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:861
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2228
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2290
 #: shared/common/elm/Common/Components/Modal.elm:287
 msgid "OK"
 msgstr "OK"
@@ -559,7 +573,7 @@ msgstr "API 說明文件"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:275
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:227
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:126
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:168
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:167
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:160
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:45
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:163
@@ -652,204 +666,209 @@ msgstr "匿名大樹"
 msgid "Anonymous Cowboy"
 msgstr "匿名牛仔"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:980
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:996
 msgid "Unable to delete file."
 msgstr "無法刪除檔案。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1086
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1095
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1102
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1111
 msgid "Unable to get version history."
 msgstr "無法取得版本紀錄。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1445
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1458
 #: app-wizard/elm/Wizard/Pages/Comments/Update.elm:35
 msgid "Unable to get comments."
 msgstr "無法取得留言。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1456
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1469
 #: app-wizard/elm/Wizard/Pages/ProjectActions/Index/Update.elm:70
 msgid "Unable to get project actions."
 msgstr "無法取得專案操作項目。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1468
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1481
 #: app-wizard/elm/Wizard/Pages/ProjectImporters/Index/Update.elm:70
 msgid "Unable to get project importers."
 msgstr "無法取得專案匯入工具。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1729
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1748
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1760
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1779
 msgid "Unable to get type hints."
 msgstr "無法取得類別提示。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1979
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2016
 msgid "View"
 msgstr "檢視"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1986
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2023
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:336
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:214
 msgid "Show all"
 msgstr "顯示全部"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1989
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2026
 msgid "Hide all"
 msgstr "隱藏全部"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1993
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2030
 msgid "Answered by"
 msgstr "回答者"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1998
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:795
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2035
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:802
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:177
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:438
 #, fuzzy
 msgid "Phases"
 msgstr "階段"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2003
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2040
 msgid "Question tags"
 msgstr "問題標籤"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2008
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2045
 #, fuzzy
 msgid "Non-desirable questions"
 msgstr "不適宜的問題"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2013
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2050
 msgid "Metric values"
 msgstr "指標值"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2026
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2063
 msgid "Import replies"
 msgstr "匯入回覆"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2130
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2165
+msgid "Search"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2191
 msgid "TODOs"
 msgstr "待辦項目"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2151
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2814
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2815
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4532
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2212
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2914
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2915
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4637
 msgid "Comments"
 msgstr "留言"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2162
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:552
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2223
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:553
 msgid "Warnings"
 msgstr "警告"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2176
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2237
 msgid "Version history"
 msgstr "版本紀錄"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2210
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2272
 msgid "Action succeeded!"
 msgstr "操作成功！"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2215
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2277
 msgid "Action failed!"
 msgstr "操作失敗！"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2289
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2381
 msgid "Current phase"
 msgstr "目前階段"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2348
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2434
 msgid "Select phase"
 msgstr "選擇階段"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2476
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2576
 msgid "All TODOs have been completed."
 msgstr "所有待辦項目皆已完成。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2594
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2694
 msgid "Click the %s icon to add new comments to a question."
 msgstr "點選 %s 圖示以新增留言至問題中。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2618
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2718
 msgid "View resolved comments"
 msgstr "查看已解決的留言"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2669
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2769
 msgid "Resolved and unresolved comments"
 msgstr "已解決與尚未解決的留言"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2672
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2772
 msgid "Unresolved comments"
 msgstr "尚未解決的留言"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2696
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2796
 #: shared/common/elm/Common/Utils/Driver.elm:115
 msgid "Previous"
 msgstr "前一個"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2725
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2825
 msgid "Editor notes are only visible to project Editors and Owners."
 msgstr "編輯者備註僅專案編輯者與擁有者可見。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2750
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2850
 msgid "Comment"
 msgstr "留言"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2751
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2851
 msgid "Create a new comment..."
 msgstr "新增新的留言..."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2827
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2828
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2927
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2928
 msgid "Editor notes"
 msgstr "編輯者備註"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2846
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2946
 msgid "Delete this comment thread?"
 msgstr "要刪除這則留言串嗎？"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2859
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2959
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:126
 msgid "Reply"
 msgstr "回覆"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2860
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2960
 msgid "Reply..."
 msgstr "回覆…"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2877
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2977
 msgid "Assigned to you"
 msgstr "被指派給你的"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2882
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2982
 msgid "Assigned to %s"
 msgstr "被指派給 % 的"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2934
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3017
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3034
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3117
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:99
 #: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:148
 msgid "Edit"
 msgstr "編輯"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2950
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3050
 msgid "Delete this comment?"
 msgstr "確定要刪除這個評論嗎？"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2974
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3074
 msgid "Resolve comment thread"
 msgstr "將留言串標記為已解決"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3001
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3101
 msgid "Remove assignment"
 msgstr "移除指派項目"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3009
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3109
 msgid "Reopen"
 msgstr "重啟"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3027
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3173
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3723
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4372
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4682
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3127
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3280
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3837
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4477
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4787
 #: app-wizard/elm/Wizard/Components/Questionnaire/DeleteVersionModal.elm:131
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:238
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:351
@@ -862,10 +881,10 @@ msgstr "重啟"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:370
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:195
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/DeleteModal.elm:104
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3238
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3394
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1312
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:251
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3349
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3505
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1309
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:250
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:226
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:146
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:276
@@ -891,259 +910,263 @@ msgstr "重啟"
 msgid "Delete"
 msgstr "刪除"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3065
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3165
 msgid "edited"
 msgstr "編輯過的"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3086
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3186
 #: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:557
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:96
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:96
 msgid "Anonymous user"
 msgstr "匿名使用者"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3225
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3332
 msgid "This chapter contains no questions."
 msgstr "這個章節沒有任何題目。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3228
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3335
 msgid "There are no questions matching the selected question tags."
 msgstr "沒有符合所選問題標籤的問題。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3241
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3703
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3348
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3817
 msgid "There are no questions in this phase."
 msgstr "這個階段沒有任何題目。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3295
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3405
 msgid "Previous chapter"
 msgstr "前一個章節"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3300
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3410
 msgid "Next chapter"
 msgstr "下一個章節"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3413
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3523
 msgid "anonymous user"
 msgstr "匿名使用者"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3425
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3535
 msgid "Answered %s by %s."
 msgstr "%s 已由 %s 回答。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3450
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3564
 msgid "This question has been answered"
 msgstr "這個問題已經被回答了"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3453
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3567
 msgid "This question should be answered now"
 msgstr "這個問題現在應該回答"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3456
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3570
 msgid "This question can be answered later"
 msgstr "這個問題可以之後再回答"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3528
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3642
 msgid "Clear answer"
 msgstr "清除答案"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3561
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3675
 msgid "There are no follow up questions in this phase."
 msgstr "此階段沒有後續問題。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3577
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3691
 msgid "Expand"
 msgstr "展開"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3582
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3696
 msgid "%s %s follow up question"
 msgid_plural "%s %s follow up questions"
 msgstr[0] "%s %s 後續問題"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3592
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3814
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3706
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3928
 msgid "Collapse"
 msgstr "收合"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3626
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3740
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:67
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:102
 msgid "Expand all"
 msgstr "全部展開"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3633
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3747
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:71
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:109
 msgid "Collapse all"
 msgstr "全部收合"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3646
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3760
 msgid "There are no answers yet."
 msgstr "尚無任何答案。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3671
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3785
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1082
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1325
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:506
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1322
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:514
 msgid "Add"
 msgstr "新增"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3695
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3809
 msgid "This item contains no questions."
 msgstr "此項目沒有任何需回答的問題。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3736
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3850
 msgid "Move up"
 msgstr "上移"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3749
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3863
 msgid "Move down"
 msgstr "下移"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3776
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3890
 #, fuzzy
 msgid "Used in item select questions:"
 msgstr "使用於選擇項目的問題："
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3892
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4006
 msgid "This is not a valid email address."
 msgstr "這不是一個有效的電子郵件地址。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3897
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4011
 msgid "This is not a valid URL."
 msgstr "這不是一個有效的連結。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3905
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4019
 msgid "This is not a valid color."
 msgstr "這不是一個有效的顏色。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4030
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4144
 msgid "Select"
 msgstr "選擇"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4104
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4136
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4218
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4250
 msgid "There are no results for your search."
 msgstr "沒有符合的搜尋結果。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4113
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4145
-#: app-wizard/elm/Wizard/Components/TypeHintInput.elm:285
-#: shared/common/elm/Common/Components/Flash.elm:47
-#: shared/common/elm/Common/Components/Page.elm:52
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4227
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4259
+#: shared/common/elm/Common/Components/Flash.elm:49
+#: shared/common/elm/Common/Components/Page.elm:43
+#: shared/common/elm/Common/Components/TypeHintInput.elm:368
 msgid "Loading..."
 msgstr "載入中..."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4279
-msgid "Create them now."
-msgstr "立即建立它們。"
-
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4284
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4384
 msgid "There are no items to select from yet."
 msgstr "尚無可選項目。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4298
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4389
+msgid "Create them now."
+msgstr "立即建立它們。"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4403
 msgid "This question does not have any configured list options to select from."
 msgstr "此問題尚未有任何可供選擇的清單選項。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4316
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4421
 msgid "- select -"
 msgstr "- 選擇 -"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4323
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4428
 msgid "Go to item"
 msgstr "前往此項目"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4336
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4441
 msgid "The selected item was deleted."
 msgstr "所選擇的項目已被刪除。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4380
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4485
 msgid "The file was deleted."
 msgstr "檔案已被刪除。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4403
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4508
 msgid "Upload file"
 msgstr "上傳檔案"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4469
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4574
 msgid "This option leads to some follow up questions."
 msgstr "此選項延伸出一些後續問題。"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4523
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4628
 msgid "1 comment"
 msgid_plural "%s comments"
 msgstr[0] "%s 留言"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4557
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4662
 msgid "TODO"
 msgstr "待辦項目"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4558
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4663
 msgid "Remove TODO"
 msgstr "移除待辦項目"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4568
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4673
 msgid "Add TODO"
 msgstr "新增待辦項目"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4590
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4695
 #: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:147
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:106
 msgid "Feedback"
 msgstr "回饋"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4607
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4712
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:490
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:261
 msgid "Copy link"
 msgstr "複製連結"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4631
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4736
 msgid "There are some item select questions using this item:"
 msgstr "有些題目使用了此項目："
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4642
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4747
 msgid "Are you sure you want to remove this item?"
 msgstr "你確定要移除這個項目嗎？"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4647
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4752
 msgid "Remove item"
 msgstr "移除項目"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4650
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4755
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:402
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:553
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:638
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:554
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:640
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:181
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:104
 msgid "Remove"
 msgstr "移除"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4675
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4780
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:161
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:290
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/AppKeys.elm:175
 msgid "Are you sure you want to delete %s?"
 msgstr "你確定要刪除 %s 嗎？"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4679
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4784
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:158
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:161
 msgid "Delete file"
 msgstr "刪除檔案"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:199
+#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:243
 #, fuzzy
 msgid "Desirable"
 msgstr "合意的"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:281
+#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:325
 msgid "External links"
 msgstr "外部連結"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:300
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1198
+#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:344
+msgid "Related questions"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:369
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1223
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1307
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1415
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1512
@@ -1198,12 +1221,12 @@ msgid "If you found something wrong with the question, you can send us your reco
 msgstr "如果你發現這個題目有問題，歡迎提供能改善的建議給我們。"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:180
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:916
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1144
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1597
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1669
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3048
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3117
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:935
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1166
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1634
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1706
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3156
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3228
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:486
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:507
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:532
@@ -1223,8 +1246,8 @@ msgstr "如果你發現這個題目有問題，歡迎提供能改善的建議給
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2285
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2304
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2326
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:142
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:169
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:137
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:164
 msgid "Title"
 msgstr "標題"
 
@@ -1232,11 +1255,12 @@ msgstr "標題"
 #: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:157
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:133
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:286
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1613
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1677
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1737
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1650
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1714
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1774
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3041
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:124
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:190
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:179
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:488
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:509
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:534
@@ -1253,7 +1277,7 @@ msgstr "標題"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2110
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:82
 #: app-wizard/elm/Wizard/Pages/Locales/Create/View.elm:42
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:410
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:413
 #: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:49
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:109
 msgid "Description"
@@ -1350,11 +1374,49 @@ msgstr "未知階段"
 msgid "Set phase to %s"
 msgstr "將階段設定為 %s"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:84
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:761
+#: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:52
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:762
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:411
 msgid "Chapters"
 msgstr "章節"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:174
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:923
+msgid "Chapter"
+msgstr "章節"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:205
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1109
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3015
+msgid "Question"
+msgstr "問題"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:208
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2714
+msgid "Answer"
+msgstr "回答"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:211
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2814
+msgid "Choice"
+msgstr "選項"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:214
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2876
+msgid "Reference"
+msgstr "參考來源"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:282
+msgid "No results"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:292
+msgid "Search in questionnaire..."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:296
+msgid "Results for: %s"
+msgstr ""
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/UserSuggestionDropdown.elm:106
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:223
@@ -1380,7 +1442,7 @@ msgstr "搜尋使用者..."
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:156
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:117
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:89
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:90
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:132
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:285
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:393
@@ -1389,12 +1451,12 @@ msgstr "搜尋使用者..."
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:501
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:53
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:74
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:93
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1729
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2609
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2983
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:94
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1766
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2646
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3091
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:123
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:189
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:178
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:71
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:613
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:635
@@ -1420,9 +1482,9 @@ msgstr "搜尋使用者..."
 #: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:62
 #: app-wizard/elm/Wizard/Pages/ProjectActions/Index/View.elm:45
 #: app-wizard/elm/Wizard/Pages/ProjectImporters/Index/View.elm:45
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:56
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:308
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:409
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:62
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:312
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:412
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:107
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:134
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:205
@@ -1438,10 +1500,10 @@ msgid "Rename version"
 msgstr "重新命名版本"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:166
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:79
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:83
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:80
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:84
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:61
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:99
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:100
 msgid "New version"
 msgstr "新版本"
 
@@ -1480,8 +1542,8 @@ msgid "Answered (current phase): %s/%s"
 msgstr "已回答（現階段）：%s/%s"
 
 #: app-wizard/elm/Wizard/Components/SummaryReport.elm:162
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:778
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1203
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:782
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1200
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:423
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1549
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1600
@@ -1492,7 +1554,7 @@ msgid "Metrics"
 msgstr "指標"
 
 #: app-wizard/elm/Wizard/Components/SummaryReport.elm:163
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1198
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1195
 msgid "Measure"
 msgstr "測量"
 
@@ -1509,8 +1571,8 @@ msgid "Untitled question tag"
 msgstr "未命名的問題標籤"
 
 #: app-wizard/elm/Wizard/Components/Tag.elm:107
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:812
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1172
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:822
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1194
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:186
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:453
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1107
@@ -1544,12 +1606,8 @@ msgstr "此知識模型沒有任何問題標籤。"
 msgid "All questions are used."
 msgstr "所有問題皆已使用。"
 
-#: app-wizard/elm/Wizard/Components/TypeHintInput.elm:277
-msgid "No results matching your search were found."
-msgstr "沒有符合您搜尋條件的結果。"
-
-#: app-wizard/elm/Wizard/Components/TypeHintInput/TypeHintItem.elm:100
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:537
+#: app-wizard/elm/Wizard/Components/TypeHintInput/TypeHintInputItem.elm:94
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:538
 msgid "private"
 msgstr "非公開的"
 
@@ -1595,9 +1653,9 @@ msgstr "前往應用程式"
 #: app-wizard/elm/Wizard/Layouts/Layout.elm:108
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:44
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:47
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:79
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:75
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:103
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:107
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:111
 msgid "Sign Up"
 msgstr "註冊"
 
@@ -1635,8 +1693,8 @@ msgid "Search comments..."
 msgstr "搜尋留言..."
 
 #: app-wizard/elm/Wizard/Pages/Comments/View.elm:56
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:374
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:84
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:376
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:85
 msgid "Project"
 msgstr "專案"
 
@@ -1655,8 +1713,8 @@ msgstr "無法取得使用狀態。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Dashboards/AdminDashboard.elm:120
 #: app-wizard/elm/Wizard/Pages/Dashboard/Dashboards/DataStewardDashboard.elm:96
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:157
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:152
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:162
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:157
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/Update.elm:110
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:253
 msgid "Unable to get Knowledge Models."
@@ -1666,8 +1724,8 @@ msgstr "無法取得知識模型。"
 #: app-wizard/elm/Wizard/Pages/Dashboard/Dashboards/DataStewardDashboard.elm:107
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/Update.elm:85
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/Update.elm:114
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:227
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:234
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:230
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:235
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/Update.elm:40
 msgid "Unable to get document templates."
 msgstr "無法取得文件模板。"
@@ -1776,17 +1834,17 @@ msgstr "專案模板是一種特殊類型的專案，可作為建立新專案的
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/CreateKnowledgeModelWidget.elm:17
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/CreateProjectTemplateWidget.elm:17
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/CreateProjectWidget.elm:17
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:46
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:43
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:122
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:168
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:46
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:43
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:51
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:125
 #: app-wizard/elm/Wizard/Pages/Locales/Create/View.elm:55
 #: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:156
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:60
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:105
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:291
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:51
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:106
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:292
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:84
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:224
 #: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:43
@@ -1802,7 +1860,7 @@ msgid "Project template is a special type of project that can be used as a start
 msgstr "專案模板是一種特殊類型的專案，可作為建立新專案的起點。您可以選擇知識模型，設定文件模板與格式，或預先填入部分回答，讓研究人員更容易開始。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/CreateProjectWidget.elm:13
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:47
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:46
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:91
 msgid "Create Project"
 msgstr "建立專案"
@@ -1812,7 +1870,10 @@ msgid ""
 "Project is a workspace where you create your DMP. It is based on a knowledge model, which contains knowledge about what should be asked and how based on the research field or organization's needs. You can use document templates to transform the answers into a document. This document can be anything, from PDF to machine-actionable JSON.\n"
 "\n"
 "You can create a new project from a project template that data stewards prepare for you to have an easier start or from scratch where you set up everything yourself."
-msgstr "專案（Project）是用來建立您的 資料管理方案（DMP） 的工作空間。它以知識模型（knowledge model）為基礎；知識模型會依據研究領域或組織的需求，定義「應該詢問哪些問題，以及如何提問」。您可以套用文件模板（document template），將回答轉換成文件；文件格式不限，從 PDF 到可由機器可操作的 JSON 皆可。\n\n您可以從資料管理員預先準備的專案模板（project template）建立新專案，讓起步更容易；或是從頭開始，由您自行完成所有設定。"
+msgstr ""
+"專案（Project）是用來建立您的 資料管理方案（DMP） 的工作空間。它以知識模型（knowledge model）為基礎；知識模型會依據研究領域或組織的需求，定義「應該詢問哪些問題，以及如何提問」。您可以套用文件模板（document template），將回答轉換成文件；文件格式不限，從 PDF 到可由機器可操作的 JSON 皆可。\n"
+"\n"
+"您可以從資料管理員預先準備的專案模板（project template）建立新專案，讓起步更容易；或是從頭開始，由您自行完成所有設定。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ImportDocumentTemplateWidget.elm:16
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/View.elm:54
@@ -1952,7 +2013,7 @@ msgstr "點擊以下載文件"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:202
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1428
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:436
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:438
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:116
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:169
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:189
@@ -1990,7 +2051,7 @@ msgstr "進行中"
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:293
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:277
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:295
-#: shared/common/elm/Common/Components/Page.elm:60
+#: shared/common/elm/Common/Components/Page.elm:51
 msgid "Error"
 msgstr "錯誤"
 
@@ -2064,37 +2125,37 @@ msgstr "文件錯誤"
 msgid "Submission error"
 msgstr "提交錯誤"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:78
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:83
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/Update.elm:33
 msgid "Unable to get the document template."
 msgstr "無法取得文件模板。"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:142
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:147
 msgid "Document template could not be created."
 msgstr "文件模板無法建立。"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:40
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:38
 msgid "Create Document Template"
 msgstr "建立文件模板"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:90
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:91
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:287
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/RegistryImport/View.elm:49
 msgid "Document Template ID"
 msgstr "文件範本 ID"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:91
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:92
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:288
 msgid "Document template ID can only contain alphanumeric characters, hyphens, underscores, and dots."
 msgstr "文件範本 ID 僅能包含英數字元、連字號 \"-\"、底線 \"_\"，和句號 \".\"。"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:93
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:97
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:94
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:98
 #, fuzzy
 msgid "Based on"
 msgstr "基於"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:94
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:95
 msgid "You can create a new document template based on the existing one or start from scratch."
 msgstr "您可以在既有的文件模板基礎上建立新的，或從頭開始。"
 
@@ -2123,7 +2184,7 @@ msgid "Folder"
 msgstr "資料夾"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1095
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1076
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1098
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:35
 msgid "File"
 msgstr "檔案"
@@ -2137,9 +2198,9 @@ msgstr "重新命名"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1127
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:204
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:208
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3223
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3462
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3475
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3334
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3573
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3586
 msgid "Move"
 msgstr "移動"
 
@@ -2210,39 +2271,39 @@ msgstr "無法取得知識模型編輯器。"
 msgid "Unable to get the document preview."
 msgstr "無法取得文件預覽。"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:324
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:325
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:595
 msgid "Open project"
 msgstr "開啟專案"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:348
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:350
 msgid "Open KM editor"
 msgstr "開啟知識模型編輯器"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:384
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:386
 msgid "KM editor"
 msgstr "知識模型編輯器"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:392
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:316
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:394
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:320
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:144
 msgid "Format"
 msgstr "格式"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:406
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:408
 msgid "Preview not set"
 msgstr "預覽尚未就緒"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:407
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:409
 msgid "Select a project or knowledge model editor and format you want to preview."
 msgstr "選擇一個專案或知識模型編輯器，以及您希望預覽的格式。"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:430
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:432
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:163
 msgid "Download preview"
 msgstr "下載預覽"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:432
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:434
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:165
 msgid "The document format cannot be displayed in the web browser. You can still download and view it."
 msgstr "無法於網頁瀏覽器顯示此文件格式。您仍然可以下載並瀏覽它。"
@@ -2263,7 +2324,7 @@ msgstr "模板 ID"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:290
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:229
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:127
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:194
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:183
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:75
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:162
 #: app-wizard/elm/Wizard/Pages/Locales/Create/View.elm:47
@@ -2274,7 +2335,7 @@ msgstr "授權條款"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:137
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:291
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:128
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:195
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:184
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:84
 #: app-wizard/elm/Wizard/Pages/Locales/Create/View.elm:48
 msgid "Readme"
@@ -2282,7 +2343,7 @@ msgstr "讀我檔案"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:141
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:145
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:114
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:124
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:132
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:136
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:128
@@ -2310,14 +2371,14 @@ msgstr "格式"
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:43
 #: app-wizard/elm/Wizard/Pages/Settings/KnowledgeModels/View.elm:50
 #: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:50
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:144
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:140
 msgid "Organization ID"
 msgstr "組織 ID"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:305
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:94
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:95
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:125
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:191
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:180
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:72
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:44
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/View.elm:49
@@ -2351,19 +2412,19 @@ msgstr "新增格式"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:409
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:202
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:140
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:166
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:135
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:161
 msgid "Icon"
 msgstr "圖示"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:413
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:146
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:398
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:524
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:156
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:397
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:522
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:195
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:62
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:328
-#: shared/common/elm/Common/Components/FormGroup.elm:592
+#: shared/common/elm/Common/Components/FormGroup.elm:591
 msgid "Preview"
 msgstr "預覽"
 
@@ -2376,7 +2437,7 @@ msgid "Add step"
 msgstr "新增步驟"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:465
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1070
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1092
 msgid "Options"
 msgstr "單選"
 
@@ -2387,14 +2448,14 @@ msgstr "新增選項"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:481
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:504
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1072
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:679
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:853
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:867
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:881
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:895
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:904
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:913
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1094
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:677
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:850
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:864
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:878
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:892
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:901
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:910
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:118
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:139
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:242
@@ -2406,7 +2467,7 @@ msgid "Value"
 msgstr "文字"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:526
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1950
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1987
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:160
 msgid "Quick setup"
 msgstr "快速設定"
@@ -2420,11 +2481,11 @@ msgstr "還有尚未儲存的變更。"
 msgid "Unable to get document template"
 msgstr "無法取得文件模板。"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:96
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:106
 msgid "Discard"
 msgstr "捨棄"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:100
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:110
 msgid "unsaved changes"
 msgstr "尚未儲存的變更"
 
@@ -2535,7 +2596,7 @@ msgid "This document template is not supported in the current version."
 msgstr "目前版本不支援此文件模版。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:226
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2597
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2634
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:710
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:739
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:809
@@ -2555,7 +2616,7 @@ msgid "Metamodel"
 msgstr "後設模型"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:232
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:349
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:353
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:141
 msgid "Document Template"
 msgstr "文件模板"
@@ -2653,7 +2714,7 @@ msgid "Migration could not be created."
 msgstr "無法建立移轉（migration）。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:117
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:73
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:78
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:33
 msgid "Unable to get the Knowledge Model."
 msgstr "無法取得知識模型。"
@@ -2671,30 +2732,30 @@ msgid "New parent knowledge model"
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:164
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:549
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:557
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:636
 msgid "Create migration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:137
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:142
 msgid "Knowledge model could not be created."
 msgstr "無法建立知識模型。"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:40
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:38
 msgid "Create knowledge model"
 msgstr "建立知識模型"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:95
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:192
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:96
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:181
 msgid "Knowledge model ID can only contain alphanumeric characters, hyphens, underscores, and dots."
 msgstr "知識模型 ID 僅能包含英數字元、連字號 \"-\"、底線 \"_\"，和句號 \".\"。"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:98
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:99
 msgid "You can create a new knowledge model based on the existing one or start from scratch."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:363
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:769
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:451
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:773
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:206
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:165
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:315
@@ -2702,11 +2763,11 @@ msgstr ""
 msgid "Untitled chapter"
 msgstr "未命名章節"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:366
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:943
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1276
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2716
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3271
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:454
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:965
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1310
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2756
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3382
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:351
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:223
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:259
@@ -2714,36 +2775,36 @@ msgstr "未命名章節"
 msgid "Untitled question"
 msgstr "未命名問題"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:369
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:786
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:457
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:793
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:220
 #, fuzzy
 msgid "Untitled metric"
 msgstr "未命名指標"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:372
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:803
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:460
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:813
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:234
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:166
 msgid "Untitled phase"
 msgstr "未命名階段"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:375
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:820
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:463
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:833
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:248
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:176
 msgid "Untitled tag"
 msgstr "未命名標籤"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:378
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:837
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1345
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:466
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:853
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1379
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:262
 msgid "Untitled integration"
 msgstr "未命名整合"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:381
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1244
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:469
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1275
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:377
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:255
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:326
@@ -2751,261 +2812,257 @@ msgstr "未命名整合"
 msgid "Untitled answer"
 msgstr "未命名回答"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:384
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1431
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:472
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1468
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:391
 msgid "Untitled choice"
 msgstr "未命名選項"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:387
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1189
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:475
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1214
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:405
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:297
 msgid "Untitled reference"
 msgstr "未命名參考來源"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:390
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1206
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:478
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1234
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:419
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:276
 msgid "Untitled expert"
 msgstr "未命名專家"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:393
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:854
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:481
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:873
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:445
 msgid "Untitled resource collection"
 msgstr "未命名資源匯集"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:396
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2870
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3064
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:484
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2915
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3175
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:459
 msgid "Untitled resource page"
 msgstr "未命名資源頁面"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:962
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1051
 msgid "Empty title for chapter"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:991
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1080
 msgid "Empty title for question"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1000
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1089
 msgid "No answers for options question"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1009
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1098
 msgid "No item questions for list question"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1020
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1109
 msgid "No integration selected for integration question"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1034
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1123
 msgid "Missing variables for integration question"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1049
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1138
 msgid "No choices for multi-choice question"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1067
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1156
 msgid "No list question selected for item select question"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1094
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1183
 msgid "Empty label for answer"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1113
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1202
 msgid "Empty label for choice"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1133
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1222
 msgid "No resource page selected for resource page reference"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1140
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1229
 msgid "Empty URL for URL reference"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1143
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1232
 msgid "Invalid URL for URL reference"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1162
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1251
 msgid "Empty email for expert"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1165
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1254
 msgid "Invalid email for expert"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1175
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1264
 msgid "Empty title for metric"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1187
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1276
 msgid "Empty title for phase"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1199
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1288
 msgid "Empty name for tag"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1221
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1310
 msgid "Empty name for integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1228
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1317
 msgid "Empty variable name for integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1235
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1325
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1324
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1414
 msgid "Empty request URL for integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1247
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1336
 msgid "Missing {{ q }} in request URL for integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1254
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1343
 msgid "Unknown Jinja property in request URL for integration: %s"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1261
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1350
 msgid "Unknown variable in request URL for integration: %s"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1268
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1357
 msgid "Unknown secret in request URL for integration: %s"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1278
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1367
 msgid "No test data loaded for integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1289
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1378
 msgid "Response list field not found in test data for integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1292
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1381
 msgid "Response list field is not a list in test data for integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1303
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1392
 msgid "No test data success response for integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1307
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1339
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1396
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1428
 msgid "Empty response item template for integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1318
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1350
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1407
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1439
 msgid "Empty ID for integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1332
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1421
 msgid "Empty request HTTP method for integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1357
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1446
 msgid "Empty widget URL for integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1371
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1460
 msgid "Empty title for resource collection"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1392
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1481
 msgid "Empty title for resource page"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1402
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1491
 msgid "Empty content for resource page"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:378
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:379
 msgid "Unable to get test result."
 msgstr "無法取得測試結果。"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:421
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:422
 msgid "Unable to get preview."
 msgstr "無法取得預覽。"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:594
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:595
 msgid "There are no more warnings."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:716
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:717
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:168
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:71
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:177
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:135
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:103
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:207
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:540
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:137
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:106
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:214
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:548
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:579
 msgid "Knowledge Model"
 msgstr "知識模型"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:770
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:774
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:99
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:228
 msgid "Add chapter"
 msgstr "新增章節"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:787
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:794
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:111
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:164
 msgid "Add metric"
 msgstr "新增指標"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:804
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:814
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:123
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:180
 msgid "Add phase"
 msgstr "新增階段"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:821
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:834
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:135
 msgid "Add tag"
 msgstr "新增標籤"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:829
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:842
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:468
 msgid "Integrations"
 msgstr "整合"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:838
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:854
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:147
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:212
 msgid "Add integration"
 msgstr "新增整合"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:846
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:862
 msgid "Resource Collections"
 msgstr "資源匯集"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:855
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:874
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:159
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:324
 msgid "Add resource collection"
 msgstr "新增資源匯集"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:904
-msgid "Chapter"
-msgstr "章節"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:924
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1152
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1306
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:943
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1174
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1340
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:977
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:996
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1033
@@ -3016,8 +3073,8 @@ msgstr "章節"
 msgid "Text"
 msgstr "內文"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:935
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1268
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:954
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1299
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1015
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1046
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1272
@@ -3029,9 +3086,9 @@ msgstr "內文"
 msgid "Questions"
 msgstr "問題"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:944
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1277
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2717
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:966
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1311
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2757
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:199
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:296
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:370
@@ -3039,13 +3096,13 @@ msgstr "問題"
 msgid "Add question"
 msgstr "新增問題"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1071
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1093
 msgid "List of Items"
 msgstr "項目清單"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1073
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1396
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1878
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1095
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1430
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1915
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1074
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1181
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1352
@@ -3053,24 +3110,20 @@ msgstr "項目清單"
 msgid "Integration"
 msgstr "整合"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1074
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1096
 msgid "Multi-Choice"
 msgstr "多選"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1075
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1097
 msgid "Item Select"
 msgstr "項目選擇"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1083
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1105
 msgid "Never"
 msgstr "永不"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1087
-msgid "Question"
-msgstr "問題"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1099
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1890
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1121
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1927
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:682
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:709
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:738
@@ -3087,82 +3140,82 @@ msgstr "問題"
 msgid "Type"
 msgstr "類型"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1115
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1137
 msgid "Changing a question type will remove all answers."
 msgstr "更改問題類型將會刪除所有問題。"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1125
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1147
 msgid "Changing a question type will remove all item questions."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1135
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1157
 msgid "Changing a question type will remove all choices."
 msgstr "更改問題類型將會刪除所有選項。"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1163
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1185
 msgid "When does this question become desirable?"
 msgstr "何時需要回答此問題？"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1181
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1203
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1291
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1408
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1505
 msgid "References"
 msgstr "參考來源"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1190
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1215
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:320
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:292
 msgid "Add reference"
 msgstr "新增參考來源"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1207
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1235
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:332
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:308
 msgid "Add expert"
 msgstr "新增專家"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1236
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1264
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1239
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1374
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1471
 msgid "Answers"
 msgstr "答案"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1245
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1276
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:284
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:260
 msgid "Add answer"
 msgstr "新增答案"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1285
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1319
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:336
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:347
 msgid "Item Template"
 msgstr "項目模板"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1301
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1335
 msgid "String"
 msgstr "字串"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1302
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1336
 msgid "Number"
 msgstr "數字"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1303
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1337
 msgid "Date"
 msgstr "日期"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1304
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1338
 msgid "Date Time"
 msgstr "日期時間"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1305
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1339
 msgid "Time"
 msgstr "時間"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1307
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2991
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1341
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3099
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2130
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2149
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2171
@@ -3170,7 +3223,7 @@ msgstr "時間"
 #: app-wizard/elm/Wizard/Pages/Public/ForgottenPassword/View.elm:52
 #: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:85
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:143
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:147
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:143
 #: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:37
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:215
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:248
@@ -3178,9 +3231,9 @@ msgstr "時間"
 msgid "Email"
 msgstr "電子郵件"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1308
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2826
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2915
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1342
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2870
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2960
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1805
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1808
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1869
@@ -3193,21 +3246,21 @@ msgstr "電子郵件"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2088
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2091
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:191
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:144
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:172
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:139
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:167
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:232
 msgid "URL"
 msgstr "網址"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1309
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1745
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1343
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1782
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:615
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:637
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:662
 msgid "Color"
 msgstr "顏色"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1315
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1349
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1071
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1162
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1349
@@ -3215,156 +3268,156 @@ msgstr "顏色"
 msgid "Value Type"
 msgstr "數值類型"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1324
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1358
 msgid "Validations"
 msgstr "驗證"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1346
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1380
 msgid "- select integration -"
 msgstr "- 選擇整合 -"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1374
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1408
 msgid "Integration Configuration"
 msgstr "整合組態"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1390
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1424
 msgid "Go to integration"
 msgstr "前往整合"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1423
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1457
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1251
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1385
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1482
 msgid "Choices"
 msgstr "選項"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1432
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1469
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:308
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:276
 msgid "Add choice"
 msgstr "新增選項"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1470
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1507
 msgid "List Question"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1472
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1509
 msgid "- select list question -"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1484
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1521
 msgid "Go to list question"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1505
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1542
 msgid "File Types"
 msgstr "檔案類型"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1513
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1550
 msgid "Max Size (bytes)"
 msgstr "最大大小 (bytes)"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1520
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1557
 msgid "You can limit file type selection by providing comma separated list of extensions, mime types, or combination. For example, `application/pdf` or `.xls,.xlsx`."
 msgstr "您可以使用以逗號分隔的副檔名或 MIME 類型列表，以限制檔案類型。例如：`application/pdf` 或 `.xls,.xlsx`。"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1522
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1559
 msgid "Uploaded files cannot be larger than %s, but you can set a smaller limit."
 msgstr "上傳的檔案不能大於 100 MB，但您可以設定一個較小的上限。"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1530
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1567
 msgid "Item select questions using this list question"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1585
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1622
 msgid "Metric"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1605
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1642
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:487
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:508
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:533
 msgid "Abbreviation"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1657
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1694
 msgid "Phase"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1717
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1754
 msgid "Tag"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1871
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1908
 msgid "API"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1872
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1909
 msgid "API (Legacy)"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1873
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1910
 msgid "Widget"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1916
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3141
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1953
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3252
 msgid "No questions"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1966
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2003
 msgid "This integration was created from a template and now differs."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1971
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:221
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2008
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:220
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:199
 #, fuzzy
 msgid "Update"
 msgstr "已更新"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1987
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2024
 msgid "Questions using this integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2013
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2050
 msgid "Allow Custom Reply"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2017
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2054
 msgid "If enabled, users can type their own custom reply. If disabled, they must select a reply from the integration."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2022
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2632
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2059
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2669
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:684
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:771
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:892
 msgid "Variables"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2027
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2064
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the request configuration. For example, if you define a variable named *type*, you can use it as `{{ variables.type }}`, such as *ht&#8203;tps://example.com/{{ variables.type }}*."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2043
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2080
 msgid "There are no secrets configured."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2053
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2090
 msgid "Configure secrets"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2056
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2093
 msgid "Secrets can store sensitive information used for API calls, such as tokens, that you don't want to share with the knowledge models. You can use them as `{{ secrets.secret_name }}` anywhere in the request configuration."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2063
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2100
 msgid "Advanced Integration Configuration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2074
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2475
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2111
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2512
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:687
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:716
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:774
@@ -3374,12 +3427,12 @@ msgstr ""
 msgid "Request HTTP Headers"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2078
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2115
 msgid "HTTP headers to include in the API request. You can use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2081
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2483
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2118
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2520
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:688
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:717
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:775
@@ -3389,80 +3442,80 @@ msgstr ""
 msgid "Request HTTP Body"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2085
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2122
 msgid "Optional request body of the API request. You can again use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2088
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2491
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2125
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2528
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:689
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:776
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:897
 msgid "Allow Empty Search"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2092
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2129
 msgid "If enabled, the API request will be sent even if the user does not enter a search term. This is useful for APIs that return a default set of results when no search term is provided."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2098
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2135
 msgid "Advanced Request Configuration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2107
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2525
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2144
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2562
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:229
 msgid "Request"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2108
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2145
 msgid "Import from cURL string"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2126
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2163
 msgid "Enter request URL..."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2130
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2167
 msgid "The full API endpoint used for search. Use `{{ q }}` to insert the user's search term (for example, *https://example.com/search?q={{ q }}*), and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2154
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2191
 msgid "Test Variables"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2194
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2231
 msgid "Request Details"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2222
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2259
 msgid "This content type is not supported."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2250
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2394
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2540
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2287
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2431
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2577
 msgid "Response"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2275
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2312
 msgid "Test"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2279
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2316
 msgid "Test Search Query"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2283
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2320
 msgid "This is what users would write in the questionnaire when filling in the integration question."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2286
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2323
 msgid "Load"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2333
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2507
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2370
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2544
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:690
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:718
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:777
@@ -3472,13 +3525,13 @@ msgstr ""
 msgid "Response List Field"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2339
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2544
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2376
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2581
 msgid "If the returned JSON is not an array of items directly but the items are nested, use this to define the name or path to the field in the response that contains the list of items. Keep empty otherwise."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2349
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2515
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2386
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2552
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:691
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:720
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:778
@@ -3488,30 +3541,30 @@ msgstr ""
 msgid "Response Item Template"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2367
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2404
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:692
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:779
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:900
 msgid "Response Item Template for Selection"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2385
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2422
 msgid "Advanced Response Configuration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2401
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2438
 msgid "Response is not a valid JSON."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2405
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2442
 msgid "Run a successful test to configure the response."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2430
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2467
 msgid "Click to copy code"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2458
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2495
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:686
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:715
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:773
@@ -3521,7 +3574,7 @@ msgstr ""
 msgid "Request URL"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2466
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2503
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:685
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:714
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:772
@@ -3531,86 +3584,86 @@ msgstr ""
 msgid "Request HTTP Method"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2499
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2536
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:719
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:818
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:927
 msgid "Response Item ID"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2527
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2564
 msgid "Use this section to configure the search request. The service you want to integrate has to provide a search HTTP API where you send a search string and it returns a JSON with found items."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2529
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2566
 msgid "The full API endpoint used for search. Use `${q}` to insert the user's search term (for example, *https://example.com/search?q=${q}*), and `${propName}` to reference fields defined in props."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2532
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2569
 msgid "Optional headers to include in the API request. You can use `${q}` for the search term and `${propName}` for values from props."
 msgstr "（可選）包含於 API 請求的標頭。您可以使用 `${q}` 作為搜尋詞彙，並指定 `${propName}` 為屬性。"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2534
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2571
 msgid "Optional request body for POST or PUT methods. Supports the same variables: `${q}` for the search term and `${propName}` for props."
 msgstr "（可選）用於 POST 或 PUT 方法的請求主體。支援相同的變數：`${q}` 作為搜尋詞彙，`${propName}` 用於屬性。"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2536
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2573
 msgid "Turn this off if the API cannot handle empty search requests. In that case, the requests will be made only after users type something."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2542
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2579
 msgid "Use this section to configure how to process the response returned from the search API."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2546
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2583
 msgid "Use this to define an identifier for the item. This will be used in **Item URL** as `${id}` to compose a URL to the found item. You can use properties from the returned item in Jinja2 notation. For example, if the item has a field `id` use `{{item.id}}` here. You can also compose multiple fields together, e.g., `{{item.field1}}-{{item.field2}}`."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2549
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2586
 msgid "This defines how the found items will be displayed for the user. You can use properties from the returned item in Jinja2 notation, you can also use [Markdown](%s) for some formatting. For example, if the returned item has a field called name, you can use `**{{item.name}}**` to display the name in bold."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2555
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2592
 msgid "Defines the URL to the selected item. Use `${id}` to get the value defined in **Response Item ID** field, for example `https://example.com/${id}`."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2577
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2614
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:743
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:855
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:951
 msgid "Widget URL"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2587
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2624
 msgid "The URL of the widget implemented using [DSW Integration SDK](https://github.com/ds-wizard/dsw-integration-sdk)."
 msgstr "使用 [DSW 整合軟體開發套件](https://github.com/ds-wizard/dsw-integration-sdk) 實作的小工具網址。"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2589
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2626
 msgid "Defines the URL to the selected item. Use `${id}` value returned from the widget, for example `https://example.com/${id}`."
 msgstr "定義選取項目的網址。使用 `${id}` 作為來自小工具的回傳值，例如：`https://example.com/${id}`。"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2601
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2638
 msgid "A string that identifies the integration. It has to be unique for each integration."
 msgstr "一個用於識別整合的字串。必須在每個整合中都是唯一的。"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2613
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2650
 msgid "A name visible everywhere else in the knowledge model Editor, such as when choosing the integration for a question."
 msgstr "一個可於知識模型編輯器中隨處見到的名字，例如為一個問題選擇整合時。"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2621
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2658
 msgid "Logo URL"
 msgstr "標誌網址"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2625
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2662
 #, fuzzy
 msgid "Logo is displayed next to the link to the selected item in questionnaires. It can be either URL or base64 image."
 msgstr "標誌將顯示於問卷選項連結旁。可以是網址或 base64 圖片。"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2637
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2674
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the URL configuration. For example, if you define a variable named *type*, you can use it as `${type}`, such as *ht&#8203;tps://example.com/${type}*."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2645
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2682
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:713
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:742
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:812
@@ -3620,13 +3673,9 @@ msgstr ""
 msgid "Item URL"
 msgstr "項目網址"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2677
-msgid "Answer"
-msgstr "回答"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2689
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2786
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2923
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2726
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2826
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2968
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1541
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1567
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1618
@@ -3643,7 +3692,7 @@ msgstr "回答"
 msgid "Label"
 msgstr "名稱"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2697
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2734
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1542
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1568
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1619
@@ -3651,17 +3700,13 @@ msgstr "名稱"
 msgid "Advice"
 msgstr "建議"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2708
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2745
 msgid "Follow-Up Questions"
 msgstr "跟進式提問"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2774
-msgid "Choice"
-msgstr "選項"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2825
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2885
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3105
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2869
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2930
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3216
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1788
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1851
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1854
@@ -3671,11 +3716,17 @@ msgstr "選項"
 msgid "Resource Page"
 msgstr "資源頁面"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2831
-msgid "Reference"
-msgstr "參考來源"
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2871
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1829
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1895
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1899
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1974
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2043
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2112
+msgid "Cross Reference"
+msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2843
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2888
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1785
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1804
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1825
@@ -3694,32 +3745,40 @@ msgstr "參考來源"
 msgid "Reference Type"
 msgstr "參考來源類型"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2887
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2932
 msgid "- select resource page -"
 msgstr "- 選擇資源頁面 -"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2971
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3017
+msgid "- select related question -"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3031
+msgid "Go to related question"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3079
 #, fuzzy
 msgid "Expert"
 msgstr "專家"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3036
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3144
 msgid "Resource Collection"
 msgstr "資源匯集"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3056
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3164
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2242
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2271
 msgid "Resource Pages"
 msgstr "資源頁面"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3065
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3176
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:438
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:340
 msgid "Add resource page"
 msgstr "新增資源頁面"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3125
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3236
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2286
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2305
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2327
@@ -3727,197 +3786,197 @@ msgstr "新增資源頁面"
 msgid "Content"
 msgstr "內容"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3165
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3276
 msgid "Questions using this resource page"
 msgstr "使用此資源頁面的問題"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3176
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3287
 msgid "The knowledge model entity you are trying to open does not exist."
 msgstr "您嘗試開啟的知識模型不存在。"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3205
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3316
 msgid "Click to copy UUID"
 msgstr "點選以複製 UUID"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3298
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3409
 msgid "Are you sure you want to delete this chapter?"
 msgstr "您確定要刪除此章節嗎？"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3305
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3416
 msgid "Are you sure you want to delete this question?"
 msgstr "您確定要刪除此問題嗎？"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3312
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3423
 msgid "Are you sure you want to delete this metric?"
 msgstr "您確定要刪除此指標嗎？"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3319
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3430
 msgid "Are you sure you want to delete this phase?"
 msgstr "您確定要刪除此階段嗎？"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3326
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3437
 msgid "Are you sure you want to delete this question tag?"
 msgstr "您確定要刪除此問題標籤嗎？"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3333
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3444
 msgid "Are you sure you want to delete this integration?"
 msgstr "您確定要刪除此整合嗎？"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3340
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3451
 msgid "Are you sure you want to delete this resource collection?"
 msgstr "您確定要刪除此資源匯集嗎？"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3347
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3458
 msgid "Are you sure you want to delete this resource page?"
 msgstr "您確定要刪除此資源頁面嗎？"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3354
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3465
 msgid "Are you sure you want to delete this answer?"
 msgstr "您確定要刪除此回答嗎？"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3361
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3472
 msgid "Are you sure you want to delete this choice?"
 msgstr "您確定要刪除此選項嗎？"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3368
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3479
 msgid "Are you sure you want to delete this reference?"
 msgstr "您確定要刪除此參考來源嗎？"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3375
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3486
 msgid "Are you sure you want to delete this expert?"
 msgstr "您確定要刪除此專家嗎？"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3384
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3495
 msgid "Heads up!"
 msgstr "請注意！"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3465
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3576
 msgid "Select a new parent"
 msgstr "選取一個新的上層項目"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3511
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3622
 msgid "Paste your cURL command here..."
 msgstr "在此貼上您的 cURL 指令..."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3519
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3630
 msgid "Import from cURL"
 msgstr "自 cURL 匯入"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:390
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:389
 #: app-wizard/elm/Wizard/Pages/Projects/Common/QuestionnaireShareFormMemberPermType.elm:63
-#: shared/common/elm/Common/Components/FormGroup.elm:584
+#: shared/common/elm/Common/Components/FormGroup.elm:583
 msgid "Editor"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:404
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:403
 #: shared/common/elm/Common/Components/FormGroup.elm:496
 msgid "You can use %s and see the result in the preview tab."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:516
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:514
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:204
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:721
 msgid "Template"
 msgstr "模板"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:534
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:532
 msgid "You can use [Jinja](%s) and [Markdown](%s) to create and format the template."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:671
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:669
 msgid "Key"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:703
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:700
 msgid "Add annotation"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:707
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:704
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2572
 msgid "Annotations"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:970
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:967
 msgid "Remove validation"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:974
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:971
 msgid "Validation Type"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1002
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:999
 msgid "Add validation"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1021
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1018
 msgid "Min Length"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1028
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1025
 msgid "Max Length"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1035
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1032
 msgid "Regex"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1044
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1041
 msgid "ORCID"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1050
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1047
 msgid "DOI"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1056
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1053
 msgid "Min Number"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1062
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1059
 msgid "Max Number"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1068
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1065
 msgid "From Date"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1074
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1071
 msgid "To Date"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1080
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1077
 msgid "From Date Time"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1086
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1083
 msgid "To Date Time"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1092
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1089
 msgid "From Time"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1098
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1095
 msgid "To Time"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1104
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1101
 msgid "Domain"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1197
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1194
 msgid "Weight"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1376
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1373
 msgid "Header Name"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1385
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1382
 msgid "Header Value"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1406
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1403
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:233
 msgid "Add header"
 msgstr ""
@@ -3931,19 +3990,19 @@ msgstr ""
 msgid "There are no questions, create them first."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:260
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:274
 msgid "Tags"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:267
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:281
 msgid "Select all"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:275
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:289
 msgid "Select none"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:292
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:306
 msgid "Save preview values"
 msgstr ""
 
@@ -3955,29 +4014,29 @@ msgstr ""
 msgid "Check the knowledge model's metadata before publishing. You change them in %s."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:125
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:124
 msgid "Knowledge model could not be saved."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:216
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:215
 msgid "This is not the latest version of the parent knowledge model."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:228
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:227
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:169
 msgid "Parent Knowledge Model"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:239
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:557
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:238
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:567
 msgid "Danger Zone"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:243
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:242
 msgid "Delete this knowledge model editor"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:245
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:244
 msgid "Deleted knowledge model editors cannot be recovered."
 msgstr ""
 
@@ -4267,15 +4326,6 @@ msgstr ""
 msgid "Target UUID"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1829
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1895
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1899
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1974
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2043
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2112
-msgid "Cross Reference"
-msgstr ""
-
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2582
 msgid "Reject"
 msgstr ""
@@ -4341,7 +4391,7 @@ msgid "Fork KM"
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:110
-#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/View.elm:70
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/View.elm:69
 msgid "Create project"
 msgstr ""
 
@@ -4425,20 +4475,20 @@ msgid "Unable to get the knowledge model."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:60
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:193
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:342
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:195
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:344
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:256
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:285
 msgid "Unable to get knowledge models."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:131
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:284
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:286
 msgid "Questionnaire could not be created."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:142
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:195
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:196
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:376
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:868
 msgid "Questionnaire could not be saved."
@@ -4603,7 +4653,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:148
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:167
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:91
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:87
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:66
 msgid "Enabled"
 msgstr ""
@@ -4796,7 +4846,7 @@ msgid "Owner"
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:42
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:717
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:719
 msgid "Public link"
 msgstr ""
 
@@ -4810,7 +4860,7 @@ msgid "Private project accessible only by you."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:50
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:691
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:693
 msgid "Visible by all other logged-in users"
 msgstr ""
 
@@ -4859,69 +4909,69 @@ msgstr ""
 msgid "Other logged-in users can access the project."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:119
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:121
 msgid "Starting Point"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:120
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:122
 msgid "Create a project from a template with preset content, or start from a knowledge model and configure everything yourself."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:127
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:91
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:187
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:374
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:129
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:94
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:193
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:376
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:92
 msgid "Project Template"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:128
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:130
 msgid "Project templates are pre-configured starting points for your project."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:136
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:138
 msgid "A knowledge model defines the structure of your questionnaire. You can configure the document template and other settings later."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:144
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:146
 msgid "Project Name"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:145
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:147
 msgid "Choose a name for your project. You can change it later."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:161
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:163
 msgid "Unable to get selected project template."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:171
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:173
 msgid "Unable to get selected knowledge model."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:181
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:323
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:183
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:325
 msgid "Unable to get project templates."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:305
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:307
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:242
 msgid "Unable to get question tags for the knowledge model."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:143
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:147
 msgid "From project template"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:154
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:159
 msgid "From knowledge model"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:165
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:170
 msgid "Project templates are prepared projects with knowledge models, question tags, and document templates setup, so you don't have to start from scratch."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:169
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:174
 msgid "Knowledge models are templates for questionnaires. You can select question tags now and configure the document template and other settings later."
 msgstr ""
 
@@ -4940,51 +4990,51 @@ msgstr ""
 msgid "Original question tags"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:78
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:79
 msgid "Select knowledge model first"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:81
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:82
 msgid "Create Migration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:82
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:83
 msgid "A new project is created for the migration. The original will remain unchanged until the migration is finished."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:89
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:90
 msgid "Original Knowledge Model"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:90
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:91
 msgid "Original Version"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:96
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:97
 msgid "New Knowledge Model"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:158
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:161
 msgid "Unable to get the summary report."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:172
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:175
 msgid "Unable to get questionnaire event."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:248
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:251
 msgid "Document could not be created."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:285
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:287
 msgid "New Document"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:332
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:336
 msgid "Create for current version"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:337
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:341
 msgid "You are creating a document for a project version from %s"
 msgstr ""
 
@@ -5053,55 +5103,59 @@ msgstr ""
 msgid "Revert"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:276
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:277
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:204
 msgid "Unable to get project tags."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:347
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:349
 msgid "The used version of the document template is no longer supported. Select a newer version or another supported template."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:350
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:352
 msgid "This document template is now deprecated."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:366
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:368
 msgid "Default document format"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:375
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:377
 msgid "Other users can use project templates so they don't have to start their new projects from scratch. Project templates follow the same sharing policy as projects, so make sure to share them with users who should use them."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:413
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:416
 msgid "Default document template"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:431
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:439
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:261
 msgid "Project Tags"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:520
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:528
 #, fuzzy
 msgid "All questions are used"
 msgstr "所有問題皆已使用。"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:527
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:535
 msgid "Filtered by question tags"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:534
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:542
 msgid "This knowledge model is now deprecated."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:561
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:569
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:560
+msgid "Project migration lets you move your project to a newer or different version of the knowledge model, and update which questions are included by changing question tags."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:571
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:579
 msgid "Delete this project"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:563
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:573
 msgid "Deleted projects cannot be recovered."
 msgstr ""
 
@@ -5137,23 +5191,23 @@ msgstr ""
 msgid "Add user group"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:509
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:510
 msgid "User Groups"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:569
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:570
 msgid "Add users"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:622
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:624
 msgid "Last owner cannot be removed."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:686
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:688
 msgid "Other logged-in users can %s the project."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:712
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:714
 msgid "Anyone with the link can %s the project."
 msgstr ""
 
@@ -5296,24 +5350,24 @@ msgid_plural "%s errors encountered"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:186
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:188
 msgid "Questionnaire Changes"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:189
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:191
 msgid "Errors"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:195
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:197
 msgid "No changes to be imported"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:280
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:294
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:282
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:296
 msgid "Added item"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:297
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:299
 msgid "Added file"
 msgstr ""
 
@@ -5809,19 +5863,19 @@ msgstr ""
 msgid "Display on the login screen, visible to everybody."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:37
+#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:26
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:119
 msgid "Features"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:56
+#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:37
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Tours.elm:50
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Tours.elm:103
 #: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:106
 msgid "Tours"
 msgstr "導覽"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:57
+#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:38
 msgid "If enabled, Tours help users navigate the application when opening specific screens for the first time."
 msgstr ""
 
@@ -5853,45 +5907,45 @@ msgstr ""
 msgid "Integration config is used to configure [secrets and other properties](%s) for integrations in knowledge models."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:47
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:39
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:135
 msgid "Menu"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:50
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:42
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:138
 msgid "Look & Feel"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:77
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:72
 msgid "Application Title"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:78
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:73
 msgid "Full name of the DSW instance (displayed, for example, in the browser tab title or before login)."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:89
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:84
 msgid "Short Application Title"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:90
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:85
 msgid "Short name of the DSW instance (displayed, for example, on top of the navigation bar). Short title can be the same as the application title if it is short enough."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:107
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:102
 msgid "Custom Menu Links"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:110
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:105
 msgid "Configure additional links in the menu. Choose any free icon from the [Font Awesome](%s), e.g. *fas fa-magic*. Check *New window* if you want to open the link in a new window."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:120
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:115
 msgid "Add link"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:146
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:141
 msgid "New window"
 msgstr ""
 
@@ -6078,31 +6132,31 @@ msgstr ""
 msgid "DSW Registry"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:82
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:78
 msgid "Token"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:83
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:79
 msgid "Fill in your DSW Registry token. If you don't have one, you need sign up first."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:92
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:88
 msgid "If enabled, you can import knowledge models and document templates directly from [DSW Registry](https://registry.ds-wizard.org)."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:145
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:141
 msgid "Organization Name"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:146
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:142
 msgid "Organization Description"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:148
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:144
 msgid "The email will be used for a confirmation link and an eventual token recovery."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:153
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:149
 msgid "Registry Sign Up"
 msgstr ""
 
@@ -6803,13 +6857,17 @@ msgstr ""
 msgid "You can use HTML or %s and see the result in the preview tab."
 msgstr ""
 
-#: shared/common/elm/Common/Components/FormGroup.elm:768
+#: shared/common/elm/Common/Components/FormGroup.elm:767
 msgid "Suggestions: "
 msgstr ""
 
-#: shared/common/elm/Common/Components/FormGroup.elm:787
+#: shared/common/elm/Common/Components/FormGroup.elm:786
 msgid "The version number is in format X.Y.Z. Increasing number Z indicates only some fixes, number Y minor changes, and number X indicates a major change."
 msgstr ""
+
+#: shared/common/elm/Common/Components/TypeHintInput.elm:360
+msgid "No results matching your search were found."
+msgstr "沒有符合您搜尋條件的結果。"
 
 #: shared/common/elm/Common/Data/Role.elm:164
 msgid "Admin"
@@ -6831,36 +6889,36 @@ msgstr "您確定要跳過導覽嗎？"
 msgid "You can reset tours in user settings"
 msgstr "您可以在使用者設定中重設導覽"
 
-#: shared/common/elm/Common/Utils/Form.elm:24
-#: shared/common/elm/Common/Utils/Form.elm:27
+#: shared/common/elm/Common/Utils/Form.elm:26
+#: shared/common/elm/Common/Utils/Form.elm:29
 msgid "%s cannot be empty."
 msgstr "%s 不能是空白的。"
 
-#: shared/common/elm/Common/Utils/Form.elm:30
+#: shared/common/elm/Common/Utils/Form.elm:32
 msgid "This is not a valid email."
 msgstr "這不是有效的電子郵件地址。"
 
-#: shared/common/elm/Common/Utils/Form.elm:33
+#: shared/common/elm/Common/Utils/Form.elm:35
 msgid "This is not a valid number."
 msgstr "這不是有效的號碼。"
 
-#: shared/common/elm/Common/Utils/Form.elm:36
+#: shared/common/elm/Common/Utils/Form.elm:38
 msgid "This should not be less than %s."
 msgstr "這不應小於 %s。"
 
-#: shared/common/elm/Common/Utils/Form.elm:39
+#: shared/common/elm/Common/Utils/Form.elm:41
 msgid "This should not be more than %s."
 msgstr "這不應大於 %s。"
 
-#: shared/common/elm/Common/Utils/Form.elm:44
+#: shared/common/elm/Common/Utils/Form.elm:46
 msgid "Passwords do not match!"
 msgstr "密碼輸入不相符！"
 
-#: shared/common/elm/Common/Utils/Form.elm:47
+#: shared/common/elm/Common/Utils/Form.elm:49
 msgid "This is not a valid UUID."
 msgstr "這不是有效的 UUID。"
 
-#: shared/common/elm/Common/Utils/Form.elm:56
+#: shared/common/elm/Common/Utils/Form.elm:58
 msgid "Invalid value."
 msgstr "無效的值。"
 

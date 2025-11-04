@@ -5,7 +5,17 @@
 # Marek Suchánek <marek.suchanek@gmail.com>, 2025.
 # Georgia Koutentaki <koutegeo@fit.cvut.cz>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.9.0\nPOT-Creation-Date: 2025-10-07T06:52:57.278Z\nPO-Revision-Date: 2025-10-10 09:51+0000\nLast-Translator: Georgia Koutentaki <koutegeo@fit.cvut.cz>\nLanguage-Team: Greek <https://localize.ds-wizard.org/projects/dsw-v4-23/client/el/>\nLanguage: el\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
+msgstr ""
+"Project-Id-Version: wizard-client:4.9.0\n"
+"POT-Creation-Date: 2025-11-04T08:31:11.810Z \n"
+"PO-Revision-Date: 2025-10-10 09:51+0000\n"
+"Last-Translator: Georgia Koutentaki <koutegeo@fit.cvut.cz>\n"
+"Language-Team: Greek <https://localize.ds-wizard.org/projects/dsw-v4-23/client/el/>\n"
+"Language: el\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -164,14 +174,14 @@ msgstr "σχόλιο"
 msgid "edit"
 msgstr "επεξεργασία"
 
-#: app-wizard/elm/Wizard/Api/Models/QuestionnaireQuestionnaire.elm:499
+#: app-wizard/elm/Wizard/Api/Models/QuestionnaireQuestionnaire.elm:515
 msgid "Item"
 msgstr "Στοιχείο"
 
-#: app-wizard/elm/Wizard/Api/Models/QuestionnaireQuestionnaire.elm:513
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3783
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4256
-#: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:252
+#: app-wizard/elm/Wizard/Api/Models/QuestionnaireQuestionnaire.elm:529
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3897
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4370
+#: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:225
 msgid "Item %s"
 msgstr "Στοιχείο %s"
 
@@ -193,8 +203,8 @@ msgstr "Κλείσιμο και αποδοχή"
 
 #: app-wizard/elm/Wizard/Components/CopyableCodeBlock.elm:48
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:826
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4604
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2427
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4709
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2464
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:468
 msgid "Copied!"
 msgstr "Αντιγράφηκε!"
@@ -236,7 +246,7 @@ msgstr "Αδυναμία μεταφόρτωσης ορισμένων αρχεί�
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:373
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:450
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:378
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:103
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:99
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:214
 #: shared/common/elm/Common/Utils/Driver.elm:116
 msgid "Done"
@@ -246,18 +256,19 @@ msgstr "Έτοιμο"
 #: app-wizard/elm/Wizard/Components/FormActions.elm:23
 #: app-wizard/elm/Wizard/Components/FormActions.elm:31
 #: app-wizard/elm/Wizard/Components/FormActions.elm:39
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2939
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3147
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3174
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3039
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3251
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3281
 #: app-wizard/elm/Wizard/Components/Questionnaire/FileUploadModal.elm:226
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:389
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1499
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:266
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3400
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3481
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3511
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3592
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:394
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:127
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:123
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:119
+#: shared/common/elm/Common/Components/Form.elm:87
 #: shared/common/elm/Common/Components/Modal.elm:216
 msgid "Cancel"
 msgstr "Ακύρωση"
@@ -269,8 +280,8 @@ msgstr "Ακύρωση"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:168
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/RegistryImport/View.elm:53
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:44
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2110
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3521
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2147
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3632
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:123
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:53
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/View.elm:53
@@ -284,16 +295,18 @@ msgid "Import"
 msgstr "Εισαγωγή"
 
 #: app-wizard/elm/Wizard/Components/FormActions.elm:63
+#: shared/common/elm/Common/Components/Form.elm:260
 msgid "You have unsaved changes."
 msgstr "Έχετε μη αποθηκευμένες αλλαγές."
 
 #: app-wizard/elm/Wizard/Components/FormActions.elm:75
 #: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:173
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:80
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:90
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:146
 #: app-wizard/elm/Wizard/Pages/Public/ForgottenPasswordConfirmation/View.elm:45
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:42
 #: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:42
+#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:27
 #: app-wizard/elm/Wizard/Pages/Settings/KnowledgeModels/View.elm:32
 #: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:27
 #: app-wizard/elm/Wizard/Pages/Settings/PrivacyAndSupport/View.elm:29
@@ -304,6 +317,7 @@ msgstr "Έχετε μη αποθηκευμένες αλλαγές."
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Password.elm:115
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:223
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/SubmissionSettings.elm:226
+#: shared/common/elm/Common/Components/Form.elm:240
 msgid "Save"
 msgstr "Αποθήκευση"
 
@@ -324,7 +338,7 @@ msgid "Last"
 msgstr "Τελευταίο"
 
 #: app-wizard/elm/Wizard/Components/Listing/View.elm:432
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2703
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2803
 #: shared/common/elm/Common/Utils/Driver.elm:114
 msgid "Next"
 msgstr "Επόμενο"
@@ -394,7 +408,7 @@ msgid "Editors"
 msgstr "Συντάκτες"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:111
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2049
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2086
 msgid "Secrets"
 msgstr "Μυστικά"
 
@@ -416,7 +430,7 @@ msgid "Projects"
 msgstr "Έργα"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:163
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:137
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:147
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:353
 msgid "Files"
 msgstr "Αρχεία"
@@ -428,7 +442,7 @@ msgid "Documents"
 msgstr "Έγγραφα"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:175
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2053
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2090
 msgid "Actions"
 msgstr "Ενέργειες"
 
@@ -439,11 +453,11 @@ msgstr "Εισαγωγείς"
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:212
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:227
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:125
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:155
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:165
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:116
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:186
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:200
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:204
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:314
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:315
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:362
 #: app-wizard/elm/Wizard/Pages/Registry/RegistrySignupConfirmation/View.elm:31
 msgid "Settings"
@@ -456,7 +470,7 @@ msgstr "Διαχείριση"
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:237
 #: app-wizard/elm/Wizard/Components/UsageTable.elm:18
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:142
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:585
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:587
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:502
 #: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:31
 msgid "Users"
@@ -530,7 +544,7 @@ msgstr "Αναφορά προβλήματος"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:811
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:861
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2228
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2290
 #: shared/common/elm/Common/Components/Modal.elm:287
 msgid "OK"
 msgstr "OK"
@@ -552,7 +566,7 @@ msgstr "Έγγραφα API"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:275
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:227
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:126
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:168
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:167
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:160
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:45
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:163
@@ -644,202 +658,207 @@ msgstr "Ανώνυμο δέντρο"
 msgid "Anonymous Cowboy"
 msgstr "Ανώνυμος καουμπόι"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:980
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:996
 msgid "Unable to delete file."
 msgstr "Αδυναμία διαγραφής αρχείου."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1086
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1095
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1102
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1111
 msgid "Unable to get version history."
 msgstr "Αδυναμία λήψης ιστορικού εκδόσεων."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1445
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1458
 #: app-wizard/elm/Wizard/Pages/Comments/Update.elm:35
 msgid "Unable to get comments."
 msgstr "Αδυναμία λήψης σχολίων."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1456
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1469
 #: app-wizard/elm/Wizard/Pages/ProjectActions/Index/Update.elm:70
 msgid "Unable to get project actions."
 msgstr "Αδυναμία λήψης ενεργειών έργου."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1468
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1481
 #: app-wizard/elm/Wizard/Pages/ProjectImporters/Index/Update.elm:70
 msgid "Unable to get project importers."
 msgstr "Αδυναμία λήψης εισαγωγέων έργων."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1729
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1748
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1760
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1779
 msgid "Unable to get type hints."
 msgstr "Αδυναμία λήψης συμβουλών κειμένου."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1979
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2016
 msgid "View"
 msgstr "Προβολή"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1986
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2023
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:336
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:214
 msgid "Show all"
 msgstr "Προβολή όλων"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1989
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2026
 msgid "Hide all"
 msgstr "Απόκρυψη όλων"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1993
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2030
 msgid "Answered by"
 msgstr "Απαντήθηκε από"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1998
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:795
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2035
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:802
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:177
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:438
 msgid "Phases"
 msgstr "Φάσεις"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2003
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2040
 msgid "Question tags"
 msgstr "Ετικέτες ερωτήσεων"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2008
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2045
 msgid "Non-desirable questions"
 msgstr "Μη επιθυμητές ερωτήσεις"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2013
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2050
 msgid "Metric values"
 msgstr "Μετρικές τιμές"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2026
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2063
 msgid "Import replies"
 msgstr "Εισαγωγή απαντήσεων"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2130
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2165
+msgid "Search"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2191
 msgid "TODOs"
 msgstr "TODOs"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2151
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2814
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2815
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4532
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2212
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2914
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2915
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4637
 msgid "Comments"
 msgstr "Σχόλια"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2162
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:552
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2223
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:553
 msgid "Warnings"
 msgstr "Προειδοποιήσεις"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2176
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2237
 msgid "Version history"
 msgstr "Ιστορικό εκδόσεων"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2210
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2272
 msgid "Action succeeded!"
 msgstr "Η ενέργεια πέτυχε!"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2215
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2277
 msgid "Action failed!"
 msgstr "Η ενέργεια απέτυχε!"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2289
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2381
 msgid "Current phase"
 msgstr "Τρέχουσα φάση"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2348
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2434
 msgid "Select phase"
 msgstr "Επιλέξτε φάση"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2476
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2576
 msgid "All TODOs have been completed."
 msgstr "Όλα τα TODOs έχουν ολοκληρωθεί."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2594
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2694
 msgid "Click the %s icon to add new comments to a question."
 msgstr "Κάντε κλικ στο εικονίδιο %s για να προσθέσετε νέα σχόλια σε μια ερώτηση."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2618
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2718
 msgid "View resolved comments"
 msgstr "Προβολή επιλυμένων σχολίων"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2669
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2769
 msgid "Resolved and unresolved comments"
 msgstr "Επιλυμένα και μη σχόλια"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2672
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2772
 msgid "Unresolved comments"
 msgstr "Μη επιλυμένα σχόλια"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2696
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2796
 #: shared/common/elm/Common/Utils/Driver.elm:115
 msgid "Previous"
 msgstr "Προηγούμενο"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2725
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2825
 msgid "Editor notes are only visible to project Editors and Owners."
 msgstr "Οι σημειώσεις συντάκτη είναι ορατές μόνο στους συντάκτες και τους ιδιοκτήτες του έργου."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2750
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2850
 msgid "Comment"
 msgstr "Σχόλιο"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2751
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2851
 msgid "Create a new comment..."
 msgstr "Δημιουργήστε ένα νέο σχόλιο..."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2827
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2828
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2927
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2928
 msgid "Editor notes"
 msgstr "Σημειώσεις συντάκτη"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2846
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2946
 msgid "Delete this comment thread?"
 msgstr "Διαγραφή αυτού του thread σχολίων;"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2859
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2959
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:126
 msgid "Reply"
 msgstr "Απάντηση"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2860
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2960
 msgid "Reply..."
 msgstr "Απάντηση..."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2877
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2977
 msgid "Assigned to you"
 msgstr "Σας έχει ανατεθεί"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2882
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2982
 msgid "Assigned to %s"
 msgstr "Ανατέθηκε σε %s"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2934
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3017
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3034
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3117
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:99
 #: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:148
 msgid "Edit"
 msgstr "Επεξεργασία"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2950
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3050
 msgid "Delete this comment?"
 msgstr "Διαγραφή αυτού του σχολίου;"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2974
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3074
 msgid "Resolve comment thread"
 msgstr "Επίλυση thread σχολίου"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3001
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3101
 msgid "Remove assignment"
 msgstr "Κατάργηση ανάθεσης"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3009
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3109
 msgid "Reopen"
 msgstr "Ανοίξτε ξανά"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3027
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3173
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3723
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4372
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4682
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3127
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3280
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3837
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4477
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4787
 #: app-wizard/elm/Wizard/Components/Questionnaire/DeleteVersionModal.elm:131
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:238
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:351
@@ -852,10 +871,10 @@ msgstr "Ανοίξτε ξανά"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:370
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:195
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/DeleteModal.elm:104
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3238
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3394
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1312
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:251
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3349
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3505
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1309
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:250
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:226
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:146
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:276
@@ -881,259 +900,263 @@ msgstr "Ανοίξτε ξανά"
 msgid "Delete"
 msgstr "Διαγραφή"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3065
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3165
 msgid "edited"
 msgstr "επεξεργάστηκε"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3086
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3186
 #: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:557
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:96
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:96
 msgid "Anonymous user"
 msgstr "Ανώνυμος χρήστης"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3225
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3332
 msgid "This chapter contains no questions."
 msgstr "Αυτό το κεφάλαιο δεν περιέχει ερωτήσεις."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3228
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3335
 msgid "There are no questions matching the selected question tags."
 msgstr "Δεν υπάρχουν ερωτήσεις που να ταιριάζουν με τις επιλεγμένες ετικέτες ερωτήσεων."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3241
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3703
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3348
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3817
 msgid "There are no questions in this phase."
 msgstr "Δεν υπάρχουν ερωτήσεις σε αυτή τη φάση."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3295
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3405
 msgid "Previous chapter"
 msgstr "Προηγούμενο κεφάλαιο"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3300
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3410
 msgid "Next chapter"
 msgstr "Επόμενο κεφάλαιο"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3413
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3523
 msgid "anonymous user"
 msgstr "ανώνυμος χρήστης"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3425
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3535
 msgid "Answered %s by %s."
 msgstr "Απάντηση %s από %s."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3450
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3564
 msgid "This question has been answered"
 msgstr "Αυτό το ερώτημα έχει απαντηθεί"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3453
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3567
 msgid "This question should be answered now"
 msgstr "Το ερώτημα αυτό πρέπει να απαντηθεί τώρα"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3456
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3570
 msgid "This question can be answered later"
 msgstr "Αυτό το ερώτημα μπορεί να απαντηθεί αργότερα"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3528
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3642
 msgid "Clear answer"
 msgstr "Εκκαθάριση απάντησης"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3561
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3675
 msgid "There are no follow up questions in this phase."
 msgstr "Δεν υπάρχουν περαιτέρω ερωτήσεις σε αυτή τη φάση."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3577
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3691
 msgid "Expand"
 msgstr "Επέκταση"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3582
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3696
 msgid "%s %s follow up question"
 msgid_plural "%s %s follow up questions"
 msgstr[0] "%s %s επακόλουθη ερώτηση"
 msgstr[1] "%s %s επακόλουθες ερωτήσεις"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3592
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3814
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3706
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3928
 msgid "Collapse"
 msgstr "Κλείσιμο"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3626
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3740
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:67
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:102
 msgid "Expand all"
 msgstr "Επέκταση όλων"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3633
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3747
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:71
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:109
 msgid "Collapse all"
 msgstr "Κλείσιμο όλων"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3646
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3760
 msgid "There are no answers yet."
 msgstr "Δεν υπάρχουν απαντήσεις ακόμα."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3671
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3785
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1082
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1325
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:506
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1322
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:514
 msgid "Add"
 msgstr "Προσθέστε"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3695
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3809
 msgid "This item contains no questions."
 msgstr "Αυτό το στοιχείο δεν περιέχει ερωτήσεις."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3736
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3850
 msgid "Move up"
 msgstr "Πάνω"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3749
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3863
 msgid "Move down"
 msgstr "Κάτω"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3776
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3890
 msgid "Used in item select questions:"
 msgstr "Χρησιμοποιείται στις παρακάτω ερωτήσεις επιλογής στοιχείου:"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3892
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4006
 msgid "This is not a valid email address."
 msgstr "Αυτή η διεύθυνση ηλεκτρονικού ταχυδρομείου δεν είναι έγκυρη."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3897
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4011
 msgid "This is not a valid URL."
 msgstr "Αυτό το URL δεν είναι έγκυρο."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3905
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4019
 msgid "This is not a valid color."
 msgstr "Αυτό το χρώμα δεν είναι έγκυρο ."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4030
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4144
 msgid "Select"
 msgstr "Επιλέξτε"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4104
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4136
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4218
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4250
 msgid "There are no results for your search."
 msgstr "Δεν υπάρχουν αποτελέσματα για την αναζήτησή σας."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4113
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4145
-#: app-wizard/elm/Wizard/Components/TypeHintInput.elm:285
-#: shared/common/elm/Common/Components/Flash.elm:47
-#: shared/common/elm/Common/Components/Page.elm:52
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4227
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4259
+#: shared/common/elm/Common/Components/Flash.elm:49
+#: shared/common/elm/Common/Components/Page.elm:43
+#: shared/common/elm/Common/Components/TypeHintInput.elm:368
 msgid "Loading..."
 msgstr "Φόρτωση..."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4279
-msgid "Create them now."
-msgstr "Δημιουργία τώρα."
-
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4284
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4384
 msgid "There are no items to select from yet."
 msgstr "Δεν υπάρχουν ακόμα αντικείμενα για επιλογή."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4298
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4389
+msgid "Create them now."
+msgstr "Δημιουργία τώρα."
+
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4403
 msgid "This question does not have any configured list options to select from."
 msgstr "Αυτή η ερώτηση δεν έχει καμία διαμορφωμένη επιλογή λίστας για επιλογή."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4316
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4421
 msgid "- select -"
 msgstr "- επιλέξτε -"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4323
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4428
 msgid "Go to item"
 msgstr "Πηγαίνετε στο στοιχείο"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4336
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4441
 msgid "The selected item was deleted."
 msgstr "Το επιλεγμένο στοιχείο διαγράφηκε."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4380
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4485
 msgid "The file was deleted."
 msgstr "Το αρχείο διαγράφηκε."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4403
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4508
 msgid "Upload file"
 msgstr "Μεταφόρτωση αρχείου"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4469
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4574
 msgid "This option leads to some follow up questions."
 msgstr "Αυτή η επιλογή οδηγεί σε επακόλουθες ερωτήσεις."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4523
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4628
 msgid "1 comment"
 msgid_plural "%s comments"
 msgstr[0] "1 σχόλιο"
 msgstr[1] "%s σχόλια"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4557
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4662
 msgid "TODO"
 msgstr "TODO"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4558
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4663
 msgid "Remove TODO"
 msgstr "Αφαίρεση TODO"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4568
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4673
 msgid "Add TODO"
 msgstr "Προσθήκη TODO"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4590
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4695
 #: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:147
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:106
 msgid "Feedback"
 msgstr "Αξιολόγηση"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4607
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4712
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:490
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:261
 msgid "Copy link"
 msgstr "Αντιγραφή συνδέσμου"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4631
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4736
 msgid "There are some item select questions using this item:"
 msgstr "Υπάρχουν ορισμένες ερωτήσεις επιλογής στοιχείου που χρησιμοποιούν αυτό το στοιχείο:"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4642
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4747
 msgid "Are you sure you want to remove this item?"
 msgstr "Είστε σίγουροι ότι θέλετε να αφαιρέσετε αυτό το στοιχείο;"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4647
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4752
 msgid "Remove item"
 msgstr "Αφαίρεση στοιχείου"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4650
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4755
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:402
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:553
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:638
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:554
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:640
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:181
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:104
 msgid "Remove"
 msgstr "Αφαίρεση"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4675
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4780
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:161
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:290
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/AppKeys.elm:175
 msgid "Are you sure you want to delete %s?"
 msgstr "Σίγουρα θέλετε να διαγράψετε το %s;"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4679
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4784
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:158
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:161
 msgid "Delete file"
 msgstr "Διαγραφή αρχείου"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:199
+#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:243
 msgid "Desirable"
 msgstr "Επιθυμητό"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:281
+#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:325
 msgid "External links"
 msgstr "Εξωτερικοί σύνδεσμοι"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:300
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1198
+#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:344
+msgid "Related questions"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:369
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1223
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1307
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1415
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1512
@@ -1188,12 +1211,12 @@ msgid "If you found something wrong with the question, you can send us your reco
 msgstr "Αν βρήκατε κάτι λάθος στην ερώτηση, μπορείτε να μας στείλετε την πρόταση σας για το πώς να τη βελτιώσουμε."
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:180
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:916
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1144
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1597
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1669
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3048
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3117
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:935
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1166
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1634
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1706
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3156
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3228
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:486
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:507
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:532
@@ -1213,8 +1236,8 @@ msgstr "Αν βρήκατε κάτι λάθος στην ερώτηση, μπο�
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2285
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2304
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2326
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:142
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:169
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:137
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:164
 msgid "Title"
 msgstr "Τίτλος"
 
@@ -1222,11 +1245,12 @@ msgstr "Τίτλος"
 #: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:157
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:133
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:286
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1613
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1677
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1737
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1650
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1714
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1774
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3041
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:124
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:190
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:179
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:488
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:509
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:534
@@ -1243,7 +1267,7 @@ msgstr "Τίτλος"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2110
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:82
 #: app-wizard/elm/Wizard/Pages/Locales/Create/View.elm:42
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:410
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:413
 #: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:49
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:109
 msgid "Description"
@@ -1340,11 +1364,49 @@ msgstr "Άγνωστη φάση"
 msgid "Set phase to %s"
 msgstr "Ορισμός φάσης σε %s"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:84
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:761
+#: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:52
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:762
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:411
 msgid "Chapters"
 msgstr "Κεφάλαια"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:174
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:923
+msgid "Chapter"
+msgstr "Κεφάλαιο"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:205
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1109
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3015
+msgid "Question"
+msgstr "Ερώτηση"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:208
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2714
+msgid "Answer"
+msgstr "Απάντηση"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:211
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2814
+msgid "Choice"
+msgstr "Επιλογή"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:214
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2876
+msgid "Reference"
+msgstr "Παραπομπή"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:282
+msgid "No results"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:292
+msgid "Search in questionnaire..."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:296
+msgid "Results for: %s"
+msgstr ""
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/UserSuggestionDropdown.elm:106
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:223
@@ -1370,7 +1432,7 @@ msgstr "Αναζήτηση χρηστών..."
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:156
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:117
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:89
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:90
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:132
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:285
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:393
@@ -1379,12 +1441,12 @@ msgstr "Αναζήτηση χρηστών..."
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:501
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:53
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:74
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:93
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1729
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2609
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2983
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:94
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1766
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2646
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3091
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:123
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:189
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:178
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:71
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:613
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:635
@@ -1410,9 +1472,9 @@ msgstr "Αναζήτηση χρηστών..."
 #: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:62
 #: app-wizard/elm/Wizard/Pages/ProjectActions/Index/View.elm:45
 #: app-wizard/elm/Wizard/Pages/ProjectImporters/Index/View.elm:45
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:56
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:308
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:409
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:62
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:312
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:412
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:107
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:134
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:205
@@ -1428,10 +1490,10 @@ msgid "Rename version"
 msgstr "Μετονομασία έκδοσης"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:166
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:79
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:83
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:80
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:84
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:61
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:99
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:100
 msgid "New version"
 msgstr "Νέα έκδοση"
 
@@ -1469,8 +1531,8 @@ msgid "Answered (current phase): %s/%s"
 msgstr "Απαντήθηκε (τρέχουσα φάση): %s/%s"
 
 #: app-wizard/elm/Wizard/Components/SummaryReport.elm:162
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:778
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1203
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:782
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1200
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:423
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1549
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1600
@@ -1481,7 +1543,7 @@ msgid "Metrics"
 msgstr "Μετρικές"
 
 #: app-wizard/elm/Wizard/Components/SummaryReport.elm:163
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1198
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1195
 msgid "Measure"
 msgstr "Μέτρο"
 
@@ -1498,8 +1560,8 @@ msgid "Untitled question tag"
 msgstr "Ετικέτα ερώτησης χωρίς τίτλο"
 
 #: app-wizard/elm/Wizard/Components/Tag.elm:107
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:812
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1172
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:822
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1194
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:186
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:453
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1107
@@ -1533,12 +1595,8 @@ msgstr "Δεν υπάρχουν ετικέτες ερωτήσεων για αυ�
 msgid "All questions are used."
 msgstr "Χρησιμοποιούνται όλες οι ερωτήσεις."
 
-#: app-wizard/elm/Wizard/Components/TypeHintInput.elm:277
-msgid "No results matching your search were found."
-msgstr "Δεν βρέθηκαν αποτελέσματα που να ταιριάζουν με την αναζήτησή σας."
-
-#: app-wizard/elm/Wizard/Components/TypeHintInput/TypeHintItem.elm:100
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:537
+#: app-wizard/elm/Wizard/Components/TypeHintInput/TypeHintInputItem.elm:94
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:538
 msgid "private"
 msgstr "ιδιωτικό"
 
@@ -1584,9 +1642,9 @@ msgstr "Μετάβαση στην εφαρμογή"
 #: app-wizard/elm/Wizard/Layouts/Layout.elm:108
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:44
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:47
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:79
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:75
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:103
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:107
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:111
 msgid "Sign Up"
 msgstr "Εγγραφείτε"
 
@@ -1624,8 +1682,8 @@ msgid "Search comments..."
 msgstr "Αναζήτηση σχολίων..."
 
 #: app-wizard/elm/Wizard/Pages/Comments/View.elm:56
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:374
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:84
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:376
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:85
 msgid "Project"
 msgstr "Έργο"
 
@@ -1643,8 +1701,8 @@ msgstr "Δεν είναι δυνατή η χρήση."
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Dashboards/AdminDashboard.elm:120
 #: app-wizard/elm/Wizard/Pages/Dashboard/Dashboards/DataStewardDashboard.elm:96
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:157
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:152
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:162
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:157
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/Update.elm:110
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:253
 msgid "Unable to get Knowledge Models."
@@ -1654,8 +1712,8 @@ msgstr "Αδυναμία λήψης Μοντέλων Γνώσης."
 #: app-wizard/elm/Wizard/Pages/Dashboard/Dashboards/DataStewardDashboard.elm:107
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/Update.elm:85
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/Update.elm:114
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:227
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:234
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:230
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:235
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/Update.elm:40
 msgid "Unable to get document templates."
 msgstr "Αδυναμία λήψης προτύπων εγγράφων."
@@ -1758,17 +1816,17 @@ msgstr "Το μοντέλο γνώσης είναι μια δενδροειδή�
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/CreateKnowledgeModelWidget.elm:17
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/CreateProjectTemplateWidget.elm:17
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/CreateProjectWidget.elm:17
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:46
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:43
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:122
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:168
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:46
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:43
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:51
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:125
 #: app-wizard/elm/Wizard/Pages/Locales/Create/View.elm:55
 #: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:156
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:60
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:105
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:291
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:51
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:106
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:292
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:84
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:224
 #: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:43
@@ -1784,7 +1842,7 @@ msgid "Project template is a special type of project that can be used as a start
 msgstr "Το πρότυπο έργου είναι ένας ειδικός τύπος έργου, που μπορεί να χρησιμοποιηθεί ως σημείο εκκίνησης για νέα έργα. Μπορείτε να επιλέξετε ένα Μοντέλο Γνώσης, να ρυθμίσετε πρότυπα και μορφές εγγράφου, ή να προσυμπληρώσετε ορισμένες απαντήσεις για να διευκολύνετε τους ερευνητές."
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/CreateProjectWidget.elm:13
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:47
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:46
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:91
 msgid "Create Project"
 msgstr "Δημιουργία έργου"
@@ -1937,7 +1995,7 @@ msgstr "Κάντε κλικ για να κατεβάσετε το έγγραφο
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:202
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1428
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:436
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:438
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:116
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:169
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:189
@@ -1975,7 +2033,7 @@ msgstr "Σε εξέλιξη"
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:293
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:277
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:295
-#: shared/common/elm/Common/Components/Page.elm:60
+#: shared/common/elm/Common/Components/Page.elm:51
 msgid "Error"
 msgstr "Σφάλμα"
 
@@ -2049,36 +2107,36 @@ msgstr "Σφάλμα εγγράφου"
 msgid "Submission error"
 msgstr "Σφάλμα υποβολής"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:78
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:83
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/Update.elm:33
 msgid "Unable to get the document template."
 msgstr "Δεν είναι δυνατή η λήψη του προτύπου εγγράφου."
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:142
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/Update.elm:147
 msgid "Document template could not be created."
 msgstr "Το πρότυπο εγγράφου δεν μπόρεσε να δημιουργηθεί."
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:40
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:38
 msgid "Create Document Template"
 msgstr "Δημιουργία προτύπου εγγράφου"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:90
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:91
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:287
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/RegistryImport/View.elm:49
 msgid "Document Template ID"
 msgstr "Αναγνωριστικό (ID) προτύπου εγγράφου"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:91
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:92
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:288
 msgid "Document template ID can only contain alphanumeric characters, hyphens, underscores, and dots."
 msgstr "Το αναγνωριστικό προτύπου εγγράφου μπορεί να περιέχει μόνο αλφαριθμητικούς χαρακτήρες, παύλα και κάτω παύλα, και τελείες."
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:93
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:97
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:94
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:98
 msgid "Based on"
 msgstr "Με βάση"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:94
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:95
 msgid "You can create a new document template based on the existing one or start from scratch."
 msgstr "Μπορείτε να δημιουργήσετε ένα νέο πρότυπο εγγράφου με βάση το υπάρχον ή να ξεκινήσετε από το μηδέν."
 
@@ -2107,7 +2165,7 @@ msgid "Folder"
 msgstr "Φάκελος"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1095
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1076
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1098
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:35
 msgid "File"
 msgstr "Αρχείο"
@@ -2121,9 +2179,9 @@ msgstr "Μετονομασία"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1127
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:204
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:208
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3223
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3462
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3475
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3334
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3573
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3586
 msgid "Move"
 msgstr "Μετακίνηση"
 
@@ -2193,39 +2251,39 @@ msgstr "Δεν είναι δυνατή η λήψη συντακτών Μοντέ
 msgid "Unable to get the document preview."
 msgstr "Δεν είναι δυνατή η προεπισκόπηση του εγγράφου."
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:324
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:325
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:595
 msgid "Open project"
 msgstr "'Ανοιγμα έργου"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:348
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:350
 msgid "Open KM editor"
 msgstr "Ανοίξτε τον συντάκτη ΜΓ"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:384
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:386
 msgid "KM editor"
 msgstr "Συντάκτης ΜΓ"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:392
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:316
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:394
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:320
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:144
 msgid "Format"
 msgstr "Μορφή αρχείου"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:406
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:408
 msgid "Preview not set"
 msgstr "Δεν έχει οριστεί προεπισκόπηση"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:407
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:409
 msgid "Select a project or knowledge model editor and format you want to preview."
 msgstr "Επιλέξτε ένα έργο ή έναν συντάκτη μοντέλου γνώσης και τη μορφή που θέλετε να κάνετε προεπισκόπηση."
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:430
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:432
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:163
 msgid "Download preview"
 msgstr "Προεπισκόπηση λήψης"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:432
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:434
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:165
 msgid "The document format cannot be displayed in the web browser. You can still download and view it."
 msgstr "Η μορφή του εγγράφου δεν μπορεί να εμφανιστεί στο πρόγραμμα περιήγησης ιστού. Μπορείτε ωστόσο να το κατεβάσετε και να το δείτε."
@@ -2246,7 +2304,7 @@ msgstr "Αναγνωριστικό προτύπου"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:290
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:229
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:127
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:194
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:183
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:75
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:162
 #: app-wizard/elm/Wizard/Pages/Locales/Create/View.elm:47
@@ -2257,7 +2315,7 @@ msgstr "Άδεια"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:137
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:291
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:128
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:195
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:184
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:84
 #: app-wizard/elm/Wizard/Pages/Locales/Create/View.elm:48
 msgid "Readme"
@@ -2265,7 +2323,7 @@ msgstr "Readme"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:141
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:145
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:114
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:124
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:132
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:136
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:128
@@ -2292,14 +2350,14 @@ msgstr "Μορφές αρχείου"
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:43
 #: app-wizard/elm/Wizard/Pages/Settings/KnowledgeModels/View.elm:50
 #: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:50
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:144
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:140
 msgid "Organization ID"
 msgstr "Αναγνωριστικό οργανισμού"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:305
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:94
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:95
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:125
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:191
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:180
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:72
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:44
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/View.elm:49
@@ -2333,19 +2391,19 @@ msgstr "Προσθήκη μορφής αρχείου"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:409
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:202
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:140
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:166
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:135
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:161
 msgid "Icon"
 msgstr "Εικονίδιο"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:413
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:146
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:398
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:524
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:156
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:397
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:522
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:195
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:62
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:328
-#: shared/common/elm/Common/Components/FormGroup.elm:592
+#: shared/common/elm/Common/Components/FormGroup.elm:591
 msgid "Preview"
 msgstr "Προεπισκόπηση"
 
@@ -2358,7 +2416,7 @@ msgid "Add step"
 msgstr "Προσθήκη βήματος"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:465
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1070
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1092
 msgid "Options"
 msgstr "Επιλογές"
 
@@ -2368,14 +2426,14 @@ msgstr "Προσθήκη επιλογής"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:481
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:504
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1072
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:679
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:853
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:867
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:881
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:895
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:904
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:913
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1094
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:677
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:850
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:864
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:878
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:892
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:901
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:910
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:118
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:139
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:242
@@ -2386,7 +2444,7 @@ msgid "Value"
 msgstr "Τιμή"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:526
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1950
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1987
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:160
 msgid "Quick setup"
 msgstr "Γρήγορη ρύθμιση"
@@ -2400,11 +2458,11 @@ msgstr "Υπάρχουν μη αποθηκευμένες αλλαγές."
 msgid "Unable to get document template"
 msgstr "Αδυναμία λήψης προτύπου εγγράφου"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:96
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:106
 msgid "Discard"
 msgstr "Απόρριψη"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:100
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:110
 msgid "unsaved changes"
 msgstr "μη αποθηκευμένες αλλαγές"
 
@@ -2514,7 +2572,7 @@ msgid "This document template is not supported in the current version."
 msgstr "Αυτό το πρότυπο εγγράφου δεν υποστηρίζεται στην τρέχουσα έκδοση."
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:226
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2597
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2634
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:710
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:739
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:809
@@ -2534,7 +2592,7 @@ msgid "Metamodel"
 msgstr "Μεταμοντέλο"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:232
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:349
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:353
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:141
 msgid "Document Template"
 msgstr "Πρότυπο Εγγράφου"
@@ -2630,7 +2688,7 @@ msgid "Migration could not be created."
 msgstr "Η μετάβαση δεν μπόρεσε να δημιουργηθεί."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:117
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:73
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:78
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:33
 msgid "Unable to get the Knowledge Model."
 msgstr "Αδυναμία λήψης του Μοντέλου Γνώσης."
@@ -2648,30 +2706,30 @@ msgid "New parent knowledge model"
 msgstr "Νέο μητρικό Μοντέλο Γνώσης"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:164
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:549
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:557
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:636
 msgid "Create migration"
 msgstr "Δημιουργία μετάβασης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:137
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:142
 msgid "Knowledge model could not be created."
 msgstr "Το Μοντέλο Γνώσης δεν μπόρεσε να δημιουργηθεί."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:40
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:38
 msgid "Create knowledge model"
 msgstr "Δημιουργία Μοντέλου Γνώσης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:95
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:192
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:96
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:181
 msgid "Knowledge model ID can only contain alphanumeric characters, hyphens, underscores, and dots."
 msgstr "Το αναγνωριστικό μοντέλου γνώσης μπορεί να περιέχει μόνο αλφαριθμητικούς χαρακτήρες, παύλα και κάτω παύλα, και τελείες."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:98
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:99
 msgid "You can create a new knowledge model based on the existing one or start from scratch."
 msgstr "Μπορείτε να δημιουργήσετε ένα νέο Μοντέλο Γνώσης με βάση το υπάρχον ή να ξεκινήσετε από την αρχή."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:363
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:769
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:451
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:773
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:206
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:165
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:315
@@ -2679,11 +2737,11 @@ msgstr "Μπορείτε να δημιουργήσετε ένα νέο Μοντ�
 msgid "Untitled chapter"
 msgstr "Κεφάλαιο χωρίς τίτλο"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:366
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:943
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1276
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2716
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3271
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:454
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:965
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1310
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2756
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3382
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:351
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:223
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:259
@@ -2691,35 +2749,35 @@ msgstr "Κεφάλαιο χωρίς τίτλο"
 msgid "Untitled question"
 msgstr "Ερώτηση χωρίς τίτλο"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:369
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:786
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:457
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:793
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:220
 msgid "Untitled metric"
 msgstr "Μετρική χωρίς τίτλο"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:372
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:803
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:460
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:813
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:234
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:166
 msgid "Untitled phase"
 msgstr "Φάση χωρίς τίτλο"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:375
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:820
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:463
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:833
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:248
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:176
 msgid "Untitled tag"
 msgstr "ετικέτα χωρίς τίτλο"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:378
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:837
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1345
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:466
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:853
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1379
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:262
 msgid "Untitled integration"
 msgstr "Ενσωμάτωση χωρίς τίτλο"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:381
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1244
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:469
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1275
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:377
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:255
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:326
@@ -2727,261 +2785,257 @@ msgstr "Ενσωμάτωση χωρίς τίτλο"
 msgid "Untitled answer"
 msgstr "Απάντηση χωρίς τίτλο"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:384
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1431
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:472
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1468
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:391
 msgid "Untitled choice"
 msgstr "Επιλογή χωρίς τίτλο"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:387
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1189
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:475
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1214
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:405
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:297
 msgid "Untitled reference"
 msgstr "Αναφορά χωρίς τίτλο"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:390
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1206
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:478
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1234
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:419
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:276
 msgid "Untitled expert"
 msgstr "Ειδικός χωρίς τίτλο"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:393
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:854
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:481
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:873
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:445
 msgid "Untitled resource collection"
 msgstr "Συλλογή πόρων χωρίς τίτλο"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:396
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2870
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3064
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:484
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2915
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3175
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:459
 msgid "Untitled resource page"
 msgstr "Σελίδα πόρων χωρίς τίτλο"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:962
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1051
 msgid "Empty title for chapter"
 msgstr "Κενός τίτλος για το κεφάλαιο"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:991
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1080
 msgid "Empty title for question"
 msgstr "Κενός τίτλος για την ερώτηση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1000
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1089
 msgid "No answers for options question"
 msgstr "Δεν υπάρχουν απαντήσεις για την ερώτηση επιλογών"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1009
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1098
 msgid "No item questions for list question"
 msgstr "Δεν υπάρχουν ερωτήσεις στοιχείων για την ερώτηση λίστας"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1020
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1109
 msgid "No integration selected for integration question"
 msgstr "Δεν έχει επιλεγεί ενσωμάτωση για την ερώτηση ενσωμάτωσης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1034
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1123
 msgid "Missing variables for integration question"
 msgstr "Λείπουν μεταβλητές για μία ερώτηση ενσωμάτωσης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1049
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1138
 msgid "No choices for multi-choice question"
 msgstr "Δεν υπάρχουν επιλογές για την ερώτηση πολλαπλών επιλογών"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1067
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1156
 msgid "No list question selected for item select question"
 msgstr "Δεν έχει επιλεγεί \"ερώτηση λίστας\" για την ερώτηση επιλογής στοιχείου"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1094
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1183
 msgid "Empty label for answer"
 msgstr "Κενή ετικέτα για την απάντηση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1113
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1202
 msgid "Empty label for choice"
 msgstr "Κενή ετικέτα για την επιλογή"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1133
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1222
 msgid "No resource page selected for resource page reference"
 msgstr "Δεν έχει επιλεγεί σελίδα πόρου για την αναφορά σελίδας πόρου"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1140
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1229
 msgid "Empty URL for URL reference"
 msgstr "Κενό URL για αναφορά URL"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1143
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1232
 msgid "Invalid URL for URL reference"
 msgstr "Μη έγκυρο URL για αναφορά URL"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1162
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1251
 msgid "Empty email for expert"
 msgstr "Κενό email για τον ειδικό"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1165
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1254
 msgid "Invalid email for expert"
 msgstr "Μη έγκυρο email για τον ειδικό"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1175
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1264
 msgid "Empty title for metric"
 msgstr "Κενός τίτλος για metric"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1187
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1276
 msgid "Empty title for phase"
 msgstr "Κενός τίτλος για τη φάση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1199
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1288
 msgid "Empty name for tag"
 msgstr "Κενό όνομα για την ετικέτα"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1221
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1310
 msgid "Empty name for integration"
 msgstr "Κενό όνομα ενσωμάτωσης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1228
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1317
 msgid "Empty variable name for integration"
 msgstr "Κενό όνομα μεταβλητής για ενσωμάτωση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1235
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1325
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1324
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1414
 msgid "Empty request URL for integration"
 msgstr "Εκκαθάριση αίτησης διεύθυνσης URL για ενοποίηση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1247
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1336
 msgid "Missing {{ q }} in request URL for integration"
 msgstr "Λείπει {{ q }} στο ζητούμενο URL για ενσωμάτωση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1254
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1343
 msgid "Unknown Jinja property in request URL for integration: %s"
 msgstr "Άγνωστη ιδιοκτησία Jinja σε ζητούμενο URL για ενσωμάτωση: %s"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1261
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1350
 msgid "Unknown variable in request URL for integration: %s"
 msgstr "Άγνωστη μεταβλητή σε ζητούμενο URL για ενσωμάτωση: %s"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1268
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1357
 msgid "Unknown secret in request URL for integration: %s"
 msgstr "Άγνωστο μυστικό σε ζητούμενο URL για ενσωμάτωση: %s"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1278
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1367
 msgid "No test data loaded for integration"
 msgstr "Δεν έχουν φορτωθεί δεδομένα για ενσωμάτωση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1289
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1378
 msgid "Response list field not found in test data for integration"
 msgstr "Το πεδίο απάντησης λίστας δεν βρέθηκε στα δεδομένα δοκιμής για ενσωμάτωση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1292
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1381
 msgid "Response list field is not a list in test data for integration"
 msgstr "Το πεδίο απάντησης λίστας δεν είναι λίστα στα δεδομένα δοκιμής για ενσωμάτωση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1303
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1392
 msgid "No test data success response for integration"
 msgstr "Μη επιτυχής απάντηση δεδομένων δοκιμής για ενσωμάτωση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1307
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1339
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1396
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1428
 msgid "Empty response item template for integration"
 msgstr "Εκκαθάριση πρότυπου στοιχείου απάντησης για ενσωμάτωση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1318
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1350
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1407
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1439
 msgid "Empty ID for integration"
 msgstr "Κενό αναγνωριστικό για την ενοποίηση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1332
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1421
 msgid "Empty request HTTP method for integration"
 msgstr "Εκκαθάριση αίτησης μεθόδου HTTP για ενοποίηση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1357
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1446
 msgid "Empty widget URL for integration"
 msgstr "Εκκαθάριση διεύθυνσης widget URL για ενσωμάτωση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1371
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1460
 msgid "Empty title for resource collection"
 msgstr "Κενός τίτλος για τη συλλογή πόρων"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1392
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1481
 msgid "Empty title for resource page"
 msgstr "Κενός τίτλος για τη σελίδα πόρων"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1402
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1491
 msgid "Empty content for resource page"
 msgstr "Κενό περιεχόμενο για τη σελίδα πόρων"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:378
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:379
 msgid "Unable to get test result."
 msgstr "Αδυναμία λήψης αποτελέσματος δοκιμής."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:421
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:422
 msgid "Unable to get preview."
 msgstr "Αδυναμία προεπισκόπησης."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:594
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:595
 msgid "There are no more warnings."
 msgstr "Δεν υπάρχουν άλλες προειδοποιήσεις."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:716
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:717
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:168
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:71
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:177
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:135
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:103
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:207
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:540
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:137
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:106
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:214
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:548
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:579
 msgid "Knowledge Model"
 msgstr "Μοντέλο Γνώσης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:770
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:774
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:99
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:228
 msgid "Add chapter"
 msgstr "Προσθήκη κεφαλαίου"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:787
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:794
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:111
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:164
 msgid "Add metric"
 msgstr "Προσθήκη metric"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:804
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:814
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:123
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:180
 msgid "Add phase"
 msgstr "Προσθήκη φάσης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:821
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:834
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:135
 msgid "Add tag"
 msgstr "Προσθήκη ετικέτας"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:829
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:842
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:468
 msgid "Integrations"
 msgstr "Ενοποιήσεις"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:838
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:854
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:147
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:212
 msgid "Add integration"
 msgstr "Προσθήκη ενοποίησης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:846
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:862
 msgid "Resource Collections"
 msgstr "Συλλογές πόρων"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:855
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:874
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:159
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:324
 msgid "Add resource collection"
 msgstr "Προσθήκη συλλογής πόρων"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:904
-msgid "Chapter"
-msgstr "Κεφάλαιο"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:924
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1152
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1306
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:943
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1174
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1340
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:977
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:996
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1033
@@ -2992,8 +3046,8 @@ msgstr "Κεφάλαιο"
 msgid "Text"
 msgstr "Κείμενο"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:935
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1268
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:954
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1299
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1015
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1046
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1272
@@ -3005,9 +3059,9 @@ msgstr "Κείμενο"
 msgid "Questions"
 msgstr "Ερωτήσεις"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:944
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1277
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2717
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:966
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1311
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2757
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:199
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:296
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:370
@@ -3015,13 +3069,13 @@ msgstr "Ερωτήσεις"
 msgid "Add question"
 msgstr "Προσθήκη ερώτησης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1071
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1093
 msgid "List of Items"
 msgstr "Κατάλογος στοιχείων"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1073
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1396
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1878
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1095
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1430
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1915
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1074
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1181
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1352
@@ -3029,24 +3083,20 @@ msgstr "Κατάλογος στοιχείων"
 msgid "Integration"
 msgstr "Ενοποίηση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1074
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1096
 msgid "Multi-Choice"
 msgstr "Πολλαπλή επιλογή"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1075
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1097
 msgid "Item Select"
 msgstr "Επιλογή στοιχείου"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1083
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1105
 msgid "Never"
 msgstr "Ποτέ"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1087
-msgid "Question"
-msgstr "Ερώτηση"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1099
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1890
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1121
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1927
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:682
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:709
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:738
@@ -3063,82 +3113,82 @@ msgstr "Ερώτηση"
 msgid "Type"
 msgstr "Είδος"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1115
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1137
 msgid "Changing a question type will remove all answers."
 msgstr "Η αλλαγή ενός τύπου ερώτησης θα αφαιρέσει όλες τις απαντήσεις."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1125
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1147
 msgid "Changing a question type will remove all item questions."
 msgstr "Η αλλαγή ενός τύπου ερώτησης θα αφαιρέσει όλες τις ερωτήσεις στοιχείων."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1135
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1157
 msgid "Changing a question type will remove all choices."
 msgstr "Η αλλαγή ενός τύπου ερώτησης θα αφαιρέσει όλες τις επιλογές."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1163
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1185
 msgid "When does this question become desirable?"
 msgstr "Πότε αυτό το ερώτημα γίνεται επιθυμητό;"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1181
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1203
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1291
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1408
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1505
 msgid "References"
 msgstr "Αναφορές"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1190
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1215
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:320
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:292
 msgid "Add reference"
 msgstr "Προσθήκη αναφοράς"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1207
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1235
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:332
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:308
 msgid "Add expert"
 msgstr "Προσθέστε ειδικό"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1236
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1264
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1239
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1374
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1471
 msgid "Answers"
 msgstr "Απαντήσεις"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1245
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1276
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:284
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:260
 msgid "Add answer"
 msgstr "Προσθέστε απάντηση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1285
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1319
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:336
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:347
 msgid "Item Template"
 msgstr "Πρότυπο στοιχείου"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1301
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1335
 msgid "String"
 msgstr "Συμβολοσειρά"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1302
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1336
 msgid "Number"
 msgstr "Αριθμός"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1303
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1337
 msgid "Date"
 msgstr "Ημερομηνία"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1304
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1338
 msgid "Date Time"
 msgstr "Ημερομηνία Ώρα"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1305
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1339
 msgid "Time"
 msgstr "Ώρα"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1307
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2991
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1341
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3099
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2130
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2149
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2171
@@ -3146,7 +3196,7 @@ msgstr "Ώρα"
 #: app-wizard/elm/Wizard/Pages/Public/ForgottenPassword/View.elm:52
 #: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:85
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:143
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:147
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:143
 #: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:37
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:215
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:248
@@ -3154,9 +3204,9 @@ msgstr "Ώρα"
 msgid "Email"
 msgstr "Ηλεκτρονικό ταχυδρομείο"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1308
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2826
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2915
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1342
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2870
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2960
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1805
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1808
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1869
@@ -3169,21 +3219,21 @@ msgstr "Ηλεκτρονικό ταχυδρομείο"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2088
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2091
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:191
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:144
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:172
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:139
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:167
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:232
 msgid "URL"
 msgstr "URL"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1309
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1745
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1343
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1782
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:615
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:637
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:662
 msgid "Color"
 msgstr "Χρώμα"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1315
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1349
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1071
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1162
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1349
@@ -3191,155 +3241,155 @@ msgstr "Χρώμα"
 msgid "Value Type"
 msgstr "Τύπος τιμής"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1324
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1358
 msgid "Validations"
 msgstr "Επικυρώσεις"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1346
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1380
 msgid "- select integration -"
 msgstr "- επιλέξτε ενοποίηση -"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1374
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1408
 msgid "Integration Configuration"
 msgstr "Διαμόρφωση ενοποίησης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1390
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1424
 msgid "Go to integration"
 msgstr "Πηγαίνετε στην ενσωμάτωση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1423
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1457
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1251
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1385
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1482
 msgid "Choices"
 msgstr "Επιλογές"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1432
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1469
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:308
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:276
 msgid "Add choice"
 msgstr "Προσθήκη επιλογής"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1470
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1507
 msgid "List Question"
 msgstr "Ερώτηση λίστας"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1472
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1509
 msgid "- select list question -"
 msgstr "- επιλέξτε ερώτηση λίστας -"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1484
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1521
 msgid "Go to list question"
 msgstr "Πηγαίνετε στην ερώτηση λίστας"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1505
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1542
 msgid "File Types"
 msgstr "Τύποι αρχείων"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1513
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1550
 msgid "Max Size (bytes)"
 msgstr "Μέγιστο μέγεθος (bytes)"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1520
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1557
 msgid "You can limit file type selection by providing comma separated list of extensions, mime types, or combination. For example, `application/pdf` or `.xls,.xlsx`."
 msgstr "Μπορείτε να περιορίσετε την επιλογή τύπου αρχείου παρέχοντας λίστα επεκτάσεων διαχωρισμού κόμματος, mime με ή συνδυασμό αυτών. Για παράδειγμα, `application/pdf` ή `.xls,.xlsx`."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1522
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1559
 msgid "Uploaded files cannot be larger than %s, but you can set a smaller limit."
 msgstr "Τα αρχεία που μεταφορτώνονται δεν μπορούν να είναι μεγαλύτερα από %s, αλλά μπορείτε να ορίσετε ένα μικρότερο όριο."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1530
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1567
 msgid "Item select questions using this list question"
 msgstr "Ερωτήσεις επιλογής στοιχείου που χρησιμοποιούν αυτη τη λίστα ερώτησεων"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1585
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1622
 msgid "Metric"
 msgstr "Μετρική"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1605
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1642
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:487
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:508
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:533
 msgid "Abbreviation"
 msgstr "Συντομογραφία"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1657
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1694
 msgid "Phase"
 msgstr "Φάση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1717
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1754
 msgid "Tag"
 msgstr "Ετικέτα"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1871
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1908
 msgid "API"
 msgstr "API"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1872
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1909
 msgid "API (Legacy)"
 msgstr "API (Legacy)"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1873
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1910
 msgid "Widget"
 msgstr "Widget"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1916
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3141
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1953
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3252
 msgid "No questions"
 msgstr "Δεν υπάρχουν ερωτήσεις"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1966
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2003
 msgid "This integration was created from a template and now differs."
 msgstr "Αυτή η ενσωμάτωση δημιουργήθηκε από ένα πρότυπο και τώρα διαφέρει."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1971
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:221
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2008
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:220
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:199
 msgid "Update"
 msgstr "Ενημέρωση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1987
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2024
 msgid "Questions using this integration"
 msgstr "Ερωτήσεις που χρησιμοποιούν αυτή την ενσωμάτωση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2013
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2050
 msgid "Allow Custom Reply"
 msgstr "Επιτρέψτε Εξατομικευμένη Απάντηση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2017
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2054
 msgid "If enabled, users can type their own custom reply. If disabled, they must select a reply from the integration."
 msgstr "Εαν είναι ενεργοποιημένο, οι χρήστες μπορούν να γράψουν εξατομικευμένες απαντήσεις. Εαν είναι απενεργοποιημένο, πρέπει να επιλέξουν μία απάντηση από την ενσωμάτωση."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2022
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2632
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2059
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2669
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:684
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:771
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:892
 msgid "Variables"
 msgstr "Μεταβλήτές"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2027
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2064
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the request configuration. For example, if you define a variable named *type*, you can use it as `{{ variables.type }}`, such as *ht&#8203;tps://example.com/{{ variables.type }}*."
 msgstr "Οι μεταβλητές μπορούν να χρησιμοποιηθούν για παραμετροποιήση μιας ενσωμάτωσης σε κάθε ερώτηση. Χρησιμοποιείστε το ώστε να ορίσετε μεταβλητές των οποίων οι τιμές μπορούν να συμπληρωθούν στις ερωτήσεις μέσω αυτής της ενσωμάτωσης.Οι μεταβλητές μπορούν να χρησιμοποιηθούν σε αιτήματα διαμόρφωσης. Για παράδειγμα, εαν ορίσετε μια μεταβλητή που ονομάζεται *τύπος*, μπορείτε να τη χρησιμοποιήσετε ως `{{ variables.type }}`, όπως στο παράδειγμα *https://example.com/{{ type }}*."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2043
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2080
 msgid "There are no secrets configured."
 msgstr "Δεν έχουν διαμορφωθεί μυστικά."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2053
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2090
 msgid "Configure secrets"
 msgstr "Διαμόρφωση μυστικών"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2056
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2093
 msgid "Secrets can store sensitive information used for API calls, such as tokens, that you don't want to share with the knowledge models. You can use them as `{{ secrets.secret_name }}` anywhere in the request configuration."
 msgstr "Τα μυστικά μπορούν να αποθηκεύσουν ευαίσθητες πληροφορίες που χρησιμοποιούνται για κλήσεις API, όπως tokens, τις οποίες δε θέλετε να μοιραστείτε με το μοντέλο γνώσης. Μπορείτε να τα χρησιμοποιήσετε ως `{{ secrets.secret_name }}`, οπουδήποτε στο αίτημα διαμόρφωσης."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2063
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2100
 msgid "Advanced Integration Configuration"
 msgstr "Προχωρημένη Διαμόρφωση Ενσωμάτωσης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2074
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2475
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2111
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2512
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:687
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:716
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:774
@@ -3349,12 +3399,12 @@ msgstr "Προχωρημένη Διαμόρφωση Ενσωμάτωσης"
 msgid "Request HTTP Headers"
 msgstr "Αίτηση κεφαλίδων HTTP"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2078
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2115
 msgid "HTTP headers to include in the API request. You can use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
 msgstr "HTTP κεφαλίδες για να συμπεριληφθούν στο αίτημα API. Χρησιμοποιείστε `{{ q }}`για τον όρο αναζήτησης και `{{ variables.name }}`για αναφορά μεταβλητών και `{{ secrets.name }}` για μυστικά."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2081
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2483
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2118
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2520
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:688
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:717
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:775
@@ -3364,80 +3414,80 @@ msgstr "HTTP κεφαλίδες για να συμπεριληφθούν στο 
 msgid "Request HTTP Body"
 msgstr "Αίτηση σώματος HTTP"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2085
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2122
 msgid "Optional request body of the API request. You can again use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
 msgstr "Προαιρετικό αίτημα σώματος του αιτήματος ΑΡΙ. Χρησιμοποιείστε `{{ q }}`για τον όρο αναζήτησης και `{{ variables.name }}`για αναφορά μεταβλητών και `{{ secrets.name }}` για μυστικά."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2088
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2491
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2125
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2528
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:689
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:776
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:897
 msgid "Allow Empty Search"
 msgstr "Επιτρέψτε την κενή αναζήτηση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2092
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2129
 msgid "If enabled, the API request will be sent even if the user does not enter a search term. This is useful for APIs that return a default set of results when no search term is provided."
 msgstr "Εαν είναι ενεργοποιημένο, το αίτημα ΑΡΙ θα σταλθεί ακόμη και αν ο χρήστης δεν χρησιμοποιήσει κάποιον όρο αναζήτησης. Αυτό είναι χρήσιμο για τα ΑΡΙ όταν επιστρέφουν ένα προεπιλεγμένο σετ αποτελεσμάτων όταν δεν παρέχεται κάποιος όρος αναζήτησης."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2098
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2135
 msgid "Advanced Request Configuration"
 msgstr "Προχωρημένη Διαμόρφωση Αιτήματος"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2107
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2525
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2144
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2562
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:229
 msgid "Request"
 msgstr "Αίτημα"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2108
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2145
 msgid "Import from cURL string"
 msgstr "Εισαγωγή από συμβολοσειρά cURL"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2126
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2163
 msgid "Enter request URL..."
 msgstr "Εισάγετε το αίτημα URL..."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2130
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2167
 msgid "The full API endpoint used for search. Use `{{ q }}` to insert the user's search term (for example, *https://example.com/search?q={{ q }}*), and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
 msgstr "Το συνολικό τελικό ΑΡΙ που χρησιμοποιείται για αναζήτηση. Χρησιμοποιείστε `{{ q }}` για να εισάγεται τον όρο αναζήτησης χρήστη (π.χ., *https://example.com/search?q={{ q }}*), και`{{ variables.name }}` για αναφορές μεταβλητών και `{{ secrets.name }}` για μυστικά."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2154
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2191
 msgid "Test Variables"
 msgstr "Μεταβλητές Δοκιμής"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2194
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2231
 msgid "Request Details"
 msgstr "Λεπτομέρειες αιτήματος"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2222
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2259
 msgid "This content type is not supported."
 msgstr "Αυτός ο τύπος περιεχομένου δεν υποστηρίζεται."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2250
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2394
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2540
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2287
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2431
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2577
 msgid "Response"
 msgstr "Απάντηση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2275
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2312
 msgid "Test"
 msgstr "Δοκιμή"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2279
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2316
 msgid "Test Search Query"
 msgstr "Δοκιμαστικό Ερώτημα Αναζήτησης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2283
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2320
 msgid "This is what users would write in the questionnaire when filling in the integration question."
 msgstr "Αυτό θα γράφουν οι χρήστες σε ένα ερωτηματολόγιο όταν συμπληρώνουν μία ερώτηση ενσωμάτωσης."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2286
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2323
 msgid "Load"
 msgstr "Φόρτωση"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2333
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2507
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2370
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2544
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:690
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:718
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:777
@@ -3447,13 +3497,13 @@ msgstr "Φόρτωση"
 msgid "Response List Field"
 msgstr "Πεδίο λίστας απαντήσεων"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2339
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2544
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2376
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2581
 msgid "If the returned JSON is not an array of items directly but the items are nested, use this to define the name or path to the field in the response that contains the list of items. Keep empty otherwise."
 msgstr "Εάν το επιστρεφόμενο JSON δεν είναι άμεσα ένας πίνακας στοιχείων αλλά τα στοιχεία είναι ένθετα, χρησιμοποιήστε το για να ορίσετε το όνομα ή τη διαδρομή προς το πεδίο της απόκρισης που περιέχει τη λίστα των στοιχείων. Διαφορετικά, διατηρήστε το κενό."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2349
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2515
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2386
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2552
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:691
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:720
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:778
@@ -3463,30 +3513,30 @@ msgstr "Εάν το επιστρεφόμενο JSON δεν είναι άμεσα
 msgid "Response Item Template"
 msgstr "Πρότυπο στοιχείου απάντησης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2367
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2404
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:692
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:779
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:900
 msgid "Response Item Template for Selection"
 msgstr "Πρότυπο στοιχείου απάντησης για Επιλογή"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2385
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2422
 msgid "Advanced Response Configuration"
 msgstr "Προχωρημένη διαμόρφωση απάντησης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2401
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2438
 msgid "Response is not a valid JSON."
 msgstr "Η απάντησησ δεν είναι έγκυρο JSON."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2405
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2442
 msgid "Run a successful test to configure the response."
 msgstr "Τρέξτε ένα επιτυχημένο τεστ για να διαμορφώσετε την απάντηση."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2430
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2467
 msgid "Click to copy code"
 msgstr "Κάντε κλικ για να αντιγράψετε τον κώδικα"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2458
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2495
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:686
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:715
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:773
@@ -3496,7 +3546,7 @@ msgstr "Κάντε κλικ για να αντιγράψετε τον κώδικ
 msgid "Request URL"
 msgstr "Αίτηση URL"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2466
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2503
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:685
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:714
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:772
@@ -3506,85 +3556,85 @@ msgstr "Αίτηση URL"
 msgid "Request HTTP Method"
 msgstr "Αίτηση μεθόδου HTTP"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2499
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2536
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:719
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:818
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:927
 msgid "Response Item ID"
 msgstr "Αναγνωριστικό στοιχείου απάντησης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2527
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2564
 msgid "Use this section to configure the search request. The service you want to integrate has to provide a search HTTP API where you send a search string and it returns a JSON with found items."
 msgstr "Χρησιμοποιήστε αυτήν την ενότητα για να ρυθμίσετε τις παραμέτρους του αιτήματος αναζήτησης. Η υπηρεσία που θέλετε να ενσωματώσετε πρέπει να παρέχει ένα HTTP API αναζήτησης όπου στέλνετε μια συμβολοσειρά αναζήτησης και επιστρέφει ένα JSON με τα στοιχεία που βρέθηκαν."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2529
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2566
 msgid "The full API endpoint used for search. Use `${q}` to insert the user's search term (for example, *https://example.com/search?q=${q}*), and `${propName}` to reference fields defined in props."
 msgstr "Ολόκληρο το API endpoint που χρησιμοποιείται για την αναζήτηση. Χρησιμοποιείστε `${q}`για να εισάγετε τον όρο αναζήτησης του χρήστη (για παράδειγμα, *https://example.com/search?q=${q}*), και `${propName}`για να κάνετε αναφορά σε κάποιο πεδίο που έχει οριστεί στις ιδιότητες."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2532
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2569
 msgid "Optional headers to include in the API request. You can use `${q}` for the search term and `${propName}` for values from props."
 msgstr "Προαιρετικοί τίτλοι για ενσωμάτωση στο API request. Χρησιμοποιείστε `${q}`για τον όρο αναζήτησης και `${propName}`για τιμές από τις ιδιότητες."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2534
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2571
 msgid "Optional request body for POST or PUT methods. Supports the same variables: `${q}` for the search term and `${propName}` for props."
 msgstr "Προαιρετικό σώμα αιτήματος για τις μεθόδους POST ή PUT. Υποστηρίζονται οι ίδιες μεταβλητές: `${q}` για τον όρο αναζήτησης και `${propName}` για ιδιότητες."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2536
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2573
 msgid "Turn this off if the API cannot handle empty search requests. In that case, the requests will be made only after users type something."
 msgstr "Απενεργοποιήστε το εάν το API δεν μπορεί να χειριστεί κενές αιτήσεις αναζήτησης. Σε αυτή την περίπτωση, οι αιτήσεις θα γίνονται μόνο αφού οι χρήστες πληκτρολογήσουν κάτι."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2542
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2579
 msgid "Use this section to configure how to process the response returned from the search API."
 msgstr "Χρησιμοποιήστε αυτήν την ενότητα για να ρυθμίσετε τον τρόπο επεξεργασίας της απόκρισης που επιστρέφεται από το API αναζήτησης."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2546
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2583
 msgid "Use this to define an identifier for the item. This will be used in **Item URL** as `${id}` to compose a URL to the found item. You can use properties from the returned item in Jinja2 notation. For example, if the item has a field `id` use `{{item.id}}` here. You can also compose multiple fields together, e.g., `{{item.field1}}-{{item.field2}}`."
 msgstr "Χρησιμοποιήστε το για να ορίσετε ένα αναγνωριστικό για το στοιχείο. Αυτό θα χρησιμοποιηθεί στο **Item URL** ως `${id}` για να συνθέσει ένα URL για το στοιχείο που βρέθηκε. Μπορείτε να χρησιμοποιήσετε ιδιότητες από το στοιχείο που επιστρέφεται στην σημειογραφία Jinja2. Για παράδειγμα, αν το στοιχείο έχει ένα πεδίο `id` χρησιμοποιήστε το `{{item.id}}` εδώ. Μπορείτε επίσης να συνθέσετε πολλά πεδία μαζί, π.χ. `{{item.field1}}-{{item.field2}}`."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2549
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2586
 msgid "This defines how the found items will be displayed for the user. You can use properties from the returned item in Jinja2 notation, you can also use [Markdown](%s) for some formatting. For example, if the returned item has a field called name, you can use `**{{item.name}}**` to display the name in bold."
 msgstr "Αυτό καθορίζει τον τρόπο με τον οποίο θα εμφανίζονται στον χρήστη τα στοιχεία που βρέθηκαν. Μπορείτε να χρησιμοποιήσετε ιδιότητες από το επιστρεφόμενο στοιχείο σε σημειογραφία Jinja2, μπορείτε επίσης να χρησιμοποιήσετε [Markdown](%s) για κάποια μορφοποίηση. Για παράδειγμα, αν το επιστρεφόμενο στοιχείο έχει ένα πεδίο που ονομάζεται όνομα, μπορείτε να χρησιμοποιήσετε το `**{{item.name}}**` για να εμφανίσετε το όνομα με έντονη γραφή."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2555
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2592
 msgid "Defines the URL to the selected item. Use `${id}` to get the value defined in **Response Item ID** field, for example `https://example.com/${id}`."
 msgstr "Καθορίζει τη διεύθυνση URL του επιλεγμένου στοιχείου. Χρησιμοποιήστε `${id}` για να λάβετε την τιμή που ορίζεται στο πεδίο **Response Item ID**, για παράδειγμα `https://example.com/${id}`."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2577
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2614
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:743
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:855
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:951
 msgid "Widget URL"
 msgstr "URL του widget"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2587
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2624
 msgid "The URL of the widget implemented using [DSW Integration SDK](https://github.com/ds-wizard/dsw-integration-sdk)."
 msgstr "Η διεύθυνση URL του widget που υλοποιήθηκε χρησιμοποιώντας το [DSW Integration SDK](https://github.com/ds-wizard/dsw-integration-sdk)."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2589
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2626
 msgid "Defines the URL to the selected item. Use `${id}` value returned from the widget, for example `https://example.com/${id}`."
 msgstr "Καθορίζει τη διεύθυνση URL του επιλεγμένου στοιχείου. Χρησιμοποιήστε την τιμή `${id}` που επιστρέφεται από το widget, για παράδειγμα `https://example.com/${id}`."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2601
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2638
 msgid "A string that identifies the integration. It has to be unique for each integration."
 msgstr "Μια συμβολοσειρά που προσδιορίζει την ενσωμάτωση. Πρέπει να είναι μοναδική για κάθε ενσωμάτωση."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2613
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2650
 msgid "A name visible everywhere else in the knowledge model Editor, such as when choosing the integration for a question."
 msgstr "Ένα όνομα που είναι ορατό οπουδήποτε αλλού στον Επεξεργαστή μοντέλου γνώσης, όπως όταν επιλέγετε την ενσωμάτωση για μια ερώτηση."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2621
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2658
 msgid "Logo URL"
 msgstr "URL λογότυπου"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2625
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2662
 msgid "Logo is displayed next to the link to the selected item in questionnaires. It can be either URL or base64 image."
 msgstr "Το λογότυπο εμφανίζεται δίπλα στο σύνδεσμο του επιλεγμένου στοιχείου στα ερωτηματολόγια. Μπορεί να είναι είτε URL είτε εικόνα base64."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2637
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2674
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the URL configuration. For example, if you define a variable named *type*, you can use it as `${type}`, such as *ht&#8203;tps://example.com/${type}*."
 msgstr "Οι μεταβλητές μπορούν να χρησιμοποιηθούν για την παραμετροποίηση της εμσωμάτωσης για κάθε ερώτηση. Χρησιμοποιήστε τα για να ορίσετε μεταβλητές των οποίων η τιμή μπορεί να συμπληρωθεί στις ερωτήσεις που χρησιμοποιούν αυτή την ενσωμάτωση. Οι μεταβλητές μπορούν στη συνέχεια να χρησιμοποιηθούν στη διαμόρφωση της διεύθυνσης URL. Για παράδειγμα, αν ορίσετε τη μεταβλητή με όνομα *type*, μπορείτε να το χρησιμοποιήσετε ως `${type}`, όπως *https://example.com/${type}*."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2645
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2682
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:713
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:742
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:812
@@ -3594,13 +3644,9 @@ msgstr "Οι μεταβλητές μπορούν να χρησιμοποιηθο
 msgid "Item URL"
 msgstr "URL στοιχείου"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2677
-msgid "Answer"
-msgstr "Απάντηση"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2689
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2786
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2923
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2726
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2826
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2968
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1541
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1567
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1618
@@ -3617,7 +3663,7 @@ msgstr "Απάντηση"
 msgid "Label"
 msgstr "Ετικέτα"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2697
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2734
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1542
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1568
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1619
@@ -3625,17 +3671,13 @@ msgstr "Ετικέτα"
 msgid "Advice"
 msgstr "Συμβουλή"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2708
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2745
 msgid "Follow-Up Questions"
 msgstr "Επακόλουθες Ερωτήσεις"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2774
-msgid "Choice"
-msgstr "Επιλογή"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2825
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2885
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3105
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2869
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2930
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3216
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1788
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1851
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1854
@@ -3645,11 +3687,17 @@ msgstr "Επιλογή"
 msgid "Resource Page"
 msgstr "Σελίδα πόρων"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2831
-msgid "Reference"
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2871
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1829
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1895
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1899
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1974
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2043
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2112
+msgid "Cross Reference"
 msgstr "Παραπομπή"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2843
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2888
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1785
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1804
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1825
@@ -3668,31 +3716,39 @@ msgstr "Παραπομπή"
 msgid "Reference Type"
 msgstr "Τύπος παραπομπής"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2887
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2932
 msgid "- select resource page -"
 msgstr "- επιλέξτε σελίδα πόρων -"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2971
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3017
+msgid "- select related question -"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3031
+msgid "Go to related question"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3079
 msgid "Expert"
 msgstr "Ειδικός"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3036
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3144
 msgid "Resource Collection"
 msgstr "Συλλογή πόρων"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3056
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3164
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2242
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2271
 msgid "Resource Pages"
 msgstr "Σελίδες πόρων"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3065
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3176
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:438
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:340
 msgid "Add resource page"
 msgstr "Προσθήκη σελίδας πόρων"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3125
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3236
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2286
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2305
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2327
@@ -3700,197 +3756,197 @@ msgstr "Προσθήκη σελίδας πόρων"
 msgid "Content"
 msgstr "Περιεχόμενο"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3165
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3276
 msgid "Questions using this resource page"
 msgstr "Ερωτήσεις που χρησιμοποιούν αυτή τη σελίδα πόρων"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3176
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3287
 msgid "The knowledge model entity you are trying to open does not exist."
 msgstr "Η οντότητα του μοντέλου γνώσης που προσπαθείτε να ανοίξετε δεν υπάρχει."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3205
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3316
 msgid "Click to copy UUID"
 msgstr "Κάντε κλικ για να αντιγράψετε το UUID"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3298
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3409
 msgid "Are you sure you want to delete this chapter?"
 msgstr "Σίγουρα θέλετε να διαγράψετε αυτό το κεφάλαιο;"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3305
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3416
 msgid "Are you sure you want to delete this question?"
 msgstr "Σίγουρα θέλετε να διαγράψετε αυτή την ερώτηση;"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3312
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3423
 msgid "Are you sure you want to delete this metric?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή τη μετρική;"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3319
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3430
 msgid "Are you sure you want to delete this phase?"
 msgstr "Σίγουρα θέλετε να διαγράψετε αυτή τη φάση;"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3326
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3437
 msgid "Are you sure you want to delete this question tag?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή την ετικέτα ερώτησης;"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3333
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3444
 msgid "Are you sure you want to delete this integration?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή την ενσωμάτωση;"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3340
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3451
 msgid "Are you sure you want to delete this resource collection?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή τη συλλογή πόρων;"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3347
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3458
 msgid "Are you sure you want to delete this resource page?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή τη σελίδα πόρων;"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3354
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3465
 msgid "Are you sure you want to delete this answer?"
 msgstr "Σίγουρα θέλετε να διαγράψετε αυτή την απάντηση;"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3361
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3472
 msgid "Are you sure you want to delete this choice?"
 msgstr "Σίγουρα θέλετε να διαγράψετε αυτή την επιλογή;"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3368
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3479
 msgid "Are you sure you want to delete this reference?"
 msgstr "Σίγουρα θέλετε να διαγράψετε αυτή την παραπομπή;"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3375
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3486
 msgid "Are you sure you want to delete this expert?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτόν τον ειδικό;"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3384
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3495
 msgid "Heads up!"
 msgstr "Προσοχή!"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3465
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3576
 msgid "Select a new parent"
 msgstr "Επιλέξτε έναν νέο γονέα"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3511
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3622
 msgid "Paste your cURL command here..."
 msgstr "Επικόλληση εντολής cURL εδώ..."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3519
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3630
 msgid "Import from cURL"
 msgstr "Εισαγωγή από cURL"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:390
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:389
 #: app-wizard/elm/Wizard/Pages/Projects/Common/QuestionnaireShareFormMemberPermType.elm:63
-#: shared/common/elm/Common/Components/FormGroup.elm:584
+#: shared/common/elm/Common/Components/FormGroup.elm:583
 msgid "Editor"
 msgstr "Συντάκτης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:404
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:403
 #: shared/common/elm/Common/Components/FormGroup.elm:496
 msgid "You can use %s and see the result in the preview tab."
 msgstr "Χρησιμοποιώντας %s μπορείτε να δείτε το αποτέλεσμα στην καρτέλα προεπισκόπησης."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:516
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:514
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:204
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:721
 msgid "Template"
 msgstr "Πρότυπο"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:534
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:532
 msgid "You can use [Jinja](%s) and [Markdown](%s) to create and format the template."
 msgstr "Μπορείτε να χρησιμοποιήσετε [Jinja](%s) και [Markdown](%s) για να δημιουργείσετε και να μορφοποιήσετε το πρότυπο."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:671
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:669
 msgid "Key"
 msgstr "Βασικό"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:703
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:700
 msgid "Add annotation"
 msgstr "Προσθήκη σχολίου"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:707
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:704
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2572
 msgid "Annotations"
 msgstr "Σχολιασμοί"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:970
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:967
 msgid "Remove validation"
 msgstr "Κατάργηση επικύρωσης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:974
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:971
 msgid "Validation Type"
 msgstr "Τύπος επικύρωσης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1002
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:999
 msgid "Add validation"
 msgstr "Προσθήκη επικύρωσης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1021
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1018
 msgid "Min Length"
 msgstr "Ελάχιστο μήκος"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1028
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1025
 msgid "Max Length"
 msgstr "Μέγιστο μήκος"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1035
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1032
 msgid "Regex"
 msgstr "Regex"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1044
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1041
 msgid "ORCID"
 msgstr "ORCID"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1050
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1047
 msgid "DOI"
 msgstr "DOI"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1056
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1053
 msgid "Min Number"
 msgstr "Ελάχιστος αριθμός"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1062
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1059
 msgid "Max Number"
 msgstr "Μέγιστος αριθμός"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1068
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1065
 msgid "From Date"
 msgstr "Ημερομηνία - Από"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1074
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1071
 msgid "To Date"
 msgstr "Ημερομηνία- Έως"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1080
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1077
 msgid "From Date Time"
 msgstr "Ημερομηνία Ώρα - Από"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1086
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1083
 msgid "To Date Time"
 msgstr "Ημερομηνία Ώρα - Έως"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1092
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1089
 msgid "From Time"
 msgstr "'Ωρα - Από"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1098
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1095
 msgid "To Time"
 msgstr "'Ωρα - Έως"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1104
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1101
 msgid "Domain"
 msgstr "Τομέας"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1197
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1194
 msgid "Weight"
 msgstr "Βάρος"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1376
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1373
 msgid "Header Name"
 msgstr "Όνομα επικεφαλίδας"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1385
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1382
 msgid "Header Value"
 msgstr "Τιμή επικεφαλίδας"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1406
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1403
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:233
 msgid "Add header"
 msgstr "Προσθήκη επικεφαλίδας"
@@ -3904,19 +3960,19 @@ msgstr "Δεν υπάρχουν φάσεις, δημιουργήστε τις π
 msgid "There are no questions, create them first."
 msgstr "Δεν υπάρχουν ερωτήσεις, δημιουργήστε τις πρώτα."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:260
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:274
 msgid "Tags"
 msgstr "Ετικέτες"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:267
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:281
 msgid "Select all"
 msgstr "Επιλογή όλων"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:275
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:289
 msgid "Select none"
 msgstr "Μην επιλέξετε κανένα"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:292
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:306
 msgid "Save preview values"
 msgstr "Αποθήκευση τιμών προεπισκόπησης"
 
@@ -3928,29 +3984,29 @@ msgstr "Αδυναμία δημοσίευσης Μοντέλου Γνώσης"
 msgid "Check the knowledge model's metadata before publishing. You change them in %s."
 msgstr "Ελέγξτε τα μεταδεδομένα του Μοντέλου Γνώσης πριν από τη δημοσίευση. Τα αλλάζετε στο %s."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:125
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:124
 msgid "Knowledge model could not be saved."
 msgstr "Το Μοντέλο Γνώσης δεν μπόρεσε να αποθηκευτεί."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:216
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:215
 msgid "This is not the latest version of the parent knowledge model."
 msgstr "Αυτή δεν είναι η πιο πρόσφατη έκδοση του μητρικού μοντέλου γνώσης."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:228
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:227
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:169
 msgid "Parent Knowledge Model"
 msgstr "Μητρικό Μοντέλο Γνώσης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:239
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:557
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:238
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:567
 msgid "Danger Zone"
 msgstr "Ζώνη Κινδύνου"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:243
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:242
 msgid "Delete this knowledge model editor"
 msgstr "Διαγραφή αυτού του συντάκτη Μοντέλου Γνώσης"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:245
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:244
 msgid "Deleted knowledge model editors cannot be recovered."
 msgstr "Οι διαγραμμένοι συντάκτες Μοντέλων Γνώσης δεν μπορούν να ανακτηθούν."
 
@@ -4240,15 +4296,6 @@ msgstr "UUID σελίδας πόρου"
 msgid "Target UUID"
 msgstr "UUID στόχου"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1829
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1895
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1899
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1974
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2043
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2112
-msgid "Cross Reference"
-msgstr "Παραπομπή"
-
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2582
 msgid "Reject"
 msgstr "Απόρριψη"
@@ -4314,7 +4361,7 @@ msgid "Fork KM"
 msgstr "Διακλάδωση ΜΓ"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:110
-#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/View.elm:70
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/View.elm:69
 msgid "Create project"
 msgstr "Δημιουργία έργου"
 
@@ -4397,20 +4444,20 @@ msgid "Unable to get the knowledge model."
 msgstr "Αδυναμία λήψης του μοντέλου γνώσης."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:60
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:193
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:342
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:195
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:344
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:256
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:285
 msgid "Unable to get knowledge models."
 msgstr "Αδυναμία λήψης μοντέλων γνώσης."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:131
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:284
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:286
 msgid "Questionnaire could not be created."
 msgstr "Το ερωτηματολόγιο δεν μπόρεσε να δημιουργηθεί."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:142
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:195
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:196
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:376
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:868
 msgid "Questionnaire could not be saved."
@@ -4575,7 +4622,7 @@ msgstr "Αυτή δεν είναι η τελευταία διαθέσιμη έκ
 
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:148
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:167
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:91
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:87
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:66
 msgid "Enabled"
 msgstr "Ενεργοποιημένο"
@@ -4768,7 +4815,7 @@ msgid "Owner"
 msgstr "Ιδιοκτήτης"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:42
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:717
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:719
 msgid "Public link"
 msgstr "Δημόσιος σύνδεσμος"
 
@@ -4782,7 +4829,7 @@ msgid "Private project accessible only by you."
 msgstr "Ιδιωτικό έργο προσβάσιμο μόνο από εσάς."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:50
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:691
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:693
 msgid "Visible by all other logged-in users"
 msgstr "Ορατό από όλους τους άλλους συνδεδεμένους χρήστες"
 
@@ -4831,69 +4878,69 @@ msgstr "Οποιοσδήποτε έχει τον σύνδεσμο έχει πρ�
 msgid "Other logged-in users can access the project."
 msgstr "Άλλοι συνδεδεμένοι χρήστες έχουν πρόσβαση στο έργο."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:119
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:121
 msgid "Starting Point"
 msgstr "Σημείο Εκκίνησης"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:120
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:122
 msgid "Create a project from a template with preset content, or start from a knowledge model and configure everything yourself."
 msgstr "Δημιουργήστε ένα έργο από ένα πρότυπο με ορισμένο περιεχόμενο, ή ξεκινήστε ένα μοντέλο γνώσης και διαμορφώστε τα πάντα μόνοι σας."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:127
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:91
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:187
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:374
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:129
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:94
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:193
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:376
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:92
 msgid "Project Template"
 msgstr "Πρότυπο έργου"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:128
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:130
 msgid "Project templates are pre-configured starting points for your project."
 msgstr "Τα πρότυπα έργων είναι προκαθορισμένα σημεία εκκίνησης για το έργο σας."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:136
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:138
 msgid "A knowledge model defines the structure of your questionnaire. You can configure the document template and other settings later."
 msgstr "Ένα μοντέλο γνώσης καθορίζει την δομή του ερωτηματολόγίου σας. Μπορείτε να διαμορφώσετε το πρότυπο εγγράφου και άλλες ρυθμίσεις αργότερα."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:144
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:146
 msgid "Project Name"
 msgstr "Όνομα Έργου"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:145
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:147
 msgid "Choose a name for your project. You can change it later."
 msgstr "Επιλέξτε ένα όνομα για το έργο σας. Μπορείτε να το αλλάξετε αργότερα."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:161
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:163
 msgid "Unable to get selected project template."
 msgstr "Δεν είναι δυνατή η λήψη του επιλεγμένου προτύπου έργου."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:171
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:173
 msgid "Unable to get selected knowledge model."
 msgstr "Δεν είναι δυνατή η λήψη του επιλεγμένου μοντέλου γνώσης."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:181
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:323
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:183
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:325
 msgid "Unable to get project templates."
 msgstr "Αδυναμία λήψης προτύπων έργου."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:305
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:307
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:242
 msgid "Unable to get question tags for the knowledge model."
 msgstr "Αδυναμία λήψης ετικετών ερωτήσεων για το μοντέλο γνώσης."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:143
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:147
 msgid "From project template"
 msgstr "Από το πρότυπο έργου"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:154
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:159
 msgid "From knowledge model"
 msgstr "Από το μοντέλο γνώσης"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:165
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:170
 msgid "Project templates are prepared projects with knowledge models, question tags, and document templates setup, so you don't have to start from scratch."
 msgstr "Τα πρότυπα έργων είναι προετοιμασμένα έργα με μοντέλα γνώσης, ετικέτες ερωτήσεων και πρότυπα εγγράφων, ώστε να μην χρειάζεται να ξεκινήσετε από το μηδέν."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:169
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:174
 msgid "Knowledge models are templates for questionnaires. You can select question tags now and configure the document template and other settings later."
 msgstr "Τα μοντέλα γνώσης είναι πρότυπα για ερωτηματολόγια. Μπορείτε τώρα να επιλέξετε ετικέτες ερωτήσεων και να διαμορφώσετε το πρότυπο εγγράφου και άλλες ρυθμίσεις αργότερα."
 
@@ -4912,51 +4959,51 @@ msgstr "Δεν κατέστη δυνατή η δημιουργία μετάβα�
 msgid "Original question tags"
 msgstr "Ετικέτες αρχικής ερώτησης"
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:78
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:79
 msgid "Select knowledge model first"
 msgstr "Επιλέξτε πρώτα ένα Μοντέλο Γνώσης"
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:81
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:82
 msgid "Create Migration"
 msgstr "Δημιουργία μετάβασης"
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:82
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:83
 msgid "A new project is created for the migration. The original will remain unchanged until the migration is finished."
 msgstr "Δημιουργείται ένα νέο έργο για τη μετάβαση. Το αρχικό έργο θα παραμείνει αμετάβλητο μέχρι να ολοκληρωθεί η μετάβαση."
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:89
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:90
 msgid "Original Knowledge Model"
 msgstr "Αρχικό Μοντέλο Γνώσης"
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:90
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:91
 msgid "Original Version"
 msgstr "Αρχική έκδοση"
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:96
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:97
 msgid "New Knowledge Model"
 msgstr "Νέο Μοντέλο Γνώσης"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:158
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:161
 msgid "Unable to get the summary report."
 msgstr "Δεν είναι δυνατή η λήψη της περίληψης."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:172
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:175
 msgid "Unable to get questionnaire event."
 msgstr "Αδυναμία λήψης συμβάντος ερωτηματολογίου."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:248
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:251
 msgid "Document could not be created."
 msgstr "Το έγγραφο δεν μπόρεσε να δημιουργηθεί."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:285
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:287
 msgid "New Document"
 msgstr "Νέο Έγγραφο"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:332
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:336
 msgid "Create for current version"
 msgstr "Δημιουργία για την τρέχουσα έκδοση"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:337
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:341
 msgid "You are creating a document for a project version from %s"
 msgstr "Δημιουργείτε ένα έγγραφο για μια έκδοση έργου από %s"
 
@@ -5025,54 +5072,58 @@ msgstr "Ανάκληση ερωτηματολογίου"
 msgid "Revert"
 msgstr "Αντιστροφή"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:276
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:277
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:204
 msgid "Unable to get project tags."
 msgstr "Αδυναμία λήψης ετικετών έργου."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:347
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:349
 msgid "The used version of the document template is no longer supported. Select a newer version or another supported template."
 msgstr "Η έκδοση του προτύπου εγγράφου που χρησιμοποιείτε δεν υποστηρίζεται πλέον. Επιλέξτε μια νεότερη έκδοση ή ένα άλλο υποστηριζόμενο πρότυπο."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:350
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:352
 msgid "This document template is now deprecated."
 msgstr "Αυτό το πρότυπο εγγράφου έχει πλέον καταργηθεί."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:366
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:368
 msgid "Default document format"
 msgstr "Προεπιλεγμένη μορφή εγγράφου"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:375
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:377
 msgid "Other users can use project templates so they don't have to start their new projects from scratch. Project templates follow the same sharing policy as projects, so make sure to share them with users who should use them."
 msgstr "Άλλοι χρήστες μπορούν να χρησιμοποιούν πρότυπα έργων, ώστε να μην χρειάζεται να ξεκινούν τα νέα τους έργα από το μηδέν. Τα πρότυπα έργων ακολουθούν την ίδια πολιτική κοινής χρήσης με τα έργα, οπότε βεβαιωθείτε ότι τα μοιράζεστε με τους χρήστες που μπορούν να τα χρησιμοποιήσουν."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:413
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:416
 msgid "Default document template"
 msgstr "Προεπιλεγμένο πρότυπο εγγράφου"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:431
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:439
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:261
 msgid "Project Tags"
 msgstr "Ετικέτες έργου"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:520
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:528
 msgid "All questions are used"
 msgstr "Όλες οι ερωτήσεις χρησιμοποιούνται"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:527
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:535
 msgid "Filtered by question tags"
 msgstr "Φιλτραρισμένο με βάση τις ετικέτες ερωτήσεων"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:534
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:542
 msgid "This knowledge model is now deprecated."
 msgstr "Αυτό το Μοντέλο Γνώσης έχει πλέον καταργηθεί."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:561
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:569
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:560
+msgid "Project migration lets you move your project to a newer or different version of the knowledge model, and update which questions are included by changing question tags."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:571
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:579
 msgid "Delete this project"
 msgstr "Διαγράψτε αυτό το έργο"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:563
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:573
 msgid "Deleted projects cannot be recovered."
 msgstr "Τα διαγραμμένα έργα δεν μπορούν να ανακτηθούν."
 
@@ -5108,23 +5159,23 @@ msgstr "Μοιραστείτε το έργο"
 msgid "Add user group"
 msgstr "Προσθήκη ομάδας χρηστών"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:509
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:510
 msgid "User Groups"
 msgstr "Ομάδες χρηστών"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:569
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:570
 msgid "Add users"
 msgstr "Προσθήκη χρηστών"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:622
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:624
 msgid "Last owner cannot be removed."
 msgstr "Ο τελευταίος κάτοχος δε μπορεί να αφαιρεθεί."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:686
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:688
 msgid "Other logged-in users can %s the project."
 msgstr "Άλλοι συνδεδεμένοι χρήστες μπορούν να %s το έργο."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:712
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:714
 msgid "Anyone with the link can %s the project."
 msgstr "Όποιος έχει τον σύνδεσμο μπορεί να %s το έργο."
 
@@ -5267,24 +5318,24 @@ msgid_plural "%s errors encountered"
 msgstr[0] "Παρουσιάστηκε %s σφάλμα"
 msgstr[1] "Παρουσιάστηκαν %s σφάλματα"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:186
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:188
 msgid "Questionnaire Changes"
 msgstr "Αλλαγές ερωτηματολογίου"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:189
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:191
 msgid "Errors"
 msgstr "Σφάλματα"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:195
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:197
 msgid "No changes to be imported"
 msgstr "Δεν υπάρχουν αλλαγές προς εισαγωγή"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:280
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:294
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:282
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:296
 msgid "Added item"
 msgstr "Προστέθηκε στοιχείο"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:297
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:299
 msgid "Added file"
 msgstr "Το αρχείο προστέθηκε"
 
@@ -5779,19 +5830,19 @@ msgstr "Οθόνη σύνδεσης"
 msgid "Display on the login screen, visible to everybody."
 msgstr "Εμφανίζεται στην οθόνη σύνδεσης, ορατό σε όλους."
 
-#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:37
+#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:26
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:119
 msgid "Features"
 msgstr "Δυνατότητες"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:56
+#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:37
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Tours.elm:50
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Tours.elm:103
 #: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:106
 msgid "Tours"
 msgstr "Περιηγήσεις"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:57
+#: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:38
 msgid "If enabled, Tours help users navigate the application when opening specific screens for the first time."
 msgstr "Εάν είναι ενεργοποιημένο, οι Περιηγήσεις βοηθούν τους χρήστες να περιηγηθούν στην εφαρμογή όταν ανοίγουν συγκεκριμένες σελίδες για πρώτη φορά."
 
@@ -5823,45 +5874,45 @@ msgstr "Διαμόρφωση ενσωμάτωσης"
 msgid "Integration config is used to configure [secrets and other properties](%s) for integrations in knowledge models."
 msgstr "H διαμόρφωση ενσωμάτωσης χρησιμοποιείται για τη διαμόρφωση [μυστικών και άλλων ιδιοτήτων](%s) για ενσωματώσεις σε μοντέλα γνώσης."
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:47
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:39
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:135
 msgid "Menu"
 msgstr "Μενού"
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:50
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:42
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:138
 msgid "Look & Feel"
 msgstr "Εμφάνιση & Αισθητική"
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:77
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:72
 msgid "Application Title"
 msgstr "Τίτλος Εφαρμογής"
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:78
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:73
 msgid "Full name of the DSW instance (displayed, for example, in the browser tab title or before login)."
 msgstr "Πλήρες όνομα του DSW στιγμιοτύπου (εμφανίζεται, για παράδειγμα, στον τίτλο της καρτέλας του προγράμματος περιήγησης ή πριν από τη σύνδεση)."
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:89
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:84
 msgid "Short Application Title"
 msgstr "Σύντομος τίτλος εφαρμογής"
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:90
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:85
 msgid "Short name of the DSW instance (displayed, for example, on top of the navigation bar). Short title can be the same as the application title if it is short enough."
 msgstr "Σύντομο όνομα του DSW στιγμιοτύπου (εμφανίζεται, για παράδειγμα, στην κορυφή της γραμμής πλοήγησης). Ο σύντομος τίτλος μπορεί να είναι ο ίδιος με τον τίτλο της εφαρμογής, εάν είναι αρκετά σύντομος."
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:107
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:102
 msgid "Custom Menu Links"
 msgstr "Προσαρμοσμένοι σύνδεσμοι μενού"
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:110
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:105
 msgid "Configure additional links in the menu. Choose any free icon from the [Font Awesome](%s), e.g. *fas fa-magic*. Check *New window* if you want to open the link in a new window."
 msgstr "Διαμόρφωση πρόσθετων συνδέσμων στο μενού. Επιλέξτε οποιοδήποτε ελεύθερο εικονίδιο από το [Font Awesome](%s), π.χ. *fas fa-magic*. Επιλέξτε *Νέο παράθυρο* αν θέλετε να ανοίξει ο σύνδεσμος σε νέο παράθυρο."
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:120
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:115
 msgid "Add link"
 msgstr "Προσθήκη συνδέσμου"
 
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:146
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:141
 msgid "New window"
 msgstr "Νέο παράθυρο"
 
@@ -6048,31 +6099,31 @@ msgstr "Η αίτηση εγγραφής απέτυχε."
 msgid "DSW Registry"
 msgstr "Μητρώο DSW"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:82
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:78
 msgid "Token"
 msgstr "Token"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:83
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:79
 msgid "Fill in your DSW Registry token. If you don't have one, you need sign up first."
 msgstr "Συμπληρώστε το token του μητρώου DSW. Εάν δεν έχετε, πρέπει πρώτα να εγγραφείτε."
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:92
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:88
 msgid "If enabled, you can import knowledge models and document templates directly from [DSW Registry](https://registry.ds-wizard.org)."
 msgstr "Εάν είναι ενεργοποιημένο, μπορείτε να εισάγετε μοντέλα γνώσης και πρότυπα εγγράφων απευθείας από το [Μητρώο DSW](https://registry.ds-wizard.org)."
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:145
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:141
 msgid "Organization Name"
 msgstr "Όνομα οργανισμού"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:146
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:142
 msgid "Organization Description"
 msgstr "Περιγραφή του οργανισμού"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:148
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:144
 msgid "The email will be used for a confirmation link and an eventual token recovery."
 msgstr "Η διεύθυνση ηλεκτρονικού ταχυδρομείου θα χρησιμοποιηθεί για έναν σύνδεσμο επιβεβαίωσης και για ενδεχόμενη ανάκτηση του token."
 
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:153
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:149
 msgid "Registry Sign Up"
 msgstr "Εγγραφή στο μητρώο"
 
@@ -6776,13 +6827,17 @@ msgstr "(προαιρετικό)"
 msgid "You can use HTML or %s and see the result in the preview tab."
 msgstr "Μπορείτε να χρησιμοποιήσετε HTML ή %s και να δείτε το αποτέλεσμα στην καρτέλα προεπισκόπησης."
 
-#: shared/common/elm/Common/Components/FormGroup.elm:768
+#: shared/common/elm/Common/Components/FormGroup.elm:767
 msgid "Suggestions: "
 msgstr "Προτάσεις: "
 
-#: shared/common/elm/Common/Components/FormGroup.elm:787
+#: shared/common/elm/Common/Components/FormGroup.elm:786
 msgid "The version number is in format X.Y.Z. Increasing number Z indicates only some fixes, number Y minor changes, and number X indicates a major change."
 msgstr "Ο αριθμός έκδοσης έχει τη μορφή X.Y.Z. Η αύξηση του αριθμού Z υποδηλώνει μόνο μερικές αλλαγές, ο αριθμός Y μικρές αλλαγές και ο αριθμός X υποδηλώνει μια σημαντική αλλαγή."
+
+#: shared/common/elm/Common/Components/TypeHintInput.elm:360
+msgid "No results matching your search were found."
+msgstr "Δεν βρέθηκαν αποτελέσματα που να ταιριάζουν με την αναζήτησή σας."
 
 #: shared/common/elm/Common/Data/Role.elm:164
 msgid "Admin"
@@ -6804,36 +6859,36 @@ msgstr "Είστε σίγουροι ότι θέλετε να παραλείψε�
 msgid "You can reset tours in user settings"
 msgstr "Μπορείτε να επαναφέρετε μια περιήγηση στις ρυθμίσεις χρήστη"
 
-#: shared/common/elm/Common/Utils/Form.elm:24
-#: shared/common/elm/Common/Utils/Form.elm:27
+#: shared/common/elm/Common/Utils/Form.elm:26
+#: shared/common/elm/Common/Utils/Form.elm:29
 msgid "%s cannot be empty."
 msgstr "Το %s δεν μπορεί να είναι κενό."
 
-#: shared/common/elm/Common/Utils/Form.elm:30
+#: shared/common/elm/Common/Utils/Form.elm:32
 msgid "This is not a valid email."
 msgstr "Αυτή διεύθυνση ηλεκτρονικού ταχυδρομείου δεν είναι έγκυρη."
 
-#: shared/common/elm/Common/Utils/Form.elm:33
+#: shared/common/elm/Common/Utils/Form.elm:35
 msgid "This is not a valid number."
 msgstr "Αυτός ο αριθμός δεν είναι έγκυρος."
 
-#: shared/common/elm/Common/Utils/Form.elm:36
+#: shared/common/elm/Common/Utils/Form.elm:38
 msgid "This should not be less than %s."
 msgstr "Αυτό δεν πρέπει να είναι μικρότερο από %s."
 
-#: shared/common/elm/Common/Utils/Form.elm:39
+#: shared/common/elm/Common/Utils/Form.elm:41
 msgid "This should not be more than %s."
 msgstr "Αυτό δεν πρέπει να υπερβαίνει το %s."
 
-#: shared/common/elm/Common/Utils/Form.elm:44
+#: shared/common/elm/Common/Utils/Form.elm:46
 msgid "Passwords do not match!"
 msgstr "Οι κωδικοί πρόσβασης δεν ταιριάζουν!"
 
-#: shared/common/elm/Common/Utils/Form.elm:47
+#: shared/common/elm/Common/Utils/Form.elm:49
 msgid "This is not a valid UUID."
 msgstr "Το UUID δεν είναι έγκυρο."
 
-#: shared/common/elm/Common/Utils/Form.elm:56
+#: shared/common/elm/Common/Utils/Form.elm:58
 msgid "Invalid value."
 msgstr "Μη έγκυρη τιμή."
 

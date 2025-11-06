@@ -5,7 +5,7 @@
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-11-04T08:31:11.810Z\nPO-Revision-Date: 2025-11-07 09:51+0000\nLast-Translator: Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-11-04T08:31:11.810Z\nPO-Revision-Date: 2025-11-07 09:51+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -730,7 +730,7 @@ msgstr "匯入回覆"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:2165
 msgid "Search"
-msgstr ""
+msgstr "搜尋"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:2191
 msgid "TODOs"
@@ -1153,7 +1153,7 @@ msgstr "外部連結"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:344
 msgid "Related questions"
-msgstr ""
+msgstr "相關問題"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:369
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1223
@@ -1398,15 +1398,15 @@ msgstr "參考來源"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:282
 msgid "No results"
-msgstr ""
+msgstr "無搜尋結果"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:292
 msgid "Search in questionnaire..."
-msgstr ""
+msgstr "在問卷中搜尋…"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:296
 msgid "Results for: %s"
-msgstr ""
+msgstr "「%s」的搜尋結果："
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/UserSuggestionDropdown.elm:106
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:223
@@ -2719,13 +2719,14 @@ msgstr "為 %s 選擇新的上層知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:159
 msgid "New parent knowledge model"
-msgstr ""
+msgstr "新的上層知識模型"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:164
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:557
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:636
+#, fuzzy
 msgid "Create migration"
-msgstr ""
+msgstr "新增轉移（migration）"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:142
 msgid "Knowledge model could not be created."
@@ -2742,7 +2743,7 @@ msgstr "知識模型 ID 僅能包含英數字元、連字號 \"-\"、底線 \"_\
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:99
 msgid "You can create a new knowledge model based on the existing one or start from scratch."
-msgstr ""
+msgstr "您可以根據現有的知識模型建立新的模型，或從頭開始建立。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:451
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:773
@@ -2837,23 +2838,24 @@ msgstr "未命名資源頁面"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1051
 msgid "Empty title for chapter"
-msgstr ""
+msgstr "沒有章節標題"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1080
 msgid "Empty title for question"
-msgstr ""
+msgstr "問題沒有標題"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1089
 msgid "No answers for options question"
-msgstr ""
+msgstr "選項問題沒有任何答案"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1098
+#, fuzzy
 msgid "No item questions for list question"
-msgstr ""
+msgstr "清單問題中沒有任何項目問題"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1109
 msgid "No integration selected for integration question"
-msgstr ""
+msgstr "整合問題沒有選擇任何整合項目"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1123
 msgid "Missing variables for integration question"

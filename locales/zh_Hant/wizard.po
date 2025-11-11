@@ -5,7 +5,7 @@
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-11-04T08:31:11.810Z\nPO-Revision-Date: 2025-11-08 11:51+0000\nLast-Translator: Chia Hsun Wang <allywang@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-11-04T08:31:11.810Z\nPO-Revision-Date: 2025-11-11 08:51+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -2874,69 +2874,71 @@ msgid "Empty label for answer"
 msgstr "回答的名稱不可為空白"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1202
+#, fuzzy
 msgid "Empty label for choice"
-msgstr ""
+msgstr "無選項的標籤"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1222
 msgid "No resource page selected for resource page reference"
-msgstr ""
+msgstr "未為資源頁面（resource page）參考來源選擇任何資源頁面"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1229
 msgid "Empty URL for URL reference"
-msgstr ""
+msgstr "網址參考來源中無任何網址"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1232
 msgid "Invalid URL for URL reference"
-msgstr ""
+msgstr "網址參考資料的網址無效"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1251
 msgid "Empty email for expert"
-msgstr ""
+msgstr "無專家電子郵件"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1254
 msgid "Invalid email for expert"
-msgstr ""
+msgstr "專家電子郵件無效"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1264
 msgid "Empty title for metric"
-msgstr ""
+msgstr "無指標的標題"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1276
 msgid "Empty title for phase"
-msgstr ""
+msgstr "無階段標題"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1288
 msgid "Empty name for tag"
-msgstr ""
+msgstr "無標籤名"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1310
 msgid "Empty name for integration"
-msgstr ""
+msgstr "無整合項目的名稱"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1317
 msgid "Empty variable name for integration"
-msgstr ""
+msgstr "無整合的變項名稱"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1324
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1414
 msgid "Empty request URL for integration"
-msgstr ""
+msgstr "無整合項目的請求網址（request URL）"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1336
 msgid "Missing {{ q }} in request URL for integration"
-msgstr ""
+msgstr "整合項目的請求網址中缺少 {{ q }}"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1343
+#, fuzzy
 msgid "Unknown Jinja property in request URL for integration: %s"
-msgstr ""
+msgstr "整合項目的請求網址中存在未知的 Jinja 屬性：%s"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1350
 msgid "Unknown variable in request URL for integration: %s"
-msgstr ""
+msgstr "有未知的變相在請求網址中：%s"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1357
 msgid "Unknown secret in request URL for integration: %s"
-msgstr ""
+msgstr "整合項目的請求網址中有未知的密鑰：%s"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1367
 msgid "No test data loaded for integration"
@@ -2944,45 +2946,46 @@ msgstr "沒有為此整合載入任何測試資料"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1378
 msgid "Response list field not found in test data for integration"
-msgstr ""
+msgstr "整合項目的測試資料中找不到 response list 欄位"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1381
 msgid "Response list field is not a list in test data for integration"
-msgstr ""
+msgstr "整合項目測試資料中的 response list 欄位不是列表（list）"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1392
 msgid "No test data success response for integration"
-msgstr ""
+msgstr "整合測試資料沒有成功回應"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1396
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1428
+#, fuzzy
 msgid "Empty response item template for integration"
-msgstr ""
+msgstr "無整合項目的回應項目範本（response item template）"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1407
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1439
 msgid "Empty ID for integration"
-msgstr ""
+msgstr "無整合項目 ID"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1421
 msgid "Empty request HTTP method for integration"
-msgstr ""
+msgstr "無整合項目的 HTTP 請求方法"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1446
 msgid "Empty widget URL for integration"
-msgstr ""
+msgstr "無整合項目的 widget 網址"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1460
 msgid "Empty title for resource collection"
-msgstr ""
+msgstr "無資源匯集標題"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1481
 msgid "Empty title for resource page"
-msgstr ""
+msgstr "無資源頁面標題"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1491
 msgid "Empty content for resource page"
-msgstr ""
+msgstr "資源頁面無內容"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:379
 msgid "Unable to get test result."

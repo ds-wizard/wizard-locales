@@ -5,7 +5,7 @@
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-11-04T08:31:11.810Z\nPO-Revision-Date: 2025-11-11 08:51+0000\nLast-Translator: Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-11-04T08:31:11.810Z\nPO-Revision-Date: 2025-11-21 06:50+0000\nLast-Translator: tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -774,7 +774,7 @@ msgstr "所有待辦項目皆已完成。"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:2694
 msgid "Click the %s icon to add new comments to a question."
-msgstr "點選 %s 圖示以新增留言至問題中。"
+msgstr "點擊 %s 圖示以新增留言至問題中。"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:2718
 msgid "View resolved comments"
@@ -2888,7 +2888,7 @@ msgstr "網址參考來源中無任何網址"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1232
 msgid "Invalid URL for URL reference"
-msgstr "網址參考資料的網址無效"
+msgstr "網址參考來源的網址無效"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1251
 msgid "Empty email for expert"
@@ -2973,7 +2973,7 @@ msgstr "無整合項目的 HTTP 請求方法"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1446
 msgid "Empty widget URL for integration"
-msgstr "無整合項目的 widget 網址"
+msgstr "無整合項目的小工具網址"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1460
 msgid "Empty title for resource collection"
@@ -3140,8 +3140,9 @@ msgid "Changing a question type will remove all answers."
 msgstr "更改問題類型將會刪除所有問題。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1147
+#, fuzzy
 msgid "Changing a question type will remove all item questions."
-msgstr ""
+msgstr "更改問題類型將會刪除所有項目問題。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1157
 msgid "Changing a question type will remove all choices."
@@ -3294,15 +3295,15 @@ msgstr "新增選項"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1507
 msgid "List Question"
-msgstr ""
+msgstr "清單問題"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1509
 msgid "- select list question -"
-msgstr ""
+msgstr "- 選擇清單問題 -"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1521
 msgid "Go to list question"
-msgstr ""
+msgstr "前往清單問題"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1542
 msgid "File Types"
@@ -3322,7 +3323,7 @@ msgstr "上傳的檔案不能大於 100 MB，但您可以設定一個較小的�
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1567
 msgid "Item select questions using this list question"
-msgstr ""
+msgstr "使用此清單問題的項目選擇問題"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1622
 msgid "Metric"
@@ -3337,7 +3338,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1694
 msgid "Phase"
-msgstr ""
+msgstr "階段"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1754
 msgid "Tag"
@@ -3353,7 +3354,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1910
 msgid "Widget"
-msgstr ""
+msgstr "小工具"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1953
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3252
@@ -3373,11 +3374,11 @@ msgstr "已更新"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2024
 msgid "Questions using this integration"
-msgstr ""
+msgstr "使用此整合的問題"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2050
 msgid "Allow Custom Reply"
-msgstr ""
+msgstr "允許自訂回覆"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2054
 msgid "If enabled, users can type their own custom reply. If disabled, they must select a reply from the integration."
@@ -3389,7 +3390,7 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:771
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:892
 msgid "Variables"
-msgstr ""
+msgstr "變數"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2064
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the request configuration. For example, if you define a variable named *type*, you can use it as `{{ variables.type }}`, such as *ht&#8203;tps://example.com/{{ variables.type }}*."
@@ -3401,7 +3402,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2090
 msgid "Configure secrets"
-msgstr ""
+msgstr "設定密鑰"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2093
 msgid "Secrets can store sensitive information used for API calls, such as tokens, that you don't want to share with the knowledge models. You can use them as `{{ secrets.secret_name }}` anywhere in the request configuration."
@@ -3468,8 +3469,9 @@ msgid "Import from cURL string"
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2163
+#, fuzzy
 msgid "Enter request URL..."
-msgstr ""
+msgstr "輸入請求網址..."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2167
 msgid "The full API endpoint used for search. Use `{{ q }}` to insert the user's search term (for example, *https://example.com/search?q={{ q }}*), and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
@@ -3557,7 +3559,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2467
 msgid "Click to copy code"
-msgstr ""
+msgstr "點擊以複製程式碼"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2495
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:686
@@ -3627,7 +3629,7 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:855
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:951
 msgid "Widget URL"
-msgstr ""
+msgstr "小工具網址"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2624
 msgid "The URL of the widget implemented using [DSW Integration SDK](https://github.com/ds-wizard/dsw-integration-sdk)."
@@ -3718,8 +3720,9 @@ msgstr "資源頁面"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1974
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2043
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2112
+#, fuzzy
 msgid "Cross Reference"
-msgstr ""
+msgstr "交叉參考來源"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2888
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1785
@@ -3791,7 +3794,7 @@ msgstr "您嘗試開啟的知識模型不存在。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3316
 msgid "Click to copy UUID"
-msgstr "點選以複製 UUID"
+msgstr "點擊以複製 UUID"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3409
 msgid "Are you sure you want to delete this chapter?"
@@ -3893,7 +3896,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:967
 msgid "Remove validation"
-msgstr ""
+msgstr "移除驗證"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:971
 msgid "Validation Type"
@@ -4029,11 +4032,11 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:242
 msgid "Delete this knowledge model editor"
-msgstr ""
+msgstr "刪除此知識模型編輯器"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:244
 msgid "Deleted knowledge model editors cannot be recovered."
-msgstr ""
+msgstr "已刪除的知識模型編輯器無法復原。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:117
 msgid "There are no question tags, create them first."
@@ -4245,19 +4248,19 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:297
 msgid "Edit reference"
-msgstr ""
+msgstr "編輯參考來源"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:303
 msgid "Delete reference"
-msgstr ""
+msgstr "刪除參考來源"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:313
 msgid "Edit expert"
-msgstr ""
+msgstr "編輯專家"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:319
 msgid "Delete expert"
-msgstr ""
+msgstr "移除專家"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:329
 msgid "Edit resource collection"
@@ -4277,23 +4280,23 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:357
 msgid "Move question"
-msgstr ""
+msgstr "移動問題"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:363
 msgid "Move answer"
-msgstr ""
+msgstr "移動答案"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:369
 msgid "Move choice"
-msgstr ""
+msgstr "移動選項"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:375
 msgid "Move reference"
-msgstr ""
+msgstr "移動參考來源"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:381
 msgid "Move expert"
-msgstr ""
+msgstr "移動專家"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:712
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:741
@@ -4360,7 +4363,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:80
 msgid "license"
-msgstr ""
+msgstr "授權"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:83
 msgid "Short description of the knowledge model."
@@ -4376,7 +4379,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:50
 msgid "Open"
-msgstr ""
+msgstr "開啟"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:86
 msgid "Create KM editor"
@@ -4394,12 +4397,11 @@ msgstr "建立專案"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:60
 msgid "Unable to update the knowledge model."
-msgstr ""
+msgstr "無法更新知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:100
-#, fuzzy
 msgid "Knowledge Model could not be deleted."
-msgstr "知識模型無法刪除。"
+msgstr "無法刪除知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:88
 msgid "This is a non-editable knowledge model, i.e., it cannot be edited, forked, or exported."
@@ -4743,12 +4745,12 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/ProjectActions/Index/View.elm:64
 #: app-wizard/elm/Wizard/Pages/ProjectImporters/Index/View.elm:64
 msgid "enabled"
-msgstr ""
+msgstr "啟用"
 
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/Update.elm:64
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/Update.elm:66
 msgid "File could not be deleted."
-msgstr ""
+msgstr "無法刪除檔案。"
 
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/Update.elm:83
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/Update.elm:85
@@ -4767,17 +4769,17 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:53
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:53
 msgid "Search files..."
-msgstr ""
+msgstr "搜尋檔案..."
 
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:56
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:56
 msgid "File name"
-msgstr ""
+msgstr "檔案名稱"
 
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:57
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:57
 msgid "File size"
-msgstr ""
+msgstr "檔案大小"
 
 #: app-wizard/elm/Wizard/Pages/ProjectImporters/Index/Update.elm:42
 msgid "Unable to change project importer."
@@ -4801,7 +4803,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/CloneProjectModal/Update.elm:68
 msgid "%s has been created."
-msgstr ""
+msgstr "%s已建立。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/CloneProjectModal/Update.elm:75
 msgid "Unable to clone project."
@@ -5157,7 +5159,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:573
 msgid "Deleted projects cannot be recovered."
-msgstr ""
+msgstr "已刪除的專案無法復原。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings/DeleteModal.elm:87
 msgid "Questionnaire was successfully deleted."
@@ -5554,7 +5556,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Public/ForgottenPassword/View.elm:41
 msgid "Recover"
-msgstr ""
+msgstr "復原"
 
 #: app-wizard/elm/Wizard/Pages/Public/ForgottenPassword/View.elm:53
 msgid "Enter the email you use to log in and we will send you a recover link."
@@ -6034,11 +6036,11 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:48
 msgid "If enabled, users that are not logged in are allowed to create projects from public knowledge models."
-msgstr ""
+msgstr "若啟用，允許未登入的使用者從公開的知識模型建立專案。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:61
 msgid "GitHub Repository Owner"
-msgstr ""
+msgstr "GitHub 儲存庫擁有者"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:62
 msgid "ht&#8203;tps://github.com/**exampleOwner**/exampleRepository"
@@ -6046,7 +6048,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:63
 msgid "GitHub Repository Name"
-msgstr ""
+msgstr "GitHub 儲存庫名稱"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:64
 msgid "ht&#8203;tps://github.com/exampleOwner/**exampleRepository**"
@@ -6070,15 +6072,16 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:90
 msgid "Project Visibility"
-msgstr ""
+msgstr "專案可檢視設定"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:91
+#, fuzzy
 msgid "If enabled, project visibility can be set for each project. Otherwise, all projects use the *Default Project Visibility*."
-msgstr ""
+msgstr "若啟用，可設定每個專案的專案可檢視設定。否則，所有專案都使用*預設專案可檢視設定*。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:92
 msgid "Default Project Visibility"
-msgstr ""
+msgstr "預設專案可檢視設定"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:93
 msgid "If *Project Visibility* is enabled, this value is pre-selected when creating a new project. If *Project Visibility* is disabled, this value is used implicitly for new projects."
@@ -6086,7 +6089,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:95
 msgid "Project Sharing"
-msgstr ""
+msgstr "專案分享設定"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:96
 msgid "If enabled, users can choose if project can be shared with people outside of the wizard or not. Otherwise, all projects use the *Default Project Sharing*."
@@ -6094,7 +6097,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:97
 msgid "Default Project Sharing"
-msgstr ""
+msgstr "預設專案分享設定"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:98
 msgid "If *Project Sharing* is enabled, this value is pre-selected when creating a new project. If *Project Sharing* is disabled, this value is used implicitly for new projects."
@@ -6135,7 +6138,7 @@ msgstr "DSW 登錄冊"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:78
 msgid "Token"
-msgstr ""
+msgstr "權杖"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:79
 msgid "Fill in your DSW Registry token. If you don't have one, you need sign up first."
@@ -6147,11 +6150,11 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:141
 msgid "Organization Name"
-msgstr ""
+msgstr "組織名稱"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:142
 msgid "Organization Description"
-msgstr ""
+msgstr "組織描述"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:144
 msgid "The email will be used for a confirmation link and an eventual token recovery."

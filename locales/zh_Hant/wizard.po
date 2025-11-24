@@ -5,7 +5,7 @@
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-11-04T08:31:11.810Z\nPO-Revision-Date: 2025-11-21 06:50+0000\nLast-Translator: tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-11-04T08:31:11.810Z\nPO-Revision-Date: 2025-11-25 02:50+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -3327,14 +3327,14 @@ msgstr "使用此清單問題的項目選擇問題"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1622
 msgid "Metric"
-msgstr ""
+msgstr "指標"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1642
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:487
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:508
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:533
 msgid "Abbreviation"
-msgstr ""
+msgstr "縮寫"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1694
 msgid "Phase"
@@ -3342,15 +3342,15 @@ msgstr "階段"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1754
 msgid "Tag"
-msgstr ""
+msgstr "標籤"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1908
 msgid "API"
-msgstr ""
+msgstr "應用程式介面（API）"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1909
 msgid "API (Legacy)"
-msgstr ""
+msgstr "舊版應用程式介面（Legacy API）"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1910
 msgid "Widget"
@@ -3359,18 +3359,17 @@ msgstr "小工具"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1953
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3252
 msgid "No questions"
-msgstr ""
+msgstr "沒有題目"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2003
 msgid "This integration was created from a template and now differs."
-msgstr ""
+msgstr "此整合是從一個模板建立的，但現在已經不同。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2008
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:220
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:199
-#, fuzzy
 msgid "Update"
-msgstr "已更新"
+msgstr "更新"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2024
 msgid "Questions using this integration"
@@ -3382,7 +3381,7 @@ msgstr "允許自訂回覆"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2054
 msgid "If enabled, users can type their own custom reply. If disabled, they must select a reply from the integration."
-msgstr ""
+msgstr "若啟用，使用者可以輸入自訂回覆；若不啟用，使用者必須從整合提供的回覆中選擇一個。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2059
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2669
@@ -3394,11 +3393,11 @@ msgstr "變數"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2064
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the request configuration. For example, if you define a variable named *type*, you can use it as `{{ variables.type }}`, such as *ht&#8203;tps://example.com/{{ variables.type }}*."
-msgstr ""
+msgstr "變項（variables）可以被用來參數化整合中的每個問題。使用這個功能定義變項，使其值可用來填入使用此整合的問題。之後，這些變項可以使用於請求（request）的設定中。例如，如果你定義 *type* 變項，那你可以這樣使用它 `{{ variables.type }}`，像是 *ht&#8203;tps://example.com/{{ variables.type }}*。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2080
 msgid "There are no secrets configured."
-msgstr ""
+msgstr "沒有設定好的密鑰。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2090
 msgid "Configure secrets"
@@ -3406,11 +3405,11 @@ msgstr "設定密鑰"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2093
 msgid "Secrets can store sensitive information used for API calls, such as tokens, that you don't want to share with the knowledge models. You can use them as `{{ secrets.secret_name }}` anywhere in the request configuration."
-msgstr ""
+msgstr "密鑰（secrets）可用來儲存 API 呼叫時需要的敏感資訊，像是權杖（tokens），一些你不想分享給知識模型的資訊。你可以在請求設定中的任何位置以 `{{ secrets.secret_name }}`使用、它們。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2100
 msgid "Advanced Integration Configuration"
-msgstr ""
+msgstr "進階整合設定"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2111
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2512
@@ -3421,7 +3420,7 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:895
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:924
 msgid "Request HTTP Headers"
-msgstr ""
+msgstr "請求 HTTP 標頭"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2115
 msgid "HTTP headers to include in the API request. You can use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
@@ -3436,7 +3435,7 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:896
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:925
 msgid "Request HTTP Body"
-msgstr ""
+msgstr "請求 HTTP 主體"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2122
 msgid "Optional request body of the API request. You can again use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
@@ -3469,7 +3468,6 @@ msgid "Import from cURL string"
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2163
-#, fuzzy
 msgid "Enter request URL..."
 msgstr "輸入請求網址..."
 

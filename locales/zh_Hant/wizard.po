@@ -5,7 +5,7 @@
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-11-04T08:31:11.810Z\nPO-Revision-Date: 2025-11-27 05:50+0000\nLast-Translator: tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-11-04T08:31:11.810Z\nPO-Revision-Date: 2025-11-27 05:50+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -3423,7 +3423,7 @@ msgstr "請求 HTTP 標頭"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2115
 msgid "HTTP headers to include in the API request. You can use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
-msgstr ""
+msgstr "在 API 請求中要提供的 HTTP 標頭。您可以使用`{{ q }}`作為搜尋詞彙，並使用`{{ variables.name }}`來參照變項及使用`{{ secrets.name }}`來參照密鑰。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2118
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2520
@@ -3438,23 +3438,24 @@ msgstr "請求 HTTP 主體"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2122
 msgid "Optional request body of the API request. You can again use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
-msgstr ""
+msgstr "可選填的 API 請求主體（request body）。您可以再次使用`{{ q }}`作為搜尋詞彙，並使用`{{ variables.name }}`參照變項及使用`{{ secrets.name }}`參照密鑰。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2125
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2528
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:689
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:776
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:897
+#, fuzzy
 msgid "Allow Empty Search"
-msgstr ""
+msgstr "允許空白搜尋"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2129
 msgid "If enabled, the API request will be sent even if the user does not enter a search term. This is useful for APIs that return a default set of results when no search term is provided."
-msgstr ""
+msgstr "若啟用此選項，即使使用者未輸入任何搜尋詞彙也會送出 API 請求。這對於在未提供搜尋詞彙仍能回傳預設結果的 API 很有用。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2135
 msgid "Advanced Request Configuration"
-msgstr ""
+msgstr "進階的請求設定"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2144
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2562
@@ -3464,7 +3465,7 @@ msgstr "請求"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2145
 msgid "Import from cURL string"
-msgstr ""
+msgstr "從 cURL 字串匯入"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2163
 msgid "Enter request URL..."
@@ -3472,41 +3473,41 @@ msgstr "輸入請求網址..."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2167
 msgid "The full API endpoint used for search. Use `{{ q }}` to insert the user's search term (for example, *https://example.com/search?q={{ q }}*), and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
-msgstr ""
+msgstr "用於搜尋功能的完整 API 端點。使用`{{ q }}`插入使用者的搜尋詞彙（例如*https://example.com/search?q={{ q }}*），並使用`{{ variables.name }}`帶入變項、及使用 `{{ secrets.name }}`帶入密鑰。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2191
 msgid "Test Variables"
-msgstr ""
+msgstr "測試變項"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2231
 msgid "Request Details"
-msgstr ""
+msgstr "請求細節（request）"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2259
 msgid "This content type is not supported."
-msgstr ""
+msgstr "不支援此內容類型。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2287
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2431
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2577
 msgid "Response"
-msgstr ""
+msgstr "回應"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2312
 msgid "Test"
-msgstr ""
+msgstr "測試"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2316
 msgid "Test Search Query"
-msgstr ""
+msgstr "測試搜尋問題"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2320
 msgid "This is what users would write in the questionnaire when filling in the integration question."
-msgstr ""
+msgstr "這是使用者在填寫問卷中整合問題時會填寫的內容。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2323
 msgid "Load"
-msgstr ""
+msgstr "載入"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2370
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2544
@@ -3516,13 +3517,15 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:817
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:898
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:926
+#, fuzzy
 msgid "Response List Field"
-msgstr ""
+msgstr "回應清單欄位"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2376
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2581
+#, fuzzy
 msgid "If the returned JSON is not an array of items directly but the items are nested, use this to define the name or path to the field in the response that contains the list of items. Keep empty otherwise."
-msgstr ""
+msgstr "若回傳的 JSON 並非由項目陣列（array）組成，而是將項目巢狀（nested）在其他欄位中，請在此處定義回應中包含的項目清單的欄位名稱（name）或路徑（path）。否則請保持空白。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2386
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2552
@@ -3533,26 +3536,26 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:899
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:928
 msgid "Response Item Template"
-msgstr ""
+msgstr "回應項目模板"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2404
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:692
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:779
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:900
 msgid "Response Item Template for Selection"
-msgstr ""
+msgstr "可選擇的回應項目模板"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2422
 msgid "Advanced Response Configuration"
-msgstr ""
+msgstr "進階的回應設定"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2438
 msgid "Response is not a valid JSON."
-msgstr ""
+msgstr "回應不是有效的 JSON 格式。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2442
 msgid "Run a successful test to configure the response."
-msgstr ""
+msgstr "跑一個成功的測試，以用來設定回應。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2467
 msgid "Click to copy code"
@@ -3566,7 +3569,7 @@ msgstr "點擊以複製程式碼"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:894
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:923
 msgid "Request URL"
-msgstr ""
+msgstr "請求 URL"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2503
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:685
@@ -3576,18 +3579,18 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:893
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:922
 msgid "Request HTTP Method"
-msgstr ""
+msgstr "請求 HTTP 方法"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2536
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:719
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:818
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:927
 msgid "Response Item ID"
-msgstr ""
+msgstr "回應項目 ID"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2564
 msgid "Use this section to configure the search request. The service you want to integrate has to provide a search HTTP API where you send a search string and it returns a JSON with found items."
-msgstr ""
+msgstr "使用此區段來設定搜尋請求。您想整合的服務必須提供搜尋用的 HTTP API，透過傳送搜尋字串並回傳搜尋結果項目的 JSON。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2566
 msgid "The full API endpoint used for search. Use `${q}` to insert the user's search term (for example, *https://example.com/search?q=${q}*), and `${propName}` to reference fields defined in props."

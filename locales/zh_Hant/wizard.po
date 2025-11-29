@@ -5,7 +5,7 @@
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-11-04T08:31:11.810Z\nPO-Revision-Date: 2025-11-29 03:50+0000\nLast-Translator: tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-11-04T08:31:11.810Z\nPO-Revision-Date: 2025-11-30 04:51+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -3594,7 +3594,7 @@ msgstr "使用此區段來設定搜尋請求。您想整合的服務必須提供
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2566
 msgid "The full API endpoint used for search. Use `${q}` to insert the user's search term (for example, *https://example.com/search?q=${q}*), and `${propName}` to reference fields defined in props."
-msgstr ""
+msgstr "用於搜尋的完整 API 端點。用`${q}`輸入使用者的搜尋字串（例如：*https://example.com/search?q=${q}*），並使用`${propName}`來引用在 props 中定義的欄位。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2569
 msgid "Optional headers to include in the API request. You can use `${q}` for the search term and `${propName}` for values from props."
@@ -3606,23 +3606,23 @@ msgstr "（可選）用於 POST 或 PUT 方法的請求主體。支援相同的�
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2573
 msgid "Turn this off if the API cannot handle empty search requests. In that case, the requests will be made only after users type something."
-msgstr ""
+msgstr "如 API 無法處理空白的搜尋請求，請將此選項關閉。在這個狀況下，只有使用者輸入內容後才會發送請求。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2579
 msgid "Use this section to configure how to process the response returned from the search API."
-msgstr ""
+msgstr "使用此區域來設定如何處理「搜尋 API」所回傳的回應。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2583
 msgid "Use this to define an identifier for the item. This will be used in **Item URL** as `${id}` to compose a URL to the found item. You can use properties from the returned item in Jinja2 notation. For example, if the item has a field `id` use `{{item.id}}` here. You can also compose multiple fields together, e.g., `{{item.field1}}-{{item.field2}}`."
-msgstr ""
+msgstr "使用此欄位來定義此項目的識別碼。這個識別碼將會在**項目網址**中以`${id}`使用，用來建立指向該項目的網址。您可以用 Jinja2 標記法來標記返回項目的屬性，例如，如果項目有一個`id`欄位，使用`{{item.id}}`。您也可以將多個欄位組合在一起，例如`{{item.field1}}-{{item.field2}}`。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2586
 msgid "This defines how the found items will be displayed for the user. You can use properties from the returned item in Jinja2 notation, you can also use [Markdown](%s) for some formatting. For example, if the returned item has a field called name, you can use `**{{item.name}}**` to display the name in bold."
-msgstr ""
+msgstr "此欄位定義如何呈現找到的項目給使用者。您可以利用 Jinja2 標記法於返回的項目中標記屬性，也可以使用[Markdown](%s)做一些格式化。例如，如果返回的項目有一個「name」欄位，您可以使用`**{{item.name}}**`來粗體化這個「name」欄位呈現給使用者。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2592
 msgid "Defines the URL to the selected item. Use `${id}` to get the value defined in **Response Item ID** field, for example `https://example.com/${id}`."
-msgstr ""
+msgstr "定義所選項目的 URL。使用`${id}`來取得**Response Item ID**欄位中定義的值，例如`https://example.com/${id}`。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2614
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:743
@@ -3657,8 +3657,9 @@ msgid "Logo is displayed next to the link to the selected item in questionnaires
 msgstr "標誌將顯示於問卷選項連結旁。可以是網址或 base64 圖片。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2674
+#, fuzzy
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the URL configuration. For example, if you define a variable named *type*, you can use it as `${type}`, such as *ht&#8203;tps://example.com/${type}*."
-msgstr ""
+msgstr "變項可用來為每個問題的整合做參數化設定。使用此選項來定義變項，並在使用此整合的問題中填入其值。之後，這些變項即可用於網址（URL）設定中。例如，若你定義了一個名為*type*的變數，就可以以`${type}`的方式使用它，像是*https://example.com/${type}*。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2682
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:713
@@ -3749,11 +3750,11 @@ msgstr "- 選擇資源頁面 -"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3017
 msgid "- select related question -"
-msgstr ""
+msgstr "- 選擇相關問題 -"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3031
 msgid "Go to related question"
-msgstr ""
+msgstr "跳到相關問題"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3079
 #, fuzzy
@@ -3864,12 +3865,13 @@ msgstr "自 cURL 匯入"
 #: app-wizard/elm/Wizard/Pages/Projects/Common/QuestionnaireShareFormMemberPermType.elm:63
 #: shared/common/elm/Common/Components/FormGroup.elm:583
 msgid "Editor"
-msgstr ""
+msgstr "編輯器"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:403
 #: shared/common/elm/Common/Components/FormGroup.elm:496
+#, fuzzy
 msgid "You can use %s and see the result in the preview tab."
-msgstr ""
+msgstr "您可以使用 %s 來看前一個分頁的結果。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:514
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:204
@@ -3879,11 +3881,12 @@ msgstr "模板"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:532
 msgid "You can use [Jinja](%s) and [Markdown](%s) to create and format the template."
-msgstr ""
+msgstr "您可以使用[Jinja](%s)及[Markdown](%s)來產製與格式化模板。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:669
+#, fuzzy
 msgid "Key"
-msgstr ""
+msgstr "鑰匙"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:700
 msgid "Add annotation"
@@ -3900,7 +3903,7 @@ msgstr "移除驗證"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:971
 msgid "Validation Type"
-msgstr ""
+msgstr "驗證類型"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:999
 msgid "Add validation"
@@ -3920,59 +3923,60 @@ msgstr "正規表示式"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1041
 msgid "ORCID"
-msgstr ""
+msgstr "ORCID"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1047
 msgid "DOI"
-msgstr ""
+msgstr "DOI"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1053
 msgid "Min Number"
-msgstr ""
+msgstr "最小數值"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1059
 msgid "Max Number"
-msgstr ""
+msgstr "最大數值"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1065
 msgid "From Date"
-msgstr ""
+msgstr "從此日期開始"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1071
 msgid "To Date"
-msgstr ""
+msgstr "到此日期結束"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1077
 msgid "From Date Time"
-msgstr ""
+msgstr "從此日期與時間開始"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1083
 msgid "To Date Time"
-msgstr ""
+msgstr "到此日期時間為止"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1089
 msgid "From Time"
-msgstr ""
+msgstr "從這個時間開始"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1095
 msgid "To Time"
-msgstr ""
+msgstr "到這個時間為止"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1101
 msgid "Domain"
-msgstr ""
+msgstr "網域"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1194
+#, fuzzy
 msgid "Weight"
-msgstr ""
+msgstr "比重"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1373
 msgid "Header Name"
-msgstr ""
+msgstr "標頭名稱"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1382
 msgid "Header Value"
-msgstr ""
+msgstr "標頭值"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1403
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:233
@@ -3981,16 +3985,16 @@ msgstr "新增標頭"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:109
 msgid "There are no phases, create them first."
-msgstr ""
+msgstr "尚未建立任何階段，請先建立階段。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:112
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:120
 msgid "There are no questions, create them first."
-msgstr ""
+msgstr "尚未建立任何問題，請先設定問題。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:274
 msgid "Tags"
-msgstr ""
+msgstr "標籤"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:281
 msgid "Select all"
@@ -3998,11 +4002,11 @@ msgstr "全選"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:289
 msgid "Select none"
-msgstr ""
+msgstr "不選擇任何項目"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:306
 msgid "Save preview values"
-msgstr ""
+msgstr "儲存預覽值"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:94
 msgid "Unable to publish knowledge model"
@@ -4010,7 +4014,7 @@ msgstr "無法發布知識模型"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:112
 msgid "Check the knowledge model's metadata before publishing. You change them in %s."
-msgstr ""
+msgstr "在發布前請檢查知識模型的後設資料（metadata）。您可以在 %s 中修改它們。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:124
 msgid "Knowledge model could not be saved."
@@ -4018,7 +4022,7 @@ msgstr "無法儲存知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:215
 msgid "This is not the latest version of the parent knowledge model."
-msgstr ""
+msgstr "這不是上層知識模型的最新版本。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:227
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:169
@@ -4028,7 +4032,7 @@ msgstr "上層知識模型"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:238
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:567
 msgid "Danger Zone"
-msgstr ""
+msgstr "危險區域"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:242
 msgid "Delete this knowledge model editor"
@@ -4040,7 +4044,7 @@ msgstr "已刪除的知識模型編輯器無法復原。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:117
 msgid "There are no question tags, create them first."
-msgstr ""
+msgstr "尚未建立任何問題標籤，請先建立問題標籤。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Update.elm:118
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Update.elm:316
@@ -4048,7 +4052,7 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:286
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:310
 msgid "Some changes are still saving."
-msgstr ""
+msgstr "部分修改尚未完成儲存。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Update.elm:178
 msgid "Unable to get the knowledge model editor."
@@ -4056,17 +4060,17 @@ msgstr "無法取得知識模型編輯器。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Update.elm:203
 msgid "Unable to get knowledge model secrets."
-msgstr ""
+msgstr "無法取得知識模型的密鑰。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:50
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:69
 msgid "Disconnected"
-msgstr ""
+msgstr "未連線"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:52
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:71
 msgid "You have been disconnected, try to refresh the page."
-msgstr ""
+msgstr "您的連結中斷，請嘗試更新頁面。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:53
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:66
@@ -4088,15 +4092,15 @@ msgstr "發生錯誤，請重新整理頁面。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/Update.elm:67
 msgid "Migration was successfully canceled."
-msgstr ""
+msgstr "轉移已成功取消。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/Update.elm:74
 msgid "Migration could not be cancelled."
-msgstr ""
+msgstr "轉移無法取消。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:61
 msgid "Click \"Create\" button to add a new knowledge model editor."
-msgstr ""
+msgstr "請按「建立」來加入新的知識模型編輯器。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:69
 msgid "Search KM editors..."
@@ -4104,7 +4108,7 @@ msgstr "搜尋知識模型編輯器..."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:115
 msgid "Last published version"
-msgstr ""
+msgstr "最後發佈的版本"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:132
 msgid "There is a new version of parent knowledge model"
@@ -4112,7 +4116,7 @@ msgstr "上層知識模型有新版本"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:138
 msgid "This editor is in the process of migration to a new parent knowledge model"
-msgstr ""
+msgstr "此編輯器正在移轉到新的上層知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:139
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:706
@@ -4121,7 +4125,7 @@ msgstr "移轉中"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:143
 msgid "This editor has been migrated to a new parent knowledge model, you can publish it now"
-msgstr ""
+msgstr "此編輯器已移轉至新的上層知識模型，您現在可以發布它"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:144
 msgid "migrated"
@@ -4129,7 +4133,7 @@ msgstr "已移轉"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:147
 msgid "This editor contains unpublished changes"
-msgstr ""
+msgstr "這個編輯器有尚未發布的更動"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:190
 #, fuzzy
@@ -4148,15 +4152,15 @@ msgstr "取消移轉"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/Update.elm:54
 msgid "Unable to get migration."
-msgstr ""
+msgstr "無法取得移轉。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/Update.elm:93
 msgid "Unable to resolve conflict."
-msgstr ""
+msgstr "無法排除衝突。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:91
 msgid "Migration state is corrupted."
-msgstr ""
+msgstr "移轉狀態受損。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:120
 msgid "Migration is still running, try again later."
@@ -4167,12 +4171,13 @@ msgid "Migration"
 msgstr "移轉"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:136
+#, fuzzy
 msgid "Migration of %s from %s to %s."
-msgstr ""
+msgstr "%s 移轉從 %s 到 %s。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:150
 msgid "The event is not connected to any entity in the Knowledge Model."
-msgstr ""
+msgstr "此事件未與知識模型中的任何實體（entity）連結。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:160
 msgid "Edit knowledge model"
@@ -4180,11 +4185,11 @@ msgstr "編輯知識模型"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:169
 msgid "Edit metric"
-msgstr ""
+msgstr "編輯指標"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:175
 msgid "Delete metric"
-msgstr ""
+msgstr "刪除指標"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:185
 msgid "Edit phase"
@@ -4196,15 +4201,15 @@ msgstr "刪除階段"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:196
 msgid "Add question tag"
-msgstr ""
+msgstr "新增問題標籤"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:201
 msgid "Edit question tag"
-msgstr ""
+msgstr "編輯問題標籤"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:207
 msgid "Delete question tag"
-msgstr ""
+msgstr "刪除編輯標籤"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:217
 msgid "Edit integration"
@@ -4216,11 +4221,11 @@ msgstr "刪除整合"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:233
 msgid "Edit chapter"
-msgstr ""
+msgstr "編輯章節"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:239
 msgid "Delete chapter"
-msgstr ""
+msgstr "刪除章節"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:249
 msgid "Edit question"
@@ -4240,11 +4245,11 @@ msgstr "刪除答案"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:281
 msgid "Edit choice"
-msgstr ""
+msgstr "編輯選項"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:287
 msgid "Delete choice"
-msgstr ""
+msgstr "刪除選項"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:297
 msgid "Edit reference"
@@ -4264,19 +4269,19 @@ msgstr "移除專家"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:329
 msgid "Edit resource collection"
-msgstr ""
+msgstr "編輯資源匯集"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:335
 msgid "Delete resource collection"
-msgstr ""
+msgstr "刪除資源匯集"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:345
 msgid "Edit resource page"
-msgstr ""
+msgstr "編輯資源頁面"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:351
 msgid "Delete resource page"
-msgstr ""
+msgstr "刪除資源頁面"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:357
 msgid "Move question"
@@ -4306,8 +4311,9 @@ msgstr "移動專家"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:949
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1089
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1204
+#, fuzzy
 msgid "Props"
-msgstr ""
+msgstr "屬性"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1786
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1849
@@ -4315,7 +4321,7 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2000
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2069
 msgid "Resource Page UUID"
-msgstr ""
+msgstr "資源頁面 UUID"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1826
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1892
@@ -4323,43 +4329,44 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2040
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2109
 msgid "Target UUID"
-msgstr ""
+msgstr "目標 UUID"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2582
+#, fuzzy
 msgid "Reject"
-msgstr ""
+msgstr "駁回"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2585
 msgid "Apply"
-msgstr ""
+msgstr "採用"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2588
 msgid "Apply all"
-msgstr ""
+msgstr "全部採用"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2630
 msgid "Migration successfully completed."
-msgstr ""
+msgstr "成功完成移轉。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2632
 msgid "You can publish the new version now."
-msgstr ""
+msgstr "您現在可以發布新的版本。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/Update.elm:79
 msgid "Unable to get the knowledge model details."
-msgstr ""
+msgstr "無法取得知識模型的細節。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/Update.elm:150
 msgid "Publishing the new version failed."
-msgstr ""
+msgstr "發布新版本失敗。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:36
 msgid "Publish new version"
-msgstr ""
+msgstr "發布新版本"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:78
 msgid "Choose a %s so others can use your knowledge model."
-msgstr ""
+msgstr "選取一個 %s 讓他人可以使用您的知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:80
 msgid "license"
@@ -4367,15 +4374,15 @@ msgstr "授權"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:83
 msgid "Short description of the knowledge model."
-msgstr ""
+msgstr "知識模型的簡短描述。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:92
 msgid "No version of this package has been published yet."
-msgstr ""
+msgstr "此資料包尚未有任何發布的版本。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:93
 msgid "Last version"
-msgstr ""
+msgstr "最新版本"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:50
 msgid "Open"
@@ -4383,11 +4390,11 @@ msgstr "開啟"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:86
 msgid "Create KM editor"
-msgstr ""
+msgstr "建立知識模型編輯器"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:98
 msgid "Fork KM"
-msgstr ""
+msgstr "分叉知識模型"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:110
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/View.elm:69
@@ -4404,28 +4411,30 @@ msgid "Knowledge Model could not be deleted."
 msgstr "無法刪除知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:88
+#, fuzzy
 msgid "This is a non-editable knowledge model, i.e., it cannot be edited, forked, or exported."
-msgstr ""
+msgstr "此知識模型無法被編輯，亦即，它無法被編輯、分叉或匯出。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:97
 msgid "This is not the latest available version of this knowledge model."
-msgstr ""
+msgstr "這不是這個知識模型最新可用的版本。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:168
 msgid "Fork of"
-msgstr ""
+msgstr "..... 的分叉"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/Update.elm:89
 msgid "Importing the package failed."
-msgstr ""
+msgstr "資料包匯入失敗。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:46
+#, fuzzy
 msgid "Previous Package ID"
-msgstr ""
+msgstr "先前的資料包 ID"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:47
 msgid "Root Element"
-msgstr ""
+msgstr "根元素"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:90
 #, fuzzy
@@ -4434,15 +4443,15 @@ msgstr "選擇檔案"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/Update.elm:32
 msgid "Unable to import the package."
-msgstr ""
+msgstr "無法匯入資料包。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/View.elm:69
 msgid "You can find knowledge models in %s."
-msgstr ""
+msgstr "您可在 %s 中找到知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/View.elm:85
 msgid "Knowledge model %s has been imported!"
-msgstr ""
+msgstr "%s 知識模型已被匯入！"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/View.elm:47
 msgid "From OWL"

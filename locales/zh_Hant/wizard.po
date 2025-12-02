@@ -5,7 +5,7 @@
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-11-04T08:31:11.810Z\nPO-Revision-Date: 2025-11-30 04:51+0000\nLast-Translator: Chia Hsun Wang <allywang@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-11-04T08:31:11.810Z\nPO-Revision-Date: 2025-12-03 06:50+0000\nLast-Translator: Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -2154,7 +2154,7 @@ msgstr "無法取得範本檔案"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:417
 msgid "Unable to get template assets"
-msgstr "無法取得模板資源。"
+msgstr "無法取得模板資源"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:431
 msgid "Unable to get file content"
@@ -4455,27 +4455,27 @@ msgstr "%s 知識模型已被匯入！"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/View.elm:47
 msgid "From OWL"
-msgstr ""
+msgstr "自 OWL"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/View.elm:125
 msgid "This doesn't look like a knowledge model. Are you sure you picked the correct file?"
-msgstr ""
+msgstr "這看起來不像知識模型。您確定選擇的是正確的檔案嗎？"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/Update.elm:54
 msgid "Knowledge model could not be updated."
-msgstr ""
+msgstr "知識模型無法更新。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:63
 msgid "Click \"Import\" button to import a new knowledge model."
-msgstr ""
+msgstr "點擊「匯入」按鈕以匯入新的知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:71
 msgid "Search KMs..."
-msgstr ""
+msgstr "搜尋知識模型..."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:178
 msgid "Delete package"
-msgstr ""
+msgstr "刪除資料包"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:49
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:130
@@ -4496,23 +4496,23 @@ msgstr "無法取得知識模型。"
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:131
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:286
 msgid "Questionnaire could not be created."
-msgstr ""
+msgstr "問卷無法建立。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:142
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:196
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:376
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:868
 msgid "Questionnaire could not be saved."
-msgstr ""
+msgstr "無法儲存問卷。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/ResourcePage/Update.elm:27
 msgid "Unable to get resource page."
-msgstr ""
+msgstr "無法取得資源頁面。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/ResourcePage/View.elm:36
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/ResourcePage/View.elm:39
 msgid "Resource page does not exist"
-msgstr ""
+msgstr "資源頁面不存在"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/Update.elm:37
 msgid "Unable to load knowledge model secrets."
@@ -6061,23 +6061,23 @@ msgstr "GitHub 儲存庫名稱"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:64
 msgid "ht&#8203;tps://github.com/exampleOwner/**exampleRepository**"
-msgstr ""
+msgstr "ht&#8203;tps://github.com/exampleOwner/**exampleRepository**"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:65
 msgid "Access Token"
-msgstr ""
+msgstr "存取權杖"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:66
 msgid "[Personal Access Token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) for GitHub account creating the issues. Make sure to select **public_repo** scope if the repository is public or **repo** if it is private. We recommend creating a bot account with the access to the feedback repository instead of using your own GitHub account."
-msgstr ""
+msgstr "用於建立議題的 GitHub 帳號的[個人存取權杖](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)。請確認設定範圍為 **public_repo** （公開儲存庫）或 **repo** （私有儲存庫）。我們推薦建立一個機器人帳號供回饋儲存庫使用，而非使用您自己的 GitHub 帳號。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:80
 msgid "Default Project Tags"
-msgstr ""
+msgstr "預設專案標籤"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:81
 msgid "Default projects tags can be provided to users so they don't have to come up with them on their own. Write one tag per line."
-msgstr ""
+msgstr "為使用者提供預設的專案標籤， 這樣他們就無需自己想標籤。一行寫一個標籤。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:90
 msgid "Project Visibility"
@@ -6094,7 +6094,7 @@ msgstr "預設專案可檢視設定"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:93
 msgid "If *Project Visibility* is enabled, this value is pre-selected when creating a new project. If *Project Visibility* is disabled, this value is used implicitly for new projects."
-msgstr ""
+msgstr "若啟用 *專案可檢視設定*，將在建立新專案時預先選擇此設定。若關閉 *專案可檢視設定*，新專案將會自動套用此設定。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:95
 msgid "Project Sharing"
@@ -6102,7 +6102,7 @@ msgstr "專案分享設定"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:96
 msgid "If enabled, users can choose if project can be shared with people outside of the wizard or not. Otherwise, all projects use the *Default Project Sharing*."
-msgstr ""
+msgstr "若啟用，使用者可以選擇是否與網站以外的人員共享。否則，所有專案將會使用 *預設專案分享* 設定。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:97
 msgid "Default Project Sharing"
@@ -6110,7 +6110,7 @@ msgstr "預設專案分享設定"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:98
 msgid "If *Project Sharing* is enabled, this value is pre-selected when creating a new project. If *Project Sharing* is disabled, this value is used implicitly for new projects."
-msgstr ""
+msgstr "若啟用 *專案分享*，將在建立新專案時預先選擇此設定。若關閉 *專案分享*，新專案將會自動套用此設定。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:102
 msgid "Project Creation"
@@ -6118,27 +6118,27 @@ msgstr "專案建立設定"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:105
 msgid "If enabled, users can view a summary report showing various metrics for the questionnaire."
-msgstr ""
+msgstr "若啟用，使用者可以檢視一份包含問卷內各項指標的摘要報告。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:107
 msgid "If enabled, users can submit a feedback to questions to the specified GitHub repository."
-msgstr ""
+msgstr "若啟用，使用者可以將問題的回饋提交至指定的 GitHub 儲存庫。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:109
 msgid "Project Tagging"
-msgstr ""
+msgstr "專案標籤"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:110
 msgid "If enabled, users can tag their projects and use these tags to filter them."
-msgstr ""
+msgstr "若啟用，使用者可以為他們的專案加上標籤，並使用這些標籤來篩選專案。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/Update.elm:103
 msgid "You have signed up for the Registry, you should receive a confirmation email soon."
-msgstr ""
+msgstr "您已註冊登錄冊，很快就會收到確認電子郵件。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/Update.elm:109
 msgid "Sign up request failed."
-msgstr ""
+msgstr "註冊請求失敗。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:46
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:155
@@ -6151,11 +6151,11 @@ msgstr "權杖"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:79
 msgid "Fill in your DSW Registry token. If you don't have one, you need sign up first."
-msgstr ""
+msgstr "請填寫您的 DSW 登錄冊權杖。若您沒有權杖，則需要先註冊。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:88
 msgid "If enabled, you can import knowledge models and document templates directly from [DSW Registry](https://registry.ds-wizard.org)."
-msgstr ""
+msgstr "若啟用，您可以直接自 [DSW 登錄冊](https://registry.ds-wizard.org)匯入知識模型與文件模板。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:141
 msgid "Organization Name"
@@ -6167,11 +6167,11 @@ msgstr "組織描述"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:144
 msgid "The email will be used for a confirmation link and an eventual token recovery."
-msgstr ""
+msgstr "此電子郵件地址將用於發送確認連結及取回權杖。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:149
 msgid "Registry Sign Up"
-msgstr ""
+msgstr "註冊登錄冊"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:43
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:151
@@ -6180,56 +6180,56 @@ msgstr "文件提交"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:59
 msgid "Services"
-msgstr ""
+msgstr "服務"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:67
 msgid "If enabled, you can configure external services for uploading documents from the instance."
-msgstr ""
+msgstr "若啟用，您可以設定外部服務，以自本實例上傳文件。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:111
 msgid "Supported Formats"
-msgstr ""
+msgstr "支援格式"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:112
 msgid "Select document templates and formats that can be submitted using this submission service."
-msgstr ""
+msgstr "選擇可以使用此提交服務傳送的文件模板與格式。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:116
 msgid "User Properties"
-msgstr ""
+msgstr "使用者屬性"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:117
 msgid "You can create properties that can be set by each user in their profile. Then, you can use these properties in the request settings. For example, if you want each user to use their own authorization token, you can create a property called `Token` and use it in request headers as `${Token}`. Users will be able to set the token in their profile settings."
-msgstr ""
+msgstr "您可以建立屬性，讓每位使用者能在他們的個人資料中進行設定。接著，您可以在請求設定中使用這些屬性。例如，如果您希望每位使用者使用他們自己的授權權杖，您可以建立一個名為 `Token` 的屬性，並在請求標頭中以 `${Token}` 的方式使用它。使用者將可以在他們的個人資料設定中設定這個權杖。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:118
 msgid "Add property"
-msgstr ""
+msgstr "新增屬性"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:222
 msgid "Multipart File Name"
-msgstr ""
+msgstr "Multipart 檔案名稱"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:231
 msgid "Method"
-msgstr ""
+msgstr "方法"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:233
 msgid "Headers"
-msgstr ""
+msgstr "標頭"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:234
 msgid "Multipart"
-msgstr ""
+msgstr "Multipart"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:235
 msgid "If enabled, file will be sent using multipart request. Otherwise, it will be directly in the request body."
-msgstr ""
+msgstr "若啟用，檔案將會使用多部分請求（multipart request）的方式傳送。反之，檔案將會直接在請求主體中傳送。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:254
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:260
 msgid "Header"
-msgstr ""
+msgstr "標頭"
 
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:91
 msgid "System Settings"

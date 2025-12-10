@@ -5,7 +5,7 @@
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-11-04T08:31:11.810Z\nPO-Revision-Date: 2025-12-05 13:23+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-11-04T08:31:11.810Z\nPO-Revision-Date: 2025-12-10 09:51+0000\nLast-Translator: tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -3865,7 +3865,7 @@ msgstr "自 cURL 匯入"
 #: app-wizard/elm/Wizard/Pages/Projects/Common/QuestionnaireShareFormMemberPermType.elm:63
 #: shared/common/elm/Common/Components/FormGroup.elm:583
 msgid "Editor"
-msgstr "編輯器"
+msgstr "編輯者"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:403
 #: shared/common/elm/Common/Components/FormGroup.elm:496
@@ -4824,33 +4824,33 @@ msgstr "您要建立 %s 的副本嗎？"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/CloneProjectModal/View.elm:31
 msgid "The original project will remain unchanged."
-msgstr ""
+msgstr "原始的專案不會被變更。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/CloneProjectModal/View.elm:35
 msgid "Clone Project"
-msgstr ""
+msgstr "複製專案"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/CloneProjectModal/View.elm:39
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:619
 msgid "Clone"
-msgstr ""
+msgstr "複製"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/DeleteProjectModal/Update.elm:74
 msgid "Project could not be deleted."
-msgstr ""
+msgstr "無法刪除專案。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/DeleteProjectModal/View.elm:32
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings/DeleteModal.elm:119
 msgid "Delete Project"
-msgstr ""
+msgstr "刪除專案"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/QuestionnaireShareFormMemberPermType.elm:61
 msgid "Viewer"
-msgstr ""
+msgstr "檢視者"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/QuestionnaireShareFormMemberPermType.elm:62
 msgid "Commenter"
-msgstr ""
+msgstr "加註者"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/QuestionnaireShareFormMemberPermType.elm:64
 msgid "Owner"
@@ -4859,7 +4859,7 @@ msgstr "擁有者"
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:42
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:719
 msgid "Public link"
-msgstr ""
+msgstr "公開連結"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:43
 msgid "Anyone with the link can access the project. No login is required."
@@ -4868,7 +4868,7 @@ msgstr "任何人都可以透過連結存取專案。無須登入。"
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:47
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:92
 msgid "Private project accessible only by you."
-msgstr ""
+msgstr "僅供你存取的非公開專案。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:50
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:693
@@ -4877,56 +4877,53 @@ msgstr "對所有登入的使用者可見"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:51
 msgid "Other logged-in users can access the project. No explicit permission is required."
-msgstr ""
+msgstr "其他登入的使用者可以存取專案，無須額外授權。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:61
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:103
 msgid "Shared with %s and %s."
-msgstr ""
+msgstr "與 %s 和 %s 分享。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:63
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:104
 msgid "%s user"
 msgid_plural "%s users"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s 名使用者"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:66
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:105
 msgid "%s user group"
 msgid_plural "%s user groups"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s 個使用者群組"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:73
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:109
 msgid "Shared with %s user group."
 msgid_plural "Shared with %s user groups."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "與 %s 個使用者群組分享。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:80
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:113
 msgid "Shared with %s user."
 msgid_plural "Shared with %s users."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "與 %s 名使用者分享。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:89
 msgid "Anyone with the link can access the project."
-msgstr ""
+msgstr "任何人都可以透過連結存取專案。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/View.elm:95
 msgid "Other logged-in users can access the project."
-msgstr ""
+msgstr "其他登入的使用者可以存取專案。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:121
 msgid "Starting Point"
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:122
+#, fuzzy
 msgid "Create a project from a template with preset content, or start from a knowledge model and configure everything yourself."
-msgstr ""
+msgstr "您可以從模板建立預設內容的專案，也可以從知識模型開始自行設定所有內容。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:129
 #: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:94
@@ -4942,33 +4939,33 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:138
 msgid "A knowledge model defines the structure of your questionnaire. You can configure the document template and other settings later."
-msgstr ""
+msgstr "知識模型定義了您的問卷結構。您可以稍後再設定文件模板與其他設定。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:146
 msgid "Project Name"
-msgstr ""
+msgstr "專案名稱"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:147
 msgid "Choose a name for your project. You can change it later."
-msgstr ""
+msgstr "替您的專案命名。您可以稍後修改它。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:163
 msgid "Unable to get selected project template."
-msgstr ""
+msgstr "無法取得所選的專案模板。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:173
 msgid "Unable to get selected knowledge model."
-msgstr ""
+msgstr "無法取得所選的知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:183
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:325
 msgid "Unable to get project templates."
-msgstr ""
+msgstr "無法取得專案模板。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:307
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:242
 msgid "Unable to get question tags for the knowledge model."
-msgstr ""
+msgstr "無法取得知識模型的問題標籤。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:147
 msgid "From project template"
@@ -4991,7 +4988,7 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/Projects/Import/Update.elm:67
 #: app-wizard/elm/Wizard/Pages/Projects/Import/Update.elm:108
 msgid "Unable to get the project."
-msgstr ""
+msgstr "無法取得專案。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:228
 msgid "Project migration could not be created."
@@ -5060,7 +5057,7 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:190
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:221
 msgid "Go to settings"
-msgstr ""
+msgstr "前往設定"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:197
 msgid "Ask the Project owner to set a default document template and format."
@@ -5072,7 +5069,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:213
 msgid "Log in to update the default document template."
-msgstr ""
+msgstr "登入以更新預設文件模板。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:217
 msgid "Before you can use preview you need to update the default document template."
@@ -5088,11 +5085,11 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ProjectSaving.elm:113
 msgid "Saving..."
-msgstr ""
+msgstr "儲存中..."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ProjectSaving.elm:118
 msgid "Saved"
-msgstr ""
+msgstr "已儲存"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ProjectSaving.elm:123
 msgid "All changes have been saved"
@@ -5117,7 +5114,7 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:277
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:204
 msgid "Unable to get project tags."
-msgstr ""
+msgstr "無法取得專案標籤。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:349
 msgid "The used version of the document template is no longer supported. Select a newer version or another supported template."
@@ -5155,7 +5152,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:542
 msgid "This knowledge model is now deprecated."
-msgstr ""
+msgstr "這個知識模型已被棄用。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:560
 msgid "Project migration lets you move your project to a newer or different version of the knowledge model, and update which questions are included by changing question tags."
@@ -5164,27 +5161,27 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:571
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:579
 msgid "Delete this project"
-msgstr ""
+msgstr "刪除此專案"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:573
 msgid "Deleted projects cannot be recovered."
-msgstr "已刪除的專案無法復原。"
+msgstr "刪除的專案無法復原。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings/DeleteModal.elm:87
 msgid "Questionnaire was successfully deleted."
-msgstr ""
+msgstr "成功刪除問卷。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings/DeleteModal.elm:94
 msgid "Questionnaire could not be deleted."
-msgstr ""
+msgstr "無法刪除問卷。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:143
 msgid "Invite specific people to your project. They need to have an existing account."
-msgstr ""
+msgstr "邀請特定人員到你的專案。他們必須擁有帳號。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:149
 msgid "Permissions"
-msgstr ""
+msgstr "權限"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:150
 msgid "Choose to share your project with all logged-in users or anyone with the link."
@@ -5192,7 +5189,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:247
 msgid "Unable to get user groups."
-msgstr ""
+msgstr "無法取得使用者群組。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:444
 msgid "Share Project"
@@ -5200,19 +5197,19 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:500
 msgid "Add user group"
-msgstr ""
+msgstr "新增使用者群組"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:510
 msgid "User Groups"
-msgstr ""
+msgstr "使用者群組"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:570
 msgid "Add users"
-msgstr ""
+msgstr "新增使用者"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:624
 msgid "Last owner cannot be removed."
-msgstr ""
+msgstr "無法移除最後一位擁有者。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:688
 msgid "Other logged-in users can %s the project."
@@ -5224,7 +5221,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/Update.elm:108
 msgid "Document was successfully deleted."
-msgstr ""
+msgstr "成功刪除文件。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:94
 msgid "Click \"New document\" button to add a new document."
@@ -5241,7 +5238,7 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:144
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:310
 msgid "Questionnaire"
-msgstr ""
+msgstr "問卷"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:145
 msgid "Fill out the questionnaire to provide key information for your data management plan. Changes are saved automatically."
@@ -5289,7 +5286,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:249
 msgid "Share"
-msgstr ""
+msgstr "分享"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:395
 msgid "You are not allowed to view this page."
@@ -5297,7 +5294,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/DocumentDownload/Update.elm:50
 msgid "You do not have permission to access this document"
-msgstr ""
+msgstr "您沒有存取此文件的權限"
 
 #: app-wizard/elm/Wizard/Pages/Projects/DocumentDownload/Update.elm:53
 msgid "Document not found"
@@ -5310,7 +5307,7 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/Projects/DocumentDownload/View.elm:21
 #: app-wizard/elm/Wizard/Pages/Projects/FileDownload/View.elm:21
 msgid "Downloading"
-msgstr ""
+msgstr "正在下載"
 
 #: app-wizard/elm/Wizard/Pages/Projects/DocumentDownload/View.elm:22
 #: app-wizard/elm/Wizard/Pages/Projects/FileDownload/View.elm:22
@@ -5319,15 +5316,15 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/FileDownload/Update.elm:50
 msgid "You do not have permission to access this file"
-msgstr ""
+msgstr "您沒有存取此檔案的權限"
 
 #: app-wizard/elm/Wizard/Pages/Projects/FileDownload/Update.elm:53
 msgid "File not found"
-msgstr ""
+msgstr "找不到檔案"
 
 #: app-wizard/elm/Wizard/Pages/Projects/FileDownload/Update.elm:56
 msgid "Unable to get file"
-msgstr ""
+msgstr "無法取得檔案"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/Update.elm:99
 msgid "Unable to get importer."
@@ -5388,7 +5385,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:92
 msgid "Click here to start a new project."
-msgstr ""
+msgstr "點擊此處以開始新的專案。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:322
 msgid "Project migration was successfully canceled."
@@ -5408,11 +5405,11 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:132
 msgid "Search projects..."
-msgstr ""
+msgstr "搜尋專案..."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:209
 msgid "Search project tags..."
-msgstr ""
+msgstr "搜尋專案標籤..."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:224
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:465
@@ -5430,7 +5427,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:334
 msgid "Search knowledge models..."
-msgstr ""
+msgstr "搜尋知識模型..."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:358
 msgid "No knowledge models found"
@@ -6041,7 +6038,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:47
 msgid "Anonymous Projects"
-msgstr ""
+msgstr "匿名專案"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:48
 msgid "If enabled, users that are not logged in are allowed to create projects from public knowledge models."
@@ -6563,7 +6560,7 @@ msgstr "您沒有權限查看此頁面。"
 
 #: shared/common/elm/Common/Api/ServerError.elm:122
 msgid "You do not have permission to view this page."
-msgstr ""
+msgstr "您沒有權限查看此頁面。"
 
 #: shared/common/elm/Common/Api/ServerError.elm:131
 msgid "Activation link is no longer valid."
@@ -6671,7 +6668,7 @@ msgstr "找不到使用者。"
 
 #: shared/common/elm/Common/Api/ServerError.elm:209
 msgid "User group not found."
-msgstr ""
+msgstr "找不到使用者群組。"
 
 #: shared/common/elm/Common/Api/ServerError.elm:212
 msgid "Not found."

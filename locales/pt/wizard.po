@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: wizard-client:4.2.0\n"
-"POT-Creation-Date: 2025-11-04T08:31:11.810Z \n"
+"POT-Creation-Date: 2025-12-02T08:18:29.540Z \n"
 "PO-Revision-Date: 2025-09-03 13:51+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://localize.ds-wizard.org/projects/dsw-4-22/client/pt/>\n"
@@ -177,11 +177,48 @@ msgid "Item"
 msgstr "Artigo"
 
 #: app-wizard/elm/Wizard/Api/Models/QuestionnaireQuestionnaire.elm:529
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3897
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4370
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3936
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4409
 #: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:225
 msgid "Item %s"
 msgstr "Item %s"
+
+#: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:46
+msgid "The request timed out."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:49
+msgid "The connection timed out."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:52
+msgid "The URL is invalid."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:58
+msgid "HTTP error %s occurred."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:62
+msgid "An HTTP error occurred."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:68
+msgid "The content type '%s' is not HTML."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:72
+msgid "The content is not HTML."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:75
+msgid "A network error occurred."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:78
+#: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:81
+msgid "An unknown error occurred."
+msgstr ""
 
 #: app-wizard/elm/Wizard/Components/CookieConsent.elm:27
 msgid "Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use. "
@@ -201,8 +238,8 @@ msgstr "Fechar e aceitar"
 
 #: app-wizard/elm/Wizard/Components/CopyableCodeBlock.elm:48
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:826
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4709
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2464
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4748
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2556
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:468
 msgid "Copied!"
 msgstr "Copiado!"
@@ -241,7 +278,7 @@ msgstr "Não foi possível carregar alguns ficheiros."
 
 #: app-wizard/elm/Wizard/Components/FileImport.elm:243
 #: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:141
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:373
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:374
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:450
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:378
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:99
@@ -254,15 +291,15 @@ msgstr "Concluído"
 #: app-wizard/elm/Wizard/Components/FormActions.elm:23
 #: app-wizard/elm/Wizard/Components/FormActions.elm:31
 #: app-wizard/elm/Wizard/Components/FormActions.elm:39
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3039
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3251
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3281
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3078
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3290
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3320
 #: app-wizard/elm/Wizard/Components/Questionnaire/FileUploadModal.elm:226
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:389
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:390
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1499
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:266
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3511
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3592
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3618
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3699
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:394
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:127
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:119
@@ -278,8 +315,8 @@ msgstr "Cancelar"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:168
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/RegistryImport/View.elm:53
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:44
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2147
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3632
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2228
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3739
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:123
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:53
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/View.elm:53
@@ -310,7 +347,6 @@ msgstr "Tem alterações por guardar."
 #: app-wizard/elm/Wizard/Pages/Settings/PrivacyAndSupport/View.elm:29
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:32
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:44
-#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:30
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Language.elm:140
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Password.elm:115
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:223
@@ -336,7 +372,7 @@ msgid "Last"
 msgstr "Último"
 
 #: app-wizard/elm/Wizard/Components/Listing/View.elm:432
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2803
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2842
 #: shared/common/elm/Common/Utils/Driver.elm:114
 msgid "Next"
 msgstr "Seguinte"
@@ -363,17 +399,17 @@ msgstr "Sem dados"
 msgid "Updated %s"
 msgstr "%s atualizado"
 
-#: app-wizard/elm/Wizard/Components/Menu/Update.elm:43
+#: app-wizard/elm/Wizard/Components/Menu/Update.elm:45
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:894
 msgid "Client"
 msgstr "Cliente"
 
-#: app-wizard/elm/Wizard/Components/Menu/Update.elm:44
+#: app-wizard/elm/Wizard/Components/Menu/Update.elm:46
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:895
 msgid "Server"
 msgstr "Servidor"
 
-#: app-wizard/elm/Wizard/Components/Menu/Update.elm:64
+#: app-wizard/elm/Wizard/Components/Menu/Update.elm:66
 msgid "Unable to get the build info"
 msgstr "Não é possível obter a informação de construção"
 
@@ -406,7 +442,7 @@ msgid "Editors"
 msgstr "Editores"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:111
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2086
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2167
 msgid "Secrets"
 msgstr ""
 
@@ -440,7 +476,7 @@ msgid "Documents"
 msgstr "Documentos"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:175
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2090
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2118
 msgid "Actions"
 msgstr "Ações"
 
@@ -542,7 +578,7 @@ msgstr "Reportar problema"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:811
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:861
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2290
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2320
 #: shared/common/elm/Common/Components/Modal.elm:287
 msgid "OK"
 msgstr "OK"
@@ -656,210 +692,214 @@ msgstr "Árvore anónima"
 msgid "Anonymous Cowboy"
 msgstr "Cowboy anónimo"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:996
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1005
 msgid "Unable to delete file."
 msgstr "Não é possível eliminar o ficheiro."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1102
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1111
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1130
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1139
 msgid "Unable to get version history."
 msgstr "Não foi possível obter o histórico de versões."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1458
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1486
 #: app-wizard/elm/Wizard/Pages/Comments/Update.elm:35
 msgid "Unable to get comments."
 msgstr "Não é possível obter comentários."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1469
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1497
 #: app-wizard/elm/Wizard/Pages/ProjectActions/Index/Update.elm:70
 msgid "Unable to get project actions."
 msgstr "Não é possível obter ações do projeto."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1481
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1509
 #: app-wizard/elm/Wizard/Pages/ProjectImporters/Index/Update.elm:70
 msgid "Unable to get project importers."
 msgstr "Não é possível obter importadores de projetos."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1760
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1779
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1788
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1807
 msgid "Unable to get type hints."
 msgstr "Não foi possível obter sugestões de tipos."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2016
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2032
+msgid "Some options are hidden"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2044
 msgid "View"
 msgstr "Ver"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2023
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2051
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:336
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:214
 msgid "Show all"
 msgstr "Mostrar tudo"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2026
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2054
 msgid "Hide all"
 msgstr "Ocultar tudo"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2030
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2058
 msgid "Answered by"
 msgstr "Respondido por"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2035
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:802
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2063
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:883
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:177
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:438
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:439
 msgid "Phases"
 msgstr "Fases"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2040
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2068
 msgid "Question tags"
 msgstr "Etiquetas da pergunta"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2045
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2073
 msgid "Non-desirable questions"
 msgstr "Perguntas não desejáveis"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2050
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2078
 msgid "Metric values"
 msgstr "Valores métricos"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2063
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2091
 msgid "Import replies"
 msgstr "Importar respostas"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2165
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2193
 msgid "Search"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2191
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2220
 msgid "TODOs"
 msgstr "Afazeres"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2212
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2914
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2915
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4637
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2242
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2953
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2954
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4676
 msgid "Comments"
 msgstr "Comentários"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2223
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:553
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2253
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:618
 msgid "Warnings"
 msgstr "Avisos"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2237
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2267
 msgid "Version history"
 msgstr "Histórico de versões"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2272
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2302
 msgid "Action succeeded!"
 msgstr "A ação foi bem sucedida!"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2277
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2307
 msgid "Action failed!"
 msgstr "A ação falhou!"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2381
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2411
 msgid "Current phase"
 msgstr "Fase atual"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2434
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2464
 msgid "Select phase"
 msgstr "Selecionar fase"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2576
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2615
 msgid "All TODOs have been completed."
 msgstr "Todos os afazeres foram concluídos."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2694
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2733
 msgid "Click the %s icon to add new comments to a question."
 msgstr "Clique no ícone %s para adicionar novos comentários a uma pergunta."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2718
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2757
 msgid "View resolved comments"
 msgstr "Ver comentários resolvidos"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2769
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2808
 msgid "Resolved and unresolved comments"
 msgstr "Comentários resolvidos e não resolvidos"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2772
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2811
 msgid "Unresolved comments"
 msgstr "Comentários não resolvidos"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2796
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2835
 #: shared/common/elm/Common/Utils/Driver.elm:115
 msgid "Previous"
 msgstr "Anterior"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2825
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2864
 msgid "Editor notes are only visible to project Editors and Owners."
 msgstr "As notas do editor só são visíveis para os editores e proprietários do projeto."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2850
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2889
 msgid "Comment"
 msgstr "Comentário"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2851
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2890
 msgid "Create a new comment..."
 msgstr "Comentar..."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2927
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2928
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2966
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2967
 msgid "Editor notes"
 msgstr "Notas do editor"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2946
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2985
 msgid "Delete this comment thread?"
 msgstr "Eliminar este fio de comentários?"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2959
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2998
 #: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:126
 msgid "Reply"
 msgstr "Responder"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2960
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2999
 msgid "Reply..."
 msgstr "Resposta.."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2977
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3016
 msgid "Assigned to you"
 msgstr "Atribuído a si"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2982
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3021
 msgid "Assigned to %s"
 msgstr "Atribuído a %s"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3034
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3117
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3073
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3156
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:99
 #: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:148
 msgid "Edit"
 msgstr "Editar"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3050
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3089
 msgid "Delete this comment?"
 msgstr "Apagar este comentário?"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3074
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3113
 msgid "Resolve comment thread"
 msgstr "Resolver fio de comentários"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3101
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3140
 msgid "Remove assignment"
 msgstr "Remover atribuição"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3109
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3148
 msgid "Reopen"
 msgstr "Reabrir"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3127
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3280
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3837
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4477
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4787
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3166
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3319
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3876
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4516
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4826
 #: app-wizard/elm/Wizard/Components/Questionnaire/DeleteVersionModal.elm:131
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:238
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:351
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:239
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:352
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1151
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1531
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1535
@@ -869,8 +909,8 @@ msgstr "Reabrir"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:370
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:195
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/DeleteModal.elm:104
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3349
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3505
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3456
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3612
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1309
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:250
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:226
@@ -898,228 +938,228 @@ msgstr "Reabrir"
 msgid "Delete"
 msgstr "Eliminar"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3165
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3204
 msgid "edited"
 msgstr "editado"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3186
-#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:557
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3225
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:583
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:96
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:96
 msgid "Anonymous user"
 msgstr "Utilizador anónimo"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3332
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3371
 msgid "This chapter contains no questions."
 msgstr "Este capítulo não contém perguntas."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3335
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3374
 msgid "There are no questions matching the selected question tags."
 msgstr "Não existem perguntas que correspondam às etiquetas de perguntas selecionadas."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3348
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3817
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3387
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3856
 msgid "There are no questions in this phase."
 msgstr "Não há perguntas nesta fase."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3405
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3444
 msgid "Previous chapter"
 msgstr "Capítulo anterior"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3410
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3449
 msgid "Next chapter"
 msgstr "Capítulo seguinte"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3523
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3562
 msgid "anonymous user"
 msgstr "utilizador anónimo"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3535
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3574
 msgid "Answered %s by %s."
 msgstr "Respondido %s por %s."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3564
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3603
 msgid "This question has been answered"
 msgstr "Esta questão foi respondida"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3567
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3606
 msgid "This question should be answered now"
 msgstr "Esta pergunta deve ser respondida agora"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3570
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3609
 msgid "This question can be answered later"
 msgstr "Esta pergunta pode ser respondida mais tarde"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3642
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3681
 msgid "Clear answer"
 msgstr "Limpar resposta"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3675
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3714
 msgid "There are no follow up questions in this phase."
 msgstr "Não há perguntas complementares nesta fase."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3691
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3730
 msgid "Expand"
 msgstr "Expandir"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3696
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3735
 msgid "%s %s follow up question"
 msgid_plural "%s %s follow up questions"
 msgstr[0] "%s %s pergunta complementar"
 msgstr[1] "%s %s perguntas complementares"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3706
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3928
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3745
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3967
 msgid "Collapse"
 msgstr "Colapsar"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3740
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3779
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:67
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:102
 msgid "Expand all"
 msgstr "Expandir tudo"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3747
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3786
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:71
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:109
 msgid "Collapse all"
 msgstr "Recolher tudo"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3760
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3799
 msgid "There are no answers yet."
 msgstr "Ainda não há respostas."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3785
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3824
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1082
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1322
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:514
 msgid "Add"
 msgstr "Adicionar"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3809
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3848
 msgid "This item contains no questions."
 msgstr "Este item não contém perguntas."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3850
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3889
 msgid "Move up"
 msgstr "Mover para cima"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3863
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3902
 msgid "Move down"
 msgstr "Mover para baixo"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3890
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3929
 msgid "Used in item select questions:"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4006
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4045
 msgid "This is not a valid email address."
 msgstr "Este endereço de correio eletrónico não é válido."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4011
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4050
 msgid "This is not a valid URL."
 msgstr "Este URL não é válido."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4019
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4058
 msgid "This is not a valid color."
 msgstr "Esta cor não é válida."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4144
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4183
 msgid "Select"
 msgstr "Selecionar"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4218
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4250
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4257
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4289
 msgid "There are no results for your search."
 msgstr "Não foram encontrados resultados para a sua pesquisa."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4227
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4259
-#: shared/common/elm/Common/Components/Flash.elm:49
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4266
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4298
+#: shared/common/elm/Common/Components/Flash.elm:55
 #: shared/common/elm/Common/Components/Page.elm:43
 #: shared/common/elm/Common/Components/TypeHintInput.elm:368
 msgid "Loading..."
 msgstr "A carregar..."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4384
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4423
 msgid "There are no items to select from yet."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4389
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4428
 msgid "Create them now."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4403
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4442
 msgid "This question does not have any configured list options to select from."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4421
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4460
 msgid "- select -"
 msgstr "- selecionar -"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4428
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4467
 msgid "Go to item"
 msgstr "Ir para o item"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4441
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4480
 msgid "The selected item was deleted."
 msgstr "O item selecionado foi eliminado."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4485
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4524
 msgid "The file was deleted."
 msgstr "O ficheiro foi eliminado."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4508
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4547
 msgid "Upload file"
 msgstr "Carregar ficheiro"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4574
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4613
 msgid "This option leads to some follow up questions."
 msgstr "Esta opção suscita algumas perguntas complementares."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4628
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4667
 msgid "1 comment"
 msgid_plural "%s comments"
 msgstr[0] "1 comentário"
 msgstr[1] "%s comentários"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4662
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4701
 msgid "TODO"
 msgstr "Afazer"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4663
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4702
 msgid "Remove TODO"
 msgstr "Remover afazer"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4673
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4712
 msgid "Add TODO"
 msgstr "Adicionar afazer"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4695
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4734
 #: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:147
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:106
 msgid "Feedback"
 msgstr "Feedback"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4712
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4751
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:490
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:261
 msgid "Copy link"
 msgstr "Copiar ligação"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4736
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4775
 msgid "There are some item select questions using this item:"
 msgstr "Existem algumas perguntas de seleção que utilizam este item:"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4747
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4786
 msgid "Are you sure you want to remove this item?"
 msgstr "Tem a certeza de que pretende remover este item?"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4752
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4791
 msgid "Remove item"
 msgstr "Remover item"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4755
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4794
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:402
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:554
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:640
@@ -1128,14 +1168,14 @@ msgstr "Remover item"
 msgid "Remove"
 msgstr "Remover"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4780
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4819
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:161
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:290
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/AppKeys.elm:175
 msgid "Are you sure you want to delete %s?"
 msgstr "Tem a certeza de que pretende eliminar %s?"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4784
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4823
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:158
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:161
 msgid "Delete file"
@@ -1154,10 +1194,10 @@ msgid "Related questions"
 msgstr ""
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:369
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1223
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1307
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1415
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1512
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1304
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1308
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1416
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1513
 msgid "Experts"
 msgstr "Peritos"
 
@@ -1209,31 +1249,31 @@ msgid "If you found something wrong with the question, you can send us your reco
 msgstr "Se encontrou algo de errado com a pergunta, pode enviar-nos a sua recomendação sobre como a melhorar."
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:180
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:935
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1166
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1634
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1706
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3156
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3228
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:486
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:507
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:532
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:553
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:572
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:594
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:976
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:995
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1032
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1060
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1135
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1338
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1435
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2208
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2225
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2259
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2285
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2304
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2326
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1016
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1247
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1715
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1787
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3263
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3335
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:487
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:508
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:533
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:554
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:573
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:595
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:977
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:996
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1033
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1061
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1136
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1339
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1436
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2209
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2226
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2260
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2286
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2305
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2327
 #: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:137
 #: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:164
 msgid "Title"
@@ -1243,26 +1283,26 @@ msgstr "Título"
 #: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:157
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:133
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:286
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1650
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1714
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1774
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3041
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1731
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1795
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1855
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3148
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:124
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:179
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:488
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:509
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:534
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:554
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:573
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:595
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:614
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:636
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:661
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1827
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1893
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1972
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2041
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2110
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:489
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:510
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:535
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:555
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:574
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:596
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:615
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:637
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:662
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1828
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1894
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1973
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2042
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2111
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:82
 #: app-wizard/elm/Wizard/Pages/Locales/Create/View.elm:42
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:413
@@ -1313,86 +1353,90 @@ msgstr "Selecionar ficheiro"
 msgid "Or just drop it here"
 msgstr "Ou simplesmente largue-o aqui"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:183
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:192
 msgid "Named versions only"
 msgstr "Apenas versões com nomes atribuídos"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:301
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:209
+msgid "Load older"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:327
 msgid "Rename this version"
 msgstr "Mudar o nome desta versão"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:310
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:336
 msgid "Delete this version"
 msgstr "Eliminar esta versão"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:322
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:348
 msgid "Name this version"
 msgstr "Atribuir um nome a esta versão"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:338
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:364
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:212
 msgid "View questionnaire"
 msgstr "Ver questionário"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:347
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:373
 msgid "Create document"
 msgstr "Criar documento"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:365
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:391
 msgid "Revert to this version"
 msgstr "Reverter para esta versão"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:514
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:540
 msgid "Deleted file"
 msgstr "Ficheiro eliminado"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:523
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:549
 msgid "Cleared reply of"
 msgstr "Foi limpa a resposta de"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:532
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:558
 msgid "Unset phase"
 msgstr "Fase não selecionada"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:540
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:566
 msgid "Unknown phase"
 msgstr "Fase desconhecida"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:542
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:568
 msgid "Set phase to %s"
 msgstr "Definir fase para %s"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:52
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:762
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:411
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:843
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:412
 msgid "Chapters"
 msgstr "Capítulos"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:174
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:923
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1004
 msgid "Chapter"
 msgstr "Capítulo"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:205
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1109
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3015
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1190
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3122
 msgid "Question"
 msgstr "Pergunta"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:208
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2714
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2806
 #, fuzzy
 msgid "Answer"
 msgstr "Respostas"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:211
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2814
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2906
 #, fuzzy
 msgid "Choice"
 msgstr "Escolhas"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:214
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2876
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2968
 #, fuzzy
 msgid "Reference"
 msgstr "Referências"
@@ -1432,7 +1476,7 @@ msgid "Search users..."
 msgstr "Procurar utilizadores..."
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:156
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:117
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:118
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:90
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:132
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:285
@@ -1443,28 +1487,28 @@ msgstr "Procurar utilizadores..."
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:53
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:74
 #: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:94
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1766
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2646
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3091
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1847
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2738
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3198
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:123
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:178
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:71
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:613
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:635
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:660
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:683
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:711
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:740
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:770
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:810
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:852
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:891
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:919
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:948
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2129
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2148
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2170
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2189
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:614
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:636
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:661
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:684
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:712
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:741
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:771
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:811
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:853
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:892
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:920
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:949
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2130
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2149
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2171
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2190
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:42
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:73
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:116
@@ -1532,13 +1576,13 @@ msgid "Answered (current phase): %s/%s"
 msgstr "Respondido (fase atual): %s/%s"
 
 #: app-wizard/elm/Wizard/Components/SummaryReport.elm:162
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:782
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:863
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1200
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:423
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1549
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1600
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1638
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1676
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:424
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1550
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1601
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1639
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1677
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:319
 msgid "Metrics"
 msgstr "Métricas"
@@ -1561,14 +1605,14 @@ msgid "Untitled question tag"
 msgstr "Etiqueta de pergunta sem título"
 
 #: app-wizard/elm/Wizard/Components/Tag.elm:107
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:822
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1194
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:903
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1275
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:186
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:453
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1107
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1220
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1368
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1465
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:454
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1108
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1221
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1369
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1466
 msgid "Question Tags"
 msgstr "Etiquetas de perguntas"
 
@@ -1829,6 +1873,7 @@ msgstr "Um modelo de conhecimento é uma estrutura em forma de árvore que cont�
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:106
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:292
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:84
+#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:30
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:224
 #: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:43
 msgid "Create"
@@ -1957,24 +2002,24 @@ msgstr "Não foi possível obter serviços de submissão para o documento."
 msgid "Unable to submit the document."
 msgstr "Não foi possivel submeter o documento."
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:77
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:78
 msgid "Project Documents"
 msgstr "Documentos do projeto"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:95
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:96
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:80
 msgid "Submissions"
 msgstr "Submissões"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:107
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:108
 msgid "There are no documents."
 msgstr "Não existem documentos."
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:115
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:116
 msgid "Search documents..."
 msgstr "Pesquisar documentos..."
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:118
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:119
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:54
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:75
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:72
@@ -1989,12 +2034,12 @@ msgstr "Pesquisar documentos..."
 msgid "Created"
 msgstr "Criado"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:134
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:135
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:132
 msgid "Click to download the document"
 msgstr "Clique para descarregar o documento"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:202
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:203
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1428
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:438
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:116
@@ -2004,56 +2049,56 @@ msgstr "Clique para descarregar o documento"
 msgid "Download"
 msgstr "Tran"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:214
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:377
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:385
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:215
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:378
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:386
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:201
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:382
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:390
 msgid "Submit"
 msgstr "Submeter"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:226
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:311
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:227
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:312
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:229
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:313
 msgid "View error"
 msgstr "Ver erro"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:261
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:262
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:264
 msgid "Queued"
 msgstr "Em fila de espera"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:267
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:268
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:270
 msgid "In Progress"
 msgstr "Em curso"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:275
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:293
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:276
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:294
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:277
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:295
 #: shared/common/elm/Common/Components/Page.elm:51
 msgid "Error"
 msgstr "Erro"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:286
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:287
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:288
 msgid "Submitting"
 msgstr "A submeter"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:290
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:291
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:292
 msgid "Submitted"
 msgstr "Submetido"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:305
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:306
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:307
 msgid "View submission"
 msgstr "Ver submissão"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:343
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:344
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1524
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:139
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:360
@@ -2068,43 +2113,43 @@ msgstr "Ver submissão"
 msgid "Are you sure you want to permanently delete %s?"
 msgstr "Tem a certeza de que pretende eliminar permanentemente %s?"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:347
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:348
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:352
 msgid "Delete document"
 msgstr "Eliminar documento"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:414
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:415
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:419
 msgid "There are no submission services configured for this type of document."
 msgstr "Não existem serviços de submissão configurados para este tipo de documento."
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:430
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:431
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:435
 msgid "You can find it here: "
 msgstr "Pode encontrá-lo aqui: "
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:440
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:441
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:445
 msgid "The document was successfully submitted."
 msgstr "O documento foi submetido com sucesso."
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:447
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:452
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:451
 msgid "The document submission failed."
 msgstr "Ocorreu uma falha na submissão do documento."
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:470
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:475
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:469
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:473
 msgid "Submit %s"
 msgstr "Submeter %s"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:511
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:517
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:515
 msgid "Document error"
 msgstr "Erro no documento"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:534
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:540
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:538
 msgid "Submission error"
 msgstr "Erro na submissão"
 
@@ -2166,7 +2211,7 @@ msgid "Folder"
 msgstr "Pasta"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1095
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1098
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1179
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:35
 msgid "File"
 msgstr "Ficheiro"
@@ -2180,9 +2225,9 @@ msgstr "Alterar o nome"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1127
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:204
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:208
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3334
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3573
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3586
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3441
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3680
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3693
 msgid "Move"
 msgstr "Mover"
 
@@ -2328,7 +2373,7 @@ msgstr "Readme"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:132
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:136
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:128
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2638
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2639
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:43
 msgid "Publish"
 msgstr "Publicar"
@@ -2417,7 +2462,7 @@ msgid "Add step"
 msgstr "Adicionar passo"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:465
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1092
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1173
 msgid "Options"
 msgstr "Opções"
 
@@ -2427,7 +2472,7 @@ msgstr "Adicionar opção"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:481
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:504
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1094
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1175
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:677
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:850
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:864
@@ -2445,7 +2490,7 @@ msgid "Value"
 msgstr "Valor"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:526
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1987
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2068
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:160
 msgid "Quick setup"
 msgstr "Configuração rápida"
@@ -2573,13 +2618,13 @@ msgid "This document template is not supported in the current version."
 msgstr "Este modelo de documento não é suportado na versão atual."
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:226
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2634
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:710
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:739
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:809
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:851
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:918
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:947
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2726
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:711
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:740
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:810
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:852
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:919
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:948
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:159
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:161
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:172
@@ -2729,257 +2774,261 @@ msgstr "O ID do modelo de conhecimento só pode conter caracteres alfanuméricos
 msgid "You can create a new knowledge model based on the existing one or start from scratch."
 msgstr "Pode criar um novo modelo de conhecimento com base no existente ou começar do zero."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:451
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:773
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:451
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:854
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:206
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:165
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:315
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:326
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:314
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:325
 msgid "Untitled chapter"
 msgstr "Capítulo sem título"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:454
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:965
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1310
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2756
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3382
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:454
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1046
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1391
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2848
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3489
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:351
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:223
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:259
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:269
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:258
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:268
 msgid "Untitled question"
 msgstr "Pergunta sem título"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:457
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:793
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:457
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:874
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:220
 msgid "Untitled metric"
 msgstr "Métrica sem título"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:460
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:813
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:460
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:894
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:234
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:166
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:165
 msgid "Untitled phase"
 msgstr "Fase sem título"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:463
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:833
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:463
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:914
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:248
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:176
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:175
 msgid "Untitled tag"
 msgstr "Etiqueta sem título"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:466
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:853
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1379
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:466
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:934
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1460
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:262
 msgid "Untitled integration"
 msgstr "Integração sem título"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:469
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1275
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:469
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1356
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:377
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:255
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:326
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:337
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:325
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:336
 msgid "Untitled answer"
 msgstr "Resposta sem título"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:472
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1468
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:472
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1549
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:391
 msgid "Untitled choice"
 msgstr "Escolha sem título"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:475
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1214
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:475
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1295
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:405
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:297
 msgid "Untitled reference"
 msgstr "Referência sem título"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:478
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1234
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:478
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1315
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:419
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:276
 msgid "Untitled expert"
 msgstr "Especialista sem nome"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:481
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:873
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:481
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:954
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:445
 msgid "Untitled resource collection"
 msgstr "Coleção de recursos sem título"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:484
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2915
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3175
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:484
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3007
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3282
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:459
 msgid "Untitled resource page"
 msgstr "Página de recurso sem título"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1051
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1050
 msgid "Empty title for chapter"
 msgstr "Capítulo com o título vazio"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1080
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1079
 msgid "Empty title for question"
 msgstr "Pergunta com título vazio"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1089
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1088
 msgid "No answers for options question"
 msgstr "Pergunta de opções sem respostas"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1098
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1097
 msgid "No item questions for list question"
 msgstr "Pergunta de lista sem itens de pergunta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1109
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1108
 msgid "No integration selected for integration question"
 msgstr "Pergunta de integração sem integração selecionada"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1123
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1122
 msgid "Missing variables for integration question"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1138
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1137
 msgid "No choices for multi-choice question"
 msgstr "Pergunta de escolha múltipla sem opções"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1156
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1155
 msgid "No list question selected for item select question"
 msgstr "Nenhuma pergunta de lista selecionada para a pergunta de seleção de item"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1183
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1182
 msgid "Empty label for answer"
 msgstr "Resposta com rótulo vazio"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1202
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1201
 msgid "Empty label for choice"
 msgstr "Escolha com rótulo vazio"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1222
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1221
 msgid "No resource page selected for resource page reference"
 msgstr "Nenhuma página de recurso selecionada para referência de página de recurso"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1229
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1228
 msgid "Empty URL for URL reference"
 msgstr "Referência URL com URL vazio"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1232
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1231
 msgid "Invalid URL for URL reference"
 msgstr "Referência URL com URL inválido"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1251
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1250
 msgid "Empty email for expert"
 msgstr "Especialista com e-mail vazio"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1254
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1253
 msgid "Invalid email for expert"
 msgstr "Especialista com e-mail inválido"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1264
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1263
 msgid "Empty title for metric"
 msgstr "Métrica com título vazio"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1276
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1275
 msgid "Empty title for phase"
 msgstr "Fase com título vazio"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1288
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1287
 msgid "Empty name for tag"
 msgstr "Etiqueta com nome vazio"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1310
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1309
 msgid "Empty name for integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1317
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1316
 msgid "Empty variable name for integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1324
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1414
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1323
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1413
 msgid "Empty request URL for integration"
 msgstr "Integração com URL do pedido vazio"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1336
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1335
 msgid "Missing {{ q }} in request URL for integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1343
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1342
 msgid "Unknown Jinja property in request URL for integration: %s"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1350
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1349
 msgid "Unknown variable in request URL for integration: %s"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1357
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1356
 msgid "Unknown secret in request URL for integration: %s"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1367
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1366
 msgid "No test data loaded for integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1378
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1377
 msgid "Response list field not found in test data for integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1381
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1380
 msgid "Response list field is not a list in test data for integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1392
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1391
 msgid "No test data success response for integration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1396
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1428
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1395
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1427
 #, fuzzy
 msgid "Empty response item template for integration"
 msgstr "Modelo de item de resposta em branco para integração"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1407
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1439
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1406
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1438
 msgid "Empty ID for integration"
 msgstr "Integração com ID vazio"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1421
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1420
 msgid "Empty request HTTP method for integration"
 msgstr "Integração com método de pedido HTTP vazio"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1446
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1445
 msgid "Empty widget URL for integration"
 msgstr "URL de widget vazio para integração"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1460
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1459
 msgid "Empty title for resource collection"
 msgstr "Título vazio para a coleção de recursos"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1481
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1480
 msgid "Empty title for resource page"
 msgstr "Título vazio para a página do recurso"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorBranch.elm:1491
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1490
 msgid "Empty content for resource page"
 msgstr "Conteúdo vazio para a página do recurso"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:379
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:392
 msgid "Unable to get test result."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:422
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:435
 msgid "Unable to get preview."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:595
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:593
+msgid "URL Checker"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:676
 msgid "There are no more warnings."
 msgstr "Não há mais avisos."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:717
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:798
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:168
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:71
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:177
@@ -2991,210 +3040,210 @@ msgstr "Não há mais avisos."
 msgid "Knowledge Model"
 msgstr "Modelo de conhecimento"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:774
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:855
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:99
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:228
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:229
 msgid "Add chapter"
 msgstr "Adicionar capítulo"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:794
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:875
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:111
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:164
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:165
 msgid "Add metric"
 msgstr "Adicionar métrica"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:814
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:895
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:123
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:180
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:181
 msgid "Add phase"
 msgstr "Adicionar fase"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:834
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:915
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:135
 msgid "Add tag"
 msgstr "Adicionar etiqueta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:842
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:468
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:923
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:469
 msgid "Integrations"
 msgstr "Integrações"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:854
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:935
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:147
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:212
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:213
 msgid "Add integration"
 msgstr "Adicionar integração"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:862
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:943
 msgid "Resource Collections"
 msgstr "Colecções de recursos"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:874
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:955
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:159
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:324
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:325
 msgid "Add resource collection"
 msgstr "Adicionar coleção de recursos"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:943
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1174
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1340
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:977
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:996
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1033
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1061
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1136
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1339
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1436
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1024
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1255
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1421
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:978
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:997
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1034
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1062
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1137
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1340
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1437
 msgid "Text"
 msgstr "Texto"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:954
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1299
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1015
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1046
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1272
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1396
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1493
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1587
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1632
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1670
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1035
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1380
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1016
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1047
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1273
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1397
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1494
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1588
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1633
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1671
 msgid "Questions"
 msgstr "Perguntas"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:966
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1311
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2757
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1047
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1392
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2849
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:199
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:296
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:370
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:244
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:245
 msgid "Add question"
 msgstr "Adicionar pergunta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1093
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1174
 msgid "List of Items"
 msgstr "Lista de itens"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1095
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1430
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1915
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1074
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1181
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1352
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1449
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1176
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1511
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1996
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1075
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1182
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1353
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1450
 msgid "Integration"
 msgstr "Integração"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1096
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1177
 msgid "Multi-Choice"
 msgstr "Escolha múltipla"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1097
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1178
 msgid "Item Select"
 msgstr "Selecão de item"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1105
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1186
 msgid "Never"
 msgstr "Nunca"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1121
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1927
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:682
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:709
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:738
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:769
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:808
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:850
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:890
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:917
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:946
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1059
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1134
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1337
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1434
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1202
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2008
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:683
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:710
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:739
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:770
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:809
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:851
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:891
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:918
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:947
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1060
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1135
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1338
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1435
 msgid "Type"
 msgstr "Tipo"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1137
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1218
 msgid "Changing a question type will remove all answers."
 msgstr "Alterar o tipo de uma pergunta elimina todas as repostas"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1147
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1228
 msgid "Changing a question type will remove all item questions."
 msgstr "Alterar o tipo de uma pergunta elimina todas as perguntas do item."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1157
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1238
 msgid "Changing a question type will remove all choices."
 msgstr "Alterar o tipo de pergunta remove todas as opções."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1185
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1266
 msgid "When does this question become desirable?"
 msgstr "Quando é que esta questão se torna desejável?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1203
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1291
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1408
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1505
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1284
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1292
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1409
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1506
 msgid "References"
 msgstr "Referências"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1215
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1296
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:320
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:292
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:293
 msgid "Add reference"
 msgstr "Adicionar referência"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1235
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1316
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:332
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:308
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:309
 msgid "Add expert"
 msgstr "Adicionar especialista"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1264
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1239
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1374
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1471
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1345
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1240
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1375
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1472
 msgid "Answers"
 msgstr "Respostas"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1276
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1357
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:284
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:260
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:261
 msgid "Add answer"
 msgstr "Adicionar resposta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1319
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:336
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:347
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1400
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:335
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:346
 msgid "Item Template"
 msgstr "Modelo de item"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1335
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1416
 msgid "String"
 msgstr "String"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1336
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1417
 msgid "Number"
 msgstr "Número"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1337
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1418
 msgid "Date"
 msgstr "Data"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1338
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1419
 msgid "Date Time"
 msgstr "Data e hora"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1339
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1420
 msgid "Time"
 msgstr "Hora"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1341
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3099
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2130
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2149
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2171
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2190
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1422
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3206
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2131
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2150
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2172
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2191
 #: app-wizard/elm/Wizard/Pages/Public/ForgottenPassword/View.elm:52
 #: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:85
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:143
@@ -3206,20 +3255,20 @@ msgstr "Hora"
 msgid "Email"
 msgstr "E-mail"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1342
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2870
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2960
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1805
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1808
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1869
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1872
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1876
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1950
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1953
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2019
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2022
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2088
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2091
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1423
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2962
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3052
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1806
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1809
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1870
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1873
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1877
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1951
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1954
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2020
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2023
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2089
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2092
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:191
 #: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:139
 #: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:167
@@ -3227,659 +3276,667 @@ msgstr "E-mail"
 msgid "URL"
 msgstr "URL"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1343
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1782
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:615
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:637
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:662
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1424
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1863
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:616
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:638
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:663
 msgid "Color"
 msgstr "Cor"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1349
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1071
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1162
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1349
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1446
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1430
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1072
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1163
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1350
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1447
 msgid "Value Type"
 msgstr "Tipo de valor"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1358
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1439
 msgid "Validations"
 msgstr "Validações"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1380
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1461
 msgid "- select integration -"
 msgstr "- selecionar integração -"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1408
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1489
 msgid "Integration Configuration"
 msgstr "Configuração da integração"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1424
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1505
 msgid "Go to integration"
 msgstr "Ir para integração"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1457
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1251
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1385
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1482
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1538
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1252
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1386
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1483
 msgid "Choices"
 msgstr "Escolhas"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1469
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1550
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:308
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:276
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:277
 msgid "Add choice"
 msgstr "Adicionar escolha"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1507
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1588
 #, fuzzy
 msgid "List Question"
 msgstr "Pergunta da lista"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1509
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1590
 msgid "- select list question -"
 msgstr "- selecione a pergunta de lista -"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1521
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1602
 msgid "Go to list question"
 msgstr "Ir para a pergunta de lista"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1542
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1623
 #, fuzzy
 msgid "File Types"
 msgstr "Tipos de ficheiros"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1550
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1631
 msgid "Max Size (bytes)"
 msgstr "Tamanho máximo (bytes)"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1557
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1638
 msgid "You can limit file type selection by providing comma separated list of extensions, mime types, or combination. For example, `application/pdf` or `.xls,.xlsx`."
 msgstr "Pode limitar a seleção do tipo de ficheiro fornecendo uma lista de extensões, tipos mime ou combinações, separada por vírgulas. Por exemplo, `application/pdf` ou `.xls,.xlsx`."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1559
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1640
 msgid "Uploaded files cannot be larger than %s, but you can set a smaller limit."
 msgstr "Os ficheiros carregados não podem ser maiores do que %s, mas pode definir um limite menor."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1567
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1648
 msgid "Item select questions using this list question"
 msgstr "Perguntas de seleção de item que utilizam esta pergunta de lista"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1622
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1703
 msgid "Metric"
 msgstr "Métrica"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1642
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:487
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:508
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:533
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1723
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:488
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:509
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:534
 msgid "Abbreviation"
 msgstr "Abreviatura"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1694
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1775
 msgid "Phase"
 msgstr "Fase"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1754
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1835
 msgid "Tag"
 msgstr "Etiqueta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1908
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1989
 msgid "API"
 msgstr "API"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1909
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1990
 msgid "API (Legacy)"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1910
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1991
 msgid "Widget"
 msgstr "Widget"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1953
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3252
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2034
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3359
 #, fuzzy
 msgid "No questions"
 msgstr "Pedido"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2003
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2084
 #, fuzzy
 msgid "This integration was created from a template and now differs."
 msgstr "O URL do widget implementado utilizando o [DSW Integration SDK] (https://github.com/ds-wizard/dsw-integration-sdk)."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2008
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2089
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:220
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:199
 #, fuzzy
 msgid "Update"
 msgstr "Atualizado"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2024
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2105
 #, fuzzy
 msgid "Questions using this integration"
 msgstr "O logótipo é apresentado junto à ligação para o item selecionado nos questionários. Pode ser um URL ou uma imagem base64."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2050
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2131
 msgid "Allow Custom Reply"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2054
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2135
 msgid "If enabled, users can type their own custom reply. If disabled, they must select a reply from the integration."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2059
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2669
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:684
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:771
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:892
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2140
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2761
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:685
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:772
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:893
 msgid "Variables"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2064
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2145
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the request configuration. For example, if you define a variable named *type*, you can use it as `{{ variables.type }}`, such as *ht&#8203;tps://example.com/{{ variables.type }}*."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2080
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2161
 msgid "There are no secrets configured."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2090
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2171
 msgid "Configure secrets"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2093
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2174
 msgid "Secrets can store sensitive information used for API calls, such as tokens, that you don't want to share with the knowledge models. You can use them as `{{ secrets.secret_name }}` anywhere in the request configuration."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2100
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2181
 msgid "Advanced Integration Configuration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2111
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2512
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:687
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:716
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:774
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:815
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:895
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:924
-msgid "Request HTTP Headers"
-msgstr "Cabeçalhos do pedido HTTP"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2115
-msgid "HTTP headers to include in the API request. You can use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
-msgstr ""
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2118
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2520
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2192
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2604
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:688
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:717
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:775
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:816
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:896
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:925
+msgid "Request HTTP Headers"
+msgstr "Cabeçalhos do pedido HTTP"
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2196
+msgid "HTTP headers to include in the API request. You can use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2199
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2612
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:689
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:718
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:776
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:817
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:897
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:926
 msgid "Request HTTP Body"
 msgstr "Corpo do pedido HTTP"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2122
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2203
 msgid "Optional request body of the API request. You can again use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2125
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2528
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:689
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:776
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:897
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2206
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2620
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:690
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:777
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:898
 msgid "Allow Empty Search"
 msgstr "Permitir pesquisa vazia"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2129
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2210
 msgid "If enabled, the API request will be sent even if the user does not enter a search term. This is useful for APIs that return a default set of results when no search term is provided."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2135
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2216
 msgid "Advanced Request Configuration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2144
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2562
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2225
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2654
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:229
 msgid "Request"
 msgstr "Pedido"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2145
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2226
 msgid "Import from cURL string"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2163
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2244
 msgid "Enter request URL..."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2167
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2248
 msgid "The full API endpoint used for search. Use `{{ q }}` to insert the user's search term (for example, *https://example.com/search?q={{ q }}*), and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2191
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2272
 msgid "Test Variables"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2231
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2312
 msgid "Request Details"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2259
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2340
 msgid "This content type is not supported."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2287
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2431
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2577
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2352
+msgid "The response body is too large to display with syntax highlight."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2378
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2523
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2669
 #, fuzzy
 msgid "Response"
 msgstr "Permitir pesquisa vazia"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2312
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2404
 msgid "Test"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2316
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2408
 msgid "Test Search Query"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2320
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2412
 msgid "This is what users would write in the questionnaire when filling in the integration question."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2323
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2415
 msgid "Load"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2370
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2544
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:690
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:718
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:777
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:817
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:898
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:926
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2462
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2636
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:691
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:719
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:778
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:818
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:899
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:927
 msgid "Response List Field"
 msgstr "Campo de lista de respostas"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2376
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2581
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2468
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2673
 #, fuzzy
 msgid "If the returned JSON is not an array of items directly but the items are nested, use this to define the name or path to the field in the response that contains the list of items. Keep empty otherwise."
 msgstr "Se o JSON devolvido não for uma matriz de itens diretamente, mas os itens estiverem aninhados, utilize isto para definir o nome ou o caminho para o campo na resposta que contém a lista de itens. Caso contrário, mantenha-o vazio."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2386
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2552
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:691
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:720
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:778
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:819
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:899
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:928
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2478
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2644
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:692
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:721
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:779
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:820
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:900
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:929
 msgid "Response Item Template"
 msgstr "Modelo de item de resposta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2404
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:692
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:779
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:900
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2496
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:693
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:780
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:901
 msgid "Response Item Template for Selection"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2422
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2514
 msgid "Advanced Response Configuration"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2438
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2530
 msgid "Response is not a valid JSON."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2442
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2534
 msgid "Run a successful test to configure the response."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2467
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2559
 msgid "Click to copy code"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2495
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2587
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:687
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:716
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:774
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:815
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:895
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:924
+msgid "Request URL"
+msgstr "URL do pedido"
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2595
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:686
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:715
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:773
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:814
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:894
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:923
-msgid "Request URL"
-msgstr "URL do pedido"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2503
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:685
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:714
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:772
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:813
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:893
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:922
 msgid "Request HTTP Method"
 msgstr "Método do pedido HTTP"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2536
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:719
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:818
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:927
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2628
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:720
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:819
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:928
 msgid "Response Item ID"
 msgstr "ID do item de reposta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2564
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2656
 #, fuzzy
 msgid "Use this section to configure the search request. The service you want to integrate has to provide a search HTTP API where you send a search string and it returns a JSON with found items."
 msgstr "Utilize esta secção para configurar o pedido de pesquisa. O serviço que pretende integrar tem de fornecer uma API HTTP de pesquisa em que envia uma cadeia de pesquisa e esta devolve um JSON com os itens encontrados."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2566
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2658
 msgid "The full API endpoint used for search. Use `${q}` to insert the user's search term (for example, *https://example.com/search?q=${q}*), and `${propName}` to reference fields defined in props."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2569
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2661
 msgid "Optional headers to include in the API request. You can use `${q}` for the search term and `${propName}` for values from props."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2571
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2663
 msgid "Optional request body for POST or PUT methods. Supports the same variables: `${q}` for the search term and `${propName}` for props."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2573
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2665
 #, fuzzy
 msgid "Turn this off if the API cannot handle empty search requests. In that case, the requests will be made only after users type something."
 msgstr "Desactive esta opção se a API não conseguir lidar com pedidos de pesquisa vazios. Nesse caso, os pedidos só serão feitos depois de os utilizadores escreverem algo."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2579
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2671
 #, fuzzy
 msgid "Use this section to configure how to process the response returned from the search API."
 msgstr "Utilize esta secção para configurar a forma de processar a resposta devolvida pela API de pesquisa."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2583
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2675
 #, fuzzy
 msgid "Use this to define an identifier for the item. This will be used in **Item URL** as `${id}` to compose a URL to the found item. You can use properties from the returned item in Jinja2 notation. For example, if the item has a field `id` use `{{item.id}}` here. You can also compose multiple fields together, e.g., `{{item.field1}}-{{item.field2}}`."
 msgstr "Utilize esta opção para definir um identificador para o item. Este será utilizado no **Item URL** como `${id}` para compor uma URL para o item encontrado. Você pode usar propriedades do item retornado na notação Jinja2. Por exemplo, se o item tem um campo `id` use `{{item.id}}` aqui. Também pode compor vários campos juntos, por exemplo, `{{item.field1}}-{{item.field2}}`."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2586
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2678
 #, fuzzy
 msgid "This defines how the found items will be displayed for the user. You can use properties from the returned item in Jinja2 notation, you can also use [Markdown](%s) for some formatting. For example, if the returned item has a field called name, you can use `**{{item.name}}**` to display the name in bold."
 msgstr "Isto define como os itens encontrados serão exibidos para o utilizador. Pode utilizar propriedades do item devolvido em notação Jinja2, pode também utilizar [Markdown](%s) para alguma formatação. Por exemplo, se o item retornado tem um campo chamado nome, você pode usar `**{{item.name}}**` para exibir o nome em negrito."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2592
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2684
 #, fuzzy
 msgid "Defines the URL to the selected item. Use `${id}` to get the value defined in **Response Item ID** field, for example `https://example.com/${id}`."
 msgstr "Define o URL para o item selecionado. Utilize `${id}` para obter o valor definido no campo **Identificação do item da resposta**, por exemplo `https://example.com/${id}`."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2614
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:743
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:855
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:951
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2706
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:744
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:856
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:952
 #, fuzzy
 msgid "Widget URL"
 msgstr "URL do widget"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2624
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2716
 #, fuzzy
 msgid "The URL of the widget implemented using [DSW Integration SDK](https://github.com/ds-wizard/dsw-integration-sdk)."
 msgstr "O URL do widget implementado utilizando o [DSW Integration SDK] (https://github.com/ds-wizard/dsw-integration-sdk)."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2626
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2718
 #, fuzzy
 msgid "Defines the URL to the selected item. Use `${id}` value returned from the widget, for example `https://example.com/${id}`."
 msgstr "Define o URL para o item selecionado. Utilize o valor `${id}` devolvido pelo widget, por exemplo `https://example.com/${id}`."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2638
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2730
 #, fuzzy
 msgid "A string that identifies the integration. It has to be unique for each integration."
 msgstr "Uma cadeia de caracteres que identifica a integração. Tem de ser única para cada integração."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2650
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2742
 #, fuzzy
 msgid "A name visible everywhere else in the knowledge model Editor, such as when choosing the integration for a question."
 msgstr "Um nome visível em qualquer outro lugar no Editor de modelos de conhecimento, como quando escolhe a integração para uma pergunta."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2658
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2750
 msgid "Logo URL"
 msgstr "URL do logótipo"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2662
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2754
 #, fuzzy
 msgid "Logo is displayed next to the link to the selected item in questionnaires. It can be either URL or base64 image."
 msgstr "O logótipo é apresentado junto à ligação para o item selecionado nos questionários. Pode ser um URL ou uma imagem base64."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2674
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2766
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the URL configuration. For example, if you define a variable named *type*, you can use it as `${type}`, such as *ht&#8203;tps://example.com/${type}*."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2682
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:713
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:742
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:812
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:854
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:921
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:950
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2774
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:714
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:743
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:813
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:855
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:922
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:951
 msgid "Item URL"
 msgstr "URL do item"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2726
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2826
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2968
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1541
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1567
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1618
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1656
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1707
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1724
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1743
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1760
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1806
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1870
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1951
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2020
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2089
-#, fuzzy
-msgid "Label"
-msgstr "Etiqueta"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2734
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2818
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2918
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3074
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1542
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1568
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1619
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1657
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1708
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1725
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1744
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1761
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1807
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1871
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1952
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2021
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2090
+#, fuzzy
+msgid "Label"
+msgstr "Etiqueta"
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2826
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1543
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1569
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1620
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1658
 #, fuzzy
 msgid "Advice"
 msgstr "Aconselhamento"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2745
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2837
 #, fuzzy
 msgid "Follow-Up Questions"
 msgstr "Aconselhamento"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2869
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2930
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3216
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1788
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1851
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1854
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1933
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2002
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2071
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2961
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3022
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3323
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1789
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1852
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1855
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1934
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2003
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2072
 #, fuzzy
 msgid "Resource Page"
 msgstr "Página de recursos"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2871
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1829
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1895
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1899
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1974
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2043
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2112
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2963
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1830
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1896
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1900
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1975
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2044
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2113
 #, fuzzy
 msgid "Cross Reference"
 msgstr "Referência cruzada"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2888
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1785
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1804
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1825
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1848
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1868
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1891
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1930
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1949
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1970
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1999
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2018
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2039
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2068
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2087
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2108
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2980
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1786
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1805
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1826
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1849
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1869
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1892
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1931
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1950
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1971
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2000
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2019
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2040
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2069
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2088
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2109
 #, fuzzy
 msgid "Reference Type"
 msgstr "Tipo de referência"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2932
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3024
 #, fuzzy
 msgid "- select resource page -"
 msgstr "- selecione a página de recursos -"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3017
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3061
+msgid "This URL failed the check:"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3124
 msgid "- select related question -"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3031
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3138
 msgid "Go to related question"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3079
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3186
 #, fuzzy
 msgid "Expert"
 msgstr "Peritos"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3144
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3251
 #, fuzzy
 msgid "Resource Collection"
 msgstr "Colecções de recursos"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3164
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2242
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2271
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3271
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2243
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2272
 #, fuzzy
 msgid "Resource Pages"
 msgstr "Páginas de recursos"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3176
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3283
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:438
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:340
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:341
 #, fuzzy
 msgid "Add resource page"
 msgstr "Adicionar página de recursos"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3236
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2286
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2305
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2327
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3343
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2287
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2306
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2328
 #: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:162
 #, fuzzy
 msgid "Content"
 msgstr "Conteúdo"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3276
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3383
 #, fuzzy
 msgid "Questions using this resource page"
 msgstr "Perguntas sobre a utilização desta página de recursos"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3287
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3394
 #, fuzzy
 msgid "The knowledge model entity you are trying to open does not exist."
 msgstr "A entidade do modelo de conhecimento que está a tentar abrir não existe."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3316
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3423
 #, fuzzy
 msgid "Click to copy UUID"
 msgstr "Clique para copiar o UUID"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3409
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3516
 #, fuzzy
 msgid "Are you sure you want to delete this chapter?"
 msgstr "Tem a certeza de que pretende apagar este capítulo?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3416
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3523
 #, fuzzy
 msgid "Are you sure you want to delete this question?"
 msgstr "Tem a certeza de que pretende apagar esta pergunta?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3423
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3530
 #, fuzzy
 msgid "Are you sure you want to delete this metric?"
 msgstr "Tem a certeza de que pretende eliminar esta métrica?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3430
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3537
 #, fuzzy
 msgid "Are you sure you want to delete this phase?"
 msgstr "Tem a certeza de que pretende eliminar esta métrica?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3437
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3544
 #, fuzzy
 msgid "Are you sure you want to delete this question tag?"
 msgstr "Tem a certeza de que pretende apagar esta etiqueta de pergunta?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3444
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3551
 #, fuzzy
 msgid "Are you sure you want to delete this integration?"
 msgstr "Tem a certeza de que pretende apagar esta etiqueta de pergunta?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3451
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3558
 #, fuzzy
 msgid "Are you sure you want to delete this resource collection?"
 msgstr "Tem a certeza de que pretende eliminar esta coleção de recursos?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3458
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3565
 #, fuzzy
 msgid "Are you sure you want to delete this resource page?"
 msgstr "Tem a certeza de que pretende apagar esta página de recursos?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3465
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3572
 #, fuzzy
 msgid "Are you sure you want to delete this answer?"
 msgstr "Tem a certeza de que pretende apagar esta página de recursos?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3472
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3579
 #, fuzzy
 msgid "Are you sure you want to delete this choice?"
 msgstr "Tem a certeza de que pretende eliminar esta opção?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3479
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3586
 #, fuzzy
 msgid "Are you sure you want to delete this reference?"
 msgstr "Tem a certeza de que pretende apagar esta referência?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3486
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3593
 #, fuzzy
 msgid "Are you sure you want to delete this expert?"
 msgstr "Tem a certeza de que pretende eliminar este perito?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3495
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3602
 #, fuzzy
 msgid "Heads up!"
 msgstr "Fique atento!"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3576
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3683
 #, fuzzy
 msgid "Select a new parent"
 msgstr "Selecione um novo pai"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3622
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3729
 msgid "Paste your cURL command here..."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3630
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3737
 msgid "Import from cURL"
 msgstr ""
 
@@ -3916,7 +3973,7 @@ msgid "Add annotation"
 msgstr "Adicionar anotação"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:704
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2572
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2573
 #, fuzzy
 msgid "Annotations"
 msgstr "Anotações"
@@ -4027,13 +4084,45 @@ msgstr "Valor do cabeçalho"
 msgid "Add header"
 msgstr "Adicionar cabeçalho"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:109
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:88
+msgid "Failed to check URLs."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:114
+msgid "There are no URL references in the Knowledge Model to check."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:138
+msgid "There is %s URL reference to check."
+msgid_plural "There are %s URL references to check."
+msgstr[0] ""
+msgstr[1] ""
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:141
+msgid "Check URLs"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:159
+msgid "All URL references are valid."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:167
+msgid "Found 1 broken reference."
+msgid_plural "Found %s broken references."
+msgstr[0] ""
+msgstr[1] ""
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:186
+msgid "Unknown error."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:108
 #, fuzzy
 msgid "There are no phases, create them first."
 msgstr "Não há fases, crie-as primeiro."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:112
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:120
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:111
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:119
 #, fuzzy
 msgid "There are no questions, create them first."
 msgstr "Não há perguntas, crie-as primeiro."
@@ -4100,7 +4189,7 @@ msgstr "Eliminar o editor do modelo de conhecimento"
 msgid "Deleted knowledge model editors cannot be recovered."
 msgstr "Zona de perigo"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:117
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:116
 #, fuzzy
 msgid "There are no question tags, create them first."
 msgstr "Elimine este editor de modelos de conhecimento"
@@ -4229,246 +4318,246 @@ msgstr "Continuar a migração"
 msgid "Cancel migration"
 msgstr "Cancelar migração"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/Update.elm:54
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/Update.elm:55
 #, fuzzy
 msgid "Unable to get migration."
 msgstr "Não é possível obter a migração."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/Update.elm:93
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/Update.elm:94
 #, fuzzy
 msgid "Unable to resolve conflict."
 msgstr "Não consegue resolver o conflito."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:91
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:92
 #, fuzzy
 msgid "Migration state is corrupted."
 msgstr "O estado de migração está corrompido."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:120
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:121
 #, fuzzy
 msgid "Migration is still running, try again later."
 msgstr "A migração ainda está a decorrer, tente novamente mais tarde."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:126
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:127
 #, fuzzy
 msgid "Migration"
 msgstr "A migração ainda está a decorrer, tente novamente mais tarde."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:136
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:137
 #, fuzzy
 msgid "Migration of %s from %s to %s."
 msgstr "Migração de %s de %s para %s."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:150
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:151
 #, fuzzy
 msgid "The event is not connected to any entity in the Knowledge Model."
 msgstr "O evento não está ligado a nenhuma entidade no Modelo de Conhecimento."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:160
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:161
 #, fuzzy
 msgid "Edit knowledge model"
 msgstr "Editar modelo de conhecimento"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:169
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:170
 #, fuzzy
 msgid "Edit metric"
 msgstr "Editar métrica"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:175
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:176
 #, fuzzy
 msgid "Delete metric"
 msgstr "Eliminar métrica"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:185
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:186
 #, fuzzy
 msgid "Edit phase"
 msgstr "Eliminar métrica"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:191
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:192
 #, fuzzy
 msgid "Delete phase"
 msgstr "Eliminar a fase"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:196
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:197
 #, fuzzy
 msgid "Add question tag"
 msgstr "Adicionar etiqueta de pergunta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:201
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:202
 #, fuzzy
 msgid "Edit question tag"
 msgstr "Editar etiqueta de pergunta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:207
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:208
 #, fuzzy
 msgid "Delete question tag"
 msgstr "Eliminar a etiqueta de pergunta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:217
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:218
 #, fuzzy
 msgid "Edit integration"
 msgstr "Editar a integração"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:223
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:224
 #, fuzzy
 msgid "Delete integration"
 msgstr "Eliminar a integração"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:233
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:234
 #, fuzzy
 msgid "Edit chapter"
 msgstr "Eliminar a integração"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:239
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:240
 #, fuzzy
 msgid "Delete chapter"
 msgstr "Eliminar a etiqueta de pergunta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:249
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:250
 #, fuzzy
 msgid "Edit question"
 msgstr "Editar pergunta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:255
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:256
 #, fuzzy
 msgid "Delete question"
 msgstr "Eliminar a pergunta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:265
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:266
 #, fuzzy
 msgid "Edit answer"
 msgstr "Editar resposta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:271
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:272
 #, fuzzy
 msgid "Delete answer"
 msgstr "Eliminar resposta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:281
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:282
 #, fuzzy
 msgid "Edit choice"
 msgstr "Editar escolha"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:287
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:288
 #, fuzzy
 msgid "Delete choice"
 msgstr "Eliminar opção"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:297
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:298
 #, fuzzy
 msgid "Edit reference"
 msgstr "Perguntas sobre a utilização desta página de recursos"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:303
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:304
 #, fuzzy
 msgid "Delete reference"
 msgstr "Eliminar referência"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:313
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:314
 #, fuzzy
 msgid "Edit expert"
 msgstr "Editar especialista"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:319
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:320
 #, fuzzy
 msgid "Delete expert"
 msgstr "Eliminar especialista"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:329
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:330
 #, fuzzy
 msgid "Edit resource collection"
 msgstr "Editar coleção de recursos"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:335
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:336
 #, fuzzy
 msgid "Delete resource collection"
 msgstr "Eliminar a coleção de recursos"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:345
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:346
 #, fuzzy
 msgid "Edit resource page"
 msgstr "Editar a página de recursos"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:351
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:352
 #, fuzzy
 msgid "Delete resource page"
 msgstr "Eliminar a página de recursos"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:357
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:358
 #, fuzzy
 msgid "Move question"
 msgstr "Mover pergunta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:363
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:364
 #, fuzzy
 msgid "Move answer"
 msgstr "Mover resposta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:369
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:370
 #, fuzzy
 msgid "Move choice"
 msgstr "Escolha de movimento"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:375
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:376
 #, fuzzy
 msgid "Move reference"
 msgstr "Mover referência"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:381
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:382
 #, fuzzy
 msgid "Move expert"
 msgstr "O estado de migração está corrompido."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:712
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:741
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:811
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:853
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:920
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:949
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1089
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1204
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:713
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:742
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:812
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:854
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:921
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:950
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1090
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1205
 msgid "Props"
 msgstr "Propriedades"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1786
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1849
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1931
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2000
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2069
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1787
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1850
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1932
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2001
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2070
 #, fuzzy
 msgid "Resource Page UUID"
 msgstr "UUID da página de recurso"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1826
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1892
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1971
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2040
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2109
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1827
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1893
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1972
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2041
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2110
 #, fuzzy
 msgid "Target UUID"
 msgstr "UUID de destino"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2582
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2583
 #, fuzzy
 msgid "Reject"
 msgstr "Rejeitar"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2585
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2586
 #, fuzzy
 msgid "Apply"
 msgstr "Aplicar"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2588
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2589
 #, fuzzy
 msgid "Apply all"
 msgstr "Referência cruzada"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2630
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2631
 #, fuzzy
 msgid "Migration successfully completed."
 msgstr "A migração foi concluída com êxito."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2632
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2633
 #, fuzzy
 msgid "You can publish the new version now."
 msgstr "Pode publicar a nova versão agora."
@@ -4504,9 +4593,8 @@ msgid "Short description of the knowledge model."
 msgstr "Breve descrição do modelo de conhecimento."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:92
-#, fuzzy
-msgid "No version of this package has been published yet."
-msgstr "Ainda não foi publicada nenhuma versão deste pacote."
+msgid "No version of this knowledge model has been published yet."
+msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:93
 #, fuzzy
@@ -4560,14 +4648,12 @@ msgid "Fork of"
 msgstr "Garfo de"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/Update.elm:89
-#, fuzzy
-msgid "Importing the package failed."
-msgstr "Garfo de"
+msgid "Import failed."
+msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:46
-#, fuzzy
-msgid "Previous Package ID"
-msgstr "ID do pacote anterior"
+msgid "Previous Knowledge Model Package ID"
+msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:47
 #, fuzzy
@@ -4579,9 +4665,8 @@ msgid "Choose a file"
 msgstr "Escolher um ficheiro"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/Update.elm:32
-#, fuzzy
-msgid "Unable to import the package."
-msgstr "Não foi possível importar o pacote."
+msgid "Unable to import knowledge model."
+msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/View.elm:69
 #, fuzzy
@@ -4619,9 +4704,8 @@ msgid "Search KMs..."
 msgstr "Pesquise KMs..."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:178
-#, fuzzy
-msgid "Delete package"
-msgstr "Eliminar o pacote"
+msgid "Delete knowledge model"
+msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:49
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:130
@@ -6748,9 +6832,8 @@ msgid "User could not be created."
 msgstr "Última versão"
 
 #: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:25
-#, fuzzy
-msgid "Create user"
-msgstr "Não foi possível importar a localidade."
+msgid "Create User"
+msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:41
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:204
@@ -7653,6 +7736,30 @@ msgstr "novembro"
 #: shared/common/elm/Common/Utils/TimeUtils.elm:154
 msgid "December"
 msgstr "dezembro"
+
+#, fuzzy
+#~ msgid "No version of this package has been published yet."
+#~ msgstr "Ainda não foi publicada nenhuma versão deste pacote."
+
+#, fuzzy
+#~ msgid "Importing the package failed."
+#~ msgstr "Garfo de"
+
+#, fuzzy
+#~ msgid "Previous Package ID"
+#~ msgstr "ID do pacote anterior"
+
+#, fuzzy
+#~ msgid "Unable to import the package."
+#~ msgstr "Não foi possível importar o pacote."
+
+#, fuzzy
+#~ msgid "Delete package"
+#~ msgstr "Eliminar o pacote"
+
+#, fuzzy
+#~ msgid "Create user"
+#~ msgstr "Não foi possível importar a localidade."
 
 #, fuzzy
 #~ msgid "Props can be used to parametrize the integration for each question. Use this to define the props whose value can be filled on the questions using this integration. The props can then be used in the URL configuration. For example, if you define prop named *type*, you can use it as `${type}`, such as *ht&#8203;tps://example.com/${type}*."

@@ -5,7 +5,7 @@
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-12-02T08:18:29.540Z\nPO-Revision-Date: 2025-12-15 12:48+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-25/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-12-02T08:18:29.540Z\nPO-Revision-Date: 2025-12-24 15:36+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-25/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -177,40 +177,41 @@ msgstr "項目 %s"
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:46
 msgid "The request timed out."
-msgstr ""
+msgstr "請求已逾時。"
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:49
 msgid "The connection timed out."
-msgstr ""
+msgstr "連結已逾時。"
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:52
 msgid "The URL is invalid."
-msgstr ""
+msgstr "URL 無效。"
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:58
 msgid "HTTP error %s occurred."
-msgstr ""
+msgstr "發生 HTTP 錯誤 %s。"
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:62
 msgid "An HTTP error occurred."
-msgstr ""
+msgstr "發生 HTTP 錯誤。"
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:68
+#, fuzzy
 msgid "The content type '%s' is not HTML."
-msgstr ""
+msgstr "內容類型「%s」不是 HTML。"
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:72
 msgid "The content is not HTML."
-msgstr ""
+msgstr "內容並非 HTML。"
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:75
 msgid "A network error occurred."
-msgstr ""
+msgstr "發生網路連線錯誤。"
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:78
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:81
 msgid "An unknown error occurred."
-msgstr ""
+msgstr "發生未知的錯誤。"
 
 #: app-wizard/elm/Wizard/Components/CookieConsent.elm:27
 msgid "Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use. "
@@ -722,7 +723,7 @@ msgstr "無法取得類別提示。"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:2032
 msgid "Some options are hidden"
-msgstr ""
+msgstr "部分選項已隱藏"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:2044
 msgid "View"
@@ -1360,7 +1361,7 @@ msgstr "僅限命名版本"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:209
 msgid "Load older"
-msgstr ""
+msgstr "載入較舊的項目"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:327
 msgid "Rename this version"
@@ -2596,7 +2597,7 @@ msgstr "文件模板無法刪除。"
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:51
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:113
 msgid "deprecated"
-msgstr "已棄用"
+msgstr "不適用"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:62
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:135
@@ -3040,7 +3041,7 @@ msgstr "無法取得預覽。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:593
 msgid "URL Checker"
-msgstr ""
+msgstr "URL 檢查器"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:676
 msgid "There are no more warnings."
@@ -3537,7 +3538,7 @@ msgstr "不支援此內容類型。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2352
 msgid "The response body is too large to display with syntax highlight."
-msgstr ""
+msgstr "回應主體過大，無法顯示語法突顯（syntax highlight）。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2378
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2523
@@ -3802,7 +3803,7 @@ msgstr "- 選擇資源頁面 -"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3061
 msgid "This URL failed the check:"
-msgstr ""
+msgstr "此 URL 未通過檢查："
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3124
 msgid "- select related question -"
@@ -4041,33 +4042,33 @@ msgstr "新增標頭"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:88
 msgid "Failed to check URLs."
-msgstr ""
+msgstr "無法檢查網址。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:114
 msgid "There are no URL references in the Knowledge Model to check."
-msgstr ""
+msgstr "知識模型中沒有 URL 參照可供檢查。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:138
 msgid "There is %s URL reference to check."
 msgid_plural "There are %s URL references to check."
-msgstr[0] ""
+msgstr[0] "有 URL 參照 %s 可供檢查。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:141
 msgid "Check URLs"
-msgstr ""
+msgstr "檢查 URLs"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:159
 msgid "All URL references are valid."
-msgstr ""
+msgstr "所有 URL 參照皆有效。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:167
 msgid "Found 1 broken reference."
 msgid_plural "Found %s broken references."
-msgstr[0] ""
+msgstr[0] "找到 %s 個無效的參照。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:186
 msgid "Unknown error."
-msgstr ""
+msgstr "未知的錯誤。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:108
 msgid "There are no phases, create them first."
@@ -4464,7 +4465,7 @@ msgstr "知識模型的簡短描述。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:92
 msgid "No version of this knowledge model has been published yet."
-msgstr ""
+msgstr "此知識模型尚未發布任何版本。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:93
 msgid "Last version"
@@ -4511,11 +4512,11 @@ msgstr "..... 的分叉"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/Update.elm:89
 msgid "Import failed."
-msgstr ""
+msgstr "匯入失敗。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:46
 msgid "Previous Knowledge Model Package ID"
-msgstr ""
+msgstr "前一個知識模型資料包 ID"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:47
 msgid "Root Element"
@@ -4528,7 +4529,7 @@ msgstr "選擇檔案"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/Update.elm:32
 msgid "Unable to import knowledge model."
-msgstr ""
+msgstr "無法匯入知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/View.elm:69
 msgid "You can find knowledge models in %s."
@@ -4560,7 +4561,7 @@ msgstr "搜尋知識模型..."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:178
 msgid "Delete knowledge model"
-msgstr ""
+msgstr "刪除知識模型"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:49
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:130
@@ -5097,47 +5098,48 @@ msgstr "系統會為此次遷移建立一個新專案；在遷移完成之前，
 
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:90
 msgid "Original Knowledge Model"
-msgstr ""
+msgstr "原始知識模型"
 
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:91
 msgid "Original Version"
-msgstr ""
+msgstr "原始版本"
 
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:97
 msgid "New Knowledge Model"
-msgstr ""
+msgstr "新知識模型"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:161
 msgid "Unable to get the summary report."
-msgstr ""
+msgstr "無法取得摘要報告。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:175
 msgid "Unable to get questionnaire event."
-msgstr ""
+msgstr "無法取得問卷活動資訊。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:251
 msgid "Document could not be created."
-msgstr ""
+msgstr "文件無法被建立。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:287
 msgid "New Document"
-msgstr ""
+msgstr "新的文件"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:336
 msgid "Create for current version"
-msgstr ""
+msgstr "以目前版本建立"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:341
+#, fuzzy
 msgid "You are creating a document for a project version from %s"
-msgstr ""
+msgstr "您正在為來自 %s 的專案版本建立文件。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:182
 msgid "Log in to set a default document template and format."
-msgstr ""
+msgstr "請登入，以設定預設的文件模板及格式。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:186
 msgid "Before you can use preview you need to set a default document template and format."
-msgstr ""
+msgstr "在使用預覽錢您需先設定預設的文件模板及格式。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:190
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:221
@@ -5146,11 +5148,11 @@ msgstr "前往設定"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:197
 msgid "Ask the Project owner to set a default document template and format."
-msgstr ""
+msgstr "請告知專案擁有者設定預設的文件模板及格式。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:202
 msgid "Default document template is not set."
-msgstr ""
+msgstr "未設定預設的文件模板。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:213
 msgid "Log in to update the default document template."
@@ -5158,15 +5160,15 @@ msgstr "登入以更新預設文件模板。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:217
 msgid "Before you can use preview you need to update the default document template."
-msgstr ""
+msgstr "使用瀏覽錢，您需先更新預設的文件模板。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:228
 msgid "Ask the project owner to update the default document template."
-msgstr ""
+msgstr "請告知專案擁有者更新預設的文件模板。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:233
 msgid "Default document template is no longer supported."
-msgstr ""
+msgstr "預設的文件模板已停止支援。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ProjectSaving.elm:113
 msgid "Saving..."
@@ -5178,23 +5180,23 @@ msgstr "已儲存"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ProjectSaving.elm:123
 msgid "All changes have been saved"
-msgstr ""
+msgstr "所有修改皆以儲存"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/RevertModal.elm:109
 msgid "Heads up! This action cannot be undone."
-msgstr ""
+msgstr "提醒您！此操作無法復原。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/RevertModal.elm:112
 msgid "Are you sure you want to revert the projects to its state from %s?"
-msgstr ""
+msgstr "您確定要將專案還原至 %s 時的狀態嗎？"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/RevertModal.elm:118
 msgid "Revert questionnaire"
-msgstr ""
+msgstr "還原問卷"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/RevertModal.elm:122
 msgid "Revert"
-msgstr ""
+msgstr "回復"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:277
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:204
@@ -5203,28 +5205,28 @@ msgstr "無法取得專案標籤。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:349
 msgid "The used version of the document template is no longer supported. Select a newer version or another supported template."
-msgstr ""
+msgstr "目前使用的文件模板版本已不再支援，請選擇較新的版本或其他受支援的模板。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:352
 msgid "This document template is now deprecated."
-msgstr ""
+msgstr "此文件模板已不適用。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:368
 msgid "Default document format"
-msgstr ""
+msgstr "預設的文件格式"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:377
 msgid "Other users can use project templates so they don't have to start their new projects from scratch. Project templates follow the same sharing policy as projects, so make sure to share them with users who should use them."
-msgstr ""
+msgstr "其他使用者可以使用專案模板，無需從零開始建立新專案。專案模板會遵循與專案相同的分享規則，請務必將資訊分享給需使用的使用者。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:416
 msgid "Default document template"
-msgstr ""
+msgstr "預設文件模板"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:439
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:261
 msgid "Project Tags"
-msgstr ""
+msgstr "專案標籤"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:528
 #, fuzzy
@@ -5233,7 +5235,7 @@ msgstr "所有問題皆已使用。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:535
 msgid "Filtered by question tags"
-msgstr ""
+msgstr "利用問題標籤篩選"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:542
 msgid "This knowledge model is now deprecated."
@@ -5241,7 +5243,7 @@ msgstr "這個知識模型已被棄用。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:560
 msgid "Project migration lets you move your project to a newer or different version of the knowledge model, and update which questions are included by changing question tags."
-msgstr ""
+msgstr "專案移轉功能可將專案轉移至較新或是其他版本的知識模型，並藉由修改問題標籤來更新專案內涵蓋的問題。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:571
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:579
@@ -5270,7 +5272,7 @@ msgstr "權限"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:150
 msgid "Choose to share your project with all logged-in users or anyone with the link."
-msgstr ""
+msgstr "選擇將您的專案分享給所有已登入的使用者，或任何擁有連結的人。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:247
 msgid "Unable to get user groups."
@@ -5278,7 +5280,7 @@ msgstr "無法取得使用者群組。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:444
 msgid "Share Project"
-msgstr ""
+msgstr "分享專案"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:500
 msgid "Add user group"
@@ -5298,11 +5300,11 @@ msgstr "無法移除最後一位擁有者。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:688
 msgid "Other logged-in users can %s the project."
-msgstr ""
+msgstr "其他登入的使用者可以 %s 此專案。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:714
 msgid "Anyone with the link can %s the project."
-msgstr ""
+msgstr "任何有連結的人可以 %s 此專案。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/Update.elm:108
 msgid "Document was successfully deleted."
@@ -5310,15 +5312,15 @@ msgstr "成功刪除文件。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:94
 msgid "Click \"New document\" button to add a new document."
-msgstr ""
+msgstr "點擊「新增文件」按鈕以加入新的文件。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:97
 msgid "Log in to add a new document."
-msgstr ""
+msgstr "登入以新增新文件。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:117
 msgid "New document"
-msgstr ""
+msgstr "新文件"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:144
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:310
@@ -5327,47 +5329,47 @@ msgstr "問卷"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:145
 msgid "Fill out the questionnaire to provide key information for your data management plan. Changes are saved automatically."
-msgstr ""
+msgstr "填寫問卷以提供研究資料管理方案所需的重要資訊。所有變更會自動儲存。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:151
 msgid "Collaboration"
-msgstr ""
+msgstr "協作"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:152
 msgid "Share your project to collaborate with colleagues."
-msgstr ""
+msgstr "分享您的專案，與同事共同協作。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:158
 msgid "Navigation"
-msgstr ""
+msgstr "導覽"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:159
 msgid "Use the navigation bar to switch between tools and views related to your project."
-msgstr ""
+msgstr "使用導覽列在與專案相關的工具與檢視方式之間切換。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:103
 msgid "project migration"
-msgstr ""
+msgstr "專案移轉"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:106
 msgid "There is an ongoing %s. Finish it before you can continue editing this project."
-msgstr ""
+msgstr "目前有進行中的 %s，請先完成後再繼續編輯此專案。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:152
 msgid "Another user has made significant changes to the questionnaire (e.g., reverting to a previous version). To ensure everyone is using the latest version, you’ve been disconnected."
-msgstr ""
+msgstr "由於其他使用者對問卷進行了重大變更（例如還原至先前版本），為確保版本一致性，系統已中斷您的連線。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:153
 msgid "Refresh the page to reconnect."
-msgstr ""
+msgstr "請重整頁面以重新連線。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:157
 msgid "Refresh Required"
-msgstr ""
+msgstr "需要重新整理頁面"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:224
 msgid "Add to my projects"
-msgstr ""
+msgstr "新增到我的專案中"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:249
 msgid "Share"
@@ -5375,7 +5377,7 @@ msgstr "分享"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:395
 msgid "You are not allowed to view this page."
-msgstr ""
+msgstr "您無權檢視此頁面。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/DocumentDownload/Update.elm:50
 msgid "You do not have permission to access this document"
@@ -5383,11 +5385,11 @@ msgstr "您沒有存取此文件的權限"
 
 #: app-wizard/elm/Wizard/Pages/Projects/DocumentDownload/Update.elm:53
 msgid "Document not found"
-msgstr ""
+msgstr "無法找到文件"
 
 #: app-wizard/elm/Wizard/Pages/Projects/DocumentDownload/Update.elm:56
 msgid "Unable to get document"
-msgstr ""
+msgstr "無法取得文件"
 
 #: app-wizard/elm/Wizard/Pages/Projects/DocumentDownload/View.elm:21
 #: app-wizard/elm/Wizard/Pages/Projects/FileDownload/View.elm:21
@@ -5397,7 +5399,7 @@ msgstr "正在下載"
 #: app-wizard/elm/Wizard/Pages/Projects/DocumentDownload/View.elm:22
 #: app-wizard/elm/Wizard/Pages/Projects/FileDownload/View.elm:22
 msgid "Your download should start shortly."
-msgstr ""
+msgstr "您的檔案即將開始下載。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/FileDownload/Update.elm:50
 msgid "You do not have permission to access this file"
@@ -5413,29 +5415,28 @@ msgstr "無法取得檔案"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/Update.elm:99
 msgid "Unable to get importer."
-msgstr ""
+msgstr "無法取得匯入器。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/Update.elm:191
 msgid "Questionnaire changes could not be saved."
-msgstr ""
+msgstr "問卷變更無法儲存。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:57
 msgid "Follow the instructions in the importer window."
-msgstr ""
+msgstr "請依照匯入器視窗中的指示操作。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:76
 msgid "Importing to %s"
-msgstr ""
+msgstr "匯入至 %s"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:80
 msgid "Import status:"
-msgstr ""
+msgstr "匯入狀態："
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:99
 msgid "%s questionnaire change will be imported"
 msgid_plural "%s questionnaire changes will be imported"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "將匯入 %s 問卷變更。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:117
 msgid "%s error encountered"
@@ -5650,15 +5651,15 @@ msgstr "復原"
 
 #: app-wizard/elm/Wizard/Pages/Public/ForgottenPassword/View.elm:53
 msgid "Enter the email you use to log in and we will send you a recover link."
-msgstr ""
+msgstr "請輸入登入時使用的電子郵件，我們會寄送帳戶復原連結。"
 
 #: app-wizard/elm/Wizard/Pages/Public/ForgottenPasswordConfirmation/View.elm:42
 msgid "Password Recovery"
-msgstr ""
+msgstr "密碼復原"
 
 #: app-wizard/elm/Wizard/Pages/Public/ForgottenPasswordConfirmation/View.elm:56
 msgid "Enter a new password you want to use to log in."
-msgstr ""
+msgstr "請設定新的登入密碼。"
 
 #: app-wizard/elm/Wizard/Pages/Public/ForgottenPasswordConfirmation/View.elm:57
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Password.elm:122
@@ -5672,7 +5673,7 @@ msgstr "再次輸入新密碼"
 
 #: app-wizard/elm/Wizard/Pages/Public/ForgottenPasswordConfirmation/View.elm:68
 msgid "Your password has been changed. You can now %s."
-msgstr ""
+msgstr "您的密碼已更新。你現在可以 %s。"
 
 #: app-wizard/elm/Wizard/Pages/Public/ForgottenPasswordConfirmation/View.elm:71
 #: app-wizard/elm/Wizard/Pages/Public/SignupConfirmation/View.elm:32
@@ -5692,8 +5693,9 @@ msgid "Forgot your password?"
 msgstr "忘記密碼？"
 
 #: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:107
+#, fuzzy
 msgid "Or connect with"
-msgstr ""
+msgstr "或使用以下方式連結"
 
 #: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:132
 msgid "Please enter the authentication code from your email to verify your identity."
@@ -5718,11 +5720,11 @@ msgstr "您已成功登出。"
 #: app-wizard/elm/Wizard/Pages/Public/Signup/Update.elm:64
 #: app-wizard/elm/Wizard/Pages/Public/SignupConfirmation/Update.elm:32
 msgid "Sign up process failed."
-msgstr ""
+msgstr "註冊程序失敗。"
 
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:31
 msgid "Sign up was successful. Check your email for the activation link."
-msgstr ""
+msgstr "註冊成功。請至您的電子郵件查看啟用連結。"
 
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:49
 msgid "I already have an account"
@@ -5767,15 +5769,15 @@ msgstr "再次輸入密碼"
 
 #: app-wizard/elm/Wizard/Pages/Public/SignupConfirmation/View.elm:29
 msgid "Your email was successfully confirmed. You can now %s."
-msgstr ""
+msgstr "您的電子郵件已成功驗證，您現在可以 %s。"
 
 #: app-wizard/elm/Wizard/Pages/Registry/RegistrySignupConfirmation/Update.elm:35
 msgid "Unable to confirm the DSW Registry account."
-msgstr ""
+msgstr "無法確認 DSW 登錄冊帳戶。"
 
 #: app-wizard/elm/Wizard/Pages/Registry/RegistrySignupConfirmation/View.elm:28
 msgid "Your email was successfully confirmed, you can go back to %s."
-msgstr ""
+msgstr "您的電子郵件已成功驗證，您可返回 %s。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:41
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:117
@@ -6339,29 +6341,30 @@ msgstr "建立使用者"
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:204
 #: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:67
 msgid "Role"
-msgstr ""
+msgstr "角色"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ActiveSessions.elm:88
+#, fuzzy
 msgid "Unable to get active sessions."
-msgstr ""
+msgstr "無法取得活動中的工作階段。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ActiveSessions.elm:121
 msgid "Session could not be revoked."
-msgstr ""
+msgstr "無法撤銷工作階段。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ActiveSessions.elm:147
 msgid "Failed to revoke all active sessions."
-msgstr ""
+msgstr "終止所有活動中的工作階段失敗。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ActiveSessions.elm:171
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ActiveSessions.elm:278
 msgid "Revoke all"
-msgstr ""
+msgstr "全部撤銷"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ActiveSessions.elm:180
 #: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:133
 msgid "Active Sessions"
-msgstr ""
+msgstr "活動中的工作階段"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ActiveSessions.elm:186
 msgid ""

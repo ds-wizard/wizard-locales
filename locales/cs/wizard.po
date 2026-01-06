@@ -6,8 +6,9 @@
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 # xnovotna <xnovotna@mendelu.cz>, 2025.
+# Marek Suchánek <marek.suchanek@gmail.com>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2025-12-02T08:18:29.540Z\nPO-Revision-Date: 2025-12-15 12:48+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/dsw-4-25/client/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2025-12-02T08:18:29.540Z\nPO-Revision-Date: 2026-01-06 15:14+0000\nLast-Translator: Marek Suchánek <marek.suchanek@gmail.com>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/dsw-4-26/client/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 5.12.2\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -179,40 +180,40 @@ msgstr "Položka %s"
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:46
 msgid "The request timed out."
-msgstr ""
+msgstr "Časový limit požadavku vypršel."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:49
 msgid "The connection timed out."
-msgstr ""
+msgstr "Časový limit připojení vypršel."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:52
 msgid "The URL is invalid."
-msgstr ""
+msgstr "Adresa URL je neplatná."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:58
 msgid "HTTP error %s occurred."
-msgstr ""
+msgstr "Došlo k chybě HTTP: %s."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:62
 msgid "An HTTP error occurred."
-msgstr ""
+msgstr "Došlo k chybě HTTP."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:68
 msgid "The content type '%s' is not HTML."
-msgstr ""
+msgstr "Typ obsahu '%s' není HTML."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:72
 msgid "The content is not HTML."
-msgstr ""
+msgstr "Obsah není HTML."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:75
 msgid "A network error occurred."
-msgstr ""
+msgstr "Došlo k chybě sítě."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:78
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:81
 msgid "An unknown error occurred."
-msgstr ""
+msgstr "Došlo k neznámé chybě."
 
 #: app-wizard/elm/Wizard/Components/CookieConsent.elm:27
 msgid "Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use. "
@@ -717,7 +718,7 @@ msgstr "Nelze získat nápovědu."
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:2032
 msgid "Some options are hidden"
-msgstr ""
+msgstr "Některé možnosti jsou skryté"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:2044
 msgid "View"
@@ -1355,7 +1356,7 @@ msgstr "Pouze pojmenované verze"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:209
 msgid "Load older"
-msgstr ""
+msgstr "Načíst starší"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:327
 msgid "Rename this version"
@@ -3014,7 +3015,7 @@ msgstr "Nelze zobrazit náhled."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:593
 msgid "URL Checker"
-msgstr ""
+msgstr "Kontrola URL"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:676
 msgid "There are no more warnings."
@@ -3509,7 +3510,7 @@ msgstr "Tento typ obsahu není podporován."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2352
 msgid "The response body is too large to display with syntax highlight."
-msgstr ""
+msgstr "Tělo odpovědi je příliš velké pro zobrazení se zvýrazněním syntaxe."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2378
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2523
@@ -3769,7 +3770,7 @@ msgstr "- vybrat stránku zdroje -"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3061
 msgid "This URL failed the check:"
-msgstr ""
+msgstr "Tato URL adresa neprošla kontrolou:"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3124
 msgid "- select related question -"
@@ -4004,37 +4005,37 @@ msgstr "Přidat hlavičku"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:88
 msgid "Failed to check URLs."
-msgstr ""
+msgstr "Nepodařilo se zkontrolovat adresy URL."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:114
 msgid "There are no URL references in the Knowledge Model to check."
-msgstr ""
+msgstr "Ve znalostním modelu nejsou žádné odkazy na URL, které by bylo možné zkontrolovat."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:138
 msgid "There is %s URL reference to check."
 msgid_plural "There are %s URL references to check."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Je třeba zkontrolovat %s URL odkaz."
+msgstr[1] "Je třeba zkontrolovat %s URL odkazy."
+msgstr[2] "Je třeba zkontrolovat %s URL odkazů."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:141
 msgid "Check URLs"
-msgstr ""
+msgstr "Zkontrolovat URL adresy"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:159
 msgid "All URL references are valid."
-msgstr ""
+msgstr "Všechny odkazy na URL jsou platné."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:167
 msgid "Found 1 broken reference."
 msgid_plural "Found %s broken references."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Nalezena 1 nefunkční reference."
+msgstr[1] "Nalezeny %s nefunkční reference."
+msgstr[2] "Nalezeno %s nefunkčních referencí."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:186
 msgid "Unknown error."
-msgstr ""
+msgstr "Neznámá chyba."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:108
 msgid "There are no phases, create them first."
@@ -4427,7 +4428,7 @@ msgstr "Krátký popis znalostního modelu."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:92
 msgid "No version of this knowledge model has been published yet."
-msgstr ""
+msgstr "Dosud nebyla publikována žádná verze tohoto znalostního modelu."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:93
 msgid "Last version"
@@ -4472,11 +4473,11 @@ msgstr "Fork z"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/Update.elm:89
 msgid "Import failed."
-msgstr ""
+msgstr "Import selhal."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:46
 msgid "Previous Knowledge Model Package ID"
-msgstr ""
+msgstr "ID předchozího balíčku znalostního modelu"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:47
 msgid "Root Element"
@@ -4488,7 +4489,7 @@ msgstr "Vybrat soubor"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/Update.elm:32
 msgid "Unable to import knowledge model."
-msgstr ""
+msgstr "Import znalostního modelu selhal."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/View.elm:69
 msgid "You can find knowledge models in %s."
@@ -4520,7 +4521,7 @@ msgstr "Hledat modely..."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:178
 msgid "Delete knowledge model"
-msgstr ""
+msgstr "Odstranit znalostní model"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:49
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:130
@@ -6293,7 +6294,6 @@ msgid "User could not be created."
 msgstr "Uživatel nemohl být vytvořen."
 
 #: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:25
-#, fuzzy
 msgid "Create User"
 msgstr "Vytvořit uživatele"
 

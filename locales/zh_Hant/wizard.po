@@ -5,7 +5,7 @@
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-12-02T08:18:29.540Z\nPO-Revision-Date: 2026-01-09 04:04+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-26/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.12.2\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-12-02T08:18:29.540Z\nPO-Revision-Date: 2026-01-13 07:04+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-26/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.12.2\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -2585,7 +2585,7 @@ msgstr "還原"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/Update.elm:58
 msgid "Unable to update the document template."
-msgstr "無法更新文件模板"
+msgstr "無法更新文件模板。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/Update.elm:94
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/Update.elm:91
@@ -2770,7 +2770,7 @@ msgstr "新的上層知識模型"
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:557
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:636
 msgid "Create migration"
-msgstr "新增轉移（migration)。"
+msgstr "新增轉移（migration)"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Create/Update.elm:142
 msgid "Knowledge model could not be created."
@@ -4203,7 +4203,7 @@ msgstr "上層知識模型有新版本"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:138
 msgid "This editor is in the process of migration to a new parent knowledge model"
-msgstr "此編輯器正在移轉到新的上層知識模型。"
+msgstr "此編輯器正在移轉到新的上層知識模型"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:139
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:706
@@ -4472,6 +4472,7 @@ msgid "Last version"
 msgstr "最新版本"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:50
+#, fuzzy
 msgid "Open"
 msgstr "開啟"
 
@@ -5129,9 +5130,8 @@ msgid "Create for current version"
 msgstr "以目前版本建立"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:341
-#, fuzzy
 msgid "You are creating a document for a project version from %s"
-msgstr "您正在為來自 %s 的專案版本建立文件。"
+msgstr "您正在為來自 %s 的專案版本建立文件"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:182
 msgid "Log in to set a default document template and format."
@@ -5229,9 +5229,8 @@ msgid "Project Tags"
 msgstr "專案標籤"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:528
-#, fuzzy
 msgid "All questions are used"
-msgstr "所有問題皆已使用。"
+msgstr "所有問題皆已使用"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:535
 msgid "Filtered by question tags"
@@ -5436,7 +5435,7 @@ msgstr "匯入狀態："
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:99
 msgid "%s questionnaire change will be imported"
 msgid_plural "%s questionnaire changes will be imported"
-msgstr[0] "將匯入 %s 問卷變更。"
+msgstr[0] "將匯入 %s 問卷變更"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:117
 msgid "%s error encountered"
@@ -5881,9 +5880,8 @@ msgid "Dashboard & Login Screen"
 msgstr "儀表板與登入畫面"
 
 #: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:55
-#, fuzzy
 msgid "Welcome"
-msgstr "歡迎！"
+msgstr "歡迎"
 
 #: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:56
 msgid "Standard welcome screen."
@@ -6304,6 +6302,7 @@ msgid "Headers"
 msgstr "標頭"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:234
+#, fuzzy
 msgid "Multipart"
 msgstr "Multipart"
 

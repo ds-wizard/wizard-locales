@@ -1,25 +1,15 @@
 # omment for updating this file
 # Marek Suchánek <marek.suchanek@gmail.com>, 2025.
-# Hilary Shiue <hshiue@iis.sinica.edu.tw>, 2025.
+# Hilary Shiue <hshiue@iis.sinica.edu.tw>, 2025, 2026.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-mail-templates:4.18.2\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-12-04 06:56+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\n"
-"Language-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/mail-templates/zh_Hant/>\n"
-"Language: zh_Hant\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-mail-templates:4.18.2\nPOT-Creation-Date: \nPO-Revision-Date: 2026-01-13 07:04+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-26/mail-templates/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.12.2\n"
 
 #: templates/_common/footer.html.j2:155 templates/_common/footer.txt.j2:7
 msgid "Please do not reply to this email"
-msgstr ""
+msgstr "請勿回覆此電子郵件"
 
 #: templates/_common/footer.html.j2:159 templates/_common/footer.txt.j2:9
 msgid "This email was generated from"
@@ -34,7 +24,7 @@ msgstr ""
 #: templates/wizard/resetPassword/message.html.j2:77
 #: templates/wizard/twoFactorAuth/message.html.j2:76
 msgid "Thank you for using DSW!"
-msgstr ""
+msgstr "感謝您使用 DSW！"
 
 #: templates/_common/footer.txt.j2:5
 #: templates/wizard/apiKeyCreated/message.html.j2:82
@@ -45,7 +35,7 @@ msgstr ""
 #: templates/wizard/resetPassword/message.html.j2:78
 #: templates/wizard/twoFactorAuth/message.html.j2:77
 msgid "team"
-msgstr ""
+msgstr "團隊"
 
 #: templates/wizard/apiKeyCreated/message.html.j2:25
 #: templates/wizard/apiKeyCreated/message.txt.j2:6
@@ -63,66 +53,65 @@ msgstr ""
 #: templates/wizard/twoFactorAuth/message.txt.j2:4
 #, python-format
 msgid "Hello %(userFirstName)s"
-msgstr ""
+msgstr "Hello %(userFirstName)s"
 
 #: templates/wizard/apiKeyCreated/message.html.j2:26
 #: templates/wizard/apiKeyCreated/message.txt.j2:8
 #, python-format
 msgid "A new API key named %(tokenName)s has been created for your account."
-msgstr ""
+msgstr "已為您的帳號建立名為 %(tokenName)s 的新 API 金鑰。"
 
 #: templates/wizard/apiKeyCreated/message.html.j2:28
 #: templates/wizard/apiKeyCreated/message.txt.j2:10
 #, python-format
 msgid "It will expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
-msgstr ""
+msgstr "將於 %(tokenExpirationDate)s %(tokenExpirationTime)s 到期。"
 
 #: templates/wizard/apiKeyCreated/message.html.j2:53
 #: templates/wizard/apiKeyExpiration/message.html.j2:51
 msgid "Manage API Keys"
-msgstr ""
+msgstr "管理 API 金鑰"
 
 #: templates/wizard/apiKeyCreated/message.html.j2:79
 #: templates/wizard/apiKeyCreated/message.txt.j2:15
 msgid "If you did not initiate this action, please contact us via"
-msgstr ""
+msgstr "若非您本人發起此操作，請透過以下方式與我們聯絡"
 
 #: templates/wizard/apiKeyCreated/message.txt.j2:12
 #: templates/wizard/apiKeyExpiration/message.txt.j2:10
 msgid "You can manage your API keys here:"
-msgstr ""
+msgstr "您可於此管理您的 API 金鑰："
 
 #: templates/wizard/apiKeyCreated/subject.txt.j2:1
 msgid "New API Key Created"
-msgstr ""
+msgstr "以建立新 API 金鑰"
 
 #: templates/wizard/apiKeyExpiration/message.html.j2:26
 #: templates/wizard/apiKeyExpiration/message.txt.j2:8
 #, python-format
 msgid "Your API key, identified as %(tokenName)s, is scheduled to expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
-msgstr ""
+msgstr "您的 API 金鑰（名稱：%(tokenName)s）將於 %(tokenExpirationDate)s %(tokenExpirationTime)s 到期。"
 
 #: templates/wizard/apiKeyExpiration/message.html.j2:77
 #: templates/wizard/apiKeyExpiration/message.txt.j2:13
 msgid "If you encounter any issues, please contact us via"
-msgstr ""
+msgstr "如遇任何問題，請透過以下方式與我們聯絡"
 
 #: templates/wizard/apiKeyExpiration/subject.txt.j2:1
 msgid "API Key Expiring Soon"
-msgstr ""
+msgstr "API 金鑰即將到期"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:32
 #: templates/wizard/commentThreadAssigned/message.txt.j2:14
 #, python-format
 msgid "The following comment thread has been assigned to you:"
 msgid_plural "The following %(count)s comment threads have been assigned to you:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "以下 %(count)s 留言討論串已指派給您："
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:75
 #: templates/wizard/commentThreadAssigned/message.txt.j2:20
 msgid "Assigned by"
-msgstr ""
+msgstr "指派人"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:78
 #, fuzzy
@@ -131,30 +120,30 @@ msgstr "開啟"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:113
 msgid "View all comment threads assigned to you"
-msgstr ""
+msgstr "檢視所有指派給您的留言討論串"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:116
 #: templates/wizard/questionnaireInvitation/message.html.j2:78
 #: templates/wizard/registrationConfirmation/message.html.j2:76
 #: templates/wizard/resetPassword/message.html.j2:75
 msgid "If any problem occurs contact us via"
-msgstr ""
+msgstr "如發生任何問題，請透過以下方式與我們聯絡"
 
 #: templates/wizard/commentThreadAssigned/message.txt.j2:20
 msgid "already resolved"
-msgstr ""
+msgstr "已解決"
 
 #: templates/wizard/commentThreadAssigned/message.txt.j2:20
 msgid "unresolved"
-msgstr ""
+msgstr "未解決"
 
 #: templates/wizard/commentThreadAssigned/message.txt.j2:20
 msgid "private editor note"
-msgstr ""
+msgstr "私人編輯備註"
 
 #: templates/wizard/commentThreadAssigned/subject.txt.j2:1
 msgid "Assigned to Comment Threads"
-msgstr ""
+msgstr "已指派的留言討論串"
 
 #: templates/wizard/questionnaireInvitation/message.html.j2:27
 #: templates/wizard/questionnaireInvitation/message.txt.j2:8

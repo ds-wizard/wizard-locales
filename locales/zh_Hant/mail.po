@@ -6,16 +6,15 @@
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 # Chia Hsun Wang <allywang@iis.sinica.edu.tw>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-mail-templates:4.18.2\nPOT-Creation-Date: \nPO-Revision-Date: 2026-01-14 07:14+0000\nLast-Translator: Chia Hsun Wang <allywang@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-26/mail-templates/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.12.2\n"
+msgstr "Project-Id-Version: wizard-mail-templates:4.18.2\nPOT-Creation-Date: \nPO-Revision-Date: 2026-01-14 07:29+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-26/mail-templates/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.12.2\n"
 
 #: templates/_common/footer.html.j2:155 templates/_common/footer.txt.j2:7
 msgid "Please do not reply to this email"
 msgstr "請勿回覆此電子郵件"
 
 #: templates/_common/footer.html.j2:159 templates/_common/footer.txt.j2:9
-#, fuzzy
 msgid "This email was generated from"
-msgstr "此電子郵件產生由"
+msgstr "此電子郵件由以下來源產生："
 
 #: templates/_common/footer.txt.j2:2
 #: templates/wizard/apiKeyCreated/message.html.j2:81
@@ -105,7 +104,7 @@ msgstr "API 金鑰即將到期"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:32
 #: templates/wizard/commentThreadAssigned/message.txt.j2:14
-#, fuzzy, python-format
+#, python-format
 msgid "The following comment thread has been assigned to you:"
 msgid_plural "The following %(count)s comment threads have been assigned to you:"
 msgstr[0] "以下 %(count)s 則留言討論串已指派給您："
@@ -116,7 +115,6 @@ msgid "Assigned by"
 msgstr "指派人"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:78
-#, fuzzy
 msgid "Open"
 msgstr "開啟"
 
@@ -167,9 +165,8 @@ msgid "Welcome aboard! Well, you’re almost set. Just one more step and you can
 msgstr "歡迎加入！哦，快完成囉，只要再完成最後一步，您就可以開始使用 DSW。"
 
 #: templates/wizard/registrationConfirmation/message.html.j2:25
-#, fuzzy
 msgid "To activate your account, please click on the button below."
-msgstr "要啟用您的帳號，請點擊%(count)s下方按鈕。"
+msgstr "要啟用您的帳號，請點擊下方按鈕。"
 
 #: templates/wizard/registrationConfirmation/message.html.j2:50
 msgid "Activate your account"
@@ -186,13 +183,11 @@ msgstr "註冊確認"
 
 #: templates/wizard/registrationCreatedAnalytics/message.html.j2:19
 #: templates/wizard/registrationCreatedAnalytics/message.txt.j2:1
-#, fuzzy
 msgid "Hello!"
 msgstr "Hello!"
 
 #: templates/wizard/registrationCreatedAnalytics/message.html.j2:20
 #: templates/wizard/registrationCreatedAnalytics/message.txt.j2:3
-#, fuzzy
 msgid "Good news — we have a new user in"
 msgstr "好消息——我們新增了一位使用者在"
 
@@ -216,9 +211,8 @@ msgstr "新使用者已註冊"
 
 #: templates/wizard/resetPassword/message.html.j2:23
 #: templates/wizard/resetPassword/message.txt.j2:5
-#, fuzzy
 msgid "Forgot your password? No problem, that happens to the best of us!"
-msgstr "忘記密碼了嗎？沒問題，難免會發生小事一件。"
+msgstr "忘記密碼了嗎？沒問題，難免會發生，小事一件！"
 
 #: templates/wizard/resetPassword/message.html.j2:24
 msgid "You can easily set up a new password by clicking on the button below."
@@ -229,9 +223,8 @@ msgid "Set up a new password"
 msgstr "設定新密碼"
 
 #: templates/wizard/resetPassword/message.txt.j2:6
-#, fuzzy
 msgid "You can easily set up a new password here"
-msgstr "您可以在這裡快速設定新密碼。"
+msgstr "您可以在這裡快速設定新密碼"
 
 #: templates/wizard/resetPassword/subject.txt.j2:1
 msgid "Reset Password"

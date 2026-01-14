@@ -5,7 +5,7 @@
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-12-02T08:18:29.540Z\nPO-Revision-Date: 2026-01-13 07:04+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-26/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.12.2\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-12-02T08:18:29.540Z\nPO-Revision-Date: 2026-01-14 20:09+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-26/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.12.2\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -196,7 +196,6 @@ msgid "An HTTP error occurred."
 msgstr "發生 HTTP 錯誤。"
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:68
-#, fuzzy
 msgid "The content type '%s' is not HTML."
 msgstr "內容類型「%s」不是 HTML。"
 
@@ -431,7 +430,6 @@ msgstr "清單"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:105
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:133
-#, fuzzy
 msgid "Editors"
 msgstr "編輯器"
 
@@ -492,7 +490,6 @@ msgid "Settings"
 msgstr "設定"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:220
-#, fuzzy
 msgid "Administration"
 msgstr "管理"
 
@@ -508,7 +505,6 @@ msgstr "使用者"
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:245
 #: app-wizard/elm/Wizard/Components/UsageTable.elm:26
 #: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:31
-#, fuzzy
 msgid "Locales"
 msgstr "語系"
 
@@ -536,12 +532,10 @@ msgid "Change language"
 msgstr "更換語言"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:725
-#, fuzzy
 msgid "User settings"
-msgstr "帳號設定"
+msgstr "使用者設定"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:732
-#, fuzzy
 msgid "Assigned comments"
 msgstr "被指派的留言"
 
@@ -555,7 +549,6 @@ msgid "About"
 msgstr "有關"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:760
-#, fuzzy
 msgid "Report issue"
 msgstr "回報問題"
 
@@ -607,7 +600,6 @@ msgid "Version"
 msgstr "版本"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:926
-#, fuzzy
 msgid "Built at"
 msgstr "建置於"
 
@@ -747,7 +739,6 @@ msgstr "回答者"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:883
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:177
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:439
-#, fuzzy
 msgid "Phases"
 msgstr "階段"
 
@@ -756,7 +747,6 @@ msgid "Question tags"
 msgstr "問題標籤"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:2073
-#, fuzzy
 msgid "Non-desirable questions"
 msgstr "不適宜的問題"
 
@@ -1183,9 +1173,8 @@ msgid "Delete file"
 msgstr "刪除檔案"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:243
-#, fuzzy
 msgid "Desirable"
-msgstr "合意的"
+msgstr "適宜的"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:325
 msgid "External links"
@@ -1542,9 +1531,8 @@ msgid "New version"
 msgstr "新版本"
 
 #: app-wizard/elm/Wizard/Components/QuestionnaireVersionTag.elm:19
-#, fuzzy
 msgid "Current"
-msgstr "目前"
+msgstr "目前狀態"
 
 #: app-wizard/elm/Wizard/Components/SessionModal.elm:30
 msgid "Your session expires in less than %s minutes. Log in again to refresh it."
@@ -1741,7 +1729,6 @@ msgstr "已更新"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Dashboards/AdminDashboard.elm:110
 #: app-wizard/elm/Wizard/Pages/Settings/Usage/Update.elm:25
-#, fuzzy
 msgid "Unable to get usage."
 msgstr "無法取得使用狀態。"
 
@@ -1790,7 +1777,6 @@ msgid "We'll guide you through creating your data management plan."
 msgstr "我們會引導您建立自己的資料管理方案。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Update.elm:56
-#, fuzzy
 msgid "Welcome to Data Stewardship Wizard"
 msgstr "歡迎使用資料管理精靈（Data Stewardship Wizard）"
 
@@ -1811,7 +1797,6 @@ msgid "Add OpenID"
 msgstr "新增 OpenID"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/AssignedComments.elm:42
-#, fuzzy
 msgid "Unresolved Assigned Comments"
 msgstr "尚未解決的指派留言"
 
@@ -1821,7 +1806,6 @@ msgid "View all"
 msgstr "檢視全部"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ConfigureLookAndFeelWidget.elm:13
-#, fuzzy
 msgid "Configure Look & Feel"
 msgstr "設定外觀與風格"
 
@@ -1839,17 +1823,14 @@ msgid "Configure Organization Info"
 msgstr "設定組織資訊"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ConfigureOrganizationWidget.elm:14
-#, fuzzy
 msgid "Fill in your organization name and organization ID. For example, these values will be used with knowledge models created in this instance."
-msgstr "請填寫您的組織名稱與組織 ID。這些資料將會用在此實例（instance）中建立的知識模型上。"
+msgstr "請填寫您的組織名稱與組織 ID。這些資料將會用在此實例（instance）建立的知識模型上。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ConnectRegistryWidget.elm:13
-#, fuzzy
 msgid "Connect to DSW Registry"
 msgstr "連接 DSW 登錄冊"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ConnectRegistryWidget.elm:14
-#, fuzzy
 msgid "[DSW Registry](https://registry.ds-wizard.org) is a place for published knowledge models and document templates. When you connect your instance, data stewards can easily import them."
 msgstr "[DSW 登錄冊](https://registry.ds-wizard.org) 是一個用來發佈知識模型與文件模板的平台。當您將實例（instance）連線至登錄冊後，資料管理員即可簡易匯入這些內容。"
 
@@ -2186,7 +2167,6 @@ msgstr "文件範本 ID 僅能包含英數字元、連字號 \"-\"、底線 \"_\
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:94
 #: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:98
-#, fuzzy
 msgid "Based on"
 msgstr "基於"
 
@@ -2276,7 +2256,6 @@ msgid "Are you sure you want to permanently delete %s and all its contents?"
 msgstr "您確定要永久刪除 %s 與其包含的所有內容嗎？"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:278
-#, fuzzy
 msgid "Upload files"
 msgstr "上傳檔案"
 
@@ -2384,7 +2363,6 @@ msgstr "讀我檔案"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:128
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2639
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:43
-#, fuzzy
 msgid "Publish"
 msgstr "發布"
 
@@ -2477,7 +2455,6 @@ msgid "Options"
 msgstr "單選"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:467
-#, fuzzy
 msgid "Add option"
 msgstr "新增選項"
 
@@ -2497,9 +2474,8 @@ msgstr "新增選項"
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:265
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:257
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:261
-#, fuzzy
 msgid "Value"
-msgstr "文字"
+msgstr "值"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:526
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2068
@@ -2536,7 +2512,6 @@ msgstr "點擊「匯入」按鈕以匯入新的文件模板。"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:51
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:72
 #: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:60
-#, fuzzy
 msgid "Search..."
 msgstr "搜尋..."
 
@@ -2702,7 +2677,6 @@ msgstr "文件模板 %s 已匯入！"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/View.elm:71
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/View.elm:31
 #: app-wizard/elm/Wizard/Pages/Locales/Import/View.elm:71
-#, fuzzy
 msgid "From registry"
 msgstr "來自登錄冊"
 
@@ -2744,7 +2718,6 @@ msgid "Delete knowledge model editor"
 msgstr "刪除知識模型編輯器"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:107
-#, fuzzy
 msgid "Migration could not be created."
 msgstr "無法建立移轉（migration）。"
 
@@ -2813,7 +2786,6 @@ msgstr "未命名問題"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:457
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:874
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:220
-#, fuzzy
 msgid "Untitled metric"
 msgstr "未命名指標"
 
@@ -2893,9 +2865,8 @@ msgid "No answers for options question"
 msgstr "選項問題沒有任何答案"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1097
-#, fuzzy
 msgid "No item questions for list question"
-msgstr "清單問題中沒有任何項目問題"
+msgstr "列表問題中沒有任何項目問題"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1108
 msgid "No integration selected for integration question"
@@ -4472,7 +4443,6 @@ msgid "Last version"
 msgstr "最新版本"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:50
-#, fuzzy
 msgid "Open"
 msgstr "開啟"
 

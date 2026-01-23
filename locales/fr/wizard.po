@@ -5,9 +5,9 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Sylvain Milanesi <sylvain.milanesi@france-bioinformatique.fr>, 2025.
-# Saliha ZENBOUDJI-BEDDEK <saliecolo@hotmail.com>, 2025.
+# Saliha ZENBOUDJI-BEDDEK <saliecolo@hotmail.com>, 2025, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-12-02T08:18:29.540Z\nPO-Revision-Date: 2025-12-15 12:48+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/dsw-4-25/client/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-12-02T08:18:29.540Z\nPO-Revision-Date: 2026-01-23 07:25+0000\nLast-Translator: Saliha ZENBOUDJI-BEDDEK <saliecolo@hotmail.com>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/dsw-4-26/client/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.12.2\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -179,40 +179,40 @@ msgstr "Élément %s"
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:46
 msgid "The request timed out."
-msgstr ""
+msgstr "La requête a expiré."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:49
 msgid "The connection timed out."
-msgstr ""
+msgstr "Délai de connexion dépassé."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:52
 msgid "The URL is invalid."
-msgstr ""
+msgstr "L’URL est invalide."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:58
 msgid "HTTP error %s occurred."
-msgstr ""
+msgstr "Une erreur HTTP %s est survenue."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:62
 msgid "An HTTP error occurred."
-msgstr ""
+msgstr "Une erreur HTTP est survenue."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:68
 msgid "The content type '%s' is not HTML."
-msgstr ""
+msgstr "Le type de contenu « %s » n’est pas du HTML."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:72
 msgid "The content is not HTML."
-msgstr ""
+msgstr "Le contenu n’est pas du HTML."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:75
 msgid "A network error occurred."
-msgstr ""
+msgstr "Erreur réseau."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:78
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:81
 msgid "An unknown error occurred."
-msgstr ""
+msgstr "Erreur inconnue."
 
 #: app-wizard/elm/Wizard/Components/CookieConsent.elm:27
 msgid "Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use. "
@@ -405,7 +405,7 @@ msgstr "Serveur"
 
 #: app-wizard/elm/Wizard/Components/Menu/Update.elm:66
 msgid "Unable to get the build info"
-msgstr "Impossible d'obtenir l'information de construction"
+msgstr "Impossible de récupérer l'information de build"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:76
 #: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:36
@@ -560,7 +560,7 @@ msgstr "Réduire la barre latérale"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:792
 msgid "If you find any problem, you can report an issue here:"
-msgstr "Si vous expérimentez un problème, vous pouvez le signaler ici :"
+msgstr "Si vous rencontrez un problème, vous pouvez le signaler ici :"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:804
 msgid "You can also write us an email to %s."
@@ -587,7 +587,7 @@ msgstr "URL DE L'API"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:884
 msgid "API Docs"
-msgstr "Docs API"
+msgstr "Documents de l'API"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:922
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:135
@@ -660,11 +660,11 @@ msgstr "Cochon anonyme"
 
 #: app-wizard/elm/Wizard/Components/OnlineUser.elm:74
 msgid "Anonymous Bug"
-msgstr "Bug anonyme"
+msgstr "Coccinelle anonyme"
 
 #: app-wizard/elm/Wizard/Components/OnlineUser.elm:75
 msgid "Anonymous Wizard"
-msgstr "Assistant Anonyme"
+msgstr "Sorcier Anonyme"
 
 #: app-wizard/elm/Wizard/Components/OnlineUser.elm:76
 msgid "Anonymous Ghost"
@@ -717,7 +717,7 @@ msgstr "Impossible d'obtenir des indications sur le type."
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:2032
 msgid "Some options are hidden"
-msgstr ""
+msgstr "Certaines options sont masquées"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:2044
 msgid "View"
@@ -1353,7 +1353,7 @@ msgstr "Versions nommées uniquement"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:209
 msgid "Load older"
-msgstr ""
+msgstr "Voir plus ancien"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:327
 msgid "Rename this version"
@@ -3012,7 +3012,7 @@ msgstr "Impossible d'obtenir l'aperçu."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:593
 msgid "URL Checker"
-msgstr ""
+msgstr "Contrôle d’URL"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:676
 msgid "There are no more warnings."
@@ -3507,7 +3507,7 @@ msgstr "Ce type de contenu n'est pas pris en charge."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2352
 msgid "The response body is too large to display with syntax highlight."
-msgstr ""
+msgstr "Le corps de la réponse est trop volumineux pour un affichage avec la coloration syntaxique."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2378
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2523
@@ -3767,7 +3767,7 @@ msgstr "- sélectionner la page de ressources -"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3061
 msgid "This URL failed the check:"
-msgstr ""
+msgstr "La vérification de cette URL a échoué:"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3124
 msgid "- select related question -"
@@ -4002,35 +4002,35 @@ msgstr "Ajouter un en-tête"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:88
 msgid "Failed to check URLs."
-msgstr ""
+msgstr "La vérification des URL a échoué."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:114
 msgid "There are no URL references in the Knowledge Model to check."
-msgstr ""
+msgstr "Aucune référence d’URL à vérifier dans le modèle de connaissances."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:138
 msgid "There is %s URL reference to check."
 msgid_plural "There are %s URL references to check."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Il y a %s référence d’URL à vérifier."
+msgstr[1] "Il y a %s références d’URL à vérifier."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:141
 msgid "Check URLs"
-msgstr ""
+msgstr "Vérification des URLs"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:159
 msgid "All URL references are valid."
-msgstr ""
+msgstr "Toutes les URLs sont valides."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:167
 msgid "Found 1 broken reference."
 msgid_plural "Found %s broken references."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 référence invalide détectée."
+msgstr[1] "%s références invalides détectées."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:186
 msgid "Unknown error."
-msgstr ""
+msgstr "Erreur inconnue."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:108
 msgid "There are no phases, create them first."
@@ -4423,7 +4423,7 @@ msgstr "Brève description du modèle de connaissances."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:92
 msgid "No version of this knowledge model has been published yet."
-msgstr ""
+msgstr "Aucune version de ce modèle de connaissances n’a encore été publiée."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:93
 msgid "Last version"
@@ -4468,11 +4468,11 @@ msgstr "Fork de"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/Update.elm:89
 msgid "Import failed."
-msgstr ""
+msgstr "L’importation a échoué."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:46
 msgid "Previous Knowledge Model Package ID"
-msgstr ""
+msgstr "ID du package précédent du modèle de connaissances"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:47
 msgid "Root Element"
@@ -4484,7 +4484,7 @@ msgstr "Choisir un fichier"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/Update.elm:32
 msgid "Unable to import knowledge model."
-msgstr ""
+msgstr "Impossible d’importer le modèle de connaissances."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/View.elm:69
 msgid "You can find knowledge models in %s."
@@ -4516,7 +4516,7 @@ msgstr "Rechercher les KMs..."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:178
 msgid "Delete knowledge model"
-msgstr ""
+msgstr "Supprimer le modèle de connaissances"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:49
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:130
@@ -5197,7 +5197,7 @@ msgstr "Ce modèle de connaissances est désormais obsolète."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:560
 msgid "Project migration lets you move your project to a newer or different version of the knowledge model, and update which questions are included by changing question tags."
-msgstr ""
+msgstr "La migration de projet vous permet de passer votre projet vers une version plus récente ou différente du modèle de connaissances, et de mettre à jour les questions incluses en modifiant les tags de questions."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:571
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:579
@@ -6283,7 +6283,6 @@ msgid "User could not be created."
 msgstr "L'utilisateur·rice n'a pas pu être créé.e."
 
 #: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:25
-#, fuzzy
 msgid "Create User"
 msgstr "Créer un·e utilisateur·rice"
 

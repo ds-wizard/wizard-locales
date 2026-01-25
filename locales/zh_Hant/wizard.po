@@ -1,12 +1,12 @@
 # Marek Suchánek <marek.suchanek@gmail.com>, 2025.
 # Hilary Shiue <hshiue@iis.sinica.edu.tw>, 2025.
 # Chia Hsun Wang <allywang@iis.sinica.edu.tw>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-11-04T08:31:11.810Z\nPO-Revision-Date: 2026-01-26 12:03+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.15.2\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2025-11-04T08:31:11.810Z\nPO-Revision-Date: 2026-01-26 12:03+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.15.2\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -3660,7 +3660,7 @@ msgstr "標誌將顯示於問卷選項連結旁。可以是網址或 base64 圖�
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2674
 #, fuzzy
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the URL configuration. For example, if you define a variable named *type*, you can use it as `${type}`, such as *ht&#8203;tps://example.com/${type}*."
-msgstr "變項可用來為每個問題的整合做參數化設定。使用此選項來定義變項，並在使用此整合的問題中填入其值。之後，這些變項即可用於網址（URL）設定中。例如，若你定義了一個名為*type*的變數，就可以以`${type}`的方式使用它，像是*https://example.com/${type}*。"
+msgstr "變項（variables）可以被用來參數化整合中的每個問題。使用這個功能定義變項，使其值可用來填入使用此整合的問題。之後，這些變項可以使用於請求（request）的設定中。例如，如果你定義 *type* 變項，那你可以這樣使用它 `{{ variables.type }}`，像是 *ht&#8203;tps://example.com/{{ variables.type }}*。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2682
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:713
@@ -3872,7 +3872,7 @@ msgstr "編輯者"
 #: shared/common/elm/Common/Components/FormGroup.elm:496
 #, fuzzy
 msgid "You can use %s and see the result in the preview tab."
-msgstr "您可以使用 %s 來看前一個分頁的結果。"
+msgstr "您可以使用 HTML 或 %s，並在預覽分頁中查看結果。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:514
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:204
@@ -5012,8 +5012,9 @@ msgid "A new project is created for the migration. The original will remain unch
 msgstr "系統會為此次遷移建立一個新專案；在遷移完成之前，原本的專案將保持不變。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:90
+#, fuzzy
 msgid "Original Knowledge Model"
-msgstr ""
+msgstr "原始知識模型"
 
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:91
 #, fuzzy
@@ -5021,8 +5022,9 @@ msgid "Original Version"
 msgstr "原始版本"
 
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:97
+#, fuzzy
 msgid "New Knowledge Model"
-msgstr ""
+msgstr "新知識模型"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:161
 #, fuzzy
@@ -5157,8 +5159,9 @@ msgid "Other users can use project templates so they don't have to start their n
 msgstr "其他使用者可以使用專案模板，無需從零開始建立新專案。專案模板會遵循與專案相同的分享規則，請務必將資訊分享給需使用的使用者。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:416
+#, fuzzy
 msgid "Default document template"
-msgstr ""
+msgstr "預設文件模板"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:439
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:261
@@ -5348,8 +5351,9 @@ msgid "Document not found"
 msgstr "無法找到文件"
 
 #: app-wizard/elm/Wizard/Pages/Projects/DocumentDownload/Update.elm:56
+#, fuzzy
 msgid "Unable to get document"
-msgstr ""
+msgstr "無法取得文件"
 
 #: app-wizard/elm/Wizard/Pages/Projects/DocumentDownload/View.elm:21
 #: app-wizard/elm/Wizard/Pages/Projects/FileDownload/View.elm:21
@@ -5400,16 +5404,16 @@ msgid "Import status:"
 msgstr "匯入狀態："
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:99
+#, fuzzy
 msgid "%s questionnaire change will be imported"
 msgid_plural "%s questionnaire changes will be imported"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "將匯入 %s 問卷變更"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:117
+#, fuzzy
 msgid "%s error encountered"
 msgid_plural "%s errors encountered"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "發生 %s 錯誤"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:188
 #, fuzzy
@@ -5476,13 +5480,15 @@ msgstr "搜尋專案標籤..."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:224
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:465
+#, fuzzy
 msgid "OR"
-msgstr ""
+msgstr "或"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:230
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:471
+#, fuzzy
 msgid "AND"
-msgstr ""
+msgstr "以及"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:249
 #, fuzzy
@@ -5555,8 +5561,9 @@ msgid "Undo"
 msgstr "復原"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Migration/View.elm:130
+#, fuzzy
 msgid "Resolve"
-msgstr ""
+msgstr "已解決"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Migration/View.elm:138
 #, fuzzy
@@ -6138,8 +6145,9 @@ msgid "GitHub Repository Owner"
 msgstr "GitHub 儲存庫擁有者"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:62
+#, fuzzy
 msgid "ht&#8203;tps://github.com/**exampleOwner**/exampleRepository"
-msgstr ""
+msgstr "ht&#8203;tps://github.com/exampleOwner/**exampleRepository**"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:63
 msgid "GitHub Repository Name"
@@ -6716,12 +6724,14 @@ msgid "Document not found."
 msgstr "查無文件。"
 
 #: shared/common/elm/Common/Api/ServerError.elm:149
+#, fuzzy
 msgid "Document template not found."
-msgstr ""
+msgstr "找不到文件模板。"
 
 #: shared/common/elm/Common/Api/ServerError.elm:152
+#, fuzzy
 msgid "Document template asset not found."
-msgstr ""
+msgstr "找不到文件模板草稿。"
 
 #: shared/common/elm/Common/Api/ServerError.elm:155
 #, fuzzy
@@ -6969,12 +6979,14 @@ msgid "projects"
 msgstr "專案"
 
 #: shared/common/elm/Common/Api/ServerError.elm:324
+#, fuzzy
 msgid "document templates"
-msgstr ""
+msgstr "文件模板"
 
 #: shared/common/elm/Common/Api/ServerError.elm:327
+#, fuzzy
 msgid "document template editors"
-msgstr ""
+msgstr "文件模板編輯器"
 
 #: shared/common/elm/Common/Api/ServerError.elm:330
 #, fuzzy

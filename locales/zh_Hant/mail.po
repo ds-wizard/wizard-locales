@@ -3,17 +3,19 @@
 # Hilary Shiue <hshiue@iis.sinica.edu.tw>, 2025.
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 # Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>, 2025.
-# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-mail-templates:4.18.2\nPOT-Creation-Date: \nPO-Revision-Date: 2025-12-04 06:56+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/mail-templates/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-mail-templates:4.18.2\nPOT-Creation-Date: \nPO-Revision-Date: 2026-01-28 12:03+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-24/mail-templates/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.15.2\n"
 
 #: templates/_common/footer.html.j2:155 templates/_common/footer.txt.j2:7
+#, fuzzy
 msgid "Please do not reply to this email"
-msgstr ""
+msgstr "請勿回覆此電子郵件"
 
 #: templates/_common/footer.html.j2:159 templates/_common/footer.txt.j2:9
+#, fuzzy
 msgid "This email was generated from"
-msgstr ""
+msgstr "此電子郵件由以下來源產生："
 
 #: templates/_common/footer.txt.j2:2
 #: templates/wizard/apiKeyCreated/message.html.j2:81
@@ -23,8 +25,9 @@ msgstr ""
 #: templates/wizard/registrationConfirmation/message.html.j2:78
 #: templates/wizard/resetPassword/message.html.j2:77
 #: templates/wizard/twoFactorAuth/message.html.j2:76
+#, fuzzy
 msgid "Thank you for using DSW!"
-msgstr ""
+msgstr "感謝您使用 DSW！"
 
 #: templates/_common/footer.txt.j2:5
 #: templates/wizard/apiKeyCreated/message.html.j2:82
@@ -34,8 +37,9 @@ msgstr ""
 #: templates/wizard/registrationConfirmation/message.html.j2:79
 #: templates/wizard/resetPassword/message.html.j2:78
 #: templates/wizard/twoFactorAuth/message.html.j2:77
+#, fuzzy
 msgid "team"
-msgstr ""
+msgstr "團隊"
 
 #: templates/wizard/apiKeyCreated/message.html.j2:25
 #: templates/wizard/apiKeyCreated/message.txt.j2:6
@@ -51,55 +55,61 @@ msgstr ""
 #: templates/wizard/resetPassword/message.txt.j2:3
 #: templates/wizard/twoFactorAuth/message.html.j2:22
 #: templates/wizard/twoFactorAuth/message.txt.j2:4
-#, python-format
+#, fuzzy, python-format
 msgid "Hello %(userFirstName)s"
-msgstr ""
+msgstr "Hello %(userFirstName)s"
 
 #: templates/wizard/apiKeyCreated/message.html.j2:26
 #: templates/wizard/apiKeyCreated/message.txt.j2:8
-#, python-format
+#, fuzzy, python-format
 msgid "A new API key named %(tokenName)s has been created for your account."
-msgstr ""
+msgstr "已為您的帳號建立名為 %(tokenName)s 的新 API 金鑰。"
 
 #: templates/wizard/apiKeyCreated/message.html.j2:28
 #: templates/wizard/apiKeyCreated/message.txt.j2:10
-#, python-format
+#, fuzzy, python-format
 msgid "It will expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
-msgstr ""
+msgstr "將於 %(tokenExpirationDate)s %(tokenExpirationTime)s 到期。"
 
 #: templates/wizard/apiKeyCreated/message.html.j2:53
 #: templates/wizard/apiKeyExpiration/message.html.j2:51
+#, fuzzy
 msgid "Manage API Keys"
-msgstr ""
+msgstr "管理 API 金鑰"
 
 #: templates/wizard/apiKeyCreated/message.html.j2:79
 #: templates/wizard/apiKeyCreated/message.txt.j2:15
+#, fuzzy
 msgid "If you did not initiate this action, please contact us via"
-msgstr ""
+msgstr "若非您本人發起此操作，請透過以下方式與我們聯絡"
 
 #: templates/wizard/apiKeyCreated/message.txt.j2:12
 #: templates/wizard/apiKeyExpiration/message.txt.j2:10
+#, fuzzy
 msgid "You can manage your API keys here:"
-msgstr ""
+msgstr "您可於此管理您的 API 金鑰："
 
 #: templates/wizard/apiKeyCreated/subject.txt.j2:1
+#, fuzzy
 msgid "New API Key Created"
-msgstr ""
+msgstr "以建立新 API 金鑰"
 
 #: templates/wizard/apiKeyExpiration/message.html.j2:26
 #: templates/wizard/apiKeyExpiration/message.txt.j2:8
-#, python-format
+#, fuzzy, python-format
 msgid "Your API key, identified as %(tokenName)s, is scheduled to expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
-msgstr ""
+msgstr "您的 API 金鑰（名稱：%(tokenName)s）將於 %(tokenExpirationDate)s %(tokenExpirationTime)s 到期。"
 
 #: templates/wizard/apiKeyExpiration/message.html.j2:77
 #: templates/wizard/apiKeyExpiration/message.txt.j2:13
+#, fuzzy
 msgid "If you encounter any issues, please contact us via"
-msgstr ""
+msgstr "如遇任何問題，請透過以下方式與我們聯絡"
 
 #: templates/wizard/apiKeyExpiration/subject.txt.j2:1
+#, fuzzy
 msgid "API Key Expiring Soon"
-msgstr ""
+msgstr "API 金鑰即將到期"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:32
 #: templates/wizard/commentThreadAssigned/message.txt.j2:14
@@ -111,8 +121,9 @@ msgstr[1] ""
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:75
 #: templates/wizard/commentThreadAssigned/message.txt.j2:20
+#, fuzzy
 msgid "Assigned by"
-msgstr ""
+msgstr "指派人"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:78
 #, fuzzy
@@ -120,66 +131,78 @@ msgid "Open"
 msgstr "開啟"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:113
+#, fuzzy
 msgid "View all comment threads assigned to you"
-msgstr ""
+msgstr "檢視所有指派給您的留言討論串"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:116
 #: templates/wizard/questionnaireInvitation/message.html.j2:78
 #: templates/wizard/registrationConfirmation/message.html.j2:76
 #: templates/wizard/resetPassword/message.html.j2:75
+#, fuzzy
 msgid "If any problem occurs contact us via"
-msgstr ""
+msgstr "如發生任何問題，請透過以下方式與我們聯絡"
 
 #: templates/wizard/commentThreadAssigned/message.txt.j2:20
+#, fuzzy
 msgid "already resolved"
-msgstr ""
+msgstr "已解決"
 
 #: templates/wizard/commentThreadAssigned/message.txt.j2:20
+#, fuzzy
 msgid "unresolved"
-msgstr ""
+msgstr "未解決"
 
 #: templates/wizard/commentThreadAssigned/message.txt.j2:20
+#, fuzzy
 msgid "private editor note"
-msgstr ""
+msgstr "私人編輯備註"
 
 #: templates/wizard/commentThreadAssigned/subject.txt.j2:1
+#, fuzzy
 msgid "Assigned to Comment Threads"
-msgstr ""
+msgstr "已指派的留言討論串"
 
 #: templates/wizard/questionnaireInvitation/message.html.j2:27
 #: templates/wizard/questionnaireInvitation/message.txt.j2:8
-#, python-format
+#, fuzzy, python-format
 msgid "%(ownerFirstName)s %(ownerLastName)s has invited you to the project %(projectName)s"
-msgstr ""
+msgstr "%(ownerFirstName)s %(ownerLastName)s 已邀請您加入此專案 %(projectName)s"
 
 #: templates/wizard/questionnaireInvitation/message.html.j2:52
 msgid "Open project"
 msgstr "開啟專案"
 
 #: templates/wizard/questionnaireInvitation/subject.txt.j2:1
+#, fuzzy
 msgid "Project Invitation"
-msgstr ""
+msgstr "專案邀請"
 
 #: templates/wizard/registrationConfirmation/message.html.j2:24
 #: templates/wizard/registrationConfirmation/message.txt.j2:5
+#, fuzzy
 msgid "Welcome aboard! Well, you’re almost set. Just one more step and you can start using the DSW."
-msgstr ""
+msgstr "歡迎加入！哦，快完成囉，只要再完成最後一步，您就可以開始使用 DSW。"
 
 #: templates/wizard/registrationConfirmation/message.html.j2:25
+#, fuzzy
 msgid "To activate your account, please click on the button below."
-msgstr ""
+msgstr "要啟用您的帳號，請點擊下方按鈕。"
 
 #: templates/wizard/registrationConfirmation/message.html.j2:50
+#, fuzzy
 msgid "Activate your account"
-msgstr ""
+msgstr "啟用您的帳號"
 
 #: templates/wizard/registrationConfirmation/message.txt.j2:7
+#, fuzzy
 msgid "To activate your account, please proceed here"
-msgstr ""
+msgstr "要啟用您的帳號，請前往這裡"
 
 #: templates/wizard/registrationConfirmation/subject.txt.j2:1
+#, fuzzy
 msgid "Registration Confirmation"
-msgstr ""
+msgstr "註冊確認"
 
 #: templates/wizard/registrationCreatedAnalytics/message.html.j2:19
 #: templates/wizard/registrationCreatedAnalytics/message.txt.j2:1
@@ -202,49 +225,60 @@ msgid "Email"
 msgstr "電子郵件"
 
 #: templates/wizard/registrationCreatedAnalytics/message.html.j2:30
+#, fuzzy
 msgid "Have a nice day!"
-msgstr ""
+msgstr "祝您有美好的一天！"
 
 #: templates/wizard/registrationCreatedAnalytics/subject.txt.j2:1
+#, fuzzy
 msgid "New User Registered"
-msgstr ""
+msgstr "新使用者已註冊"
 
 #: templates/wizard/resetPassword/message.html.j2:23
 #: templates/wizard/resetPassword/message.txt.j2:5
+#, fuzzy
 msgid "Forgot your password? No problem, that happens to the best of us!"
-msgstr ""
+msgstr "忘記密碼了嗎？沒問題，難免會發生，小事一件！"
 
 #: templates/wizard/resetPassword/message.html.j2:24
+#, fuzzy
 msgid "You can easily set up a new password by clicking on the button below."
-msgstr ""
+msgstr "您只要點擊下方按鈕，就能輕鬆設定新密碼。"
 
 #: templates/wizard/resetPassword/message.html.j2:49
+#, fuzzy
 msgid "Set up a new password"
-msgstr ""
+msgstr "設定新密碼"
 
 #: templates/wizard/resetPassword/message.txt.j2:6
+#, fuzzy
 msgid "You can easily set up a new password here"
-msgstr ""
+msgstr "您可以在這裡快速設定新密碼"
 
 #: templates/wizard/resetPassword/subject.txt.j2:1
+#, fuzzy
 msgid "Reset Password"
-msgstr ""
+msgstr "重設密碼"
 
 #: templates/wizard/twoFactorAuth/message.html.j2:23
 #: templates/wizard/twoFactorAuth/message.txt.j2:6
+#, fuzzy
 msgid "You have requested an authentication code to log in to your account. Your code is:"
-msgstr ""
+msgstr "您已申請用於登入帳號的驗證碼。您的驗證碼是："
 
 #: templates/wizard/twoFactorAuth/message.html.j2:71
 #: templates/wizard/twoFactorAuth/message.txt.j2:10
+#, fuzzy
 msgid "This code is valid for"
-msgstr ""
+msgstr "此驗證碼有效期限為"
 
 #: templates/wizard/twoFactorAuth/message.html.j2:74
 #: templates/wizard/twoFactorAuth/message.txt.j2:12
+#, fuzzy
 msgid "If you did not initiate this login attempt, please contact us via"
-msgstr ""
+msgstr "若您並未發起此次登入嘗試，請透過以下方式與我們聯繫："
 
 #: templates/wizard/twoFactorAuth/subject.txt.j2:1
+#, fuzzy
 msgid "Two-Factor Login Verification"
-msgstr ""
+msgstr "兩步驟登入驗證"

@@ -2,13 +2,13 @@
 # Paulette Lieby <paulette.lieby@france-bioinformatique.fr>, 2023, 2024, 2025.
 # Jana Martínková <j.martinkova@outlook.com>, 2025.
 # Sylmilaf1be602546e5431a <sylvain@milanesi.fr>, 2025.
-# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Sylvain Milanesi <sylvain.milanesi@france-bioinformatique.fr>, 2025.
 # Saliha ZENBOUDJI-BEDDEK <saliecolo@hotmail.com>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-12-02T08:18:29.540Z\nPO-Revision-Date: 2026-01-29 12:03+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/dsw-4-25/client/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.15.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-12-02T08:18:29.540Z\nPO-Revision-Date: 2026-01-29 12:03+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/dsw-4-25/client/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.15.2\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -179,8 +179,9 @@ msgid "Item %s"
 msgstr "Élément %s"
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:46
+#, fuzzy
 msgid "The request timed out."
-msgstr ""
+msgstr "La requête a expiré."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:49
 #, fuzzy
@@ -203,8 +204,9 @@ msgid "An HTTP error occurred."
 msgstr "Une erreur HTTP est survenue."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:68
+#, fuzzy
 msgid "The content type '%s' is not HTML."
-msgstr ""
+msgstr "Le type de contenu « %s » n’est pas du HTML."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:72
 #, fuzzy
@@ -212,13 +214,15 @@ msgid "The content is not HTML."
 msgstr "Le contenu n’est pas du HTML."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:75
+#, fuzzy
 msgid "A network error occurred."
-msgstr ""
+msgstr "Erreur réseau."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:78
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:81
+#, fuzzy
 msgid "An unknown error occurred."
-msgstr ""
+msgstr "Erreur inconnue."
 
 #: app-wizard/elm/Wizard/Components/CookieConsent.elm:27
 msgid "Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use. "
@@ -1359,8 +1363,9 @@ msgid "Named versions only"
 msgstr "Versions nommées uniquement"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:209
+#, fuzzy
 msgid "Load older"
-msgstr ""
+msgstr "Voir plus ancien"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:327
 msgid "Rename this version"
@@ -3018,8 +3023,9 @@ msgid "Unable to get preview."
 msgstr "Impossible d'obtenir l'aperçu."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:593
+#, fuzzy
 msgid "URL Checker"
-msgstr ""
+msgstr "Contrôle d’URL"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:676
 msgid "There are no more warnings."
@@ -4020,10 +4026,11 @@ msgid "There are no URL references in the Knowledge Model to check."
 msgstr "Aucune référence d’URL à vérifier dans le modèle de connaissances."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:138
+#, fuzzy
 msgid "There is %s URL reference to check."
 msgid_plural "There are %s URL references to check."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Il y a %s référence d’URL à vérifier."
+msgstr[1] "Il y a %s référence d’URL à vérifier."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:141
 #, fuzzy
@@ -4036,10 +4043,11 @@ msgid "All URL references are valid."
 msgstr "Toutes les URLs sont valides."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:167
+#, fuzzy
 msgid "Found 1 broken reference."
 msgid_plural "Found %s broken references."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 référence invalide détectée."
+msgstr[1] "1 référence invalide détectée."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:186
 #, fuzzy
@@ -4487,8 +4495,9 @@ msgid "Import failed."
 msgstr "L’importation a échoué."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:46
+#, fuzzy
 msgid "Previous Knowledge Model Package ID"
-msgstr ""
+msgstr "ID du package précédent du modèle de connaissances"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:47
 msgid "Root Element"
@@ -4499,8 +4508,9 @@ msgid "Choose a file"
 msgstr "Choisir un fichier"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/Update.elm:32
+#, fuzzy
 msgid "Unable to import knowledge model."
-msgstr ""
+msgstr "Impossible d’importer le modèle de connaissances."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/View.elm:69
 msgid "You can find knowledge models in %s."
@@ -4531,8 +4541,9 @@ msgid "Search KMs..."
 msgstr "Rechercher les KMs..."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:178
+#, fuzzy
 msgid "Delete knowledge model"
-msgstr ""
+msgstr "Supprimer le modèle de connaissances"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:49
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:130
@@ -5212,8 +5223,9 @@ msgid "This knowledge model is now deprecated."
 msgstr "Ce modèle de connaissances est désormais obsolète."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:560
+#, fuzzy
 msgid "Project migration lets you move your project to a newer or different version of the knowledge model, and update which questions are included by changing question tags."
-msgstr ""
+msgstr "La migration de projet vous permet de passer votre projet vers une version plus récente ou différente du modèle de connaissances, et de mettre à jour les questions incluses en modifiant les tags de questions."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:571
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:579

@@ -4,10 +4,10 @@
 # Jana Martínková <j.martinkova@outlook.com>, 2024, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
-# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025, 2026.
 # xnovotna <xnovotna@mendelu.cz>, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2025-12-02T08:18:29.540Z\nPO-Revision-Date: 2025-12-15 12:48+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/dsw-4-25/client/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2025-12-02T08:18:29.540Z\nPO-Revision-Date: 2026-01-29 12:03+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/dsw-4-25/client/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 5.15.2\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -178,41 +178,50 @@ msgid "Item %s"
 msgstr "Položka %s"
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:46
+#, fuzzy
 msgid "The request timed out."
-msgstr ""
+msgstr "Časový limit požadavku vypršel."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:49
+#, fuzzy
 msgid "The connection timed out."
-msgstr ""
+msgstr "Časový limit připojení vypršel."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:52
+#, fuzzy
 msgid "The URL is invalid."
-msgstr ""
+msgstr "Adresa URL je neplatná."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:58
+#, fuzzy
 msgid "HTTP error %s occurred."
-msgstr ""
+msgstr "Došlo k chybě HTTP: %s."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:62
+#, fuzzy
 msgid "An HTTP error occurred."
-msgstr ""
+msgstr "Došlo k chybě HTTP."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:68
+#, fuzzy
 msgid "The content type '%s' is not HTML."
-msgstr ""
+msgstr "Typ obsahu '%s' není HTML."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:72
+#, fuzzy
 msgid "The content is not HTML."
-msgstr ""
+msgstr "Obsah není HTML."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:75
+#, fuzzy
 msgid "A network error occurred."
-msgstr ""
+msgstr "Došlo k chybě sítě."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:78
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:81
+#, fuzzy
 msgid "An unknown error occurred."
-msgstr ""
+msgstr "Došlo k neznámé chybě."
 
 #: app-wizard/elm/Wizard/Components/CookieConsent.elm:27
 msgid "Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use. "
@@ -716,8 +725,9 @@ msgid "Unable to get type hints."
 msgstr "Nelze získat nápovědu."
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:2032
+#, fuzzy
 msgid "Some options are hidden"
-msgstr ""
+msgstr "Některé možnosti jsou skryté"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:2044
 msgid "View"
@@ -1354,8 +1364,9 @@ msgid "Named versions only"
 msgstr "Pouze pojmenované verze"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:209
+#, fuzzy
 msgid "Load older"
-msgstr ""
+msgstr "Načíst starší"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:327
 msgid "Rename this version"
@@ -3013,8 +3024,9 @@ msgid "Unable to get preview."
 msgstr "Nelze zobrazit náhled."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:593
+#, fuzzy
 msgid "URL Checker"
-msgstr ""
+msgstr "Kontrola URL"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:676
 msgid "There are no more warnings."
@@ -3508,8 +3520,9 @@ msgid "This content type is not supported."
 msgstr "Tento typ obsahu není podporován."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2352
+#, fuzzy
 msgid "The response body is too large to display with syntax highlight."
-msgstr ""
+msgstr "Tělo odpovědi je příliš velké pro zobrazení se zvýrazněním syntaxe."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2378
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2523
@@ -3768,8 +3781,9 @@ msgid "- select resource page -"
 msgstr "- vybrat stránku zdroje -"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3061
+#, fuzzy
 msgid "This URL failed the check:"
-msgstr ""
+msgstr "Tato URL adresa neprošla kontrolou:"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3124
 msgid "- select related question -"
@@ -4003,12 +4017,14 @@ msgid "Add header"
 msgstr "Přidat hlavičku"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:88
+#, fuzzy
 msgid "Failed to check URLs."
-msgstr ""
+msgstr "Nepodařilo se zkontrolovat adresy URL."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:114
+#, fuzzy
 msgid "There are no URL references in the Knowledge Model to check."
-msgstr ""
+msgstr "Ve znalostním modelu nejsou žádné odkazy na URL, které by bylo možné zkontrolovat."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:138
 msgid "There is %s URL reference to check."
@@ -4018,12 +4034,14 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:141
+#, fuzzy
 msgid "Check URLs"
-msgstr ""
+msgstr "Zkontrolovat URL adresy"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:159
+#, fuzzy
 msgid "All URL references are valid."
-msgstr ""
+msgstr "Všechny odkazy na URL jsou platné."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:167
 msgid "Found 1 broken reference."
@@ -4033,8 +4051,9 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:186
+#, fuzzy
 msgid "Unknown error."
-msgstr ""
+msgstr "Neznámá chyba."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:108
 msgid "There are no phases, create them first."
@@ -4426,8 +4445,9 @@ msgid "Short description of the knowledge model."
 msgstr "Krátký popis znalostního modelu."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:92
+#, fuzzy
 msgid "No version of this knowledge model has been published yet."
-msgstr ""
+msgstr "Dosud nebyla publikována žádná verze tohoto znalostního modelu."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:93
 msgid "Last version"
@@ -4471,8 +4491,9 @@ msgid "Fork of"
 msgstr "Fork z"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/Update.elm:89
+#, fuzzy
 msgid "Import failed."
-msgstr ""
+msgstr "Import selhal."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:46
 msgid "Previous Knowledge Model Package ID"

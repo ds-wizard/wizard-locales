@@ -6,8 +6,9 @@
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Sylvain Milanesi <sylvain.milanesi@france-bioinformatique.fr>, 2025.
 # Saliha ZENBOUDJI-BEDDEK <saliecolo@hotmail.com>, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-12-02T08:18:29.540Z\nPO-Revision-Date: 2025-12-15 12:48+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/dsw-4-25/client/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-12-02T08:18:29.540Z\nPO-Revision-Date: 2026-01-29 12:03+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/dsw-4-25/client/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.15.2\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -182,28 +183,33 @@ msgid "The request timed out."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:49
+#, fuzzy
 msgid "The connection timed out."
-msgstr ""
+msgstr "Délai de connexion dépassé"
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:52
+#, fuzzy
 msgid "The URL is invalid."
-msgstr ""
+msgstr "L’URL est invalide."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:58
+#, fuzzy
 msgid "HTTP error %s occurred."
-msgstr ""
+msgstr "Une erreur HTTP %s est survenue."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:62
+#, fuzzy
 msgid "An HTTP error occurred."
-msgstr ""
+msgstr "Une erreur HTTP est survenue."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:68
 msgid "The content type '%s' is not HTML."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:72
+#, fuzzy
 msgid "The content is not HTML."
-msgstr ""
+msgstr "Le contenu n’est pas du HTML."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:75
 msgid "A network error occurred."
@@ -716,8 +722,9 @@ msgid "Unable to get type hints."
 msgstr "Impossible d'obtenir des indications sur le type."
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:2032
+#, fuzzy
 msgid "Some options are hidden"
-msgstr ""
+msgstr "Certaines options sont masquées"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:2044
 msgid "View"
@@ -3506,8 +3513,9 @@ msgid "This content type is not supported."
 msgstr "Ce type de contenu n'est pas pris en charge."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2352
+#, fuzzy
 msgid "The response body is too large to display with syntax highlight."
-msgstr ""
+msgstr "Le corps de la réponse est trop volumineux pour un affichage avec la coloration syntaxique."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2378
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2523
@@ -3766,8 +3774,9 @@ msgid "- select resource page -"
 msgstr "- sélectionner la page de ressources -"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3061
+#, fuzzy
 msgid "This URL failed the check:"
-msgstr ""
+msgstr "La vérification de cette URL a échoué:"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3124
 msgid "- select related question -"
@@ -4001,12 +4010,14 @@ msgid "Add header"
 msgstr "Ajouter un en-tête"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:88
+#, fuzzy
 msgid "Failed to check URLs."
-msgstr ""
+msgstr "La vérification des URL a échoué."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:114
+#, fuzzy
 msgid "There are no URL references in the Knowledge Model to check."
-msgstr ""
+msgstr "Aucune référence d’URL à vérifier dans le modèle de connaissances."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:138
 msgid "There is %s URL reference to check."
@@ -4015,12 +4026,14 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:141
+#, fuzzy
 msgid "Check URLs"
-msgstr ""
+msgstr "Vérification des URLs"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:159
+#, fuzzy
 msgid "All URL references are valid."
-msgstr ""
+msgstr "Toutes les URLs sont valides."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:167
 msgid "Found 1 broken reference."
@@ -4029,8 +4042,9 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:186
+#, fuzzy
 msgid "Unknown error."
-msgstr ""
+msgstr "Erreur inconnue."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:108
 msgid "There are no phases, create them first."
@@ -4422,8 +4436,9 @@ msgid "Short description of the knowledge model."
 msgstr "Brève description du modèle de connaissances."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:92
+#, fuzzy
 msgid "No version of this knowledge model has been published yet."
-msgstr ""
+msgstr "Aucune version de ce modèle de connaissances n’a encore été publiée."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:93
 msgid "Last version"
@@ -4467,8 +4482,9 @@ msgid "Fork of"
 msgstr "Fork de"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/Update.elm:89
+#, fuzzy
 msgid "Import failed."
-msgstr ""
+msgstr "L’importation a échoué."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:46
 msgid "Previous Knowledge Model Package ID"

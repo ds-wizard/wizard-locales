@@ -69,7 +69,7 @@ def _release(version: str, locales_dir: pathlib.Path):
     # Update version in locale.json files
     click.echo('REPO: Updating version in locale.json files')
     langs = []
-    for locale_dir in locales_dir.iterdir():
+    for locale_dir in sorted(locales_dir.iterdir()):
         if not locale_dir.is_dir():
             continue
         locale_id = locale_dir.name
@@ -108,6 +108,84 @@ def _release(version: str, locales_dir: pathlib.Path):
         _run('git', 'push', 'origin', tag_name)
 
 
+def _prepare(version: str, locales_dir: pathlib.Path):
+    major, minor, patch = _parse_version(version)
+    prev_major = major
+    prev_minor = minor - 1
+    if prev_minor < 0:
+        raise ValueError('Previous version minor number cannot be less than 0')
+    # Prepare local environment
+    click.echo('REPO: Make sure everything locally is committed and pushed to remote:')
+    click.echo(f'- You should be on v{prev_major}.{prev_minor} branch')
+    click.echo(f'- No uncommitted changes should be present')
+    _proceed()
+
+    # Checkout correct branch and pull latest changes
+    click.echo('REPO: Checking out the correct branch')
+    _run('git', 'checkout', f'v{prev_major}.{prev_minor}')
+    click.echo('REPO: Pulling latest changes')
+    _run('git', 'pull', 'origin', f'v{prev_major}.{prev_minor}')
+    click.echo('REPO: Creating new branch for the new version')
+    _run('git', 'checkout', '-b', f'v{major}.{minor}')
+    click.echo('REPO: Pushing new branch to remote')
+    _run('git', 'push', '-u', 'origin', f'v{major}.{minor}')
+
+    # Create Weblate project
+    click.echo('WEBLATE: Create new Weblate project for the new version:')
+    weblate_url = 'https://localize.ds-wizard.org/create/project/'
+    click.echo(f'> {weblate_url}')
+    click.launch(weblate_url)
+    click.echo('Make sure to set the following parameters:')
+    click.echo(f'- Name: DSW {major}.{minor}')
+    click.echo(f'- Project: https://ds-wizard.org')
+    _proceed()
+    click.echo('WEBLATE: Component "Client"')
+    click.echo('- repo URL: git@github.com:ds-wizard/wizard-locales.git')
+    click.echo(f'- branch: v{major}.{minor}')
+    click.echo('- Specify configuration manually')
+    click.echo('- push URL and push branch same as repo URL and branch')
+    suffix = '/{{filename}}#L{{line}}'
+    click.echo(f'- repository browser: https://github.com/ds-wizard/engine-frontend/tree/v{major}.{minor}.0{suffix}')
+    click.echo('- file format: gettext PO (no line wrapping + keep msgids)')
+    click.echo('- file mask: locales/*/wizard.po')
+    click.echo('- template for new translations: wizard.pot')
+    _proceed()
+    click.echo('WEBLATE: Component "Mail Templates"')
+    click.echo('- repo URL: git@github.com:ds-wizard/wizard-locales.git')
+    click.echo(f'- branch: v{major}.{minor}')
+    click.echo('- Specify configuration manually')
+    click.echo('- push URL and push branch same as repo URL and branch')
+    click.echo('- file format: gettext PO (no line wrapping + keep msgids)')
+    click.echo('- file mask: locales/*/mail.po')
+    click.echo('- template for new translations: mail.pot')
+    click.echo('WEBLATE: Share Glossary')
+    click.echo('- Go to Glossary tab and share glossary with the new project')
+    glossary_url = 'https://localize.ds-wizard.org/settings/glossary/glossary/'
+    click.echo(f'> {glossary_url}')
+    click.launch(glossary_url)
+    _proceed()
+    click.echo('WEBLATE: Wait for Weblate to finish initial synchronization and check that everything is correct')
+    click.echo('- sync all changes Weblate might have done')
+    settings_url = f'https://localize.ds-wizard.org/projects/dsw-{major}-{minor}/#repository'
+    click.echo(f'> {settings_url}')
+    click.launch(settings_url)
+    click.echo('REPO: Prepare for new POT files:')
+    frontend_url = 'https://github.com/ds-wizard/engine-frontend/tags'
+    tools_url = 'https://github.com/ds-wizard/engine-tools/tags'
+    click.echo('- Download wizard.pot to repository from engine-frontend latest release')
+    click.echo(f'> {frontend_url}')
+    click.launch(frontend_url)
+    click.echo('- Download mail.pot to repository from engine-frontend latest release')
+    click.echo(f'> {tools_url}')
+    click.launch(tools_url)
+    _proceed()
+    click.echo('REPO: Commit and push POT file updates')
+    _run('git', 'add', 'wizard.pot', 'mail.pot')
+    _run('git', 'commit', '-m', f'Update POT files to v{major}.{minor}')
+    _run('git', 'push', 'origin', f'v{major}.{minor}')
+    click.echo('Preparation for new version completed successfully.')
+
+
 @click.group()
 def cli():
     """Utilities for managing locales workflow"""
@@ -136,8 +214,21 @@ def release(version: str):
 @cli.command()
 @click.argument('old_version')
 @click.argument('new_version')
-def prepare(old_version: str, new_version: str):
-    ...
+def prepare(version: str):
+    """Prepare for a new locales version"""
+    directory = pathlib.Path.cwd()
+    locales_dir = directory / 'locales'
+    if not locales_dir.is_dir():
+        click.echo('Error: locales directory not found', err=True)
+        click.echo('Make sure to run this command from the project root directory', err=True)
+        return
+    try:
+        _prepare(version, locales_dir)
+    except Exception:
+        import traceback
+        traceback.print_exc()
+        click.echo('Failed to prepare for new version', err=True)
+        return
 
 
 if __name__ == '__main__':

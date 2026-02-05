@@ -6,7 +6,17 @@
 # Marek Suchánek <marek.suchanek@gmail.com>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-12-02T08:18:29.540Z\nPO-Revision-Date: 2026-02-03 07:39+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Turkish <https://localize.ds-wizard.org/projects/dsw-4-27/client/tr/>\nLanguage: tr\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.15.2\n"
+msgstr ""
+"Project-Id-Version: wizard-client:3.18.3\n"
+"POT-Creation-Date: 2026-01-30T08:46:06.933Z \n"
+"PO-Revision-Date: 2026-02-03 07:39+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\n"
+"Language-Team: Turkish <https://localize.ds-wizard.org/projects/dsw-4-27/client/tr/>\n"
+"Language: tr\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -64,114 +74,114 @@ msgstr "Saat en fazla %s olmalıdır."
 msgid "Email domain must be one of the following: %s."
 msgstr "E-posta alan adı aşağıdakilerden biri olmalıdır: %s."
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireCreation.elm:116
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectCreation.elm:116
 msgid "Templates & Custom"
 msgstr "Şablonlar ve Uyarlama"
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireCreation.elm:117
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectCreation.elm:117
 msgid "Projects can be created from project templates or with custom settings."
 msgstr "Projeler, proje şablonlarından veya uyarlama ayarları ile oluşturulabilir."
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireCreation.elm:120
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectCreation.elm:120
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:94
 msgid "Templates only"
 msgstr "Yalnızca şablonlar"
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireCreation.elm:121
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectCreation.elm:121
 msgid "Only project templates can be used for creating new projects."
 msgstr "Yeni projeler oluşturmak için yalnızca proje şablonları kullanılabilir."
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireCreation.elm:124
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectCreation.elm:124
 msgid "Custom only"
 msgstr "Yalnızca uyarlama"
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireCreation.elm:125
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectCreation.elm:125
 msgid "Project templates feature is disabled, researchers have to choose knowledge model and set up everything."
 msgstr "Proje şablonları özelliği etkin değil, araştırmacılar bilgi modelini seçip ve ayarlamaları yapmalıdır."
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireSharing.elm:135
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectSharing.elm:135
 msgid "Restricted"
 msgstr "Kısıtlı"
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireSharing.elm:136
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectSharing.elm:136
 msgid "Only logged-in users can access the project depending on the project visibility."
 msgstr "Proje görünürlüğüne bağlı olarak projeye yalnızca oturum açmış kullanıcılar erişebilir."
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireSharing.elm:139
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectSharing.elm:139
 msgid "View with the link"
 msgstr "Bağlantı ile görüntüle"
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireSharing.elm:140
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectSharing.elm:140
 msgid "Anyone on the internet with the link can view."
 msgstr "Bağlantıya sahip internet üzerindeki herkes görüntüleyebilir."
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireSharing.elm:143
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectSharing.elm:143
 msgid "Comment with the link"
 msgstr "Bağlantı ile yorum yap"
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireSharing.elm:144
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectSharing.elm:144
 msgid "Anyone on the internet with the link can view and comment."
 msgstr "Bağlantıya sahip internet üzerindeki herkes görüntüleyebilir ve yorum yapabilir."
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireSharing.elm:147
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectSharing.elm:147
 msgid "Edit with the link"
 msgstr "Bağlantı ile düzenle"
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireSharing.elm:148
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectSharing.elm:148
 msgid "Anyone on the internet with the link can edit."
 msgstr "Bağlantıya sahip internetteki herkes düzenleme yapabilir."
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireVisibility.elm:145
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectVisibility.elm:145
 msgid "Private"
 msgstr "Özel"
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireVisibility.elm:146
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectVisibility.elm:146
 msgid "Visible only to the owner and invited users."
 msgstr "Yalnızca sahibi ve davet edilen kullanıcılar tarafından görülebilir."
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireVisibility.elm:149
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectVisibility.elm:149
 msgid "Visible - View"
 msgstr "Görünür - Görüntüle"
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireVisibility.elm:150
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectVisibility.elm:150
 msgid "Other logged-in users can view the project."
 msgstr "Oturum açmış diğer kullanıcılar projeyi görüntüleyebilir."
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireVisibility.elm:153
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectVisibility.elm:153
 msgid "Visible - Comment"
 msgstr "Görünür - Yorum Yap"
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireVisibility.elm:154
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectVisibility.elm:154
 msgid "Other logged-in users can view and comment the project."
 msgstr "Oturum açan diğer kullanıcılar projeyi görüntüleyebilir ve yorum yapabilir."
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireVisibility.elm:157
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectVisibility.elm:157
 msgid "Visible - Edit"
 msgstr "Görünür - Düzenle"
 
-#: app-wizard/elm/Wizard/Api/Models/Questionnaire/QuestionnaireVisibility.elm:158
+#: app-wizard/elm/Wizard/Api/Models/Project/ProjectVisibility.elm:158
 msgid "Other logged-in users can edit the project."
 msgstr "Oturum açmış diğer kullanıcılar projeyi düzenleyebilir."
 
-#: app-wizard/elm/Wizard/Api/Models/QuestionnairePermission.elm:71
+#: app-wizard/elm/Wizard/Api/Models/ProjectPermission.elm:71
 msgid "view"
 msgstr "görüntüle"
 
-#: app-wizard/elm/Wizard/Api/Models/QuestionnairePermission.elm:72
+#: app-wizard/elm/Wizard/Api/Models/ProjectPermission.elm:72
 msgid "comment"
 msgstr "yorum yap"
 
-#: app-wizard/elm/Wizard/Api/Models/QuestionnairePermission.elm:73
+#: app-wizard/elm/Wizard/Api/Models/ProjectPermission.elm:73
 msgid "edit"
 msgstr "düzenle"
 
-#: app-wizard/elm/Wizard/Api/Models/QuestionnaireQuestionnaire.elm:515
+#: app-wizard/elm/Wizard/Api/Models/ProjectQuestionnaire.elm:514
 msgid "Item"
 msgstr "Öğe"
 
-#: app-wizard/elm/Wizard/Api/Models/QuestionnaireQuestionnaire.elm:529
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3936
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4409
+#: app-wizard/elm/Wizard/Api/Models/ProjectQuestionnaire.elm:528
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4037
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4510
 #: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:225
 msgid "Item %s"
 msgstr "Öğe %s"
@@ -230,15 +240,16 @@ msgid "Close and Accept"
 msgstr "Kapat ve Kabul Et"
 
 #: app-wizard/elm/Wizard/Components/CopyableCodeBlock.elm:48
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:826
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4748
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2556
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:838
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4909
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2376
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2571
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:468
 msgid "Copied!"
 msgstr "Kopyalandı!"
 
 #: app-wizard/elm/Wizard/Components/CopyableCodeBlock.elm:61
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:837
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:849
 msgid "Copy"
 msgstr "Anlaşıldı"
 
@@ -271,9 +282,9 @@ msgstr "Bazı dosyalar yüklenemedi."
 
 #: app-wizard/elm/Wizard/Components/FileImport.elm:243
 #: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:141
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:374
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:377
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:450
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:378
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:381
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:99
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:214
 #: shared/common/elm/Common/Utils/Driver.elm:116
@@ -281,53 +292,55 @@ msgid "Done"
 msgstr "Bitti"
 
 #: app-wizard/elm/Wizard/Components/FileImport.elm:253
-#: app-wizard/elm/Wizard/Components/FormActions.elm:23
-#: app-wizard/elm/Wizard/Components/FormActions.elm:31
-#: app-wizard/elm/Wizard/Components/FormActions.elm:39
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3078
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3290
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3320
+#: app-wizard/elm/Wizard/Components/FormActions.elm:22
+#: app-wizard/elm/Wizard/Components/FormActions.elm:30
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3176
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3388
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3418
 #: app-wizard/elm/Wizard/Components/Questionnaire/FileUploadModal.elm:226
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:390
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:393
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1499
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:266
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3618
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3699
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:394
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:127
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3633
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3714
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:397
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:139
+#: app-wizard/elm/Wizard/Pages/Projects/ImportLegacy/View.elm:127
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:119
-#: shared/common/elm/Common/Components/Form.elm:87
-#: shared/common/elm/Common/Components/Modal.elm:216
+#: shared/common/elm/Common/Components/Form.elm:89
+#: shared/common/elm/Common/Components/Modal.elm:239
 msgid "Cancel"
 msgstr "İptal et"
 
 #: app-wizard/elm/Wizard/Components/FileImport.elm:254
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2144
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ImportDocumentTemplateWidget.elm:26
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ImportKnowledgeModelWidget.elm:22
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:130
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:168
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/RegistryImport/View.elm:53
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:44
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2228
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3739
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2225
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3754
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:123
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:53
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/View.elm:53
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:43
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:111
-#: app-wizard/elm/Wizard/Pages/Locales/Import/RegistryImport/View.elm:53
+#: app-wizard/elm/Wizard/Pages/Locales/Import/RegistryImport/View.elm:54
 #: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:151
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:56
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:131
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:143
+#: app-wizard/elm/Wizard/Pages/Projects/ImportLegacy/View.elm:56
+#: app-wizard/elm/Wizard/Pages/Projects/ImportLegacy/View.elm:131
 msgid "Import"
 msgstr "İthalat"
 
-#: app-wizard/elm/Wizard/Components/FormActions.elm:63
-#: shared/common/elm/Common/Components/Form.elm:260
+#: app-wizard/elm/Wizard/Components/FormActions.elm:54
+#: shared/common/elm/Common/Components/Form.elm:262
 msgid "You have unsaved changes."
 msgstr "Kaydedilmemiş değişiklikleriniz var."
 
-#: app-wizard/elm/Wizard/Components/FormActions.elm:75
+#: app-wizard/elm/Wizard/Components/FormActions.elm:66
 #: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:173
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:90
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:146
@@ -340,11 +353,11 @@ msgstr "Kaydedilmemiş değişiklikleriniz var."
 #: app-wizard/elm/Wizard/Pages/Settings/PrivacyAndSupport/View.elm:29
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:32
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:44
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Language.elm:140
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Language.elm:141
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Password.elm:115
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:223
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/SubmissionSettings.elm:226
-#: shared/common/elm/Common/Components/Form.elm:240
+#: shared/common/elm/Common/Components/Form.elm:242
 msgid "Save"
 msgstr "Kaydet"
 
@@ -360,141 +373,142 @@ msgstr "Sırala"
 msgid "Clear selection"
 msgstr "Seçimi temizle"
 
-#: app-wizard/elm/Wizard/Components/Listing/View.elm:419
+#: app-wizard/elm/Wizard/Components/Listing/View.elm:417
 msgid "Last"
 msgstr "En son"
 
-#: app-wizard/elm/Wizard/Components/Listing/View.elm:432
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2842
+#: app-wizard/elm/Wizard/Components/Listing/View.elm:430
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2940
+#: shared/common/elm/Common/Components/NewsModal.elm:174
 #: shared/common/elm/Common/Utils/Driver.elm:114
 msgid "Next"
 msgstr "Sonraki"
 
-#: app-wizard/elm/Wizard/Components/Listing/View.elm:446
+#: app-wizard/elm/Wizard/Components/Listing/View.elm:444
 msgid "Prev"
 msgstr "Önceki"
 
-#: app-wizard/elm/Wizard/Components/Listing/View.elm:454
+#: app-wizard/elm/Wizard/Components/Listing/View.elm:452
 msgid "First"
 msgstr "Birinci"
 
-#: app-wizard/elm/Wizard/Components/Listing/View.elm:477
+#: app-wizard/elm/Wizard/Components/Listing/View.elm:473
 msgid "There are no results matching your search and filters."
 msgstr "Arama ve filtrelerinizle eşleşen sonuç yok."
 
-#: app-wizard/elm/Wizard/Components/Listing/View.elm:484
+#: app-wizard/elm/Wizard/Components/Listing/View.elm:480
 msgid "No data"
 msgstr "Veri yok"
 
-#: app-wizard/elm/Wizard/Components/Listing/View.elm:546
+#: app-wizard/elm/Wizard/Components/Listing/View.elm:539
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/AssignedComments.elm:65
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/RecentProjectsWidget.elm:63
 msgid "Updated %s"
 msgstr "Güncellendi %s"
 
-#: app-wizard/elm/Wizard/Components/Menu/Update.elm:45
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:894
+#: app-wizard/elm/Wizard/Components/Menu/Update.elm:54
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:909
 msgid "Client"
 msgstr "Müşteri"
 
-#: app-wizard/elm/Wizard/Components/Menu/Update.elm:46
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:895
+#: app-wizard/elm/Wizard/Components/Menu/Update.elm:55
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:910
 msgid "Server"
 msgstr "Sunucu"
 
-#: app-wizard/elm/Wizard/Components/Menu/Update.elm:66
+#: app-wizard/elm/Wizard/Components/Menu/Update.elm:76
 msgid "Unable to get the build info"
 msgstr "Yapı bilgisi alınamıyor"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:76
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:78
 #: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:36
 #: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:163
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:128
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:156
 msgid "Dashboard"
 msgstr "Gösterge Tablosu"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:92
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:94
 #: app-wizard/elm/Wizard/Components/UsageTable.elm:21
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:259
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:31
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:370
 #: app-wizard/elm/Wizard/Pages/Settings/KnowledgeModels/View.elm:31
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:149
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:177
 msgid "Knowledge Models"
 msgstr "Bilgi Modelleri"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:99
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:127
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:157
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:101
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:129
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:159
 msgid "List"
 msgstr "Liste"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:105
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:133
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:107
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:135
 msgid "Editors"
 msgstr "Editörler"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:111
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2167
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:113
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2164
 msgid "Secrets"
 msgstr "Gizlilikler"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:120
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:122
 #: app-wizard/elm/Wizard/Components/UsageTable.elm:23
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:32
 msgid "Document Templates"
 msgstr "Belge Şablonları"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:142
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:150
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:144
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:152
 #: app-wizard/elm/Wizard/Components/UsageTable.elm:24
 #: app-wizard/elm/Wizard/Pages/Dashboard/Update.elm:68
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:84
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:67
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:31
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:150
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:178
 msgid "Projects"
 msgstr "Projeler"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:163
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:165
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:147
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:353
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:357
 msgid "Files"
 msgstr "Dosyalar"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:169
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:171
 #: app-wizard/elm/Wizard/Components/UsageTable.elm:25
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:337
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:341
 msgid "Documents"
 msgstr "Belgeler"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:175
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2118
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:177
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2206
 msgid "Actions"
 msgstr "Eylemler"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:181
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:183
 msgid "Importers"
 msgstr "İthalatçılar"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:212
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:227
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:214
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:229
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:125
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:165
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:116
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:200
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:204
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:315
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:362
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:366
 #: app-wizard/elm/Wizard/Pages/Registry/RegistrySignupConfirmation/View.elm:31
 msgid "Settings"
 msgstr "Ayarlar"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:220
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:222
 msgid "Administration"
 msgstr "Yönetim"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:237
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:239
 #: app-wizard/elm/Wizard/Components/UsageTable.elm:18
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:142
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:587
@@ -503,92 +517,96 @@ msgstr "Yönetim"
 msgid "Users"
 msgstr "Kullanıcılar"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:245
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:247
 #: app-wizard/elm/Wizard/Components/UsageTable.elm:26
 #: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:31
 msgid "Locales"
 msgstr "Yereller"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:375
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:377
 msgid "Switch to"
 msgstr "Şuna geç"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:379
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:381
 msgid "More"
 msgstr "Daha fazla"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:634
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:636
 msgid "Your session expires in %s"
 msgstr "Oturumunuzun süresi %s içinde doluyor"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:641
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:643
 #: app-wizard/elm/Wizard/Components/SessionModal.elm:44
 #: app-wizard/elm/Wizard/Components/SessionModal.elm:67
 msgid "Log in again"
 msgstr "Tekrar giriş yapın"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:698
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:708
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:700
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:710
 msgid "Change language"
 msgstr "Dili değiştir"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:725
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:727
 msgid "User settings"
 msgstr "Kullanıcı Ayarları"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:732
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:734
 msgid "Assigned comments"
 msgstr "Atanmış yorumlar"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:742
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:744
 msgid "Log out"
 msgstr "Oturumu kapat"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:751
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:847
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:753
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:859
 msgid "About"
 msgstr "Hakkında"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:760
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:763
+msgid "What's new"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:772
 msgid "Report issue"
 msgstr "Rapor sorunu"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:777
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:789
 msgid "Collapse sidebar"
 msgstr "Kenar çubuğunu daralt"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:792
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:804
 msgid "If you find any problem, you can report an issue here:"
 msgstr "Herhangi bir sorun bulursanız, buradan bir sorun bildirebilirsiniz:"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:804
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:816
 msgid "You can also write us an email to %s."
 msgstr "Bize %s adresine bir e-posta da yazabilirsiniz."
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:808
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:820
 msgid "Report Issue"
 msgstr "Rapor sorunu"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:811
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:861
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2320
-#: shared/common/elm/Common/Components/Modal.elm:287
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:823
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:873
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2400
+#: shared/common/elm/Common/Components/Modal.elm:310
 msgid "OK"
 msgstr "TAMAM."
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:844
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:856
 msgid "About %s"
 msgstr "Hakkında %s"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:883
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:895
 msgid "API URL"
 msgstr "API URL'SI"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:884
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:896
 msgid "API Docs"
 msgstr "API Dokümanları"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:922
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:938
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:135
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:275
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:227
@@ -600,9 +618,13 @@ msgstr "API Dokümanları"
 msgid "Version"
 msgstr "Versiyon"
 
-#: app-wizard/elm/Wizard/Components/Menu/View.elm:926
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:942
 msgid "Built at"
 msgstr "Şu adreste inşa edilmiştir"
+
+#: app-wizard/elm/Wizard/Components/Menu/View.elm:956
+msgid "Metamodel Versions"
+msgstr ""
 
 #: app-wizard/elm/Wizard/Components/OnlineUser.elm:51
 #: app-wizard/elm/Wizard/Components/OnlineUser.elm:61
@@ -685,214 +707,211 @@ msgstr "İsimsiz Ağaç"
 msgid "Anonymous Cowboy"
 msgstr "İsimsiz Kovboy"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1005
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1022
 msgid "Unable to delete file."
 msgstr "Dosya silinemiyor."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1130
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1139
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1147
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1156
 msgid "Unable to get version history."
 msgstr "Sürüm geçmişi alınamıyor."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1486
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1503
 #: app-wizard/elm/Wizard/Pages/Comments/Update.elm:35
 msgid "Unable to get comments."
 msgstr "Yorum alınamıyor."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1497
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1514
 #: app-wizard/elm/Wizard/Pages/ProjectActions/Index/Update.elm:70
 msgid "Unable to get project actions."
 msgstr "Proje eylemleri alınamıyor."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1509
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1526
 #: app-wizard/elm/Wizard/Pages/ProjectImporters/Index/Update.elm:70
 msgid "Unable to get project importers."
 msgstr "Proje içe aktarıcılar alınamıyor."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1788
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1807
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1811
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1830
 msgid "Unable to get type hints."
 msgstr "Yazım ipuçları alınamıyor."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2032
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2057
 msgid "Some options are hidden"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2044
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2069
 msgid "View"
 msgstr "Görüntüle"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2051
-#: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:336
-#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:214
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2076
+#: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:339
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:217
 msgid "Show all"
 msgstr "Hepsini göster"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2054
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2079
 msgid "Hide all"
 msgstr "Tümünü gizle"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2058
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2083
 msgid "Answered by"
 msgstr "Cevaplayan"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2063
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2088
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:883
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:177
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:439
 msgid "Phases"
 msgstr "Aşamalar"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2068
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2093
 msgid "Question tags"
 msgstr "Soru etiketleri"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2073
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2098
 msgid "Non-desirable questions"
 msgstr "İstenmeyen sorular"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2078
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2103
 msgid "Metric values"
 msgstr "Metrik değerler"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2091
-msgid "Import replies"
-msgstr "Yanıtları içe aktar"
-
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2193
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2273
 msgid "Search"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2220
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2300
 msgid "TODOs"
 msgstr "Yapılacaklar"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2242
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2953
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2954
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4676
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2322
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3051
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3052
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4777
 msgid "Comments"
 msgstr "Yorumlar"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2253
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2333
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:618
 msgid "Warnings"
 msgstr "Uyarılar"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2267
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2347
 msgid "Version history"
 msgstr "Sürüm geçmişi"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2302
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2382
 msgid "Action succeeded!"
 msgstr "Eylem başarılı oldu!"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2307
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2387
 msgid "Action failed!"
 msgstr "Eylem başarısız oldu!"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2411
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2490
 msgid "Current phase"
 msgstr "Mevcut Aşama"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2464
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2540
 msgid "Select phase"
 msgstr "Aşama seçiniz"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2615
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2713
 msgid "All TODOs have been completed."
 msgstr "Tüm yapılacaklar tamamlanmıştır."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2733
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2831
 msgid "Click the %s icon to add new comments to a question."
 msgstr "Bir soruya yeni yorumlar eklemek için %s simgesine tıklayın."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2757
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2855
 msgid "View resolved comments"
 msgstr "Çözülen yorumları görüntüle"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2808
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2906
 msgid "Resolved and unresolved comments"
 msgstr "Çözümlenmiş ve çözümlenmemiş yorumlar"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2811
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2909
 msgid "Unresolved comments"
 msgstr "Çözülmemiş yorumlar"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2835
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2933
+#: shared/common/elm/Common/Components/NewsModal.elm:167
 #: shared/common/elm/Common/Utils/Driver.elm:115
 msgid "Previous"
 msgstr "Önceki"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2864
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2962
 msgid "Editor notes are only visible to project Editors and Owners."
 msgstr "Editör notları yalnızca proje Editörleri ve Sahipleri tarafından görülebilir."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2889
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2987
 msgid "Comment"
 msgstr "Yorum yap"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2890
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2988
 msgid "Create a new comment..."
 msgstr "Yeni bir yorum oluşturun..."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2966
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2967
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3064
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3065
 msgid "Editor notes"
 msgstr "Editör notları"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2985
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3083
 msgid "Delete this comment thread?"
 msgstr "Bu yorum dizisini silelim mi?"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2998
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3096
 #: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:126
 msgid "Reply"
 msgstr "Yanıtla"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:2999
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3097
 msgid "Reply..."
 msgstr "Yanıtla..."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3016
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3114
 msgid "Assigned to you"
 msgstr "Size atandı"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3021
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3119
 msgid "Assigned to %s"
 msgstr "%s'ye atandı"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3073
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3156
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3171
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3254
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:99
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:148
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:145
 msgid "Edit"
 msgstr "Düzenle"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3089
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3187
 msgid "Delete this comment?"
 msgstr "Bu yorumu sileyim mi?"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3113
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3211
 msgid "Resolve comment thread"
 msgstr "Yorum dizisini çözümle"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3140
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3238
 msgid "Remove assignment"
 msgstr "Görevi kaldır"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3148
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3246
 msgid "Reopen"
 msgstr "Yeniden Aç"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3166
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3319
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3876
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4516
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4826
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3264
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3417
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3977
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4617
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4987
 #: app-wizard/elm/Wizard/Components/Questionnaire/DeleteVersionModal.elm:131
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:239
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:352
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:241
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:355
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1151
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1531
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1535
@@ -902,8 +921,8 @@ msgstr "Yeniden Aç"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:370
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:195
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/DeleteModal.elm:104
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3456
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3612
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3471
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3627
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1309
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:250
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:226
@@ -912,247 +931,247 @@ msgstr "Yeniden Aç"
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:182
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:105
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:172
-#: app-wizard/elm/Wizard/Pages/Locales/Common/LocaleActionsDropdown.elm:109
+#: app-wizard/elm/Wizard/Pages/Locales/Common/LocaleActionsDropdown.elm:110
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:244
 #: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:188
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:125
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:162
 #: app-wizard/elm/Wizard/Pages/Projects/Common/DeleteProjectModal/View.elm:36
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings/DeleteModal.elm:123
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:241
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:356
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:243
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:359
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:128
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:165
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:672
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:298
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/AppKeys.elm:183
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:157
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:192
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:154
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:189
 msgid "Delete"
 msgstr "Sil"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3204
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3302
 msgid "edited"
 msgstr "düzenlenmiş"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3225
-#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:583
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3323
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:579
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:96
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:96
 msgid "Anonymous user"
 msgstr "İsimsiz kullanıcı"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3371
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3469
 msgid "This chapter contains no questions."
 msgstr "Bu bölümde soru bulunmamaktadır."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3374
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3472
 msgid "There are no questions matching the selected question tags."
 msgstr "Seçilen soru etiketleriyle eşleşen soru yok."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3387
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3856
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3485
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3957
 msgid "There are no questions in this phase."
 msgstr "Bu aşamada soru bulunmamaktadır."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3444
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3542
 msgid "Previous chapter"
 msgstr "Önceki Bölüm"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3449
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3547
 msgid "Next chapter"
 msgstr "Sonraki Bölüm"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3562
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3660
 msgid "anonymous user"
 msgstr "isimsiz kullanıcı"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3574
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3672
 msgid "Answered %s by %s."
 msgstr "%s %s tarafından cevaplandı."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3603
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3701
 msgid "This question has been answered"
 msgstr "Bu soru yanıtlandı"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3606
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3704
 msgid "This question should be answered now"
 msgstr "Bu soru şimdi cevaplanmalıdır"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3609
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3707
 msgid "This question can be answered later"
 msgstr "Bu soru daha sonra cevaplanabilir"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3681
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3782
 msgid "Clear answer"
 msgstr "Cevabı temizle"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3714
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3815
 msgid "There are no follow up questions in this phase."
 msgstr "Bu aşamada herhangi bir takip sorusu bulunmamaktadır."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3730
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3831
 msgid "Expand"
 msgstr "Genişlet"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3735
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3836
 msgid "%s %s follow up question"
 msgid_plural "%s %s follow up questions"
 msgstr[0] "%s %s takip sorusu"
 msgstr[1] "%s %s takip soruları"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3745
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3967
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3846
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4068
 msgid "Collapse"
 msgstr "Çöküş"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3779
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3880
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:67
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:102
 msgid "Expand all"
 msgstr "Tümünü genişlet"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3786
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3887
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:71
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:109
 msgid "Collapse all"
 msgstr "Tümünü daralt"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3799
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3900
 msgid "There are no answers yet."
 msgstr "Henüz cevap yok."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3824
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3925
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1082
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1322
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:514
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:520
 msgid "Add"
 msgstr "Ekle"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3848
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3949
 msgid "This item contains no questions."
 msgstr "Bu ürün soru içermemektedir."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3889
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3990
 msgid "Move up"
 msgstr "Yukarı taşı"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3902
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4003
 msgid "Move down"
 msgstr "Aşağı taşı"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:3929
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4030
 msgid "Used in item select questions:"
 msgstr "Öğe seçme sorularında kullanılır:"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4045
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4146
 msgid "This is not a valid email address."
 msgstr "Bu geçerli bir e-posta adresi değil."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4050
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4151
 msgid "This is not a valid URL."
 msgstr "Bu geçerli bir URL değil."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4058
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4159
 msgid "This is not a valid color."
 msgstr "Bu geçerli bir renk değil."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4183
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4284
 msgid "Select"
 msgstr "Seç"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4257
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4289
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4358
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4390
 msgid "There are no results for your search."
 msgstr "Aramanız için sonuç yok."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4266
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4298
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4367
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4399
 #: shared/common/elm/Common/Components/Flash.elm:55
 #: shared/common/elm/Common/Components/Page.elm:43
-#: shared/common/elm/Common/Components/TypeHintInput.elm:368
+#: shared/common/elm/Common/Components/TypeHintInput.elm:364
 msgid "Loading..."
 msgstr "Yükleniyor..."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4423
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4524
 msgid "There are no items to select from yet."
 msgstr "Henüz seçilecek öğe yok."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4428
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4529
 msgid "Create them now."
 msgstr "Onları şimdi oluştur."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4442
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4543
 msgid "This question does not have any configured list options to select from."
 msgstr "Bu sorunun seçilebilecek yapılandırılmış liste seçenekleri yok."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4460
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4561
 msgid "- select -"
 msgstr "- seçin -"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4467
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4568
 msgid "Go to item"
 msgstr "Öğeye git"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4480
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4581
 msgid "The selected item was deleted."
 msgstr "Seçilen öğe silindi."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4524
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4625
 msgid "The file was deleted."
 msgstr "Dosya silindi."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4547
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4648
 msgid "Upload file"
 msgstr "Dosya yükle"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4613
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4714
 msgid "This option leads to some follow up questions."
 msgstr "Bu seçenek bazı takip sorularına yol açmaktadır."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4667
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4768
 msgid "1 comment"
 msgid_plural "%s comments"
 msgstr[0] "1 yorum"
 msgstr[1] ""
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4701
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4802
 msgid "TODO"
 msgstr "Yapılacak"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4702
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4803
 msgid "Remove TODO"
 msgstr "Yapılacağı kaldır"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4712
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4813
 msgid "Add TODO"
 msgstr "Yapılacak ekle"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4734
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4835
 #: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:147
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:106
 msgid "Feedback"
 msgstr "Geri bildirim"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4751
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4912
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:490
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:261
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:265
 msgid "Copy link"
 msgstr "Bağlantıyı kopyala"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4775
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4936
 msgid "There are some item select questions using this item:"
 msgstr "Bu öğeyi kullanan bazı öğe seçme soruları vardır:"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4786
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4947
 msgid "Are you sure you want to remove this item?"
 msgstr "Bu öğeyi kaldırmak istediğinizden emin misiniz?"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4791
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4952
 msgid "Remove item"
 msgstr "Öğeyi kaldır"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4794
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4955
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:402
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:554
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:640
@@ -1161,14 +1180,14 @@ msgstr "Öğeyi kaldır"
 msgid "Remove"
 msgstr "Kaldırmak"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4819
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4980
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:161
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:290
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/AppKeys.elm:175
 msgid "Are you sure you want to delete %s?"
 msgstr "s'yi silmek istediğinizden emin misiniz?"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4823
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:4984
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:158
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:161
 msgid "Delete file"
@@ -1237,17 +1256,17 @@ msgstr "Geri bildiriminiz gönderildi."
 msgid "There are already some issues reported with this question."
 msgstr "Bu soruyla ilgili halihazırda bildirilen bazı sorunlar var."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:178
+#: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:175
 msgid "If you found something wrong with the question, you can send us your recommendation on how to improve it."
 msgstr "Soruda yanlış bir şey bulursanız, nasıl geliştirebileceğimize dair önerinizi bize gönderebilirsiniz."
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:180
+#: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:177
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1016
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1247
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1715
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1787
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3263
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3335
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1712
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1784
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3278
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3350
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:487
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:508
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:533
@@ -1272,14 +1291,14 @@ msgstr "Soruda yanlış bir şey bulursanız, nasıl geliştirebileceğimize dai
 msgid "Title"
 msgstr "Başlık"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:181
+#: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:178
 #: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:157
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:133
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:286
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1731
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1795
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1855
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3148
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1728
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1792
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1852
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3163
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:124
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:179
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:489
@@ -1367,7 +1386,7 @@ msgid "Name this version"
 msgstr "Bu sürümü adlandırın"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:364
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:212
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:211
 msgid "View questionnaire"
 msgstr "Anketi görüntüle"
 
@@ -1379,25 +1398,37 @@ msgstr "Belge oluştur"
 msgid "Revert to this version"
 msgstr "Bu sürüme geri dönün"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:540
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:536
 msgid "Deleted file"
 msgstr "Silinmiş dosya"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:549
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:545
 msgid "Cleared reply of"
 msgstr "Temizlenmiş yanıt"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:558
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:554
 msgid "Unset phase"
 msgstr "Ayarlanmamış aşama"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:566
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:562
 msgid "Unknown phase"
 msgstr "Bilinmeyen faz"
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:568
+#: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:564
 msgid "Set phase to %s"
 msgstr "Aşamayı %s olarak ayarla"
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/Importer.elm:88
+msgid "Question not found at: %s"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/Importer.elm:91
+msgid "Unexpected reply type at: %s"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/Questionnaire/Importer.elm:94
+msgid "Unexpected answer UUID \"%s\" at: %s"
+msgstr ""
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:52
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:843
@@ -1412,22 +1443,22 @@ msgstr "Bölüm"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:205
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1190
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3122
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3137
 msgid "Question"
 msgstr "Soru"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:208
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2806
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2821
 msgid "Answer"
 msgstr "Cevap"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:211
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2906
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2921
 msgid "Choice"
 msgstr "Seçim"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:214
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2968
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2983
 msgid "Reference"
 msgstr "Referans"
 
@@ -1466,7 +1497,7 @@ msgid "Search users..."
 msgstr "Arama kullanıcıları..."
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:156
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:118
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:122
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:90
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:132
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:285
@@ -1477,9 +1508,9 @@ msgstr "Arama kullanıcıları..."
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:53
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:74
 #: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:94
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1847
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2738
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3198
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1844
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2753
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3213
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:123
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:178
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:71
@@ -1510,7 +1541,7 @@ msgstr "Arama kullanıcıları..."
 #: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:62
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:312
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:412
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:107
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:111
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:134
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:205
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:241
@@ -1573,7 +1604,7 @@ msgstr "Yanıtlandı (geçerli aşama): %s/%s"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1601
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1639
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1677
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:319
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:323
 msgid "Metrics"
 msgstr "Metrikler"
 
@@ -1586,7 +1617,7 @@ msgstr "Ölçü"
 msgid "Metrics explanation"
 msgstr "Metrik açıklaması"
 
-#: app-wizard/elm/Wizard/Components/Tag.elm:43
+#: app-wizard/elm/Wizard/Components/Tag.elm:40
 msgid "There are no question tags configured for the knowledge model."
 msgstr "Bilgi Modeli için yapılandırılmış soru etiketi yoktur."
 
@@ -1607,20 +1638,20 @@ msgid "Question Tags"
 msgstr "Soru Etiketleri"
 
 #: app-wizard/elm/Wizard/Components/Tag.elm:132
+msgid "No need to choose question tags for this knowledge model."
+msgstr "Bu bilgi modeli için soru etiketi seçmeye gerek yoktur."
+
+#: app-wizard/elm/Wizard/Components/Tag.elm:137
 msgid "You can either use all questions from the knowledge model or filter them by question tags."
 msgstr "Bilgi modelindeki tüm soruları kullanabilir veya bunları soru etiketlerine göre filtreleyebilirsiniz."
 
-#: app-wizard/elm/Wizard/Components/Tag.elm:140
+#: app-wizard/elm/Wizard/Components/Tag.elm:145
 msgid "Use all questions"
 msgstr "Tüm soruları kullanın"
 
-#: app-wizard/elm/Wizard/Components/Tag.elm:149
+#: app-wizard/elm/Wizard/Components/Tag.elm:154
 msgid "Filter by question tags"
 msgstr "Soru etiketlerine göre filtrele"
-
-#: app-wizard/elm/Wizard/Components/Tag.elm:158
-msgid "No need to choose question tags for this knowledge model."
-msgstr "Bu bilgi modeli için soru etiketi seçmeye gerek yoktur."
 
 #: app-wizard/elm/Wizard/Components/Tag.elm:166
 msgid "There are no question tags for this knowledge model."
@@ -1657,24 +1688,24 @@ msgstr "Depolama"
 msgid "Unlimited"
 msgstr "Sınırsız"
 
-#: app-wizard/elm/Wizard/Layouts/Layout.elm:36
-#: app-wizard/elm/Wizard/Layouts/Layout.elm:44
+#: app-wizard/elm/Wizard/Layouts/Layout.elm:37
+#: app-wizard/elm/Wizard/Layouts/Layout.elm:45
 msgid "Configuration Error"
 msgstr "Yapılandırma Hatası"
 
-#: app-wizard/elm/Wizard/Layouts/Layout.elm:38
+#: app-wizard/elm/Wizard/Layouts/Layout.elm:39
 msgid "Application is not configured correctly and cannot run."
 msgstr "Uygulama doğru yapılandırılmamış ve çalıştırılamıyor."
 
-#: app-wizard/elm/Wizard/Layouts/Layout.elm:39
+#: app-wizard/elm/Wizard/Layouts/Layout.elm:40
 msgid "Please, contact the administrator."
 msgstr "Lütfen yönetici ile iletişime geçin."
 
-#: app-wizard/elm/Wizard/Layouts/Layout.elm:97
+#: app-wizard/elm/Wizard/Layouts/Layout.elm:98
 msgid "Go to App"
 msgstr "Uygulamaya git"
 
-#: app-wizard/elm/Wizard/Layouts/Layout.elm:108
+#: app-wizard/elm/Wizard/Layouts/Layout.elm:109
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:44
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:47
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:75
@@ -1683,7 +1714,7 @@ msgstr "Uygulamaya git"
 msgid "Sign Up"
 msgstr "Kaydolun"
 
-#: app-wizard/elm/Wizard/Layouts/Layout.elm:117
+#: app-wizard/elm/Wizard/Layouts/Layout.elm:118
 #: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:93
 #: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:115
 #: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:129
@@ -1696,7 +1727,7 @@ msgstr "Atanmış Yorumlar"
 
 #: app-wizard/elm/Wizard/Pages/Comments/View.elm:34
 #: app-wizard/elm/Wizard/Pages/Comments/View.elm:70
-#: app-wizard/elm/Wizard/Pages/Projects/Migration/View.elm:201
+#: app-wizard/elm/Wizard/Pages/Projects/Migration/View.elm:203
 msgid "Resolved"
 msgstr "Çözüldü"
 
@@ -1863,7 +1894,7 @@ msgstr "Bilgi modeli, neyin nasıl sorulması gerektiğine ilişkin bilgileri i�
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:106
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:292
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:84
-#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:30
+#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:27
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:224
 #: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:43
 msgid "Create"
@@ -1947,7 +1978,7 @@ msgstr "Henüz hiç projeniz yok, birkaç tane oluşturarak başlayın."
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/UsageWidget.elm:27
 #: app-wizard/elm/Wizard/Pages/Settings/Usage/View.elm:22
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:163
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:191
 msgid "Usage"
 msgstr "Kullanım"
 
@@ -1971,51 +2002,51 @@ msgstr "Bir veri sorumlusu olarak araştırmacılar için bilgi modelleri, belge
 msgid "As a researcher, you create and collaborate on data management plans."
 msgstr "Bir araştırmacı olarak, veri yönetimi planları oluşturur ve bu planlar üzerinde işbirliği yaparsınız."
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/Update.elm:96
-#: app-wizard/elm/Wizard/Pages/Documents/Index/Update.elm:247
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/Update.elm:225
+#: app-wizard/elm/Wizard/Pages/Documents/Index/Update.elm:100
+#: app-wizard/elm/Wizard/Pages/Documents/Index/Update.elm:251
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/Update.elm:229
 msgid "Unable to get documents."
 msgstr "Belgelere ulaşılamıyor."
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/Update.elm:138
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/Update.elm:116
+#: app-wizard/elm/Wizard/Pages/Documents/Index/Update.elm:142
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/Update.elm:120
 msgid "Document could not be deleted."
 msgstr "Belge silinemedi."
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/Update.elm:193
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/Update.elm:171
+#: app-wizard/elm/Wizard/Pages/Documents/Index/Update.elm:197
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/Update.elm:175
 msgid "Unable to get submission services for the document."
 msgstr "Belge için gönderim hizmetleri alınamıyor."
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/Update.elm:232
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/Update.elm:210
+#: app-wizard/elm/Wizard/Pages/Documents/Index/Update.elm:236
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/Update.elm:214
 msgid "Unable to submit the document."
 msgstr "Belge gönderilemiyor."
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:78
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:81
 msgid "Project Documents"
 msgstr "Proje Belgeleri"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:96
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:80
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:100
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:84
 msgid "Submissions"
 msgstr "Başvurular"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:108
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:112
 msgid "There are no documents."
 msgstr "Hiçbir belge yok."
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:116
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:120
 msgid "Search documents..."
 msgstr "Belgeleri arayın..."
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:119
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:123
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:54
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:75
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:72
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:74
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:55
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:108
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:112
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:55
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:135
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:267
@@ -2024,71 +2055,71 @@ msgstr "Belgeleri arayın..."
 msgid "Created"
 msgstr "Oluşturuldu"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:135
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:132
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:139
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:136
 msgid "Click to download the document"
 msgstr "Belgeyi indirmek için tıklayın"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:203
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:202
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1428
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:438
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:116
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:169
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:189
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:188
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:116
 msgid "Download"
 msgstr "İndir"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:215
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:378
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:386
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:201
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:382
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:390
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:214
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:381
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:389
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:200
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:385
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:393
 msgid "Submit"
 msgstr "Gönder"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:227
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:312
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:229
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:313
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:226
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:315
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:228
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:316
 msgid "View error"
 msgstr "Hatayı görüntüle"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:262
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:264
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:265
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:267
 msgid "Queued"
 msgstr "Sırada"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:268
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:270
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:271
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:273
 msgid "In Progress"
 msgstr "Devam Ediyor"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:276
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:294
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:277
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:295
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:279
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:297
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:280
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:298
 #: shared/common/elm/Common/Components/Page.elm:51
 msgid "Error"
 msgstr "Hata"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:287
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:288
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:290
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:291
 msgid "Submitting"
 msgstr "Gönderiliyor"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:291
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:292
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:294
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:295
 msgid "Submitted"
 msgstr "Teslim edildi"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:306
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:307
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:309
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:310
 msgid "View submission"
 msgstr "Gönderimi görüntüle"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:344
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:347
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1524
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:139
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:360
@@ -2098,48 +2129,48 @@ msgstr "Gönderimi görüntüle"
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:152
 #: app-wizard/elm/Wizard/Pages/Projects/Common/DeleteProjectModal/View.elm:26
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings/DeleteModal.elm:113
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:346
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:349
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:155
 msgid "Are you sure you want to permanently delete %s?"
 msgstr "s'yi kalıcı olarak silmek istediğinizden emin misiniz?"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:348
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:352
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:351
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:355
 msgid "Delete document"
 msgstr "Belgeyi sil"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:415
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:419
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:414
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:418
 msgid "There are no submission services configured for this type of document."
 msgstr "Bu belge türü için yapılandırılmış herhangi bir gönderim hizmeti bulunmamaktadır."
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:431
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:435
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:434
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:438
 msgid "You can find it here: "
 msgstr "Burada bulabilirsiniz: "
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:441
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:445
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:444
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:448
 msgid "The document was successfully submitted."
 msgstr "Belge başarıyla gönderildi."
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:447
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:451
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:450
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:454
 msgid "The document submission failed."
 msgstr "Belge gönderimi başarısız oldu."
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:469
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:473
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:472
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:476
 msgid "Submit %s"
 msgstr "Gönder %s"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:511
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:515
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:514
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:518
 msgid "Document error"
 msgstr "Belge hatası"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:534
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:538
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:537
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:541
 msgid "Submission error"
 msgstr "Gönderim hatası"
 
@@ -2215,9 +2246,9 @@ msgstr "Yeniden Adlandır"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1127
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:204
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:208
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3441
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3680
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3693
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3456
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3695
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3708
 msgid "Move"
 msgstr "Hareket"
 
@@ -2363,7 +2394,7 @@ msgstr "Beni oku"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:132
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:136
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:128
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2639
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2633
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:43
 msgid "Publish"
 msgstr "Yayınla"
@@ -2378,7 +2409,7 @@ msgstr "Genel"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:260
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:348
-#: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:250
+#: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:253
 msgid "Formats"
 msgstr "Formatlar"
 
@@ -2438,7 +2469,7 @@ msgstr "Simge"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:522
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:195
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:62
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:328
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:332
 #: shared/common/elm/Common/Components/FormGroup.elm:591
 msgid "Preview"
 msgstr "Önizleme"
@@ -2480,7 +2511,7 @@ msgid "Value"
 msgstr "Değer"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:526
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2068
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2065
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:160
 msgid "Quick setup"
 msgstr "Hızlı kurulum"
@@ -2535,14 +2566,14 @@ msgstr "Belge şablonu düzenleyicisini sil"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Common/DocumentTemplateActionsDropdown.elm:49
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/RegistryImport/View.elm:90
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/View.elm:91
-#: app-wizard/elm/Wizard/Pages/Locales/Common/LocaleActionsDropdown.elm:51
-#: app-wizard/elm/Wizard/Pages/Locales/Import/RegistryImport/View.elm:90
+#: app-wizard/elm/Wizard/Pages/Locales/Common/LocaleActionsDropdown.elm:52
+#: app-wizard/elm/Wizard/Pages/Locales/Import/RegistryImport/View.elm:91
 msgid "View detail"
 msgstr "Detayları görüntüle"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Common/DocumentTemplateActionsDropdown.elm:61
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:74
-#: app-wizard/elm/Wizard/Pages/Locales/Common/LocaleActionsDropdown.elm:63
+#: app-wizard/elm/Wizard/Pages/Locales/Common/LocaleActionsDropdown.elm:64
 msgid "Export"
 msgstr "İhracat"
 
@@ -2608,7 +2639,7 @@ msgid "This document template is not supported in the current version."
 msgstr "Bu belge şablonu mevcut sürümde desteklenmemektedir."
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:226
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2726
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2741
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:711
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:740
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:810
@@ -2633,9 +2664,9 @@ msgstr "Metamodel"
 msgid "Document Template"
 msgstr "Belge Şablonu"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:274
-#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:219
-#: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:191
+#: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:277
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:222
+#: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:194
 msgid "Other versions"
 msgstr "Diğer versiyonlar"
 
@@ -2660,7 +2691,7 @@ msgstr "Kayıt Bağlantısı"
 msgid "View in registry"
 msgstr "Kayıt defterinde görüntüle"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:341
+#: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:344
 msgid "Usable with"
 msgstr "İle kullanılabilir"
 
@@ -2742,7 +2773,7 @@ msgid "New parent knowledge model"
 msgstr "Yeni ebeveyn bilgi modeli"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/UpgradeModal.elm:164
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:557
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:564
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:636
 msgid "Create migration"
 msgstr "Taşıma oluşturun"
@@ -2776,8 +2807,8 @@ msgstr "İsimsiz bölüm"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:454
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1046
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1391
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2848
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3489
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2863
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3504
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:351
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/TreeInput.elm:223
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:258
@@ -2822,7 +2853,7 @@ msgid "Untitled answer"
 msgstr "İsimsiz cevap"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:472
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1549
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1546
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:391
 msgid "Untitled choice"
 msgstr "İsimsiz seçim"
@@ -2848,156 +2879,156 @@ msgid "Untitled resource collection"
 msgstr "İsimsiz kaynak koleksiyonu"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:484
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3007
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3282
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3022
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3297
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:459
 msgid "Untitled resource page"
 msgstr "İsimsiz kaynak sayfası"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1050
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1058
 msgid "Empty title for chapter"
 msgstr "Bölüm için boş başlık"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1079
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1087
 msgid "Empty title for question"
 msgstr "Soru için boş başlık"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1088
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1096
 msgid "No answers for options question"
 msgstr "Seçenekler sorusu için yanıt yok"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1097
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1105
 msgid "No item questions for list question"
 msgstr "Liste sorusu için madde sorusu yok"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1108
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1116
 msgid "No integration selected for integration question"
 msgstr "Entegrasyon sorusu için entegrasyon seçilmedi"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1122
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1130
 msgid "Missing variables for integration question"
 msgstr "Entegrasyon sorusu için eksik değişkenler"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1137
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1145
 msgid "No choices for multi-choice question"
 msgstr "Çoktan seçmeli soru için seçenek yok"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1155
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1163
 msgid "No list question selected for item select question"
 msgstr "Öğe seçme sorusu için liste sorusu seçilmedi"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1182
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1190
 msgid "Empty label for answer"
 msgstr "Cevap için boş etiket"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1201
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1209
 msgid "Empty label for choice"
 msgstr "Seçim için boş etiket"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1221
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1229
 msgid "No resource page selected for resource page reference"
 msgstr "Kaynak sayfası referansı için kaynak sayfası seçilmemiş"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1228
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1236
 msgid "Empty URL for URL reference"
 msgstr "URL referansı için boş URL"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1231
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1239
 msgid "Invalid URL for URL reference"
 msgstr "URL referansı için geçersiz URL"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1250
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1258
 msgid "Empty email for expert"
 msgstr "Uzman için boş e-posta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1253
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1261
 msgid "Invalid email for expert"
 msgstr "Uzman için geçersiz e-posta"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1263
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1271
 msgid "Empty title for metric"
 msgstr "Metrik için boş başlık"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1275
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1283
 msgid "Empty title for phase"
 msgstr "Aşama için boş başlık"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1287
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1295
 msgid "Empty name for tag"
 msgstr "Etiket için boş ad"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1309
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1317
 msgid "Empty name for integration"
 msgstr "Entegrasyon için boş ad"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1316
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1324
 msgid "Empty variable name for integration"
 msgstr "Entegrasyon için boş değişken adı"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1323
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1413
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1331
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1421
 msgid "Empty request URL for integration"
 msgstr "Entegrasyon için boş istek URL'si"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1335
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1343
 msgid "Missing {{ q }} in request URL for integration"
 msgstr "Entegrasyon için istek URL'sinde {{ q }} eksik"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1342
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1350
 msgid "Unknown Jinja property in request URL for integration: %s"
 msgstr "Entegrasyon için istek URL'sinde bilinmeyen Jinja özelliği: %s"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1349
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1357
 msgid "Unknown variable in request URL for integration: %s"
 msgstr "Entegrasyon için istek URL'sinde bilinmeyen değişken: %s"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1356
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1364
 msgid "Unknown secret in request URL for integration: %s"
 msgstr "Entegrasyon için istek URL'sinde bilinmeyen gizli bilgi: %s"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1366
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1374
 msgid "No test data loaded for integration"
 msgstr "Entegrasyon için test verisi yüklenmedi"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1377
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1385
 msgid "Response list field not found in test data for integration"
 msgstr "Entegrasyon için test verilerinde yanıt liste alanı bulunamadı"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1380
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1388
 msgid "Response list field is not a list in test data for integration"
 msgstr "Entegrasyon için test verilerindeki yanıt liste alanı bir liste değil"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1391
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1399
 msgid "No test data success response for integration"
 msgstr "Entegrasyon için test verilerinde başarılı yanıt yok"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1395
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1427
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1403
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1435
 msgid "Empty response item template for integration"
 msgstr "Entegrasyon için boş yanıt öğesi şablonu"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1406
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1438
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1414
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1446
 msgid "Empty ID for integration"
 msgstr "Entegrasyon için boş kimlik"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1420
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1428
 msgid "Empty request HTTP method for integration"
 msgstr "Entegrasyon için boş istek HTTP yöntemi"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1445
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1453
 msgid "Empty widget URL for integration"
 msgstr "Entegrasyon için boş widget URL'si"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1459
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1467
 msgid "Empty title for resource collection"
 msgstr "Kaynak koleksiyonu için boş başlık"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1480
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1488
 msgid "Empty title for resource page"
 msgstr "Kaynak sayfası için boş başlık"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1490
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1498
 msgid "Empty content for resource page"
 msgstr "Kaynak sayfası için boş içerik"
 
@@ -3022,9 +3053,9 @@ msgstr "Artık uyarı yok."
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:71
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:177
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:137
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:106
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:214
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:548
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:110
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:218
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:555
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:579
 msgid "Knowledge Model"
 msgstr "Bilgi Modeli"
@@ -3101,7 +3132,7 @@ msgstr "Sorular"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1047
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1392
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2849
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2864
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:199
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:296
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:370
@@ -3114,8 +3145,8 @@ msgid "List of Items"
 msgstr "Öğelerin Listesi"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1176
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1511
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1996
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1508
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1993
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1075
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1182
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1353
@@ -3136,7 +3167,7 @@ msgid "Never"
 msgstr "Asla"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1202
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2008
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2005
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:683
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:710
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:739
@@ -3228,7 +3259,7 @@ msgid "Time"
 msgstr "Zaman"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1422
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3206
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3221
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2131
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2150
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2172
@@ -3237,7 +3268,7 @@ msgstr "Zaman"
 #: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:85
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:143
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:143
-#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:37
+#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:38
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:215
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:248
 #: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:61
@@ -3245,8 +3276,8 @@ msgid "Email"
 msgstr "E-posta"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1423
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2962
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3052
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2977
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3067
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1806
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1809
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1870
@@ -3266,7 +3297,7 @@ msgid "URL"
 msgstr "URL"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1424
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1863
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1860
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:616
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:638
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:663
@@ -3293,143 +3324,143 @@ msgstr "- entegrasyonu seçin -"
 msgid "Integration Configuration"
 msgstr "Entegrasyon Yapılandırması"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1505
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1502
 msgid "Go to integration"
 msgstr "Entegrasyona git"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1538
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1535
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1252
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1386
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1483
 msgid "Choices"
 msgstr "Seçenekler"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1550
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1547
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:308
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:277
 msgid "Add choice"
 msgstr "Seçim ekleyin"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1588
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1585
 msgid "List Question"
 msgstr "Liste Sorusu"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1590
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1587
 msgid "- select list question -"
 msgstr "- liste sorusu seç -"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1602
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1599
 msgid "Go to list question"
 msgstr "Liste sorusuna git"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1623
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1620
 msgid "File Types"
 msgstr "Dosya Türleri"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1631
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1628
 msgid "Max Size (bytes)"
 msgstr "Maksimum Boyut (bayt)"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1638
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1635
 msgid "You can limit file type selection by providing comma separated list of extensions, mime types, or combination. For example, `application/pdf` or `.xls,.xlsx`."
 msgstr "Dosya türü seçimini, virgülle ayrılmış uzantılar, mim türleri veya kombinasyon listesi sağlayarak sınırlayabilirsiniz. Örneğin, `application/pdf` veya `.xls,.xlsx`."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1640
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1637
 msgid "Uploaded files cannot be larger than %s, but you can set a smaller limit."
 msgstr "Yüklenen dosyalar %s'den büyük olamaz, ancak daha küçük bir sınır belirleyebilirsiniz."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1648
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1645
 msgid "Item select questions using this list question"
 msgstr "Bu liste sorusunu kullanarak madde seçme soruları"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1703
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1700
 msgid "Metric"
 msgstr "Metrik"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1723
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1720
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:488
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:509
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:534
 msgid "Abbreviation"
 msgstr "Kısaltma"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1775
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1772
 msgid "Phase"
 msgstr "Aşama"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1835
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1832
 msgid "Tag"
 msgstr "Etiket"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1989
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1986
 msgid "API"
 msgstr "API"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1990
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1987
 msgid "API (Legacy)"
 msgstr "API (Eski)"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1991
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1988
 msgid "Widget"
 msgstr "Widget"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2034
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3359
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2031
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3374
 msgid "No questions"
 msgstr "Soru yok"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2084
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2081
 msgid "This integration was created from a template and now differs."
 msgstr "Bu entegrasyon bir şablondan oluşturulmuştur ve artık farklıdır."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2089
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2086
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:220
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:199
 msgid "Update"
 msgstr "Güncelleme"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2105
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2102
 msgid "Questions using this integration"
 msgstr "Bu entegrasyonu kullanan sorular"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2131
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2128
 msgid "Allow Custom Reply"
 msgstr "Özel Yanıta İzin Ver"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2135
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2132
 msgid "If enabled, users can type their own custom reply. If disabled, they must select a reply from the integration."
 msgstr "Etkinleştirilirse, kullanıcılar kendi özel yanıtlarını yazabilir. Devre dışı bırakılırsa, yanıtı entegrasyondan seçmeleri gerekir."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2140
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2761
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2137
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2776
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:685
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:772
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:893
 msgid "Variables"
 msgstr "Değişkenler"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2145
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2142
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the request configuration. For example, if you define a variable named *type*, you can use it as `{{ variables.type }}`, such as *ht&#8203;tps://example.com/{{ variables.type }}*."
 msgstr "Değişkenler, her soru için entegrasyonu parametreleştirmek amacıyla kullanılabilir. Bu, bu entegrasyonu kullanarak sorularda doldurulabilecek değişkenleri tanımlamak için kullanılır. Değişkenler daha sonra istek yapılandırmasında kullanılabilir. Örneğin, *type* adında bir değişken tanımlarsanız, bunu `{{ variables.type }}` olarak kullanabilirsiniz; örneğin *https://example.com/{{ type }}*."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2161
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2158
 msgid "There are no secrets configured."
 msgstr "Hiç gizli bilgi yapılandırılmamış."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2171
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2168
 msgid "Configure secrets"
 msgstr "Gizli bilgileri yapılandır"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2174
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2171
 msgid "Secrets can store sensitive information used for API calls, such as tokens, that you don't want to share with the knowledge models. You can use them as `{{ secrets.secret_name }}` anywhere in the request configuration."
 msgstr "Gizli bilgiler, API çağrılarında kullanılan ve bilgi modelleriyle paylaşmak istemediğiniz tokenlar gibi hassas bilgileri saklayabilir. Bunları istek yapılandırmasının herhangi bir yerinde `{{ secrets.secret_name }}` olarak kullanabilirsiniz."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2181
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2178
 msgid "Advanced Integration Configuration"
 msgstr "Gelişmiş Entegrasyon Yapılandırması"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2192
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2604
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2189
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2619
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:688
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:717
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:775
@@ -3439,12 +3470,12 @@ msgstr "Gelişmiş Entegrasyon Yapılandırması"
 msgid "Request HTTP Headers"
 msgstr "HTTP Üstbilgileri İste"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2196
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2193
 msgid "HTTP headers to include in the API request. You can use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
 msgstr "API isteğine dahil edilecek HTTP başlıkları. Arama terimi için `{{ q }}` ve değişkenlere başvurmak için `{{ variables.name }}` ile gizli bilgiler için `{{ secrets.name }}` kullanabilirsiniz."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2199
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2612
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2196
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2627
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:689
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:718
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:776
@@ -3454,84 +3485,88 @@ msgstr "API isteğine dahil edilecek HTTP başlıkları. Arama terimi için `{{ 
 msgid "Request HTTP Body"
 msgstr "İstek HTTP Gövdesi"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2203
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2200
 msgid "Optional request body of the API request. You can again use `{{ q }}` for the search term and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
 msgstr "API isteğinin isteğe bağlı gövdesi. Arama terimi için tekrar `{{ q }}` ve değişkenlere başvurmak için `{{ variables.name }}` ile gizli bilgiler için `{{ secrets.name }}` kullanabilirsiniz."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2206
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2620
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2203
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2635
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:690
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:777
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:898
 msgid "Allow Empty Search"
 msgstr "Boş Aramaya İzin Ver"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2210
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2207
 msgid "If enabled, the API request will be sent even if the user does not enter a search term. This is useful for APIs that return a default set of results when no search term is provided."
 msgstr "Etkinleştirilirse, kullanıcı bir arama terimi girmese bile API isteği gönderilir. Bu, arama terimi verilmediğinde varsayılan bir sonuç kümesi döndüren API’ler için kullanışlıdır."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2216
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2213
 msgid "Advanced Request Configuration"
 msgstr "Gelişmiş İstek Yapılandırması"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2225
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2654
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2222
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2669
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:229
 msgid "Request"
 msgstr "İstek"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2226
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2223
 msgid "Import from cURL string"
 msgstr "cURL dizisinden içe aktar"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2244
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2241
 msgid "Enter request URL..."
 msgstr "İstek URL'sini girin..."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2248
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2245
 msgid "The full API endpoint used for search. Use `{{ q }}` to insert the user's search term (for example, *https://example.com/search?q={{ q }}*), and `{{ variables.name }}` for referencing variables and `{{ secrets.name }}` for secrets."
 msgstr "Arama için kullanılan tam API uç noktası. Kullanıcının arama terimini eklemek için `{{ q }}` ve değişkenlere başvurmak için `{{ variables.name }}` ile gizli bilgiler için `{{ secrets.name }}` kullanın; örneğin *https://example.com/search?q={{ q }}*."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2272
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2269
 msgid "Test Variables"
 msgstr "Test Değişkenleri"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2312
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2309
 msgid "Request Details"
 msgstr "İstek Detayları"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2340
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2337
 msgid "This content type is not supported."
 msgstr "Bu içerik türü desteklenmiyor."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2352
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2349
 msgid "The response body is too large to display with syntax highlight."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2378
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2523
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2669
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2379
+msgid "Copy response"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2384
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2538
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2684
 msgid "Response"
 msgstr "Yanıt"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2404
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2419
 msgid "Test"
 msgstr "Test"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2408
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2423
 msgid "Test Search Query"
 msgstr "Test Arama Sorgusu"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2412
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2427
 msgid "This is what users would write in the questionnaire when filling in the integration question."
 msgstr "Bu, kullanıcıların entegrasyon sorusunu doldururken anket formuna yazacakları şeydir."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2415
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2430
 msgid "Load"
 msgstr "Yükle"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2462
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2636
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2477
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2651
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:691
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:719
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:778
@@ -3541,13 +3576,13 @@ msgstr "Yükle"
 msgid "Response List Field"
 msgstr "Yanıt Listesi Alanı"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2468
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2673
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2483
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2688
 msgid "If the returned JSON is not an array of items directly but the items are nested, use this to define the name or path to the field in the response that contains the list of items. Keep empty otherwise."
 msgstr "Döndürülen JSON doğrudan bir öğe dizisi değilse, ancak öğeler iç içe geçmişse, öğe listesini içeren yanıttaki alanın adını veya yolunu tanımlamak için bunu kullanın. Aksi takdirde boş tutun."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2478
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2644
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2493
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2659
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:692
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:721
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:779
@@ -3557,30 +3592,30 @@ msgstr "Döndürülen JSON doğrudan bir öğe dizisi değilse, ancak öğeler i
 msgid "Response Item Template"
 msgstr "Yanıt Öğesi Şablonu"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2496
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2511
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:693
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:780
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:901
 msgid "Response Item Template for Selection"
 msgstr "Seçim için Yanıt Ögesi Şablonu"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2514
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2529
 msgid "Advanced Response Configuration"
 msgstr "Gelişmiş Yanıt Yapılandırması"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2530
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2545
 msgid "Response is not a valid JSON."
 msgstr "Yanıt geçerli bir JSON değil."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2534
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2549
 msgid "Run a successful test to configure the response."
 msgstr "Yanıtı yapılandırmak için başarılı bir test çalıştırın."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2559
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2574
 msgid "Click to copy code"
 msgstr "Kodu kopyalamak için tıklayın"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2587
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2602
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:687
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:716
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:774
@@ -3590,7 +3625,7 @@ msgstr "Kodu kopyalamak için tıklayın"
 msgid "Request URL"
 msgstr "İstek URL'si"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2595
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2610
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:686
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:715
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:773
@@ -3600,85 +3635,85 @@ msgstr "İstek URL'si"
 msgid "Request HTTP Method"
 msgstr "İstek HTTP Yöntemi"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2628
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2643
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:720
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:819
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:928
 msgid "Response Item ID"
 msgstr "Yanıt Öğe Kimliği"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2656
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2671
 msgid "Use this section to configure the search request. The service you want to integrate has to provide a search HTTP API where you send a search string and it returns a JSON with found items."
 msgstr "Arama isteğini yapılandırmak için bu bölümü kullanın. Entegre etmek istediğiniz hizmet, bir arama dizesi gönderdiğiniz ve bulunan öğeleri içeren bir JSON döndüren bir arama HTTP API'si sağlamalıdır."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2658
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2673
 msgid "The full API endpoint used for search. Use `${q}` to insert the user's search term (for example, *https://example.com/search?q=${q}*), and `${propName}` to reference fields defined in props."
 msgstr "Tam API uç noktası arama için kullanılır. Kullanıcının arama terimini eklemek için `${q}` kullanın (örneğin, *https://example.com/search?q=${q}*), ve props içinde tanımlı alanlara referans vermek için `${propName}` kullanın."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2661
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2676
 msgid "Optional headers to include in the API request. You can use `${q}` for the search term and `${propName}` for values from props."
 msgstr "API isteğine dahil edilebilecek isteğe bağlı başlıklar. Arama terimi için `${q}`, props içindeki değerler için ise `${propName}` kullanılabilir."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2663
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2678
 msgid "Optional request body for POST or PUT methods. Supports the same variables: `${q}` for the search term and `${propName}` for props."
 msgstr "POST veya PUT yöntemleri için isteğe bağlı istek gövdesi. Aynı değişkenleri destekler: arama terimi için `${q}`, props için `${propName}`."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2665
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2680
 msgid "Turn this off if the API cannot handle empty search requests. In that case, the requests will be made only after users type something."
 msgstr "API boş arama isteklerini işleyemiyorsa bunu kapatın. Bu durumda, istekler yalnızca kullanıcılar bir şey yazdıktan sonra yapılacaktır."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2671
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2686
 msgid "Use this section to configure how to process the response returned from the search API."
 msgstr "Arama API'sinden döndürülen yanıtın nasıl işleneceğini yapılandırmak için bu bölümü kullanın."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2675
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2690
 msgid "Use this to define an identifier for the item. This will be used in **Item URL** as `${id}` to compose a URL to the found item. You can use properties from the returned item in Jinja2 notation. For example, if the item has a field `id` use `{{item.id}}` here. You can also compose multiple fields together, e.g., `{{item.field1}}-{{item.field2}}`."
 msgstr "Öğe için bir tanımlayıcı tanımlamak için bunu kullanın. Bu, bulunan öğeye bir URL oluşturmak için **Item URL** içinde `${id}` olarak kullanılacaktır. Jinja2 gösteriminde döndürülen öğenin özelliklerini kullanabilirsiniz. Örneğin, öğenin bir `id` alanı varsa burada `{{item.id}}` kullanın. Ayrıca birden fazla alanı bir araya getirebilirsiniz, örneğin, `{item.field1}}-{{item.field2}}`."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2678
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2693
 msgid "This defines how the found items will be displayed for the user. You can use properties from the returned item in Jinja2 notation, you can also use [Markdown](%s) for some formatting. For example, if the returned item has a field called name, you can use `**{{item.name}}**` to display the name in bold."
 msgstr "Bu, bulunan öğelerin kullanıcı için nasıl görüntüleneceğini tanımlar. Dönen öğenin özelliklerini Jinja2 notasyonunda kullanabilir, bazı biçimlendirmeler için [Markdown](%s) da kullanabilirsiniz. Örneğin, döndürülen öğenin adında bir alan varsa, adı kalın olarak görüntülemek için `**{{item.name}}**` kullanabilirsiniz."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2684
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2699
 msgid "Defines the URL to the selected item. Use `${id}` to get the value defined in **Response Item ID** field, for example `https://example.com/${id}`."
 msgstr "Seçilen öğenin URL'sini tanımlar. Örneğin `https://example.com/${id}` gibi **Response Item ID** alanında tanımlanan değeri almak için `${id}` kullanın."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2706
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2721
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:744
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:856
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:952
 msgid "Widget URL"
 msgstr "Widget URL'si"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2716
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2731
 msgid "The URL of the widget implemented using [DSW Integration SDK](https://github.com/ds-wizard/dsw-integration-sdk)."
 msgstr "DSW Integration SDK](https://github.com/ds-wizard/dsw-integration-sdk) kullanılarak uygulanan widget'ın URL'si."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2718
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2733
 msgid "Defines the URL to the selected item. Use `${id}` value returned from the widget, for example `https://example.com/${id}`."
 msgstr "Seçilen öğenin URL'sini tanımlar. Widget'tan döndürülen `${id}` değerini kullanın, örneğin `https://example.com/${id}`."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2730
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2745
 msgid "A string that identifies the integration. It has to be unique for each integration."
 msgstr "Entegrasyonu tanımlayan bir dize. Her entegrasyon için benzersiz olmalıdır."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2742
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2757
 msgid "A name visible everywhere else in the knowledge model Editor, such as when choosing the integration for a question."
 msgstr "Bir soru için entegrasyon seçerken olduğu gibi, bilgi modeli Düzenleyicisinde başka her yerde görülebilen bir ad."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2750
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2765
 msgid "Logo URL"
 msgstr "Logo URL'si"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2754
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2769
 msgid "Logo is displayed next to the link to the selected item in questionnaires. It can be either URL or base64 image."
 msgstr "Logo, anketlerde seçilen öğenin bağlantısının yanında görüntülenir. URL veya base64 görüntüsü olabilir."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2766
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2781
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the URL configuration. For example, if you define a variable named *type*, you can use it as `${type}`, such as *ht&#8203;tps://example.com/${type}*."
 msgstr "Her bir soru için entegrasyonu parametrize etmek için proplar kullanılabilir. Bu entegrasyonu kullanan sorularda değeri doldurulabilecek propları tanımlamak için bunu kullanın. Bu proplar daha sonra URL yapılandırmasında kullanılabilir. Örneğin, *type* adında bir prop tanımlarsanız, bunu `${type}` şeklinde kullanabilirsiniz, örneğin *https://example.com/${type}*."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2774
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2789
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:714
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:743
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:813
@@ -3688,9 +3723,9 @@ msgstr "Her bir soru için entegrasyonu parametrize etmek için proplar kullanı
 msgid "Item URL"
 msgstr "Ürün URL'si"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2818
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2918
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3074
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2833
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2933
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3089
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1542
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1568
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1619
@@ -3707,7 +3742,7 @@ msgstr "Ürün URL'si"
 msgid "Label"
 msgstr "Etiket"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2826
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2841
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1543
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1569
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1620
@@ -3715,13 +3750,13 @@ msgstr "Etiket"
 msgid "Advice"
 msgstr "Tavsiye"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2837
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2852
 msgid "Follow-Up Questions"
 msgstr "Takip Soruları"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2961
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3022
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3323
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2976
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3037
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3338
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1789
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1852
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1855
@@ -3731,7 +3766,7 @@ msgstr "Takip Soruları"
 msgid "Resource Page"
 msgstr "Kaynak Sayfası"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2963
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2978
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1830
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1896
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1900
@@ -3741,7 +3776,7 @@ msgstr "Kaynak Sayfası"
 msgid "Cross Reference"
 msgstr "Çapraz Referans"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2980
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2995
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1786
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1805
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1826
@@ -3760,43 +3795,43 @@ msgstr "Çapraz Referans"
 msgid "Reference Type"
 msgstr "Referans Tipi"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3024
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3039
 msgid "- select resource page -"
 msgstr "- kaynak sayfasını seçin -"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3061
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3076
 msgid "This URL failed the check:"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3124
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3139
 msgid "- select related question -"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3138
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3153
 msgid "Go to related question"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3186
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3201
 msgid "Expert"
 msgstr "Uzman"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3251
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3266
 msgid "Resource Collection"
 msgstr "Kaynak Koleksiyonu"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3271
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3286
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2243
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2272
 msgid "Resource Pages"
 msgstr "Kaynak Sayfası"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3283
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3298
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:438
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:341
 msgid "Add resource page"
 msgstr "Kaynak sayfası ekle"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3343
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3358
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2287
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2306
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2328
@@ -3804,84 +3839,84 @@ msgstr "Kaynak sayfası ekle"
 msgid "Content"
 msgstr "İçerik"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3383
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3398
 msgid "Questions using this resource page"
 msgstr "Bu kaynak sayfasını kullanan sorular"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3394
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3409
 msgid "The knowledge model entity you are trying to open does not exist."
 msgstr "Açmaya çalıştığınız bilgi modeli varlığı mevcut değil."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3423
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3438
 msgid "Click to copy UUID"
 msgstr "UUID kopyalamak için tıklayın"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3516
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3531
 msgid "Are you sure you want to delete this chapter?"
 msgstr "Bu bölümü silmek istediğinizden emin misiniz?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3523
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3538
 msgid "Are you sure you want to delete this question?"
 msgstr "Bu soruyu silmek istediğinizden emin misiniz?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3530
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3545
 msgid "Are you sure you want to delete this metric?"
 msgstr "Bu metriği silmek istediğinizden emin misiniz?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3537
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3552
 msgid "Are you sure you want to delete this phase?"
 msgstr "Bu aşamayı silmek istediğinizden emin misiniz?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3544
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3559
 msgid "Are you sure you want to delete this question tag?"
 msgstr "Bu soru etiketini silmek istediğinizden emin misiniz?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3551
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3566
 msgid "Are you sure you want to delete this integration?"
 msgstr "Bu entegrasyonu silmek istediğinizden emin misiniz?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3558
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3573
 msgid "Are you sure you want to delete this resource collection?"
 msgstr "Bu kaynak koleksiyonunu silmek istediğinizden emin misiniz?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3565
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3580
 msgid "Are you sure you want to delete this resource page?"
 msgstr "Bu kaynak sayfasını silmek istediğinizden emin misiniz?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3572
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3587
 msgid "Are you sure you want to delete this answer?"
 msgstr "Bu cevabı silmek istediğinizden emin misiniz?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3579
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3594
 msgid "Are you sure you want to delete this choice?"
 msgstr "Bu seçeneği silmek istediğinizden emin misiniz?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3586
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3601
 msgid "Are you sure you want to delete this reference?"
 msgstr "Bu referansı silmek istediğinizden emin misiniz?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3593
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3608
 msgid "Are you sure you want to delete this expert?"
 msgstr "Bu uzmanı silmek istediğinizden emin misiniz?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3602
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3617
 msgid "Heads up!"
 msgstr "Dikkat edin!"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3683
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3698
 msgid "Select a new parent"
 msgstr "Yeni bir ebeveyn seçin"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3729
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3744
 msgid "Paste your cURL command here..."
 msgstr "cURL komutunuzu buraya yapıştırın..."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3737
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3752
 msgid "Import from cURL"
 msgstr "cURL’den içe aktar"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:389
-#: app-wizard/elm/Wizard/Pages/Projects/Common/QuestionnaireShareFormMemberPermType.elm:63
+#: app-wizard/elm/Wizard/Pages/Projects/Common/ProjectShareFormMemberPermType.elm:63
 #: shared/common/elm/Common/Components/FormGroup.elm:583
 msgid "Editor"
 msgstr "Editör"
@@ -3892,7 +3927,7 @@ msgid "You can use %s and see the result in the preview tab."
 msgstr "%s'yi kullanabilir ve sonucu önizleme sekmesinde görebilirsiniz."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:514
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:204
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:208
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:721
 msgid "Template"
 msgstr "Şablon"
@@ -3910,7 +3945,7 @@ msgid "Add annotation"
 msgstr "Ek açıklama ekle"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:704
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2573
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2567
 msgid "Annotations"
 msgstr "Ek Açıklamalar"
 
@@ -4040,19 +4075,19 @@ msgstr "Aşama yoktur, önce onları yaratın."
 msgid "There are no questions, create them first."
 msgstr "Soru yok, önce onları yaratın."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:274
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:276
 msgid "Tags"
 msgstr "Etiketler"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:281
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:283
 msgid "Select all"
 msgstr "Tümünü seçin"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:289
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:291
 msgid "Select none"
 msgstr "Hiçbirini seçmeyin"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:306
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:308
 msgid "Save preview values"
 msgstr "Önizleme değerlerini kaydet"
 
@@ -4078,7 +4113,7 @@ msgid "Parent Knowledge Model"
 msgstr "Ebeveyn Bilgi Modeli"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:238
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:567
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:574
 msgid "Danger Zone"
 msgstr "Tehlike Bölgesi"
 
@@ -4096,9 +4131,9 @@ msgstr "Soru etiketleri yok, önce onları oluşturun."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Update.elm:118
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Update.elm:316
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:173
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:286
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:310
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:176
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:289
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:313
 msgid "Some changes are still saving."
 msgstr "Bazı değişiklikler hala kaydediliyor."
 
@@ -4111,30 +4146,30 @@ msgid "Unable to get knowledge model secrets."
 msgstr "Bilgi modeli gizli bilgileri alınamıyor."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:50
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:69
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:73
 msgid "Disconnected"
 msgstr "Bağlantı kesildi"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:52
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:71
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:75
 msgid "You have been disconnected, try to refresh the page."
 msgstr "Bağlantınız kesildi, sayfayı yenilemeyi deneyin."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:53
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:66
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:72
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:85
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:160
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:76
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:89
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:164
 msgid "Refresh"
 msgstr "Yenile"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:63
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:82
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:86
 msgid "Oops!"
 msgstr "Oops!"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:65
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:84
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:88
 msgid "Something went wrong, try to refresh the page."
 msgstr "Bir şeyler ters gitti, sayfayı yenilemeyi deneyin."
 
@@ -4376,23 +4411,23 @@ msgstr "Kaynak Sayfası UUID"
 msgid "Target UUID"
 msgstr "Hedef UUID"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2583
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2577
 msgid "Reject"
 msgstr "Reddet"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2586
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2580
 msgid "Apply"
 msgstr "Başvurmak"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2589
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2583
 msgid "Apply all"
 msgstr "Hepsini uygulayın"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2631
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2625
 msgid "Migration successfully completed."
 msgstr "Geçiş başarıyla tamamlandı."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2633
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2627
 msgid "You can publish the new version now."
 msgstr "Yeni sürümü şimdi yayınlayabilirsiniz."
 
@@ -4441,7 +4476,7 @@ msgid "Fork KM"
 msgstr "Çatal KM"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:110
-#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/View.elm:69
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/View.elm:71
 msgid "Create project"
 msgstr "Proje oluştur"
 
@@ -4532,14 +4567,13 @@ msgid "Unable to get knowledge models."
 msgstr "Bilgi Modelleri alınamıyor."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:131
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:286
 msgid "Questionnaire could not be created."
 msgstr "Anket oluşturulamadı."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:142
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:196
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:376
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:868
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:871
 msgid "Questionnaire could not be saved."
 msgstr "Anket kaydedilemedi."
 
@@ -4613,17 +4647,17 @@ msgstr "Bu işlem mevcut bilgi modeli entegrasyonlarını etkileyebilir. Devam e
 msgid "Delete Knowledge Model Secret"
 msgstr "Bilgi Modeli Gizli Bilgisini Sil"
 
-#: app-wizard/elm/Wizard/Pages/Locales/Common/LocaleActionsDropdown.elm:75
+#: app-wizard/elm/Wizard/Pages/Locales/Common/LocaleActionsDropdown.elm:76
 msgid "Set default"
 msgstr "Varsayılanı ayarla"
 
-#: app-wizard/elm/Wizard/Pages/Locales/Common/LocaleActionsDropdown.elm:88
+#: app-wizard/elm/Wizard/Pages/Locales/Common/LocaleActionsDropdown.elm:89
 #: app-wizard/elm/Wizard/Pages/ProjectActions/Index/View.elm:83
 #: app-wizard/elm/Wizard/Pages/ProjectImporters/Index/View.elm:83
 msgid "Disable"
 msgstr "Devre dışı bırak"
 
-#: app-wizard/elm/Wizard/Pages/Locales/Common/LocaleActionsDropdown.elm:97
+#: app-wizard/elm/Wizard/Pages/Locales/Common/LocaleActionsDropdown.elm:98
 #: app-wizard/elm/Wizard/Pages/ProjectActions/Index/View.elm:88
 #: app-wizard/elm/Wizard/Pages/ProjectImporters/Index/View.elm:88
 msgid "Enable"
@@ -4643,7 +4677,7 @@ msgid "Language Code"
 msgstr "Dil Kodu"
 
 #: app-wizard/elm/Wizard/Pages/Locales/Create/View.elm:44
-#: app-wizard/elm/Wizard/Pages/Locales/Import/RegistryImport/View.elm:49
+#: app-wizard/elm/Wizard/Pages/Locales/Import/RegistryImport/View.elm:50
 msgid "Locale ID"
 msgstr "Yerel Kimlik"
 
@@ -4681,18 +4715,18 @@ msgstr "veya buraya bırakın"
 msgid "Mails Locale"
 msgstr "Çeviri: E-postalar"
 
-#: app-wizard/elm/Wizard/Pages/Locales/Detail/Update.elm:33
+#: app-wizard/elm/Wizard/Pages/Locales/Detail/Update.elm:34
 msgid "Unable to get the locale."
 msgstr "Yerel ayar alınamıyor."
 
-#: app-wizard/elm/Wizard/Pages/Locales/Detail/Update.elm:104
+#: app-wizard/elm/Wizard/Pages/Locales/Detail/Update.elm:105
 #: app-wizard/elm/Wizard/Pages/Locales/Index/Update.elm:91
 msgid "Locale could not be deleted."
 msgstr "Yerel ayar silinemedi."
 
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:49
 #: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:76
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Language.elm:156
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Language.elm:157
 msgid "default"
 msgstr "varsayılan"
 
@@ -4723,11 +4757,11 @@ msgstr "Yerel"
 msgid "Unable to import the locale."
 msgstr "Yerel ayar içe aktarılamıyor."
 
-#: app-wizard/elm/Wizard/Pages/Locales/Import/RegistryImport/View.elm:69
+#: app-wizard/elm/Wizard/Pages/Locales/Import/RegistryImport/View.elm:70
 msgid "You can find locales in %s."
 msgstr "Yerel ayarları %s içinde bulabilirsiniz."
 
-#: app-wizard/elm/Wizard/Pages/Locales/Import/RegistryImport/View.elm:84
+#: app-wizard/elm/Wizard/Pages/Locales/Import/RegistryImport/View.elm:85
 msgid "Locale %s has been imported!"
 msgstr "Yerel ayar %s içe aktarıldı!"
 
@@ -4882,15 +4916,15 @@ msgstr "Proje silinemedi."
 msgid "Delete Project"
 msgstr "Proje Silme"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Common/QuestionnaireShareFormMemberPermType.elm:61
+#: app-wizard/elm/Wizard/Pages/Projects/Common/ProjectShareFormMemberPermType.elm:61
 msgid "Viewer"
 msgstr "Görüntüleyici"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Common/QuestionnaireShareFormMemberPermType.elm:62
+#: app-wizard/elm/Wizard/Pages/Projects/Common/ProjectShareFormMemberPermType.elm:62
 msgid "Commenter"
 msgstr "Yorumcu"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Common/QuestionnaireShareFormMemberPermType.elm:64
+#: app-wizard/elm/Wizard/Pages/Projects/Common/ProjectShareFormMemberPermType.elm:64
 msgid "Owner"
 msgstr "Sahibi"
 
@@ -4967,8 +5001,8 @@ msgid "Create a project from a template with preset content, or start from a kno
 msgstr "Bir şablondan önceden ayarlanmış içerikle proje oluşturun veya bir bilgi modelinden başlayarak her şeyi kendiniz yapılandırın."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:129
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:94
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:193
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:96
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:197
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:376
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:92
 msgid "Project Template"
@@ -5003,31 +5037,37 @@ msgstr "Seçilen bilgi modeli alınamıyor."
 msgid "Unable to get project templates."
 msgstr "Proje şablonları alınamıyor."
 
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:286
+msgid "Project could not be created."
+msgstr ""
+
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:307
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:242
 msgid "Unable to get question tags for the knowledge model."
 msgstr "Bilgi Modeli için soru etiketleri alınamıyor."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:147
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:151
 msgid "From project template"
 msgstr "Proje şablonundan"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:159
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:163
 msgid "From knowledge model"
 msgstr "Bilgi modelinden"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:170
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:174
 msgid "Project templates are prepared projects with knowledge models, question tags, and document templates setup, so you don't have to start from scratch."
 msgstr "Proje şablonları, bilgi modelleri, soru etiketleri ve belge şablonları ayarlanmış hazır projelerdir, böylece sıfırdan başlamanız gerekmez."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:174
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:178
 msgid "Knowledge models are templates for questionnaires. You can select question tags now and configure the document template and other settings later."
 msgstr "Bilgi modelleri soru formları için şablonlardır. Soru etiketlerini şimdi seçebilir, belge şablonunu ve diğer ayarları daha sonra yapılandırabilirsiniz."
 
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:113
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:230
-#: app-wizard/elm/Wizard/Pages/Projects/Import/Update.elm:67
-#: app-wizard/elm/Wizard/Pages/Projects/Import/Update.elm:108
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:233
+#: app-wizard/elm/Wizard/Pages/Projects/Import/Update.elm:47
+#: app-wizard/elm/Wizard/Pages/Projects/Import/Update.elm:69
+#: app-wizard/elm/Wizard/Pages/Projects/ImportLegacy/Update.elm:67
+#: app-wizard/elm/Wizard/Pages/Projects/ImportLegacy/Update.elm:108
 msgid "Unable to get the project."
 msgstr "Proje alınamıyor."
 
@@ -5068,8 +5108,8 @@ msgid "Unable to get the summary report."
 msgstr "Özet rapor alınamıyor."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:175
-msgid "Unable to get questionnaire event."
-msgstr "Anket etkinliği alınamıyor."
+msgid "Unable to get project event."
+msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:251
 msgid "Document could not be created."
@@ -5182,28 +5222,28 @@ msgstr "Varsayılan belge şablonu"
 msgid "Project Tags"
 msgstr "Proje Etiketleri"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:528
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:535
 msgid "All questions are used"
 msgstr "Tüm sorular kullanılmıştır"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:535
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:542
 msgid "Filtered by question tags"
 msgstr "Soru etiketlerine göre filtrele"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:542
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:549
 msgid "This knowledge model is now deprecated."
 msgstr "Bu bilgi modeli artık kullanımdan kaldırılmıştır."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:560
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:567
 msgid "Project migration lets you move your project to a newer or different version of the knowledge model, and update which questions are included by changing question tags."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:571
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:579
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:578
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:586
 msgid "Delete this project"
 msgstr "Bu projeyi silin"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:573
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:580
 msgid "Deleted projects cannot be recovered."
 msgstr "Silinen projeler kurtarılamaz."
 
@@ -5259,78 +5299,84 @@ msgstr "Oturum açmış diğer kullanıcılar projeyi %s yapabilir."
 msgid "Anyone with the link can %s the project."
 msgstr "Bağlantıya sahip olan herkes projeye %s verebilir."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/Update.elm:108
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/Update.elm:112
 msgid "Document was successfully deleted."
 msgstr "Belge başarıyla silindi."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:94
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:98
 msgid "Click \"New document\" button to add a new document."
 msgstr "Yeni bir belge eklemek için \"Yeni belge\" düğmesine tıklayın."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:97
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:101
 msgid "Log in to add a new document."
 msgstr "Yeni bir belge eklemek için oturum açın."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:117
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:121
 msgid "New document"
 msgstr "Yeni belge"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:144
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:310
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:147
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:314
 msgid "Questionnaire"
 msgstr "Anket"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:145
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:148
 msgid "Fill out the questionnaire to provide key information for your data management plan. Changes are saved automatically."
 msgstr "Veri yönetim planınız için önemli bilgileri sağlamak üzere anketi doldurun. Değişiklikler otomatik olarak kaydedilir."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:151
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:154
 msgid "Collaboration"
 msgstr "İş birliği"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:152
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:155
 msgid "Share your project to collaborate with colleagues."
 msgstr "Projenizi iş birliği yapmak için meslektaşlarınızla paylaşın."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:158
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:161
 msgid "Navigation"
 msgstr "Gezinme"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:159
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:162
 msgid "Use the navigation bar to switch between tools and views related to your project."
 msgstr "Projenizle ilgili araçlar ve görünümler arasında geçiş yapmak için gezinme çubuğunu kullanın."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:103
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:107
 msgid "project migration"
 msgstr "proje geçişi"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:106
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:110
 msgid "There is an ongoing %s. Finish it before you can continue editing this project."
 msgstr "Devam eden bir %s var. Bu projeyi düzenlemeye devam edebilmek için önce onu bitirin."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:152
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:156
 msgid "Another user has made significant changes to the questionnaire (e.g., reverting to a previous version). To ensure everyone is using the latest version, you’ve been disconnected."
 msgstr "Başka bir kullanıcı ankette önemli değişiklikler yaptı (örneğin, önceki bir sürüme geri dönmek). Herkesin en son sürümü kullandığından emin olmak için bağlantınız kesildi."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:153
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:157
 msgid "Refresh the page to reconnect."
 msgstr "Yeniden bağlanmak için sayfayı yenileyin."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:157
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:161
 msgid "Refresh Required"
 msgstr "Yenileme Gerekli"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:224
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:228
 msgid "Add to my projects"
 msgstr "Projelerime ekle"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:249
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:253
 msgid "Share"
 msgstr "Paylaş"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:395
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:422
 msgid "You are not allowed to view this page."
 msgstr "Bu sayfayı görüntülemenize izin verilmiyor."
+
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:523
+#: app-wizard/elm/Wizard/Pages/Settings/PluginSettings/View.elm:31
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:132
+msgid "Plugin not found"
+msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/DocumentDownload/Update.elm:50
 msgid "You do not have permission to access this document"
@@ -5366,58 +5412,73 @@ msgstr "Dosya bulunamadı"
 msgid "Unable to get file"
 msgstr "Dosya alınamıyor"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/Update.elm:99
-msgid "Unable to get importer."
-msgstr "İthalatçı alınamıyor."
-
-#: app-wizard/elm/Wizard/Pages/Projects/Import/Update.elm:191
+#: app-wizard/elm/Wizard/Pages/Projects/Import/Update.elm:150
+#: app-wizard/elm/Wizard/Pages/Projects/ImportLegacy/Update.elm:191
 msgid "Questionnaire changes could not be saved."
 msgstr "Anket değişiklikleri kaydedilemedi."
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:57
-msgid "Follow the instructions in the importer window."
-msgstr "İthalatçı penceresindeki talimatları izleyin."
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:71
+msgid "Importer not found"
+msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:76
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:88
+#: app-wizard/elm/Wizard/Pages/Projects/ImportLegacy/View.elm:76
 msgid "Importing to %s"
 msgstr "s'ye aktarılıyor"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:80
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:92
+#: app-wizard/elm/Wizard/Pages/Projects/ImportLegacy/View.elm:80
 msgid "Import status:"
 msgstr "İthalat durumu:"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:99
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:111
+#: app-wizard/elm/Wizard/Pages/Projects/ImportLegacy/View.elm:99
 msgid "%s questionnaire change will be imported"
 msgid_plural "%s questionnaire changes will be imported"
 msgstr[0] "s anket değişikliği içe aktarılacak"
 msgstr[1] ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:117
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:129
+#: app-wizard/elm/Wizard/Pages/Projects/ImportLegacy/View.elm:117
 msgid "%s error encountered"
 msgid_plural "%s errors encountered"
 msgstr[0] "s hatası ile karşılaşıldı"
 msgstr[1] ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:188
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:202
+#: app-wizard/elm/Wizard/Pages/Projects/ImportLegacy/View.elm:190
 msgid "Questionnaire Changes"
 msgstr "Anket Değişiklikleri"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:191
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:205
+#: app-wizard/elm/Wizard/Pages/Projects/ImportLegacy/View.elm:193
 msgid "Errors"
 msgstr "Hatalar"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:197
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:211
+#: app-wizard/elm/Wizard/Pages/Projects/ImportLegacy/View.elm:199
 msgid "No changes to be imported"
 msgstr "İçe aktarılacak değişiklik yok"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:282
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:296
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:310
+#: app-wizard/elm/Wizard/Pages/Projects/ImportLegacy/View.elm:284
+#: app-wizard/elm/Wizard/Pages/Projects/ImportLegacy/View.elm:298
 msgid "Added item"
 msgstr "Eklenen öğe"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:299
+#: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:313
+#: app-wizard/elm/Wizard/Pages/Projects/ImportLegacy/View.elm:301
 msgid "Added file"
 msgstr "Dosya eklendi"
+
+#: app-wizard/elm/Wizard/Pages/Projects/ImportLegacy/Update.elm:99
+msgid "Unable to get importer."
+msgstr "İthalatçı alınamıyor."
+
+#: app-wizard/elm/Wizard/Pages/Projects/ImportLegacy/View.elm:57
+msgid "Follow the instructions in the importer window."
+msgstr "İthalatçı penceresindeki talimatları izleyin."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:85
 msgid "All your projects will be here, including those shared with you."
@@ -5533,15 +5594,15 @@ msgstr "Tümünü çözün"
 msgid "Resolved changes %s/%s"
 msgstr "Çözülen değişiklikler %s/%s"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Migration/View.elm:191
+#: app-wizard/elm/Wizard/Pages/Projects/Migration/View.elm:193
 msgid "New Question"
 msgstr "Yeni Soru"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Migration/View.elm:194
+#: app-wizard/elm/Wizard/Pages/Projects/Migration/View.elm:196
 msgid "Question Changed"
 msgstr "Soru Değişti"
 
-#: app-wizard/elm/Wizard/Pages/Projects/Migration/View.elm:197
+#: app-wizard/elm/Wizard/Pages/Projects/Migration/View.elm:199
 msgid "Moved Question"
 msgstr "Taşınan Soru"
 
@@ -5583,6 +5644,7 @@ msgid "I have read %s."
 msgstr "%s'yi okudum."
 
 #: app-wizard/elm/Wizard/Pages/Public/Auth/View.elm:77
+#: shared/common/elm/Common/Components/NewsModal.elm:157
 msgid "Continue"
 msgstr "Devam etmek"
 
@@ -5636,9 +5698,9 @@ msgstr "Giriş yap"
 
 #: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:89
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:149
-#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:42
+#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:43
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Password.elm:111
-#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:88
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:117
 msgid "Password"
 msgstr "Şifre"
 
@@ -5693,7 +5755,7 @@ msgid "You have to read %s first"
 msgstr "Önce %s'yi okumalısınız"
 
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:144
-#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:38
+#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:39
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:217
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:250
 #: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:59
@@ -5701,7 +5763,7 @@ msgid "First name"
 msgstr "Ad"
 
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:145
-#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:39
+#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:40
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:218
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:251
 #: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:60
@@ -5709,7 +5771,7 @@ msgid "Last name"
 msgstr "Soyad"
 
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:148
-#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:40
+#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:41
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:219
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:252
 msgid "Affiliation"
@@ -5732,7 +5794,7 @@ msgid "Your email was successfully confirmed, you can go back to %s."
 msgstr "E-postanız başarıyla onaylandı, %s'ye geri dönebilirsiniz."
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:41
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:117
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:136
 msgid "Authentication"
 msgstr "Kimlik Doğrulama"
 
@@ -5828,7 +5890,7 @@ msgid "Button Preview"
 msgstr "Düğme Önizlemesi"
 
 #: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:39
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:131
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:159
 msgid "Dashboard & Login Screen"
 msgstr "Gösterge Tablosu ve Giriş Ekranı"
 
@@ -5878,7 +5940,7 @@ msgid "Dashboard Style"
 msgstr "Gösterge Tablosu Stili"
 
 #: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:143
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:101
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:114
 msgid "Info"
 msgstr "Bilgi"
 
@@ -5911,14 +5973,14 @@ msgid "Display on the login screen, visible to everybody."
 msgstr "Herkesin görebileceği şekilde giriş ekranında görüntülenir."
 
 #: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:26
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:119
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:138
 msgid "Features"
 msgstr "Özellikler"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:37
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Tours.elm:50
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Tours.elm:103
-#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:106
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:135
 msgid "Tours"
 msgstr "Turlar"
 
@@ -5955,12 +6017,12 @@ msgid "Integration config is used to configure [secrets and other properties](%s
 msgstr "Bütünleştirme yapılandırması, bilgi modellerindeki bütünleştirmeler için [gizli dizileri ve diğer özellikleri] (%s) yapılandırmak için kullanılır."
 
 #: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:39
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:135
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:163
 msgid "Menu"
 msgstr "Menü"
 
 #: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:42
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:138
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:166
 msgid "Look & Feel"
 msgstr "Görünüm ve Hissiyat"
 
@@ -5997,7 +6059,7 @@ msgid "New window"
 msgstr "Yeni pencere"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:26
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:116
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:135
 msgid "Organization"
 msgstr "Organizasyon"
 
@@ -6017,8 +6079,37 @@ msgstr "Bu örneği çalıştıran kuruluşun adı."
 msgid "Organization ID is used to identify knowledge models created in this instance. It can only contain alphanumeric characters, hyphens, underscores, and dots."
 msgstr "Organizasyon Kimliği, bu örnekte oluşturulan bilgi modellerini tanımlamak için kullanılır. Yalnızca alfanümerik karakterler, kısa çizgiler, alt çizgiler ve noktalar içerebilir."
 
+#: app-wizard/elm/Wizard/Pages/Settings/Plugins/Update.elm:46
+#: app-wizard/elm/Wizard/Pages/Settings/PluginSettings/Update.elm:67
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:112
+msgid "Unable to save plugin settings."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:39
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:143
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:96
+msgid "Plugins"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:67
+msgid "Plugin settings"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:94
+msgid "malformed manifest"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:98
+msgid "unsupported plugin API version %s"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/PluginSettings/Update.elm:45
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:95
+msgid "Unable to get plugin settings."
+msgstr ""
+
 #: app-wizard/elm/Wizard/Pages/Settings/PrivacyAndSupport/View.elm:28
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:118
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:137
 msgid "Privacy & Support"
 msgstr "Gizlilik ve Destek"
 
@@ -6175,7 +6266,7 @@ msgid "Sign up request failed."
 msgstr "Kayıt isteği başarısız oldu."
 
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:46
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:155
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:183
 msgid "DSW Registry"
 msgstr "DSW Kayıt"
 
@@ -6208,7 +6299,7 @@ msgid "Registry Sign Up"
 msgstr "Kayıt Kaydı"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:43
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:151
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:179
 msgid "Document Submission"
 msgstr "Belge Gönderimi"
 
@@ -6265,15 +6356,15 @@ msgstr "Etkinleştirilirse, dosya çok parçalı istek kullanılarak gönderilec
 msgid "Header"
 msgstr "Başlık"
 
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:91
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:104
 msgid "System Settings"
 msgstr "Sistem Ayarları"
 
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:95
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:108
 msgid "User Interface Settings"
 msgstr "Kullanıcı Arayüzü Ayarları"
 
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:98
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:111
 msgid "Content Settings"
 msgstr "İçerik Ayarları"
 
@@ -6281,12 +6372,12 @@ msgstr "İçerik Ayarları"
 msgid "User could not be created."
 msgstr "Kullanıcı oluşturulamadı."
 
-#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:25
+#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:22
 #, fuzzy
 msgid "Create User"
 msgstr "Kullanıcı oluştur"
 
-#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:41
+#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:42
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:204
 #: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:67
 msgid "Role"
@@ -6310,7 +6401,7 @@ msgid "Revoke all"
 msgstr "Tümünü iptal et"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ActiveSessions.elm:180
-#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:133
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:162
 msgid "Active Sessions"
 msgstr "Aktif Oturumlar"
 
@@ -6373,7 +6464,7 @@ msgid "API key could not be deleted."
 msgstr "API anahtarı silinemedi."
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:178
-#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:115
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:144
 msgid "API Keys"
 msgstr "API Anahtarları"
 
@@ -6423,7 +6514,7 @@ msgid "App key could not be deleted."
 msgstr "App anahtarı silinemedi."
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/AppKeys.elm:116
-#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:124
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:153
 msgid "App Keys"
 msgstr "Uygulama Anahtarları"
 
@@ -6443,20 +6534,20 @@ msgstr "Uygulama Anahtar Adı"
 msgid "Delete App Key"
 msgstr "Uygulama Tuşunu Sil"
 
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Language.elm:85
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Language.elm:86
 msgid "Unable to get user language."
 msgstr "Kullanıcı dili alınamıyor."
 
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Language.elm:97
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Language.elm:98
 msgid "Unable to get languages."
 msgstr "Kullanıcı dili alınamıyor."
 
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Language.elm:121
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Language.elm:122
 msgid "Unable to save user language."
 msgstr "Kullanıcı dili kaydedilemiyor."
 
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Language.elm:134
-#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:97
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Language.elm:135
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:126
 msgid "Language"
 msgstr "Dil"
 
@@ -6467,6 +6558,14 @@ msgstr "Şifre başarıyla değiştirildi."
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Password.elm:98
 msgid "Password could not be changed."
 msgstr "Şifre değiştirilemedi."
+
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:129
+msgid "Plugin has no user settings"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:153
+msgid "%s Settings"
+msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:124
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/SubmissionSettings.elm:96
@@ -6482,7 +6581,7 @@ msgid "Profile could not be saved."
 msgstr "Profil kaydedilemedi."
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:180
-#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:80
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:109
 msgid "Profile"
 msgstr "Profil"
 
@@ -6519,11 +6618,11 @@ msgid "There are no submission services to configure."
 msgstr "Yapılandırılacak herhangi bir gönderim hizmeti yoktur."
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/SubmissionSettings.elm:163
-#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:142
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:171
 msgid "Submission Settings"
 msgstr "Gönderim Ayarları"
 
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/SubmissionSettings.elm:197
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/SubmissionSettings.elm:193
 msgid "There is no settings for %s."
 msgstr "s için ayar yok."
 
@@ -6555,7 +6654,7 @@ msgstr "Bu, sayfaya özel tüm tanıtım turlarını sıfırlar ve rehberli vurg
 msgid "Reset"
 msgstr "Sıfırla"
 
-#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:74
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:103
 msgid "User Settings"
 msgstr "Kullanıcı Ayarları"
 
@@ -6575,11 +6674,11 @@ msgstr "Son çevrimiçi"
 msgid "inactive"
 msgstr "aktif değil"
 
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:183
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:180
 msgid "Are you sure you want to permanently delete the following user?"
 msgstr "Aşağıdaki kullanıcıyı kalıcı olarak silmek istediğinizden emin misiniz?"
 
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:188
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:185
 msgid "Delete user"
 msgstr "Kullanıcı sil"
 
@@ -6916,7 +7015,7 @@ msgstr "Öneriler: "
 msgid "The version number is in format X.Y.Z. Increasing number Z indicates only some fixes, number Y minor changes, and number X indicates a major change."
 msgstr "Sürüm numarası X.Y.Z biçimindedir. Artan Z sayısı yalnızca bazı düzeltmeleri, Y sayısı küçük değişiklikleri ve X sayısı büyük bir değişikliği gösterir."
 
-#: shared/common/elm/Common/Components/TypeHintInput.elm:360
+#: shared/common/elm/Common/Components/TypeHintInput.elm:355
 msgid "No results matching your search were found."
 msgstr "Aramanızla eşleşen bir sonuç bulunamadı."
 
@@ -7119,6 +7218,12 @@ msgstr "Kasım"
 #: shared/common/elm/Common/Utils/TimeUtils.elm:154
 msgid "December"
 msgstr "Aralık"
+
+#~ msgid "Import replies"
+#~ msgstr "Yanıtları içe aktar"
+
+#~ msgid "Unable to get questionnaire event."
+#~ msgstr "Anket etkinliği alınamıyor."
 
 #~ msgid "No version of this package has been published yet."
 #~ msgstr "Bu paketin hiçbir sürümü henüz yayınlanmamıştır."

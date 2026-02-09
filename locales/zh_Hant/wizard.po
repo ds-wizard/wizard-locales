@@ -6,17 +6,7 @@
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:4.18.0\n"
-"POT-Creation-Date: 2026-01-30T08:46:06.933Z \n"
-"PO-Revision-Date: 2026-02-03 07:39+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\n"
-"Language-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-27/client/zh_Hant/>\n"
-"Language: zh_Hant\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15.2\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-01-30T08:46:06.933Z\nPO-Revision-Date: 2026-02-10 07:03+0000\nLast-Translator: Hilary Shiue <hshiue@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-27/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.15.2\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -565,7 +555,7 @@ msgstr "有關"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:763
 msgid "What's new"
-msgstr ""
+msgstr "更新內容"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:772
 msgid "Report issue"
@@ -624,7 +614,7 @@ msgstr "建置於"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:956
 msgid "Metamodel Versions"
-msgstr ""
+msgstr "後設模型版本"
 
 #: app-wizard/elm/Wizard/Components/OnlineUser.elm:51
 #: app-wizard/elm/Wizard/Components/OnlineUser.elm:61
@@ -729,7 +719,7 @@ msgstr "無法取得專案操作項目。"
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:1526
 #: app-wizard/elm/Wizard/Pages/ProjectImporters/Index/Update.elm:70
 msgid "Unable to get project importers."
-msgstr "無法取得專案匯入工具。"
+msgstr "無法取得專案匯入器。"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:1811
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:1830
@@ -1419,7 +1409,7 @@ msgstr "將階段設定為 %s"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/Importer.elm:88
 msgid "Question not found at: %s"
-msgstr ""
+msgstr "此處找不到該問題：%s"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/Importer.elm:91
 msgid "Unexpected reply type at: %s"
@@ -1677,7 +1667,7 @@ msgstr "知識模型編輯者"
 #: app-wizard/elm/Wizard/Components/UsageTable.elm:22
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:30
 msgid "Document Template Editors"
-msgstr "文件模板編輯者"
+msgstr "文件模板編輯器"
 
 #: app-wizard/elm/Wizard/Components/UsageTable.elm:27
 msgid "Storage"
@@ -2682,7 +2672,7 @@ msgstr "發布者"
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:238
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:213
 msgid "Registry Link"
-msgstr "登錄連結"
+msgstr "登錄冊連結"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:295
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:244
@@ -2710,13 +2700,13 @@ msgstr "文件模板 %s 已匯入！"
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/View.elm:31
 #: app-wizard/elm/Wizard/Pages/Locales/Import/View.elm:71
 msgid "From registry"
-msgstr "來自登錄冊"
+msgstr "從登錄冊"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/View.elm:82
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/View.elm:39
 #: app-wizard/elm/Wizard/Pages/Locales/Import/View.elm:82
 msgid "From file"
-msgstr "自檔案"
+msgstr "從檔案"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/View.elm:98
 msgid "This doesn't look like a document. Are you sure you picked the correct file?"
@@ -2975,9 +2965,8 @@ msgid "Missing {{ q }} in request URL for integration"
 msgstr "整合項目的請求網址中缺少 {{ q }}"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1350
-#, fuzzy
 msgid "Unknown Jinja property in request URL for integration: %s"
-msgstr "整合項目的請求網址中存在未知的 Jinja 屬性：%s"
+msgstr "於此收到非預期的回應：%s"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1357
 msgid "Unknown variable in request URL for integration: %s"
@@ -3005,9 +2994,8 @@ msgstr "整合測試資料沒有成功回應"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1403
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1435
-#, fuzzy
 msgid "Empty response item template for integration"
-msgstr "無整合項目的回應項目範本（response item template）"
+msgstr "整合所需的回應項目模板（response item template）是空白的"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1414
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1446
@@ -3191,7 +3179,6 @@ msgid "Changing a question type will remove all answers."
 msgstr "更改問題類型將會刪除所有答案。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1228
-#, fuzzy
 msgid "Changing a question type will remove all item questions."
 msgstr "更改問題類型將會刪除所有項目問題。"
 
@@ -3497,7 +3484,6 @@ msgstr "可選填的 API 請求主體（request body）。您可以再次使用`
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:690
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:777
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:898
-#, fuzzy
 msgid "Allow Empty Search"
 msgstr "允許空白搜尋"
 
@@ -3545,7 +3531,7 @@ msgstr "回應主體過大，無法顯示語法突顯（syntax highlight）。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2379
 msgid "Copy response"
-msgstr ""
+msgstr "複製回應"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2384
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2538
@@ -3577,13 +3563,11 @@ msgstr "載入"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:818
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:899
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:927
-#, fuzzy
 msgid "Response List Field"
 msgstr "回應清單欄位"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2483
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2688
-#, fuzzy
 msgid "If the returned JSON is not an array of items directly but the items are nested, use this to define the name or path to the field in the response that contains the list of items. Keep empty otherwise."
 msgstr "若回傳的 JSON 並非由項目陣列（array）組成，而是將項目巢狀（nested）在其他欄位中，請在此處定義回應中包含的項目清單的欄位名稱（name）或路徑（path）。否則請保持空白。"
 
@@ -3712,14 +3696,12 @@ msgid "Logo URL"
 msgstr "標誌網址"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2769
-#, fuzzy
 msgid "Logo is displayed next to the link to the selected item in questionnaires. It can be either URL or base64 image."
-msgstr "標誌將顯示於問卷選項連結旁。可以是網址或 base64 圖片。"
+msgstr "標誌（logo）將顯示於問卷選項連結旁。可以是網址或 base64 圖片。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2781
-#, fuzzy
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the URL configuration. For example, if you define a variable named *type*, you can use it as `${type}`, such as *ht&#8203;tps://example.com/${type}*."
-msgstr "變項（variables）可以被用來參數化整合中的每個問題。使用這個功能定義變項，使其值可用來填入使用此整合的問題。之後，這些變項可以使用於請求（request）的設定中。例如，如果你定義 *type* 變項，那你可以這樣使用它 `{{ variables.type }}`，像是 *ht&#8203;tps://example.com/{{ variables.type }}*。"
+msgstr "變項（variables）可以被用來參數化整合中的每個問題。請使用這個功能定義變項，使其值可用來填入使用此整合的問題。之後，這些變項可以使用於請求（request）的設定中。例如，若您定義 *type* 變項，那您可以這樣使用它：`${type}`，像是 *ht&#8203;tps://example.com/${type}*。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2789
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:714
@@ -3781,7 +3763,6 @@ msgstr "資源頁面"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1975
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2044
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2113
-#, fuzzy
 msgid "Cross Reference"
 msgstr "交叉參考來源"
 
@@ -3821,7 +3802,6 @@ msgid "Go to related question"
 msgstr "跳到相關問題"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3201
-#, fuzzy
 msgid "Expert"
 msgstr "專家"
 
@@ -3933,9 +3913,8 @@ msgstr "編輯者"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:403
 #: shared/common/elm/Common/Components/FormGroup.elm:496
-#, fuzzy
 msgid "You can use %s and see the result in the preview tab."
-msgstr "您可以使用 HTML 或 %s，並在預覽分頁中查看結果。"
+msgstr "您可以使用 %s，並在預覽分頁中查看結果。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:514
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:208
@@ -3948,9 +3927,8 @@ msgid "You can use [Jinja](%s) and [Markdown](%s) to create and format the templ
 msgstr "您可以使用[Jinja](%s)及[Markdown](%s)來產製與格式化模板。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:669
-#, fuzzy
 msgid "Key"
-msgstr "鑰匙"
+msgstr "金鑰"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:700
 msgid "Add annotation"
@@ -4030,7 +4008,6 @@ msgid "Domain"
 msgstr "網域"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1194
-#, fuzzy
 msgid "Weight"
 msgstr "比重"
 
@@ -4230,7 +4207,6 @@ msgid "This editor contains unpublished changes"
 msgstr "這個編輯器有尚未發布的更動"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:190
-#, fuzzy
 msgid "Open Editor"
 msgstr "開啟編輯器"
 
@@ -4265,7 +4241,6 @@ msgid "Migration"
 msgstr "移轉"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:137
-#, fuzzy
 msgid "Migration of %s from %s to %s."
 msgstr "%s 移轉從 %s 到 %s。"
 
@@ -4405,7 +4380,6 @@ msgstr "移動專家"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:950
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1090
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1205
-#, fuzzy
 msgid "Props"
 msgstr "屬性"
 
@@ -4426,7 +4400,6 @@ msgid "Target UUID"
 msgstr "目標 UUID"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2577
-#, fuzzy
 msgid "Reject"
 msgstr "駁回"
 
@@ -4492,7 +4465,6 @@ msgstr "分叉知識模型"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:110
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/View.elm:71
-#, fuzzy
 msgid "Create project"
 msgstr "建立專案"
 
@@ -4505,7 +4477,6 @@ msgid "Knowledge Model could not be deleted."
 msgstr "無法刪除知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:88
-#, fuzzy
 msgid "This is a non-editable knowledge model, i.e., it cannot be edited, forked, or exported."
 msgstr "此知識模型無法被編輯，亦即，它無法被編輯、分叉或匯出。"
 
@@ -4530,7 +4501,6 @@ msgid "Root Element"
 msgstr "根元素"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:90
-#, fuzzy
 msgid "Choose a file"
 msgstr "選擇檔案"
 
@@ -4573,7 +4543,6 @@ msgstr "刪除知識模型"
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:49
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:130
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:147
-#, fuzzy
 msgid "Unable to get the knowledge model."
 msgstr "無法取得知識模型。"
 
@@ -4582,7 +4551,6 @@ msgstr "無法取得知識模型。"
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:344
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:256
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:285
-#, fuzzy
 msgid "Unable to get knowledge models."
 msgstr "無法取得知識模型。"
 
@@ -4892,11 +4860,11 @@ msgstr "成功更改專案匯入者。"
 
 #: app-wizard/elm/Wizard/Pages/ProjectImporters/Index/View.elm:26
 msgid "Project Importers"
-msgstr "專案匯入者"
+msgstr "專案匯入器"
 
 #: app-wizard/elm/Wizard/Pages/ProjectImporters/Index/View.elm:39
 msgid "There are no project importers available."
-msgstr "沒有可用的專案匯入者。"
+msgstr "沒有可用的專案匯入器。"
 
 #: app-wizard/elm/Wizard/Pages/ProjectImporters/Index/View.elm:43
 msgid "Search importers..."
@@ -5013,7 +4981,6 @@ msgid "Starting Point"
 msgstr "起始點"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:122
-#, fuzzy
 msgid "Create a project from a template with preset content, or start from a knowledge model and configure everything yourself."
 msgstr "您可以從模板建立預設內容的專案，也可以從知識模型開始自行設定所有內容。"
 
@@ -5056,7 +5023,7 @@ msgstr "無法取得專案模板。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:286
 msgid "Project could not be created."
-msgstr ""
+msgstr "無法建立專案。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:307
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:242
@@ -5126,7 +5093,7 @@ msgstr "無法取得摘要報告。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:175
 msgid "Unable to get project event."
-msgstr ""
+msgstr "無法取得專案活動。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:251
 msgid "Document could not be created."
@@ -5393,7 +5360,7 @@ msgstr "您無權檢視此頁面。"
 #: app-wizard/elm/Wizard/Pages/Settings/PluginSettings/View.elm:31
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:132
 msgid "Plugin not found"
-msgstr ""
+msgstr "找不到外掛程式（plugin）"
 
 #: app-wizard/elm/Wizard/Pages/Projects/DocumentDownload/Update.elm:50
 msgid "You do not have permission to access this document"
@@ -5436,7 +5403,7 @@ msgstr "問卷變更無法儲存。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:71
 msgid "Importer not found"
-msgstr ""
+msgstr "找不到匯入器"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:88
 #: app-wizard/elm/Wizard/Pages/Projects/ImportLegacy/View.elm:76
@@ -5598,9 +5565,8 @@ msgid "Undo"
 msgstr "復原"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Migration/View.elm:130
-#, fuzzy
 msgid "Resolve"
-msgstr "已解決"
+msgstr "解決"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Migration/View.elm:138
 msgid "Resolve all"
@@ -5725,7 +5691,6 @@ msgid "Forgot your password?"
 msgstr "忘記密碼？"
 
 #: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:107
-#, fuzzy
 msgid "Or connect with"
 msgstr "或使用以下方式連結"
 
@@ -5777,7 +5742,7 @@ msgstr "您必須先閱讀%s"
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:250
 #: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:59
 msgid "First name"
-msgstr "名"
+msgstr "名字"
 
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:145
 #: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:40
@@ -5785,13 +5750,12 @@ msgstr "名"
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:251
 #: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:60
 msgid "Last name"
-msgstr "姓"
+msgstr "姓氏"
 
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:148
 #: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:41
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:219
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:252
-#, fuzzy
 msgid "Affiliation"
 msgstr "所屬機構"
 
@@ -5844,7 +5808,7 @@ msgstr "若啟用，使用者可以在此實例直接建立新的內部帳號。
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:75
 msgid "Two-Factor Authentication"
-msgstr "兩步驟驗證"
+msgstr "雙重驗證"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:76
 msgid "If enabled, users first enter a username and password at login, and then they receive a one-time code to confirm the login on their email."
@@ -5852,7 +5816,7 @@ msgstr "若啟用，使用者於登入時，在輸入使用者名稱與密碼後
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:81
 msgid "External"
-msgstr "外部"
+msgstr "外部服務"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:82
 msgid "OpenID Services"
@@ -5938,7 +5902,7 @@ msgstr "顯示於登入畫面的額外資訊，位於登入表單旁。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:86
 msgid "Sidebar Login Info"
-msgstr "登入資訊欄文字"
+msgstr "側欄登入資訊"
 
 #: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:87
 msgid "Additional information displayed on the login screen underneath the login form."
@@ -6101,30 +6065,30 @@ msgstr "組織 ID 是用來識別在此實例中建立的知識模型。僅能�
 #: app-wizard/elm/Wizard/Pages/Settings/PluginSettings/Update.elm:67
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:112
 msgid "Unable to save plugin settings."
-msgstr ""
+msgstr "無法儲存外掛程式設定。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:39
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:143
 #: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:96
 msgid "Plugins"
-msgstr ""
+msgstr "外掛程式（Plugins）"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:67
 msgid "Plugin settings"
-msgstr ""
+msgstr "外掛程式設定"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:94
 msgid "malformed manifest"
-msgstr ""
+msgstr "Manifest 格式錯誤"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:98
 msgid "unsupported plugin API version %s"
-msgstr ""
+msgstr "未支援的外掛程式 API 版本 %s"
 
 #: app-wizard/elm/Wizard/Pages/Settings/PluginSettings/Update.elm:45
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:95
 msgid "Unable to get plugin settings."
-msgstr ""
+msgstr "無法取得外掛程式設定。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/PrivacyAndSupport/View.elm:28
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:137
@@ -6137,7 +6101,7 @@ msgstr "隱私政策網址"
 
 #: app-wizard/elm/Wizard/Pages/Settings/PrivacyAndSupport/View.elm:40
 msgid "URL to page with the privacy policy of the service."
-msgstr "服務隱私政策頁面的網址。"
+msgstr "您提供服務的隱私政策頁面網址。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/PrivacyAndSupport/View.elm:41
 msgid "Terms of Service URL"
@@ -6145,7 +6109,7 @@ msgstr "服務條款網址"
 
 #: app-wizard/elm/Wizard/Pages/Settings/PrivacyAndSupport/View.elm:42
 msgid "URL to page with the terms of the service."
-msgstr "服務條款頁面的網址。"
+msgstr "您的服務條款頁面的網址。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/PrivacyAndSupport/View.elm:43
 msgid "Support"
@@ -6196,9 +6160,8 @@ msgid "GitHub Repository Owner"
 msgstr "GitHub 儲存庫擁有者"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:62
-#, fuzzy
 msgid "ht&#8203;tps://github.com/**exampleOwner**/exampleRepository"
-msgstr "ht&#8203;tps://github.com/exampleOwner/**exampleRepository**"
+msgstr "ht&#8203;tps://github.com/**exampleOwner**/exampleRepository"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:63
 msgid "GitHub Repository Name"
@@ -6229,9 +6192,8 @@ msgid "Project Visibility"
 msgstr "專案可檢視設定"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:91
-#, fuzzy
 msgid "If enabled, project visibility can be set for each project. Otherwise, all projects use the *Default Project Visibility*."
-msgstr "若啟用，可設定每個專案的專案可檢視設定。否則，所有專案都使用*預設專案可檢視設定*。"
+msgstr "若啟用，可為每個專案個別設定可見性（visibility）。否則，所有專案將使用*預設專案可見性*。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:92
 msgid "Default Project Visibility"
@@ -6316,7 +6278,7 @@ msgstr "此電子郵件地址將用於發送確認連結及取回權杖。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:149
 msgid "Registry Sign Up"
-msgstr "註冊登錄冊"
+msgstr "註冊登錄冊帳號"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:43
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:179
@@ -6364,7 +6326,6 @@ msgid "Headers"
 msgstr "標頭"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:234
-#, fuzzy
 msgid "Multipart"
 msgstr "Multipart"
 
@@ -6394,7 +6355,6 @@ msgid "User could not be created."
 msgstr "無法建立使用者。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:22
-#, fuzzy
 msgid "Create User"
 msgstr "建立使用者"
 
@@ -6405,9 +6365,8 @@ msgid "Role"
 msgstr "角色"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ActiveSessions.elm:88
-#, fuzzy
 msgid "Unable to get active sessions."
-msgstr "無法取得活動中的工作階段。"
+msgstr "無法取得使用中的工作階段。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ActiveSessions.elm:121
 msgid "Session could not be revoked."
@@ -6415,7 +6374,7 @@ msgstr "無法撤銷工作階段。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ActiveSessions.elm:147
 msgid "Failed to revoke all active sessions."
-msgstr "終止所有活動中的工作階段失敗。"
+msgstr "終止所有使用中的工作階段失敗。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ActiveSessions.elm:171
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ActiveSessions.elm:278
@@ -6425,7 +6384,7 @@ msgstr "全部撤銷"
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ActiveSessions.elm:180
 #: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:162
 msgid "Active Sessions"
-msgstr "活動中的工作階段"
+msgstr "使用中的工作階段"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ActiveSessions.elm:186
 msgid ""
@@ -6475,28 +6434,28 @@ msgstr "%s 於 %s"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:86
 msgid "Unable to get API keys."
-msgstr "無法取得 API 密鑰。"
+msgstr "無法取得 API 金鑰。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:114
 msgid "Unable to create API key."
-msgstr "無法建立 API 密鑰。"
+msgstr "無法建立 API 金鑰。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:167
 msgid "API key could not be deleted."
-msgstr "無法刪除 API 密鑰。"
+msgstr "無法刪除 API 金鑰。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:178
 #: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:144
 msgid "API Keys"
-msgstr "API 密鑰"
+msgstr "API 金鑰"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:191
 msgid "You can generate an API key for every application you use that needs access to the [API](%s)."
-msgstr "您可以為每個需要存取 [API](%s) 的應用程式產生一組 API 密鑰。"
+msgstr "您可以為每個需要存取 [API](%s) 的應用程式產生一組 API 金鑰。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:208
 msgid "Your new API key"
-msgstr "您的新 API 密鑰"
+msgstr "您的新 API 金鑰"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:209
 msgid "Make sure to save it, you will not be able to access it again."
@@ -6505,27 +6464,27 @@ msgstr "請務必妥善保存，您之後將無法再次存取。"
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:220
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:266
 msgid "API Key Name"
-msgstr "API 密鑰名稱"
+msgstr "API 金鑰名稱"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:221
 msgid "Give the API key a name to identify it, such as the name of the application using it or the purpose of the key."
-msgstr "請為 API 密鑰命名以便識別，例如使用該密鑰的應用程式名稱或密鑰的用途。"
+msgstr "請為 API 金鑰命名以便識別，例如使用該密鑰的應用程式名稱或密鑰的用途。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:223
 msgid "The date when the API key will no longer be valid."
-msgstr "API 密鑰到期日期。"
+msgstr "API 金鑰到期日期。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:260
 msgid "You have no active API keys."
-msgstr "您目前沒有任何有效的 API 密鑰。"
+msgstr "您目前沒有任何有效的 API 金鑰。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:278
 msgid "Active API Keys (%s)"
-msgstr "有效的 API 密鑰（%s）"
+msgstr "有效的 API 金鑰（%s）"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:294
 msgid "Delete API Key"
-msgstr "刪除 API 密鑰"
+msgstr "刪除 API 金鑰"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/AppKeys.elm:74
 msgid "Unable to get app keys."
@@ -6583,11 +6542,11 @@ msgstr "無法變更密碼。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:129
 msgid "Plugin has no user settings"
-msgstr ""
+msgstr "此外掛程式無使用者設定"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:153
 msgid "%s Settings"
-msgstr ""
+msgstr "%s 設定"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:124
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/SubmissionSettings.elm:96
@@ -6753,9 +6712,8 @@ msgid "Document template not found."
 msgstr "找不到文件模板。"
 
 #: shared/common/elm/Common/Api/ServerError.elm:152
-#, fuzzy
 msgid "Document template asset not found."
-msgstr "找不到文件模板草稿。"
+msgstr "找不到文件模板資源。"
 
 #: shared/common/elm/Common/Api/ServerError.elm:155
 msgid "Document template draft not found."
@@ -6766,7 +6724,6 @@ msgid "Document template file not found."
 msgstr "找不到文件模板檔案。"
 
 #: shared/common/elm/Common/Api/ServerError.elm:161
-#, fuzzy
 msgid "Value integration not found."
 msgstr "找不到數值整合項目。"
 
@@ -7138,7 +7095,6 @@ msgid "%s ago"
 msgstr "%s 前"
 
 #: shared/common/elm/Common/Utils/TimeDistance.elm:20
-#, fuzzy
 msgid "in %s"
 msgstr "%s 後"
 
@@ -7183,7 +7139,6 @@ msgid_plural "over %s years"
 msgstr[0] "超過 %s 年"
 
 #: shared/common/elm/Common/Utils/TimeDistance.elm:61
-#, fuzzy
 msgid "almost 1 year"
 msgid_plural "almost %s years"
 msgstr[0] "將近 %s 年"

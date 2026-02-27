@@ -27,7 +27,7 @@ msgstr "Ce courriel a été produit par"
 #: templates/wizard/apiKeyCreated/message.html.j2:81
 #: templates/wizard/apiKeyExpiration/message.html.j2:79
 #: templates/wizard/commentThreadAssigned/message.html.j2:118
-#: templates/wizard/questionnaireInvitation/message.html.j2:80
+#: templates/wizard/projectInvitation/message.html.j2:80
 #: templates/wizard/registrationConfirmation/message.html.j2:78
 #: templates/wizard/resetPassword/message.html.j2:77
 #: templates/wizard/twoFactorAuth/message.html.j2:76
@@ -38,7 +38,7 @@ msgstr "Merci d'utiliser DSW !"
 #: templates/wizard/apiKeyCreated/message.html.j2:82
 #: templates/wizard/apiKeyExpiration/message.html.j2:80
 #: templates/wizard/commentThreadAssigned/message.html.j2:119
-#: templates/wizard/questionnaireInvitation/message.html.j2:81
+#: templates/wizard/projectInvitation/message.html.j2:81
 #: templates/wizard/registrationConfirmation/message.html.j2:79
 #: templates/wizard/resetPassword/message.html.j2:78
 #: templates/wizard/twoFactorAuth/message.html.j2:77
@@ -51,8 +51,8 @@ msgstr "équipe"
 #: templates/wizard/apiKeyExpiration/message.txt.j2:6
 #: templates/wizard/commentThreadAssigned/message.html.j2:31
 #: templates/wizard/commentThreadAssigned/message.txt.j2:12
-#: templates/wizard/questionnaireInvitation/message.html.j2:26
-#: templates/wizard/questionnaireInvitation/message.txt.j2:6
+#: templates/wizard/projectInvitation/message.html.j2:26
+#: templates/wizard/projectInvitation/message.txt.j2:6
 #: templates/wizard/registrationConfirmation/message.html.j2:23
 #: templates/wizard/registrationConfirmation/message.txt.j2:3
 #: templates/wizard/resetPassword/message.html.j2:22
@@ -131,7 +131,7 @@ msgid "View all comment threads assigned to you"
 msgstr "Voir tous les fils de commentaire qui vous sont assignés"
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:116
-#: templates/wizard/questionnaireInvitation/message.html.j2:78
+#: templates/wizard/projectInvitation/message.html.j2:78
 #: templates/wizard/registrationConfirmation/message.html.j2:76
 #: templates/wizard/resetPassword/message.html.j2:75
 msgid "If any problem occurs contact us via"
@@ -153,17 +153,17 @@ msgstr "éditeur de note privée"
 msgid "Assigned to Comment Threads"
 msgstr "Assigner aux Fils de Commentaire"
 
-#: templates/wizard/questionnaireInvitation/message.html.j2:27
-#: templates/wizard/questionnaireInvitation/message.txt.j2:8
+#: templates/wizard/projectInvitation/message.html.j2:27
+#: templates/wizard/projectInvitation/message.txt.j2:8
 #, python-format
 msgid "%(ownerFirstName)s %(ownerLastName)s has invited you to the project %(projectName)s"
 msgstr "%(ownerFirstName)s %(ownerLastName)s vous a invité sur le projet %(projectName)s"
 
-#: templates/wizard/questionnaireInvitation/message.html.j2:52
+#: templates/wizard/projectInvitation/message.html.j2:52
 msgid "Open project"
 msgstr "Projet ouvert"
 
-#: templates/wizard/questionnaireInvitation/subject.txt.j2:1
+#: templates/wizard/projectInvitation/subject.txt.j2:1
 msgid "Project Invitation"
 msgstr "Invitation sur le Projet"
 

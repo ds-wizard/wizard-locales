@@ -1,7 +1,15 @@
 # omment for updating this file
 # José Geraldo de Carvalho Pereira <zgcarvalho@gmail.com>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-mail-templates:4.25.0\nPOT-Creation-Date: \nLast-Translator: Automatically generated\nLanguage-Team: none\nLanguage: pt_BR\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\n"
+msgstr ""
+"Project-Id-Version: wizard-mail-templates:4.25.0\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pt_BR\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 
 #: templates/_common/footer.html.j2:155 templates/_common/footer.txt.j2:7
 msgid "Please do not reply to this email"
@@ -15,7 +23,7 @@ msgstr ""
 #: templates/wizard/apiKeyCreated/message.html.j2:81
 #: templates/wizard/apiKeyExpiration/message.html.j2:79
 #: templates/wizard/commentThreadAssigned/message.html.j2:118
-#: templates/wizard/questionnaireInvitation/message.html.j2:80
+#: templates/wizard/projectInvitation/message.html.j2:80
 #: templates/wizard/registrationConfirmation/message.html.j2:78
 #: templates/wizard/resetPassword/message.html.j2:77
 #: templates/wizard/twoFactorAuth/message.html.j2:76
@@ -26,7 +34,7 @@ msgstr ""
 #: templates/wizard/apiKeyCreated/message.html.j2:82
 #: templates/wizard/apiKeyExpiration/message.html.j2:80
 #: templates/wizard/commentThreadAssigned/message.html.j2:119
-#: templates/wizard/questionnaireInvitation/message.html.j2:81
+#: templates/wizard/projectInvitation/message.html.j2:81
 #: templates/wizard/registrationConfirmation/message.html.j2:79
 #: templates/wizard/resetPassword/message.html.j2:78
 #: templates/wizard/twoFactorAuth/message.html.j2:77
@@ -39,8 +47,8 @@ msgstr ""
 #: templates/wizard/apiKeyExpiration/message.txt.j2:6
 #: templates/wizard/commentThreadAssigned/message.html.j2:31
 #: templates/wizard/commentThreadAssigned/message.txt.j2:12
-#: templates/wizard/questionnaireInvitation/message.html.j2:26
-#: templates/wizard/questionnaireInvitation/message.txt.j2:6
+#: templates/wizard/projectInvitation/message.html.j2:26
+#: templates/wizard/projectInvitation/message.txt.j2:6
 #: templates/wizard/registrationConfirmation/message.html.j2:23
 #: templates/wizard/registrationConfirmation/message.txt.j2:3
 #: templates/wizard/resetPassword/message.html.j2:22
@@ -119,7 +127,7 @@ msgid "View all comment threads assigned to you"
 msgstr ""
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:116
-#: templates/wizard/questionnaireInvitation/message.html.j2:78
+#: templates/wizard/projectInvitation/message.html.j2:78
 #: templates/wizard/registrationConfirmation/message.html.j2:76
 #: templates/wizard/resetPassword/message.html.j2:75
 msgid "If any problem occurs contact us via"
@@ -141,17 +149,17 @@ msgstr ""
 msgid "Assigned to Comment Threads"
 msgstr ""
 
-#: templates/wizard/questionnaireInvitation/message.html.j2:27
-#: templates/wizard/questionnaireInvitation/message.txt.j2:8
+#: templates/wizard/projectInvitation/message.html.j2:27
+#: templates/wizard/projectInvitation/message.txt.j2:8
 #, python-format
 msgid "%(ownerFirstName)s %(ownerLastName)s has invited you to the project %(projectName)s"
 msgstr ""
 
-#: templates/wizard/questionnaireInvitation/message.html.j2:52
+#: templates/wizard/projectInvitation/message.html.j2:52
 msgid "Open project"
 msgstr ""
 
-#: templates/wizard/questionnaireInvitation/subject.txt.j2:1
+#: templates/wizard/projectInvitation/subject.txt.j2:1
 msgid "Project Invitation"
 msgstr ""
 

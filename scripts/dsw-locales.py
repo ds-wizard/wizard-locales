@@ -5,7 +5,7 @@ import requests
 
 class APIClient:
 
-    def __init__(self, api_url, api_key):
+    def __init__(self, api_url: str, api_key: str):
         self.api_url = api_url
         self.api_key = api_key
         self._session = requests.Session()
@@ -19,27 +19,30 @@ class APIClient:
         r.raise_for_status()
         return r.json()['_embedded']['locales']
 
-    def get_locale(self, locale_id):
+    def get_locale(self, locale_uuid: str):
         r = self._session.get(
-            url=f'{self.api_url}/locales/{locale_id}',
+            url=f'{self.api_url}/locales/{locale_uuid}',
         )
         r.raise_for_status()
         return r.json()
 
+    def get_locale_by_id(self, locale_id: str):
+        locales = self.get_locales()
+        for locale in locales:
+            if locale['id'] == locale_id:
+                return self.get_locale(locale['uuid'])
+        raise ValueError(f'Locale with id {locale_id} not found')
+
     def delete_locales(self, locale_id: str):
-        org, loc, ver = locale_id.split(':')
-        if org == 'wizard' and loc == 'default':
-            return
+        org, loc, version = locale_id.split(':')
         r = self._session.delete(
             url=f'{self.api_url}/locales',
             params={'organizationId': org, 'localeId': loc},
         )
         r.raise_for_status()
 
-    def delete_locate(self, locale_id):
-        if locale_id.startswith('wizard:default:'):
-            return
-        r = self._session.delete(f'{self.api_url}/locales/{locale_id}')
+    def delete_locale(self, locale_uuid: str):
+        r = self._session.delete(f'{self.api_url}/locales/{locale_uuid}')
         r.raise_for_status()
 
     def push_locale(self, data: bytes):
@@ -50,9 +53,9 @@ class APIClient:
         r.raise_for_status()
         return r.json()
 
-    def enable_locale(self, locale_id):
+    def enable_locale(self, locale_uuid: str):
         r = self._session.put(
-            url=f'{self.api_url}/locales/{locale_id}',
+            url=f'{self.api_url}/locales/{locale_uuid}',
             json={
                 'enabled': True,
                 'defaultLocale': False,
@@ -79,8 +82,8 @@ def list(ctx):
 
     locales = api.get_locales()
     for locale in locales:
-        locale_full = api.get_locale(locale['id'])
-        print(locale_full['id'], locale_full['versions'])
+        locale_full = api.get_locale(locale['uuid'])
+        print(locale_full['id'], locale_full['uuid'], locale_full['versions'])
 
 
 @cli.command()
@@ -99,19 +102,23 @@ def clear(ctx, organization_id: str, locale_id: str, confirm_yes: bool):
 
     locales = api.get_locales()
     for locale in locales:
-        org, loc, ver = locale['id'].split(':')
+        org = locale['organizationId']
+        loc = locale['localeId']
+        version = locale['version']
+        coords = f'{org}:{loc}:{version}'
+        locale_uuid = locale['uuid']
         if organization_id != '*' and organization_id != org:
-            click.echo(f'Skipping {locale["id"]} (different organization)')
+            click.echo(f'Skipping {coords} [{locale_uuid}] (different organization)')
             continue
         if locale_id != '*' and locale_id != loc:
-            click.echo(f'Skipping {locale["id"]} (different locale)')
+            click.echo(f'Skipping {coords} [{locale_uuid}] (different locale)')
             continue
 
         if locale['defaultLocale']:
-            click.echo(f'Skipping {locale["id"]} (default locale)')
+            click.echo(f'Skipping {coords} [{locale_uuid}] (default locale)')
             continue
-        api.delete_locales(locale['id'])
-        click.echo(f'Deleted {locale["id"]} (with all versions)')
+        api.delete_locales(coords)
+        click.echo(f'Deleted {coords} [{locale_uuid}] (with all versions)')
 
 
 @cli.command()
@@ -126,7 +133,8 @@ def delete(ctx, locale_id, all_versions):
         api.delete_locales(locale_id)
         click.echo('Locale and all versions deleted')
     else:
-        api.delete_locate(locale_id)
+        locale = api.get_locale_by_id(locale_id)
+        api.delete_locate(locale['uuid'])
         click.echo('Locale deleted')
 
 
@@ -143,7 +151,7 @@ def push(ctx, zip_file: str, enable: bool):
     click.echo('Locale pushed')
 
     if enable:
-        api.enable_locale(locale['id'])
+        api.enable_locale(locale['uuid'])
         click.echo('Locale enabled')
 
 

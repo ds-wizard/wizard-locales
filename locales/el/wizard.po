@@ -3,9 +3,9 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Marek Suchánek <marek.suchanek@gmail.com>, 2025.
-# Georgia Koutentaki <koutegeo@fit.cvut.cz>, 2025.
+# Georgia Koutentaki <koutegeo@fit.cvut.cz>, 2025, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.9.0\nPOT-Creation-Date: 2026-03-03T08:10:26.203Z\nPO-Revision-Date: 2026-03-04 12:03+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Greek <https://localize.ds-wizard.org/projects/dsw-4-28/client/el/>\nLanguage: el\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.15.2\n"
+msgstr "Project-Id-Version: wizard-client:4.9.0\nPOT-Creation-Date: 2026-03-03T08:10:26.203Z\nPO-Revision-Date: 2026-03-04 12:03+0000\nLast-Translator: Georgia Koutentaki <koutegeo@fit.cvut.cz>\nLanguage-Team: Greek <https://localize.ds-wizard.org/projects/dsw-4-28/client/el/>\nLanguage: el\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.15.2\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -542,7 +542,7 @@ msgstr "Σχετικά με"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:751
 msgid "What's new"
-msgstr ""
+msgstr "Τι νέο υπάρχει"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:760
 msgid "Report issue"
@@ -600,7 +600,7 @@ msgstr "Δημιουργημένο στο"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:944
 msgid "Metamodel Versions"
-msgstr ""
+msgstr "Εκδόσεις Μεταμοντέλου"
 
 #: app-wizard/elm/Wizard/Components/OnlineUser.elm:51
 #: app-wizard/elm/Wizard/Components/OnlineUser.elm:61
@@ -1380,15 +1380,15 @@ msgstr "Ορισμός φάσης σε %s"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/Importer.elm:88
 msgid "Question not found at: %s"
-msgstr ""
+msgstr "Η ερώτηση δε βρέθηκε: %s"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/Importer.elm:91
 msgid "Unexpected reply type at: %s"
-msgstr ""
+msgstr "Απροσδόκητη απάντηση: %s"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/Importer.elm:94
 msgid "Unexpected answer UUID \"%s\" at: %s"
-msgstr ""
+msgstr "Απροσδόκητη απάντηση UUID \"%s\" : %s"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:52
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:845
@@ -3493,7 +3493,7 @@ msgstr "Το κείμενο απάντησης είναι πολύ μεγάλο 
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2389
 msgid "Copy response"
-msgstr ""
+msgstr "Αντιγραφή απάντησης"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2394
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2548
@@ -4413,7 +4413,7 @@ msgstr "Τελευταία έκδοση"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:92
 msgid "Unable to get dependents of the Knowledge Model."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η ανάκτηση των εξαρτημένων του Μοντέλου Γνώσης."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:122
 msgid "Knowledge Model could not be deleted."
@@ -4421,11 +4421,11 @@ msgstr "Το Μοντέλο Γνώσης δεν μπόρεσε να διαγρα
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:146
 msgid "This action cannot be undone."
-msgstr ""
+msgstr "Αυτή η ενέργεια δεν είναι αναστρέψιμη."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:148
 msgid "Type \"%s\" to confirm"
-msgstr ""
+msgstr "Πληκτρολογήστε \"%s\" για επιβεβαίωση"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:174
 #: app-wizard/elm/Wizard/Pages/Public/Auth/View.elm:77
@@ -4435,23 +4435,23 @@ msgstr "Συνεχίστε"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:178
 msgid "Delete %s"
-msgstr ""
+msgstr "Διαγραφή %s"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:194
 msgid "You are about to permanently delete all versions of %s, including all dependent knowledge models, knowledge model editors, and projects."
-msgstr ""
+msgstr "Πρόκειται να διαγράψετε μόνιμα όλες τις εκδοχές %s, συμπεριλαμβανομένων των εξαρτημένων μοντέλων γνώσης, συντακτών μοντέλων γνώσεις, και έργων."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:197
 msgid "You are about to permanently delete %s, including all dependent knowledge models, knowledge model editors, and projects."
-msgstr ""
+msgstr "Πρόκειται να διαγράψετε μόνιμα %s, συμπεριλαμβανομένων των εξαρτημένων μοντέλων γνώσης, συντακτών μοντέλων γνώσεις, και έργων."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:213
 msgid "Unexpected bad things will happen if you don't read this!"
-msgstr ""
+msgstr "Απροσδόκητα αρνητικά γεγονότα μπορεί να συμβούν αν δεν διαβάσετε αυτό!"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:219
 msgid "This action will permanently delete:"
-msgstr ""
+msgstr "Αυτή η ενέργεια θα διαγράψει μόνιμα:"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:222
 #, fuzzy
@@ -4470,12 +4470,12 @@ msgstr[1] "επεξεργαστές μοντέλων γνώσης"
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:226
 msgid "%s project"
 msgid_plural "%s projects"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s έργο"
+msgstr[1] "%s έργα"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:229
 msgid "Carefully review the list of what will be deleted before continuing."
-msgstr ""
+msgstr "Εξετάστε προσεκτικά την λίστα των αντικειμένων προς διαγραφή πριν συνεχίσετε."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:245
 #, fuzzy
@@ -4511,11 +4511,11 @@ msgstr "Δημιουργία έργου"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:149
 msgid "Set public"
-msgstr ""
+msgstr "Ορίστε ως δημόσιο"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:161
 msgid "Set private"
-msgstr ""
+msgstr "Ορίστε ως ιδιωτικό"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:66
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:85
@@ -4525,7 +4525,7 @@ msgstr "Αδυναμία ενημέρωσης του Μοντέλου Γνώση
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:61
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:124
 msgid "public"
-msgstr ""
+msgstr "δημόσιο"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:89
 msgid "This is a non-editable knowledge model, i.e., it cannot be edited, forked, or exported."
@@ -5024,7 +5024,7 @@ msgstr "Αδυναμία λήψης προτύπων έργου."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:286
 msgid "Project could not be created."
-msgstr ""
+msgstr "Το έργο δεν μπόρεσε να δημιουργηθεί."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:307
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:242
@@ -5092,7 +5092,7 @@ msgstr "Δεν είναι δυνατή η λήψη της περίληψης."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:175
 msgid "Unable to get project event."
-msgstr ""
+msgstr "Αδυναμία ανάκτησης του συμβάντος έργου."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:251
 msgid "Document could not be created."
@@ -5359,7 +5359,7 @@ msgstr "Δεν έχετε άδεια προβολής αυτής της σελί
 #: app-wizard/elm/Wizard/Pages/Settings/PluginSettings/View.elm:31
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:132
 msgid "Plugin not found"
-msgstr ""
+msgstr "Δεν βρέθηκε το πρόσθετο"
 
 #: app-wizard/elm/Wizard/Pages/Projects/DocumentDownload/Update.elm:50
 msgid "You do not have permission to access this document"
@@ -5401,7 +5401,7 @@ msgstr "Οι αλλαγές του ερωτηματολογίου δεν μπό�
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:72
 msgid "Importer not found"
-msgstr ""
+msgstr "Δε βρέθηκε εισαγωγέας"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:89
 msgid "Importing to %s"
@@ -6030,30 +6030,30 @@ msgstr "Το αναγνωριστικό του οργανισμού χρησιμ
 #: app-wizard/elm/Wizard/Pages/Settings/PluginSettings/Update.elm:67
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:112
 msgid "Unable to save plugin settings."
-msgstr ""
+msgstr "Αδυναμία αποθήκευσης ρυθμίσεων πρόσθετου."
 
 #: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:39
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:143
 #: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:96
 msgid "Plugins"
-msgstr ""
+msgstr "Πρόσθετα"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:67
 msgid "Plugin settings"
-msgstr ""
+msgstr "Ρυθμίσεις προσθέτων"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:94
 msgid "malformed manifest"
-msgstr ""
+msgstr "λανθασμένη μορφή μανιφέστου"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:98
 msgid "unsupported plugin API version %s"
-msgstr ""
+msgstr "το πρόσθετο API εκδοχής %s δεν υποστηρίζεται"
 
 #: app-wizard/elm/Wizard/Pages/Settings/PluginSettings/Update.elm:45
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:95
 msgid "Unable to get plugin settings."
-msgstr ""
+msgstr "Αδυναμία ανάκτησης ρυθμίσεων προσθέτου."
 
 #: app-wizard/elm/Wizard/Pages/Settings/PrivacyAndSupport/View.elm:28
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:137
@@ -6507,11 +6507,11 @@ msgstr "Ο κωδικός πρόσβασης δεν μπόρεσε να αλλά
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:129
 msgid "Plugin has no user settings"
-msgstr ""
+msgstr "Το πρόσθετο δεν έχει ρυθμίσεις χρήστη"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:153
 msgid "%s Settings"
-msgstr ""
+msgstr "%s Ρυθμίσεις"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:124
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/SubmissionSettings.elm:96

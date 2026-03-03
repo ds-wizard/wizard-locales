@@ -212,8 +212,7 @@ def release(version: str):
 
 
 @cli.command()
-@click.argument('old_version')
-@click.argument('new_version')
+@click.argument('version')
 def prepare(version: str):
     """Prepare for a new locales version"""
     directory = pathlib.Path.cwd()

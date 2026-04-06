@@ -8,7 +8,7 @@
 # xnovotna <xnovotna@mendelu.cz>, 2025.
 # Marek Suchánek <marek.suchanek@gmail.com>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2026-03-03T08:10:26.203Z\nPO-Revision-Date: 2026-03-04 12:03+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/dsw-4-28/client/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 5.15.2\n"
+msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2026-03-03T08:10:26.203Z\nPO-Revision-Date: 2026-04-06 19:15+0000\nLast-Translator: Marek Suchánek <marek.suchanek@gmail.com>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/dsw-4-28/client/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 5.15.2\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -4420,7 +4420,7 @@ msgstr "Poslední verze"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:92
 msgid "Unable to get dependents of the Knowledge Model."
-msgstr ""
+msgstr "Nepodařilo se načíst závislosti znalostního modelu."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:122
 msgid "Knowledge Model could not be deleted."
@@ -4428,11 +4428,11 @@ msgstr "Znalostní model nemohl být odstraněn."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:146
 msgid "This action cannot be undone."
-msgstr ""
+msgstr "Tuto akci nelze vrátit zpět."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:148
 msgid "Type \"%s\" to confirm"
-msgstr ""
+msgstr "Pro potvrzení zadejte \"%s\""
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:174
 #: app-wizard/elm/Wizard/Pages/Public/Auth/View.elm:77
@@ -4442,65 +4442,60 @@ msgstr "Pokračovat"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:178
 msgid "Delete %s"
-msgstr ""
+msgstr "Odstranit %s"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:194
 msgid "You are about to permanently delete all versions of %s, including all dependent knowledge models, knowledge model editors, and projects."
-msgstr ""
+msgstr "Chystáte se trvale smazat všechny verze %s, včetně všech závislých znalostních modelů, editorů znalostních modelů a projektů."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:197
 msgid "You are about to permanently delete %s, including all dependent knowledge models, knowledge model editors, and projects."
-msgstr ""
+msgstr "Chystáte se trvale smazat %s, včetně všech závislých znalostních modelů, editorů znalostních modelů a projektů."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:213
 msgid "Unexpected bad things will happen if you don't read this!"
-msgstr ""
+msgstr "Pokud si tohle nepřečtete, stanou se nečekané špatné věci!"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:219
 msgid "This action will permanently delete:"
-msgstr ""
+msgstr "Tato akce trvale smaže:"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:222
-#, fuzzy
 msgid "%s knowledge model"
 msgid_plural "%s knowledge models"
 msgstr[0] "znalostní model"
-msgstr[1] "znalostních modely"
-msgstr[2] "znalostních modely"
+msgstr[1] "znalostní modely"
+msgstr[2] "znalostních modelů"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:224
-#, fuzzy
 msgid "%s knowledge model editor"
 msgid_plural "%s knowledge model editors"
 msgstr[0] "editorů znalostních modelů"
-msgstr[1] "editorů znalostních modelů"
+msgstr[1] "editory znalostních modelů"
 msgstr[2] "editorů znalostních modelů"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:226
 msgid "%s project"
 msgid_plural "%s projects"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "projekt"
+msgstr[1] "projekty"
+msgstr[2] "projektů"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:229
 msgid "Carefully review the list of what will be deleted before continuing."
-msgstr ""
+msgstr "Než budete pokračovat, pečlivě si projděte seznam toho, co bude smazáno."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:245
-#, fuzzy
 msgid "Knowledge Models:"
-msgstr "Znalostní modely"
+msgstr "Znalostní modely:"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:258
-#, fuzzy
 msgid "Knowledge Model Editors:"
-msgstr "Editory znalostních modelů"
+msgstr "Editory znalostních modelů:"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:270
-#, fuzzy
 msgid "Projects:"
-msgstr "Projekty"
+msgstr "Projekty:"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:53
 msgid "Open"
@@ -4521,11 +4516,11 @@ msgstr "Vytvořit projekt"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:149
 msgid "Set public"
-msgstr ""
+msgstr "Nastavit veřejný"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:161
 msgid "Set private"
-msgstr ""
+msgstr "Nastavit privátní"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:66
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:85
@@ -4535,7 +4530,7 @@ msgstr "Nelze aktualizovat znalostní model."
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:61
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:124
 msgid "public"
-msgstr ""
+msgstr "veřejný"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:89
 msgid "This is a non-editable knowledge model, i.e., it cannot be edited, forked, or exported."

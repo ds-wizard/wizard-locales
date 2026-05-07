@@ -1,7 +1,7 @@
 #Comment for updating this file
 msgid ""
 msgstr ""
-"Project-Id-Version: wizard-mail-templates:4.29.0\n"
+"Project-Id-Version: wizard-mail-templates:4.30.0\n"
 "POT-Creation-Date: \n"
 "Language: en\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,6 +20,7 @@ msgstr ""
 #: templates/wizard/apiKeyCreated/message.html.j2:81
 #: templates/wizard/apiKeyExpiration/message.html.j2:79
 #: templates/wizard/commentThreadAssigned/message.html.j2:118
+#: templates/wizard/emailChange/message.html.j2:79
 #: templates/wizard/projectInvitation/message.html.j2:80
 #: templates/wizard/registrationConfirmation/message.html.j2:78
 #: templates/wizard/resetPassword/message.html.j2:77
@@ -31,6 +32,7 @@ msgstr ""
 #: templates/wizard/apiKeyCreated/message.html.j2:82
 #: templates/wizard/apiKeyExpiration/message.html.j2:80
 #: templates/wizard/commentThreadAssigned/message.html.j2:119
+#: templates/wizard/emailChange/message.html.j2:80
 #: templates/wizard/projectInvitation/message.html.j2:81
 #: templates/wizard/registrationConfirmation/message.html.j2:79
 #: templates/wizard/resetPassword/message.html.j2:78
@@ -44,6 +46,8 @@ msgstr ""
 #: templates/wizard/apiKeyExpiration/message.txt.j2:6
 #: templates/wizard/commentThreadAssigned/message.html.j2:31
 #: templates/wizard/commentThreadAssigned/message.txt.j2:12
+#: templates/wizard/emailChange/message.html.j2:23
+#: templates/wizard/emailChange/message.txt.j2:3
 #: templates/wizard/projectInvitation/message.html.j2:26
 #: templates/wizard/projectInvitation/message.txt.j2:6
 #: templates/wizard/registrationConfirmation/message.html.j2:23
@@ -124,6 +128,7 @@ msgid "View all comment threads assigned to you"
 msgstr ""
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:116
+#: templates/wizard/emailChange/message.html.j2:77
 #: templates/wizard/projectInvitation/message.html.j2:78
 #: templates/wizard/registrationConfirmation/message.html.j2:76
 #: templates/wizard/resetPassword/message.html.j2:75
@@ -144,6 +149,35 @@ msgstr ""
 
 #: templates/wizard/commentThreadAssigned/subject.txt.j2:1
 msgid "Assigned to Comment Threads"
+msgstr ""
+
+#: templates/wizard/emailChange/message.html.j2:24
+#: templates/wizard/emailChange/message.txt.j2:5
+msgid "You recently requested to change the email address associated with your DSW account."
+msgstr ""
+
+#: templates/wizard/emailChange/message.html.j2:25
+msgid "To confirm that this email address is correct, please click on the button below."
+msgstr ""
+
+#: templates/wizard/emailChange/message.html.j2:50
+msgid "Verify your email"
+msgstr ""
+
+#: templates/wizard/emailChange/message.html.j2:75
+msgid "In case you did not request this change, you can safely ignore this email."
+msgstr ""
+
+#: templates/wizard/emailChange/message.txt.j2:7
+msgid "To confirm that this email address is correct, please proceed here"
+msgstr ""
+
+#: templates/wizard/emailChange/message.txt.j2:9
+msgid "If you did not request this change, you can safely ignore this email."
+msgstr ""
+
+#: templates/wizard/emailChange/subject.txt.j2:1
+msgid "Email Address Confirmation"
 msgstr ""
 
 #: templates/wizard/projectInvitation/message.html.j2:27

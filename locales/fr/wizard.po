@@ -6,8 +6,9 @@
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Sylvain Milanesi <sylvain.milanesi@france-bioinformatique.fr>, 2025, 2026.
 # Saliha ZENBOUDJI-BEDDEK <saliecolo@hotmail.com>, 2025, 2026.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2026-03-03T08:10:26.203Z\nPO-Revision-Date: 2026-03-04 12:03+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/dsw-4-28/client/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.15.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2026-03-03T08:10:26.203Z\nPO-Revision-Date: 2026-06-09 13:22+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/dsw-4-28/client/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.17.1\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -543,8 +544,9 @@ msgid "About"
 msgstr "À propos"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:751
+#, fuzzy
 msgid "What's new"
-msgstr ""
+msgstr "Quoi de neuf"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:760
 msgid "Report issue"
@@ -601,8 +603,9 @@ msgid "Built at"
 msgstr "Construit le"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:944
+#, fuzzy
 msgid "Metamodel Versions"
-msgstr ""
+msgstr "Versions du Métamodèle"
 
 #: app-wizard/elm/Wizard/Components/OnlineUser.elm:51
 #: app-wizard/elm/Wizard/Components/OnlineUser.elm:61
@@ -1381,16 +1384,19 @@ msgid "Set phase to %s"
 msgstr "Définir la phase à %s"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/Importer.elm:88
+#, fuzzy
 msgid "Question not found at: %s"
-msgstr ""
+msgstr "Question non trouvée à : %s"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/Importer.elm:91
+#, fuzzy
 msgid "Unexpected reply type at: %s"
-msgstr ""
+msgstr "Mauvais type de réponse à : %s"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/Importer.elm:94
+#, fuzzy
 msgid "Unexpected answer UUID \"%s\" at: %s"
-msgstr ""
+msgstr "UUID de réponse \"%s\" inattendu à : %s"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:52
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:845
@@ -3494,8 +3500,9 @@ msgid "The response body is too large to display with syntax highlight."
 msgstr "Le corps de la réponse est trop volumineux pour un affichage avec la coloration syntaxique."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2389
+#, fuzzy
 msgid "Copy response"
-msgstr ""
+msgstr "Copier la réponse"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2394
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2548
@@ -4414,20 +4421,23 @@ msgid "Last version"
 msgstr "Dernière version"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:92
+#, fuzzy
 msgid "Unable to get dependents of the Knowledge Model."
-msgstr ""
+msgstr "Impossible de récupérer les dépendances du Modèle de Connaissance."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:122
 msgid "Knowledge Model could not be deleted."
 msgstr "Le modèle de connaissances n'a pas pu être supprimé."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:146
+#, fuzzy
 msgid "This action cannot be undone."
-msgstr ""
+msgstr "Cette action est irréversible."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:148
+#, fuzzy
 msgid "Type \"%s\" to confirm"
-msgstr ""
+msgstr "Type \"%s\" à confirmer"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:174
 #: app-wizard/elm/Wizard/Pages/Public/Auth/View.elm:77
@@ -4436,24 +4446,29 @@ msgid "Continue"
 msgstr "Continuer"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:178
+#, fuzzy
 msgid "Delete %s"
-msgstr ""
+msgstr "Effacer %s"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:194
+#, fuzzy
 msgid "You are about to permanently delete all versions of %s, including all dependent knowledge models, knowledge model editors, and projects."
-msgstr ""
+msgstr "Vous êtes sur le point de supprimer définitivement toutes les versions de %s, y compris tous les modèles de connaissances, les éditeurs et les projets qui y sont liés."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:197
+#, fuzzy
 msgid "You are about to permanently delete %s, including all dependent knowledge models, knowledge model editors, and projects."
-msgstr ""
+msgstr "Vous êtes sur le point de supprimer définitivement %s, y compris tous les modèles de connaissance, éditeurs et projets qui y sont liés."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:213
+#, fuzzy
 msgid "Unexpected bad things will happen if you don't read this!"
-msgstr ""
+msgstr "De choses inattendues et mauvaises arriveront si vous ne lisez pas ceci !"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:219
+#, fuzzy
 msgid "This action will permanently delete:"
-msgstr ""
+msgstr "Cette action supprimera définitivement :"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:222
 #, fuzzy
@@ -4476,23 +4491,24 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:229
+#, fuzzy
 msgid "Carefully review the list of what will be deleted before continuing."
-msgstr ""
+msgstr "Vérifiez attentivement la liste de ce qui va être effacé avant de continuer."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:245
 #, fuzzy
 msgid "Knowledge Models:"
-msgstr "Modèles de connaissances"
+msgstr "Modèles de connaissances:"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:258
 #, fuzzy
 msgid "Knowledge Model Editors:"
-msgstr "Éditeurs de modèles de connaissances"
+msgstr "Éditeurs de modèles de connaissances:"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:270
 #, fuzzy
 msgid "Projects:"
-msgstr "Projets"
+msgstr "Projets:"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:53
 msgid "Open"
@@ -4512,12 +4528,14 @@ msgid "Create project"
 msgstr "Créer un projet"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:149
+#, fuzzy
 msgid "Set public"
-msgstr ""
+msgstr "Rendre public"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:161
+#, fuzzy
 msgid "Set private"
-msgstr ""
+msgstr "Rendre privé"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:66
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:85
@@ -4526,8 +4544,9 @@ msgstr "Impossible de mettre à jour le modèle de connaissances."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:61
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:124
+#, fuzzy
 msgid "public"
-msgstr ""
+msgstr "public"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:89
 msgid "This is a non-editable knowledge model, i.e., it cannot be edited, forked, or exported."
@@ -5025,8 +5044,9 @@ msgid "Unable to get project templates."
 msgstr "Impossible d'obtenir les modèles de projets."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:286
+#, fuzzy
 msgid "Project could not be created."
-msgstr ""
+msgstr "Le projet ne peut pas être créé."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:307
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:242
@@ -5093,8 +5113,9 @@ msgid "Unable to get the summary report."
 msgstr "Impossible d'obtenir le rapport de synthèse."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:175
+#, fuzzy
 msgid "Unable to get project event."
-msgstr ""
+msgstr "Impossible d'obtenir l’évènement du projet."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:251
 msgid "Document could not be created."
@@ -5360,8 +5381,9 @@ msgstr "Vous n'êtes pas autorisé·e à lire cette page."
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:524
 #: app-wizard/elm/Wizard/Pages/Settings/PluginSettings/View.elm:31
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:132
+#, fuzzy
 msgid "Plugin not found"
-msgstr ""
+msgstr "Extension non trouvée"
 
 #: app-wizard/elm/Wizard/Pages/Projects/DocumentDownload/Update.elm:50
 msgid "You do not have permission to access this document"
@@ -5402,8 +5424,9 @@ msgid "Questionnaire changes could not be saved."
 msgstr "Les modifications du questionnaire n'ont pas pu être enregistrées."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:72
+#, fuzzy
 msgid "Importer not found"
-msgstr ""
+msgstr "Importateur non trouvé"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:89
 msgid "Importing to %s"
@@ -6031,31 +6054,37 @@ msgstr "L'ID de l'organisation est utilisé pour identifier les modèles de conn
 #: app-wizard/elm/Wizard/Pages/Settings/Plugins/Update.elm:38
 #: app-wizard/elm/Wizard/Pages/Settings/PluginSettings/Update.elm:67
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:112
+#, fuzzy
 msgid "Unable to save plugin settings."
-msgstr ""
+msgstr "Impossible d'enregistrer les propriétés de l'extension."
 
 #: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:39
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:143
 #: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:96
+#, fuzzy
 msgid "Plugins"
-msgstr ""
+msgstr "Extensions"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:67
+#, fuzzy
 msgid "Plugin settings"
-msgstr ""
+msgstr "Propriétés de l'extension"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:94
+#, fuzzy
 msgid "malformed manifest"
-msgstr ""
+msgstr "Manifeste mal formé"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:98
+#, fuzzy
 msgid "unsupported plugin API version %s"
-msgstr ""
+msgstr "Version de l'API %s de l'extension non supportée"
 
 #: app-wizard/elm/Wizard/Pages/Settings/PluginSettings/Update.elm:45
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:95
+#, fuzzy
 msgid "Unable to get plugin settings."
-msgstr ""
+msgstr "Impossible d'obtenir les propriétés de l'extension."
 
 #: app-wizard/elm/Wizard/Pages/Settings/PrivacyAndSupport/View.elm:28
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:137
@@ -6508,12 +6537,14 @@ msgid "Password could not be changed."
 msgstr "Le mot de passe n'a pas pu être modifié."
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:129
+#, fuzzy
 msgid "Plugin has no user settings"
-msgstr ""
+msgstr "L'Extension n'a pas de propriétés d'utilisateur"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:153
+#, fuzzy
 msgid "%s Settings"
-msgstr ""
+msgstr "%s Propriétés"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:124
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/SubmissionSettings.elm:96

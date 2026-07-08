@@ -7,7 +7,28 @@
 # Marek Suchánek <marek.suchanek@gmail.com>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.1.0\nPOT-Creation-Date: 2026-05-05T06:07:40.509Z\nPO-Revision-Date: 2026-07-07 06:50+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Slovenian <https://localize.ds-wizard.org/projects/dsw-4-32/client/sl/>\nLanguage: sl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\nX-Generator: Weblate 5.17.1\n"
+msgstr ""
+"Project-Id-Version: wizard-client:4.1.0\n"
+"POT-Creation-Date: 2026-07-07T06:30:17.016Z \n"
+"PO-Revision-Date: 2026-07-07 06:50+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\n"
+"Language-Team: Slovenian <https://localize.ds-wizard.org/projects/dsw-4-32/client/sl/>\n"
+"Language: sl\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.17.1\n"
+
+#: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Integration.elm:99
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1961
+msgid "API"
+msgstr "API"
+
+#: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Integration.elm:102
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1962
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2594
+msgid "Plugin"
+msgstr ""
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -64,6 +85,136 @@ msgstr "Čas je lahko največ %s."
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:455
 msgid "Email domain must be one of the following: %s."
 msgstr "E-poštna domena mora biti ena od naslednjih: %s."
+
+#: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValueType.elm:56
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1418
+msgid "String"
+msgstr "Niz"
+
+#: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValueType.elm:59
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1419
+msgid "Number"
+msgstr "Številka"
+
+#: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValueType.elm:62
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1420
+msgid "Date"
+msgstr "Datum"
+
+#: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValueType.elm:65
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1421
+msgid "Date Time"
+msgstr "Datum Čas"
+
+#: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValueType.elm:68
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1422
+msgid "Time"
+msgstr "Čas"
+
+#: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValueType.elm:71
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:212
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:224
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:348
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:574
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1025
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1255
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1423
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:882
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:901
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:938
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:966
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1041
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1244
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1341
+msgid "Text"
+msgstr "Besedilo"
+
+#: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValueType.elm:74
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:778
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:789
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1424
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3056
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2035
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2054
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2076
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2095
+#: app-wizard/elm/Wizard/Pages/Public/ForgottenPassword/View.elm:52
+#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:97
+#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:143
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:138
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:153
+#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:143
+#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:38
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:214
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:246
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:60
+#: shared/common/elm/Common/Components/UserExternalCompletionForm.elm:104
+msgid "Email"
+msgstr "E-pošta"
+
+#: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValueType.elm:77
+#: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Reference.elm:106
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:665
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:737
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1425
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2809
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2901
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1710
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1713
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1774
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1777
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1781
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1855
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1858
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1924
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1927
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1993
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1996
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:139
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:167
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:108
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:123
+#: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:221
+msgid "URL"
+msgstr "URL"
+
+#: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValueType.elm:80
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:872
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:887
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1426
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1865
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:627
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:649
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:674
+msgid "Color"
+msgstr "Barva"
+
+#: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Reference.elm:105
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:130
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:658
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:708
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2808
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2870
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3173
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1693
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1756
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1759
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1838
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1907
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1976
+msgid "Resource Page"
+msgstr "Stran z viri"
+
+#: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Reference.elm:107
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2810
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1734
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1800
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1804
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1879
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1948
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2017
+msgid "Cross Reference"
+msgstr "Navzkrižno sklicevanje"
 
 #: app-wizard/elm/Wizard/Api/Models/Project/ProjectCreation.elm:116
 msgid "Templates & Custom"
@@ -166,11 +317,11 @@ msgstr "komentar"
 msgid "edit"
 msgstr "uredi"
 
-#: app-wizard/elm/Wizard/Api/Models/ProjectQuestionnaire.elm:510
+#: app-wizard/elm/Wizard/Api/Models/ProjectQuestionnaire.elm:526
 msgid "Item"
 msgstr "Artikel"
 
-#: app-wizard/elm/Wizard/Api/Models/ProjectQuestionnaire.elm:524
+#: app-wizard/elm/Wizard/Api/Models/ProjectQuestionnaire.elm:540
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:3816
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:4112
 #: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:225
@@ -248,10 +399,6 @@ msgstr "Kopirano!"
 msgid "Copy"
 msgstr "Kopiraj"
 
-#: app-wizard/elm/Wizard/Components/ExternalLoginButton.elm:60
-msgid "internal"
-msgstr "interno"
-
 #: app-wizard/elm/Wizard/Components/FileImport.elm:143
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:180
 msgid "Unable to upload file."
@@ -277,9 +424,9 @@ msgstr "Neuspešno nalaganje nekaterih datotek."
 
 #: app-wizard/elm/Wizard/Components/FileImport.elm:243
 #: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:141
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:377
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:383
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:450
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:381
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:387
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:99
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:214
 #: shared/common/elm/Common/Utils/Driver.elm:116
@@ -297,12 +444,12 @@ msgstr "Končano"
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/CommentsRightPanel.elm:1072
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/CommentsRightPanel.elm:1102
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/FileUploadModal.elm:232
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:393
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:399
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1499
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:266
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3467
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3548
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:397
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:403
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:140
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:119
 #: shared/common/elm/Common/Components/Form.elm:119
@@ -343,20 +490,483 @@ msgstr "Spremembe niso shranjene."
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/View.elm:90
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:146
 #: app-wizard/elm/Wizard/Pages/Public/ForgottenPasswordConfirmation/View.elm:45
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:42
+#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:29
 #: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:42
 #: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:27
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:157
 #: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:27
 #: app-wizard/elm/Wizard/Pages/Settings/PrivacyAndSupport/View.elm:29
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:32
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:43
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Language.elm:141
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Password.elm:116
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:224
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:221
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/SubmissionSettings.elm:226
 #: shared/common/elm/Common/Components/Form.elm:272
 msgid "Save"
 msgstr "Shrani"
+
+#: app-wizard/elm/Wizard/Components/KMComparison.elm:299
+#: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:52
+#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/NavigationTree.elm:106
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:844
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:423
+msgid "Chapters"
+msgstr "Poglavja"
+
+#: app-wizard/elm/Wizard/Components/KMComparison.elm:319
+#: app-wizard/elm/Wizard/Components/SummaryReport.elm:162
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:864
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1164
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:435
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1454
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1505
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1543
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1581
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:323
+msgid "Metrics"
+msgstr "Metrike"
+
+#: app-wizard/elm/Wizard/Components/KMComparison.elm:339
+#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1948
+#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/Toolbar.elm:235
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:884
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:177
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:450
+msgid "Phases"
+msgstr "Faze"
+
+#: app-wizard/elm/Wizard/Components/KMComparison.elm:359
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:355
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:581
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:293
+msgid "Tags"
+msgstr "Oznake"
+
+#: app-wizard/elm/Wizard/Components/KMComparison.elm:379
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:924
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:480
+msgid "Integrations"
+msgstr "Integracije"
+
+#: app-wizard/elm/Wizard/Components/KMComparison.elm:399
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:944
+msgid "Resource Collections"
+msgstr "Zbirke virov"
+
+#: app-wizard/elm/Wizard/Components/KMComparison.elm:446
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1035
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1381
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:920
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:951
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1177
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1301
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1398
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1492
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1537
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1575
+msgid "Questions"
+msgstr "Vprašanja"
+
+#: app-wizard/elm/Wizard/Components/KMComparison.elm:532
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1345
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1144
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1279
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1376
+msgid "Answers"
+msgstr "Odgovori"
+
+#: app-wizard/elm/Wizard/Components/KMComparison.elm:543
+msgid "Item Template Questions"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/KMComparison.elm:554
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1539
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1156
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1290
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1387
+msgid "Choices"
+msgstr "Izbire"
+
+#: app-wizard/elm/Wizard/Components/KMComparison.elm:565
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1283
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1196
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1313
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1410
+msgid "References"
+msgstr "Reference"
+
+#: app-wizard/elm/Wizard/Components/KMComparison.elm:576
+#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:370
+#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/QuestionnaireContent.elm:1097
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1303
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1212
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1320
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1417
+msgid "Experts"
+msgstr "Strokovnjaki"
+
+#: app-wizard/elm/Wizard/Components/KMComparison.elm:749
+msgid "Follow-up Questions"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/KMComparison.elm:938
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3121
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2147
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2176
+msgid "Resource Pages"
+msgstr "Stran z viri"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:75
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:171
+#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/SearchRightPanel.elm:172
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1005
+msgid "Chapter"
+msgstr "Poglavje"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:80
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:678
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:758
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:202
+#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/SearchRightPanel.elm:203
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1190
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2972
+msgid "Question"
+msgstr "Vprašanje"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:85
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:205
+#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/SearchRightPanel.elm:206
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2651
+msgid "Answer"
+msgstr "Odgovor"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:90
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:208
+#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/SearchRightPanel.elm:209
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2750
+msgid "Choice"
+msgstr "Izbira"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:95
+#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:211
+#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/SearchRightPanel.elm:212
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2815
+msgid "Reference"
+msgstr "Referenca"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:100
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3036
+msgid "Expert"
+msgstr "Strokovnjak"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:105
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1706
+msgid "Metric"
+msgstr "Metrični"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:110
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1777
+msgid "Phase"
+msgstr "Faza"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:115
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1837
+msgid "Tag"
+msgstr "Oznaka"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:120
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:301
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:307
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:502
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1176
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1511
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1967
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:979
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1086
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1257
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1354
+msgid "Integration"
+msgstr "Integracija"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:125
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3101
+msgid "Resource Collection"
+msgstr "Zbirka virov"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:146
+msgid "Added"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:149
+msgid "Removed"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:152
+msgid "Changed"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:155
+msgid "No Change"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:209
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:221
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:345
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:571
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:801
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:817
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:837
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:849
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:925
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:933
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:945
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:956
+#: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:177
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1017
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1247
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1718
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1789
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3113
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3185
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:498
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:519
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:544
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:565
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:584
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:606
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:881
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:900
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:937
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:965
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1040
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1243
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1340
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2113
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2130
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2164
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2190
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2209
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2231
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:137
+#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:164
+msgid "Title"
+msgstr "Naslov"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:278
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:431
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1432
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:976
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1067
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1254
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1351
+msgid "Value Type"
+msgstr "Vrsta vrednosti"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:296
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:497
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2078
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:696
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:752
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:828
+msgid "Variables"
+msgstr "Spremenljivke"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:323
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:528
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1590
+msgid "List Question"
+msgstr "Vprašanje iz seznama"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:329
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:557
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1626
+msgid "File Types"
+msgstr "Vrste datotek"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:333
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:560
+msgid "Max Size"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:342
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:568
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:684
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:763
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:899
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:910
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1202
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1979
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:694
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:721
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:750
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:789
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:826
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:853
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:964
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1039
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1242
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1339
+msgid "Type"
+msgstr "Tip"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:352
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:578
+msgid "Required Phase"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:594
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:606
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:622
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:630
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:668
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:740
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2663
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2762
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2923
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1446
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1472
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1523
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1561
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1612
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1629
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1648
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1665
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1711
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1775
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1856
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1925
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1994
+msgid "Label"
+msgstr "Oznaka"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:597
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:609
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2671
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1447
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1473
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1524
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1562
+msgid "Advice"
+msgstr "Nasveti"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:775
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:786
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:865
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:880
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:902
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:913
+#: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:156
+#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/VersionModal.elm:156
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:122
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:100
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:133
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:280
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:388
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:447
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:475
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:496
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:54
+#: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:75
+#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:104
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1849
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2532
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3048
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:123
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:180
+#: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:71
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:625
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:647
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:672
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:695
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:722
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:751
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:790
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:827
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:854
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2034
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2053
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2075
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2094
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:42
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:74
+#: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:116
+#: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:137
+#: app-wizard/elm/Wizard/Pages/Locales/Create/View.elm:41
+#: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:62
+#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:63
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:313
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:413
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:111
+#: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:135
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:80
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:176
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:197
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:85
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:190
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:211
+#: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:47
+#: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:107
+msgid "Name"
+msgstr "Ime"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:804
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:820
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1726
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:499
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:520
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:545
+msgid "Abbreviation"
+msgstr "Okrajšava"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:808
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:824
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:840
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:852
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:868
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:883
+#: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:178
+#: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:157
+#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/VersionModal.elm:157
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:134
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:281
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1734
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1797
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1857
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2998
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:124
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:181
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:500
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:521
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:546
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:566
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:585
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:607
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:626
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:648
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:673
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1732
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1798
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1877
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1946
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2015
+#: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:81
+#: app-wizard/elm/Wizard/Pages/Locales/Create/View.elm:42
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:414
+#: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:49
+#: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:108
+msgid "Description"
+msgstr "Opis"
+
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:948
+#: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:959
+#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3193
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2191
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2210
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2232
+#: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:162
+msgid "Content"
+msgstr "Vsebina"
 
 #: app-wizard/elm/Wizard/Components/Listing/View.elm:118
 msgid "Filter by name..."
@@ -421,7 +1031,7 @@ msgstr "Ni mogoče dobiti informacij o gradnji"
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:79
 #: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:36
 #: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:163
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:151
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:167
 msgid "Dashboard"
 msgstr "Nadzorna plošča"
 
@@ -462,7 +1072,7 @@ msgstr "Predloge dokumentov"
 #: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:84
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:68
 #: app-wizard/elm/Wizard/Pages/Settings/Projects/View.elm:31
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:172
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:188
 msgid "Projects"
 msgstr "Projekti"
 
@@ -500,7 +1110,7 @@ msgstr "Administracija"
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:142
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:587
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:505
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:31
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:30
 msgid "Users"
 msgstr "Uporabniki"
 
@@ -598,6 +1208,7 @@ msgstr "Dokumenti API"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:230
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:126
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:169
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/CompareSelectModal.elm:493
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:161
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:45
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:164
@@ -614,8 +1225,8 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:972
 #: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:42
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:138
-#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:96
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:154
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:101
 msgid "Plugins"
 msgstr ""
 
@@ -712,7 +1323,7 @@ msgid "Unable to get version history."
 msgstr "Ni mogoče pridobiti zgodovine različic."
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:1390
-#: app-wizard/elm/Wizard/Components/Questionnaire2.elm:857
+#: app-wizard/elm/Wizard/Components/Questionnaire2.elm:894
 #: app-wizard/elm/Wizard/Pages/Comments/Update.elm:35
 msgid "Unable to get comments."
 msgstr "Ni mogoče dobiti komentarjev."
@@ -749,14 +1360,6 @@ msgstr "Skrij vse"
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/Toolbar.elm:230
 msgid "Answered by"
 msgstr "Odgovori"
-
-#: app-wizard/elm/Wizard/Components/Questionnaire.elm:1948
-#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/Toolbar.elm:235
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:884
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:177
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:440
-msgid "Phases"
-msgstr "Faze"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:1953
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/Toolbar.elm:240
@@ -905,7 +1508,7 @@ msgstr "Dodeljeno %s"
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/CommentsRightPanel.elm:854
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/CommentsRightPanel.elm:937
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:99
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:145
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:137
 msgid "Edit"
 msgstr "Uredi"
 
@@ -942,7 +1545,7 @@ msgstr "Ponovno odprite"
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/QuestionnaireContent.elm:2179
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/QuestionnaireContent.elm:2702
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:241
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:355
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:361
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1151
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1531
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1535
@@ -958,7 +1561,7 @@ msgstr "Ponovno odprite"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:252
 #: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:209
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:169
-#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:173
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:185
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:105
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:172
 #: app-wizard/elm/Wizard/Pages/Locales/Common/LocaleActionsDropdown.elm:110
@@ -969,14 +1572,15 @@ msgstr "Ponovno odprite"
 #: app-wizard/elm/Wizard/Pages/Projects/Common/DeleteProjectModal/View.elm:36
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings/DeleteModal.elm:123
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:243
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:359
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:365
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:128
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:165
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:675
+#: app-wizard/elm/Wizard/Pages/Settings/OpenId/View.elm:90
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:298
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/AppKeys.elm:183
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:154
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:189
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:146
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:181
 msgid "Delete"
 msgstr "Izbriši"
 
@@ -1247,7 +1851,6 @@ msgstr "Odstraniti element"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:397
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:554
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:640
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:181
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:103
 msgid "Remove"
 msgstr "Odstranite"
@@ -1281,15 +1884,6 @@ msgstr "Zunanje povezave"
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/QuestionnaireContent.elm:1089
 msgid "Related questions"
 msgstr ""
-
-#: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:370
-#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/QuestionnaireContent.elm:1097
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1303
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1202
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1310
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1407
-msgid "Experts"
-msgstr "Strokovnjaki"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/DeleteVersionModal.elm:116
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/DeleteVersionModal.elm:116
@@ -1339,70 +1933,6 @@ msgstr "Pri tem vprašanju so že poročali o nekaterih težavah."
 #: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:175
 msgid "If you found something wrong with the question, you can send us your recommendation on how to improve it."
 msgstr "Če ste v vprašanju našli kakšno napako, nam lahko pošljete priporočilo, kako ga izboljšati."
-
-#: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:177
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1017
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1247
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1718
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1789
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3113
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3185
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:488
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:509
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:534
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:555
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:574
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:596
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:871
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:890
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:927
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:955
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1030
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1233
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1330
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2103
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2120
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2154
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2180
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2199
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2221
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:137
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:164
-msgid "Title"
-msgstr "Naslov"
-
-#: app-wizard/elm/Wizard/Components/Questionnaire/FeedbackModal.elm:178
-#: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:157
-#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/VersionModal.elm:157
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:134
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:281
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1734
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1797
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1857
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2998
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:124
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:181
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:490
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:511
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:536
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:556
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:575
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:597
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:616
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:638
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:663
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1722
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1788
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1867
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1936
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2005
-#: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:81
-#: app-wizard/elm/Wizard/Pages/Locales/Create/View.elm:42
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:414
-#: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:49
-#: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:108
-msgid "Description"
-msgstr "Opis"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/FileUploadModal.elm:175
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/FileUploadModal.elm:176
@@ -1532,44 +2062,6 @@ msgstr ""
 msgid "Unexpected answer UUID \"%s\" at: %s"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Components/Questionnaire/NavigationTree.elm:52
-#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/NavigationTree.elm:106
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:844
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:413
-msgid "Chapters"
-msgstr "Poglavja"
-
-#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:171
-#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/SearchRightPanel.elm:172
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1005
-msgid "Chapter"
-msgstr "Poglavje"
-
-#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:202
-#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/SearchRightPanel.elm:203
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1190
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2972
-msgid "Question"
-msgstr "Vprašanje"
-
-#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:205
-#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/SearchRightPanel.elm:206
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2651
-msgid "Answer"
-msgstr "Odgovor"
-
-#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:208
-#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/SearchRightPanel.elm:209
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2750
-msgid "Choice"
-msgstr "Izbira"
-
-#: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:211
-#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/SearchRightPanel.elm:212
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2815
-msgid "Reference"
-msgstr "Referenca"
-
 #: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:279
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/SearchRightPanel.elm:280
 msgid "No results"
@@ -1603,60 +2095,9 @@ msgstr "Dodelite nit komentarja"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/UserSuggestionDropdown.elm:179
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:453
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:57
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:56
 msgid "Search users..."
 msgstr "Iskanje uporabnikov..."
-
-#: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:156
-#: app-wizard/elm/Wizard/Components/Questionnaire2/Components/VersionModal.elm:156
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:122
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:100
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:133
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:280
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:388
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:447
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:475
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:496
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:54
-#: app-wizard/elm/Wizard/Pages/DocumentTemplates/Index/View.elm:75
-#: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:104
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1849
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2532
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3048
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:123
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Settings.elm:180
-#: app-wizard/elm/Wizard/Pages/KMEditor/Index/View.elm:71
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:615
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:637
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:662
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:685
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:712
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:741
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:780
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:817
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:844
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2024
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2043
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2065
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2084
-#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:42
-#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:74
-#: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:116
-#: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:137
-#: app-wizard/elm/Wizard/Pages/Locales/Create/View.elm:41
-#: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:62
-#: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:63
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:313
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:413
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:111
-#: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:135
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:205
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:241
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:262
-#: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:47
-#: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:107
-msgid "Name"
-msgstr "Ime"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/VersionModal.elm:163
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/VersionModal.elm:163
@@ -1668,7 +2109,7 @@ msgstr "Preimenovanje različice"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:90
 #: app-wizard/elm/Wizard/Pages/KMEditor/Create/View.elm:94
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:60
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:93
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:118
 msgid "New version"
 msgstr "Nova različica"
 
@@ -1738,18 +2179,6 @@ msgstr "Odgovorjeno: %s/%s"
 msgid "Answered (current phase): %s/%s"
 msgstr "Odgovorjeno (trenutna faza): %s/%s"
 
-#: app-wizard/elm/Wizard/Components/SummaryReport.elm:162
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:864
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1164
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:425
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1444
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1495
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1533
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1571
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:323
-msgid "Metrics"
-msgstr "Metrike"
-
 #: app-wizard/elm/Wizard/Components/SummaryReport.elm:163
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:1159
 msgid "Measure"
@@ -1771,11 +2200,11 @@ msgstr "Oznaka za vprašanje brez naslova"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:904
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1274
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:186
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:455
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1002
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1115
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1263
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1360
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:465
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1012
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1125
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1273
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1370
 msgid "Question Tags"
 msgstr "Oznake vprašanj"
 
@@ -1857,9 +2286,10 @@ msgid "Sign Up"
 msgstr "Prijavite se"
 
 #: app-wizard/elm/Wizard/Layouts/Layout.elm:118
-#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:93
-#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:115
-#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:129
+#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:105
+#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:120
+#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:133
+#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:148
 msgid "Log In"
 msgstr "Prijava"
 
@@ -1890,8 +2320,8 @@ msgid "Search comments..."
 msgstr "Iskanje komentarjev..."
 
 #: app-wizard/elm/Wizard/Pages/Comments/View.elm:56
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:376
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:78
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:379
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:99
 msgid "Project"
 msgstr "Projekt"
 
@@ -2033,12 +2463,13 @@ msgstr "Model znanja je drevesu podobna struktura, ki vsebuje znanje o tem, kaj 
 #: app-wizard/elm/Wizard/Pages/Locales/Create/View.elm:55
 #: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:156
 #: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:51
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:99
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:125
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:293
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:85
+#: app-wizard/elm/Wizard/Pages/Settings/OpenId/View.elm:42
 #: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:27
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:224
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:43
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:42
 msgid "Create"
 msgstr "Ustvarite"
 
@@ -2120,7 +2551,7 @@ msgstr "Nimate še nobenega projekta, začnite z ustvarjanjem projektov."
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/UsageWidget.elm:27
 #: app-wizard/elm/Wizard/Pages/Settings/Usage/View.elm:22
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:185
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:201
 msgid "Usage"
 msgstr "Uporaba"
 
@@ -2193,7 +2624,7 @@ msgstr "Iskanje dokumentov..."
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:136
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:267
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/AppKeys.elm:163
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:62
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:61
 msgid "Created"
 msgstr "Ustvarjeno"
 
@@ -2204,7 +2635,7 @@ msgstr "Kliknite za prenos dokumenta"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:202
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1428
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:438
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:443
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:116
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:169
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:188
@@ -2213,11 +2644,11 @@ msgid "Download"
 msgstr "Prenesi"
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:214
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:381
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:389
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:387
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:395
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:200
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:385
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:393
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:391
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:399
 msgid "Submit"
 msgstr "Pošlji"
 
@@ -2261,7 +2692,7 @@ msgstr "Predloženo"
 msgid "View submission"
 msgstr "Prikaz predložitve"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:347
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:353
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1524
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Index/View.elm:140
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:363
@@ -2270,48 +2701,49 @@ msgstr "Prikaz predložitve"
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:152
 #: app-wizard/elm/Wizard/Pages/Projects/Common/DeleteProjectModal/View.elm:26
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings/DeleteModal.elm:113
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:349
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:355
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Files/View.elm:155
+#: app-wizard/elm/Wizard/Pages/Settings/OpenId/View.elm:76
 msgid "Are you sure you want to permanently delete %s?"
 msgstr "Ste prepričani, da želite trajno izbrisati %s?"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:351
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:355
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:357
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:361
 msgid "Delete document"
 msgstr "Izbriši dokument"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:414
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:418
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:420
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:424
 msgid "There are no submission services configured for this type of document."
 msgstr "Za to vrsto dokumenta niso konfigurirane nobene storitve predložitve."
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:434
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:438
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:440
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:444
 msgid "You can find it here: "
 msgstr "Najdete ga tukaj: "
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:444
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:448
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:450
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:454
 msgid "The document was successfully submitted."
 msgstr "Dokument je bil uspešno predložen."
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:450
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:454
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:456
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:460
 msgid "The document submission failed."
 msgstr "Oddaja dokumenta ni bila uspešna."
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:472
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:476
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:478
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:482
 msgid "Submit %s"
 msgstr "Pošlji %s"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:514
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:518
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:520
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:524
 msgid "Document error"
 msgstr "Napaka v dokumentu"
 
-#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:537
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:541
+#: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:543
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:547
 msgid "Submission error"
 msgstr "Napaka pri oddaji"
 
@@ -2461,39 +2893,43 @@ msgstr "Ni mogoče pridobiti urejevalnikov modela znanja."
 msgid "Unable to get the document preview."
 msgstr "Ne moremo prikazati predogleda dokumenta."
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:325
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:328
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:598
 msgid "Open project"
 msgstr "Odprti projekt"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:350
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:353
 msgid "Open KM editor"
 msgstr "Odprite urejevalnik KM"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:386
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:389
 msgid "KM editor"
 msgstr "Urednik KM"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:394
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:397
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:321
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:140
 msgid "Format"
 msgstr "Format"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:408
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:402
+msgid "Reload preview"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:413
 msgid "Preview not set"
 msgstr "Predogled ni nastavljen"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:409
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:414
 msgid "Select a project or knowledge model editor and format you want to preview."
 msgstr "Izberite projekt ali urejevalnik modela znanja in obliko, ki jo želite predogledati."
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:432
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:437
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:163
 msgid "Download preview"
 msgstr "Predogled za prenos"
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:434
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:439
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:165
 msgid "The document format cannot be displayed in the web browser. You can still download and view it."
 msgstr "Oblike dokumenta ni mogoče prikazati v spletnem brskalniku. Kljub temu ga lahko prenesete in si ga ogledate."
@@ -2537,7 +2973,7 @@ msgstr "Readme"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:132
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PublishModal.elm:136
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:128
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2527
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2537
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:42
 msgid "Publish"
 msgstr "Objavite"
@@ -2586,6 +3022,7 @@ msgid "Allowed Knowledge Models"
 msgstr "Dovoljeni modeli znanja"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:307
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:158
 msgid "Add knowledge model"
 msgstr "Dodajanje modela znanja"
 
@@ -2595,7 +3032,7 @@ msgid "Add format"
 msgstr "Dodajanje formata"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:404
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:202
+#: app-wizard/elm/Wizard/Pages/Settings/Common/AuthButtonFormGroup.elm:37
 #: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:135
 #: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:161
 msgid "Icon"
@@ -2607,7 +3044,7 @@ msgstr "Ikona"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:195
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:65
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/View.elm:332
-#: shared/common/elm/Common/Components/FormGroup.elm:591
+#: shared/common/elm/Common/Components/FormGroup.elm:621
 msgid "Preview"
 msgstr "Predogled"
 
@@ -2640,8 +3077,10 @@ msgstr "Dodajte možnost"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:874
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:118
 #: app-wizard/elm/Wizard/Pages/KnowledgeModelSecrets/View.elm:139
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:242
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:265
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:177
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:200
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:191
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:214
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:246
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:250
 msgid "Value"
@@ -2649,7 +3088,7 @@ msgstr "Vrednost"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:521
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2028
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:160
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:46
 msgid "Quick setup"
 msgstr "Hitra nastavitev"
 
@@ -2719,12 +3158,12 @@ msgid "Create editor"
 msgstr "Ustvari urejevalnik"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Common/DocumentTemplateActionsDropdown.elm:86
-#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:125
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:137
 msgid "Set deprecated"
 msgstr "Nastavite zastarelo"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Common/DocumentTemplateActionsDropdown.elm:98
-#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:137
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:149
 msgid "Restore"
 msgstr "Obnovitev"
 
@@ -2767,7 +3206,7 @@ msgid "There is a newer version (%s) available."
 msgstr "Na voljo je novejša različica (%s)."
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:192
-#: shared/common/elm/Common/Components/GuideLink.elm:29
+#: shared/common/elm/Common/Components/GuideLink.elm:30
 msgid "Learn more in guide"
 msgstr "Več informacij v vodniku"
 
@@ -2778,7 +3217,6 @@ msgstr "Ta predloga dokumenta v trenutni različici ni podprta."
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:229
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:160
 #: app-wizard/elm/Wizard/Pages/Locales/Detail/View.elm:162
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:172
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:99
 msgid "ID"
 msgstr "ID"
@@ -3169,6 +3607,8 @@ msgstr "Opozoril ni več."
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:799
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/View.elm:168
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:70
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/CompareSelectModal.elm:412
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/CompareSelectModal.elm:433
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:178
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:138
 #: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:111
@@ -3180,19 +3620,19 @@ msgstr "Model znanja"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:856
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:99
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:230
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:231
 msgid "Add chapter"
 msgstr "Dodajte poglavje"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:876
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:111
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:166
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:167
 msgid "Add metric"
 msgstr "Dodajte metriko"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:896
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:123
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:182
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:183
 msgid "Add phase"
 msgstr "Dodaj fazo"
 
@@ -3201,52 +3641,17 @@ msgstr "Dodaj fazo"
 msgid "Add tag"
 msgstr "Dodajanje oznake"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:924
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:470
-msgid "Integrations"
-msgstr "Integracije"
-
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:936
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:147
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:214
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:215
 msgid "Add integration"
 msgstr "Dodajanje integracije"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:944
-msgid "Resource Collections"
-msgstr "Zbirke virov"
-
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:956
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:159
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:326
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:327
 msgid "Add resource collection"
 msgstr "Dodajanje zbirke virov"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1025
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1255
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1423
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:872
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:891
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:928
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:956
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1031
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1234
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1331
-msgid "Text"
-msgstr "Besedilo"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1035
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1381
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:910
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:941
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1167
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1291
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1388
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1482
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1527
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1565
-msgid "Questions"
-msgstr "Vprašanja"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1047
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1393
@@ -3254,23 +3659,13 @@ msgstr "Vprašanja"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:199
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:296
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:370
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:246
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:247
 msgid "Add question"
 msgstr "Dodajte vprašanje"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1174
 msgid "List of Items"
 msgstr "Seznam predmetov"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1176
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1511
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1967
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:969
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1076
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1247
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1344
-msgid "Integration"
-msgstr "Integracija"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1177
 msgid "Multi-Choice"
@@ -3283,21 +3678,6 @@ msgstr "Izberite element"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1186
 msgid "Never"
 msgstr "Nikoli"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1202
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1979
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:684
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:711
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:740
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:779
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:816
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:843
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:954
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1029
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1232
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1329
-msgid "Type"
-msgstr "Tip"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1218
 msgid "Changing a question type will remove all answers."
@@ -3315,35 +3695,21 @@ msgstr "Če spremenite vrsto vprašanja, odstranite vse možnosti."
 msgid "When does this question become desirable?"
 msgstr "Kdaj to vprašanje postane zahtevano?"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1283
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1186
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1303
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1400
-msgid "References"
-msgstr "Reference"
-
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1295
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:320
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:294
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:295
 msgid "Add reference"
 msgstr "Dodajte referenco"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1315
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:332
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:310
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:311
 msgid "Add expert"
 msgstr "Dodajte strokovnjaka"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1345
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1134
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1269
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1366
-msgid "Answers"
-msgstr "Odgovori"
-
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1357
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:284
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:262
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:263
 msgid "Add answer"
 msgstr "Dodajte odgovor"
 
@@ -3352,80 +3718,6 @@ msgstr "Dodajte odgovor"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/TagEditor.elm:346
 msgid "Item Template"
 msgstr "Predloga elementa"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1418
-msgid "String"
-msgstr "Niz"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1419
-msgid "Number"
-msgstr "Številka"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1420
-msgid "Date"
-msgstr "Datum"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1421
-msgid "Date Time"
-msgstr "Datum Čas"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1422
-msgid "Time"
-msgstr "Čas"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1424
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3056
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2025
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2044
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2066
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2085
-#: app-wizard/elm/Wizard/Pages/Public/ForgottenPassword/View.elm:52
-#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:85
-#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:143
-#: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:143
-#: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:38
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:216
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:249
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:61
-msgid "Email"
-msgstr "E-pošta"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1425
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2809
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2901
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1700
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1703
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1764
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1767
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1771
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1845
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1848
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1914
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1917
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1983
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1986
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:191
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:139
-#: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:167
-#: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:221
-msgid "URL"
-msgstr "URL"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1426
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1865
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:617
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:639
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:664
-msgid "Color"
-msgstr "Barva"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1432
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:966
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1057
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1244
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1341
-msgid "Value Type"
-msgstr "Vrsta vrednosti"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1441
 msgid "Validations"
@@ -3443,22 +3735,11 @@ msgstr "Konfiguracija integracije"
 msgid "Go to integration"
 msgstr "Pojdi na integracijo"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1539
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1146
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1280
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1377
-msgid "Choices"
-msgstr "Izbire"
-
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1551
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:308
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:278
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:279
 msgid "Add choice"
 msgstr "Dodajte izbiro"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1590
-msgid "List Question"
-msgstr "Vprašanje iz seznama"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1592
 msgid "- select list question -"
@@ -3467,10 +3748,6 @@ msgstr "- izberite seznam vprašanj -"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1604
 msgid "Go to list question"
 msgstr "Pojdi na vprašanje iz seznama"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1626
-msgid "File Types"
-msgstr "Vrste datotek"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1634
 msgid "Max Size (bytes)"
@@ -3488,34 +3765,6 @@ msgstr "Prenesene datoteke ne smejo biti večje od %s, lahko pa nastavite manjš
 msgid "Item select questions using this list question"
 msgstr "Izberite vprašanja s tega seznama Vprašanje"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1706
-msgid "Metric"
-msgstr "Metrični"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1726
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:489
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:510
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:535
-msgid "Abbreviation"
-msgstr "Okrajšava"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1777
-msgid "Phase"
-msgstr "Faza"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1837
-msgid "Tag"
-msgstr "Oznaka"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1961
-msgid "API"
-msgstr "API"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1962
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2594
-msgid "Plugin"
-msgstr ""
-
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2002
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3208
 msgid "No questions"
@@ -3532,13 +3781,6 @@ msgstr "Dovoli prilagojen odgovor"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2073
 msgid "If enabled, users can type their own custom reply. If disabled, they must select a reply from the integration."
 msgstr "Če je omogočeno, lahko uporabniki vnesejo svoj prilagojen odgovor. Če je onemogočeno, morajo izbrati odgovor iz integracije."
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2078
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:686
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:742
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:818
-msgid "Variables"
-msgstr "Spremenljivke"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2083
 msgid "Variables can be used to parametrize the integration for each question. Use this to define the variables whose value can be filled on the questions using this integration. The variables can then be used in the request configuration. For example, if you define a variable named *type*, you can use it as `{{ variables.type }}`, such as *ht&#8203;tps://example.com/{{ variables.type }}*."
@@ -3561,9 +3803,9 @@ msgid "Advanced Integration Configuration"
 msgstr "Napredna konfiguracija integracije"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2130
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:689
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:745
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:821
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:699
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:755
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:831
 msgid "Request HTTP Headers"
 msgstr "Glave zahtevka HTTP"
 
@@ -3572,9 +3814,9 @@ msgid "HTTP headers to include in the API request. You can use `{{ q }}` for the
 msgstr "HTTP-glave, ki jih je treba vključiti v zahtevo API. Uporabite lahko `{{ q }}` za iskalni izraz in `{{ variables.name }}` za sklicevanje na spremenljivke ter `{{ secrets.name }}` za skrivnosti."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2137
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:690
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:746
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:822
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:700
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:756
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:832
 msgid "Request HTTP Body"
 msgstr "Telo zahtevka HTTP"
 
@@ -3583,9 +3825,9 @@ msgid "Optional request body of the API request. You can again use `{{ q }}` for
 msgstr "Neobvezno telo zahteve API. Ponovno lahko uporabite `{{ q }}` za iskalni izraz ter `{{ variables.name }}` za sklicevanje na spremenljivke in `{{ secrets.name }}` za skrivnosti."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2144
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:691
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:747
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:823
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:701
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:757
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:833
 msgid "Allow Empty Search"
 msgstr "Dovolite prazno iskanje"
 
@@ -3656,9 +3898,9 @@ msgid "Load"
 msgstr "Naloži"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2418
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:692
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:748
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:824
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:702
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:758
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:834
 msgid "Response List Field"
 msgstr "Polje seznama odgovorov"
 
@@ -3667,16 +3909,16 @@ msgid "If the returned JSON is not an array of items directly but the items are 
 msgstr "Če vrnjeni JSON ni neposredno polje elementov, temveč so elementi vgnezdeni, uporabite to polje za določitev imena ali poti do polja v odgovoru, ki vsebuje seznam elementov. V nasprotnem primeru naj bo prazno."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2434
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:693
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:749
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:825
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:703
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:759
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:835
 msgid "Response Item Template"
 msgstr "Predloga elementa za odziv"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2452
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:694
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:750
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:826
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:704
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:760
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:836
 msgid "Response Item Template for Selection"
 msgstr "Predloga elementa odziva za izbor"
 
@@ -3704,75 +3946,26 @@ msgstr "Ime, ki je vidno povsod drugje v urejevalniku modela znanja, na primer p
 msgid "There are no available plugins."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2663
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2762
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2923
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1436
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1462
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1513
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1551
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1602
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1619
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1638
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1655
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1701
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1765
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1846
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1915
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1984
-msgid "Label"
-msgstr "Oznaka"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2671
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1437
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1463
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1514
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1552
-msgid "Advice"
-msgstr "Nasveti"
-
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2681
 msgid "Follow-Up Questions"
 msgstr "Nadaljnja vprašanja"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2808
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2870
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3173
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1683
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1746
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1749
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1828
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1897
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1966
-msgid "Resource Page"
-msgstr "Stran z viri"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2810
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1724
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1790
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1794
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1869
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1938
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2007
-msgid "Cross Reference"
-msgstr "Navzkrižno sklicevanje"
-
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2827
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1680
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1699
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1720
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1743
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1763
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1786
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1825
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1844
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1865
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1894
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1913
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1934
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1963
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1982
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2003
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1690
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1709
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1730
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1753
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1773
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1796
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1835
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1854
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1875
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1904
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1923
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1944
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1973
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1992
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2013
 msgid "Reference Type"
 msgstr "Referenčna vrsta"
 
@@ -3792,33 +3985,11 @@ msgstr ""
 msgid "Go to related question"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3036
-msgid "Expert"
-msgstr "Strokovnjak"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3101
-msgid "Resource Collection"
-msgstr "Zbirka virov"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3121
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2137
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2166
-msgid "Resource Pages"
-msgstr "Stran z viri"
-
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3133
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Tree.elm:438
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:342
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:343
 msgid "Add resource page"
 msgstr "Dodajanje strani z viri"
-
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3193
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2181
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2200
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2222
-#: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:162
-msgid "Content"
-msgstr "Vsebina"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3232
 msgid "Questions using this resource page"
@@ -3915,7 +4086,7 @@ msgid "Add annotation"
 msgstr "Dodajanje opomb"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/Input.elm:668
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2461
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2471
 msgid "Annotations"
 msgstr "Anotacije"
 
@@ -4049,10 +4220,6 @@ msgstr "Ni faz, najprej jih ustvarite."
 msgid "There are no questions, create them first."
 msgstr "Vprašanj ni, najprej jih ustvarite."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:293
-msgid "Tags"
-msgstr "Oznake"
-
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/Preview.elm:300
 msgid "Select all"
 msgstr "Izberite vse"
@@ -4111,8 +4278,8 @@ msgstr "Oznake za vprašanja niso na voljo, zato jih najprej ustvarite."
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Update.elm:119
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Update.elm:317
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:181
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:276
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:301
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:284
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:309
 msgid "Some changes are still saving."
 msgstr "Nekatere spremembe so še vedno shranjene."
 
@@ -4215,218 +4382,218 @@ msgstr "Ni mogoče dobiti migracije."
 msgid "Unable to resolve conflict."
 msgstr "Ni mogoče rešiti spora."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:93
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:94
 msgid "Migration state is corrupted."
 msgstr "Stanje migracije je poškodovano."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:122
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:123
 msgid "Migration is still running, try again later."
 msgstr "Migracija še vedno poteka, poskusite znova pozneje."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:128
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:129
 msgid "Migration"
 msgstr "Migracija"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:138
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:139
 msgid "Migration of %s from %s to %s."
 msgstr "Selitev %s iz %s v %s."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:152
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:153
 msgid "The event is not connected to any entity in the Knowledge Model."
 msgstr "Dogodek ni povezan z nobeno entiteto v modelu znanja."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:162
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:163
 msgid "Edit knowledge model"
 msgstr "Urejanje modela znanja"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:171
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:172
 msgid "Edit metric"
 msgstr "Metrika urejanja"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:177
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:178
 msgid "Delete metric"
 msgstr "Izbriši metriko"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:187
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:188
 msgid "Edit phase"
 msgstr "Faza urejanja"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:193
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:194
 msgid "Delete phase"
 msgstr "Faza brisanja"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:198
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:199
 msgid "Add question tag"
 msgstr "Dodajte oznako vprašanja"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:203
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:204
 msgid "Edit question tag"
 msgstr "Uredi oznako vprašanja"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:209
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:210
 msgid "Delete question tag"
 msgstr "Izbriši oznako vprašanja"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:219
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:220
 msgid "Edit integration"
 msgstr "Urejanje integracije"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:225
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:226
 msgid "Delete integration"
 msgstr "Brisanje integracije"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:235
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:236
 msgid "Edit chapter"
 msgstr "Urejanje poglavja"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:241
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:242
 msgid "Delete chapter"
 msgstr "Izbriši poglavje"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:251
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:252
 msgid "Edit question"
 msgstr "Uredi vprašanje"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:257
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:258
 msgid "Delete question"
 msgstr "Izbriši vprašanje"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:267
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:268
 msgid "Edit answer"
 msgstr "Uredi odgovor"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:273
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:274
 msgid "Delete answer"
 msgstr "Izbriši odgovor"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:283
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:284
 msgid "Edit choice"
 msgstr "Uredi izbiro"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:289
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:290
 msgid "Delete choice"
 msgstr "Izbriši izbiro"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:299
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:300
 msgid "Edit reference"
 msgstr "Uredi referenco"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:305
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:306
 msgid "Delete reference"
 msgstr "Izbriši referenco"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:315
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:316
 msgid "Edit expert"
 msgstr "Uredite strokovnjaka"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:321
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:322
 msgid "Delete expert"
 msgstr "Izbriši strokovnjaka"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:331
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:332
 msgid "Edit resource collection"
 msgstr "Urejanje zbirke virov"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:337
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:338
 msgid "Delete resource collection"
 msgstr "Brisanje zbirke virov"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:347
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:348
 msgid "Edit resource page"
 msgstr "Urejanje strani z viri"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:353
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:354
 msgid "Delete resource page"
 msgstr "Brisanje strani z viri"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:359
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:360
 msgid "Move question"
 msgstr "Premakni vprašanje"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:365
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:366
 msgid "Move answer"
 msgstr "Premakni odgovor"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:371
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:372
 msgid "Move choice"
 msgstr "Premakni izbiro"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:377
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:378
 msgid "Move reference"
 msgstr "Premakni referenco"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:383
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:384
 msgid "Move expert"
 msgstr "Premakni strokovnjaka"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:687
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:743
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:819
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:697
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:753
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:829
 msgid "Request HTTP Method"
 msgstr "Metoda HTTP za zahtevo"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:688
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:744
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:820
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:698
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:754
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:830
 msgid "Request URL"
 msgstr "URL zahtevka"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:713
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:781
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:845
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:723
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:791
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:855
 msgid "Plugin UUID"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:714
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:782
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:846
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:724
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:792
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:856
 msgid "Plugin Integration ID"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:715
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:783
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:847
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:725
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:793
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:857
 msgid "Plugin Integration Settings"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:984
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1099
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:994
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1109
 msgid "Props"
 msgstr "Rekviziti"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1681
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1744
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1826
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1895
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1964
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1691
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1754
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1836
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1905
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1974
 msgid "Resource Page UUID"
 msgstr "UUID strani vira"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1721
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1787
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1866
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1935
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2004
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1731
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1797
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1876
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1945
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2014
 msgid "Target UUID"
 msgstr "Ciljni UUID"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2471
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2481
 msgid "Reject"
 msgstr "Zavrnite"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2474
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2484
 msgid "Apply"
 msgstr "Uporabi"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2477
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2487
 msgid "Apply all"
 msgstr "Uporabi vse"
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2519
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2529
 msgid "Migration successfully completed."
 msgstr "Migracija je bila uspešno zaključena."
 
-#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2521
+#: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:2531
 msgid "You can publish the new version now."
 msgstr "Novo različico lahko objavite zdaj."
 
@@ -4462,6 +4629,46 @@ msgstr ""
 msgid "Last version"
 msgstr "Zadnja različica"
 
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/CompareSelectModal.elm:159
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/CompareSelectModal.elm:175
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:63
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:196
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:345
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:297
+#: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:285
+msgid "Unable to get knowledge models."
+msgstr "Ni mogoče pridobiti modelov znanja."
+
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/CompareSelectModal.elm:221
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/CompareSelectModal.elm:232
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:52
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:169
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:186
+msgid "Unable to get the knowledge model."
+msgstr "Ni mogoče pridobiti modela znanja."
+
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/CompareSelectModal.elm:287
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/CompareSelectModal.elm:297
+#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:308
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:283
+msgid "Unable to get question tags for the knowledge model."
+msgstr "Ni mogoče pridobiti oznak vprašanj za model znanja."
+
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/CompareSelectModal.elm:374
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:136
+msgid "Compare Knowledge Models"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/CompareSelectModal.elm:379
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:89
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:88
+msgid "Compare"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/CompareSelectModal.elm:430
+msgid "compare with"
+msgstr ""
+
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:92
 msgid "Unable to get dependents of the Knowledge Model."
 msgstr ""
@@ -4479,8 +4686,9 @@ msgid "Type \"%s\" to confirm"
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:174
-#: app-wizard/elm/Wizard/Pages/Public/Auth/View.elm:77
+#: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/View.elm:98
 #: shared/common/elm/Common/Components/NewsModal.elm:161
+#: shared/common/elm/Common/Components/UserExternalCompletionForm.elm:110
 msgid "Continue"
 msgstr "Nadaljuj"
 
@@ -4551,25 +4759,33 @@ msgstr "Projekti"
 msgid "Open"
 msgstr "Odpri"
 
-#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:89
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:101
 msgid "Create KM editor"
 msgstr "Ustvarjanje urejevalnika KM"
 
-#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:101
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:113
 msgid "Fork KM"
 msgstr "Vilice KM"
 
-#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:113
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:125
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/View.elm:80
 msgid "Create project"
 msgstr "Ustvari projekt"
 
-#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:149
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:161
 msgid "Set public"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:161
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:173
 msgid "Set private"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Compare/Update.elm:49
+msgid "Unable to load knowledge model."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Compare/View.elm:29
+msgid "Select Knowledge Models"
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:66
@@ -4643,20 +4859,6 @@ msgstr "Če želite uvoziti nov model znanja, kliknite gumb \"Uvozi\"."
 msgid "Search KMs..."
 msgstr "Iskanje MZ-jev..."
 
-#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:52
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:131
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:148
-msgid "Unable to get the knowledge model."
-msgstr "Ni mogoče pridobiti modela znanja."
-
-#: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:63
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:196
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:345
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:259
-#: app-wizard/elm/Wizard/Pages/Projects/Index/Update.elm:285
-msgid "Unable to get knowledge models."
-msgstr "Ni mogoče pridobiti modelov znanja."
-
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:134
 msgid "Questionnaire could not be created."
 msgstr "Vprašalnika ni bilo mogoče ustvariti."
@@ -4664,7 +4866,7 @@ msgstr "Vprašalnika ni bilo mogoče ustvariti."
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:145
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:197
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:376
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:680
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:688
 msgid "Questionnaire could not be saved."
 msgstr "Vprašalnika ni bilo mogoče shraniti."
 
@@ -4965,7 +5167,7 @@ msgid "Commenter"
 msgstr "Komentator"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Common/ProjectShareFormMemberPermType.elm:63
-#: shared/common/elm/Common/Components/FormGroup.elm:583
+#: shared/common/elm/Common/Components/FormGroup.elm:613
 msgid "Editor"
 msgstr "Urednik"
 
@@ -5094,11 +5296,6 @@ msgstr "Ni mogoče pridobiti predlog projektov."
 msgid "Project could not be created."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:308
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:245
-msgid "Unable to get question tags for the knowledge model."
-msgstr "Ni mogoče pridobiti oznak vprašanj za model znanja."
-
 #: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:152
 msgid "From project template"
 msgstr "Iz predloge projekta"
@@ -5115,42 +5312,42 @@ msgstr "Predloge projektov so pripravljeni projekti z nastavljenimi modeli znanj
 msgid "Knowledge models are templates for questionnaires. You can select question tags now and configure the document template and other settings later."
 msgstr "Modeli znanja so predloge za vprašalnike. Zdaj lahko izberete oznake vprašanj in predlogo dokumenta, druge nastavitve pa konfigurirate pozneje."
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:114
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:152
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:238
 #: app-wizard/elm/Wizard/Pages/Projects/Import/Update.elm:47
 #: app-wizard/elm/Wizard/Pages/Projects/Import/Update.elm:69
 msgid "Unable to get the project."
 msgstr "Projekta ni mogoče pridobiti."
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:231
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/Update.elm:269
 msgid "Project migration could not be created."
 msgstr "Migracije projekta ni bilo mogoče ustvariti."
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:46
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:50
 msgid "Original question tags"
 msgstr "Originalne oznake vprašanja"
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:72
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:76
 msgid "Select knowledge model first"
 msgstr "Najprej izberite model znanja"
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:75
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:96
 msgid "Create Migration"
 msgstr "Ustvari migracijo"
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:76
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:97
 msgid "A new project is created for the migration. The original will remain unchanged until the migration is finished."
 msgstr "Za migracijo je ustvarjen nov projekt. Izvirnik ostane nespremenjen, dokler se migracija ne konča."
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:83
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:108
 msgid "Original Knowledge Model"
 msgstr "Izvirni model znanja"
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:84
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:109
 msgid "Original Version"
 msgstr "Izvirna različica"
 
-#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:90
+#: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:115
 msgid "New Knowledge Model"
 msgstr "Nov model znanja"
 
@@ -5642,43 +5839,6 @@ msgstr "Vprašanje spremenjeno"
 msgid "Moved Question"
 msgstr "Premaknjeno vprašanje"
 
-#: app-wizard/elm/Wizard/Pages/Public/Auth/Update.elm:63
-#: app-wizard/elm/Wizard/Pages/Public/Auth/Update.elm:93
-msgid "Unexpected response from the server."
-msgstr "Nepričakovan odziv strežnika."
-
-#: app-wizard/elm/Wizard/Pages/Public/Auth/Update.elm:66
-#: app-wizard/elm/Wizard/Pages/Public/Auth/Update.elm:96
-#: app-wizard/elm/Wizard/Pages/Public/Login/Update.elm:99
-msgid "Login failed."
-msgstr "Prijava ni uspela."
-
-#: app-wizard/elm/Wizard/Pages/Public/Auth/View.elm:34
-#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:83
-#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:101
-#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:115
-msgid "Privacy"
-msgstr "Zasebnost"
-
-#: app-wizard/elm/Wizard/Pages/Public/Auth/View.elm:38
-#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:87
-#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:102
-#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:127
-msgid "Terms of Service"
-msgstr "Pogoji uporabe storitev"
-
-#: app-wizard/elm/Wizard/Pages/Public/Auth/View.elm:44
-#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:94
-msgid "I have read %s and %s."
-msgstr "Prebral sem %s in %s."
-
-#: app-wizard/elm/Wizard/Pages/Public/Auth/View.elm:51
-#: app-wizard/elm/Wizard/Pages/Public/Auth/View.elm:56
-#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:110
-#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:122
-msgid "I have read %s."
-msgstr "Prebral sem %s."
-
 #: app-wizard/elm/Wizard/Pages/Public/ForgottenPassword/Update.elm:60
 #: app-wizard/elm/Wizard/Pages/Public/ForgottenPasswordConfirmation/Update.elm:60
 msgid "Forgotten password recovery failed."
@@ -5727,31 +5887,47 @@ msgstr "Vaše geslo je bilo spremenjeno. Zdaj lahko %s."
 msgid "log in"
 msgstr "prijavite se"
 
-#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:89
+#: app-wizard/elm/Wizard/Pages/Public/Login/Update.elm:105
+#: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/Update.elm:66
+#: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/Update.elm:116
+msgid "Unexpected response from the server."
+msgstr "Nepričakovan odziv strežnika."
+
+#: app-wizard/elm/Wizard/Pages/Public/Login/Update.elm:108
+#: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/Update.elm:71
+#: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/Update.elm:119
+msgid "Login failed."
+msgstr "Prijava ni uspela."
+
+#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:101
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:149
 #: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:43
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Password.elm:112
-#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:117
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:122
 msgid "Password"
 msgstr "Geslo"
 
-#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:92
+#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:104
 msgid "Forgot your password?"
 msgstr "Ste pozabili geslo?"
 
-#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:107
+#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:115
 msgid "Or connect with"
 msgstr "Ali se povežite z"
 
-#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:132
+#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:134
+msgid "Login as admin"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:151
 msgid "Please enter the authentication code from your email to verify your identity."
 msgstr "Vnesite avtentikacijsko kodo iz e-poštnega sporočila, da preverite svojo identiteto."
 
-#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:142
+#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:161
 msgid "Authentication Code"
 msgstr "Koda za preverjanje pristnosti"
 
-#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:148
+#: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:167
 msgid "Verify"
 msgstr "Preveri"
 
@@ -5762,6 +5938,40 @@ msgstr "Odjavljen"
 #: app-wizard/elm/Wizard/Pages/Public/LogoutSuccessful/View.elm:15
 msgid "You have been successfully logged out."
 msgstr "Uspešno ste se odjavili."
+
+#: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/View.elm:27
+msgid "Sign up was successful"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/View.elm:28
+msgid "Check your email for the activation link."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/View.elm:55
+#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:83
+#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:101
+#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:115
+msgid "Privacy"
+msgstr "Zasebnost"
+
+#: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/View.elm:59
+#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:87
+#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:102
+#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:127
+msgid "Terms of Service"
+msgstr "Pogoji uporabe storitev"
+
+#: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/View.elm:65
+#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:94
+msgid "I have read %s and %s."
+msgstr "Prebral sem %s in %s."
+
+#: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/View.elm:72
+#: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/View.elm:77
+#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:110
+#: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:122
+msgid "I have read %s."
+msgstr "Prebral sem %s."
 
 #: app-wizard/elm/Wizard/Pages/Public/Signup/Update.elm:65
 #: app-wizard/elm/Wizard/Pages/Public/SignupConfirmation/Update.elm:32
@@ -5787,24 +5997,24 @@ msgstr "Najprej morate prebrati %s"
 
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:144
 #: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:39
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:218
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:251
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:59
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:215
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:247
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:58
 msgid "First name"
 msgstr "Ime"
 
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:145
 #: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:40
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:219
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:252
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:60
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:216
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:248
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:59
 msgid "Last name"
 msgstr "Priimek"
 
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:148
 #: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:41
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:220
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:253
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:217
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:249
 msgid "Affiliation"
 msgstr "Organizacija"
 
@@ -5824,104 +6034,91 @@ msgstr "Ni mogoče potrditi računa v registru DSW."
 msgid "Your email was successfully confirmed, you can go back to %s."
 msgstr "Vaše e-poštno sporočilo je bilo uspešno potrjeno, lahko se vrnete v %s."
 
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:41
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:131
+#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:28
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:146
 msgid "Authentication"
 msgstr "Preverjanje pristnosti"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:64
+#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:47
 msgid "Code Length"
 msgstr "Dolžina kode"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:65
+#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:48
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:222
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:268
 msgid "Expiration"
 msgstr "Iztek veljavnosti"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:66
+#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:49
 msgid "Expiration time of the authentication code in **seconds**."
 msgstr "Čas izteka veljavnosti kode za preverjanje pristnosti v **sekundah**."
 
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:72
+#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:55
 msgid "Internal"
 msgstr "Notranji"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:73
+#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:56
 msgid "Registration"
 msgstr "Registracija"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:74
+#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:57
 msgid "If enabled, users can create new internal accounts directly in the instance."
 msgstr "Če je ta možnost omogočena, lahko uporabniki ustvarijo nove notranje račune neposredno v instanci."
 
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:75
+#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:58
+msgid "Non-Admin Login"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:59
+msgid "If enabled, all users can use internal login using username and password. Otherwise, only admin users can use internal login, and other users must use an external identity provider."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:60
 msgid "Two-Factor Authentication"
 msgstr "Preverjanje pristnosti z dvostopenjsko avtentikacijo"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:76
+#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:61
 msgid "If enabled, users first enter a username and password at login, and then they receive a one-time code to confirm the login on their email."
 msgstr "Če je ta možnost omogočena, uporabniki ob prijavi najprej vnesejo uporabniško ime in geslo, nato pa v e-pošto prejmejo enkratno kodo za potrditev prijave."
 
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:81
-msgid "External"
-msgstr "Zunanja stran"
+#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:63
+msgid "Session Expiration"
+msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:82
-msgid "OpenID Services"
-msgstr "Storitve OpenID"
+#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:64
+msgid "Expiration time of the user session in **hours**. Changing this value does not affect existing sessions."
+msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:82
-#: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:58
-msgid "Add service"
-msgstr "Dodajanje storitve"
+#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:65
+msgid "User Email Link Expiration"
+msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:86
+#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:66
+msgid "Expiration time of user email links (e.g., password reset, email confirmation) in **hours**."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:70
 msgid "Default role"
 msgstr "Privzeta vloga"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:87
+#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:71
 msgid "Define the role that is assigned to new users."
 msgstr "Določite vlogo, ki se dodeli novim uporabnikom."
 
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:185
-msgid "Callback URL"
-msgstr "Povratni naslov URL"
-
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:186
-msgid "Logout URL"
-msgstr "URL za odjavo"
-
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:188
-msgid "Client ID"
-msgstr "ID stranke"
-
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:189
-msgid "Client Secret"
-msgstr "Skrivnost stranke"
-
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:193
-msgid "Parameters"
-msgstr "Parametri"
-
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:195
-msgid "Add parameter"
-msgstr "Dodajanje parametra"
-
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:210
+#: app-wizard/elm/Wizard/Pages/Settings/Common/AuthButtonFormGroup.elm:42
 msgid "Background Color"
 msgstr "Barva ozadja"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:213
+#: app-wizard/elm/Wizard/Pages/Settings/Common/AuthButtonFormGroup.elm:45
 msgid "Text Color"
 msgstr "Barva besedila"
 
-#: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:219
+#: app-wizard/elm/Wizard/Pages/Settings/Common/AuthButtonFormGroup.elm:51
 msgid "Button Preview"
 msgstr "Predogled gumba"
 
 #: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:39
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:154
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:170
 msgid "Dashboard & Login Screen"
 msgstr "Nadzorna plošča in prijavni zaslon"
 
@@ -5971,7 +6168,7 @@ msgid "Dashboard Style"
 msgstr "Slog armaturne plošče"
 
 #: app-wizard/elm/Wizard/Pages/Settings/DashboardAndLoginScreen/View.elm:143
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:109
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:124
 msgid "Info"
 msgstr "Info"
 
@@ -6004,14 +6201,14 @@ msgid "Display on the login screen, visible to everybody."
 msgstr "Prikaz na prijavnem zaslonu, ki je viden vsem."
 
 #: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:26
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:133
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:149
 msgid "Features"
 msgstr "Funkcije"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Features/View.elm:37
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Tours.elm:50
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Tours.elm:103
-#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:135
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:149
 msgid "Tours"
 msgstr "Ogledi"
 
@@ -6028,12 +6225,12 @@ msgid "Settings could not be saved."
 msgstr "Nastavitev ni bilo mogoče shraniti."
 
 #: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:39
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:158
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:174
 msgid "Menu"
 msgstr "Meni"
 
 #: app-wizard/elm/Wizard/Pages/Settings/LookAndFeel/View.elm:42
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:161
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:177
 msgid "Look & Feel"
 msgstr "Videz"
 
@@ -6069,8 +6266,143 @@ msgstr "Dodaj povezavo"
 msgid "New window"
 msgstr "Novo okno"
 
+#: app-wizard/elm/Wizard/Pages/Settings/OpenId/Update.elm:34
+msgid "Unable to get OpenID configs."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenId/Update.elm:71
+msgid "OpenID config could not be deleted."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenId/View.elm:31
+msgid "There are no OpenID configurations."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenId/View.elm:37
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:147
+msgid "OpenID"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenId/View.elm:86
+msgid "Delete OpenID"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/Update.elm:49
+msgid "Unable to get OpenID prefabs."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/Update.elm:63
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/Update.elm:63
+msgid "OpenID config could not be saved."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:58
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:63
+msgid "Application (client) ID"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:61
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:66
+msgid "Client ID"
+msgstr "ID stranke"
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:65
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:70
+msgid "Client Secret Value"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:68
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:73
+msgid "Client Secret"
+msgstr "Skrivnost stranke"
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:88
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:103
+msgid "Microsoft"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:96
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:111
+msgid "Custom"
+msgstr "Po meri"
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:106
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:121
+msgid "Directory (tenant) ID"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:111
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:126
+msgid "Parameters"
+msgstr "Parametri"
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:113
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:128
+msgid "Add parameter"
+msgstr "Dodajanje parametra"
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:119
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:134
+msgid "Advanced configuration"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:127
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:142
+msgid "Registration enabled"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:128
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:143
+msgid "Allow users to register using this OpenID provider."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:139
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:154
+msgid "Allows the application to access your email address and whether it has been verified."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:140
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:155
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:179
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:114
+msgid "Profile"
+msgstr "Profil"
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:141
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:156
+msgid "Allows the application to access the basic profile information (name, username, profile picture, and other personal details)."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:152
+msgid "Create OpenID Config"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/Update.elm:49
+msgid "Unable to get OpenID config"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:43
+msgid "Redirect URI"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:46
+msgid "Callback URL"
+msgstr "Povratni naslov URL"
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:53
+msgid "Front-channel logout URL"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:56
+msgid "Logout URL"
+msgstr "URL za odjavo"
+
+#: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:174
+msgid "Edit OpenID Config"
+msgstr ""
+
 #: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:26
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:130
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:145
 msgid "Organization"
 msgstr "Organizacija"
 
@@ -6114,7 +6446,7 @@ msgid "Unable to get plugin settings."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Settings/PrivacyAndSupport/View.elm:28
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:132
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:148
 msgid "Privacy & Support"
 msgstr "Zasebnost in podpora"
 
@@ -6271,7 +6603,7 @@ msgid "Sign up request failed."
 msgstr "Zahteva za prijavo ni bila uspešna."
 
 #: app-wizard/elm/Wizard/Pages/Settings/Registry/View.elm:46
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:177
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:193
 msgid "DSW Registry"
 msgstr "Register DSW"
 
@@ -6304,13 +6636,17 @@ msgid "Registry Sign Up"
 msgstr "Prijava v register"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:42
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:173
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:189
 msgid "Document Submission"
 msgstr "Predložitev dokumentov"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:58
 msgid "Services"
 msgstr "Storitve"
+
+#: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:58
+msgid "Add service"
+msgstr "Dodajanje storitve"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:66
 msgid "If enabled, you can configure external services for uploading documents from the instance."
@@ -6361,15 +6697,15 @@ msgstr "Če je omogočeno, bo datoteka poslana z večdelno zahtevo. V nasprotnem
 msgid "Header"
 msgstr "Naslov"
 
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:99
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:114
 msgid "System Settings"
 msgstr "Sistemske nastavitve"
 
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:103
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:118
 msgid "User Interface Settings"
 msgstr "Nastavitve uporabniškega vmesnika"
 
-#: app-wizard/elm/Wizard/Pages/Settings/View.elm:106
+#: app-wizard/elm/Wizard/Pages/Settings/View.elm:121
 msgid "Content Settings"
 msgstr "Nastavitve vsebine"
 
@@ -6383,8 +6719,8 @@ msgid "Create User"
 msgstr "Ustvari uporabnika"
 
 #: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:42
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:205
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:67
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:203
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:66
 msgid "Role"
 msgstr "Vloga"
 
@@ -6406,7 +6742,7 @@ msgid "Revoke all"
 msgstr "Preklic vseh"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ActiveSessions.elm:180
-#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:162
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:176
 msgid "Active Sessions"
 msgstr "Aktivne seje"
 
@@ -6469,7 +6805,7 @@ msgid "API key could not be deleted."
 msgstr "Ključa API ni bilo mogoče izbrisati."
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ApiKeys.elm:178
-#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:144
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:158
 msgid "API Keys"
 msgstr "Ključi API"
 
@@ -6519,7 +6855,7 @@ msgid "App key could not be deleted."
 msgstr "Ključa API ni bilo mogoče izbrisati."
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/AppKeys.elm:116
-#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:153
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:167
 msgid "App Keys"
 msgstr "Ključi aplikacij"
 
@@ -6539,6 +6875,56 @@ msgstr "Ime ključa aplikacije"
 msgid "Delete App Key"
 msgstr "Izbriši ključ aplikacije"
 
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:84
+msgid "Failed to load connected accounts"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:126
+msgid "Account disconnected successfully."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:135
+msgid "Failed to disconnect account."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:161
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:131
+msgid "Connected Accounts"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:177
+msgid "You have not connected any external accounts."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:183
+msgid "Service"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:184
+msgid "Account"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:208
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:259
+msgid "Disconnect"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:228
+msgid "Connect Account"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:242
+msgid "Are you sure you want to disconnect %s account?"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:247
+msgid "You will no longer be able to use it to log in."
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:255
+msgid "Disconnect Account"
+msgstr ""
+
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Language.elm:86
 msgid "Unable to get user language."
 msgstr "Ni mogoče pridobiti uporabnikovega jezika."
@@ -6552,7 +6938,7 @@ msgid "Unable to save user language."
 msgstr "Ni mogoče shraniti uporabnikovega jezika."
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Language.elm:135
-#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:126
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:140
 msgid "Language"
 msgstr "Jezik"
 
@@ -6572,41 +6958,36 @@ msgstr ""
 msgid "%s Settings"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:125
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:123
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/SubmissionSettings.elm:96
 msgid "Unable to get the user."
 msgstr "Uporabnika ni mogoče pridobiti."
 
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:145
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:143
 msgid "Profile was successfully updated."
 msgstr "Profil je bil uspešno posodobljen."
 
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:154
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:152
 msgid "Profile could not be saved."
 msgstr "Profila ni bilo mogoče shraniti."
 
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:181
-#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:109
-msgid "Profile"
-msgstr "Profil"
-
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:186
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:184
 msgid "User Image"
 msgstr "Slika uporabnika"
 
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:190
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:188
 msgid "Image is taken from OpenID profile or [Gravatar](https://gravatar.com)."
 msgstr "Slika je vzeta iz profila OpenID ali [Gravatar](https://gravatar.com)."
 
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:212
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:210
 msgid "Active"
 msgstr "Aktivno"
 
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:237
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:234
 msgid "Your profile is managed elsewhere."
 msgstr "Vaš profil se upravlja drugje."
 
-#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:242
+#: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:239
 msgid "Edit profile"
 msgstr "Urejanje profila"
 
@@ -6623,7 +7004,7 @@ msgid "There are no submission services to configure."
 msgstr "Storitev predložitve ni treba konfigurirati."
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/SubmissionSettings.elm:163
-#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:171
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:185
 msgid "Submission Settings"
 msgstr "Nastavitve predložitve"
 
@@ -6659,7 +7040,7 @@ msgstr "To ponastavi vse uvodne oglede, specifične za posamezno stran, in omogo
 msgid "Reset"
 msgstr "Ponastavi"
 
-#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:103
+#: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:108
 msgid "User Settings"
 msgstr "Uporabniške nastavitve"
 
@@ -6667,23 +7048,23 @@ msgstr "Uporabniške nastavitve"
 msgid "User could not be deleted."
 msgstr "Uporabnika ni bilo mogoče izbrisati."
 
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:53
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:52
 msgid "Click \"Create\" button to add a new User."
 msgstr "Če želite dodati novega uporabnika, kliknite gumb \"Ustvari\"."
 
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:63
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:62
 msgid "Last online"
 msgstr "Zadnjič prijavljen"
 
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:92
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:91
 msgid "inactive"
 msgstr "neaktivni"
 
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:180
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:172
 msgid "Are you sure you want to permanently delete the following user?"
 msgstr "Ali ste prepričani, da želite trajno izbrisati naslednjega uporabnika?"
 
-#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:185
+#: app-wizard/elm/Wizard/Pages/Users/Index/View.elm:177
 msgid "Delete user"
 msgstr "Izbriši uporabnika"
 
@@ -6827,206 +7208,235 @@ msgstr "Ni najden."
 msgid "Knowledge model ID is already used."
 msgstr "ID modela znanja je že uporabljen."
 
-#: shared/common/elm/Common/Api/ServerError.elm:245
+#: shared/common/elm/Common/Api/ServerError.elm:248
+msgid "Logo file size cannot exceed %s."
+msgstr ""
+
+#: shared/common/elm/Common/Api/ServerError.elm:251
+msgid "Logo file size exceeds the limit."
+msgstr ""
+
+#: shared/common/elm/Common/Api/ServerError.elm:254
 msgid "Knowledge model already exists."
 msgstr "Model znanja že obstaja."
 
-#: shared/common/elm/Common/Api/ServerError.elm:248
+#: shared/common/elm/Common/Api/ServerError.elm:257
 msgid "Knowledge model metamodel version is not supported."
 msgstr "Različica metamodela modela znanja ni podprta."
 
-#: shared/common/elm/Common/Api/ServerError.elm:251
+#: shared/common/elm/Common/Api/ServerError.elm:260
 msgid "Document template already exists."
 msgstr "Predloga dokumenta že obstaja."
 
-#: shared/common/elm/Common/Api/ServerError.elm:254
+#: shared/common/elm/Common/Api/ServerError.elm:263
 msgid "Locale already exists."
 msgstr "Področne nastavitve že obstajajo."
 
-#: shared/common/elm/Common/Api/ServerError.elm:257
-#: shared/common/elm/Common/Api/ServerError.elm:283
+#: shared/common/elm/Common/Api/ServerError.elm:266
+#: shared/common/elm/Common/Api/ServerError.elm:301
 msgid "Email is already used."
 msgstr "E-pošta je že v uporabi."
 
-#: shared/common/elm/Common/Api/ServerError.elm:260
+#: shared/common/elm/Common/Api/ServerError.elm:269
 msgid "There is already an ongoing project migration."
 msgstr "Migracija projekta je že v teku."
 
-#: shared/common/elm/Common/Api/ServerError.elm:263
+#: shared/common/elm/Common/Api/ServerError.elm:272
+msgid "This account is already linked to a different user."
+msgstr ""
+
+#: shared/common/elm/Common/Api/ServerError.elm:275
+#: shared/common/elm/Common/Api/ServerError.elm:290
+msgid "Registration of new accounts via this service is disabled."
+msgstr ""
+
+#: shared/common/elm/Common/Api/ServerError.elm:278
 msgid "New version has to be higher than the previous one."
 msgstr "Nova različica mora biti višja od prejšnje."
 
-#: shared/common/elm/Common/Api/ServerError.elm:266
+#: shared/common/elm/Common/Api/ServerError.elm:281
 msgid "\"template.json\" was not found in archive."
 msgstr "\"template.json\" ni bil najden v arhivu."
 
-#: shared/common/elm/Common/Api/ServerError.elm:269
+#: shared/common/elm/Common/Api/ServerError.elm:284
 msgid "Error while parsing template.json: \"%s\"."
 msgstr "Napaka pri razčlenjevanju template.json: \"%s\"."
 
-#: shared/common/elm/Common/Api/ServerError.elm:272
+#: shared/common/elm/Common/Api/ServerError.elm:287
 msgid "Asset \"%s\" was not found in archive."
 msgstr "Sredstvo \"%s\" ni bilo najdeno v arhivu."
 
-#: shared/common/elm/Common/Api/ServerError.elm:280
+#: shared/common/elm/Common/Api/ServerError.elm:298
 msgid "Invalid credentials."
 msgstr "Neveljavne poverilnice."
 
-#: shared/common/elm/Common/Api/ServerError.elm:286
+#: shared/common/elm/Common/Api/ServerError.elm:304
 msgid "Link is not valid."
 msgstr "Povezava ni veljavna."
 
-#: shared/common/elm/Common/Api/ServerError.elm:289
+#: shared/common/elm/Common/Api/ServerError.elm:307
 msgid "This email is not connected to any organization."
 msgstr "To e-poštno sporočilo ni povezano z nobeno organizacijo."
 
-#: shared/common/elm/Common/Api/ServerError.elm:292
+#: shared/common/elm/Common/Api/ServerError.elm:310
 msgid "Organization email is already used."
 msgstr "Elektronska pošta organizacije je že uporabljena."
 
-#: shared/common/elm/Common/Api/ServerError.elm:295
+#: shared/common/elm/Common/Api/ServerError.elm:313
 msgid "Organization ID is already used."
 msgstr "ID organizacije je že uporabljen."
 
-#: shared/common/elm/Common/Api/ServerError.elm:298
-#: shared/common/elm/Common/Api/ServerError.elm:404
-#: shared/common/elm/Common/Api/ServerError.elm:407
+#: shared/common/elm/Common/Api/ServerError.elm:316
+#: shared/common/elm/Common/Api/ServerError.elm:425
+#: shared/common/elm/Common/Api/ServerError.elm:428
 msgid "A hash query param has to be provided."
 msgstr "Zagotoviti je treba parameter zgoščene poizvedbe."
 
-#: shared/common/elm/Common/Api/ServerError.elm:302
+#: shared/common/elm/Common/Api/ServerError.elm:320
 msgid "App ID is already used."
 msgstr "ID aplikacije je že uporabljen."
 
-#: shared/common/elm/Common/Api/ServerError.elm:305
+#: shared/common/elm/Common/Api/ServerError.elm:323
 msgid "File with this name already exists."
 msgstr "Datoteka s tem imenom že obstaja."
 
-#: shared/common/elm/Common/Api/ServerError.elm:308
+#: shared/common/elm/Common/Api/ServerError.elm:326
 msgid "Authentication code is not provided."
 msgstr "Avtentikacijska koda ni zagotovljena."
 
-#: shared/common/elm/Common/Api/ServerError.elm:311
+#: shared/common/elm/Common/Api/ServerError.elm:329
 msgid "Profile Information from OpenID service is missing."
 msgstr "Informacije o profilu iz storitve OpenID manjkajo."
 
-#: shared/common/elm/Common/Api/ServerError.elm:314
+#: shared/common/elm/Common/Api/ServerError.elm:332
 msgid "Document template cannot be deleted because it is used in some projects or documents."
 msgstr "Predloge dokumenta ni mogoče izbrisati, ker se uporablja v nekaterih projektih ali dokumentih."
 
-#: shared/common/elm/Common/Api/ServerError.elm:317
+#: shared/common/elm/Common/Api/ServerError.elm:335
 msgid "Document template metamodel version is not supported."
 msgstr "Različica metamodela predloge dokumenta ni podprta."
 
-#: shared/common/elm/Common/Api/ServerError.elm:328
-#: shared/common/elm/Common/Api/ServerError.elm:365
-#: shared/common/elm/Common/Api/ServerError.elm:368
+#: shared/common/elm/Common/Api/ServerError.elm:346
+#: shared/common/elm/Common/Api/ServerError.elm:383
+#: shared/common/elm/Common/Api/ServerError.elm:386
 msgid "Limit of %s reached (current: %s, limit: %s)."
 msgstr "Dosežena je omejitev %s (trenutna: %s, omejitev: %s)"
 
-#: shared/common/elm/Common/Api/ServerError.elm:329
+#: shared/common/elm/Common/Api/ServerError.elm:347
 msgid "storage"
 msgstr "shranjevanje"
 
-#: shared/common/elm/Common/Api/ServerError.elm:336
+#: shared/common/elm/Common/Api/ServerError.elm:354
 msgid "users"
 msgstr "uporabniki"
 
-#: shared/common/elm/Common/Api/ServerError.elm:339
+#: shared/common/elm/Common/Api/ServerError.elm:357
 msgid "active users"
 msgstr "aktivni uporabniki"
 
-#: shared/common/elm/Common/Api/ServerError.elm:342
+#: shared/common/elm/Common/Api/ServerError.elm:360
 msgid "knowledge model editors"
 msgstr "urejevalniki modelov znanja"
 
-#: shared/common/elm/Common/Api/ServerError.elm:345
+#: shared/common/elm/Common/Api/ServerError.elm:363
 msgid "knowledge models"
 msgstr "modeli znanja"
 
-#: shared/common/elm/Common/Api/ServerError.elm:348
+#: shared/common/elm/Common/Api/ServerError.elm:366
 msgid "projects"
 msgstr "projekti"
 
-#: shared/common/elm/Common/Api/ServerError.elm:351
+#: shared/common/elm/Common/Api/ServerError.elm:369
 msgid "document templates"
 msgstr "predloge dokumentov"
 
-#: shared/common/elm/Common/Api/ServerError.elm:354
+#: shared/common/elm/Common/Api/ServerError.elm:372
 msgid "document template editors"
 msgstr "urejevalniki predlog dokumentov"
 
-#: shared/common/elm/Common/Api/ServerError.elm:357
+#: shared/common/elm/Common/Api/ServerError.elm:375
 msgid "documents"
 msgstr "dokumenti"
 
-#: shared/common/elm/Common/Api/ServerError.elm:360
+#: shared/common/elm/Common/Api/ServerError.elm:378
 msgid "locales"
 msgstr "lokalno"
 
-#: shared/common/elm/Common/Api/ServerError.elm:371
+#: shared/common/elm/Common/Api/ServerError.elm:389
 msgid "\"locale.json\" was not found in archive."
 msgstr "\"locale.json\" ni bil najden v arhivu."
 
-#: shared/common/elm/Common/Api/ServerError.elm:374
+#: shared/common/elm/Common/Api/ServerError.elm:392
 msgid "Error while parsing locale.json: \"%s\"."
 msgstr "Napaka pri razčlenjevanju locale.json: \"%s\"."
 
-#: shared/common/elm/Common/Api/ServerError.elm:377
+#: shared/common/elm/Common/Api/ServerError.elm:395
 msgid "File \"%s\" was not found in archive."
 msgstr "Datoteke \"%s\" ni bilo mogoče najti v arhivu."
 
-#: shared/common/elm/Common/Api/ServerError.elm:380
+#: shared/common/elm/Common/Api/ServerError.elm:398
 msgid "The locale not found in Registry."
 msgstr "Krajevnega jezika ni mogoče najti v registru"
 
-#: shared/common/elm/Common/Api/ServerError.elm:383
+#: shared/common/elm/Common/Api/ServerError.elm:401
 msgid "Knowledge model cannot be deleted because it is used in some projects or knowledge model editors."
 msgstr "Modela znanja ni mogoče izbrisati, ker se uporablja v nekaterih projektih ali urejevalnikih modelov znanja."
 
-#: shared/common/elm/Common/Api/ServerError.elm:386
+#: shared/common/elm/Common/Api/ServerError.elm:404
 msgid "The knowledge model was not found in the Registry."
 msgstr "Model znanja ni bil najden v registru."
 
-#: shared/common/elm/Common/Api/ServerError.elm:389
+#: shared/common/elm/Common/Api/ServerError.elm:407
 msgid "Project cannot be deleted because it is used in some project migration."
 msgstr "Projekta ni mogoče izbrisati, ker se uporablja pri migraciji nekaterih projektov."
 
-#: shared/common/elm/Common/Api/ServerError.elm:392
+#: shared/common/elm/Common/Api/ServerError.elm:410
 msgid "The document template was not found in the Registry."
 msgstr "Predloga dokumenta ni bila najdena v registru."
 
-#: shared/common/elm/Common/Api/ServerError.elm:395
+#: shared/common/elm/Common/Api/ServerError.elm:413
 msgid "Incorrect email or password."
 msgstr "Napačno e-poštno sporočilo ali geslo"
 
-#: shared/common/elm/Common/Api/ServerError.elm:398
+#: shared/common/elm/Common/Api/ServerError.elm:416
 msgid "Incorrect authentication code."
 msgstr "Nepravilna koda za preverjanje pristnosti"
 
-#: shared/common/elm/Common/Api/ServerError.elm:401
+#: shared/common/elm/Common/Api/ServerError.elm:419
 msgid "The account is not activated."
 msgstr "Račun ni aktiviran."
 
-#: shared/common/elm/Common/Components/FormGroup.elm:64
+#: shared/common/elm/Common/Api/ServerError.elm:422
+msgid "The link has expired."
+msgstr ""
+
+#: shared/common/elm/Common/Components/FormGroup.elm:65
 msgid "(optional)"
 msgstr "(neobvezno)"
 
-#: shared/common/elm/Common/Components/FormGroup.elm:496
+#: shared/common/elm/Common/Components/FormGroup.elm:243
+msgid " days"
+msgstr ""
+
+#: shared/common/elm/Common/Components/FormGroup.elm:526
 msgid "You can use %s and see the result in the preview tab."
 msgstr "Uporabite lahko %s in si rezultat ogledate v zavihku za predogled."
 
-#: shared/common/elm/Common/Components/FormGroup.elm:507
+#: shared/common/elm/Common/Components/FormGroup.elm:537
 msgid "You can use HTML or %s and see the result in the preview tab."
 msgstr "Uporabite lahko HTML ali %s in si rezultat ogledate v zavihku za predogled."
 
-#: shared/common/elm/Common/Components/FormGroup.elm:767
+#: shared/common/elm/Common/Components/FormGroup.elm:797
 msgid "Suggestions: "
 msgstr "Predlogi: "
 
-#: shared/common/elm/Common/Components/FormGroup.elm:786
+#: shared/common/elm/Common/Components/FormGroup.elm:816
 msgid "The version number is in format X.Y.Z. Increasing number Z indicates only some fixes, number Y minor changes, and number X indicates a major change."
 msgstr "Številka različice je v obliki X.Y.Z. Večja številka Z pomeni le nekaj popravkov, številka Y manjše spremembe, številka X pa večjo spremembo."
+
+#: shared/common/elm/Common/Components/GuideLink.elm:38
+msgid "Read the guide"
+msgstr ""
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:38
 msgid "Heading 2"
@@ -7084,6 +7494,18 @@ msgstr ""
 msgid "No results matching your search were found."
 msgstr "Rezultatov, ki bi ustrezali vašemu iskanju, ni bilo."
 
+#: shared/common/elm/Common/Components/UserExternalCompletionForm.elm:98
+msgid "Complete Your Registration"
+msgstr ""
+
+#: shared/common/elm/Common/Components/UserExternalCompletionForm.elm:105
+msgid "First Name"
+msgstr ""
+
+#: shared/common/elm/Common/Components/UserExternalCompletionForm.elm:106
+msgid "Last Name"
+msgstr ""
+
 #: shared/common/elm/Common/Data/Role.elm:164
 msgid "Admin"
 msgstr "Admin"
@@ -7137,40 +7559,44 @@ msgstr "To ni veljaven UUID."
 msgid "Invalid value."
 msgstr "Nepravilna vrednost."
 
-#: shared/common/elm/Common/Utils/Form/Validate.elm:58
+#: shared/common/elm/Common/Utils/Form/Validate.elm:59
 msgid "This is a very weak password."
 msgstr "To je zelo šibko geslo."
 
-#: shared/common/elm/Common/Utils/Form/Validate.elm:61
+#: shared/common/elm/Common/Utils/Form/Validate.elm:62
 msgid "This is a weak password."
 msgstr "To je šibko geslo."
 
-#: shared/common/elm/Common/Utils/Form/Validate.elm:124
+#: shared/common/elm/Common/Utils/Form/Validate.elm:125
+msgid "Fill in a valid URL."
+msgstr ""
+
+#: shared/common/elm/Common/Utils/Form/Validate.elm:130
 msgid "Fill in a valid organization ID."
 msgstr "Vnesite veljavno identifikacijsko številko organizacije."
 
-#: shared/common/elm/Common/Utils/Form/Validate.elm:129
+#: shared/common/elm/Common/Utils/Form/Validate.elm:135
 msgid "Fill in a valid knowledge model ID."
 msgstr "Vnesite veljavni ID modela znanja."
 
-#: shared/common/elm/Common/Utils/Form/Validate.elm:134
+#: shared/common/elm/Common/Utils/Form/Validate.elm:140
 msgid "Fill in a valid knowledge model secret name."
 msgstr "Vnesite veljavno ime skrivnosti modela znanja."
 
-#: shared/common/elm/Common/Utils/Form/Validate.elm:139
+#: shared/common/elm/Common/Utils/Form/Validate.elm:145
 msgid "Fill in a valid document template ID."
 msgstr "Vnesite veljavno ID predloge dokumenta."
 
-#: shared/common/elm/Common/Utils/Form/Validate.elm:144
+#: shared/common/elm/Common/Utils/Form/Validate.elm:150
 msgid "Fill in a valid locale ID."
 msgstr "Vnesite veljavni identifikator lokalnega okolja."
 
-#: shared/common/elm/Common/Utils/Form/Validate.elm:149
+#: shared/common/elm/Common/Utils/Form/Validate.elm:155
 msgid "Use only lowercase alphanumeric characters or dash symbols."
 msgstr "Uporabljajte samo male alfanumerične znake ali vezaje."
 
-#: shared/common/elm/Common/Utils/Form/Validate.elm:154
-#: shared/common/elm/Common/Utils/Form/Validate.elm:159
+#: shared/common/elm/Common/Utils/Form/Validate.elm:160
+#: shared/common/elm/Common/Utils/Form/Validate.elm:165
 msgid "Comma (,) is not allowed in project tags."
 msgstr "V oznakah vejica (,) ni dovoljena."
 
@@ -7301,6 +7727,15 @@ msgstr "november"
 #: shared/common/elm/Common/Utils/TimeUtils.elm:154
 msgid "December"
 msgstr "december"
+
+#~ msgid "internal"
+#~ msgstr "interno"
+
+#~ msgid "External"
+#~ msgstr "Zunanja stran"
+
+#~ msgid "OpenID Services"
+#~ msgstr "Storitve OpenID"
 
 #~ msgid "Select"
 #~ msgstr "Izberite"
@@ -7859,9 +8294,6 @@ msgstr "december"
 
 #~ msgid "From Project Template"
 #~ msgstr "Iz predloge projekta"
-
-#~ msgid "Custom"
-#~ msgstr "Po meri"
 
 #~ msgid "Ok"
 #~ msgstr "Ok"

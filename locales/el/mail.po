@@ -26,7 +26,8 @@ msgstr "Αυτό το e-mail δημιουργήθηκε από"
 #: templates/_common/footer.txt.j2:2
 #: templates/wizard/apiKeyCreated/message.html.j2:81
 #: templates/wizard/apiKeyExpiration/message.html.j2:79
-#: templates/wizard/commentThreadAssigned/message.html.j2:118
+#: templates/wizard/commentThreadAssigned/message.html.j2:123
+#: templates/wizard/emailChange/message.html.j2:79
 #: templates/wizard/projectInvitation/message.html.j2:80
 #: templates/wizard/registrationConfirmation/message.html.j2:78
 #: templates/wizard/resetPassword/message.html.j2:77
@@ -37,7 +38,8 @@ msgstr "Ευχαριστούμε που χρησιμοποείτε το DSW!"
 #: templates/_common/footer.txt.j2:5
 #: templates/wizard/apiKeyCreated/message.html.j2:82
 #: templates/wizard/apiKeyExpiration/message.html.j2:80
-#: templates/wizard/commentThreadAssigned/message.html.j2:119
+#: templates/wizard/commentThreadAssigned/message.html.j2:124
+#: templates/wizard/emailChange/message.html.j2:80
 #: templates/wizard/projectInvitation/message.html.j2:81
 #: templates/wizard/registrationConfirmation/message.html.j2:79
 #: templates/wizard/resetPassword/message.html.j2:78
@@ -51,6 +53,8 @@ msgstr "ομάδα"
 #: templates/wizard/apiKeyExpiration/message.txt.j2:6
 #: templates/wizard/commentThreadAssigned/message.html.j2:31
 #: templates/wizard/commentThreadAssigned/message.txt.j2:12
+#: templates/wizard/emailChange/message.html.j2:23
+#: templates/wizard/emailChange/message.txt.j2:3
 #: templates/wizard/projectInvitation/message.html.j2:26
 #: templates/wizard/projectInvitation/message.txt.j2:6
 #: templates/wizard/registrationConfirmation/message.html.j2:23
@@ -117,20 +121,26 @@ msgid_plural "The following %(count)s comment threads have been assigned to you:
 msgstr[0] "Σας έχει ανατεθεί το ακόλουθο σχόλιο:"
 msgstr[1] "Σας έχουν ανατεθεί τα ακόλουθα %(count)s σχόλια :"
 
-#: templates/wizard/commentThreadAssigned/message.html.j2:75
+#: templates/wizard/commentThreadAssigned/message.html.j2:73
 #: templates/wizard/commentThreadAssigned/message.txt.j2:20
+msgid "Question"
+msgstr ""
+
+#: templates/wizard/commentThreadAssigned/message.html.j2:80
+#: templates/wizard/commentThreadAssigned/message.txt.j2:21
 msgid "Assigned by"
 msgstr "Ανατέθηκε από"
 
-#: templates/wizard/commentThreadAssigned/message.html.j2:78
+#: templates/wizard/commentThreadAssigned/message.html.j2:83
 msgid "Open"
 msgstr "Άνοιγμα"
 
-#: templates/wizard/commentThreadAssigned/message.html.j2:113
+#: templates/wizard/commentThreadAssigned/message.html.j2:118
 msgid "View all comment threads assigned to you"
 msgstr "Δείτε όλα τα νήματα σχολίων που σας έχουν ανατεθεί"
 
-#: templates/wizard/commentThreadAssigned/message.html.j2:116
+#: templates/wizard/commentThreadAssigned/message.html.j2:121
+#: templates/wizard/emailChange/message.html.j2:77
 #: templates/wizard/projectInvitation/message.html.j2:78
 #: templates/wizard/registrationConfirmation/message.html.j2:76
 #: templates/wizard/resetPassword/message.html.j2:75
@@ -138,20 +148,53 @@ msgid "If any problem occurs contact us via"
 msgstr "Εάν προκύψει κάποιο πρόβλημα επικοινωνήστε μαζί μας μέσω"
 
 #: templates/wizard/commentThreadAssigned/message.txt.j2:20
+msgid "(unknown)"
+msgstr ""
+
+#: templates/wizard/commentThreadAssigned/message.txt.j2:21
 msgid "already resolved"
 msgstr "έχει επιλυθεί"
 
-#: templates/wizard/commentThreadAssigned/message.txt.j2:20
+#: templates/wizard/commentThreadAssigned/message.txt.j2:21
 msgid "unresolved"
 msgstr "δεν έχει επιλυθεί"
 
-#: templates/wizard/commentThreadAssigned/message.txt.j2:20
+#: templates/wizard/commentThreadAssigned/message.txt.j2:21
 msgid "private editor note"
 msgstr "ιδιωτική σημείωση συντάκτη"
 
 #: templates/wizard/commentThreadAssigned/subject.txt.j2:1
 msgid "Assigned to Comment Threads"
 msgstr "Ανατέθηκε στα νήματα σχολίων"
+
+#: templates/wizard/emailChange/message.html.j2:24
+#: templates/wizard/emailChange/message.txt.j2:5
+msgid "You recently requested to change the email address associated with your DSW account."
+msgstr ""
+
+#: templates/wizard/emailChange/message.html.j2:25
+msgid "To confirm that this email address is correct, please click on the button below."
+msgstr ""
+
+#: templates/wizard/emailChange/message.html.j2:50
+msgid "Verify your email"
+msgstr ""
+
+#: templates/wizard/emailChange/message.html.j2:75
+msgid "In case you did not request this change, you can safely ignore this email."
+msgstr ""
+
+#: templates/wizard/emailChange/message.txt.j2:7
+msgid "To confirm that this email address is correct, please proceed here"
+msgstr ""
+
+#: templates/wizard/emailChange/message.txt.j2:9
+msgid "If you did not request this change, you can safely ignore this email."
+msgstr ""
+
+#: templates/wizard/emailChange/subject.txt.j2:1
+msgid "Email Address Confirmation"
+msgstr ""
 
 #: templates/wizard/projectInvitation/message.html.j2:27
 #: templates/wizard/projectInvitation/message.txt.j2:8

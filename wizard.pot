@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: wizard-client:4.31.0\n"
-"POT-Creation-Date: 2026-06-02T09:46:08.197Z \n"
+"Project-Id-Version: wizard-client:4.32.0\n"
+"POT-Creation-Date: 2026-07-07T06:30:17.016Z \n"
 "Language: en\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1311,7 +1311,7 @@ msgid "Unable to get version history."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:1390
-#: app-wizard/elm/Wizard/Components/Questionnaire2.elm:870
+#: app-wizard/elm/Wizard/Components/Questionnaire2.elm:894
 #: app-wizard/elm/Wizard/Pages/Comments/Update.elm:35
 msgid "Unable to get comments."
 msgstr ""
@@ -2295,7 +2295,7 @@ msgid "Search comments..."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Comments/View.elm:56
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:376
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:379
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:99
 msgid "Project"
 msgstr ""
@@ -2604,7 +2604,7 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Documents/Index/View.elm:202
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1428
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:438
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:443
 #: app-wizard/elm/Wizard/Pages/ProjectFiles/Index/View.elm:116
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:169
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Documents/View.elm:188
@@ -2862,39 +2862,43 @@ msgstr ""
 msgid "Unable to get the document preview."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:325
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:328
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:598
 msgid "Open project"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:350
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:353
 msgid "Open KM editor"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:386
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:389
 msgid "KM editor"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:394
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:397
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:321
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:140
 msgid "Format"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:408
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:402
+msgid "Reload preview"
+msgstr ""
+
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:413
 msgid "Preview not set"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:409
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:414
 msgid "Select a project or knowledge model editor and format you want to preview."
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:432
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:437
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:163
 msgid "Download preview"
 msgstr ""
 
-#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:434
+#: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:439
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Preview.elm:165
 msgid "The document format cannot be displayed in the web browser. You can still download and view it."
 msgstr ""
@@ -3171,7 +3175,7 @@ msgid "There is a newer version (%s) available."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:192
-#: shared/common/elm/Common/Components/GuideLink.elm:29
+#: shared/common/elm/Common/Components/GuideLink.elm:30
 msgid "Learn more in guide"
 msgstr ""
 
@@ -4239,8 +4243,8 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Update.elm:119
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Update.elm:317
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:181
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:276
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:301
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:284
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:309
 msgid "Some changes are still saving."
 msgstr ""
 
@@ -4818,7 +4822,7 @@ msgstr ""
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Preview/Update.elm:145
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:197
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/ShareModal.elm:376
-#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:680
+#: app-wizard/elm/Wizard/Pages/Projects/Detail/Update.elm:688
 msgid "Questionnaire could not be saved."
 msgstr ""
 
@@ -7365,6 +7369,10 @@ msgstr ""
 
 #: shared/common/elm/Common/Components/FormGroup.elm:816
 msgid "The version number is in format X.Y.Z. Increasing number Z indicates only some fixes, number Y minor changes, and number X indicates a major change."
+msgstr ""
+
+#: shared/common/elm/Common/Components/GuideLink.elm:38
+msgid "Read the guide"
 msgstr ""
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:38

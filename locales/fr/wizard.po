@@ -7,7 +7,7 @@
 # Sylvain Milanesi <sylvain.milanesi@france-bioinformatique.fr>, 2025, 2026.
 # Saliha ZENBOUDJI-BEDDEK <saliecolo@hotmail.com>, 2025, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2026-07-07T06:30:17.016Z\nPO-Revision-Date: 2026-07-09 07:04+0000\nLast-Translator: Sylvain Milanesi <sylvain.milanesi@france-bioinformatique.fr>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/dsw-4-32/client/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.17.1\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2026-07-07T06:30:17.016Z\nPO-Revision-Date: 2026-07-10 08:04+0000\nLast-Translator: Sylvain Milanesi <sylvain.milanesi@france-bioinformatique.fr>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/dsw-4-32/client/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 5.17.1\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Integration.elm:99
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1961
@@ -597,9 +597,8 @@ msgid "Experts"
 msgstr "Experts"
 
 #: app-wizard/elm/Wizard/Components/KMComparison.elm:749
-#, fuzzy
 msgid "Follow-up Questions"
-msgstr "Questions de suivi"
+msgstr "Questions suivantes"
 
 #: app-wizard/elm/Wizard/Components/KMComparison.elm:938
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3121
@@ -6051,11 +6050,11 @@ msgstr "Durée de la session d'un utilisateur en **heures**. Le changement de ce
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:65
 msgid "User Email Link Expiration"
-msgstr ""
+msgstr "Expiration du lien dans le mail de l'utilisateur"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:66
 msgid "Expiration time of user email links (e.g., password reset, email confirmation) in **hours**."
-msgstr ""
+msgstr "Durée des liens envoyés par courriel aux utilisateurs (ex: réinitialisation du mot de passe, confirmation de l'adresse mail) en **heures**."
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:70
 msgid "Default role"
@@ -6228,38 +6227,38 @@ msgstr "Nouvelle fenêtre"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenId/Update.elm:34
 msgid "Unable to get OpenID configs."
-msgstr ""
+msgstr "Impossibles d'accéder à des configs OpenID."
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenId/Update.elm:71
 msgid "OpenID config could not be deleted."
-msgstr ""
+msgstr "La config OpenID ne peut pas être supprimée."
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenId/View.elm:31
 msgid "There are no OpenID configurations."
-msgstr ""
+msgstr "Il n'y a pas de configurations OpenID."
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenId/View.elm:37
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:147
 msgid "OpenID"
-msgstr ""
+msgstr "OpenID"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenId/View.elm:86
 msgid "Delete OpenID"
-msgstr ""
+msgstr "OpenID Supprimé"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/Update.elm:49
 msgid "Unable to get OpenID prefabs."
-msgstr ""
+msgstr "Impossible d'obtenir des OpenID prefabs."
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/Update.elm:63
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/Update.elm:63
 msgid "OpenID config could not be saved."
-msgstr ""
+msgstr "La config OpenID ne peut pas être sauvegardée."
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:58
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:63
 msgid "Application (client) ID"
-msgstr ""
+msgstr "Application (client) ID"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:61
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:66
@@ -6269,7 +6268,7 @@ msgstr "ID du client"
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:65
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:70
 msgid "Client Secret Value"
-msgstr ""
+msgstr "Valeur du Secret du Client"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:68
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:73
@@ -6279,7 +6278,7 @@ msgstr "Secret du client"
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:88
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:103
 msgid "Microsoft"
-msgstr ""
+msgstr "Microsoft"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:96
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:111
@@ -6289,7 +6288,7 @@ msgstr "À partir d'un modèle de connaissances"
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:106
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:121
 msgid "Directory (tenant) ID"
-msgstr ""
+msgstr "Répertoire (tenant) ID"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:111
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:126
@@ -6304,22 +6303,22 @@ msgstr "Ajouter un paramètre"
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:119
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:134
 msgid "Advanced configuration"
-msgstr ""
+msgstr "Configuration avancée"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:127
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:142
 msgid "Registration enabled"
-msgstr ""
+msgstr "Inscription activée"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:128
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:143
 msgid "Allow users to register using this OpenID provider."
-msgstr ""
+msgstr "Autoriser les utilisateurs à s'inscrire en utilisant ce fournisseur OpenID."
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:139
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:154
 msgid "Allows the application to access your email address and whether it has been verified."
-msgstr ""
+msgstr "Autoriser l'application à accéder à votre adresse courriel et savoir si elle a été vérifiée."
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:140
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:155
@@ -6331,19 +6330,19 @@ msgstr "Profil"
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:141
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:156
 msgid "Allows the application to access the basic profile information (name, username, profile picture, and other personal details)."
-msgstr ""
+msgstr "Autoriser l'application a accéder aux informations basiques de profils (nom, identifiant, photo de profil et d'autres détails personnels)."
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:152
 msgid "Create OpenID Config"
-msgstr ""
+msgstr "Créer une config OpenID"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/Update.elm:49
 msgid "Unable to get OpenID config"
-msgstr ""
+msgstr "Impossible de trouver une config OpenID"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:43
 msgid "Redirect URI"
-msgstr ""
+msgstr "URI de redirection"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:46
 msgid "Callback URL"
@@ -6351,7 +6350,7 @@ msgstr "URL callback"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:53
 msgid "Front-channel logout URL"
-msgstr ""
+msgstr "URL de déconnexion du canal principal"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:56
 msgid "Logout URL"
@@ -6359,7 +6358,7 @@ msgstr "URL de déconnexion"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:174
 msgid "Edit OpenID Config"
-msgstr ""
+msgstr "Editer la Config OpenID"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:26
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:145
@@ -6836,53 +6835,53 @@ msgstr "Supprimer la clé de l'application"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:84
 msgid "Failed to load connected accounts"
-msgstr ""
+msgstr "Échec de chargement des comptes connectés"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:126
 msgid "Account disconnected successfully."
-msgstr ""
+msgstr "La déconnexion de ce compte s'est effectuée avec succès."
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:135
 msgid "Failed to disconnect account."
-msgstr ""
+msgstr "Erreur à la connexion de ce compte."
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:161
 #: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:131
 msgid "Connected Accounts"
-msgstr ""
+msgstr "Comptes connectés"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:177
 msgid "You have not connected any external accounts."
-msgstr ""
+msgstr "Vous n'avez aucun comptes externes connectés."
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:183
 msgid "Service"
-msgstr ""
+msgstr "Service"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:184
 msgid "Account"
-msgstr ""
+msgstr "Compte"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:208
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:259
 msgid "Disconnect"
-msgstr ""
+msgstr "Déconnexion"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:228
 msgid "Connect Account"
-msgstr ""
+msgstr "Compte Connecté"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:242
 msgid "Are you sure you want to disconnect %s account?"
-msgstr ""
+msgstr "Êtes-vous sûr de vouloir déconnecter le compte %s ?"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:247
 msgid "You will no longer be able to use it to log in."
-msgstr ""
+msgstr "Vous ne serez plus en mesure de l'utiliser pour vous connecter."
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:255
 msgid "Disconnect Account"
-msgstr ""
+msgstr "Compte déconnecté"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Language.elm:86
 msgid "Unable to get user language."
@@ -7169,11 +7168,11 @@ msgstr "L'ID du modèle de connaissances est déjà utilisé."
 
 #: shared/common/elm/Common/Api/ServerError.elm:248
 msgid "Logo file size cannot exceed %s."
-msgstr ""
+msgstr "La taille maximale du fichier logo ne doit pas dépasser %s."
 
 #: shared/common/elm/Common/Api/ServerError.elm:251
 msgid "Logo file size exceeds the limit."
-msgstr ""
+msgstr "Le fichier logo dépasse la limite."
 
 #: shared/common/elm/Common/Api/ServerError.elm:254
 msgid "Knowledge model already exists."
@@ -7202,12 +7201,12 @@ msgstr "Une migration de projet est déjà en cours."
 
 #: shared/common/elm/Common/Api/ServerError.elm:272
 msgid "This account is already linked to a different user."
-msgstr ""
+msgstr "Ce compte est déjà lié à un autre utilisateur."
 
 #: shared/common/elm/Common/Api/ServerError.elm:275
 #: shared/common/elm/Common/Api/ServerError.elm:290
 msgid "Registration of new accounts via this service is disabled."
-msgstr ""
+msgstr "L'enregistrement de nouveaux comptes via ce service est désactivé."
 
 #: shared/common/elm/Common/Api/ServerError.elm:278
 msgid "New version has to be higher than the previous one."
@@ -7367,7 +7366,7 @@ msgstr "Le compte n'est pas activé."
 
 #: shared/common/elm/Common/Api/ServerError.elm:422
 msgid "The link has expired."
-msgstr ""
+msgstr "Le lien a expiré."
 
 #: shared/common/elm/Common/Components/FormGroup.elm:65
 msgid "(optional)"
@@ -7375,7 +7374,7 @@ msgstr "(facultatif)"
 
 #: shared/common/elm/Common/Components/FormGroup.elm:243
 msgid " days"
-msgstr ""
+msgstr " jours"
 
 #: shared/common/elm/Common/Components/FormGroup.elm:526
 msgid "You can use %s and see the result in the preview tab."
@@ -7395,7 +7394,7 @@ msgstr "Le numéro de version est au format X.Y.Z. L'augmentation du numéro Z i
 
 #: shared/common/elm/Common/Components/GuideLink.elm:38
 msgid "Read the guide"
-msgstr ""
+msgstr "Lire le guide"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:38
 msgid "Heading 2"
@@ -7455,16 +7454,15 @@ msgstr "Aucun résultat correspondant à votre recherche n'a été trouvé."
 
 #: shared/common/elm/Common/Components/UserExternalCompletionForm.elm:98
 msgid "Complete Your Registration"
-msgstr ""
+msgstr "Complétez Votre Inscription"
 
 #: shared/common/elm/Common/Components/UserExternalCompletionForm.elm:105
-#, fuzzy
 msgid "First Name"
 msgstr "Prénom"
 
 #: shared/common/elm/Common/Components/UserExternalCompletionForm.elm:106
 msgid "Last Name"
-msgstr ""
+msgstr "Nom"
 
 #: shared/common/elm/Common/Data/Role.elm:164
 msgid "Admin"
@@ -7529,7 +7527,7 @@ msgstr "Ce mot de passe est faible."
 
 #: shared/common/elm/Common/Utils/Form/Validate.elm:125
 msgid "Fill in a valid URL."
-msgstr ""
+msgstr "Entrer une URL valide."
 
 #: shared/common/elm/Common/Utils/Form/Validate.elm:130
 msgid "Fill in a valid organization ID."

@@ -1,11 +1,11 @@
-# Rob Hooft <rob.hooft@health-ri.nl>, 2023, 2024, 2025.
+# Rob Hooft <rob.hooft@health-ri.nl>, 2023, 2024, 2025, 2026.
 # Marek Suchánek <marek.suchanek@ds-wizard.org>, 2023, 2024.
 # Jana Martínková <j.martinkova@outlook.com>, 2024, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2026-07-07T06:30:17.016Z\nPO-Revision-Date: 2026-07-09 07:04+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/dsw-4-32/client/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.17.1\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2026-07-07T06:30:17.016Z\nPO-Revision-Date: 2026-07-27 17:35+0000\nLast-Translator: Rob Hooft <rob.hooft@health-ri.nl>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/dsw-4-32/client/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.17.1\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Integration.elm:99
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1961
@@ -16,7 +16,7 @@ msgstr "API"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1962
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2594
 msgid "Plugin"
-msgstr ""
+msgstr "Plug-in"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -321,40 +321,40 @@ msgstr "Item %s"
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:46
 msgid "The request timed out."
-msgstr ""
+msgstr "Verzoek mislukt door verlopen tijdslimiet."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:49
 msgid "The connection timed out."
-msgstr ""
+msgstr "Tijdslimiet overschreden op de verbinding."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:52
 msgid "The URL is invalid."
-msgstr ""
+msgstr "De URL is niet geldig."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:58
 msgid "HTTP error %s occurred."
-msgstr ""
+msgstr "HTTP-fout %s opgetreden."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:62
 msgid "An HTTP error occurred."
-msgstr ""
+msgstr "Er is een HTTP-fout opgetreden."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:68
 msgid "The content type '%s' is not HTML."
-msgstr ""
+msgstr "Het content-type '%s' is geen HTML."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:72
 msgid "The content is not HTML."
-msgstr ""
+msgstr "De inhoud is geen HTML."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:75
 msgid "A network error occurred."
-msgstr ""
+msgstr "Er is een netwerkfout opgetreden."
 
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:78
 #: app-wizard/elm/Wizard/Api/Models/UrlCheckResponse/UrlResult.elm:81
 msgid "An unknown error occurred."
-msgstr ""
+msgstr "Er is een onbekende fout opgetreden."
 
 #: app-wizard/elm/Wizard/Components/CookieConsent.elm:27
 msgid "Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use. "
@@ -566,7 +566,7 @@ msgstr "Antwoorden"
 
 #: app-wizard/elm/Wizard/Components/KMComparison.elm:543
 msgid "Item Template Questions"
-msgstr ""
+msgstr "Vragen voor de Item-modellen"
 
 #: app-wizard/elm/Wizard/Components/KMComparison.elm:554
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1539
@@ -595,7 +595,6 @@ msgid "Experts"
 msgstr "Experts"
 
 #: app-wizard/elm/Wizard/Components/KMComparison.elm:749
-#, fuzzy
 msgid "Follow-up Questions"
 msgstr "Vervolgvragen"
 
@@ -685,19 +684,19 @@ msgstr "Bronnenverzameling"
 
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:146
 msgid "Added"
-msgstr ""
+msgstr "Toegevoegd"
 
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:149
 msgid "Removed"
-msgstr ""
+msgstr "Verwijderd"
 
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:152
 msgid "Changed"
-msgstr ""
+msgstr "Gewijzigd"
 
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:155
 msgid "No Change"
-msgstr ""
+msgstr "Geen Verandering"
 
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:209
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:221
@@ -776,7 +775,7 @@ msgstr "Bestandstypen"
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:333
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:560
 msgid "Max Size"
-msgstr ""
+msgstr "Maximale Grootte"
 
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:342
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:568
@@ -802,7 +801,7 @@ msgstr "Type"
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:352
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:578
 msgid "Required Phase"
-msgstr ""
+msgstr "Vereiste Fase"
 
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:594
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:606
@@ -1151,7 +1150,7 @@ msgstr "Over"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:752
 msgid "What's new"
-msgstr ""
+msgstr "Wat er nieuw is"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:761
 msgid "Report issue"
@@ -1210,14 +1209,14 @@ msgstr "Gebouwd om"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:947
 msgid "Metamodel Versions"
-msgstr ""
+msgstr "Versies van het Metamodel"
 
 #: app-wizard/elm/Wizard/Components/Menu/View.elm:972
 #: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:42
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:154
 #: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:101
 msgid "Plugins"
-msgstr ""
+msgstr "Plug-ins"
 
 #: app-wizard/elm/Wizard/Components/OnlineUser.elm:51
 #: app-wizard/elm/Wizard/Components/OnlineUser.elm:61
@@ -1326,7 +1325,7 @@ msgstr "Kan hints niet ophalen."
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:1917
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/Toolbar.elm:202
 msgid "Some options are hidden"
-msgstr ""
+msgstr "Er zijn verborgen opties"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire.elm:1929
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/Toolbar.elm:214
@@ -1977,7 +1976,7 @@ msgstr "Alleen versies met naam"
 #: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:209
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/VersionHistoryRightPanel.elm:341
 msgid "Load older"
-msgstr ""
+msgstr "Laad ouder"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/History.elm:327
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/VersionHistoryRightPanel.elm:475
@@ -2037,15 +2036,15 @@ msgstr "Verander fase in %s"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/Importer.elm:88
 msgid "Question not found at: %s"
-msgstr ""
+msgstr "Vraag kan hier niet worden gevonden: %s"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/Importer.elm:91
 msgid "Unexpected reply type at: %s"
-msgstr ""
+msgstr "Onverwacht antwoordtype hier: %s"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/Importer.elm:94
 msgid "Unexpected answer UUID \"%s\" at: %s"
-msgstr ""
+msgstr "Onverwachte UUID \"%s\" bij het antwoord: %s"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:279
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/SearchRightPanel.elm:280
@@ -2099,35 +2098,34 @@ msgid "New version"
 msgstr "Nieuwe versie"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/FileDeleteModal.elm:98
-#, fuzzy
 msgid "Unable to delete the file."
 msgstr "Kan bestand niet verwijderen."
 
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/QuestionnaireContent.elm:946
 msgid "View 1 comment"
 msgid_plural "View %s comments"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bekijk 1 opmerking"
+msgstr[1] "Bekijk %s opmerkingen"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/QuestionnaireContent.elm:949
 msgid "Add comment"
-msgstr ""
+msgstr "Voeg commentaar toe"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/QuestionnaireContent.elm:2318
 msgid "Missing plugin."
-msgstr ""
+msgstr "Missende plug-in."
 
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/QuestionnaireContent.elm:2329
 msgid "The integration for this question is not configured properly."
-msgstr ""
+msgstr "De integratie voor deze vraag is niet juist geconfigureerd."
 
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/QuestionnaireContent.elm:2509
 msgid "Plugin error."
-msgstr ""
+msgstr "Fout bij de plug-in."
 
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/WarningsRightPanel.elm:45
 msgid "All warnings have been resolved!"
-msgstr ""
+msgstr "Alle waarschuwingen zijn opgelost!"
 
 #: app-wizard/elm/Wizard/Components/QuestionnaireVersionTag.elm:19
 msgid "Current"
@@ -2897,7 +2895,7 @@ msgstr "Vorm"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:402
 msgid "Reload preview"
-msgstr ""
+msgstr "Laad de voorvertoning opnieuw"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Preview.elm:413
 msgid "Preview not set"
@@ -3557,7 +3555,7 @@ msgstr "Lege antwoord-item sjabloon voor integratie"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1421
 msgid "No plugin selected for plugin integration"
-msgstr ""
+msgstr "Er is geen plug-in geselecteerd voor de integratie"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1435
 msgid "Empty title for resource collection"
@@ -3581,7 +3579,7 @@ msgstr "Kan voorvertoning niet ophalen."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:594
 msgid "URL Checker"
-msgstr ""
+msgstr "URL-controleur"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:677
 msgid "There are no more warnings."
@@ -3853,11 +3851,11 @@ msgstr "Dit contenttype wordt niet ondersteund."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2290
 msgid "The response body is too large to display with syntax highlight."
-msgstr ""
+msgstr "De inhoud van het antwoord is te groot om weer te geven met structuurmarkering."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2320
 msgid "Copy response"
-msgstr ""
+msgstr "Kopieer antwoord"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2325
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2479
@@ -3927,7 +3925,7 @@ msgstr "Een naam die overal zichtbaar is in de Editor van het Kennismodel, zoals
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2548
 msgid "There are no available plugins."
-msgstr ""
+msgstr "Er zijn geen plug-ins beschikbaar."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2681
 msgid "Follow-Up Questions"
@@ -3958,7 +3956,7 @@ msgstr "- selecteer bronnenpagina -"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2910
 msgid "This URL failed the check:"
-msgstr ""
+msgstr "Deze URL voldoet niet aan de validatie:"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2974
 msgid "- select related question -"
@@ -4160,35 +4158,35 @@ msgstr "Kop toevoegen"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:88
 msgid "Failed to check URLs."
-msgstr ""
+msgstr "Kon de URL's niet valideren."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:114
 msgid "There are no URL references in the Knowledge Model to check."
-msgstr ""
+msgstr "Er zijn geen URL-referenties te valideren in het kennismodel."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:138
 msgid "There is %s URL reference to check."
 msgid_plural "There are %s URL references to check."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Er is %s URL te valideren."
+msgstr[1] "Er zijn %s URL's te valideren."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:141
 msgid "Check URLs"
-msgstr ""
+msgstr "Valideer URL's"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:159
 msgid "All URL references are valid."
-msgstr ""
+msgstr "Alle URL referenties zijn goed."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:167
 msgid "Found 1 broken reference."
 msgid_plural "Found %s broken references."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s ongeldige verwijzing."
+msgstr[1] "% ongeldige verwijzingen."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor/UrlChecker.elm:186
 msgid "Unknown error."
-msgstr ""
+msgstr "Onbekende fout."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/PhaseEditor.elm:108
 msgid "There are no phases, create them first."
@@ -4521,19 +4519,19 @@ msgstr "Request-URL"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:791
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:855
 msgid "Plugin UUID"
-msgstr ""
+msgstr "Plug-in UUID"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:724
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:792
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:856
 msgid "Plugin Integration ID"
-msgstr ""
+msgstr "Plug-in integratie-ID"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:725
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:793
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:857
 msgid "Plugin Integration Settings"
-msgstr ""
+msgstr "Plug-in integratieinstellingen"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:994
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1109
@@ -4602,7 +4600,7 @@ msgstr "Korte beschrijving van het kennismodel."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:91
 msgid "No version of this knowledge model has been published yet."
-msgstr ""
+msgstr "Er is nog geen gepubliceerde versie van dit kennismodel."
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Publish/View.elm:92
 msgid "Last version"
@@ -4636,21 +4634,21 @@ msgstr "Kan de vraagtags voor het kennismodel niet laden."
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/CompareSelectModal.elm:374
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:136
 msgid "Compare Knowledge Models"
-msgstr ""
+msgstr "Vergelijk Kennismodellen"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/CompareSelectModal.elm:379
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:89
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:88
 msgid "Compare"
-msgstr ""
+msgstr "Vergelijk"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/CompareSelectModal.elm:430
 msgid "compare with"
-msgstr ""
+msgstr "vergelijk met"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:92
 msgid "Unable to get dependents of the Knowledge Model."
-msgstr ""
+msgstr "Kon niet alle afhankelijkheden van het kennismodel ophalen."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:122
 msgid "Knowledge Model could not be deleted."
@@ -4658,11 +4656,11 @@ msgstr "Het kennismodel kon niet verwijderd worden."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:146
 msgid "This action cannot be undone."
-msgstr ""
+msgstr "Deze bewerking kan niet ongedaan gemaakt worden."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:148
 msgid "Type \"%s\" to confirm"
-msgstr ""
+msgstr "Type \"%s\" om te bevestigen"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:174
 #: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/View.elm:98
@@ -4673,23 +4671,23 @@ msgstr "Ga verder"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:178
 msgid "Delete %s"
-msgstr ""
+msgstr "Verwijder %s"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:194
 msgid "You are about to permanently delete all versions of %s, including all dependent knowledge models, knowledge model editors, and projects."
-msgstr ""
+msgstr "Je staat op het punt om alle versies van %s definitief te verwijderen, inclusief alle daarvan afhankelijke kennismodellen, editors van kennismodellen en projecten."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:197
 msgid "You are about to permanently delete %s, including all dependent knowledge models, knowledge model editors, and projects."
-msgstr ""
+msgstr "Je staat op het punt om %s definitief te verwijderen, inclusief alle daarvan afhankelijke kennismodellen, editors van kennismodellen, en projecten."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:213
 msgid "Unexpected bad things will happen if you don't read this!"
-msgstr ""
+msgstr "Als je dit niet leest, zit je straks met ongewenste en onverwachte effecten!"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:219
 msgid "This action will permanently delete:"
-msgstr ""
+msgstr "Deze actie verwijdert definitief:"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:222
 msgid "%s knowledge model"
@@ -4698,36 +4696,32 @@ msgstr[0] ""
 msgstr[1] "kennismodellen"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:224
-#, fuzzy
 msgid "%s knowledge model editor"
 msgid_plural "%s knowledge model editors"
-msgstr[0] "bewerkers van kennismodellen"
-msgstr[1] ""
+msgstr[0] "%s editor van een kennismodel"
+msgstr[1] "%s editors van kennismodellen"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:226
 msgid "%s project"
 msgid_plural "%s projects"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s project"
+msgstr[1] "%s projecten"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:229
 msgid "Carefully review the list of what will be deleted before continuing."
-msgstr ""
+msgstr "Loop zorgvuldig langs de lijst van zaken die verwijderd zullen worden voordat je doorgaat."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:245
-#, fuzzy
 msgid "Knowledge Models:"
-msgstr "Kennismodellen"
+msgstr "Kennismodellen:"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:258
-#, fuzzy
 msgid "Knowledge Model Editors:"
-msgstr "Kennismodel Editors"
+msgstr "Kennismodel-editors:"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:270
-#, fuzzy
 msgid "Projects:"
-msgstr "Projecten"
+msgstr "Projecten:"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:53
 msgid "Open"
@@ -4748,19 +4742,19 @@ msgstr "Maak een project"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:161
 msgid "Set public"
-msgstr ""
+msgstr "Maak publiek"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:173
 msgid "Set private"
-msgstr ""
+msgstr "Maak privé"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Compare/Update.elm:49
 msgid "Unable to load knowledge model."
-msgstr ""
+msgstr "Kan kennismodel niet ophalen."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Compare/View.elm:29
 msgid "Select Knowledge Models"
-msgstr ""
+msgstr "Selecteer Kennismodellen"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:66
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:85
@@ -4770,7 +4764,7 @@ msgstr "Kan het kennismodel niet bijwerken."
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:61
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:124
 msgid "public"
-msgstr ""
+msgstr "publiek"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:89
 msgid "This is a non-editable knowledge model, i.e., it cannot be edited, forked, or exported."
@@ -4786,11 +4780,11 @@ msgstr "Vork van"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/Update.elm:92
 msgid "Import failed."
-msgstr ""
+msgstr "Importeren mislukt."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:46
 msgid "Previous Knowledge Model Package ID"
-msgstr ""
+msgstr "Vorige ID van het kennismodel-pakket"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/OwlImport/View.elm:47
 msgid "Root Element"
@@ -4802,7 +4796,7 @@ msgstr "Kies een bestand"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/Update.elm:32
 msgid "Unable to import knowledge model."
-msgstr ""
+msgstr "Kan het kennismodel niet importeren."
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/RegistryImport/View.elm:70
 msgid "You can find knowledge models in %s."
@@ -5260,7 +5254,7 @@ msgstr "Kan projectsjablonen niet ophalen."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/Update.elm:287
 msgid "Project could not be created."
-msgstr ""
+msgstr "Het project kon niet aangemaakt worden."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Create/View.elm:152
 msgid "From project template"
@@ -5323,7 +5317,7 @@ msgstr "Kan de samenvattende rapportage niet ophalen."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:176
 msgid "Unable to get project event."
-msgstr ""
+msgstr "Kon het project-event niet ophalen."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:252
 msgid "Document could not be created."
@@ -5590,7 +5584,7 @@ msgstr "Deze pagina mag je niet bekijken."
 #: app-wizard/elm/Wizard/Pages/Settings/PluginSettings/View.elm:31
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:132
 msgid "Plugin not found"
-msgstr ""
+msgstr "Plug-in niet gevonden"
 
 #: app-wizard/elm/Wizard/Pages/Projects/DocumentDownload/Update.elm:50
 msgid "You do not have permission to access this document"
@@ -5632,7 +5626,7 @@ msgstr "Wijzigingen in de vragenlijst konden niet worden opgeslagen."
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:72
 msgid "Importer not found"
-msgstr ""
+msgstr "Importeur niet gevonden"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Import/View.elm:89
 msgid "Importing to %s"
@@ -5879,7 +5873,7 @@ msgstr "Of verbinden met"
 
 #: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:134
 msgid "Login as admin"
-msgstr ""
+msgstr "Log in als admin"
 
 #: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:151
 msgid "Please enter the authentication code from your email to verify your identity."
@@ -5903,11 +5897,11 @@ msgstr "Je bent succesvol uitgelogd."
 
 #: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/View.elm:27
 msgid "Sign up was successful"
-msgstr ""
+msgstr "Inschrijving gelukt"
 
 #: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/View.elm:28
 msgid "Check your email for the activation link."
-msgstr ""
+msgstr "De activatielink staat in een net verzonden e-mail."
 
 #: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/View.elm:55
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:83
@@ -6029,11 +6023,11 @@ msgstr "Als dit is ingeschakeld, kunnen gebruikers nieuwe interne accounts maken
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:58
 msgid "Non-Admin Login"
-msgstr ""
+msgstr "Login als niet-admin"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:59
 msgid "If enabled, all users can use internal login using username and password. Otherwise, only admin users can use internal login, and other users must use an external identity provider."
-msgstr ""
+msgstr "Als dit is ingeschakeld kunnen alle gebruikers inloggen met een interne gebruikersnaam en password. Als dit is uitgeschakeld kunnen alleen admin-gebruikers zo inloggen en moeten alle andere gebruikers een externe identiteit gebruiken."
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:60
 msgid "Two-Factor Authentication"
@@ -6045,19 +6039,19 @@ msgstr "Als dit is ingeschakeld voeren gebruikers bij het inloggen eerst een geb
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:63
 msgid "Session Expiration"
-msgstr ""
+msgstr "Sessie-expiratie"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:64
 msgid "Expiration time of the user session in **hours**. Changing this value does not affect existing sessions."
-msgstr ""
+msgstr "De expiratietijd van de gebruikerssessie in **uren**. Deze instelling verandert niets aan bestaande sessies."
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:65
 msgid "User Email Link Expiration"
-msgstr ""
+msgstr "Expiratietijd van e-mail-links van gebruikers"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:66
 msgid "Expiration time of user email links (e.g., password reset, email confirmation) in **hours**."
-msgstr ""
+msgstr "Geldigheidsduur van links die naar gebruikers worden gestuurd (b.v. password vergeten, bevestigen van e-mailadres), in **uren**."
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:70
 msgid "Default role"
@@ -6230,38 +6224,38 @@ msgstr "Nieuw venster"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenId/Update.elm:34
 msgid "Unable to get OpenID configs."
-msgstr ""
+msgstr "Kan de OpenID configuraties niet ophalen."
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenId/Update.elm:71
 msgid "OpenID config could not be deleted."
-msgstr ""
+msgstr "De OpenID-configuratie kon niet worden verwijderd."
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenId/View.elm:31
 msgid "There are no OpenID configurations."
-msgstr ""
+msgstr "Er zijn geen OpenID-configuraties."
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenId/View.elm:37
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:147
 msgid "OpenID"
-msgstr ""
+msgstr "OpenID"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenId/View.elm:86
 msgid "Delete OpenID"
-msgstr ""
+msgstr "Verwijder OpenID"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/Update.elm:49
 msgid "Unable to get OpenID prefabs."
-msgstr ""
+msgstr "Kan OpenID prefabs niet ophalen."
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/Update.elm:63
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/Update.elm:63
 msgid "OpenID config could not be saved."
-msgstr ""
+msgstr "OpenID-configuratie kon niet worden opgeslagen."
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:58
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:63
 msgid "Application (client) ID"
-msgstr ""
+msgstr "Applicatie (client) ID"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:61
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:66
@@ -6271,7 +6265,7 @@ msgstr "Client ID"
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:65
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:70
 msgid "Client Secret Value"
-msgstr ""
+msgstr "Geheime Waarde van de Client"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:68
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:73
@@ -6281,7 +6275,7 @@ msgstr "Client secret"
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:88
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:103
 msgid "Microsoft"
-msgstr ""
+msgstr "Microsoft"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:96
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:111
@@ -6291,7 +6285,7 @@ msgstr "Aangepast"
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:106
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:121
 msgid "Directory (tenant) ID"
-msgstr ""
+msgstr "Directory (tenant) ID"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:111
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:126
@@ -6306,22 +6300,22 @@ msgstr "Parameter toevoegen"
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:119
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:134
 msgid "Advanced configuration"
-msgstr ""
+msgstr "Geavanceerde instellingen"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:127
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:142
 msgid "Registration enabled"
-msgstr ""
+msgstr "Registratie ingeschakeld"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:128
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:143
 msgid "Allow users to register using this OpenID provider."
-msgstr ""
+msgstr "Laat gebruikers zich registreren met deze OpenID-provider."
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:139
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:154
 msgid "Allows the application to access your email address and whether it has been verified."
-msgstr ""
+msgstr "Sta toe dat de applicatie je e-mail adres te zien krijgt en of dat is gevalideerd."
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:140
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:155
@@ -6333,19 +6327,19 @@ msgstr "Profiel"
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:141
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:156
 msgid "Allows the application to access the basic profile information (name, username, profile picture, and other personal details)."
-msgstr ""
+msgstr "Staat toe dat de applicatie de profielinformatie kan inzien (naam, gebruikersnaam, avatar, en andere gegevens)."
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:152
 msgid "Create OpenID Config"
-msgstr ""
+msgstr "Aanmaken van een OpenID configuratie"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/Update.elm:49
 msgid "Unable to get OpenID config"
-msgstr ""
+msgstr "Kan OpenID-configuratie niet ophalen"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:43
 msgid "Redirect URI"
-msgstr ""
+msgstr "URI Doorverwijzen"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:46
 msgid "Callback URL"
@@ -6353,7 +6347,7 @@ msgstr "Callback-URL"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:53
 msgid "Front-channel logout URL"
-msgstr ""
+msgstr "Front-channel log-out URL"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:56
 msgid "Logout URL"
@@ -6361,7 +6355,7 @@ msgstr "Logout-URL"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:174
 msgid "Edit OpenID Config"
-msgstr ""
+msgstr "Wijzig OpenID configuratie"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:26
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:145
@@ -6388,24 +6382,24 @@ msgstr "Organization-ID wordt gebruikt om kennismodellen te identificeren die in
 #: app-wizard/elm/Wizard/Pages/Settings/PluginSettings/Update.elm:67
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:112
 msgid "Unable to save plugin settings."
-msgstr ""
+msgstr "Kan plug-in instellingen niet opslaan."
 
 #: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:70
 msgid "Plugin settings"
-msgstr ""
+msgstr "Plug-in instellingen"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:97
 msgid "malformed manifest"
-msgstr ""
+msgstr "misvormde inhoudsopgave"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Plugins/View.elm:101
 msgid "unsupported plugin API version %s"
-msgstr ""
+msgstr "plugin API versie %s wordt niet ondersteund"
 
 #: app-wizard/elm/Wizard/Pages/Settings/PluginSettings/Update.elm:45
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:95
 msgid "Unable to get plugin settings."
-msgstr ""
+msgstr "Kan plug-in instellingen niet ophalen."
 
 #: app-wizard/elm/Wizard/Pages/Settings/PrivacyAndSupport/View.elm:28
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:148
@@ -6676,9 +6670,8 @@ msgid "User could not be created."
 msgstr "Gebruiker kon niet worden aangemaakt."
 
 #: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:22
-#, fuzzy
 msgid "Create User"
-msgstr "Maak gebruiker"
+msgstr "Maak nieuwe gebruiker"
 
 #: app-wizard/elm/Wizard/Pages/Users/Create/View.elm:42
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:203
@@ -6839,53 +6832,53 @@ msgstr "App-sleutel verwijderen"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:84
 msgid "Failed to load connected accounts"
-msgstr ""
+msgstr "Kon verbonden accounts niet laden"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:126
 msgid "Account disconnected successfully."
-msgstr ""
+msgstr "Verbinding met account succesvol verbroken."
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:135
 msgid "Failed to disconnect account."
-msgstr ""
+msgstr "Kon verbinding met account niet verbreken."
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:161
 #: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:131
 msgid "Connected Accounts"
-msgstr ""
+msgstr "Verbonden Accounts"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:177
 msgid "You have not connected any external accounts."
-msgstr ""
+msgstr "Je hebt geen externe accounts verbonden."
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:183
 msgid "Service"
-msgstr ""
+msgstr "Service"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:184
 msgid "Account"
-msgstr ""
+msgstr "Account"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:208
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:259
 msgid "Disconnect"
-msgstr ""
+msgstr "Verbinding verbreken"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:228
 msgid "Connect Account"
-msgstr ""
+msgstr "Verbinden met Account"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:242
 msgid "Are you sure you want to disconnect %s account?"
-msgstr ""
+msgstr "Weet je zeker dat je de verbinding met account %s wilt verbreken?"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:247
 msgid "You will no longer be able to use it to log in."
-msgstr ""
+msgstr "Je zult het niet meer kunnen gebruiken om in te loggen."
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:255
 msgid "Disconnect Account"
-msgstr ""
+msgstr "Verbinding met Account verbreken"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Language.elm:86
 msgid "Unable to get user language."
@@ -6914,11 +6907,11 @@ msgstr "Password kon niet worden veranderd."
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:129
 msgid "Plugin has no user settings"
-msgstr ""
+msgstr "Plug-in heeft geen instellingen voor gebruikers"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/PluginSettings.elm:153
 msgid "%s Settings"
-msgstr ""
+msgstr "%s Instellingen"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:123
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/SubmissionSettings.elm:96
@@ -7052,7 +7045,7 @@ msgstr "Je hebt geen toestemming deze pagina te bekijken."
 
 #: shared/common/elm/Common/Api/ServerError.elm:148
 msgid "Too many requests. Try again after %s seconds."
-msgstr ""
+msgstr "Te veel verzoeken. Probeer na %s seconden opnieuw."
 
 #: shared/common/elm/Common/Api/ServerError.elm:158
 msgid "Activation link is no longer valid."
@@ -7172,11 +7165,11 @@ msgstr "Deze ID is al in gebruik voor een kennismodel."
 
 #: shared/common/elm/Common/Api/ServerError.elm:248
 msgid "Logo file size cannot exceed %s."
-msgstr ""
+msgstr "Maximale grootte voor een logo is %s."
 
 #: shared/common/elm/Common/Api/ServerError.elm:251
 msgid "Logo file size exceeds the limit."
-msgstr ""
+msgstr "Logo-bestand is te groot."
 
 #: shared/common/elm/Common/Api/ServerError.elm:254
 msgid "Knowledge model already exists."
@@ -7205,12 +7198,12 @@ msgstr "Er is al een lopende projectmigratie."
 
 #: shared/common/elm/Common/Api/ServerError.elm:272
 msgid "This account is already linked to a different user."
-msgstr ""
+msgstr "Dit account is al aan een andere gebruiker verbonden."
 
 #: shared/common/elm/Common/Api/ServerError.elm:275
 #: shared/common/elm/Common/Api/ServerError.elm:290
 msgid "Registration of new accounts via this service is disabled."
-msgstr ""
+msgstr "Registratie van nieuwe accounts via deze dienst is uitgeschakeld."
 
 #: shared/common/elm/Common/Api/ServerError.elm:278
 msgid "New version has to be higher than the previous one."
@@ -7370,7 +7363,7 @@ msgstr "Het account is niet geactiveerd."
 
 #: shared/common/elm/Common/Api/ServerError.elm:422
 msgid "The link has expired."
-msgstr ""
+msgstr "De link is niet langer geldig."
 
 #: shared/common/elm/Common/Components/FormGroup.elm:65
 msgid "(optional)"
@@ -7378,7 +7371,7 @@ msgstr "(optioneel)"
 
 #: shared/common/elm/Common/Components/FormGroup.elm:243
 msgid " days"
-msgstr ""
+msgstr " dagen"
 
 #: shared/common/elm/Common/Components/FormGroup.elm:526
 msgid "You can use %s and see the result in the preview tab."
@@ -7398,59 +7391,59 @@ msgstr "Het versienummer heeft de vorm X.Y.Z. Voor kleine correcties verhoog Z, 
 
 #: shared/common/elm/Common/Components/GuideLink.elm:38
 msgid "Read the guide"
-msgstr ""
+msgstr "Lees de handleiding"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:38
 msgid "Heading 2"
-msgstr ""
+msgstr "Heading2"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:39
 msgid "Heading 3"
-msgstr ""
+msgstr "Heading 3"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:40
 msgid "Bold"
-msgstr ""
+msgstr "Vet"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:41
 msgid "Italic"
-msgstr ""
+msgstr "Cursief"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:42
 msgid "Strikethrough"
-msgstr ""
+msgstr "Doorgehaald"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:43
 msgid "Link"
-msgstr ""
+msgstr "Link"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:44
 msgid "Image"
-msgstr ""
+msgstr "Plaatje"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:45
 msgid "Bullet List"
-msgstr ""
+msgstr "Ongeordende Lijst"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:46
 msgid "Ordered List"
-msgstr ""
+msgstr "Geordende Lijst"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:47
 msgid "Inline Code"
-msgstr ""
+msgstr "In-line code"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:48
 msgid "Code Block"
-msgstr ""
+msgstr "Codeblok"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:49
 msgid "Rich Text"
-msgstr ""
+msgstr "Rich Text"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:50
 msgid "Markdown"
-msgstr ""
+msgstr "Markdown"
 
 #: shared/common/elm/Common/Components/TypeHintInput.elm:355
 msgid "No results matching your search were found."
@@ -7458,7 +7451,7 @@ msgstr "Geen resultaten gevonden voor de zoekopdracht."
 
 #: shared/common/elm/Common/Components/UserExternalCompletionForm.elm:98
 msgid "Complete Your Registration"
-msgstr ""
+msgstr "Maak je registratie compleet"
 
 #: shared/common/elm/Common/Components/UserExternalCompletionForm.elm:105
 #, fuzzy

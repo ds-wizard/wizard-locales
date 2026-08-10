@@ -5,7 +5,7 @@
 # DeepL <noreply-mt-deepl@weblate.org>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2026-08-04T13:35:27.612Z\nPO-Revision-Date: 2026-08-06 17:24+0000\nLast-Translator: Rob Hooft <rob.hooft@health-ri.nl>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/dsw-4-33/client/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.17.1\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2026-08-04T13:35:27.612Z\nPO-Revision-Date: 2026-08-10 15:36+0000\nLast-Translator: Rob Hooft <rob.hooft@health-ri.nl>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/dsw-4-33/client/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.17.1\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Integration.elm:99
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1944
@@ -6092,7 +6092,7 @@ msgstr "Je e-mailadres is succesvol bevestigd, Je kunt nu teruggaan naar %s."
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/Update.elm:36
 #: app-wizard/elm/Wizard/Pages/Settings/Roles/Update.elm:34
 msgid "Unable to get roles."
-msgstr ""
+msgstr "Kon rollen niet ophalen."
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:38
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:161
@@ -6699,52 +6699,52 @@ msgstr "Inschrijving voor het register"
 #: app-wizard/elm/Wizard/Pages/Settings/RoleCreate/Update.elm:92
 #: app-wizard/elm/Wizard/Pages/Settings/RoleDetail/Update.elm:62
 msgid "Role could not be saved."
-msgstr ""
+msgstr "Rol kon niet worden opgeslagen."
 
 #: app-wizard/elm/Wizard/Pages/Settings/RoleCreate/View.elm:38
 msgid "Create Role"
-msgstr ""
+msgstr "Maak een rol aan"
 
 #: app-wizard/elm/Wizard/Pages/Settings/RoleDetail/Update.elm:48
 msgid "Unable to get role"
-msgstr ""
+msgstr "Kon rol niet ophalen"
 
 #: app-wizard/elm/Wizard/Pages/Settings/RoleDetail/View.elm:52
 msgid "Admin role has all permissions and cannot be modified."
-msgstr ""
+msgstr "Administratie-rol heeft alle rechten en kan niet worden gewijzigd."
 
 #: app-wizard/elm/Wizard/Pages/Settings/RoleDetail/View.elm:65
 msgid "Edit Role"
-msgstr ""
+msgstr "Wijzig rol"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Roles/Update.elm:71
 msgid "Role could not be deleted."
-msgstr ""
+msgstr "Rol kon niet worden weggegooid."
 
 #: app-wizard/elm/Wizard/Pages/Settings/Roles/View.elm:30
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:163
 msgid "Roles"
-msgstr ""
+msgstr "Rollen"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Roles/View.elm:58
 msgid "Admin role cannot be deleted"
-msgstr ""
+msgstr "De Admin-rol kan niet worden verwijderd"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Roles/View.elm:61
 msgid "Default role cannot be deleted"
-msgstr ""
+msgstr "De standaard-rol kan niet worden verwijderd"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Roles/View.elm:64
 msgid "Role cannot be deleted because it is assigned to users"
-msgstr ""
+msgstr "De rol kan niet worden verwijderd want hij is aan gebruikers toegekend"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Roles/View.elm:78
 msgid "Default"
-msgstr ""
+msgstr "Standaard"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Roles/View.elm:89
 msgid "Users using this role"
-msgstr ""
+msgstr "Gebruikers aan wie deze rol is toegekend"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:42
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:205
@@ -6824,7 +6824,7 @@ msgstr "Inhoudsinstellingen"
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Profile.elm:158
 #: app-wizard/elm/Wizard/Pages/Users/Index/Update.elm:59
 msgid "Unable to get the roles."
-msgstr ""
+msgstr "Kon rollen niet ophalen."
 
 #: app-wizard/elm/Wizard/Pages/Users/Create/Update.elm:96
 msgid "User could not be created."
@@ -7321,23 +7321,23 @@ msgstr "Deze ID is al in gebruik voor een kennismodel."
 
 #: shared/common/elm/Common/Api/ServerError.elm:245
 msgid "Unable to parse the PO file: %s"
-msgstr ""
+msgstr "Kon de PO file niet interpreteren: %s"
 
 #: shared/common/elm/Common/Api/ServerError.elm:248
 msgid "The PO file has no 'Language' header field."
-msgstr ""
+msgstr "De PO-file heeft geen 'Language' headerveld."
 
 #: shared/common/elm/Common/Api/ServerError.elm:251
 msgid "Unable to parse the JSON translation file: %s"
-msgstr ""
+msgstr "Kon het JSON vertaalbestand niet interpreteren: %s"
 
 #: shared/common/elm/Common/Api/ServerError.elm:254
 msgid "Translation for language '%s' already exists."
-msgstr ""
+msgstr "Vertaling voor taal '%s' bestaat al."
 
 #: shared/common/elm/Common/Api/ServerError.elm:257
 msgid "Selected locales cannot be reused from the previous package version."
-msgstr ""
+msgstr "De geselecteerde vertalingen kunnen niet worden overgenomen van een vorige versie van het pakket."
 
 #: shared/common/elm/Common/Api/ServerError.elm:263
 msgid "Logo file size cannot exceed %s."
@@ -7547,7 +7547,7 @@ msgstr "(optioneel)"
 
 #: shared/common/elm/Common/Components/FormGroup.elm:246
 msgid "days"
-msgstr ""
+msgstr "dagen"
 
 #: shared/common/elm/Common/Components/FormGroup.elm:529
 msgid "You can use %s and see the result in the preview tab."
@@ -7639,128 +7639,128 @@ msgstr "Achternaam"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:65
 msgid "Project Permissions"
-msgstr ""
+msgstr "Projecttoegang"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:78
 msgid "Knowledge Model Permissions"
-msgstr ""
+msgstr "Toegang tot kennismodel"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:88
 msgid "Document Template Permissions"
-msgstr ""
+msgstr "Toegang tot documentsjabloon"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:98
 msgid "Settings Permissions"
-msgstr ""
+msgstr "Toegang tot instellingen"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:123
 msgid "Use Document Template Editor"
-msgstr ""
+msgstr "Gebruik de editor voor documentsjablonen"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:124
 msgid ""
 "Allows users to view, create, edit, and delete Document Template Editors, as well as publish Document Templates from them.\n"
 "\n"
 "This permission also requires the **Manage Document Templates** permission."
-msgstr ""
+msgstr "Geeft gebruikers de mogelijkheid editors voor documentsjablonen te zien, maken, wijzigen en weg te gooien, en die te gebruiken om documentsjablonen te publiceren.\n \nDeze permissie heeft de permissie nodig om documentsjablonen te kunnen beheren."
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:141
 msgid "Manage Document Templates"
-msgstr ""
+msgstr "Beheer documentsjablonen"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:142
 msgid "Allows users to import, export, and delete Document Templates, as well as set them as deprecated or restore them."
-msgstr ""
+msgstr "Geeft gebruikers de mogelijkheid om documentsjablonen te importeren, exporteren en verwijderen, om ze als verouderd aan te merken of te herstellen."
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:159
 msgid "Use Knowledge Model Editor"
-msgstr ""
+msgstr "Gebuik de editor voor kennismodellen"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:160
 msgid ""
 "Allows users to view, create, edit, and delete Knowledge Model Editors, migrate them, and publish Knowledge Models from them.\n"
 "\n"
 "This permission also requires the **Manage Knowledge Models** permission."
-msgstr ""
+msgstr "Geeft gebruikers de mogelijkheid om editors voor kennismodellen te zien, maken, editen en verwijderen, om migraties door te voeren, en kennismodellen te publiceren.\n\nDit veronderstelt de toestemming **beheer kennismodellen**."
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:177
 msgid "Manage Knowledge Models"
-msgstr ""
+msgstr "Beheer kennismodellen"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:178
 msgid ""
 "Allows users to import, export, and delete Knowledge Models, as well as set them as deprecated, restore them, or set them as public.\n"
 "\n"
 "This permission also allows users to manage Knowledge Model Secrets."
-msgstr ""
+msgstr "Geeft gebruikers de mogelijkheid kennismodellen te importeren, exporteren, te verwijderen, ze als verouderd aan te merken of publiek te maken. \n\nDeze toestemming geeft gebruikers ook de mogelijkheid geheimen uit kennismodellen te beheren."
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:195
 msgid "Comment on ALL Projects"
-msgstr ""
+msgstr "Becommentariëren van alle projecten"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:196
 msgid ""
 "Allows users to comment on ALL Projects, regardless of Project sharing and visibility settings.\n"
 "\n"
 "This permission also requires the **View ALL Projects** permission."
-msgstr ""
+msgstr "Geeft gebruikers de mogelijkheid om ALLE projecten te becommentariëren, onafhankelijk van de instelling voor delen en zichtbaarheid.\n\nDeze toestemming veronderstelt de **Zie ALLE projecten**-toestemming."
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:213
 msgid "Edit ALL Projects"
-msgstr ""
+msgstr "Wijzig ALLE projecten"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:214
 msgid ""
 "Allows users to edit ALL Projects, regardless of Project sharing and visibility settings.\n"
 "\n"
 "This permission also requires the **View ALL Projects** and **Comment on ALL Projects** permissions."
-msgstr ""
+msgstr "Geeft gebruikers de mogelijkheid ALLE projecten te wijzigen, onafhankelijk van of ze gedeeld zijn of zichtbaar zijn voor anderen.\n\nDeze toestemming veronderstelt de **Zie ALLE projecten** en **Becommentariëer ALLE projecten** toestemmingen."
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:231
 msgid "Manage ALL Projects"
-msgstr ""
+msgstr "Beheer ALLE projecten"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:232
 msgid ""
 "Allows users to manage ALL Projects as if they were owners, regardless of Project sharing and visibility settings.\n"
 "\n"
 "This permission also requires the **View ALL Projects**, **Comment on ALL Projects**, and **Edit ALL Projects** permissions."
-msgstr ""
+msgstr "Geeft gebruikers de mogelijkheid ALLE projecten te beheren alsof ze de eigenaar waren, onafhankelijk van of het project is gedeeld of zichtbaar gemaakt.\n\nDeze toestemming veronderstelt ook **Zie ALLE projecten**, **Becommentariëer ALLE projecten** en **Edit ALLE projecten**."
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:249
 msgid "View ALL Projects"
-msgstr ""
+msgstr "Zie ALLE projecten"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:250
 msgid "Allows users to view ALL Projects, regardless of Project sharing and visibility settings."
-msgstr ""
+msgstr "Geeft gebruikers de mogelijkheid ALLE projecten te zien, onafhankelijk van of ze zijn gedeeld of zichtbaar gemaakt."
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:267
 msgid "Manage Project Templates"
-msgstr ""
+msgstr "Beheer projectsjablonen"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:268
 msgid ""
 "Allows users to set Projects as Project templates.\n"
 "\n"
 "Users with this permission can also create new Projects directly from Knowledge Models, even when project creation is restricted to templates."
-msgstr ""
+msgstr "Geeft gebruikers de mogelijkheid projecten als projectsjabloon te markeren.\n\nGebruikers met deze toestemming kunnen ook nieuwe projecten maken direct van kennismodellen, zelfs wanneer is ingesteld dat projecten alleen op basis van sjablonen kunnen worden gestart."
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:285
 msgid "Manage Settings"
-msgstr ""
+msgstr "Beheer instellingen"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:286
 msgid "Allows users to view and manage application settings."
-msgstr ""
+msgstr "Geeft gebruikers de mogelijkheid om applicatie-instellingen te bekijken en beheren."
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:312
 msgid "Manage Users"
-msgstr ""
+msgstr "Beheer gebruikers"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:313
 msgid "Allows users to view, create, edit, and delete user accounts."
-msgstr ""
+msgstr "Geeft gebruikers de mogelijkheid om gebruikersaccounts te zien, aan te maken, te wijzigen en te verwijderen."
 
 #: shared/common/elm/Common/Utils/Driver.elm:100
 msgid "Are you sure you want to skip the tour?"

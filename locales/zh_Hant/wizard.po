@@ -7,19 +7,18 @@
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 # Chia-Hsun Wong <wanally@gmail.com>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-08-04T13:35:27.612Z\nPO-Revision-Date: 2026-08-05 18:04+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-33/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-08-04T13:35:27.612Z\nPO-Revision-Date: 2026-08-31 23:16+0000\nLast-Translator: Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-33/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Integration.elm:99
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1944
 msgid "API"
-msgstr "應用程式介面（API）"
+msgstr "應用程式介面 (API)"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Integration.elm:102
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1945
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2577
-#, fuzzy
 msgid "Plugin"
-msgstr "外掛程式（Plugins）"
+msgstr "外掛程式 (Plugins)"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:373
 msgid "Answer must be at least %s characters long."
@@ -1251,7 +1250,7 @@ msgstr "後設模型版本"
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:170
 #: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:101
 msgid "Plugins"
-msgstr "外掛程式（Plugins）"
+msgstr "外掛程式 (Plugins)"
 
 #: app-wizard/elm/Wizard/Components/OnlineUser.elm:51
 #: app-wizard/elm/Wizard/Components/OnlineUser.elm:61
@@ -1897,7 +1896,7 @@ msgstr "刪除檔案"
 #: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:244
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/QuestionnaireContent.elm:1069
 msgid "Desirable"
-msgstr "填寫時機"
+msgstr "適合填寫階段"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:326
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/QuestionnaireContent.elm:1084
@@ -2370,7 +2369,7 @@ msgstr "我們會引導您建立自己的資料管理方案。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Update.elm:46
 msgid "Welcome to Data Stewardship Wizard"
-msgstr "歡迎使用資料管理精靈（Data Stewardship Wizard）"
+msgstr "歡迎使用資料管理精靈 (Data Stewardship Wizard)"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Update.elm:59
 msgid "Create and manage your data management plans here."
@@ -2420,7 +2419,7 @@ msgstr "設定組織資訊"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ConfigureOrganizationWidget.elm:21
 msgid "Fill in your organization name and organization ID. For example, these values will be used with knowledge models created in this instance."
-msgstr "請填寫您的組織名稱與組織 ID。這些資料將會用在此實例（instance）建立的知識模型上。"
+msgstr "請填寫您的組織名稱與組織 ID。這些資料將會用在此實例 (instance) 建立的知識模型上。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ConnectRegistryWidget.elm:21
 msgid "Connect to DSW Registry"
@@ -2428,7 +2427,7 @@ msgstr "連接 DSW 登錄冊"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ConnectRegistryWidget.elm:22
 msgid "[DSW Registry](https://registry.ds-wizard.org) is a place for published knowledge models and document templates. When you connect your instance, data stewards can easily import them."
-msgstr "[DSW 登錄冊](https://registry.ds-wizard.org) 是一個用來發佈知識模型與文件模板的平台。當您將實例（instance）連線至登錄冊後，資料管理員即可簡易匯入這些內容。"
+msgstr "[DSW 登錄冊](https://registry.ds-wizard.org) 是一個用來發佈知識模型與文件模板的平台。當您將實例 (instance) 連線至登錄冊後，資料管理員即可簡易匯入這些內容。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ConnectRegistryWidget.elm:25
 msgid "Connect"
@@ -2485,10 +2484,7 @@ msgid ""
 "Project is a workspace where you create your DMP. It is based on a knowledge model, which contains knowledge about what should be asked and how based on the research field or organization's needs. You can use document templates to transform the answers into a document. This document can be anything, from PDF to machine-actionable JSON.\n"
 "\n"
 "You can create a new project from a project template that data stewards prepare for you to have an easier start or from scratch where you set up everything yourself."
-msgstr ""
-"專案（Project）是用來建立您的 資料管理方案（DMP） 的工作空間。它以知識模型（knowledge model）為基礎；知識模型會依據研究領域或組織的需求，定義「應該詢問哪些問題，以及如何提問」。您可以套用文件模板（document template），將回答轉換成文件；文件格式不限，從 PDF 到可由機器可操作的 JSON 皆可。\n"
-"\n"
-"您可以從資料管理員預先準備的專案模板（project template）建立新專案，讓起步更容易；或是從頭開始，由您自行完成所有設定。"
+msgstr "專案 (Project) 是用來建立您的 資料管理方案 (DMP) 的工作空間。它以知識模型 (knowledge model) 為基礎；知識模型會依據研究領域或組織的需求，定義「應該詢問哪些問題，以及如何提問」。您可以套用文件模板 (document template)，將回答轉換成文件；文件格式不限，從 PDF 到可由機器可操作的 JSON 皆可。\n\n您可以從資料管理員預先準備的專案模板 (project template) 建立新專案，讓起步更容易；或是從頭開始，由您自行完成所有設定。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ImportDocumentTemplateWidget.elm:22
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/View.elm:54
@@ -2497,7 +2493,7 @@ msgstr "匯入文件模版"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ImportDocumentTemplateWidget.elm:25
 msgid "Document templates transform answers from a questionnaire into a document. This document can be anything, from PDF to machine-actionable JSON. You can import existing document templates from [%s](%s) or [develop new ones](%s)."
-msgstr "文件模板會將問卷中的回答轉換為文件。此文件的格式不限，從 PDF 到可由機器可操作的 JSON 皆可。您可以自 [%s](%s)或 [develop new ones](%s)。"
+msgstr "文件模板會將問卷中的回答轉換為文件。此文件的格式不限，從 PDF 到可由機器可操作的 JSON 皆可。您可以自 [%s](%s) 匯入既有的文件模板，或[建立新的文件模板](%s)。"
 
 #: app-wizard/elm/Wizard/Pages/Dashboard/Widgets/ImportKnowledgeModelWidget.elm:21
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Import/View.elm:93
@@ -2782,12 +2778,12 @@ msgstr "基於"
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:282
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Import/RegistryImport/View.elm:50
 msgid "Document Template ID"
-msgstr "文件範本 ID"
+msgstr "文件模板 ID"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:102
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/Settings.elm:283
 msgid "Document template ID can only contain alphanumeric characters, hyphens, underscores, and dots."
-msgstr "文件範本 ID 僅能包含英數字元、連字號 \"-\"、底線 \"_\"，和句號 \".\"。"
+msgstr "文件模板 ID 僅能包含英數字元、連字號 \"-\"、底線 \"_\"，和句號 \".\"。"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Create/View.elm:105
 msgid "You can create a new document template based on the existing one or start from scratch."
@@ -2795,7 +2791,7 @@ msgstr "您可以在既有的文件模板基礎上建立新的，或從頭開始
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:407
 msgid "Unable to get template files"
-msgstr "無法取得範本檔案"
+msgstr "無法取得模板檔案"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/FileEditor.elm:417
 msgid "Unable to get template assets"
@@ -2947,7 +2943,7 @@ msgstr "無法於網頁瀏覽器顯示此文件格式。您仍然可以下載並
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:104
 msgid "Unable to publish document template"
-msgstr "無法發布文件範本"
+msgstr "無法發布文件模板"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplateEditors/Editor/Components/PublishModal.elm:122
 msgid "Check the document template's metadata before publishing. You change them in %s."

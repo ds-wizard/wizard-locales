@@ -79,7 +79,9 @@ msgstr "Hesabınız için %(tokenName)s adında yeni bir API anahtarı oluşturu
 #: templates/wizard/apiKeyCreated/message.txt.j2:10
 #, python-format
 msgid "It will expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
-msgstr "%(tokenExpirationDate)s tarihinde %(tokenExpirationTime)s saatinde sona erecektir."
+msgstr ""
+"%(tokenExpirationDate)s tarihinde %(tokenExpirationTime)s saatinde sona "
+"erecektir."
 
 #: templates/wizard/apiKeyCreated/message.html.j2:53
 #: templates/wizard/apiKeyExpiration/message.html.j2:51
@@ -89,7 +91,9 @@ msgstr "API Anahtarlarını Yönetin"
 #: templates/wizard/apiKeyCreated/message.html.j2:79
 #: templates/wizard/apiKeyCreated/message.txt.j2:15
 msgid "If you did not initiate this action, please contact us via"
-msgstr "Bu işlemi siz başlatmadıysanız, lütfen aşağıdaki adresten bizimle iletişime geçin"
+msgstr ""
+"Bu işlemi siz başlatmadıysanız, lütfen aşağıdaki adresten bizimle iletişime "
+"geçin"
 
 #: templates/wizard/apiKeyCreated/message.txt.j2:12
 #: templates/wizard/apiKeyExpiration/message.txt.j2:10
@@ -103,13 +107,18 @@ msgstr "Yeni API Anahtarı Oluşturuldu"
 #: templates/wizard/apiKeyExpiration/message.html.j2:26
 #: templates/wizard/apiKeyExpiration/message.txt.j2:8
 #, python-format
-msgid "Your API key, identified as %(tokenName)s, is scheduled to expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
-msgstr "%(tokenName)s olarak tanımlanan API anahtarınızın, %(tokenExpirationDate)s tarihinde %(tokenExpirationTime)s saatinde sona ermesi planlanıyor."
+msgid ""
+"Your API key, identified as %(tokenName)s, is scheduled to expire on "
+"%(tokenExpirationDate)s at %(tokenExpirationTime)s."
+msgstr ""
+"%(tokenName)s olarak tanımlanan API anahtarınızın, %(tokenExpirationDate)s "
+"tarihinde %(tokenExpirationTime)s saatinde sona ermesi planlanıyor."
 
 #: templates/wizard/apiKeyExpiration/message.html.j2:77
 #: templates/wizard/apiKeyExpiration/message.txt.j2:13
 msgid "If you encounter any issues, please contact us via"
-msgstr "Herhangi bir sorunla karşılaşırsanız, lütfen bizimle şu yolla iletişime geçin"
+msgstr ""
+"Herhangi bir sorunla karşılaşırsanız, lütfen bizimle şu yolla iletişime geçin"
 
 #: templates/wizard/apiKeyExpiration/subject.txt.j2:1
 msgid "API Key Expiring Soon"
@@ -119,7 +128,8 @@ msgstr "API Anahtarı Yakında Sona Eriyor"
 #: templates/wizard/commentThreadAssigned/message.txt.j2:14
 #, python-format
 msgid "The following comment thread has been assigned to you:"
-msgid_plural "The following %(count)s comment threads have been assigned to you:"
+msgid_plural ""
+"The following %(count)s comment threads have been assigned to you:"
 msgstr[0] "Aşağıdaki yorum dizisi size atandı:"
 msgstr[1] "Aşağıdaki %(count)s yorum konuları size atanmıştır:"
 
@@ -172,11 +182,15 @@ msgstr "Yorum Konularına Atananlar"
 
 #: templates/wizard/emailChange/message.html.j2:24
 #: templates/wizard/emailChange/message.txt.j2:5
-msgid "You recently requested to change the email address associated with your DSW account."
+msgid ""
+"You recently requested to change the email address associated with your DSW "
+"account."
 msgstr ""
 
 #: templates/wizard/emailChange/message.html.j2:25
-msgid "To confirm that this email address is correct, please click on the button below."
+msgid ""
+"To confirm that this email address is correct, please click on the button "
+"below."
 msgstr ""
 
 #: templates/wizard/emailChange/message.html.j2:50
@@ -184,7 +198,8 @@ msgid "Verify your email"
 msgstr ""
 
 #: templates/wizard/emailChange/message.html.j2:75
-msgid "In case you did not request this change, you can safely ignore this email."
+msgid ""
+"In case you did not request this change, you can safely ignore this email."
 msgstr ""
 
 #: templates/wizard/emailChange/message.txt.j2:7
@@ -202,8 +217,12 @@ msgstr ""
 #: templates/wizard/projectInvitation/message.html.j2:27
 #: templates/wizard/projectInvitation/message.txt.j2:8
 #, python-format
-msgid "%(ownerFirstName)s %(ownerLastName)s has invited you to the project %(projectName)s"
-msgstr "%(ownerFirstName)s %(ownerLastName)s sizi %(projectName)s projesine davet etti"
+msgid ""
+"%(ownerFirstName)s %(ownerLastName)s has invited you to the project "
+"%(projectName)s"
+msgstr ""
+"%(ownerFirstName)s %(ownerLastName)s sizi %(projectName)s projesine davet "
+"etti"
 
 #: templates/wizard/projectInvitation/message.html.j2:52
 msgid "Open project"
@@ -215,8 +234,12 @@ msgstr "Proje Daveti"
 
 #: templates/wizard/registrationConfirmation/message.html.j2:24
 #: templates/wizard/registrationConfirmation/message.txt.j2:5
-msgid "Welcome aboard! Well, you’re almost set. Just one more step and you can start using the DSW."
-msgstr "Gemiye hoş geldiniz! Neredeyse hazırsınız. Sadece bir adım daha ve DSW'yi kullanmaya başlayabilirsiniz."
+msgid ""
+"Welcome aboard! Well, you’re almost set. Just one more step and you can "
+"start using the DSW."
+msgstr ""
+"Gemiye hoş geldiniz! Neredeyse hazırsınız. Sadece bir adım daha ve DSW'yi "
+"kullanmaya başlayabilirsiniz."
 
 #: templates/wizard/registrationConfirmation/message.html.j2:25
 msgid "To activate your account, please click on the button below."
@@ -265,11 +288,13 @@ msgstr "Yeni Kullanıcı Kaydı"
 #: templates/wizard/resetPassword/message.html.j2:23
 #: templates/wizard/resetPassword/message.txt.j2:5
 msgid "Forgot your password? No problem, that happens to the best of us!"
-msgstr "Şifrenizi mi unuttunuz? Sorun değil, bu en iyilerimizin bile başına gelir!"
+msgstr ""
+"Şifrenizi mi unuttunuz? Sorun değil, bu en iyilerimizin bile başına gelir!"
 
 #: templates/wizard/resetPassword/message.html.j2:24
 msgid "You can easily set up a new password by clicking on the button below."
-msgstr "Aşağıdaki düğmeye tıklayarak kolayca yeni bir şifre oluşturabilirsiniz."
+msgstr ""
+"Aşağıdaki düğmeye tıklayarak kolayca yeni bir şifre oluşturabilirsiniz."
 
 #: templates/wizard/resetPassword/message.html.j2:49
 msgid "Set up a new password"
@@ -285,8 +310,12 @@ msgstr "Şifre Sıfırlama"
 
 #: templates/wizard/twoFactorAuth/message.html.j2:23
 #: templates/wizard/twoFactorAuth/message.txt.j2:6
-msgid "You have requested an authentication code to log in to your account. Your code is:"
-msgstr "Hesabınıza giriş yapmak için bir kimlik doğrulama kodu talep ettiniz. Kodunuz şu şekildedir:"
+msgid ""
+"You have requested an authentication code to log in to your account. Your "
+"code is:"
+msgstr ""
+"Hesabınıza giriş yapmak için bir kimlik doğrulama kodu talep ettiniz. "
+"Kodunuz şu şekildedir:"
 
 #: templates/wizard/twoFactorAuth/message.html.j2:71
 #: templates/wizard/twoFactorAuth/message.txt.j2:10
@@ -296,7 +325,9 @@ msgstr "Bu kod aşağıdakiler için geçerlidir"
 #: templates/wizard/twoFactorAuth/message.html.j2:74
 #: templates/wizard/twoFactorAuth/message.txt.j2:12
 msgid "If you did not initiate this login attempt, please contact us via"
-msgstr "Bu giriş denemesini siz başlatmadıysanız, lütfen aşağıdaki adresten bizimle iletişime geçin"
+msgstr ""
+"Bu giriş denemesini siz başlatmadıysanız, lütfen aşağıdaki adresten bizimle "
+"iletişime geçin"
 
 #: templates/wizard/twoFactorAuth/subject.txt.j2:1
 msgid "Two-Factor Login Verification"

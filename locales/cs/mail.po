@@ -9,7 +9,8 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2026-08-04 06:37+0000\n"
 "Last-Translator: Marek Suchánek <marek.suchanek@gmail.com>\n"
-"Language-Team: Czech <https://localize.ds-wizard.org/projects/dsw-4-32/mail-templates/cs/>\n"
+"Language-Team: Czech <https://localize.ds-wizard.org/projects/dsw-4-32/mail-"
+"templates/cs/>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -102,8 +103,12 @@ msgstr "Nový API Klíč Vytvořen"
 #: templates/wizard/apiKeyExpiration/message.html.j2:26
 #: templates/wizard/apiKeyExpiration/message.txt.j2:8
 #, python-format
-msgid "Your API key, identified as %(tokenName)s, is scheduled to expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
-msgstr "Váš API klíč, s názvem %(tokenName)s, má naplánovanou expiraci dne %(tokenExpirationDate)s v %(tokenExpirationTime)s."
+msgid ""
+"Your API key, identified as %(tokenName)s, is scheduled to expire on "
+"%(tokenExpirationDate)s at %(tokenExpirationTime)s."
+msgstr ""
+"Váš API klíč, s názvem %(tokenName)s, má naplánovanou expiraci dne "
+"%(tokenExpirationDate)s v %(tokenExpirationTime)s."
 
 #: templates/wizard/apiKeyExpiration/message.html.j2:77
 #: templates/wizard/apiKeyExpiration/message.txt.j2:13
@@ -118,7 +123,8 @@ msgstr "API Klíč Brzy Expiruje"
 #: templates/wizard/commentThreadAssigned/message.txt.j2:14
 #, python-format
 msgid "The following comment thread has been assigned to you:"
-msgid_plural "The following %(count)s comment threads have been assigned to you:"
+msgid_plural ""
+"The following %(count)s comment threads have been assigned to you:"
 msgstr[0] "Bylo vám přiděleno následující vlákno komentářů:"
 msgstr[1] "Byla vám přidělena %(count)s následující vlákna komentářů:"
 msgstr[2] "Bylo vám přiděleno %(count)s následujících vláken komentářů:"
@@ -171,11 +177,15 @@ msgstr "Přiřazen k Vláknům Komentářů"
 
 #: templates/wizard/emailChange/message.html.j2:24
 #: templates/wizard/emailChange/message.txt.j2:5
-msgid "You recently requested to change the email address associated with your DSW account."
+msgid ""
+"You recently requested to change the email address associated with your DSW "
+"account."
 msgstr "Nedávno jste vyžádali změnu emailové adresy asociované s Vaším účtem."
 
 #: templates/wizard/emailChange/message.html.j2:25
-msgid "To confirm that this email address is correct, please click on the button below."
+msgid ""
+"To confirm that this email address is correct, please click on the button "
+"below."
 msgstr "Pro potvrzení správnosti emailové adresy, klidněte na tlačíko níže."
 
 #: templates/wizard/emailChange/message.html.j2:50
@@ -183,8 +193,11 @@ msgid "Verify your email"
 msgstr "Ověřit email"
 
 #: templates/wizard/emailChange/message.html.j2:75
-msgid "In case you did not request this change, you can safely ignore this email."
-msgstr "V případě, že jste nepožadovali tuto změnu, můžete bezpečně tento email ignorovat."
+msgid ""
+"In case you did not request this change, you can safely ignore this email."
+msgstr ""
+"V případě, že jste nepožadovali tuto změnu, můžete bezpečně tento email "
+"ignorovat."
 
 #: templates/wizard/emailChange/message.txt.j2:7
 msgid "To confirm that this email address is correct, please proceed here"
@@ -192,7 +205,9 @@ msgstr "Pro potvrzení správnosti této emailové adresy pokračujte zde"
 
 #: templates/wizard/emailChange/message.txt.j2:9
 msgid "If you did not request this change, you can safely ignore this email."
-msgstr "V případě, že jste nepožadovali tuto změnu, můžete bezpečně tento email ignorovat."
+msgstr ""
+"V případě, že jste nepožadovali tuto změnu, můžete bezpečně tento email "
+"ignorovat."
 
 #: templates/wizard/emailChange/subject.txt.j2:1
 msgid "Email Address Confirmation"
@@ -201,8 +216,11 @@ msgstr "Potvrzení emailové adresy"
 #: templates/wizard/projectInvitation/message.html.j2:27
 #: templates/wizard/projectInvitation/message.txt.j2:8
 #, python-format
-msgid "%(ownerFirstName)s %(ownerLastName)s has invited you to the project %(projectName)s"
-msgstr "%(ownerFirstName)s %(ownerLastName)s vás pozval do projektu %(projectName)s"
+msgid ""
+"%(ownerFirstName)s %(ownerLastName)s has invited you to the project "
+"%(projectName)s"
+msgstr ""
+"%(ownerFirstName)s %(ownerLastName)s vás pozval do projektu %(projectName)s"
 
 #: templates/wizard/projectInvitation/message.html.j2:52
 msgid "Open project"
@@ -214,8 +232,12 @@ msgstr "Pozvánka do Projektu"
 
 #: templates/wizard/registrationConfirmation/message.html.j2:24
 #: templates/wizard/registrationConfirmation/message.txt.j2:5
-msgid "Welcome aboard! Well, you’re almost set. Just one more step and you can start using the DSW."
-msgstr "Vítejte! Téměř vše je připraveno. Stačí ještě jeden krok a můžete začít používat DSW."
+msgid ""
+"Welcome aboard! Well, you’re almost set. Just one more step and you can "
+"start using the DSW."
+msgstr ""
+"Vítejte! Téměř vše je připraveno. Stačí ještě jeden krok a můžete začít "
+"používat DSW."
 
 #: templates/wizard/registrationConfirmation/message.html.j2:25
 msgid "To activate your account, please click on the button below."
@@ -284,8 +306,11 @@ msgstr "Obnovit Heslo"
 
 #: templates/wizard/twoFactorAuth/message.html.j2:23
 #: templates/wizard/twoFactorAuth/message.txt.j2:6
-msgid "You have requested an authentication code to log in to your account. Your code is:"
-msgstr "Požádali jste o ověřovací kód pro přihlášení ke svému účtu. Váš kód je:"
+msgid ""
+"You have requested an authentication code to log in to your account. Your "
+"code is:"
+msgstr ""
+"Požádali jste o ověřovací kód pro přihlášení ke svému účtu. Váš kód je:"
 
 #: templates/wizard/twoFactorAuth/message.html.j2:71
 #: templates/wizard/twoFactorAuth/message.txt.j2:10
@@ -295,7 +320,9 @@ msgstr "Tento kód je platný pro"
 #: templates/wizard/twoFactorAuth/message.html.j2:74
 #: templates/wizard/twoFactorAuth/message.txt.j2:12
 msgid "If you did not initiate this login attempt, please contact us via"
-msgstr "Pokud jste se o toto přihlášení nepokoušeli vy, kontaktujte nás prosím prostřednictvím"
+msgstr ""
+"Pokud jste se o toto přihlášení nepokoušeli vy, kontaktujte nás prosím "
+"prostřednictvím"
 
 #: templates/wizard/twoFactorAuth/subject.txt.j2:1
 msgid "Two-Factor Login Verification"

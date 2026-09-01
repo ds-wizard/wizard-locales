@@ -74,7 +74,9 @@ msgstr "Καλημέρα %(userFirstName)s"
 #: templates/wizard/apiKeyCreated/message.txt.j2:8
 #, python-format
 msgid "A new API key named %(tokenName)s has been created for your account."
-msgstr "Ένα νέο κλειδί API που ονομάζεται %(tokenName)s δημιουργήθηκε για το λογαριασμό σας."
+msgstr ""
+"Ένα νέο κλειδί API που ονομάζεται %(tokenName)s δημιουργήθηκε για το "
+"λογαριασμό σας."
 
 #: templates/wizard/apiKeyCreated/message.html.j2:28
 #: templates/wizard/apiKeyCreated/message.txt.j2:10
@@ -90,7 +92,8 @@ msgstr "Διαχείρηση κλειδιών API"
 #: templates/wizard/apiKeyCreated/message.html.j2:79
 #: templates/wizard/apiKeyCreated/message.txt.j2:15
 msgid "If you did not initiate this action, please contact us via"
-msgstr "Εάν δεν ήταν δική σας ενέργεια, παρακαλούμε επικοινωνήστε μαζί μας μέσω"
+msgstr ""
+"Εάν δεν ήταν δική σας ενέργεια, παρακαλούμε επικοινωνήστε μαζί μας μέσω"
 
 #: templates/wizard/apiKeyCreated/message.txt.j2:12
 #: templates/wizard/apiKeyExpiration/message.txt.j2:10
@@ -104,13 +107,18 @@ msgstr "Νέο κλειδί API δημιουργήθηκε"
 #: templates/wizard/apiKeyExpiration/message.html.j2:26
 #: templates/wizard/apiKeyExpiration/message.txt.j2:8
 #, python-format
-msgid "Your API key, identified as %(tokenName)s, is scheduled to expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
-msgstr "Το API κλειδί σας, με αναγνωριστικό %(tokenName)s έχει σχεδιαστεί να λήξει στις %(tokenExpirationDate)s και %(tokenExpirationTime)s."
+msgid ""
+"Your API key, identified as %(tokenName)s, is scheduled to expire on "
+"%(tokenExpirationDate)s at %(tokenExpirationTime)s."
+msgstr ""
+"Το API κλειδί σας, με αναγνωριστικό %(tokenName)s έχει σχεδιαστεί να λήξει "
+"στις %(tokenExpirationDate)s και %(tokenExpirationTime)s."
 
 #: templates/wizard/apiKeyExpiration/message.html.j2:77
 #: templates/wizard/apiKeyExpiration/message.txt.j2:13
 msgid "If you encounter any issues, please contact us via"
-msgstr "Εάν συναντήσετε οποιοδήποτε πρόβλημα, παρακαλούμε επικοινωνήστε μαζί μας μέσω"
+msgstr ""
+"Εάν συναντήσετε οποιοδήποτε πρόβλημα, παρακαλούμε επικοινωνήστε μαζί μας μέσω"
 
 #: templates/wizard/apiKeyExpiration/subject.txt.j2:1
 msgid "API Key Expiring Soon"
@@ -120,7 +128,8 @@ msgstr "Το κλειδί API λήγει σύντομα"
 #: templates/wizard/commentThreadAssigned/message.txt.j2:14
 #, python-format
 msgid "The following comment thread has been assigned to you:"
-msgid_plural "The following %(count)s comment threads have been assigned to you:"
+msgid_plural ""
+"The following %(count)s comment threads have been assigned to you:"
 msgstr[0] "Σας έχει ανατεθεί το ακόλουθο σχόλιο:"
 msgstr[1] "Σας έχουν ανατεθεί τα ακόλουθα %(count)s σχόλια :"
 
@@ -173,11 +182,15 @@ msgstr "Ανατέθηκε στα νήματα σχολίων"
 
 #: templates/wizard/emailChange/message.html.j2:24
 #: templates/wizard/emailChange/message.txt.j2:5
-msgid "You recently requested to change the email address associated with your DSW account."
+msgid ""
+"You recently requested to change the email address associated with your DSW "
+"account."
 msgstr ""
 
 #: templates/wizard/emailChange/message.html.j2:25
-msgid "To confirm that this email address is correct, please click on the button below."
+msgid ""
+"To confirm that this email address is correct, please click on the button "
+"below."
 msgstr ""
 
 #: templates/wizard/emailChange/message.html.j2:50
@@ -185,7 +198,8 @@ msgid "Verify your email"
 msgstr ""
 
 #: templates/wizard/emailChange/message.html.j2:75
-msgid "In case you did not request this change, you can safely ignore this email."
+msgid ""
+"In case you did not request this change, you can safely ignore this email."
 msgstr ""
 
 #: templates/wizard/emailChange/message.txt.j2:7
@@ -203,8 +217,12 @@ msgstr ""
 #: templates/wizard/projectInvitation/message.html.j2:27
 #: templates/wizard/projectInvitation/message.txt.j2:8
 #, python-format
-msgid "%(ownerFirstName)s %(ownerLastName)s has invited you to the project %(projectName)s"
-msgstr "Ο χρήστης %(ownerFirstName)s %(ownerLastName)s σας έχει προσκαλέσει στο έργο %(projectName)s"
+msgid ""
+"%(ownerFirstName)s %(ownerLastName)s has invited you to the project "
+"%(projectName)s"
+msgstr ""
+"Ο χρήστης %(ownerFirstName)s %(ownerLastName)s σας έχει προσκαλέσει στο έργο "
+"%(projectName)s"
 
 #: templates/wizard/projectInvitation/message.html.j2:52
 msgid "Open project"
@@ -216,12 +234,18 @@ msgstr "Πρόσκληση έργου"
 
 #: templates/wizard/registrationConfirmation/message.html.j2:24
 #: templates/wizard/registrationConfirmation/message.txt.j2:5
-msgid "Welcome aboard! Well, you’re almost set. Just one more step and you can start using the DSW."
-msgstr "Καλωσήρθατε! Έχετε σχεδόν τελειώσει. Ένα βήμα ακόμα και μπορείτε να αρχίσετε να χρησιμοποιείτε το DSW."
+msgid ""
+"Welcome aboard! Well, you’re almost set. Just one more step and you can "
+"start using the DSW."
+msgstr ""
+"Καλωσήρθατε! Έχετε σχεδόν τελειώσει. Ένα βήμα ακόμα και μπορείτε να αρχίσετε "
+"να χρησιμοποιείτε το DSW."
 
 #: templates/wizard/registrationConfirmation/message.html.j2:25
 msgid "To activate your account, please click on the button below."
-msgstr "Για να ενεργοποιήσετε το λογαριασμό σας, παρακαλούμε κάντε κλικ στο παρακάτω κουμπί."
+msgstr ""
+"Για να ενεργοποιήσετε το λογαριασμό σας, παρακαλούμε κάντε κλικ στο παρακάτω "
+"κουμπί."
 
 #: templates/wizard/registrationConfirmation/message.html.j2:50
 msgid "Activate your account"
@@ -270,7 +294,9 @@ msgstr "Ξεχάσατε τον κωδικό σας; Δεν πειράζει, σ
 
 #: templates/wizard/resetPassword/message.html.j2:24
 msgid "You can easily set up a new password by clicking on the button below."
-msgstr "Μπορείτε να δημιουργήσετε εύκολα ένα νέο κωδικό πρόσβασης πατώντας το παρακάτω κουμπί."
+msgstr ""
+"Μπορείτε να δημιουργήσετε εύκολα ένα νέο κωδικό πρόσβασης πατώντας το "
+"παρακάτω κουμπί."
 
 #: templates/wizard/resetPassword/message.html.j2:49
 msgid "Set up a new password"
@@ -286,8 +312,12 @@ msgstr "Επαναφορά κωδικού πρόσβασης"
 
 #: templates/wizard/twoFactorAuth/message.html.j2:23
 #: templates/wizard/twoFactorAuth/message.txt.j2:6
-msgid "You have requested an authentication code to log in to your account. Your code is:"
-msgstr "Έχετε ζητήσει ένα κωδικό πιστοποίησης για να συνδεθείτε στο λογαριασμό σας. Ο κωδικός σας είναι:"
+msgid ""
+"You have requested an authentication code to log in to your account. Your "
+"code is:"
+msgstr ""
+"Έχετε ζητήσει ένα κωδικό πιστοποίησης για να συνδεθείτε στο λογαριασμό σας. "
+"Ο κωδικός σας είναι:"
 
 #: templates/wizard/twoFactorAuth/message.html.j2:71
 #: templates/wizard/twoFactorAuth/message.txt.j2:10
@@ -297,7 +327,9 @@ msgstr "Ο κωδικός είναι έγκυρος για"
 #: templates/wizard/twoFactorAuth/message.html.j2:74
 #: templates/wizard/twoFactorAuth/message.txt.j2:12
 msgid "If you did not initiate this login attempt, please contact us via"
-msgstr "Εάν δεν κάνατε εσείς την προσπάθεια σύνδεσης, παρακαλούμε επικοινωνήστε μαζί μας μέσω"
+msgstr ""
+"Εάν δεν κάνατε εσείς την προσπάθεια σύνδεσης, παρακαλούμε επικοινωνήστε μαζί "
+"μας μέσω"
 
 #: templates/wizard/twoFactorAuth/subject.txt.j2:1
 msgid "Two-Factor Login Verification"

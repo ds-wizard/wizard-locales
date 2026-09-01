@@ -73,7 +73,9 @@ msgstr "Hallo %(userFirstName)s"
 #: templates/wizard/apiKeyCreated/message.txt.j2:8
 #, python-format
 msgid "A new API key named %(tokenName)s has been created for your account."
-msgstr "Ein neuer API-Schlüssel mit dem Namen %(tokenName)s wurde für Ihr Konto erstellt."
+msgstr ""
+"Ein neuer API-Schlüssel mit dem Namen %(tokenName)s wurde für Ihr Konto "
+"erstellt."
 
 #: templates/wizard/apiKeyCreated/message.html.j2:28
 #: templates/wizard/apiKeyCreated/message.txt.j2:10
@@ -89,7 +91,8 @@ msgstr "API-Schlüssel verwalten"
 #: templates/wizard/apiKeyCreated/message.html.j2:79
 #: templates/wizard/apiKeyCreated/message.txt.j2:15
 msgid "If you did not initiate this action, please contact us via"
-msgstr "Wenn Sie diese Aktion nicht initiiert haben, kontaktieren Sie uns bitte über"
+msgstr ""
+"Wenn Sie diese Aktion nicht initiiert haben, kontaktieren Sie uns bitte über"
 
 #: templates/wizard/apiKeyCreated/message.txt.j2:12
 #: templates/wizard/apiKeyExpiration/message.txt.j2:10
@@ -103,8 +106,12 @@ msgstr "Neuer API-Schlüssel Erstellt"
 #: templates/wizard/apiKeyExpiration/message.html.j2:26
 #: templates/wizard/apiKeyExpiration/message.txt.j2:8
 #, python-format
-msgid "Your API key, identified as %(tokenName)s, is scheduled to expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
-msgstr "Ihr API-Schlüssel mit dem Namen %(tokenName)s läuft am %(tokenExpirationDate)s um %(tokenExpirationTime)s ab."
+msgid ""
+"Your API key, identified as %(tokenName)s, is scheduled to expire on "
+"%(tokenExpirationDate)s at %(tokenExpirationTime)s."
+msgstr ""
+"Ihr API-Schlüssel mit dem Namen %(tokenName)s läuft am "
+"%(tokenExpirationDate)s um %(tokenExpirationTime)s ab."
 
 #: templates/wizard/apiKeyExpiration/message.html.j2:77
 #: templates/wizard/apiKeyExpiration/message.txt.j2:13
@@ -119,7 +126,8 @@ msgstr "API-Schlüssel läuft bald ab"
 #: templates/wizard/commentThreadAssigned/message.txt.j2:14
 #, python-format
 msgid "The following comment thread has been assigned to you:"
-msgid_plural "The following %(count)s comment threads have been assigned to you:"
+msgid_plural ""
+"The following %(count)s comment threads have been assigned to you:"
 msgstr[0] "Der folgende Kommentar-Thread wurde Ihnen zugewiesen:"
 msgstr[1] "Die folgenden %(count)s Kommentar-Threads wurden Ihnen zugewiesen:"
 
@@ -172,11 +180,15 @@ msgstr "Zugewiesen zu Kommentar-Threads"
 
 #: templates/wizard/emailChange/message.html.j2:24
 #: templates/wizard/emailChange/message.txt.j2:5
-msgid "You recently requested to change the email address associated with your DSW account."
+msgid ""
+"You recently requested to change the email address associated with your DSW "
+"account."
 msgstr ""
 
 #: templates/wizard/emailChange/message.html.j2:25
-msgid "To confirm that this email address is correct, please click on the button below."
+msgid ""
+"To confirm that this email address is correct, please click on the button "
+"below."
 msgstr ""
 
 #: templates/wizard/emailChange/message.html.j2:50
@@ -184,7 +196,8 @@ msgid "Verify your email"
 msgstr ""
 
 #: templates/wizard/emailChange/message.html.j2:75
-msgid "In case you did not request this change, you can safely ignore this email."
+msgid ""
+"In case you did not request this change, you can safely ignore this email."
 msgstr ""
 
 #: templates/wizard/emailChange/message.txt.j2:7
@@ -202,8 +215,12 @@ msgstr ""
 #: templates/wizard/projectInvitation/message.html.j2:27
 #: templates/wizard/projectInvitation/message.txt.j2:8
 #, python-format
-msgid "%(ownerFirstName)s %(ownerLastName)s has invited you to the project %(projectName)s"
-msgstr "%(ownerFirstName)s %(ownerLastName)s hat Sie zum Projekt %(projectName)s eingeladen"
+msgid ""
+"%(ownerFirstName)s %(ownerLastName)s has invited you to the project "
+"%(projectName)s"
+msgstr ""
+"%(ownerFirstName)s %(ownerLastName)s hat Sie zum Projekt %(projectName)s "
+"eingeladen"
 
 #: templates/wizard/projectInvitation/message.html.j2:52
 msgid "Open project"
@@ -215,12 +232,17 @@ msgstr "Projekte Einladung"
 
 #: templates/wizard/registrationConfirmation/message.html.j2:24
 #: templates/wizard/registrationConfirmation/message.txt.j2:5
-msgid "Welcome aboard! Well, you’re almost set. Just one more step and you can start using the DSW."
-msgstr "Willkommen an Bord! Fast fertig – nur noch ein letzter Schritt, dann können Sie DSW nutzen."
+msgid ""
+"Welcome aboard! Well, you’re almost set. Just one more step and you can "
+"start using the DSW."
+msgstr ""
+"Willkommen an Bord! Fast fertig – nur noch ein letzter Schritt, dann können "
+"Sie DSW nutzen."
 
 #: templates/wizard/registrationConfirmation/message.html.j2:25
 msgid "To activate your account, please click on the button below."
-msgstr "Um Ihr Konto zu aktivieren, klicken Sie bitte auf die Schaltfläche unten."
+msgstr ""
+"Um Ihr Konto zu aktivieren, klicken Sie bitte auf die Schaltfläche unten."
 
 #: templates/wizard/registrationConfirmation/message.html.j2:50
 msgid "Activate your account"
@@ -269,7 +291,9 @@ msgstr "Passwort vergessen? Kein Problem, das passiert uns allen mal!"
 
 #: templates/wizard/resetPassword/message.html.j2:24
 msgid "You can easily set up a new password by clicking on the button below."
-msgstr "Sie können ganz einfach ein neues Passwort einrichten, indem Sie auf den untenstehenden Button klicken."
+msgstr ""
+"Sie können ganz einfach ein neues Passwort einrichten, indem Sie auf den "
+"untenstehenden Button klicken."
 
 #: templates/wizard/resetPassword/message.html.j2:49
 msgid "Set up a new password"
@@ -285,8 +309,12 @@ msgstr "Passwort zurücksetzen"
 
 #: templates/wizard/twoFactorAuth/message.html.j2:23
 #: templates/wizard/twoFactorAuth/message.txt.j2:6
-msgid "You have requested an authentication code to log in to your account. Your code is:"
-msgstr "Sie haben einen Authentifizierungscode für die Anmeldung bei Ihrem Konto angefordert. Ihr Code lautet:"
+msgid ""
+"You have requested an authentication code to log in to your account. Your "
+"code is:"
+msgstr ""
+"Sie haben einen Authentifizierungscode für die Anmeldung bei Ihrem Konto "
+"angefordert. Ihr Code lautet:"
 
 #: templates/wizard/twoFactorAuth/message.html.j2:71
 #: templates/wizard/twoFactorAuth/message.txt.j2:10
@@ -296,7 +324,9 @@ msgstr "Dieser Code ist gültig für"
 #: templates/wizard/twoFactorAuth/message.html.j2:74
 #: templates/wizard/twoFactorAuth/message.txt.j2:12
 msgid "If you did not initiate this login attempt, please contact us via"
-msgstr "Wenn Sie diesen Anmeldeversuch nicht initiiert haben, kontaktieren Sie uns bitte über"
+msgstr ""
+"Wenn Sie diesen Anmeldeversuch nicht initiiert haben, kontaktieren Sie uns "
+"bitte über"
 
 #: templates/wizard/twoFactorAuth/subject.txt.j2:1
 msgid "Two-Factor Login Verification"

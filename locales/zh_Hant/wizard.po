@@ -7,7 +7,7 @@
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 # Chia-Hsun Wong <wanally@gmail.com>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-07-07T06:30:17.016Z\nPO-Revision-Date: 2026-07-30 09:26+0000\nLast-Translator: Cheng-Jen Lee <cjlee@iis.sinica.edu.tw>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-32/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-07-07T06:30:17.016Z\nPO-Revision-Date: 2026-09-21 12:04+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-32/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Integration.elm:99
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1961
@@ -19,7 +19,7 @@ msgstr "應用程式介面（API）"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2594
 #, fuzzy
 msgid "Plugin"
-msgstr "外掛程式（Plugins）"
+msgstr "外掛程式 (Plugins)"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -568,8 +568,9 @@ msgid "Answers"
 msgstr "答案"
 
 #: app-wizard/elm/Wizard/Components/KMComparison.elm:543
+#, fuzzy
 msgid "Item Template Questions"
-msgstr ""
+msgstr "項目模版問題"
 
 #: app-wizard/elm/Wizard/Components/KMComparison.elm:554
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1539
@@ -600,7 +601,7 @@ msgstr "專家"
 #: app-wizard/elm/Wizard/Components/KMComparison.elm:749
 #, fuzzy
 msgid "Follow-up Questions"
-msgstr "跟進式提問"
+msgstr "延伸問題"
 
 #: app-wizard/elm/Wizard/Components/KMComparison.elm:938
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:3121
@@ -687,20 +688,24 @@ msgid "Resource Collection"
 msgstr "資源匯集"
 
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:146
+#, fuzzy
 msgid "Added"
-msgstr ""
+msgstr "已新增"
 
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:149
+#, fuzzy
 msgid "Removed"
-msgstr ""
+msgstr "已移除"
 
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:152
+#, fuzzy
 msgid "Changed"
-msgstr ""
+msgstr "已變更"
 
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:155
+#, fuzzy
 msgid "No Change"
-msgstr ""
+msgstr "未變更"
 
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:209
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:221
@@ -778,8 +783,9 @@ msgstr "檔案類型"
 
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:333
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:560
+#, fuzzy
 msgid "Max Size"
-msgstr ""
+msgstr "大小上限"
 
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:342
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:568
@@ -804,8 +810,9 @@ msgstr "類型"
 
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:352
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:578
+#, fuzzy
 msgid "Required Phase"
-msgstr ""
+msgstr "必要階段"
 
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:594
 #: app-wizard/elm/Wizard/Components/KMComparison/SidePanel.elm:606
@@ -2042,12 +2049,14 @@ msgid "Question not found at: %s"
 msgstr "此處找不到該問題：%s"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/Importer.elm:91
+#, fuzzy
 msgid "Unexpected reply type at: %s"
-msgstr ""
+msgstr "未預期的回覆類型：%s"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/Importer.elm:94
+#, fuzzy
 msgid "Unexpected answer UUID \"%s\" at: %s"
-msgstr ""
+msgstr "未預期的答案 UUID \"%s\"：%s"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/SearchPanel.elm:279
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/SearchRightPanel.elm:280
@@ -2123,12 +2132,14 @@ msgid "The integration for this question is not configured properly."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/QuestionnaireContent.elm:2509
+#, fuzzy
 msgid "Plugin error."
-msgstr ""
+msgstr "外掛 (Plugin) 錯誤。"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/WarningsRightPanel.elm:45
+#, fuzzy
 msgid "All warnings have been resolved!"
-msgstr ""
+msgstr "所有警告都已解決！"
 
 #: app-wizard/elm/Wizard/Components/QuestionnaireVersionTag.elm:19
 msgid "Current"

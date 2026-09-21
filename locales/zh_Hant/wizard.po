@@ -8,7 +8,7 @@
 # Chia-Hsun Wong <wanally@gmail.com>, 2026.
 # Chun-Shih Chang <austin20463@gmail.com>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-09-01T08:16:55.466Z\nPO-Revision-Date: 2026-09-21 07:54+0000\nLast-Translator: Chun-Shih Chang <austin20463@gmail.com>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-34/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-09-01T08:16:55.466Z\nPO-Revision-Date: 2026-09-21 07:57+0000\nLast-Translator: Chun-Shih Chang <austin20463@gmail.com>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-34/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Integration.elm:99
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1944
@@ -1607,9 +1607,10 @@ msgid "Add TODO"
 msgstr "新增待辦項目"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/Components/QuestionnaireContent.elm:950
+#, fuzzy
 msgid "View 1 comment"
 msgid_plural "View %s comments"
-msgstr[0] ""
+msgstr[0] "查看 %s 則留言"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/Components/QuestionnaireContent.elm:953
 #, fuzzy
@@ -4500,12 +4501,14 @@ msgid "Knowledge Model could not be deleted."
 msgstr "無法刪除知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:146
+#, fuzzy
 msgid "This action cannot be undone."
-msgstr ""
+msgstr "此動作無法復原。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:148
+#, fuzzy
 msgid "Type \"%s\" to confirm"
-msgstr ""
+msgstr "輸入「%s」以確認"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:174
 #: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/View.elm:98
@@ -4532,8 +4535,9 @@ msgid "Unexpected bad things will happen if you don't read this!"
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:219
+#, fuzzy
 msgid "This action will permanently delete:"
-msgstr ""
+msgstr "此操作將永久刪除："
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:222
 #, fuzzy
@@ -4548,9 +4552,10 @@ msgid_plural "%s knowledge model editors"
 msgstr[0] "知識模型編輯器"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:226
+#, fuzzy
 msgid "%s project"
 msgid_plural "%s projects"
-msgstr[0] ""
+msgstr[0] "%s 個專案"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:229
 #, fuzzy
@@ -4594,12 +4599,14 @@ msgid "Create project"
 msgstr "建立專案"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:174
+#, fuzzy
 msgid "Set public"
-msgstr ""
+msgstr "設為公開"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:186
+#, fuzzy
 msgid "Set private"
-msgstr ""
+msgstr "設為非公開"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Compare/Update.elm:49
 msgid "Unable to load knowledge model."
@@ -4649,8 +4656,9 @@ msgstr "無法更新知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:83
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:125
+#, fuzzy
 msgid "public"
-msgstr ""
+msgstr "公開"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:129
 msgid "This is a non-editable knowledge model, i.e., it cannot be edited, forked, or exported."
@@ -5731,8 +5739,9 @@ msgid "Or connect with"
 msgstr "或使用以下方式連結"
 
 #: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:134
+#, fuzzy
 msgid "Login as admin"
-msgstr ""
+msgstr "以管理員身分登入"
 
 #: app-wizard/elm/Wizard/Pages/Public/Login/View.elm:151
 msgid "Please enter the authentication code from your email to verify your identity."
@@ -5890,8 +5899,9 @@ msgid "If enabled, users can create new internal accounts directly in the instan
 msgstr "若啟用，使用者可以在此實例直接建立新的內部帳號。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:68
+#, fuzzy
 msgid "Non-Admin Login"
-msgstr ""
+msgstr "非管理員登入"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:69
 msgid "If enabled, all users can use internal login using email address and password. Otherwise, only admin users can use internal login, and other users must use an external identity provider."
@@ -5906,8 +5916,9 @@ msgid "If enabled, users first enter a username and password at login, and then 
 msgstr "若啟用，使用者於登入時，在輸入使用者名稱與密碼後，須接收電子郵件內的單次有效驗證碼，以確認登入。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:73
+#, fuzzy
 msgid "Session Expiration"
-msgstr ""
+msgstr "工作階段有效期間"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:74
 #, fuzzy
@@ -5915,8 +5926,9 @@ msgid "Expiration time of the user session in **hours**. Changing this value doe
 msgstr "使用者工作階段的有效期間（以**小時**為單位）。變更此值不會影響現有的工作階段。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:75
+#, fuzzy
 msgid "User Email Link Expiration"
-msgstr ""
+msgstr "使用者電子郵件連結有效期間"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:76
 #, fuzzy
@@ -6101,8 +6113,9 @@ msgid "OpenID config could not be deleted."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenId/View.elm:31
+#, fuzzy
 msgid "There are no OpenID configurations."
-msgstr ""
+msgstr "目前沒有任何 OpenID 設定。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenId/View.elm:37
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:162
@@ -6180,8 +6193,9 @@ msgstr "進階設定"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:127
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:142
+#, fuzzy
 msgid "Registration enabled"
-msgstr ""
+msgstr "啟用註冊"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:128
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:143
@@ -7369,12 +7383,14 @@ msgid "Italic"
 msgstr "斜體"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:51
+#, fuzzy
 msgid "Strikethrough"
-msgstr ""
+msgstr "刪除線"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:52
+#, fuzzy
 msgid "Link"
-msgstr ""
+msgstr "連結"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:53
 #, fuzzy
@@ -7387,8 +7403,9 @@ msgid "Bullet List"
 msgstr "項目符號清單"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:55
+#, fuzzy
 msgid "Ordered List"
-msgstr ""
+msgstr "編號清單"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:56
 #, fuzzy
@@ -7401,12 +7418,14 @@ msgid "Code Block"
 msgstr "程式碼區塊"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:58
+#, fuzzy
 msgid "Rich Text"
-msgstr ""
+msgstr "富文字"
 
 #: shared/common/elm/Common/Components/MarkdownEditor.elm:59
+#, fuzzy
 msgid "Markdown"
-msgstr ""
+msgstr "Markdown"
 
 #: shared/common/elm/Common/Components/TypeHintInput.elm:355
 msgid "No results matching your search were found."
@@ -7422,8 +7441,9 @@ msgid "First Name"
 msgstr "名字"
 
 #: shared/common/elm/Common/Components/UserExternalCompletionForm.elm:106
+#, fuzzy
 msgid "Last Name"
-msgstr ""
+msgstr "姓氏"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:65
 msgid "Project Permissions"

@@ -8,7 +8,7 @@
 # Chia-Hsun Wong <wanally@gmail.com>, 2026.
 # Chun-Shih Chang <austin20463@gmail.com>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-09-01T08:16:55.466Z\nPO-Revision-Date: 2026-09-21 07:57+0000\nLast-Translator: Chun-Shih Chang <austin20463@gmail.com>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-34/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-09-01T08:16:55.466Z\nPO-Revision-Date: 2026-09-21 08:45+0000\nLast-Translator: Chun-Shih Chang <austin20463@gmail.com>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-34/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Integration.elm:99
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1944
@@ -5312,8 +5312,9 @@ msgid "This document template is now deprecated."
 msgstr "此文件模板已不適用。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:358
+#, fuzzy
 msgid "A newer version of this document template is available."
-msgstr ""
+msgstr "此文件模板有較新的版本可用。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:374
 msgid "Default document format"
@@ -5345,8 +5346,9 @@ msgid "This knowledge model is now deprecated."
 msgstr "這個知識模型已被棄用。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:572
+#, fuzzy
 msgid "A newer version of this knowledge model is available."
-msgstr ""
+msgstr "此知識模型有較新的版本可用。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:587
 msgid "Migrate project"
@@ -6503,8 +6505,9 @@ msgid "Unable to get role"
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Settings/RoleDetail/View.elm:52
+#, fuzzy
 msgid "Admin role has all permissions and cannot be modified."
-msgstr ""
+msgstr "管理員角色擁有所有權限，且無法修改。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/RoleDetail/View.elm:65
 msgid "Edit Role"
@@ -6520,8 +6523,9 @@ msgid "Roles"
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Settings/Roles/View.elm:58
+#, fuzzy
 msgid "Admin role cannot be deleted"
-msgstr ""
+msgstr "無法刪除管理員角色"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Roles/View.elm:61
 msgid "Default role cannot be deleted"
@@ -6789,8 +6793,9 @@ msgid "Failed to load connected accounts"
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:150
+#, fuzzy
 msgid "Account disconnected successfully."
-msgstr ""
+msgstr "已成功取消帳號連結。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:159
 msgid "Failed to disconnect account."
@@ -6810,8 +6815,9 @@ msgid "Service"
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:218
+#, fuzzy
 msgid "Account"
-msgstr ""
+msgstr "帳號"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:242
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:310
@@ -7477,8 +7483,9 @@ msgid "Manage Document Templates"
 msgstr ""
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:142
+#, fuzzy
 msgid "Allows users to import, export, and delete Document Templates, as well as set them as deprecated or restore them."
-msgstr ""
+msgstr "允許使用者匯入、匯出及刪除文件模板，以及將其設為已棄用或還原。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:159
 msgid "Use Knowledge Model Editor"
@@ -7496,71 +7503,78 @@ msgid "Manage Knowledge Models"
 msgstr ""
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:178
+#, fuzzy
 msgid ""
 "Allows users to import, export, and delete Knowledge Models, as well as set them as deprecated, restore them, or set them as public.\n"
 "\n"
 "This permission also allows users to manage Knowledge Model Secrets."
-msgstr ""
+msgstr "允許使用者匯入、匯出及刪除知識模型，以及將其設為已棄用、還原或設為公開。\n\n此權限也允許使用者管理知識模型密鑰。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:195
 msgid "Comment on ALL Projects"
 msgstr ""
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:196
+#, fuzzy
 msgid ""
 "Allows users to comment on ALL Projects, regardless of Project sharing and visibility settings.\n"
 "\n"
 "This permission also requires the **View ALL Projects** permission."
-msgstr ""
+msgstr "允許使用者在所有專案中留言，不受專案的分享與可見性設定限制。\n\n此權限也需要**檢視所有專案**權限。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:213
 msgid "Edit ALL Projects"
 msgstr ""
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:214
+#, fuzzy
 msgid ""
 "Allows users to edit ALL Projects, regardless of Project sharing and visibility settings.\n"
 "\n"
 "This permission also requires the **View ALL Projects** and **Comment on ALL Projects** permissions."
-msgstr ""
+msgstr "允許使用者編輯所有專案，不受專案的分享與可見性設定限制。\n\n此權限也需要**檢視所有專案**及**在所有專案中留言**權限。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:231
 msgid "Manage ALL Projects"
 msgstr ""
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:232
+#, fuzzy
 msgid ""
 "Allows users to manage ALL Projects as if they were owners, regardless of Project sharing and visibility settings.\n"
 "\n"
 "This permission also requires the **View ALL Projects**, **Comment on ALL Projects**, and **Edit ALL Projects** permissions."
-msgstr ""
+msgstr "允許使用者以擁有者的權限管理所有專案，不受專案的分享與可見性設定限制。\n\n此權限也需要**檢視所有專案**、**在所有專案中留言**及**編輯所有專案**權限。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:249
 msgid "View ALL Projects"
 msgstr ""
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:250
+#, fuzzy
 msgid "Allows users to view ALL Projects, regardless of Project sharing and visibility settings."
-msgstr ""
+msgstr "允許使用者檢視所有專案，不受專案的分享與可見性設定限制。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:267
 msgid "Manage Project Templates"
 msgstr ""
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:268
+#, fuzzy
 msgid ""
 "Allows users to set Projects as Project templates.\n"
 "\n"
 "Users with this permission can also create new Projects directly from Knowledge Models, even when project creation is restricted to templates."
-msgstr ""
+msgstr "允許使用者將專案設為專案模板。\n\n即使已設定只能從模板建立專案，擁有此權限的使用者仍可直接從知識模型建立新專案。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:285
 msgid "Manage Settings"
 msgstr ""
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:286
+#, fuzzy
 msgid "Allows users to view and manage application settings."
-msgstr ""
+msgstr "允許使用者檢視及管理應用程式設定。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:312
 msgid "Manage Users"

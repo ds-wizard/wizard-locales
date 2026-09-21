@@ -8,7 +8,7 @@
 # Chia-Hsun Wong <wanally@gmail.com>, 2026.
 # Chun-Shih Chang <austin20463@gmail.com>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-09-01T08:16:55.466Z\nPO-Revision-Date: 2026-09-21 08:45+0000\nLast-Translator: Chun-Shih Chang <austin20463@gmail.com>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-34/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-09-01T08:16:55.466Z\nPO-Revision-Date: 2026-09-21 08:47+0000\nLast-Translator: Chun-Shih Chang <austin20463@gmail.com>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-34/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Integration.elm:99
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1944
@@ -1717,8 +1717,9 @@ msgid "The integration for this question is not configured properly."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/Components/QuestionnaireContent.elm:2427
+#, fuzzy
 msgid "Custom answer, not selected from the integration"
-msgstr ""
+msgstr "自訂回答，並非從整合提供的選項中選取"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/Components/QuestionnaireContent.elm:2550
 msgid "Plugin error."
@@ -3032,8 +3033,9 @@ msgstr "後設模型"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:234
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:317
+#, fuzzy
 msgid "Created at"
-msgstr ""
+msgstr "建立時間"
 
 #: app-wizard/elm/Wizard/Pages/DocumentTemplates/Detail/View.elm:237
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:354
@@ -3131,8 +3133,9 @@ msgid "Unable to get locales."
 msgstr "無法取得語系。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/PublishLocaleSelection.elm:125
+#, fuzzy
 msgid "Copy locales"
-msgstr ""
+msgstr "複製語系"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Common/PublishLocaleSelection.elm:127
 msgid "Select the locales to copy to the new version."
@@ -4479,18 +4482,21 @@ msgstr "無法取得知識模型的問題標籤。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/CompareSelectModal.elm:374
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:136
+#, fuzzy
 msgid "Compare Knowledge Models"
-msgstr ""
+msgstr "比較知識模型"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/CompareSelectModal.elm:379
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:102
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:88
+#, fuzzy
 msgid "Compare"
-msgstr ""
+msgstr "比較"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/CompareSelectModal.elm:430
+#, fuzzy
 msgid "compare with"
-msgstr ""
+msgstr "比較對象"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:92
 msgid "Unable to get dependents of the Knowledge Model."
@@ -4681,12 +4687,14 @@ msgid "Export the .pot file to create one."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:185
+#, fuzzy
 msgid "Code"
-msgstr ""
+msgstr "語系代碼"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:245
+#, fuzzy
 msgid "Are you sure you want to delete the locale %s?"
-msgstr ""
+msgstr "您確定要刪除 %s 語系嗎？"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:251
 #: app-wizard/elm/Wizard/Pages/Locales/Index/View.elm:184
@@ -5774,8 +5782,9 @@ msgid "Sign up was successful"
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/View.elm:28
+#, fuzzy
 msgid "Check your email for the activation link."
-msgstr ""
+msgstr "請查看您的電子郵件以取得啟用連結。"
 
 #: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/View.elm:55
 #: app-wizard/elm/Wizard/Pages/Public/Signup/View.elm:83
@@ -6497,8 +6506,9 @@ msgid "Role could not be saved."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Settings/RoleCreate/View.elm:38
+#, fuzzy
 msgid "Create Role"
-msgstr ""
+msgstr "建立角色"
 
 #: app-wizard/elm/Wizard/Pages/Settings/RoleDetail/Update.elm:48
 msgid "Unable to get role"
@@ -6536,8 +6546,9 @@ msgid "Role cannot be deleted because it is assigned to users"
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Settings/Roles/View.elm:78
+#, fuzzy
 msgid "Default"
-msgstr ""
+msgstr "預設"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Roles/View.elm:89
 msgid "Users using this role"
@@ -6803,8 +6814,9 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:195
 #: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:131
+#, fuzzy
 msgid "Connected Accounts"
-msgstr ""
+msgstr "已連結的帳號"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:211
 msgid "You have not connected any external accounts."
@@ -6825,12 +6837,14 @@ msgid "Disconnect"
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:279
+#, fuzzy
 msgid "Connect Account"
-msgstr ""
+msgstr "連結帳號"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:293
+#, fuzzy
 msgid "Are you sure you want to disconnect %s account?"
-msgstr ""
+msgstr "您確定要取消 %s 帳號的連結嗎？"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:298
 msgid "You will no longer be able to use it to log in."
@@ -7345,8 +7359,9 @@ msgid "(optional)"
 msgstr "（可選）"
 
 #: shared/common/elm/Common/Components/FormGroup.elm:246
+#, fuzzy
 msgid "days"
-msgstr ""
+msgstr "天"
 
 #: shared/common/elm/Common/Components/FormGroup.elm:529
 msgid "You can use %s and see the result in the preview tab."
@@ -7438,8 +7453,9 @@ msgid "No results matching your search were found."
 msgstr "沒有符合您搜尋條件的結果。"
 
 #: shared/common/elm/Common/Components/UserExternalCompletionForm.elm:98
+#, fuzzy
 msgid "Complete Your Registration"
-msgstr ""
+msgstr "完成註冊"
 
 #: shared/common/elm/Common/Components/UserExternalCompletionForm.elm:105
 #, fuzzy
@@ -7472,11 +7488,12 @@ msgid "Use Document Template Editor"
 msgstr ""
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:124
+#, fuzzy
 msgid ""
 "Allows users to view, create, edit, and delete Document Template Editors, as well as publish Document Templates from them.\n"
 "\n"
 "This permission also requires the **Manage Document Templates** permission."
-msgstr ""
+msgstr "允許使用者檢視、建立、編輯及刪除文件模板編輯器，並從中發布文件模板。\n\n此權限也需要**管理文件模板**權限。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:141
 msgid "Manage Document Templates"
@@ -7492,11 +7509,12 @@ msgid "Use Knowledge Model Editor"
 msgstr ""
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:160
+#, fuzzy
 msgid ""
 "Allows users to view, create, edit, and delete Knowledge Model Editors, migrate them, and publish Knowledge Models from them.\n"
 "\n"
 "This permission also requires the **Manage Knowledge Models** permission."
-msgstr ""
+msgstr "允許使用者檢視、建立、編輯、刪除及移轉知識模型編輯器，並從中發布知識模型。\n\n此權限也需要**管理知識模型**權限。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:177
 msgid "Manage Knowledge Models"
@@ -7511,8 +7529,9 @@ msgid ""
 msgstr "允許使用者匯入、匯出及刪除知識模型，以及將其設為已棄用、還原或設為公開。\n\n此權限也允許使用者管理知識模型密鑰。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:195
+#, fuzzy
 msgid "Comment on ALL Projects"
-msgstr ""
+msgstr "在所有專案中留言"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:196
 #, fuzzy
@@ -7581,8 +7600,9 @@ msgid "Manage Users"
 msgstr ""
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:313
+#, fuzzy
 msgid "Allows users to view, create, edit, and delete user accounts."
-msgstr ""
+msgstr "允許使用者檢視、建立、編輯及刪除使用者帳號。"
 
 #: shared/common/elm/Common/Utils/Driver.elm:100
 msgid "Are you sure you want to skip the tour?"

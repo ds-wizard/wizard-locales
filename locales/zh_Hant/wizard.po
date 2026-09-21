@@ -8,7 +8,7 @@
 # Chia-Hsun Wong <wanally@gmail.com>, 2026.
 # Chun-Shih Chang <austin20463@gmail.com>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-09-01T08:16:55.466Z\nPO-Revision-Date: 2026-09-21 08:48+0000\nLast-Translator: Chun-Shih Chang <austin20463@gmail.com>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-34/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-09-01T08:16:55.466Z\nPO-Revision-Date: 2026-09-21 08:50+0000\nLast-Translator: Chun-Shih Chang <austin20463@gmail.com>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-34/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Integration.elm:99
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1944
@@ -1709,8 +1709,9 @@ msgid "Upload file"
 msgstr "上傳檔案"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/Components/QuestionnaireContent.elm:2340
+#, fuzzy
 msgid "Missing plugin."
-msgstr ""
+msgstr "缺少外掛程式。"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire/Components/QuestionnaireContent.elm:2351
 msgid "The integration for this question is not configured properly."
@@ -3408,8 +3409,9 @@ msgid "Empty response item template for integration"
 msgstr "整合所需的回應項目模板 (response item template) 是空白的"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1440
+#, fuzzy
 msgid "No plugin selected for plugin integration"
-msgstr ""
+msgstr "尚未為外掛程式整合選擇外掛程式"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1454
 msgid "Empty title for resource collection"
@@ -4678,8 +4680,9 @@ msgid "This is not the latest available version of this knowledge model."
 msgstr "這不是這個知識模型最新可用的版本。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:172
+#, fuzzy
 msgid "No locales"
-msgstr ""
+msgstr "尚無語系"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:174
 msgid "There are no locales for this knowledge model yet."
@@ -5197,8 +5200,9 @@ msgid "Select knowledge model first"
 msgstr "先選擇知識模板"
 
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:96
+#, fuzzy
 msgid "Migrate Project"
-msgstr ""
+msgstr "移轉專案"
 
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:97
 msgid "This will update the project’s knowledge model. Replies associated with questions that aren’t included in the new knowledge model may not be carried over."
@@ -5218,8 +5222,9 @@ msgstr "新知識模型"
 
 #: app-wizard/elm/Wizard/Pages/Projects/CreateMigration/View.elm:125
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:779
+#, fuzzy
 msgid "Migrate"
-msgstr ""
+msgstr "移轉"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/NewDocument.elm:162
 msgid "Unable to get the summary report."
@@ -5363,8 +5368,9 @@ msgid "A newer version of this knowledge model is available."
 msgstr "此知識模型有較新的版本可用。"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:587
+#, fuzzy
 msgid "Migrate project"
-msgstr ""
+msgstr "移轉專案"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Detail/Components/Settings.elm:590
 msgid "Project migration lets you move your project to a newer or different version of the knowledge model, and update which questions are included by changing question tags."
@@ -5648,16 +5654,18 @@ msgid "Search user groups..."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:647
+#, fuzzy
 msgid "No user groups found"
-msgstr ""
+msgstr "找不到使用者群組"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:753
 msgid "Create project from this template"
 msgstr "以此模板建立專案"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:823
+#, fuzzy
 msgid "Knowledge model update available"
-msgstr ""
+msgstr "知識模型有更新可用"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:825
 msgid "Outdated KM"
@@ -6127,8 +6135,9 @@ msgid "Unable to get OpenID configs."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenId/Update.elm:71
+#, fuzzy
 msgid "OpenID config could not be deleted."
-msgstr ""
+msgstr "無法刪除 OpenID 設定。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenId/View.elm:31
 #, fuzzy
@@ -6137,8 +6146,9 @@ msgstr "目前沒有任何 OpenID 設定。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenId/View.elm:37
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:162
+#, fuzzy
 msgid "OpenID"
-msgstr ""
+msgstr "OpenID"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenId/View.elm:86
 #: app-wizard/elm/Wizard/Pages/Settings/Roles/View.elm:125
@@ -6152,8 +6162,9 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/Update.elm:63
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/Update.elm:63
+#, fuzzy
 msgid "OpenID config could not be saved."
-msgstr ""
+msgstr "無法儲存 OpenID 設定。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:58
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:63
@@ -6179,8 +6190,9 @@ msgstr "用戶端密鑰"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:88
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:103
+#, fuzzy
 msgid "Microsoft"
-msgstr ""
+msgstr "Microsoft"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/View.elm:96
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:111
@@ -7169,12 +7181,14 @@ msgid "Selected locales cannot be reused from the previous package version."
 msgstr ""
 
 #: shared/common/elm/Common/Api/ServerError.elm:263
+#, fuzzy
 msgid "Logo file size cannot exceed %s."
-msgstr ""
+msgstr "標誌檔案大小不得超過 %s。"
 
 #: shared/common/elm/Common/Api/ServerError.elm:266
+#, fuzzy
 msgid "Logo file size exceeds the limit."
-msgstr ""
+msgstr "標誌檔案大小超過上限。"
 
 #: shared/common/elm/Common/Api/ServerError.elm:269
 msgid "Knowledge model already exists."
@@ -7514,8 +7528,9 @@ msgid ""
 msgstr "允許使用者檢視、建立、編輯及刪除文件模板編輯器，並從中發布文件模板。\n\n此權限也需要**管理文件模板**權限。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:141
+#, fuzzy
 msgid "Manage Document Templates"
-msgstr ""
+msgstr "管理文件模板"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:142
 #, fuzzy
@@ -7535,8 +7550,9 @@ msgid ""
 msgstr "允許使用者檢視、建立、編輯、刪除及移轉知識模型編輯器，並從中發布知識模型。\n\n此權限也需要**管理知識模型**權限。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:177
+#, fuzzy
 msgid "Manage Knowledge Models"
-msgstr ""
+msgstr "管理知識模型"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:178
 #, fuzzy
@@ -7573,8 +7589,9 @@ msgid ""
 msgstr "允許使用者編輯所有專案，不受專案的分享與可見性設定限制。\n\n此權限也需要**檢視所有專案**及**在所有專案中留言**權限。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:231
+#, fuzzy
 msgid "Manage ALL Projects"
-msgstr ""
+msgstr "管理所有專案"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:232
 #, fuzzy
@@ -7594,8 +7611,9 @@ msgid "Allows users to view ALL Projects, regardless of Project sharing and visi
 msgstr "允許使用者檢視所有專案，不受專案的分享與可見性設定限制。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:267
+#, fuzzy
 msgid "Manage Project Templates"
-msgstr ""
+msgstr "管理專案模板"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:268
 #, fuzzy
@@ -7606,8 +7624,9 @@ msgid ""
 msgstr "允許使用者將專案設為專案模板。\n\n即使已設定只能從模板建立專案，擁有此權限的使用者仍可直接從知識模型建立新專案。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:285
+#, fuzzy
 msgid "Manage Settings"
-msgstr ""
+msgstr "管理設定"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:286
 #, fuzzy
@@ -7615,8 +7634,9 @@ msgid "Allows users to view and manage application settings."
 msgstr "允許使用者檢視及管理應用程式設定。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:312
+#, fuzzy
 msgid "Manage Users"
-msgstr ""
+msgstr "管理使用者"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:313
 #, fuzzy

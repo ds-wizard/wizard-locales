@@ -8,7 +8,7 @@
 # Chia-Hsun Wong <wanally@gmail.com>, 2026.
 # Chun-Shih Chang <austin20463@gmail.com>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-09-01T08:16:55.466Z\nPO-Revision-Date: 2026-09-21 08:47+0000\nLast-Translator: Chun-Shih Chang <austin20463@gmail.com>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-34/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-09-01T08:16:55.466Z\nPO-Revision-Date: 2026-09-21 08:48+0000\nLast-Translator: Chun-Shih Chang <austin20463@gmail.com>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-34/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Integration.elm:99
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1944
@@ -4588,8 +4588,9 @@ msgid "Open"
 msgstr "開啟"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:90
+#, fuzzy
 msgid "Export .pot file"
-msgstr ""
+msgstr "匯出 .pot 檔案"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:114
 msgid "Create KM editor"
@@ -4627,8 +4628,9 @@ msgid "You have uploaded an invalid PO file."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/ImportLocaleModal.elm:154
+#, fuzzy
 msgid "Importing the locale failed."
-msgstr ""
+msgstr "匯入語系失敗。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/ImportLocaleModal.elm:189
 msgid "PO file"
@@ -4652,8 +4654,9 @@ msgid "Import locale"
 msgstr "匯入語系"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:113
+#, fuzzy
 msgid "Deleting the locale failed."
-msgstr ""
+msgstr "刪除語系失敗。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:160
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:179
@@ -4683,8 +4686,9 @@ msgid "There are no locales for this knowledge model yet."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:175
+#, fuzzy
 msgid "Export the .pot file to create one."
-msgstr ""
+msgstr "請匯出 .pot 檔案以建立語系。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:185
 #, fuzzy
@@ -5660,8 +5664,9 @@ msgid "Outdated KM"
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:838
+#, fuzzy
 msgid "Document template update available"
-msgstr ""
+msgstr "文件模板有更新可用"
 
 #: app-wizard/elm/Wizard/Pages/Projects/Index/View.elm:840
 msgid "Outdated DT"
@@ -5717,8 +5722,9 @@ msgstr "登入"
 
 #: app-wizard/elm/Wizard/Pages/Public/Login/Update.elm:89
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:120
+#, fuzzy
 msgid "External login failed."
-msgstr ""
+msgstr "外部登入失敗。"
 
 #: app-wizard/elm/Wizard/Pages/Public/Login/Update.elm:113
 #: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/Update.elm:82
@@ -5915,8 +5921,9 @@ msgid "Non-Admin Login"
 msgstr "非管理員登入"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:69
+#, fuzzy
 msgid "If enabled, all users can use internal login using email address and password. Otherwise, only admin users can use internal login, and other users must use an external identity provider."
-msgstr ""
+msgstr "若啟用，所有使用者都可以透過電子郵件地址與密碼使用內部登入。否則，只有管理員可以使用內部登入，其他使用者必須透過外部身分識別提供者登入。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Authentication/View.elm:70
 msgid "Two-Factor Authentication"
@@ -6135,8 +6142,9 @@ msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenId/View.elm:86
 #: app-wizard/elm/Wizard/Pages/Settings/Roles/View.elm:125
+#, fuzzy
 msgid "Delete OpenID"
-msgstr ""
+msgstr "刪除 OpenID"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdCreate/Update.elm:49
 msgid "Unable to get OpenID prefabs."
@@ -6251,16 +6259,18 @@ msgid "Callback URL"
 msgstr "回呼網址"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:53
+#, fuzzy
 msgid "Front-channel logout URL"
-msgstr ""
+msgstr "前端通道登出網址"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:56
 msgid "Logout URL"
 msgstr "登出網址"
 
 #: app-wizard/elm/Wizard/Pages/Settings/OpenIdDetail/View.elm:174
+#, fuzzy
 msgid "Edit OpenID Config"
-msgstr ""
+msgstr "編輯 OpenID 設定"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Organization/View.elm:26
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:160
@@ -6520,8 +6530,9 @@ msgid "Admin role has all permissions and cannot be modified."
 msgstr "管理員角色擁有所有權限，且無法修改。"
 
 #: app-wizard/elm/Wizard/Pages/Settings/RoleDetail/View.elm:65
+#, fuzzy
 msgid "Edit Role"
-msgstr ""
+msgstr "編輯角色"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Roles/Update.elm:71
 msgid "Role could not be deleted."
@@ -6538,8 +6549,9 @@ msgid "Admin role cannot be deleted"
 msgstr "無法刪除管理員角色"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Roles/View.elm:61
+#, fuzzy
 msgid "Default role cannot be deleted"
-msgstr ""
+msgstr "無法刪除預設角色"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Roles/View.elm:64
 msgid "Role cannot be deleted because it is assigned to users"
@@ -6800,8 +6812,9 @@ msgid "Delete App Key"
 msgstr "刪除APP金鑰"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:90
+#, fuzzy
 msgid "Failed to load connected accounts"
-msgstr ""
+msgstr "無法載入已連結的帳號"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:150
 #, fuzzy
@@ -6809,8 +6822,9 @@ msgid "Account disconnected successfully."
 msgstr "已成功取消帳號連結。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:159
+#, fuzzy
 msgid "Failed to disconnect account."
-msgstr ""
+msgstr "取消帳號連結失敗。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:195
 #: app-wizard/elm/Wizard/Pages/Users/Edit/View.elm:131
@@ -6833,8 +6847,9 @@ msgstr "帳號"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:242
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:310
+#, fuzzy
 msgid "Disconnect"
-msgstr ""
+msgstr "取消連結"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:279
 #, fuzzy
@@ -6851,8 +6866,9 @@ msgid "You will no longer be able to use it to log in."
 msgstr ""
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:306
+#, fuzzy
 msgid "Disconnect Account"
-msgstr ""
+msgstr "取消帳號連結"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/Language.elm:86
 msgid "Unable to get user language."
@@ -7472,12 +7488,14 @@ msgid "Project Permissions"
 msgstr ""
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:78
+#, fuzzy
 msgid "Knowledge Model Permissions"
-msgstr ""
+msgstr "知識模型權限"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:88
+#, fuzzy
 msgid "Document Template Permissions"
-msgstr ""
+msgstr "文件模板權限"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:98
 msgid "Settings Permissions"
@@ -7542,8 +7560,9 @@ msgid ""
 msgstr "允許使用者在所有專案中留言，不受專案的分享與可見性設定限制。\n\n此權限也需要**檢視所有專案**權限。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:213
+#, fuzzy
 msgid "Edit ALL Projects"
-msgstr ""
+msgstr "編輯所有專案"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:214
 #, fuzzy
@@ -7654,8 +7673,9 @@ msgid "This is a weak password."
 msgstr "您的密碼強度較弱。"
 
 #: shared/common/elm/Common/Utils/Form/Validate.elm:125
+#, fuzzy
 msgid "Fill in a valid URL."
-msgstr ""
+msgstr "請填寫有效的網址。"
 
 #: shared/common/elm/Common/Utils/Form/Validate.elm:130
 msgid "Fill in a valid organization ID."

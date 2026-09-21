@@ -8,7 +8,7 @@
 # Chia-Hsun Wong <wanally@gmail.com>, 2026.
 # Chun-Shih Chang <austin20463@gmail.com>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-09-01T08:16:55.466Z\nPO-Revision-Date: 2026-09-21 08:53+0000\nLast-Translator: Chun-Shih Chang <austin20463@gmail.com>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-34/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-09-01T08:16:55.466Z\nPO-Revision-Date: 2026-09-21 08:55+0000\nLast-Translator: Chun-Shih Chang <austin20463@gmail.com>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-34/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Integration.elm:99
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:1944
@@ -3384,12 +3384,14 @@ msgid "Unknown Jinja property in request URL for integration: %s"
 msgstr "於此收到非預期的回應：%s"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1380
+#, fuzzy
 msgid "Unknown variable in request configuration for integration: %s"
-msgstr ""
+msgstr "整合項目的請求設定中有未知的變項：%s"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1388
+#, fuzzy
 msgid "Unknown secret in request configuration for integration: %s"
-msgstr ""
+msgstr "整合項目的請求設定中有未知的密鑰：%s"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1393
 msgid "No test data loaded for integration"
@@ -4539,16 +4541,19 @@ msgid "Delete %s"
 msgstr "刪除 %s"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:194
+#, fuzzy
 msgid "You are about to permanently delete all versions of %s, including all dependent knowledge models, knowledge model editors, and projects."
-msgstr ""
+msgstr "您即將永久刪除 %s 的所有版本，以及所有相依的知識模型、知識模型編輯器與專案。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:197
+#, fuzzy
 msgid "You are about to permanently delete %s, including all dependent knowledge models, knowledge model editors, and projects."
-msgstr ""
+msgstr "您即將永久刪除 %s，以及所有相依的知識模型、知識模型編輯器與專案。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:213
+#, fuzzy
 msgid "Unexpected bad things will happen if you don't read this!"
-msgstr ""
+msgstr "若未詳讀此說明，將會造成意料之外的不良後果！"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:219
 #, fuzzy
@@ -4636,8 +4641,9 @@ msgid "Select Knowledge Models"
 msgstr "選擇知識模型"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/ImportLocaleModal.elm:142
+#, fuzzy
 msgid "You have uploaded an invalid PO file."
-msgstr ""
+msgstr "您上傳的 PO 檔案無效。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/ImportLocaleModal.elm:154
 #, fuzzy
@@ -5805,8 +5811,9 @@ msgid "You have been successfully logged out."
 msgstr "您已成功登出。"
 
 #: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/Update.elm:38
+#, fuzzy
 msgid "Your sign-in attempt has expired or was started in a different window. Please try signing in again."
-msgstr ""
+msgstr "這次登入已逾時，或是在其他視窗中開始。請重新登入。"
 
 #: app-wizard/elm/Wizard/Pages/Public/OpenIdCallback/View.elm:27
 #, fuzzy
@@ -6603,8 +6610,9 @@ msgid "Default"
 msgstr "預設"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Roles/View.elm:89
+#, fuzzy
 msgid "Users using this role"
-msgstr ""
+msgstr "使用此角色的使用者"
 
 #: app-wizard/elm/Wizard/Pages/Settings/Submission/View.elm:42
 #: app-wizard/elm/Wizard/Pages/Settings/View.elm:205
@@ -6874,8 +6882,9 @@ msgid "Connected Accounts"
 msgstr "已連結的帳號"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:211
+#, fuzzy
 msgid "You have not connected any external accounts."
-msgstr ""
+msgstr "您尚未連結任何外部帳號。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:217
 #, fuzzy
@@ -6904,8 +6913,9 @@ msgid "Are you sure you want to disconnect %s account?"
 msgstr "您確定要取消 %s 帳號的連結嗎？"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:298
+#, fuzzy
 msgid "You will no longer be able to use it to log in."
-msgstr ""
+msgstr "您將無法再使用此帳號登入。"
 
 #: app-wizard/elm/Wizard/Pages/Users/Edit/Components/ConnectedAccounts.elm:306
 #, fuzzy
@@ -7192,8 +7202,9 @@ msgid "Knowledge model ID is already used."
 msgstr "知識模型 ID 已被使用。"
 
 #: shared/common/elm/Common/Api/ServerError.elm:245
+#, fuzzy
 msgid "Unable to parse the PO file: %s"
-msgstr ""
+msgstr "無法解析 PO 檔案：%s"
 
 #: shared/common/elm/Common/Api/ServerError.elm:248
 #, fuzzy
@@ -7201,8 +7212,9 @@ msgid "The PO file has no 'Language' header field."
 msgstr "PO 檔案的標頭中缺少 'Language' 欄位。"
 
 #: shared/common/elm/Common/Api/ServerError.elm:251
+#, fuzzy
 msgid "Unable to parse the JSON translation file: %s"
-msgstr ""
+msgstr "無法解析 JSON 翻譯檔案：%s"
 
 #: shared/common/elm/Common/Api/ServerError.elm:254
 #, fuzzy
@@ -7556,8 +7568,9 @@ msgid "Settings Permissions"
 msgstr "設定權限"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:123
+#, fuzzy
 msgid "Use Document Template Editor"
-msgstr ""
+msgstr "使用文件模板編輯器"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:124
 #, fuzzy
@@ -7578,8 +7591,9 @@ msgid "Allows users to import, export, and delete Document Templates, as well as
 msgstr "允許使用者匯入、匯出及刪除文件模板，以及將其設為已棄用或還原。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:159
+#, fuzzy
 msgid "Use Knowledge Model Editor"
-msgstr ""
+msgstr "使用知識模型編輯器"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:160
 #, fuzzy
@@ -7642,8 +7656,9 @@ msgid ""
 msgstr "允許使用者以擁有者的權限管理所有專案，不受專案的分享與可見性設定限制。\n\n此權限也需要**檢視所有專案**、**在所有專案中留言**及**編輯所有專案**權限。"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:249
+#, fuzzy
 msgid "View ALL Projects"
-msgstr ""
+msgstr "檢視所有專案"
 
 #: shared/common/elm/Common/Data/WizardRolePermission.elm:250
 #, fuzzy

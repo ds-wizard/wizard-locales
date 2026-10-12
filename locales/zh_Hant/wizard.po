@@ -6,7 +6,7 @@
 # tychuang1211 <polarbear.cs05@g2.nctu.edu.tw>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-04-09T15:05:31.661Z\nPO-Revision-Date: 2026-09-13 12:04+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-29/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-04-09T15:05:31.661Z\nPO-Revision-Date: 2026-10-12 12:00+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-29/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
 
 #: app-wizard/elm/Wizard/Api/Models/KnowledgeModel/Question/QuestionValidation.elm:311
 msgid "Answer must be at least %s characters long."
@@ -1679,16 +1679,19 @@ msgid_plural "View %s comments"
 msgstr[0] ""
 
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/QuestionnaireContent.elm:949
+#, fuzzy
 msgid "Add comment"
-msgstr ""
+msgstr "新增留言"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/QuestionnaireContent.elm:2308
+#, fuzzy
 msgid "Missing plugin."
-msgstr ""
+msgstr "缺少外掛程式 (Plugin)。"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/QuestionnaireContent.elm:2319
+#, fuzzy
 msgid "The integration for this question is not configured properly."
-msgstr ""
+msgstr "這個問題的整合設定有誤。"
 
 #: app-wizard/elm/Wizard/Components/Questionnaire2/Components/QuestionnaireContent.elm:2499
 #, fuzzy
@@ -3048,7 +3051,7 @@ msgstr "回答的名稱不可為空白"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1209
 #, fuzzy
 msgid "Empty label for choice"
-msgstr "無選項的標籤"
+msgstr "選項名稱空白"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1229
 msgid "No resource page selected for resource page reference"
@@ -3132,8 +3135,9 @@ msgid "Empty response item template for integration"
 msgstr "整合所需的回應項目模板（response item template）是空白的"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1421
+#, fuzzy
 msgid "No plugin selected for plugin integration"
-msgstr ""
+msgstr "尚未為外掛程式整合選擇外掛程式"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Common/EditorContext.elm:1435
 msgid "Empty title for resource collection"
@@ -3699,8 +3703,9 @@ msgid "A name visible everywhere else in the knowledge model Editor, such as whe
 msgstr "一個可於知識模型編輯器中隨處見到的名字，例如為一個問題選擇整合時。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2551
+#, fuzzy
 msgid "There are no available plugins."
-msgstr ""
+msgstr "沒有可用的外掛程式。"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2666
 #: app-wizard/elm/Wizard/Pages/KMEditor/Editor/Components/KMEditor.elm:2766
@@ -4377,20 +4382,23 @@ msgstr "請求 URL"
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:713
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:781
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:845
+#, fuzzy
 msgid "Plugin UUID"
-msgstr ""
+msgstr "外掛程式 UUID"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:714
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:782
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:846
+#, fuzzy
 msgid "Plugin Integration ID"
-msgstr ""
+msgstr "外掛整合 ID"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:715
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:783
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:847
+#, fuzzy
 msgid "Plugin Integration Settings"
-msgstr ""
+msgstr "外掛整合設定"
 
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:984
 #: app-wizard/elm/Wizard/Pages/KMEditor/Migration/View.elm:1099
@@ -4466,20 +4474,23 @@ msgid "Last version"
 msgstr "最新版本"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:92
+#, fuzzy
 msgid "Unable to get dependents of the Knowledge Model."
-msgstr ""
+msgstr "無法取得此知識模型的相依項目。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:122
 msgid "Knowledge Model could not be deleted."
 msgstr "無法刪除知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:146
+#, fuzzy
 msgid "This action cannot be undone."
-msgstr ""
+msgstr "此動作無法復原。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:148
+#, fuzzy
 msgid "Type \"%s\" to confirm"
-msgstr ""
+msgstr "輸入「%s」以確認"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:174
 #: app-wizard/elm/Wizard/Pages/Public/Auth/View.elm:77
@@ -4488,24 +4499,29 @@ msgid "Continue"
 msgstr "繼續"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:178
+#, fuzzy
 msgid "Delete %s"
-msgstr ""
+msgstr "刪除 %s"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:194
+#, fuzzy
 msgid "You are about to permanently delete all versions of %s, including all dependent knowledge models, knowledge model editors, and projects."
-msgstr ""
+msgstr "您即將永久刪除 %s 的所有版本，以及所有相依的知識模型、知識模型編輯器與專案。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:197
+#, fuzzy
 msgid "You are about to permanently delete %s, including all dependent knowledge models, knowledge model editors, and projects."
-msgstr ""
+msgstr "您即將永久刪除 %s 的所有版本，包括所有相依的知識模型、知識模型編輯器與專案。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:213
+#, fuzzy
 msgid "Unexpected bad things will happen if you don't read this!"
-msgstr ""
+msgstr "如果您沒有先閱讀這段內容，可能會發生意料之外的嚴重問題！"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:219
+#, fuzzy
 msgid "This action will permanently delete:"
-msgstr ""
+msgstr "此操作將永久刪除："
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:222
 #, fuzzy
@@ -4525,23 +4541,24 @@ msgid_plural "%s projects"
 msgstr[0] ""
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:229
+#, fuzzy
 msgid "Carefully review the list of what will be deleted before continuing."
-msgstr ""
+msgstr "繼續前，請仔細確認將被刪除的項目。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:245
 #, fuzzy
 msgid "Knowledge Models:"
-msgstr "知識模型"
+msgstr "知識模型:"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:258
 #, fuzzy
 msgid "Knowledge Model Editors:"
-msgstr "知識模型編輯者"
+msgstr "知識模型編輯者:"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/DeleteModal.elm:270
 #, fuzzy
 msgid "Projects:"
-msgstr "專案"
+msgstr "專案:"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:53
 msgid "Open"
@@ -4561,12 +4578,14 @@ msgid "Create project"
 msgstr "建立專案"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:149
+#, fuzzy
 msgid "Set public"
-msgstr ""
+msgstr "設為公開"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:161
+#, fuzzy
 msgid "Set private"
-msgstr ""
+msgstr "設為非公開"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:66
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/Update.elm:85
@@ -4575,8 +4594,9 @@ msgstr "無法更新知識模型。"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:61
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Index/View.elm:124
+#, fuzzy
 msgid "public"
-msgstr ""
+msgstr "公開"
 
 #: app-wizard/elm/Wizard/Pages/KnowledgeModels/Detail/View.elm:89
 msgid "This is a non-editable knowledge model, i.e., it cannot be edited, forked, or exported."

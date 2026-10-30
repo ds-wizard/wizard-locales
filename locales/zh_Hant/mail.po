@@ -13,8 +13,7 @@ msgstr ""
 "POT-Creation-Date: \n"
 "PO-Revision-Date: 2026-09-24 09:11+0000\n"
 "Last-Translator: Chia-Hsun Wong <wanally@gmail.com>\n"
-"Language-Team: Chinese (Traditional Han script) <https://localize.ds-"
-"wizard.org/projects/dsw-4-34/mail-templates/zh_Hant/>\n"
+"Language-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-4-34/mail-templates/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -107,12 +106,8 @@ msgstr "以建立新 API 金鑰"
 #: templates/wizard/apiKeyExpiration/message.html.j2:26
 #: templates/wizard/apiKeyExpiration/message.txt.j2:8
 #, python-format
-msgid ""
-"Your API key, identified as %(tokenName)s, is scheduled to expire on "
-"%(tokenExpirationDate)s at %(tokenExpirationTime)s."
-msgstr ""
-"您的 API 金鑰（名稱：%(tokenName)s）將於 %(tokenExpirationDate)s "
-"%(tokenExpirationTime)s 到期。"
+msgid "Your API key, identified as %(tokenName)s, is scheduled to expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
+msgstr "您的 API 金鑰（名稱：%(tokenName)s）將於 %(tokenExpirationDate)s %(tokenExpirationTime)s 到期。"
 
 #: templates/wizard/apiKeyExpiration/message.html.j2:77
 #: templates/wizard/apiKeyExpiration/message.txt.j2:13
@@ -127,8 +122,7 @@ msgstr "API 金鑰即將到期"
 #: templates/wizard/commentThreadAssigned/message.txt.j2:14
 #, python-format
 msgid "The following comment thread has been assigned to you:"
-msgid_plural ""
-"The following %(count)s comment threads have been assigned to you:"
+msgid_plural "The following %(count)s comment threads have been assigned to you:"
 msgstr[0] "以下 %(count)s 則留言討論串已指派給您："
 
 #: templates/wizard/commentThreadAssigned/message.html.j2:73
@@ -179,15 +173,11 @@ msgstr "已指派的留言討論串"
 
 #: templates/wizard/emailChange/message.html.j2:24
 #: templates/wizard/emailChange/message.txt.j2:5
-msgid ""
-"You recently requested to change the email address associated with your DSW "
-"account."
+msgid "You recently requested to change the email address associated with your DSW account."
 msgstr "您最近要求變更 DSW 帳號的電子郵件。"
 
 #: templates/wizard/emailChange/message.html.j2:25
-msgid ""
-"To confirm that this email address is correct, please click on the button "
-"below."
+msgid "To confirm that this email address is correct, please click on the button below."
 msgstr "若要確認這個電子郵件地址是否正確，請點擊下方按鈕。"
 
 #: templates/wizard/emailChange/message.html.j2:50
@@ -195,8 +185,7 @@ msgid "Verify your email"
 msgstr "驗證您的電子郵件"
 
 #: templates/wizard/emailChange/message.html.j2:75
-msgid ""
-"In case you did not request this change, you can safely ignore this email."
+msgid "In case you did not request this change, you can safely ignore this email."
 msgstr "如果您沒有提出這項變更，可以直接忽略這封電子郵件。"
 
 #: templates/wizard/emailChange/message.txt.j2:7
@@ -214,11 +203,8 @@ msgstr "電子郵件確認"
 #: templates/wizard/projectInvitation/message.html.j2:27
 #: templates/wizard/projectInvitation/message.txt.j2:8
 #, python-format
-msgid ""
-"%(ownerFirstName)s %(ownerLastName)s has invited you to the project "
-"%(projectName)s"
-msgstr ""
-"%(ownerFirstName)s %(ownerLastName)s 已邀請您加入此專案 %(projectName)s"
+msgid "%(ownerFirstName)s %(ownerLastName)s has invited you to the project %(projectName)s"
+msgstr "%(ownerFirstName)s %(ownerLastName)s 已邀請您加入此專案 %(projectName)s"
 
 #: templates/wizard/projectInvitation/message.html.j2:52
 msgid "Open project"
@@ -230,9 +216,7 @@ msgstr "專案邀請"
 
 #: templates/wizard/registrationConfirmation/message.html.j2:24
 #: templates/wizard/registrationConfirmation/message.txt.j2:5
-msgid ""
-"Welcome aboard! Well, you’re almost set. Just one more step and you can "
-"start using the DSW."
+msgid "Welcome aboard! Well, you’re almost set. Just one more step and you can start using the DSW."
 msgstr "歡迎加入！哦，快完成囉，只要再完成最後一步，您就可以開始使用 DSW。"
 
 #: templates/wizard/registrationConfirmation/message.html.j2:25
@@ -302,9 +286,7 @@ msgstr "重設密碼"
 
 #: templates/wizard/twoFactorAuth/message.html.j2:23
 #: templates/wizard/twoFactorAuth/message.txt.j2:6
-msgid ""
-"You have requested an authentication code to log in to your account. Your "
-"code is:"
+msgid "You have requested an authentication code to log in to your account. Your code is:"
 msgstr "您已申請用於登入帳號的驗證碼。您的驗證碼是："
 
 #: templates/wizard/twoFactorAuth/message.html.j2:71

@@ -3,7 +3,17 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-mail-templates:4.18.2\nPOT-Creation-Date: \nPO-Revision-Date: 2026-10-30 12:59+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Slovenian <https://localize.ds-wizard.org/projects/dsw-4-35/mail-templates/sl/>\nLanguage: sl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\nX-Generator: Weblate 5.17.1\n"
+msgstr ""
+"Project-Id-Version: wizard-mail-templates:4.18.2\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-30 12:59+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\n"
+"Language-Team: Slovenian <https://localize.ds-wizard.org/projects/dsw-4-35/mail-templates/sl/>\n"
+"Language: sl\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: templates/_common/footer.html.j2:155 templates/_common/footer.txt.j2:7
 msgid "Please do not reply to this email"
@@ -67,8 +77,7 @@ msgstr "Za vaš račun je bil ustvarjen nov ključ API z imenom %(tokenName)s."
 #: templates/wizard/apiKeyCreated/message.txt.j2:10
 #, python-format
 msgid "It will expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
-msgstr ""
-"Veljavnost poteče na %(tokenExpirationDate)s ob %(tokenExpirationTime)s."
+msgstr "Veljavnost poteče na %(tokenExpirationDate)s ob %(tokenExpirationTime)s."
 
 #: templates/wizard/apiKeyCreated/message.html.j2:53
 #: templates/wizard/apiKeyExpiration/message.html.j2:51
@@ -92,12 +101,8 @@ msgstr "Ustvarjen Nov Ključ API"
 #: templates/wizard/apiKeyExpiration/message.html.j2:26
 #: templates/wizard/apiKeyExpiration/message.txt.j2:8
 #, python-format
-msgid ""
-"Your API key, identified as %(tokenName)s, is scheduled to expire on "
-"%(tokenExpirationDate)s at %(tokenExpirationTime)s."
-msgstr ""
-"Vaš ključ API, označen kot %(tokenName)s, poteče na %(tokenExpirationDate)s "
-"ob %(tokenExpirationTime)s."
+msgid "Your API key, identified as %(tokenName)s, is scheduled to expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
+msgstr "Vaš ključ API, označen kot %(tokenName)s, poteče na %(tokenExpirationDate)s ob %(tokenExpirationTime)s."
 
 #: templates/wizard/apiKeyExpiration/message.html.j2:77
 #: templates/wizard/apiKeyExpiration/message.txt.j2:13
@@ -112,8 +117,7 @@ msgstr "Ključ API Se Kmalu Izteče"
 #: templates/wizard/commentThreadAssigned/message.txt.j2:14
 #, python-format
 msgid "The following comment thread has been assigned to you:"
-msgid_plural ""
-"The following %(count)s comment threads have been assigned to you:"
+msgid_plural "The following %(count)s comment threads have been assigned to you:"
 msgstr[0] "Naslednja nit komentarjev je bila dodeljena vam:"
 msgstr[1] "Naslednja %(count)s komentarja sta bila dodeljena vam:"
 msgstr[2] "Naslednje %(count)s teme komentarjev so vam bile dodeljene:"
@@ -168,15 +172,11 @@ msgstr "Dodeljeno komentarjem niti"
 
 #: templates/wizard/emailChange/message.html.j2:24
 #: templates/wizard/emailChange/message.txt.j2:5
-msgid ""
-"You recently requested to change the email address associated with your DSW "
-"account."
+msgid "You recently requested to change the email address associated with your DSW account."
 msgstr ""
 
 #: templates/wizard/emailChange/message.html.j2:25
-msgid ""
-"To confirm that this email address is correct, please click on the button "
-"below."
+msgid "To confirm that this email address is correct, please click on the button below."
 msgstr ""
 
 #: templates/wizard/emailChange/message.html.j2:50
@@ -184,8 +184,7 @@ msgid "Verify your email"
 msgstr ""
 
 #: templates/wizard/emailChange/message.html.j2:75
-msgid ""
-"In case you did not request this change, you can safely ignore this email."
+msgid "In case you did not request this change, you can safely ignore this email."
 msgstr ""
 
 #: templates/wizard/emailChange/message.txt.j2:7
@@ -203,12 +202,8 @@ msgstr ""
 #: templates/wizard/projectInvitation/message.html.j2:27
 #: templates/wizard/projectInvitation/message.txt.j2:8
 #, python-format
-msgid ""
-"%(ownerFirstName)s %(ownerLastName)s has invited you to the project "
-"%(projectName)s"
-msgstr ""
-"%(ownerFirstName)s %(ownerLastName)s vas je povabil na projekt "
-"%(projectName)s"
+msgid "%(ownerFirstName)s %(ownerLastName)s has invited you to the project %(projectName)s"
+msgstr "%(ownerFirstName)s %(ownerLastName)s vas je povabil na projekt %(projectName)s"
 
 #: templates/wizard/projectInvitation/message.html.j2:52
 msgid "Open project"
@@ -220,12 +215,8 @@ msgstr "Povabilo k Projektu"
 
 #: templates/wizard/registrationConfirmation/message.html.j2:24
 #: templates/wizard/registrationConfirmation/message.txt.j2:5
-msgid ""
-"Welcome aboard! Well, you’re almost set. Just one more step and you can "
-"start using the DSW."
-msgstr ""
-"Dobrodošli na krovu! No, skoraj si pripravljen. Samo še en korak in lahko "
-"začnete uporabljati DSW."
+msgid "Welcome aboard! Well, you’re almost set. Just one more step and you can start using the DSW."
+msgstr "Dobrodošli na krovu! No, skoraj si pripravljen. Samo še en korak in lahko začnete uporabljati DSW."
 
 #: templates/wizard/registrationConfirmation/message.html.j2:25
 msgid "To activate your account, please click on the button below."
@@ -294,9 +285,7 @@ msgstr "Ponastavitev Gesla"
 
 #: templates/wizard/twoFactorAuth/message.html.j2:23
 #: templates/wizard/twoFactorAuth/message.txt.j2:6
-msgid ""
-"You have requested an authentication code to log in to your account. Your "
-"code is:"
+msgid "You have requested an authentication code to log in to your account. Your code is:"
 msgstr "Za prijavo v račun ste zahtevali avtentikacijsko kodo. Vaša koda je:"
 
 #: templates/wizard/twoFactorAuth/message.html.j2:71

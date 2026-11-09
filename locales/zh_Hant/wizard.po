@@ -8,7 +8,7 @@
 # Chia-Hsun Wong <wanally@gmail.com>, 2026.
 # Chun-Shih Chang <austin20463@gmail.com>, 2026.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-11-05T16:52:49.307Z\nPO-Revision-Date: 2026-11-09 09:48+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-5-0/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
+msgstr "Project-Id-Version: wizard-client:4.18.0\nPOT-Creation-Date: 2026-11-05T16:52:49.307Z\nPO-Revision-Date: 2026-11-09 09:48+0000\nLast-Translator: Weblate <noreply-mt-weblate@weblate.org>\nLanguage-Team: Chinese (Traditional Han script) <https://localize.ds-wizard.org/projects/dsw-5-0/client/zh_Hant/>\nLanguage: zh_Hant\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.17.1\n"
 
 #: apps/dsw/elm/Dsw/Layouts/AppLayout.elm:131
 #: packages/elm-common/elm/Common/Pages/Layout.elm:134
@@ -1389,8 +1389,9 @@ msgid "New version"
 msgstr "新版本"
 
 #: packages/elm-common/elm/Common/Components/Form/Field.elm:555
+#, fuzzy
 msgid "Suggestions:"
-msgstr ""
+msgstr "建議："
 
 #: packages/elm-common/elm/Common/Components/Form/Field.elm:575
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor/Settings.elm:93
@@ -2472,8 +2473,9 @@ msgid "Unable to upload the file."
 msgstr "無法上傳這個檔案。"
 
 #: packages/elm-common/elm/Common/Components/Questionnaire/Modal/FileUpload.elm:186
+#, fuzzy
 msgid "The file type is not allowed for this question. Choose one of the following: %s"
-msgstr ""
+msgstr "**此問題不允許使用該檔案類型。**\n\n請從以下選項中選擇一個：%s"
 
 #: packages/elm-common/elm/Common/Components/Questionnaire/Modal/FileUpload.elm:189
 msgid "The file cannot be larger than %s."
@@ -2596,8 +2598,9 @@ msgid "Anonymous user"
 msgstr "匿名使用者"
 
 #: packages/elm-common/elm/Common/Components/Questionnaire/Panel/Comments.elm:755
+#, fuzzy
 msgid "Reply…"
-msgstr ""
+msgstr "回覆"
 
 #: packages/elm-common/elm/Common/Components/Questionnaire/Panel/Comments.elm:756
 msgid "Reply"
@@ -2659,8 +2662,9 @@ msgid "Edit this comment"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Components/Questionnaire/Panel/Comments.elm:1031
+#, fuzzy
 msgid "Delete this comment"
-msgstr ""
+msgstr "確定要刪除這個評論嗎？"
 
 #: packages/elm-common/elm/Common/Components/Questionnaire/Panel/Comments.elm:1044
 msgid "Comment actions"
@@ -2752,8 +2756,9 @@ msgid "Search in the questionnaire…"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Components/Questionnaire/Panel/Search.elm:313
+#, fuzzy
 msgid "No results."
-msgstr ""
+msgstr "無搜尋結果"
 
 #: packages/elm-common/elm/Common/Components/Questionnaire/Panel/Search.elm:317
 msgid "Nothing in this questionnaire matches “%s”."
@@ -5159,56 +5164,67 @@ msgid "The new order does not match the current items: some were added or remove
 msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1590
+#, fuzzy
 msgid "knowledge model"
-msgstr ""
+msgstr "知識模型"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1593
+#, fuzzy
 msgid "chapter"
-msgstr ""
+msgstr "章節"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1596
+#, fuzzy
 msgid "question"
-msgstr ""
+msgstr "問題"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1599
+#, fuzzy
 msgid "answer"
-msgstr ""
+msgstr "回答"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1602
+#, fuzzy
 msgid "choice"
-msgstr ""
+msgstr "選項"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1605
+#, fuzzy
 msgid "reference"
-msgstr ""
+msgstr "引用參考"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1608
 msgid "expert"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1611
+#, fuzzy
 msgid "metric"
-msgstr ""
+msgstr "指標"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1614
+#, fuzzy
 msgid "phase"
-msgstr ""
+msgstr "階段"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1617
 msgid "question tag"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1620
+#, fuzzy
 msgid "integration"
-msgstr ""
+msgstr "整合"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1623
+#, fuzzy
 msgid "resource collection"
-msgstr ""
+msgstr "資源匯集"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1626
+#, fuzzy
 msgid "resource page"
-msgstr ""
+msgstr "資源頁面"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1735
 #: packages/elm-common/elm/Common/Pages/Projects/Detail.elm:1059
@@ -5266,8 +5282,9 @@ msgstr ""
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:2000
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:2008
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor/Tree.elm:73
+#, fuzzy
 msgid "Knowledge model"
-msgstr ""
+msgstr "知識模型"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:2009
 msgid "Close the knowledge model"
@@ -5548,8 +5565,9 @@ msgid "If enabled, users can type their own custom reply. If disabled, they must
 msgstr "若啟用，使用者可以輸入自訂回覆；若不啟用，使用者必須從整合提供的回覆中選擇一個。"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor/Integration.elm:324
+#, fuzzy
 msgid "A name visible everywhere else in the knowledge model editor, such as when choosing the integration for a question."
-msgstr ""
+msgstr "一個可於知識模型編輯器中隨處見到的名字，例如為一個問題選擇整合時。"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor/Integration.elm:336
 #: packages/elm-common/elm/Common/Pages/Settings/Submission.elm:287
@@ -5773,8 +5791,9 @@ msgid "There are no more warnings."
 msgstr "目前沒有任何警告。"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor/Panels.elm:216
+#, fuzzy
 msgid "There are no URL references in the knowledge model to check."
-msgstr ""
+msgstr "知識模型中沒有 URL 參照可供檢查。"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor/Panels.elm:222
 msgid "There is %s URL reference to check."
@@ -6216,21 +6235,25 @@ msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:603
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:646
+#, fuzzy
 msgid "Required phase"
-msgstr ""
+msgstr "必要階段"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:620
+#, fuzzy
 msgid "Resource collections"
-msgstr ""
+msgstr "資源匯集"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:693
+#, fuzzy
 msgid "Follow-up questions"
-msgstr ""
+msgstr "延伸問題"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:731
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:744
+#, fuzzy
 msgid "Resource page"
-msgstr ""
+msgstr "資源頁面"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:733
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:755
@@ -6254,8 +6277,9 @@ msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:824
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:853
+#, fuzzy
 msgid "Request body"
-msgstr ""
+msgstr "請求主體"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:825
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:854
@@ -6274,13 +6298,15 @@ msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:828
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:857
+#, fuzzy
 msgid "Response item template"
-msgstr ""
+msgstr "回應項目模板"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:829
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:858
+#, fuzzy
 msgid "Response item template for selection"
-msgstr ""
+msgstr "可選擇的回應項目模板"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:830
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:859
@@ -6289,8 +6315,9 @@ msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:831
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:860
+#, fuzzy
 msgid "Test variables"
-msgstr ""
+msgstr "測試變項"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:838
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:866
@@ -6307,8 +6334,9 @@ msgstr "外掛程式設定"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:882
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:887
+#, fuzzy
 msgid "Resource pages"
-msgstr ""
+msgstr "資源頁面"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:907
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:910
@@ -6320,13 +6348,15 @@ msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:928
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:983
+#, fuzzy
 msgid "Value type"
-msgstr ""
+msgstr "數值類型"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:942
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:1007
+#, fuzzy
 msgid "List question"
-msgstr ""
+msgstr "清單問題"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:947
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:1015
@@ -6335,8 +6365,9 @@ msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:948
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:1019
+#, fuzzy
 msgid "File types"
-msgstr ""
+msgstr "檔案類型"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:967
 msgid "Item questions"
@@ -6348,8 +6379,9 @@ msgid "Yes"
 msgstr "是"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:1098
+#, fuzzy
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:1105
 msgid "%s (weight %s, measure %s)"
@@ -6424,12 +6456,14 @@ msgid "Integration deleted"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:1436
+#, fuzzy
 msgid "New question"
-msgstr ""
+msgstr "新問題"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:1439
+#, fuzzy
 msgid "Question changed"
-msgstr ""
+msgstr "更改過的問題"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:1442
 msgid "Question deleted"
@@ -6655,8 +6689,9 @@ msgstr "比較知識模型"
 
 #: packages/elm-common/elm/Common/Pages/KnowledgeModels/Compare.elm:516
 #: packages/elm-common/elm/Common/Pages/KnowledgeModels/Compare.elm:551
+#, fuzzy
 msgid "Select knowledge models"
-msgstr ""
+msgstr "選擇知識模型"
 
 #: packages/elm-common/elm/Common/Pages/KnowledgeModels/Compare.elm:535
 msgid "Nothing to compare yet"
@@ -8067,8 +8102,9 @@ msgid "Announcements are displayed on the dashboard after users log in."
 msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/Settings/DashboardAndMenu.elm:94
+#, fuzzy
 msgid "Configure additional links in the menu. Choose any free icon from the [Font Awesome](%s), e.g. *fas fa-wand-magic*. Check *New window* if you want to open the link in a new window."
-msgstr ""
+msgstr "設定選單上的其他連結。可選擇任何 [Font Awesome](%s) 提供的免費圖示，例如：*fas fa-magic*。若您想於新視窗開啟連結，請勾選 *新視窗*。"
 
 #: packages/elm-common/elm/Common/Pages/Settings/DashboardAndMenu.elm:138
 msgid "New window"

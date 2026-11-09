@@ -31,9 +31,44 @@ def normalize_code(code: str) -> str:
 class APIClient:
 
     def __init__(self, api_url: str, api_key: str):
-        self.api_url = api_url.rstrip('/')
+        self._base_url = api_url.rstrip('/')
+        self._api_url: str | None = None
         self._session = requests.Session()
         self._session.headers.update({'Authorization': f'Bearer {api_key}'})
+
+    def _server_version(self, url: str) -> str | None:
+        """Return version from the info endpoint at url, or None if not available."""
+        try:
+            r = self._session.get(f'{url}/', timeout=30)
+            return r.json().get('version') if r.ok else None
+        except (requests.RequestException, ValueError, AttributeError):
+            return None
+
+    @staticmethod
+    def _is_v5(version: str | None) -> bool:
+        try:
+            return int(version.lstrip('v').split('.')[0]) >= 5
+        except (AttributeError, ValueError):
+            return False
+
+    @property
+    def api_url(self) -> str:
+        """API root, verified to be Wizard 5.0+ (adds /api prefix if missing)."""
+        if self._api_url is None:
+            version = self._server_version(self._base_url)
+            if self._is_v5(version):
+                self._api_url = self._base_url
+            else:
+                api_version = self._server_version(f'{self._base_url}/api')
+                if self._is_v5(api_version):
+                    self._api_url = f'{self._base_url}/api'
+                    click.echo(f'Note: using {self._api_url} (Wizard 5.0+ serves API under /api, '
+                               'consider updating DSW_API_URL)', err=True)
+                else:
+                    raise click.ClickException(
+                        f'Wizard at DSW_API_URL reports version {version or api_version or "unknown"}, '
+                        'but these scripts require Wizard 5.0+ (check DSW_API_URL and the server version)')
+        return self._api_url
 
     def _url(self, kind: str, *parts: str) -> str:
         return '/'.join([self.api_url, KINDS[kind], *parts])

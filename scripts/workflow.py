@@ -112,6 +112,9 @@ def _prepare(version: str, locales_dir: pathlib.Path):
     major, minor, patch = _parse_version(version)
     prev_major = major
     prev_minor = minor - 1
+    if major == 5 and minor == 0:
+        prev_major = 4
+        prev_minor = 35
     if prev_minor < 0:
         raise ValueError('Previous version minor number cannot be less than 0')
     # Prepare local environment

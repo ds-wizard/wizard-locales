@@ -8,17 +8,7 @@
 # xnovotna <xnovotna@mendelu.cz>, 2025.
 # Marek Suchánek <marek.suchanek@gmail.com>, 2026.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:3.17.1\n"
-"POT-Creation-Date: 2026-11-05T16:52:49.307Z \n"
-"PO-Revision-Date: 2026-11-09 08:56+0000\n"
-"Last-Translator: Marek Suchánek <marek.suchanek@gmail.com>\n"
-"Language-Team: Czech <https://localize.ds-wizard.org/projects/dsw-4-35/client/cs/>\n"
-"Language: cs\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17.1\n"
+msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2026-11-05T16:52:49.307Z\nPO-Revision-Date: 2026-11-09 09:48+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/dsw-5-0/client/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 5.17.1\n"
 
 #: apps/dsw/elm/Dsw/Layouts/AppLayout.elm:131
 #: packages/elm-common/elm/Common/Pages/Layout.elm:134
@@ -684,8 +674,9 @@ msgid "There is already an ongoing project migration."
 msgstr "Migrace projektu už probíhá."
 
 #: packages/elm-common/elm/Common/Api/ServerError.elm:340
+#, fuzzy
 msgid "You do not have permission to view this project."
-msgstr ""
+msgstr "Nemáte oprávnění zobrazit tuto stránku."
 
 #: packages/elm-common/elm/Common/Api/ServerError.elm:343
 msgid "You do not have permission to comment on this project."
@@ -2284,8 +2275,9 @@ msgid "Resize chapters"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Components/Questionnaire.elm:727
+#, fuzzy
 msgid "Unable to get the comments."
-msgstr ""
+msgstr "Nelze získat komentáře."
 
 #: packages/elm-common/elm/Common/Components/Questionnaire.elm:1655
 msgid "Questionnaire tools"
@@ -2412,11 +2404,12 @@ msgid "Unexpected answer UUID \"%s\" at: %s"
 msgstr "Neočekávané UUID odpovědi \"%s\": %s"
 
 #: packages/elm-common/elm/Common/Components/Questionnaire/Item.elm:99
+#, fuzzy
 msgid "Used in %s item select question"
 msgid_plural "Used in %s item select questions"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Používá se v otázkách s výběrem položek:"
+msgstr[1] "Používá se v otázkách s výběrem položek:"
+msgstr[2] "Používá se v otázkách s výběrem položek:"
 
 #: packages/elm-common/elm/Common/Components/Questionnaire/Item.elm:107
 msgid "Used in item select questions"
@@ -2783,8 +2776,9 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: packages/elm-common/elm/Common/Components/Questionnaire/Panel/VersionHistory.elm:216
+#, fuzzy
 msgid "Unable to get the version history."
-msgstr ""
+msgstr "Nelze získat historii verzí."
 
 #: packages/elm-common/elm/Common/Components/Questionnaire/Panel/VersionHistory.elm:224
 msgid "Unable to get the versions."
@@ -3595,8 +3589,9 @@ msgid "Go to knowledge models"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Data/NotFound.elm:101
+#, fuzzy
 msgid "The resource page you are looking for was not found."
-msgstr ""
+msgstr "Požadovaná stránka nebyla nalezena."
 
 #: packages/elm-common/elm/Common/Data/NotFound.elm:108
 msgid "The knowledge model editor you are looking for was not found."
@@ -3636,16 +3631,18 @@ msgid "Go to documents"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Data/NotFound.elm:143
+#, fuzzy
 msgid "The file you are looking for was not found."
-msgstr ""
+msgstr "Požadovaná stránka nebyla nalezena."
 
 #: packages/elm-common/elm/Common/Data/NotFound.elm:144
 msgid "Go to project files"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Data/NotFound.elm:150
+#, fuzzy
 msgid "The user you are looking for was not found."
-msgstr ""
+msgstr "Požadovaná stránka nebyla nalezena."
 
 #: packages/elm-common/elm/Common/Data/NotFound.elm:151
 msgid "Go to users"
@@ -3660,8 +3657,9 @@ msgid "Go to tenants"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Data/NotFound.elm:164
+#, fuzzy
 msgid "The role you are looking for was not found."
-msgstr ""
+msgstr "Požadovaná stránka nebyla nalezena."
 
 #: packages/elm-common/elm/Common/Data/NotFound.elm:165
 msgid "Go to roles"
@@ -4285,8 +4283,9 @@ msgid "Unable to save the file."
 msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:593
+#, fuzzy
 msgid "Unable to publish the document template."
-msgstr ""
+msgstr "Nelze publikovat šablonu dokumentů"
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:628
 msgid "Unable to get the file."
@@ -4298,8 +4297,9 @@ msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:718
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1062
+#, fuzzy
 msgid "Unable to get the preview."
-msgstr ""
+msgstr "Nelze zobrazit náhled."
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:769
 #: packages/elm-common/elm/Common/Pages/KMEditor/Index.elm:201
@@ -4307,16 +4307,18 @@ msgid "Unable to get knowledge model editors."
 msgstr "Nelze získat editory znalostních modelů."
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:1060
+#, fuzzy
 msgid "Unable to save the document template."
-msgstr ""
+msgstr "Nelze uložit šablonu dokumentů"
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:1174
 msgid "That did not work."
 msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:1384
+#, fuzzy
 msgid "Document template editor"
-msgstr ""
+msgstr "editorů šablon dokumentů"
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:1424
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:2139
@@ -4386,8 +4388,9 @@ msgstr ""
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:1664
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1774
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1994
+#, fuzzy
 msgid "Knowledge model editor"
-msgstr ""
+msgstr "editorů znalostních modelů"
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:1665
 msgid "Select knowledge model editor"
@@ -4676,8 +4679,9 @@ msgid "Created"
 msgstr "Vytvořeno"
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Index.elm:218
+#, fuzzy
 msgid "No document template editors"
-msgstr ""
+msgstr "editorů šablon dokumentů"
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Index.elm:219
 msgid "Click \"Create\" button to add a new document template editor."
@@ -4846,8 +4850,9 @@ msgid "No locales policy"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplates/Detail.elm:595
+#, fuzzy
 msgid "There are no locales policy for this document template yet."
-msgstr ""
+msgstr "Zatím zde nejsou žádné lokalizace této šablony dokumentů."
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplates/Detail.elm:604
 #: packages/elm-common/elm/Common/Pages/KnowledgeModels/Detail.elm:575
@@ -4938,8 +4943,9 @@ msgid "Document template could not be updated."
 msgstr "Šablona dokumentů nemohla být aktualizována."
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplates/Index.elm:249
+#, fuzzy
 msgid "No document templates"
-msgstr ""
+msgstr "šablon dokumentů"
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplates/Index.elm:252
 msgid "Click \"Import\" button to import a new document template."
@@ -5131,16 +5137,19 @@ msgid "Unable to save the settings."
 msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:800
+#, fuzzy
 msgid "Unable to delete the knowledge model editor."
-msgstr ""
+msgstr "Nelze získat editor znalostního modelu."
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:820
+#, fuzzy
 msgid "Unable to publish the knowledge model."
-msgstr ""
+msgstr "Nelze publikovat znalostní model"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1033
+#, fuzzy
 msgid "Unable to get the test result."
-msgstr ""
+msgstr "Nelze získat výsledek testu."
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1528
 #: packages/elm-common/elm/Common/Pages/Projects/Detail.elm:901
@@ -6121,8 +6130,9 @@ msgid "Migration was successfully canceled."
 msgstr "Migrace byla úspěšně zrušena."
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Index.elm:134
+#, fuzzy
 msgid "Migration could not be canceled."
-msgstr ""
+msgstr "Migraci nebylo možné zrušit."
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Index.elm:247
 msgid "Search KM editors..."
@@ -6182,12 +6192,14 @@ msgid "Cancel migration"
 msgstr "Zrušit migraci"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:129
+#, fuzzy
 msgid "Unable to get the migration."
-msgstr ""
+msgstr "Nelze získat migraci."
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:155
+#, fuzzy
 msgid "Unable to resolve the conflict."
-msgstr ""
+msgstr "Nelze vyřešit konflikt."
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:236
 msgid "Migration of %s from %s to %s."
@@ -6358,8 +6370,9 @@ msgid "Item questions"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:1095
+#, fuzzy
 msgid "Yes"
-msgstr ""
+msgstr "Ano"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:1098
 msgid "No"
@@ -6759,8 +6772,9 @@ msgid "This is not the latest available version of this knowledge model."
 msgstr "Toto není poslední dostupná verze tohoto znalostního modelu."
 
 #: packages/elm-common/elm/Common/Pages/KnowledgeModels/Detail.elm:565
+#, fuzzy
 msgid "There are no locales policy for this knowledge model yet."
-msgstr ""
+msgstr "Zatím nejsou žádné překlady pro tento znalostní model."
 
 #: packages/elm-common/elm/Common/Pages/KnowledgeModels/Detail.elm:640
 msgid "Fork of"
@@ -6813,12 +6827,14 @@ msgid "Unable to get resource page."
 msgstr "Nelze získat stránku zdroje."
 
 #: packages/elm-common/elm/Common/Pages/Layout.elm:162
+#, fuzzy
 msgid "Document Template Editor"
-msgstr ""
+msgstr "Editory šablon dokumentů"
 
 #: packages/elm-common/elm/Common/Pages/Layout.elm:184
+#, fuzzy
 msgid "Knowledge Model Editor"
-msgstr ""
+msgstr "Editory znalostních modelů"
 
 #: packages/elm-common/elm/Common/Pages/Layout.elm:190
 msgid "Migration"
@@ -7033,8 +7049,9 @@ msgstr "Neexistují žádné projektové soubory."
 
 #: packages/elm-common/elm/Common/Pages/ProjectFiles/Index.elm:313
 #: packages/elm-common/elm/Common/Pages/Projects/Detail/Files.elm:323
+#, fuzzy
 msgid "Are you sure you want to permanently delete this file?"
-msgstr ""
+msgstr "Opravdu chcete nevratně odstranit %s?"
 
 #: packages/elm-common/elm/Common/Pages/Projects/Components/CloneProjectModal.elm:101
 msgid "Unable to clone project."
@@ -8741,8 +8758,9 @@ msgid "The user group you are looking for was not found."
 msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/UserGroups/Detail.elm:191
+#, fuzzy
 msgid "Unable to get the user group."
-msgstr ""
+msgstr "Nelze získat skupiny uživatelů."
 
 #: packages/elm-common/elm/Common/Pages/UserGroups/Detail.elm:217
 msgid "User group was successfully updated."
@@ -8853,8 +8871,9 @@ msgid "Delete User Group"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/UserGroups/Index.elm:304
+#, fuzzy
 msgid "Are you sure you want to permanently delete the following user group?"
-msgstr ""
+msgstr "Opravdu chcete nevratně odstranit následujícího uživatele?"
 
 #: packages/elm-common/elm/Common/Pages/Users/Create.elm:92
 #: packages/elm-common/elm/Common/Pages/Users/Edit/Profile.elm:136
@@ -8918,8 +8937,9 @@ msgid "Revoke"
 msgstr "Odvolání"
 
 #: packages/elm-common/elm/Common/Pages/Users/Edit/ActiveSessions.elm:228
+#, fuzzy
 msgid "Revoke session %s"
-msgstr ""
+msgstr "Odvolání relace"
 
 #: packages/elm-common/elm/Common/Pages/Users/Edit/ActiveSessions.elm:235
 msgid "Session"

@@ -20,285 +20,288 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.17.1\n"
 
-#: templates/_common/footer.html.j2:155 templates/_common/footer.txt.j2:7
+#: _common/footer.html.j2:155 _common/footer.txt.j2:7
 msgid "Please do not reply to this email"
 msgstr "請勿回覆此電子郵件"
 
-#: templates/_common/footer.html.j2:159 templates/_common/footer.txt.j2:9
+#: _common/footer.html.j2:159 _common/footer.txt.j2:9
 msgid "This email was generated from"
 msgstr "此電子郵件由以下來源產生："
 
-#: templates/_common/footer.txt.j2:2
-#: templates/wizard/apiKeyCreated/message.html.j2:81
-#: templates/wizard/apiKeyExpiration/message.html.j2:79
-#: templates/wizard/commentThreadAssigned/message.html.j2:123
-#: templates/wizard/emailChange/message.html.j2:79
-#: templates/wizard/projectInvitation/message.html.j2:80
-#: templates/wizard/registrationConfirmation/message.html.j2:78
-#: templates/wizard/resetPassword/message.html.j2:77
-#: templates/wizard/twoFactorAuth/message.html.j2:76
+#: _common/footer.txt.j2:2 registry/registrationConfirmation/message.html.j2:75
+#: registry/resetPassword/message.html.j2:75
+#: wizard/apiKeyCreated/message.html.j2:81
+#: wizard/apiKeyExpiration/message.html.j2:79
+#: wizard/commentThreadAssigned/message.html.j2:123
+#: wizard/emailChange/message.html.j2:79
+#: wizard/projectInvitation/message.html.j2:80
+#: wizard/registrationConfirmation/message.html.j2:78
+#: wizard/resetPassword/message.html.j2:77
+#: wizard/twoFactorAuth/message.html.j2:76
 msgid "Thank you for using DSW!"
 msgstr "感謝您使用 DSW！"
 
-#: templates/_common/footer.txt.j2:5
-#: templates/wizard/apiKeyCreated/message.html.j2:82
-#: templates/wizard/apiKeyExpiration/message.html.j2:80
-#: templates/wizard/commentThreadAssigned/message.html.j2:124
-#: templates/wizard/emailChange/message.html.j2:80
-#: templates/wizard/projectInvitation/message.html.j2:81
-#: templates/wizard/registrationConfirmation/message.html.j2:79
-#: templates/wizard/resetPassword/message.html.j2:78
-#: templates/wizard/twoFactorAuth/message.html.j2:77
+#: _common/footer.txt.j2:5 registry/registrationConfirmation/message.html.j2:76
+#: registry/resetPassword/message.html.j2:76
+#: wizard/apiKeyCreated/message.html.j2:82
+#: wizard/apiKeyExpiration/message.html.j2:80
+#: wizard/commentThreadAssigned/message.html.j2:124
+#: wizard/emailChange/message.html.j2:80
+#: wizard/projectInvitation/message.html.j2:81
+#: wizard/registrationConfirmation/message.html.j2:79
+#: wizard/resetPassword/message.html.j2:78
+#: wizard/twoFactorAuth/message.html.j2:77
 msgid "team"
 msgstr "團隊"
 
-#: templates/wizard/apiKeyCreated/message.html.j2:25
-#: templates/wizard/apiKeyCreated/message.txt.j2:6
-#: templates/wizard/apiKeyExpiration/message.html.j2:25
-#: templates/wizard/apiKeyExpiration/message.txt.j2:6
-#: templates/wizard/commentThreadAssigned/message.html.j2:31
-#: templates/wizard/commentThreadAssigned/message.txt.j2:12
-#: templates/wizard/emailChange/message.html.j2:23
-#: templates/wizard/emailChange/message.txt.j2:3
-#: templates/wizard/projectInvitation/message.html.j2:26
-#: templates/wizard/projectInvitation/message.txt.j2:6
-#: templates/wizard/registrationConfirmation/message.html.j2:23
-#: templates/wizard/registrationConfirmation/message.txt.j2:3
-#: templates/wizard/resetPassword/message.html.j2:22
-#: templates/wizard/resetPassword/message.txt.j2:3
-#: templates/wizard/twoFactorAuth/message.html.j2:22
-#: templates/wizard/twoFactorAuth/message.txt.j2:4
-#, python-format
+#: registry/registrationConfirmation/message.html.j2:23
+#: registry/registrationConfirmation/message.txt.j2:3
+#: registry/resetPassword/message.html.j2:23
+#: registry/resetPassword/message.txt.j2:3
+#: wizard/apiKeyCreated/message.html.j2:25
+#: wizard/apiKeyCreated/message.txt.j2:6
+#: wizard/apiKeyExpiration/message.html.j2:25
+#: wizard/apiKeyExpiration/message.txt.j2:6
+#: wizard/commentThreadAssigned/message.html.j2:31
+#: wizard/commentThreadAssigned/message.txt.j2:12
+#: wizard/emailChange/message.html.j2:23 wizard/emailChange/message.txt.j2:3
+#: wizard/projectInvitation/message.html.j2:26
+#: wizard/projectInvitation/message.txt.j2:6
+#: wizard/registrationConfirmation/message.html.j2:23
+#: wizard/registrationConfirmation/message.txt.j2:3
+#: wizard/resetPassword/message.html.j2:22
+#: wizard/resetPassword/message.txt.j2:3
+#: wizard/twoFactorAuth/message.html.j2:22
+#: wizard/twoFactorAuth/message.txt.j2:4
 msgid "Hello %(userFirstName)s"
 msgstr "Hello %(userFirstName)s"
 
-#: templates/wizard/apiKeyCreated/message.html.j2:26
-#: templates/wizard/apiKeyCreated/message.txt.j2:8
-#, python-format
+#: registry/registrationConfirmation/message.html.j2:24
+#: registry/registrationConfirmation/message.txt.j2:5
+msgid "Your registration is almost done. Just one more step to go."
+msgstr ""
+
+#: registry/registrationConfirmation/message.html.j2:25
+#: wizard/registrationConfirmation/message.html.j2:25
+msgid "To activate your account, please click on the button below."
+msgstr "要啟用您的帳號，請點擊下方按鈕。"
+
+#: registry/registrationConfirmation/message.html.j2:50
+#: wizard/registrationConfirmation/message.html.j2:50
+msgid "Activate your account"
+msgstr "啟用您的帳號"
+
+#: registry/registrationConfirmation/message.txt.j2:7
+#: wizard/registrationConfirmation/message.txt.j2:7
+msgid "To activate your account, please proceed here"
+msgstr "要啟用您的帳號，請前往這裡"
+
+#: registry/registrationConfirmation/subject.txt.j2:1
+#: wizard/registrationConfirmation/subject.txt.j2:1
+msgid "Registration Confirmation"
+msgstr "註冊確認"
+
+#: registry/resetPassword/message.html.j2:24
+#: registry/resetPassword/message.txt.j2:5
+#: wizard/resetPassword/message.html.j2:23
+#: wizard/resetPassword/message.txt.j2:5
+msgid "Forgot your password? No problem, that happens to the best of us!"
+msgstr "忘記密碼了嗎？沒問題，難免會發生，小事一件！"
+
+#: registry/resetPassword/message.html.j2:25
+#: wizard/resetPassword/message.html.j2:24
+msgid "You can easily set up a new password by clicking on the button below."
+msgstr "您只要點擊下方按鈕，就能輕鬆設定新密碼。"
+
+#: registry/resetPassword/message.html.j2:50
+#: wizard/resetPassword/message.html.j2:49
+msgid "Set up a new password"
+msgstr "設定新密碼"
+
+#: registry/resetPassword/message.txt.j2:6
+#: wizard/resetPassword/message.txt.j2:6
+msgid "You can easily set up a new password here"
+msgstr "您可以在這裡快速設定新密碼"
+
+#: registry/resetPassword/subject.txt.j2:1
+#: wizard/resetPassword/subject.txt.j2:1
+msgid "Reset Password"
+msgstr "重設密碼"
+
+#: wizard/apiKeyCreated/message.html.j2:26
+#: wizard/apiKeyCreated/message.txt.j2:8
 msgid "A new API key named %(tokenName)s has been created for your account."
 msgstr "已為您的帳號建立名為 %(tokenName)s 的新 API 金鑰。"
 
-#: templates/wizard/apiKeyCreated/message.html.j2:28
-#: templates/wizard/apiKeyCreated/message.txt.j2:10
-#, python-format
+#: wizard/apiKeyCreated/message.html.j2:28
+#: wizard/apiKeyCreated/message.txt.j2:10
 msgid "It will expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
 msgstr "將於 %(tokenExpirationDate)s %(tokenExpirationTime)s 到期。"
 
-#: templates/wizard/apiKeyCreated/message.html.j2:53
-#: templates/wizard/apiKeyExpiration/message.html.j2:51
+#: wizard/apiKeyCreated/message.html.j2:53
+#: wizard/apiKeyExpiration/message.html.j2:51
 msgid "Manage API Keys"
 msgstr "管理 API 金鑰"
 
-#: templates/wizard/apiKeyCreated/message.html.j2:79
-#: templates/wizard/apiKeyCreated/message.txt.j2:15
+#: wizard/apiKeyCreated/message.html.j2:79
+#: wizard/apiKeyCreated/message.txt.j2:15
 msgid "If you did not initiate this action, please contact us via"
 msgstr "若非您本人發起此操作，請透過以下方式與我們聯絡"
 
-#: templates/wizard/apiKeyCreated/message.txt.j2:12
-#: templates/wizard/apiKeyExpiration/message.txt.j2:10
+#: wizard/apiKeyCreated/message.txt.j2:12
+#: wizard/apiKeyExpiration/message.txt.j2:10
 msgid "You can manage your API keys here:"
 msgstr "您可於此管理您的 API 金鑰："
 
-#: templates/wizard/apiKeyCreated/subject.txt.j2:1
+#: wizard/apiKeyCreated/subject.txt.j2:1
 msgid "New API Key Created"
 msgstr "以建立新 API 金鑰"
 
-#: templates/wizard/apiKeyExpiration/message.html.j2:26
-#: templates/wizard/apiKeyExpiration/message.txt.j2:8
-#, python-format
+#: wizard/apiKeyExpiration/message.html.j2:26
+#: wizard/apiKeyExpiration/message.txt.j2:8
 msgid "Your API key, identified as %(tokenName)s, is scheduled to expire on %(tokenExpirationDate)s at %(tokenExpirationTime)s."
 msgstr "您的 API 金鑰（名稱：%(tokenName)s）將於 %(tokenExpirationDate)s %(tokenExpirationTime)s 到期。"
 
-#: templates/wizard/apiKeyExpiration/message.html.j2:77
-#: templates/wizard/apiKeyExpiration/message.txt.j2:13
+#: wizard/apiKeyExpiration/message.html.j2:77
+#: wizard/apiKeyExpiration/message.txt.j2:13
 msgid "If you encounter any issues, please contact us via"
 msgstr "如遇任何問題，請透過以下方式與我們聯絡"
 
-#: templates/wizard/apiKeyExpiration/subject.txt.j2:1
+#: wizard/apiKeyExpiration/subject.txt.j2:1
 msgid "API Key Expiring Soon"
 msgstr "API 金鑰即將到期"
 
-#: templates/wizard/commentThreadAssigned/message.html.j2:32
-#: templates/wizard/commentThreadAssigned/message.txt.j2:14
-#, python-format
+#: wizard/commentThreadAssigned/message.html.j2:32
+#: wizard/commentThreadAssigned/message.txt.j2:14
 msgid "The following comment thread has been assigned to you:"
 msgid_plural "The following %(count)s comment threads have been assigned to you:"
 msgstr[0] "以下 %(count)s 則留言討論串已指派給您："
 
-#: templates/wizard/commentThreadAssigned/message.html.j2:73
-#: templates/wizard/commentThreadAssigned/message.txt.j2:20
+#: wizard/commentThreadAssigned/message.html.j2:73
+#: wizard/commentThreadAssigned/message.txt.j2:20
 msgid "Question"
 msgstr "問題"
 
-#: templates/wizard/commentThreadAssigned/message.html.j2:80
-#: templates/wizard/commentThreadAssigned/message.txt.j2:21
+#: wizard/commentThreadAssigned/message.html.j2:80
+#: wizard/commentThreadAssigned/message.txt.j2:21
 msgid "Assigned by"
 msgstr "指派人"
 
-#: templates/wizard/commentThreadAssigned/message.html.j2:83
+#: wizard/commentThreadAssigned/message.html.j2:83
 msgid "Open"
 msgstr "開啟"
 
-#: templates/wizard/commentThreadAssigned/message.html.j2:118
+#: wizard/commentThreadAssigned/message.html.j2:118
 msgid "View all comment threads assigned to you"
 msgstr "檢視所有指派給您的留言討論串"
 
-#: templates/wizard/commentThreadAssigned/message.html.j2:121
-#: templates/wizard/emailChange/message.html.j2:77
-#: templates/wizard/projectInvitation/message.html.j2:78
-#: templates/wizard/registrationConfirmation/message.html.j2:76
-#: templates/wizard/resetPassword/message.html.j2:75
+#: wizard/commentThreadAssigned/message.html.j2:121
+#: wizard/emailChange/message.html.j2:77
+#: wizard/projectInvitation/message.html.j2:78
+#: wizard/registrationConfirmation/message.html.j2:76
+#: wizard/resetPassword/message.html.j2:75
 msgid "If any problem occurs contact us via"
 msgstr "如發生任何問題，請透過以下方式與我們聯絡"
 
-#: templates/wizard/commentThreadAssigned/message.txt.j2:20
+#: wizard/commentThreadAssigned/message.txt.j2:20
 msgid "(unknown)"
 msgstr "(未知)"
 
-#: templates/wizard/commentThreadAssigned/message.txt.j2:21
+#: wizard/commentThreadAssigned/message.txt.j2:21
 msgid "already resolved"
 msgstr "已解決"
 
-#: templates/wizard/commentThreadAssigned/message.txt.j2:21
+#: wizard/commentThreadAssigned/message.txt.j2:21
 msgid "unresolved"
 msgstr "未解決"
 
-#: templates/wizard/commentThreadAssigned/message.txt.j2:21
+#: wizard/commentThreadAssigned/message.txt.j2:21
 msgid "private editor note"
 msgstr "私人編輯備註"
 
-#: templates/wizard/commentThreadAssigned/subject.txt.j2:1
+#: wizard/commentThreadAssigned/subject.txt.j2:1
 msgid "Assigned to Comment Threads"
 msgstr "已指派的留言討論串"
 
-#: templates/wizard/emailChange/message.html.j2:24
-#: templates/wizard/emailChange/message.txt.j2:5
+#: wizard/emailChange/message.html.j2:24 wizard/emailChange/message.txt.j2:5
 msgid "You recently requested to change the email address associated with your DSW account."
 msgstr "您最近要求變更 DSW 帳號的電子郵件。"
 
-#: templates/wizard/emailChange/message.html.j2:25
+#: wizard/emailChange/message.html.j2:25
 msgid "To confirm that this email address is correct, please click on the button below."
 msgstr "若要確認這個電子郵件地址是否正確，請點擊下方按鈕。"
 
-#: templates/wizard/emailChange/message.html.j2:50
+#: wizard/emailChange/message.html.j2:50
 msgid "Verify your email"
 msgstr "驗證您的電子郵件"
 
-#: templates/wizard/emailChange/message.html.j2:75
+#: wizard/emailChange/message.html.j2:75
 msgid "In case you did not request this change, you can safely ignore this email."
 msgstr "如果您沒有提出這項變更，可以直接忽略這封電子郵件。"
 
-#: templates/wizard/emailChange/message.txt.j2:7
+#: wizard/emailChange/message.txt.j2:7
 msgid "To confirm that this email address is correct, please proceed here"
 msgstr "要確認此電子郵件地址是否正確，請前往這裡"
 
-#: templates/wizard/emailChange/message.txt.j2:9
+#: wizard/emailChange/message.txt.j2:9
 msgid "If you did not request this change, you can safely ignore this email."
 msgstr "若您未要求此變更，可以放心忽略這封電子郵件。"
 
-#: templates/wizard/emailChange/subject.txt.j2:1
+#: wizard/emailChange/subject.txt.j2:1
 msgid "Email Address Confirmation"
 msgstr "電子郵件確認"
 
-#: templates/wizard/projectInvitation/message.html.j2:27
-#: templates/wizard/projectInvitation/message.txt.j2:8
-#, python-format
+#: wizard/projectInvitation/message.html.j2:27
+#: wizard/projectInvitation/message.txt.j2:8
 msgid "%(ownerFirstName)s %(ownerLastName)s has invited you to the project %(projectName)s"
 msgstr "%(ownerFirstName)s %(ownerLastName)s 已邀請您加入此專案 %(projectName)s"
 
-#: templates/wizard/projectInvitation/message.html.j2:52
+#: wizard/projectInvitation/message.html.j2:52
 msgid "Open project"
 msgstr "開啟專案"
 
-#: templates/wizard/projectInvitation/subject.txt.j2:1
+#: wizard/projectInvitation/subject.txt.j2:1
 msgid "Project Invitation"
 msgstr "專案邀請"
 
-#: templates/wizard/registrationConfirmation/message.html.j2:24
-#: templates/wizard/registrationConfirmation/message.txt.j2:5
+#: wizard/registrationConfirmation/message.html.j2:24
+#: wizard/registrationConfirmation/message.txt.j2:5
 msgid "Welcome aboard! Well, you’re almost set. Just one more step and you can start using the DSW."
 msgstr "歡迎加入！哦，快完成囉，只要再完成最後一步，您就可以開始使用 DSW。"
 
-#: templates/wizard/registrationConfirmation/message.html.j2:25
-msgid "To activate your account, please click on the button below."
-msgstr "要啟用您的帳號，請點擊下方按鈕。"
-
-#: templates/wizard/registrationConfirmation/message.html.j2:50
-msgid "Activate your account"
-msgstr "啟用您的帳號"
-
-#: templates/wizard/registrationConfirmation/message.txt.j2:7
-msgid "To activate your account, please proceed here"
-msgstr "要啟用您的帳號，請前往這裡"
-
-#: templates/wizard/registrationConfirmation/subject.txt.j2:1
-msgid "Registration Confirmation"
-msgstr "註冊確認"
-
-#: templates/wizard/registrationCreatedAnalytics/message.html.j2:19
-#: templates/wizard/registrationCreatedAnalytics/message.txt.j2:1
-msgid "Hello!"
-msgstr "Hello!"
-
-#: templates/wizard/registrationCreatedAnalytics/message.html.j2:20
-#: templates/wizard/registrationCreatedAnalytics/message.txt.j2:3
-msgid "Good news — we have a new user in"
-msgstr "好消息——我們新增了一位使用者在"
-
-#: templates/wizard/registrationCreatedAnalytics/message.html.j2:23
-#: templates/wizard/registrationCreatedAnalytics/message.txt.j2:5
-msgid "Name"
-msgstr "名稱"
-
-#: templates/wizard/registrationCreatedAnalytics/message.html.j2:25
-#: templates/wizard/registrationCreatedAnalytics/message.txt.j2:6
-msgid "Email"
-msgstr "電子郵件"
-
-#: templates/wizard/registrationCreatedAnalytics/message.html.j2:30
-msgid "Have a nice day!"
-msgstr "祝您有美好的一天！"
-
-#: templates/wizard/registrationCreatedAnalytics/subject.txt.j2:1
-msgid "New User Registered"
-msgstr "新使用者已註冊"
-
-#: templates/wizard/resetPassword/message.html.j2:23
-#: templates/wizard/resetPassword/message.txt.j2:5
-msgid "Forgot your password? No problem, that happens to the best of us!"
-msgstr "忘記密碼了嗎？沒問題，難免會發生，小事一件！"
-
-#: templates/wizard/resetPassword/message.html.j2:24
-msgid "You can easily set up a new password by clicking on the button below."
-msgstr "您只要點擊下方按鈕，就能輕鬆設定新密碼。"
-
-#: templates/wizard/resetPassword/message.html.j2:49
-msgid "Set up a new password"
-msgstr "設定新密碼"
-
-#: templates/wizard/resetPassword/message.txt.j2:6
-msgid "You can easily set up a new password here"
-msgstr "您可以在這裡快速設定新密碼"
-
-#: templates/wizard/resetPassword/subject.txt.j2:1
-msgid "Reset Password"
-msgstr "重設密碼"
-
-#: templates/wizard/twoFactorAuth/message.html.j2:23
-#: templates/wizard/twoFactorAuth/message.txt.j2:6
+#: wizard/twoFactorAuth/message.html.j2:23
+#: wizard/twoFactorAuth/message.txt.j2:6
 msgid "You have requested an authentication code to log in to your account. Your code is:"
 msgstr "您已申請用於登入帳號的驗證碼。您的驗證碼是："
 
-#: templates/wizard/twoFactorAuth/message.html.j2:71
-#: templates/wizard/twoFactorAuth/message.txt.j2:10
+#: wizard/twoFactorAuth/message.html.j2:71
+#: wizard/twoFactorAuth/message.txt.j2:10
 msgid "This code is valid for"
 msgstr "此驗證碼有效期限為"
 
-#: templates/wizard/twoFactorAuth/message.html.j2:74
-#: templates/wizard/twoFactorAuth/message.txt.j2:12
+#: wizard/twoFactorAuth/message.html.j2:74
+#: wizard/twoFactorAuth/message.txt.j2:12
 msgid "If you did not initiate this login attempt, please contact us via"
 msgstr "若您並未發起此次登入嘗試，請透過以下方式與我們聯繫："
 
-#: templates/wizard/twoFactorAuth/subject.txt.j2:1
+#: wizard/twoFactorAuth/subject.txt.j2:1
 msgid "Two-Factor Login Verification"
 msgstr "兩步驟登入驗證"
+
+#~ msgid "Hello!"
+#~ msgstr "Hello!"
+
+#~ msgid "Good news — we have a new user in"
+#~ msgstr "好消息——我們新增了一位使用者在"
+
+#~ msgid "Name"
+#~ msgstr "名稱"
+
+#~ msgid "Email"
+#~ msgstr "電子郵件"
+
+#~ msgid "Have a nice day!"
+#~ msgstr "祝您有美好的一天！"
+
+#~ msgid "New User Registered"
+#~ msgstr "新使用者已註冊"

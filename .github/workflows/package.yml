@@ -22,21 +22,15 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
-      
-      - name: Set up Node.js
-        uses: actions/setup-node@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
         with:
-          node-version: '22.x'
-          registry-url: 'https://registry.npmjs.org'
+          python-version: '3.13'
 
-      - name: Install DSW Locale Packager
+      - name: Create locale package (PO files)
         run: |
-          npm install @ds-wizard/locale-packager@0.3.0
-
-      - name: Create locale package (unzipped)
-        run: |
-          mkdir out
-          npx dsw-locale-packager locales/${{ matrix.locale }} -o out/
+          python scripts/package.py locales/${{ matrix.locale }} -o out/
 
       - name: Upload packages as artifact
         uses: actions/upload-artifact@v4
@@ -63,12 +57,6 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v6
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: '22.x'
-          registry-url: 'https://registry.npmjs.org'
-
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
@@ -76,18 +64,16 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install @ds-wizard/locale-packager@0.3.0
           pip install -r scripts/requirements.txt
 
-      - name: Create locale package (ZIP)
+      - name: Create locale package (PO files)
         run: |
-          mkdir out
-          npx dsw-locale-packager locales/${{ matrix.locale }} -o out/locale.zip -z
+          python scripts/package.py locales/${{ matrix.locale }} -o out/
 
       - name: Push to DSW
+        # Uploading a PO file replaces the existing locale with the same code
         run: |
-          python scripts/dsw-locales.py clear -y -o dsw -l ${{ matrix.locale }}
-          python scripts/dsw-locales.py push out/locale.zip -e
+          python scripts/dsw-locales.py push out/wizard.po out/mail.po -e
         env:
           DSW_API_URL: ${{ secrets.TRANSLATORS_DSW_API_URL }}
           DSW_API_KEY: ${{ secrets.TRANSLATORS_DSW_API_KEY }}

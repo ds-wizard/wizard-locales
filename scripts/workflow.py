@@ -1,8 +1,9 @@
-import json
 import pathlib
 import subprocess
 
 import click
+
+from package import read_header_fields
 
 SCRIPTS_DIR = pathlib.Path(__file__).parent
 
@@ -66,8 +67,16 @@ def _release(version: str, locales_dir: pathlib.Path):
     click.echo('REPO: Pulling latest changes')
     _run('git', 'pull', 'origin', f'v{major}.{minor}')
 
-    # Update version in locale.json files
-    click.echo('REPO: Updating version in locale.json files')
+    # Since 5.0, the locale version is taken from POT files (Project-Id-Version)
+    # and stamped into PO files during packaging (scripts/package.py)
+    click.echo('REPO: Checking POT versions')
+    for pot_name in ('wizard.pot', 'mail.pot'):
+        pot_version = read_header_fields(locales_dir.parent / pot_name).get('Project-Id-Version', '')
+        click.echo(f'- {pot_name}: {pot_version}')
+        if not pot_version.endswith(f':{major}.{minor}.0'):
+            click.echo(f'- Warning: {pot_name} version does not match {major}.{minor}.0', err=True)
+
+    click.echo('REPO: Selecting locales to release')
     langs = []
     for locale_dir in sorted(locales_dir.iterdir()):
         if not locale_dir.is_dir():
@@ -77,18 +86,13 @@ def _release(version: str, locales_dir: pathlib.Path):
         if not locale_json.is_file():
             click.echo(f'- Warning: locale.json not found for locale {locale_id}, skipping', err=True)
             continue
-        data = json.loads(locale_json.read_text(encoding='utf-8'))
         process = click.prompt(f'> Do you want to release locale {locale_id}?',
                                show_default=True, type=bool, default=True)
         if not process:
             click.echo(f'- Skipping locale {locale_id}')
             continue
         langs.append(locale_id)
-        click.echo(f'- Processing locale {locale_id}')
-        data['version'] = version
-        data['recommendedAppVersion'] = f'{major}.{minor}.0'
-        locale_json.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
-        click.echo(f'- Updated version in {locale_json}')
+        click.echo(f'- Releasing locale {locale_id}')
 
     # Let user do manual changes
     click.echo('REPO: You can now make any manual changes if necessary')
@@ -97,7 +101,7 @@ def _release(version: str, locales_dir: pathlib.Path):
     # Commit and push changes
     click.echo('REPO: Committing all changes')
     _run('git', 'add', '-A')
-    _run('git', 'commit', '-m', f'Release {version} ({', '.join(langs)})')
+    _run('git', 'commit', '--allow-empty', '-m', f'Release {version} ({', '.join(langs)})')
     click.echo('REPO: Pushing changes to remote')
     _run('git', 'push', 'origin', f'v{major}.{minor}')
     click.echo('REPO: Creating git tags')

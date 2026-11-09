@@ -14,49 +14,43 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
-      
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
         with:
-          node-version: '22.x'
-          registry-url: 'https://registry.npmjs.org'
+          python-version: '3.13'
 
       - name: Extract tag
         run: |
           echo "TAG=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
-      
+
       - name: Extract version
         run: |
           VERSION=$(echo $TAG | sed 's/^v\([0-9]*\.[0-9]*\.[0-9]*\)-.*$/\1/')
           echo "VERSION=${VERSION}" >> $GITHUB_ENV
-      
+
       - name: Extract language code
         run: |
           LANG=$(echo $TAG | sed 's/^v[0-9]*\.[0-9]*\.[0-9]*-\(.*\)$/\1/')
           echo "LANG=${LANG}" >> $GITHUB_ENV
-      
+
       - name: Check locale to release
         run: |
           ls -lah locales/$LANG
 
-      - name: Install DSW Locale Packager
+      - name: Create locale package (PO files)
         run: |
-          npm install @ds-wizard/locale-packager@0.3.0
+          python scripts/package.py locales/$LANG -o out/ -p dsw_${{ env.LANG }}_${{ env.VERSION }}_
 
-      - name: Create locale ZIP package
-        run: |
-          npx dsw-locale-packager locales/$LANG -o dsw_${{ env.LANG }}_${{ env.VERSION }}.zip -z
-          
-      - name: Create release and upload ZIP
+      - name: Create release and upload PO files
         uses: ncipollo/release-action@v1
         id: create_release
         with:
           allowUpdates: true
           artifactErrorsFailBuild: true
-          artifacts: "dsw_${{ env.LANG }}_${{ env.VERSION }}.zip"
-          artifactContentType: application/zip
-          prerelease: ${{ steps.check_prerelease.outputs.is_prerelease }}
+          artifacts: "out/*.po"
+          artifactContentType: text/x-gettext-translation
           replacesArtifacts: true
 
   push:
@@ -64,27 +58,16 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22.x'
-          registry-url: 'https://registry.npmjs.org'
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          node-version: '3.12'
+          python-version: '3.13'
 
       - name: Extract tag
         run: |
           echo "TAG=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
-
-      - name: Extract version
-        run: |
-          VERSION=$(echo $TAG | sed 's/^v\([0-9]*\.[0-9]*\.[0-9]*\)-.*$/\1/')
-          echo "VERSION=${VERSION}" >> $GITHUB_ENV
 
       - name: Extract language code
         run: |
@@ -97,17 +80,16 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install @ds-wizard/locale-packager@0.3.0
           pip install -r scripts/requirements.txt
 
-      - name: Create locale ZIP package
+      - name: Create locale package (PO files)
         run: |
-          npx dsw-locale-packager locales/$LANG -o dsw_${{ env.LANG }}_${{ env.VERSION }}.zip -z
+          python scripts/package.py locales/$LANG -o out/
 
       - name: Push to DSW
+        # Uploading a PO file replaces the existing locale with the same code
         run: |
-          python scripts/dsw-locales.py clear -y -o dsw -l ${{ env.LANG }}
-          python scripts/dsw-locales.py push dsw_${{ env.LANG }}_${{ env.VERSION }}.zip -e
+          python scripts/dsw-locales.py push out/wizard.po out/mail.po -e
         env:
           DSW_API_URL: ${{ secrets.INTERNAL_DSW_API_URL }}
           DSW_API_KEY: ${{ secrets.INTERNAL_DSW_API_KEY }}

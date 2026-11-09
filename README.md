@@ -56,6 +56,12 @@ We keep the directory structure as follows:
 * `mail.pot` = source (POT) file for mail templates messages
 * `wizard.pot` = source (POT) file for `wizard-client` messages
 
+Since Wizard 5.0, a locale is uploaded as plain PO files (`wizard.po` for the UI, `mail.po` for mail templates) and its metadata is read from the PO header. `scripts/package.py` produces upload-ready PO files and sets the header fields `Project-Id-Version` (from the POT file, e.g. `dsw-client:5.0.0`), `Language` (`code` from `locale.json`, e.g. `pt-BR`) and `X-Display-Name` (`name` from `locale.json`):
+
+```bash
+python scripts/package.py locales/cs -o out/
+```
+
 It is important to keep the structure consistent across all languages. The repository maintainers will take care of metadata and information about locales and ask contributors for details if needed.
 
 For each Wizard Client version, there is a separate branch in this repository. That allows to develop locales also for historical versions even if a newer version is released. Everytime a new version of Wizard Client is released, a new branch is created from the previous version-branch, and POT filesare updated; then all PO files are refreshed (`msgmerge`) together with locales metadata and READMEs. Then, translation work can continue. In [localize.ds-wizard.org](https://localize.ds-wizard.org), a new component is added according to the version.

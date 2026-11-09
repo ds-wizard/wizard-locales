@@ -7,17 +7,7 @@
 # Marek Suchánek <marek.suchanek@gmail.com>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:4.1.0\n"
-"POT-Creation-Date: 2026-11-05T16:52:49.307Z \n"
-"PO-Revision-Date: 2026-11-09 09:25+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\n"
-"Language-Team: Slovenian <https://localize.ds-wizard.org/projects/dsw-5-0/client/sl/>\n"
-"Language: sl\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 5.17.1\n"
+msgstr "Project-Id-Version: wizard-client:4.1.0\nPOT-Creation-Date: 2026-11-05T16:52:49.307Z\nPO-Revision-Date: 2026-11-09 09:48+0000\nLast-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>\nLanguage-Team: Slovenian <https://localize.ds-wizard.org/projects/dsw-5-0/client/sl/>\nLanguage: sl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\nX-Generator: Weblate 5.17.1\n"
 
 #: apps/dsw/elm/Dsw/Layouts/AppLayout.elm:131
 #: packages/elm-common/elm/Common/Pages/Layout.elm:134
@@ -683,8 +673,9 @@ msgid "There is already an ongoing project migration."
 msgstr "Migracija projekta je že v teku."
 
 #: packages/elm-common/elm/Common/Api/ServerError.elm:340
+#, fuzzy
 msgid "You do not have permission to view this project."
-msgstr ""
+msgstr "Nimate dovoljenja za ogled te strani."
 
 #: packages/elm-common/elm/Common/Api/ServerError.elm:343
 msgid "You do not have permission to comment on this project."
@@ -2286,8 +2277,9 @@ msgid "Resize chapters"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Components/Questionnaire.elm:727
+#, fuzzy
 msgid "Unable to get the comments."
-msgstr ""
+msgstr "Ni mogoče dobiti komentarjev."
 
 #: packages/elm-common/elm/Common/Components/Questionnaire.elm:1655
 msgid "Questionnaire tools"
@@ -2415,12 +2407,13 @@ msgid "Unexpected answer UUID \"%s\" at: %s"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Components/Questionnaire/Item.elm:99
+#, fuzzy
 msgid "Used in %s item select question"
 msgid_plural "Used in %s item select questions"
 msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[1] "Uporablja se v vprašanjih z izbiro elementov:"
+msgstr[2] "Uporablja se v vprašanjih z izbiro elementov:"
+msgstr[3] "Uporablja se v vprašanjih z izbiro elementov:"
 
 #: packages/elm-common/elm/Common/Components/Questionnaire/Item.elm:107
 msgid "Used in item select questions"
@@ -2790,8 +2783,9 @@ msgstr[2] ""
 msgstr[3] ""
 
 #: packages/elm-common/elm/Common/Components/Questionnaire/Panel/VersionHistory.elm:216
+#, fuzzy
 msgid "Unable to get the version history."
-msgstr ""
+msgstr "Ni mogoče pridobiti zgodovine različic."
 
 #: packages/elm-common/elm/Common/Components/Questionnaire/Panel/VersionHistory.elm:224
 msgid "Unable to get the versions."
@@ -3608,8 +3602,9 @@ msgid "Go to knowledge models"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Data/NotFound.elm:101
+#, fuzzy
 msgid "The resource page you are looking for was not found."
-msgstr ""
+msgstr "Stran, ki jo iščete, ni bila najdena."
 
 #: packages/elm-common/elm/Common/Data/NotFound.elm:108
 msgid "The knowledge model editor you are looking for was not found."
@@ -3649,16 +3644,18 @@ msgid "Go to documents"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Data/NotFound.elm:143
+#, fuzzy
 msgid "The file you are looking for was not found."
-msgstr ""
+msgstr "Stran, ki jo iščete, ni bila najdena."
 
 #: packages/elm-common/elm/Common/Data/NotFound.elm:144
 msgid "Go to project files"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Data/NotFound.elm:150
+#, fuzzy
 msgid "The user you are looking for was not found."
-msgstr ""
+msgstr "Stran, ki jo iščete, ni bila najdena."
 
 #: packages/elm-common/elm/Common/Data/NotFound.elm:151
 msgid "Go to users"
@@ -3673,8 +3670,9 @@ msgid "Go to tenants"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Data/NotFound.elm:164
+#, fuzzy
 msgid "The role you are looking for was not found."
-msgstr ""
+msgstr "Stran, ki jo iščete, ni bila najdena."
 
 #: packages/elm-common/elm/Common/Data/NotFound.elm:165
 msgid "Go to roles"
@@ -4277,8 +4275,9 @@ msgid "Unable to save the file."
 msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:593
+#, fuzzy
 msgid "Unable to publish the document template."
-msgstr ""
+msgstr "Ni mogoče objaviti predloge dokumenta"
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:628
 msgid "Unable to get the file."
@@ -4290,8 +4289,9 @@ msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:718
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1062
+#, fuzzy
 msgid "Unable to get the preview."
-msgstr ""
+msgstr "Ni mogoče pridobiti predogleda."
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:769
 #: packages/elm-common/elm/Common/Pages/KMEditor/Index.elm:201
@@ -4299,16 +4299,18 @@ msgid "Unable to get knowledge model editors."
 msgstr "Ni mogoče pridobiti urejevalnikov modela znanja."
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:1060
+#, fuzzy
 msgid "Unable to save the document template."
-msgstr ""
+msgstr "Ni mogoče shraniti predloge dokumenta"
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:1174
 msgid "That did not work."
 msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:1384
+#, fuzzy
 msgid "Document template editor"
-msgstr ""
+msgstr "urejevalniki predlog dokumentov"
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:1424
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:2139
@@ -4378,8 +4380,9 @@ msgstr ""
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:1664
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1774
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1994
+#, fuzzy
 msgid "Knowledge model editor"
-msgstr ""
+msgstr "urejevalniki modelov znanja"
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Editor.elm:1665
 msgid "Select knowledge model editor"
@@ -4668,8 +4671,9 @@ msgid "Created"
 msgstr "Ustvarjeno"
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Index.elm:218
+#, fuzzy
 msgid "No document template editors"
-msgstr ""
+msgstr "urejevalniki predlog dokumentov"
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplateEditors/Index.elm:219
 msgid "Click \"Create\" button to add a new document template editor."
@@ -4931,8 +4935,9 @@ msgid "Document template could not be updated."
 msgstr "Predloge dokumenta ni bilo mogoče posodobiti."
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplates/Index.elm:249
+#, fuzzy
 msgid "No document templates"
-msgstr ""
+msgstr "predloge dokumentov"
 
 #: packages/elm-common/elm/Common/Pages/DocumentTemplates/Index.elm:252
 msgid "Click \"Import\" button to import a new document template."
@@ -5124,16 +5129,19 @@ msgid "Unable to save the settings."
 msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:800
+#, fuzzy
 msgid "Unable to delete the knowledge model editor."
-msgstr ""
+msgstr "Ni mogoče pridobiti urejevalnika modela znanja."
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:820
+#, fuzzy
 msgid "Unable to publish the knowledge model."
-msgstr ""
+msgstr "Ni mogoče objaviti modela znanja"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1033
+#, fuzzy
 msgid "Unable to get the test result."
-msgstr ""
+msgstr "Ni mogoče pridobiti rezultata testa."
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Editor.elm:1528
 #: packages/elm-common/elm/Common/Pages/Projects/Detail.elm:901
@@ -6116,8 +6124,9 @@ msgid "Migration was successfully canceled."
 msgstr "Migracija je bila uspešno preklicana."
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Index.elm:134
+#, fuzzy
 msgid "Migration could not be canceled."
-msgstr ""
+msgstr "Migracije ni bilo mogoče preklicati."
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Index.elm:247
 msgid "Search KM editors..."
@@ -6177,12 +6186,14 @@ msgid "Cancel migration"
 msgstr "Preklic migracije"
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:129
+#, fuzzy
 msgid "Unable to get the migration."
-msgstr ""
+msgstr "Ni mogoče dobiti migracije."
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:155
+#, fuzzy
 msgid "Unable to resolve the conflict."
-msgstr ""
+msgstr "Ni mogoče rešiti spora."
 
 #: packages/elm-common/elm/Common/Pages/KMEditor/Migration.elm:236
 msgid "Migration of %s from %s to %s."
@@ -6808,12 +6819,14 @@ msgid "Unable to get resource page."
 msgstr "Ni mogoče dobiti strani z viri."
 
 #: packages/elm-common/elm/Common/Pages/Layout.elm:162
+#, fuzzy
 msgid "Document Template Editor"
-msgstr ""
+msgstr "Urejevalniki predlog dokumentov"
 
 #: packages/elm-common/elm/Common/Pages/Layout.elm:184
+#, fuzzy
 msgid "Knowledge Model Editor"
-msgstr ""
+msgstr "Urejevalniki modelov znanja"
 
 #: packages/elm-common/elm/Common/Pages/Layout.elm:190
 msgid "Migration"
@@ -7028,8 +7041,9 @@ msgstr "Projektnih datotek ni."
 
 #: packages/elm-common/elm/Common/Pages/ProjectFiles/Index.elm:313
 #: packages/elm-common/elm/Common/Pages/Projects/Detail/Files.elm:323
+#, fuzzy
 msgid "Are you sure you want to permanently delete this file?"
-msgstr ""
+msgstr "Ste prepričani, da želite trajno izbrisati %s?"
 
 #: packages/elm-common/elm/Common/Pages/Projects/Components/CloneProjectModal.elm:101
 msgid "Unable to clone project."
@@ -8742,8 +8756,9 @@ msgid "The user group you are looking for was not found."
 msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/UserGroups/Detail.elm:191
+#, fuzzy
 msgid "Unable to get the user group."
-msgstr ""
+msgstr "Ni mogoče pridobiti skupin uporabnikov."
 
 #: packages/elm-common/elm/Common/Pages/UserGroups/Detail.elm:217
 msgid "User group was successfully updated."
@@ -8854,8 +8869,9 @@ msgid "Delete User Group"
 msgstr ""
 
 #: packages/elm-common/elm/Common/Pages/UserGroups/Index.elm:304
+#, fuzzy
 msgid "Are you sure you want to permanently delete the following user group?"
-msgstr ""
+msgstr "Ali ste prepričani, da želite trajno izbrisati naslednjega uporabnika?"
 
 #: packages/elm-common/elm/Common/Pages/Users/Create.elm:92
 #: packages/elm-common/elm/Common/Pages/Users/Edit/Profile.elm:136
@@ -8919,8 +8935,9 @@ msgid "Revoke"
 msgstr "Preklic"
 
 #: packages/elm-common/elm/Common/Pages/Users/Edit/ActiveSessions.elm:228
+#, fuzzy
 msgid "Revoke session %s"
-msgstr ""
+msgstr "Preklic seje"
 
 #: packages/elm-common/elm/Common/Pages/Users/Edit/ActiveSessions.elm:235
 msgid "Session"
